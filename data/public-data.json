@@ -107,7 +107,36 @@
         }
       ],
       "lifecycle": "ACTIVE",
-      "public_detail": "ダブリン出身の5人組で、ポストパンク／オルタナティブ・ロックを軸に、荒いヴォーカル、推進力の強いリズム、ギターの反復を特徴とするバンド。初期の切迫したサウンドから、近作ではよりメロディックで実験的な音像へ広げている。"
+      "public_detail": "ダブリン出身の5人組で、ポストパンク／オルタナティブ・ロックを軸に、荒いヴォーカル、推進力の強いリズム、ギターの反復を特徴とするバンド。初期の切迫したサウンドから、近作ではよりメロディックで実験的な音像へ広げている。",
+      "world_card": {
+        "key": "world_card:a-14634d00af2d55edb8b71747",
+        "title": "Fontaines D.C. JAPAN TOUR 2027 — 名古屋DIAMOND HALL、1次先行受付中",
+        "kicker": "MUSIC / LIVE",
+        "concept": "Fontaines D.C.が2027年1月に東京・名古屋・大阪を巡る日本ツアーを発表。名古屋は1月29日、DIAMOND HALLで18:00開場・19:00開演。",
+        "meta": "2027-01-29 · DIAMOND HALL",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-14634d00af2d55edb8b71747"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-14634d00af2d55edb8b71747"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-047f457703c08d1b21bdb4f7",
@@ -153,7 +182,32 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-047f457703c08d1b21bdb4f7",
+        "title": "長濱蒸溜所 × Snow Peak「TAKIBI / OKIBI」— 10/3数量限定発売",
+        "kicker": "FOOD / DRINK",
+        "concept": "長濱蒸溜所とSnow Peakのコラボウイスキー2種。OKIBIは赤ワイン樽・シェリー樽由来の甘みを主役にスモーキーさ控えめ、TAKIBIは少量のアイラカスクピーテッド原酒などを重ねる。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-047f457703c08d1b21bdb4f7"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-047f457703c08d1b21bdb4f7"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-fa1b69d48055b3fa36f39d48",
@@ -175,7 +229,27 @@
       "event_date": "2026-10-03",
       "end_at": "2026-10-03",
       "price_terms": "入場無料。",
-      "lifecycle": "ENDED"
+      "lifecycle": "ENDED",
+      "world_card": {
+        "key": "world_card:a-fa1b69d48055b3fa36f39d48",
+        "title": "すきフェス！ — AI・3Dプリンター・科学実験など26体験",
+        "kicker": "LOCAL / EXPERIENCE",
+        "concept": "10月3日、なごのキャンパスで親子向け体験フェス。",
+        "meta": "2026-10-03",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-fa1b69d48055b3fa36f39d48"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-fa1b69d48055b3fa36f39d48"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-ab87d2a4f1a16501179128ed",
@@ -197,7 +271,27 @@
       "event_date": "2026-10-02",
       "end_at": "2026-10-04",
       "price_terms": "入場無料。一部予約制。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-ab87d2a4f1a16501179128ed",
+        "title": "こども万博mini 名古屋 — 仕事体験・こども店長・縁日",
+        "kicker": "LOCAL / EXPERIENCE",
+        "concept": "10月2〜4日、イオンモール Nagoya Noritake Gardenで開催。",
+        "meta": "2026-10-02",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-ab87d2a4f1a16501179128ed"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-ab87d2a4f1a16501179128ed"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-c79abd6fce19922533af23d3",
@@ -228,7 +322,32 @@
         }
       ],
       "lifecycle": "ACTIVE",
-      "public_detail": "無限に続く地下通路から脱出するため、周囲に「異変」があるかを見極め、異変があれば引き返し、なければ進むというルールが中心。見落とすと0番出口へ戻される反復構造を映画として組み立てている。"
+      "public_detail": "無限に続く地下通路から脱出するため、周囲に「異変」があるかを見極め、異変があれば引き返し、なければ進むというルールが中心。見落とすと0番出口へ戻される反復構造を映画として組み立てている。",
+      "world_card": {
+        "key": "world_card:a-c79abd6fce19922533af23d3",
+        "title": "映画『8番出口』 — Prime Videoで本日から見放題独占",
+        "kicker": "FILM / STREAMING",
+        "concept": "10月2日からPrime Videoで見放題独占配信。",
+        "meta": "",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-c79abd6fce19922533af23d3"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-c79abd6fce19922533af23d3"
+          }
+        ]
+      }
     },
     {
       "id": "a-8006f3dee8380053be8def97",
@@ -289,7 +408,36 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-8006f3dee8380053be8def97",
+        "title": "RADIOHEAD JAPAN 2027 — 受付終了、落選時はwaitlistへ",
+        "kicker": "MUSIC / LIVE",
+        "concept": "Radiohead公式は2027年6月8・9・11・12・13日のGMOアリーナさいたま5公演を案内。日本向け登録は現在「REGISTRATION NOW CLOSED」となっており、初回抽選で取れなかった登録者は自動的にwaitlistへ入ると明記している。",
+        "meta": "2027-06-08 · GMO Arena Saitama",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-8006f3dee8380053be8def97"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-8006f3dee8380053be8def97"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-098b209211b9ec8626ef9dd2",
@@ -346,7 +494,36 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-098b209211b9ec8626ef9dd2",
+        "title": "feeble little horse 初来日 — ノイズとポップが溶ける小規模公演",
+        "kicker": "MUSIC / LIVE",
+        "concept": "新世代シューゲイザーのfeeble little horseが初来日。2027年3月12日に代官山SPACE ODDで18時開場・19時開演、一般発売は9月19日からで現在チケット発売中。",
+        "meta": "2027-03-12 · 代官山 SPACE ODD",
+        "variant": "grid"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-098b209211b9ec8626ef9dd2"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-098b209211b9ec8626ef9dd2"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-4b8263b68f119c80fbbd78ba",
@@ -372,7 +549,27 @@
       "deadline_at": "2026-10-04",
       "price_terms": "1〜10巻 各77円、全10巻770円（税込・記事確認時）。",
       "lifecycle": "ACTIVE",
-      "public_detail": "高校の倫理教師・高柳が、生徒たちの抱える問題に倫理の授業を通じて向き合う教師漫画。抽象的な思想紹介だけでなく、各話の具体的な悩みや選択から「善く生きる」ことを考える構成になっている。"
+      "public_detail": "高校の倫理教師・高柳が、生徒たちの抱える問題に倫理の授業を通じて向き合う教師漫画。抽象的な思想紹介だけでなく、各話の具体的な悩みや選択から「善く生きる」ことを考える構成になっている。",
+      "world_card": {
+        "key": "world_card:a-4b8263b68f119c80fbbd78ba",
+        "title": "『ここは今から倫理です。』全10巻 — 各77円で完結まで770円",
+        "kicker": "BOOK / DISCOVERY",
+        "concept": "雨瀬シオリ『ここは今から倫理です。』全10巻がKindleで各77円。全巻770円で、セールは10月4日までと案内されている。",
+        "meta": "",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-4b8263b68f119c80fbbd78ba"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-4b8263b68f119c80fbbd78ba"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-bf0f944c0630fc89e8180cbe",
@@ -398,7 +595,27 @@
       "deadline_at": "2026-10-07",
       "price_terms": "499円（通常1,056円との比較で約53%OFFと直近セール記事が確認）。",
       "lifecycle": "ACTIVE",
-      "public_detail": "人生や自己を一つの「物語」として整理することの便利さと危うさを問い、物語を相対化する手がかりを「遊び」から探る哲学書。後半ではゲーム、パズル、ギャンブル、おもちゃといった形式を通して、世界理解や生き方の別の捉え方を検討する。"
+      "public_detail": "人生や自己を一つの「物語」として整理することの便利さと危うさを問い、物語を相対化する手がかりを「遊び」から探る哲学書。後半ではゲーム、パズル、ギャンブル、おもちゃといった形式を通して、世界理解や生き方の別の捉え方を検討する。",
+      "world_card": {
+        "key": "world_card:a-bf0f944c0630fc89e8180cbe",
+        "title": "『物語化批判の哲学』 — 講談社新書499円祭の強い1冊",
+        "kicker": "BOOK / DISCOVERY",
+        "concept": "10月1日開始の『講談社書籍10月祭』第1週で、難波優輝『物語化批判の哲学』が499円。第1週の新書499円均一は10月7日まで。",
+        "meta": "",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-bf0f944c0630fc89e8180cbe"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-bf0f944c0630fc89e8180cbe"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-86fc0b5635b4b6707cbba883",
@@ -423,7 +640,27 @@
       "images": [],
       "event_date": "2026-10-07",
       "price_terms": "視聴無料。連動Xキャンペーンは公式アカウントの案内条件に従う。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-86fc0b5635b4b6707cbba883",
+        "title": "アークナイツ公式生放送「2026秋の大感謝祭スペシャル」— 10/7 20時",
+        "kicker": "GAME / EVENT",
+        "concept": "公式サイトの最新欄に9月30日付で追加された生放送。10月7日20時からYouTubeと公式Xで配信し、ゲーム内外の最新情報を届ける予定。",
+        "meta": "2026-10-07",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-86fc0b5635b4b6707cbba883"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-86fc0b5635b4b6707cbba883"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-f1e0215c8983d548b784c24f",
@@ -489,7 +726,36 @@
         }
       ],
       "lifecycle": "ACTIVE",
-      "public_detail": "鍵盤のDOMiとドラムのJD BECKによるデュオ。ジャズの高い演奏技術を核に、ヒップホップ／boom bap、IDM、フュージョン感覚を高速で行き来し、変拍子や急なテンポ変化を遊ぶように組み込む。"
+      "public_detail": "鍵盤のDOMiとドラムのJD BECKによるデュオ。ジャズの高い演奏技術を核に、ヒップホップ／boom bap、IDM、フュージョン感覚を高速で行き来し、変拍子や急なテンポ変化を遊ぶように組み込む。",
+      "world_card": {
+        "key": "world_card:a-f1e0215c8983d548b784c24f",
+        "title": "DOMi & JD BECK — 12/18 名古屋CLUB QUATTRO、一般発売中",
+        "kicker": "MUSIC / LIVE",
+        "concept": "DOMi & JD BECKのWHO ASKED? TOURが12月18日に名古屋CLUB QUATTROで開催。18時開場・19時開演で、一般発売は現在受付中。",
+        "meta": "2026-12-18 · 名古屋CLUB QUATTRO",
+        "variant": "grid"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-f1e0215c8983d548b784c24f"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-f1e0215c8983d548b784c24f"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-7a2546ed21a249e0b890eb78",
@@ -544,7 +810,36 @@
         }
       ],
       "lifecycle": "ACTIVE",
-      "public_detail": "luvは2003年生まれの5人で組むフューチャーソウルバンド。90年代〜Y2Kのネオソウル／アシッドジャズを軸に、ジャズやヒップホップの影響を取り込み、バンドのグルーヴを前面に出す。今回の名古屋公演にはKan SanoがBand Setで参加する。"
+      "public_detail": "luvは2003年生まれの5人で組むフューチャーソウルバンド。90年代〜Y2Kのネオソウル／アシッドジャズを軸に、ジャズやヒップホップの影響を取り込み、バンドのグルーヴを前面に出す。今回の名古屋公演にはKan SanoがBand Setで参加する。",
+      "world_card": {
+        "key": "world_card:a-7a2546ed21a249e0b890eb78",
+        "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
+        "kicker": "MUSIC / LIVE",
+        "concept": "luv live tour 2026 “by”名古屋公演は11月25日、名古屋CLUB QUATTRO。ゲストはKan Sano(Band Set)、18時開場・19時開演。",
+        "meta": "2026-11-25 · 名古屋CLUB QUATTRO",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-7a2546ed21a249e0b890eb78"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9"
+        },
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl"
+          },
+          {
+            "kind": "world_card",
+            "key": "world_card:a-7a2546ed21a249e0b890eb78"
+          }
+        ]
+      }
     },
     {
       "id": "a-abfc60bd449aff8c7f16c3fd",
@@ -602,7 +897,36 @@
         }
       ],
       "lifecycle": "ACTIVE",
-      "public_detail": "宇宙船Von Braunを舞台にしたFPS/RPG系のSF作品。探索・戦闘・キャラクター強化を進めながら、変異体やロボットが徘徊する船内で暴走AI SHODANに対処する。25周年版は原作を現行環境向けにリマスターし、クロスプレイ協力やMod対応も加えている。"
+      "public_detail": "宇宙船Von Braunを舞台にしたFPS/RPG系のSF作品。探索・戦闘・キャラクター強化を進めながら、変異体やロボットが徘徊する船内で暴走AI SHODANに対処する。25周年版は原作を現行環境向けにリマスターし、クロスプレイ協力やMod対応も加えている。",
+      "world_card": {
+        "key": "world_card:a-abfc60bd449aff8c7f16c3fd",
+        "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布",
+        "kicker": "GAME / UPDATE",
+        "concept": "Epic Games Storeの10月1日〜8日の無料配布枠に『System Shock 2: 25th Anniversary Remaster』が登場。期間内にライブラリへ追加すれば保持できる週替わり配布。",
+        "meta": "",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-abfc60bd449aff8c7f16c3fd"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://store.steampowered.com/app/866570/"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-abfc60bd449aff8c7f16c3fd"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+          }
+        ]
+      }
     },
     {
       "id": "a-73f6d065e7f625b80ec330c2",
@@ -671,7 +995,40 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-73f6d065e7f625b80ec330c2",
+        "title": "DOVETAIL S/N 004 — 6年ぶり復活、WONK・TENDRE・luvら第1弾",
+        "kicker": "MUSIC / FESTIVAL",
+        "concept": "DOVETAILが約6年ぶりに復活。2027年2月11日、渋谷のSpotify O-EAST / O-WEST / duo MUSIC EXCHANGEを回遊する3会場サーキットとして開催し、10月1日にKIRINJI、WONK、TENDRE、Jeremy Quartus、luv、モノンクル、LAGHEADSなど第1弾11組を発表した。",
+        "meta": "Spotify O-EAST / Spotify O-WEST / duo MUSIC EXCHANGE",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-73f6d065e7f625b80ec330c2"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE"
+        },
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB"
+          },
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb"
+          },
+          {
+            "kind": "world_card",
+            "key": "world_card:a-73f6d065e7f625b80ec330c2"
+          }
+        ]
+      }
     },
     {
       "id": "a-94ea44aa2f36a9e3ed6a8821",
@@ -696,7 +1053,27 @@
       "images": [],
       "deadline_at": "2026-10-15",
       "price_terms": "出版社告知：1〜10巻各91円（税抜）。ストアにより内容が異なる。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-94ea44aa2f36a9e3ed6a8821",
+        "title": "黒執事 1〜10巻 — 20周年セールで英国の怪異世界を少額から",
+        "kicker": "BOOK / DISCOVERY",
+        "concept": "出版社が10月15日までの電子書籍セールを告知。1〜10巻は各91円（税抜）、11〜13巻は半額、14〜30巻は2割引の案内。9月18日だけの全巻無料は終了しているので混同しない。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-94ea44aa2f36a9e3ed6a8821"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-94ea44aa2f36a9e3ed6a8821"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-34e2ad0ca9a583847b20abfb",
@@ -736,7 +1113,32 @@
       ],
       "event_date": "2027-05-15",
       "venue": "有馬富士公園",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-34e2ad0ca9a583847b20abfb",
+        "title": "ARIFUJI WEEKENDERS 2027 — 有馬富士公園で5月15日開催決定",
+        "kicker": "MUSIC / FESTIVAL",
+        "concept": "2027年5月15日の開催と有馬富士公園の会場を主催が発表。出演者とチケット情報は今後の発表待ち。2026年の券種や出演者を来年の情報として流用しない。",
+        "meta": "2027-05-15 · 有馬富士公園",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-34e2ad0ca9a583847b20abfb"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-34e2ad0ca9a583847b20abfb"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+          }
+        ]
+      }
     },
     {
       "id": "a-6ac2fc2618a7936ad3de9e97",
@@ -777,7 +1179,32 @@
       "event_date": "2026-10-10",
       "venue": "朝霧アリーナ 中央砂利スペース",
       "price_terms": "参加無料。宿泊・BBQ等は別途自分で手配。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-6ac2fc2618a7936ad3de9e97",
+        "title": "朝霧JAMは2026年休止 — 10月10日に灯火をつなぐ集会",
+        "kicker": "MUSIC / LIVE",
+        "concept": "朝霧JAM本体は2026年の開催を休止。地元朝霧JAMS’は10月10日14〜20時にキャンプファイヤーを囲む集会を案内している。通常の音楽フェスとは別企画。",
+        "meta": "2026-10-10 · 朝霧アリーナ 中央砂利スペース",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-6ac2fc2618a7936ad3de9e97"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-6ac2fc2618a7936ad3de9e97"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-6096dcf06c396ad4433514ee",
@@ -814,7 +1241,32 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-6096dcf06c396ad4433514ee",
+        "title": "FCO. — 小原綾斗の別名義を名古屋クアトロで",
+        "kicker": "MUSIC / LIVE",
+        "concept": "Tempalayの小原綾斗が率いるFCO.が10月9日に名古屋へ。開場18時・開演19時のクアトロ公演で、東京会場は売り切れでも名古屋の案内は別に掲載されている。オープニングアクトは後日発表。",
+        "meta": "2026-10-09 · NAGOYA CLUB QUATTRO",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-6096dcf06c396ad4433514ee"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-6096dcf06c396ad4433514ee"
+          }
+        ]
+      }
     },
     {
       "id": "a-11beb44feb226d552a202143",
@@ -886,7 +1338,40 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-11beb44feb226d552a202143",
+        "title": "集楽座2026 — 民謡クルセイダーズとCHO CO PAを代々木の野外で",
+        "kicker": "MUSIC / FESTIVAL",
+        "concept": "2026年10月24日・25日、代々木公園で開催。24日は民謡クルセイダーズ、CHO CO PA、滞空時間など、25日は安部勇磨、ELECTRONICOS FANTASTICOS!などの出演が公式発表されている。",
+        "meta": "2026-10-24 · 渋谷 代々木公園 野外ステージ アースガーデン“秋”内",
+        "variant": "grid"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-11beb44feb226d552a202143"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG"
+        },
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C"
+          },
+          {
+            "kind": "world_card",
+            "key": "world_card:a-11beb44feb226d552a202143"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+          }
+        ]
+      }
     },
     {
       "id": "a-bd47266a5d530a1f56ba313e",
@@ -942,7 +1427,36 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-bd47266a5d530a1f56ba313e",
+        "title": "YĪN YĪN — 名古屋でアジア音楽とサイケ・ファンクを楽しむ",
+        "kicker": "MUSIC / LIVE",
+        "concept": "10月15日NAGOYA CLUB QUATTROで18時開場・19時開演。大阪14日、東京16日も主催公式が案内している。",
+        "meta": "2026-10-15 · NAGOYA CLUB QUATTRO",
+        "variant": "grid"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-bd47266a5d530a1f56ba313e"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-bd47266a5d530a1f56ba313e"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-c2508f7155a0f0dd0a7a3bf7",
@@ -961,7 +1475,27 @@
       ],
       "spotify": [],
       "images": [],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-c2508f7155a0f0dd0a7a3bf7",
+        "title": "アークナイツ — 一般資格証の交換条件が10月1日に更新",
+        "kicker": "GAME / UPDATE",
+        "concept": "公式告知では10月1日4:00から一般資格証の交換所を更新。次のフェーズは一定数の資格証を消費すると開く方式になり、フェーズ2には商品が追加される。貯めている資格証の使い道をゲーム内で確認するタイミング。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-c2508f7155a0f0dd0a7a3bf7"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-c2508f7155a0f0dd0a7a3bf7"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-a898a1a96de58ae58fe61d68",
@@ -1003,7 +1537,32 @@
           "type": "steam_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-a898a1a96de58ae58fe61d68",
+        "title": "Nivalis Nights — サイバーパンク都市で店と生活を作る新作",
+        "kicker": "GAME / DISCOVERY",
+        "concept": "日本向け公式発表では2026年9月30日発売の一人用サイバーパンク・ライフシム。飲食店やナイトクラブ経営、住居の購入・内装、釣り、住民との関係づくりを、天候と昼夜が変化する立体都市Nivalisで組み合わせる。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-a898a1a96de58ae58fe61d68"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://store.steampowered.com/app/1488490/"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-a898a1a96de58ae58fe61d68"
+          }
+        ]
+      }
     },
     {
       "id": "a-e6fe160577056a5346075362",
@@ -1043,7 +1602,32 @@
       ],
       "venue": "meitoこどもランド・とだがわ(とだがわこどもランド)会議室",
       "price_terms": "無料、部品代のみ実費。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-e6fe160577056a5346075362",
+        "title": "あいちおもちゃクリニック（とだがわこどもランド）",
+        "kicker": "LOCAL / EXPERIENCE",
+        "concept": "10月3日10:00〜13:00受付。壊れたおもちゃを診てもらえ、予約不要・無料（部品代実費）。",
+        "meta": "meitoこどもランド・とだがわ(とだがわこどもランド)会議室",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-e6fe160577056a5346075362"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-e6fe160577056a5346075362"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-bb64ec8be3ec294db2858d31",
@@ -1108,7 +1692,36 @@
         }
       ],
       "lifecycle": "ACTIVE",
-      "public_detail": "ゲーム機を実際に音源として使う電子音と、ファジーなギター、ドラム、歌を同居させる4人組。近作ではチップチューンの印象だけに寄らず、バンド演奏やグリッチ的な制作を前面に広げている。"
+      "public_detail": "ゲーム機を実際に音源として使う電子音と、ファジーなギター、ドラム、歌を同居させる4人組。近作ではチップチューンの印象だけに寄らず、バンド演奏やグリッチ的な制作を前面に広げている。",
+      "world_card": {
+        "key": "world_card:a-bb64ec8be3ec294db2858d31",
+        "title": "ANAMANAGUCHI TOKYO 2026",
+        "kicker": "MUSIC / LIVE",
+        "concept": "10月13日、duo MUSIC EXCHANGEで18時開場・19時開演。主催SMASHが来日公演とCHIP TANAKAのサポートを案内している。",
+        "meta": "2026-10-13 · duo MUSIC EXCHANGE",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-bb64ec8be3ec294db2858d31"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-bb64ec8be3ec294db2858d31"
+        },
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-f5db1b40b98edb5f6b594249",
@@ -1128,7 +1741,27 @@
       "spotify": [],
       "images": [],
       "price_terms": "基本プレイ無料。限定コーデ・パックは別売。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-f5db1b40b98edb5f6b594249",
+        "title": "期間限定『デュエルチャンネル：アイビーヴァインシティ』",
+        "kicker": "GAME / EVENT",
+        "concept": "デイリー任務でデュエルクラッカーを集め、プロファイルアイコン等を得る期間限定イベント。9月23日開始。",
+        "meta": "",
+        "variant": "grid"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-f5db1b40b98edb5f6b594249"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-f5db1b40b98edb5f6b594249"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-97866892876150625b4ce595",
@@ -1192,7 +1825,36 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-97866892876150625b4ce595",
+        "title": "Bruno Mars — The Romantic Tour in Japan featuring Anderson .Paak as DJ Pee .Wee",
+        "kicker": "MUSIC / LIVE",
+        "concept": "2027年1月の日本ツアー。名古屋1月4日は完売、5日は公式で残席わずか。Anderson .PaakのDJ Pee .WeeとSilk Sonic特別演奏が案内されている。",
+        "meta": "2027-01-05 · Vantelin Dome Nagoya",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-97866892876150625b4ce595"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-97866892876150625b4ce595"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-3e3cdf1b4dee90a128396a7e",
@@ -1227,7 +1889,32 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-3e3cdf1b4dee90a128396a7e",
+        "title": "digital shadows — VAIWATT World Tour 2026（栄TIGHT ROPE）",
+        "kicker": "MUSIC / LIVE",
+        "concept": "10月24日、サイバーパンクの『未来のアンダーグラウンド』を会場化し、生のギターとデジタル世界を組み合わせるコンセプチュアル公演。予約受付導線あり。",
+        "meta": "栄 TIGHT ROPE",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-3e3cdf1b4dee90a128396a7e"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-3e3cdf1b4dee90a128396a7e"
+          }
+        ]
+      }
     },
     {
       "id": "a-048ccfa85b33fc86a5bca373",
@@ -1271,7 +1958,32 @@
       ],
       "venue": "文化のみち橦木館",
       "price_terms": "大人当日1,200円／前売1,000円、中学生以下無料。橦木館入館料は別途。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-048ccfa85b33fc86a5bca373",
+        "title": "深堀隆介展『金魚の唄』―山田憲司・北川啓介との共創",
+        "kicker": "LOCAL / EXPERIENCE",
+        "concept": "橦木館全館で、金魚の立体樹脂作品・絵画・インスタレーションに、畳の鶴とインスタントハウスを交差させる展示。2026年9月18日から10月25日まで。",
+        "meta": "文化のみち橦木館",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-048ccfa85b33fc86a5bca373"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-048ccfa85b33fc86a5bca373"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-483c54bc23908a5dbbb0f1d5",
@@ -1291,7 +2003,27 @@
       "spotify": [],
       "images": [],
       "price_terms": "入場無料。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-483c54bc23908a5dbbb0f1d5",
+        "title": "こども万博 mini 名古屋",
+        "kicker": "LOCAL / EXPERIENCE",
+        "concept": "10月2〜4日、西区で開催。子ども店長体験、縁日など、子どもが自分で挑戦する入場無料イベント。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-483c54bc23908a5dbbb0f1d5"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-483c54bc23908a5dbbb0f1d5"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-a6798601ffd4d9dad14392c1",
@@ -1312,7 +2044,27 @@
       "images": [],
       "venue": "Valentine Drive",
       "price_terms": "3,500円＋オーダー。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-a6798601ffd4d9dad14392c1",
+        "title": "Nagoya Gnaoua Meeting 2026 — UFO meets グナワ",
+        "kicker": "MUSIC / LIVE",
+        "concept": "9月30日、今池Valentine Drive。モロッコからグナワのマーレムを迎える小規模公演。",
+        "meta": "Valentine Drive",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-a6798601ffd4d9dad14392c1"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-a6798601ffd4d9dad14392c1"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-000f8527b956a63f74c8b376",
@@ -1380,7 +2132,36 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-000f8527b956a63f74c8b376",
+        "title": "Queens of the Stone Age — Japan Tour 2026（名古屋公演あり）",
+        "kicker": "MUSIC / LIVE",
+        "concept": "11月26日、Zepp Nagoyaで18時開場・19時開演。主催公式とイープラス名古屋公演ページを再取得し、一般発売受付中を確認。",
+        "meta": "2026-11-26 · Zepp Nagoya",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-000f8527b956a63f74c8b376"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-000f8527b956a63f74c8b376"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-7f7810d7e4dba2ab87344f71",
@@ -1445,7 +2226,36 @@
         }
       ],
       "lifecycle": "ACTIVE",
-      "public_detail": "Ryan Lee Westによる電子音楽プロジェクト。IDMやglitch、danceを背景にしつつ、シンセの質感や余白を絞り込み、電子音を有機的・人間的に聞かせる方向を追う。アンビエント寄りの広がりからビートの強い展開までを行き来する。"
+      "public_detail": "Ryan Lee Westによる電子音楽プロジェクト。IDMやglitch、danceを背景にしつつ、シンセの質感や余白を絞り込み、電子音を有機的・人間的に聞かせる方向を追う。アンビエント寄りの広がりからビートの強い展開までを行き来する。",
+      "world_card": {
+        "key": "world_card:a-7f7810d7e4dba2ab87344f71",
+        "title": "Rival Consoles — Landscape from Memory Tour 2026",
+        "kicker": "MUSIC / LIVE",
+        "concept": "11月19日WWW X、20日CIRCUS OSAKAで開催。公式は一般発売を9月26日からと案内している。",
+        "meta": "2026-11-19 · WWW X / CIRCUS OSAKA",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-7f7810d7e4dba2ab87344f71"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-7f7810d7e4dba2ab87344f71"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg"
+          }
+        ]
+      }
     },
     {
       "id": "a-86dd52b5fca063f5aa32ac65",
@@ -1485,7 +2295,32 @@
       ],
       "venue": "天白公園",
       "price_terms": "無料。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-86dd52b5fca063f5aa32ac65",
+        "title": "天白公園自然観察会",
+        "kicker": "LOCAL / EXPERIENCE",
+        "concept": "10月12日10時予定、天白公園で身近な植物を観察する無料の自然観察会。どなたでも参加でき、センター窓口で先着受付。",
+        "meta": "天白公園",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-86dd52b5fca063f5aa32ac65"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-86dd52b5fca063f5aa32ac65"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-01a7d973657ccc68fb70ac10",
@@ -1529,7 +2364,32 @@
       ],
       "venue": "トヨタ産業技術記念館",
       "price_terms": "トヨタ産業技術記念館の入館条件に準拠。企画展追加料金の有無は来館前に公式詳細を確認。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-01a7d973657ccc68fb70ac10",
+        "title": "華ひらくジャポニスム―技術と美術の文明開化―",
+        "kicker": "EXHIBITION / EXPERIENCE",
+        "concept": "江戸から明治の美術・工芸を『ものづくり』の視点で紹介し、江戸技術による美術体験も行うトヨタコレクション企画展。10月3日から12月13日まで。",
+        "meta": "トヨタ産業技術記念館",
+        "variant": "grid"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-01a7d973657ccc68fb70ac10"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-01a7d973657ccc68fb70ac10"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-7d5d68f7aa7a73c8a9346563",
@@ -1554,7 +2414,27 @@
       "images": [],
       "venue": "名鉄豊田市駅東口特設イベント広場",
       "price_terms": "入場条件は日別企画による。屋外企画は天候変更に注意。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-7d5d68f7aa7a73c8a9346563",
+        "title": "アジアを味わえ！とよたまちなかフェス",
+        "kicker": "LOCAL / EXPERIENCE",
+        "concept": "豊田市駅東口で10月24日までの土日祝を中心に、アジアのグルメ、音楽・伝統文化ステージ、競技体験などを日替わり開催。",
+        "meta": "名鉄豊田市駅東口特設イベント広場",
+        "variant": "grid"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-7d5d68f7aa7a73c8a9346563"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-7d5d68f7aa7a73c8a9346563"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-678ab5f9a35dc5113e312a83",
@@ -1578,7 +2458,27 @@
       "spotify": [],
       "images": [],
       "venue": "富士フイルムフォトサロン 名古屋",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-678ab5f9a35dc5113e312a83",
+        "title": "写真展『with ペンギンたちの生きる島』",
+        "kicker": "LOCAL / EXPERIENCE",
+        "concept": "10月2〜8日、名古屋市中区。フォークランド諸島のキング、ジェンツー、マゼラン、ミナミイワトビの4種を時間の流れに沿って紹介。",
+        "meta": "富士フイルムフォトサロン 名古屋",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-678ab5f9a35dc5113e312a83"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-678ab5f9a35dc5113e312a83"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-9a67a8f724ad3f3ed7a12da1",
@@ -1599,7 +2499,27 @@
       "images": [],
       "venue": "名古屋PARCO 西館6F・PARCO GALLERY",
       "price_terms": "1,500円。10:00～20:00、最終入場は閉場30分前、最終日は18:00閉場。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-9a67a8f724ad3f3ed7a12da1",
+        "title": "残響シ念展―音と感情の実験室― 名古屋会場",
+        "kicker": "IMMERSIVE / EXPERIMENT",
+        "concept": "6つの実験室で、音が認知と感情を書き換える過程を体験する没入型展示。名古屋PARCOで10月3日から11月15日まで。",
+        "meta": "名古屋PARCO 西館6F・PARCO GALLERY",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-9a67a8f724ad3f3ed7a12da1"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-9a67a8f724ad3f3ed7a12da1"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-f6496eb4c10c514b08d6d898",
@@ -1632,7 +2552,27 @@
       "images": [],
       "deadline_at": "2026-10-19T23:59:00+09:00",
       "price_terms": "Prime会員限定。対象400万点以上。ポイント施策はエントリーや購入額など個別条件あり。Amazonふるさと納税では9月24日〜10月19日の4週企画も実施。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-f6496eb4c10c514b08d6d898",
+        "title": "Amazonプライム感謝祭2026 — 日替わりセール・4週キャンペーンを追加発表",
+        "kicker": "OBJECT / DISCOVERY",
+        "concept": "Amazon Japanが9月28日に追加情報を発表。本番は10月16〜19日、先行セールは10月13〜15日で、対象は400万点以上。16〜19日はBRAUN・Dyson・Boseなどの対象商品が毎日入れ替わる「厳選日替わりセール」を実施し、対象品は当日発表される。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-f6496eb4c10c514b08d6d898"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-f6496eb4c10c514b08d6d898"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-c2744609ecf5b11db1d8b887",
@@ -1660,7 +2600,27 @@
       "spotify": [],
       "images": [],
       "price_terms": "参加作品・割引率は開始後に個別確認。発売・価格変更から30日以内など割引制約があるため、直近新作が必ず対象になるとは限らない。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-c2744609ecf5b11db1d8b887",
+        "title": "Steam Autumn Sale 2026 — 日本時間では10月2日2時開始",
+        "kicker": "GAME / DISCOVERY",
+        "concept": "ValveのSteamworks公式日程は2026年10月1日10:00 PT〜10月8日10:00 PT。日本時間では10月2日2:00ごろ開始となるため、現在はまだ開始前。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-c2744609ecf5b11db1d8b887"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-c2744609ecf5b11db1d8b887"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-9f879e56cf93b526236eb9ff",
@@ -1699,7 +2659,32 @@
         }
       ],
       "price_terms": "700ml、税別希望小売価格：9年4,000円、シェリー12年7,590円、15年13,754円、18年19,320円。販売店価格は異なりうる。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-9f879e56cf93b526236eb9ff",
+        "title": "ボウモア9年／ボウモア シェリー3種",
+        "kicker": "FOOD / DRINK",
+        "concept": "2026年9月29日に全国発売。9年はバーボン樽とオロロソシェリー樽原酒で、甘い樽香と柔らかなスモーク。シェリー12・15・18年は甘い香りと熟成差を比較できる通年商品。",
+        "meta": "",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-9f879e56cf93b526236eb9ff"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-9f879e56cf93b526236eb9ff"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-61512f53484a77c99b26447f",
@@ -1740,7 +2725,36 @@
         }
       ],
       "price_terms": "置換対象比でPCB面積最大70%削減とのメーカー値。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-61512f53484a77c99b26447f",
+        "title": "Infineon TLE9744QK — トラクションインバータ用統合PMIC",
+        "kicker": "AUTOMOTIVE / TECH",
+        "concept": "電源、レゾルバ励磁、独立Safety Engineを統合。位相電流、DC-link電圧、MCU、ゲートドライバを監視し、MCU異常時に独立経路で安全状態へ移行するASIL-D設計。現在供給中。",
+        "meta": "",
+        "variant": "grid"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "image",
+          "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2"
+        },
+        "detail_primary": {
+          "kind": "image",
+          "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi.jpg?cdh=attachment"
+          },
+          {
+            "kind": "world_card",
+            "key": "world_card:a-61512f53484a77c99b26447f"
+          }
+        ]
+      }
     },
     {
       "id": "a-3cf54000d810efd7e77b22ac",
@@ -1764,7 +2778,27 @@
       "spotify": [],
       "images": [],
       "price_terms": "無料、open source。TONE3000 accountでfavorites/private tones等を同期可能。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-3cf54000d810efd7e77b22ac",
+        "title": "TONE3000 Plugin / Standalone — 無料のNAM A2統合ブラウザ",
+        "kicker": "GUITAR / GEAR",
+        "concept": "9月1日公開。70万超のNAM capture/IRをplugin内で検索・試奏でき、chain、dual chain、stereo、calibration、EQ、MIDI、oversamplingを備える。Windows対応、VST3/CLAP/standalone等。無料・open source。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-3cf54000d810efd7e77b22ac"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-3cf54000d810efd7e77b22ac"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-b002eefa738f842163436c80",
@@ -1784,7 +2818,27 @@
       "spotify": [],
       "images": [],
       "price_terms": "作者は低価格chip上の実装を説明。完成品価格は未確認。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-b002eefa738f842163436c80",
+        "title": "CoyoPedal — ESP32-S3でNAM A2 Full profileを動かすopen-source pedal project",
+        "kicker": "GUITAR / GEAR",
+        "concept": "9月19日公開。低価格ESP32-S3上でNAM A2 Full amp profileを動かす実験的effects processorで、設計をopen source化。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-b002eefa738f842163436c80"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-b002eefa738f842163436c80"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-e9c2a77708a2edbbca20352e",
@@ -1824,7 +2878,32 @@
       ],
       "deadline_at": "2026-09-30",
       "price_terms": "公式案内では各99円。価格は変動し得る。",
-      "lifecycle": "ENDED"
+      "lifecycle": "ENDED",
+      "world_card": {
+        "key": "world_card:a-e9c2a77708a2edbbca20352e",
+        "title": "手塚治虫作品 Kindle 9月セール（ダスト8／カラー版MW）",
+        "kicker": "BOOK / DISCOVERY",
+        "concept": "手塚治虫公式は、2026年9月の月替わり対象として『ダスト8 1』『カラー版 MW 1』を各99円と案内。9月30日には『ロック冒険記 1』の日替わり99円も案内している。",
+        "meta": "",
+        "variant": "grid"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-e9c2a77708a2edbbca20352e"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-e9c2a77708a2edbbca20352e"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+          }
+        ]
+      }
     },
     {
       "id": "a-c0297c14f885cd3075dddaee",
@@ -1862,7 +2941,32 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-c0297c14f885cd3075dddaee",
+        "title": "ROHM SiCがBMW Neue Klasse Gen 6電動powertrainへ採用",
+        "kicker": "AUTOMOTIVE / TECH",
+        "concept": "ROHMがBMW Neue KlasseのSiC chip採用を9月17日に公表。効率・performance・reliabilityへの寄与を説明。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-c0297c14f885cd3075dddaee"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-c0297c14f885cd3075dddaee"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          }
+        ]
+      }
     },
     {
       "id": "a-4298267034eeb8621be391a7",
@@ -1901,7 +3005,32 @@
         }
       ],
       "price_terms": "戦略顧客向けに2026年サンプル予定。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-4298267034eeb8621be391a7",
+        "title": "onsemi Embedded Power Platform — wafer自体をpackage化する電力統合",
+        "kicker": "AUTOMOTIVE / TECH",
+        "concept": "Si/SiC/GaN、FET、driver、controllerをwafer-levelで統合し、電気・熱・機械を同時最適化。EV traction inverterで最大4倍の電力密度、15%低損失を掲げ、Subaruが先行評価。2026年サンプル予定。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-4298267034eeb8621be391a7"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-4298267034eeb8621be391a7"
+        },
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+          }
+        ]
+      }
     },
     {
       "id": "a-dcba414cdca0fba5e21ffb28",
@@ -1921,7 +3050,27 @@
       "spotify": [],
       "images": [],
       "price_terms": "記録復元は常設追加。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-dcba414cdca0fba5e21ffb28",
+        "title": "『バベル』記録復元と一般資格証交換所の更新",
+        "kicker": "GAME / EVENT",
+        "concept": "9月30日4:00に『バベル』の記録復元、10月1日4:00に一般資格証交換所の開放条件変更とフェーズ2商品追加。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-dcba414cdca0fba5e21ffb28"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-dcba414cdca0fba5e21ffb28"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-a22b296d0b900261847b548a",
@@ -1955,7 +3104,32 @@
           "type": "youtube_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-a22b296d0b900261847b548a",
+        "title": "劇場版『チェンソーマン レゼ篇』Prime Video独占見放題",
+        "kicker": "FILM / STREAMING",
+        "concept": "2026年9月19日から日本のPrime Videoで独占見放題配信。TVアニメの続きを描く劇場版。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=pv8A7eubPQQ"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=pv8A7eubPQQ"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-a22b296d0b900261847b548a"
+          }
+        ]
+      }
     },
     {
       "id": "a-9c591dacf25fa1afa6d6bc2d",
@@ -1989,7 +3163,32 @@
           "type": "steam_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-9c591dacf25fa1afa6d6bc2d",
+        "title": "CONTROL Resonant",
+        "kicker": "GAME / DISCOVERY",
+        "concept": "9月24日発売のRemedyによる超常アクション。歪んだマンハッタンを舞台に、変形する近接武器と深いprogressionを扱う。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-9c591dacf25fa1afa6d6bc2d"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://store.steampowered.com/app/3669870/"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-9c591dacf25fa1afa6d6bc2d"
+          }
+        ]
+      }
     },
     {
       "id": "a-b2a798191e25c0fe70804d14",
@@ -2038,7 +3237,36 @@
           "type": "youtube_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-b2a798191e25c0fe70804d14",
+        "title": "Netflix『俺のこと、なんか言ってた？』",
+        "kicker": "FILM / STREAMING",
+        "concept": "国民的俳優が帰国すると99%の人に忘れられていた、という設定から再起する宮藤官九郎脚本のコメディ。2026年10月22日配信開始。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=MxQQ1S0N_wE"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=MxQQ1S0N_wE"
+        },
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-b2a798191e25c0fe70804d14"
+          },
+          {
+            "kind": "image",
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+          }
+        ]
+      }
     },
     {
       "id": "a-4269498568372099222789ff",
@@ -2059,7 +3287,27 @@
       "images": [],
       "deadline_at": "2026-09-30",
       "price_terms": "451円、51%OFFとの当日観測。",
-      "lifecycle": "ENDED"
+      "lifecycle": "ENDED",
+      "world_card": {
+        "key": "world_card:a-4269498568372099222789ff",
+        "title": "『どこからが病気なの？』月替わりセール",
+        "kicker": "BOOK / DISCOVERY",
+        "concept": "病理医が健康と病気の境界を解説するちくまプリマー新書。9月30日までの月替わり対象。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-4269498568372099222789ff"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-4269498568372099222789ff"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-2361950123a99ecab7ebeb6a",
@@ -2106,7 +3354,36 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-2361950123a99ecab7ebeb6a",
+        "title": "Le Motel『Pozo de Agua』",
+        "kicker": "MUSIC / LIVE",
+        "concept": "環境録音、アンビエント、ダウンテンポ電子音を、水滴や空気の動きまでリズム要素として組み上げた2026年9月15日作。屋外や移動中に作られた短編7曲。",
+        "meta": "",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-2361950123a99ecab7ebeb6a"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-2361950123a99ecab7ebeb6a"
+        },
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j"
+          },
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd"
+          }
+        ]
+      }
     },
     {
       "id": "a-0bc5fc2167a141be1439b2f6",
@@ -2131,7 +3408,27 @@
       "images": [],
       "deadline_at": "2026-09-29",
       "price_terms": "1〜11巻 各100円（通常770円の巻は約87%OFFとの観測）。",
-      "lifecycle": "ENDED"
+      "lifecycle": "ENDED",
+      "world_card": {
+        "key": "world_card:a-0bc5fc2167a141be1439b2f6",
+        "title": "『スノウボールアース』1〜11巻 各100円",
+        "kicker": "BOOK / DISCOVERY",
+        "concept": "凍結した地球、巨大ロボット、宇宙怪獣を扱うSF漫画。9月29日まで1〜11巻が各100円との当日更新情報。",
+        "meta": "",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-0bc5fc2167a141be1439b2f6"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-0bc5fc2167a141be1439b2f6"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "id": "a-602e00baa29b017c13070373",
@@ -2166,7 +3463,32 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "world_card": {
+        "key": "world_card:a-602e00baa29b017c13070373",
+        "title": "Steve Bates『An Infinite Antenna』",
+        "kicker": "MUSIC / LIVE",
+        "concept": "分解したドラムマシン、点描的なエレクトリックギター、フィールド録音、ノーインプットミキサーを41分にまとめた2026年9月25日作。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 2,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-602e00baa29b017c13070373"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-602e00baa29b017c13070373"
+        },
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N"
+          }
+        ]
+      }
     }
   ]
 }
