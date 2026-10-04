@@ -93,6 +93,7 @@
       ],
       "event_date": "2027-01-29",
       "deadline_at": "2026-10-12T23:59:00+09:00",
+      "public_detail": "ダブリン出身の5人組で、ポストパンク／オルタナティブ・ロックを軸に、荒いヴォーカル、推進力の強いリズム、ギターの反復を特徴とするバンド。初期の切迫したサウンドから、近作ではよりメロディックで実験的な音像へ広げている。",
       "venue": "DIAMOND HALL",
       "city": "名古屋市",
       "price_terms": "スタンディング11,000円、ドリンク代別。",
@@ -106,8 +107,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
-      "public_detail": "ダブリン出身の5人組で、ポストパンク／オルタナティブ・ロックを軸に、荒いヴォーカル、推進力の強いリズム、ギターの反復を特徴とするバンド。初期の切迫したサウンドから、近作ではよりメロディックで実験的な音像へ広げている。",
       "world_card": {
         "key": "world_card:a-14634d00af2d55edb8b71747",
         "title": "Fontaines D.C. JAPAN TOUR 2027 — 名古屋DIAMOND HALL、1次先行受付中",
@@ -136,7 +135,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-047f457703c08d1b21bdb4f7",
@@ -182,7 +182,6 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-047f457703c08d1b21bdb4f7",
         "title": "長濱蒸溜所 × Snow Peak「TAKIBI / OKIBI」— 10/3数量限定発売",
@@ -207,7 +206,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-fa1b69d48055b3fa36f39d48",
@@ -229,7 +229,6 @@
       "event_date": "2026-10-03",
       "end_at": "2026-10-03",
       "price_terms": "入場無料。",
-      "lifecycle": "ENDED",
       "world_card": {
         "key": "world_card:a-fa1b69d48055b3fa36f39d48",
         "title": "すきフェス！ — AI・3Dプリンター・科学実験など26体験",
@@ -249,7 +248,8 @@
           "key": "world_card:a-fa1b69d48055b3fa36f39d48"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-ab87d2a4f1a16501179128ed",
@@ -271,7 +271,6 @@
       "event_date": "2026-10-02",
       "end_at": "2026-10-04",
       "price_terms": "入場無料。一部予約制。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-ab87d2a4f1a16501179128ed",
         "title": "こども万博mini 名古屋 — 仕事体験・こども店長・縁日",
@@ -291,7 +290,8 @@
           "key": "world_card:a-ab87d2a4f1a16501179128ed"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-c79abd6fce19922533af23d3",
@@ -310,6 +310,7 @@
       ],
       "spotify": [],
       "images": [],
+      "public_detail": "無限に続く地下通路から脱出するため、周囲に「異変」があるかを見極め、異変があれば引き返し、なければ進むというルールが中心。見落とすと0番出口へ戻される反復構造を映画として組み立てている。",
       "price_terms": "Prime会員特典。",
       "media": [
         {
@@ -321,8 +322,6 @@
           "type": "youtube_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
-      "public_detail": "無限に続く地下通路から脱出するため、周囲に「異変」があるかを見極め、異変があれば引き返し、なければ進むというルールが中心。見落とすと0番出口へ戻される反復構造を映画として組み立てている。",
       "world_card": {
         "key": "world_card:a-c79abd6fce19922533af23d3",
         "title": "映画『8番出口』 — Prime Videoで本日から見放題独占",
@@ -347,7 +346,8 @@
             "key": "world_card:a-c79abd6fce19922533af23d3"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-8006f3dee8380053be8def97",
@@ -408,7 +408,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-8006f3dee8380053be8def97",
         "title": "RADIOHEAD JAPAN 2027 — 受付終了、落選時はwaitlistへ",
@@ -437,7 +436,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-098b209211b9ec8626ef9dd2",
@@ -494,7 +494,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-098b209211b9ec8626ef9dd2",
         "title": "feeble little horse 初来日 — ノイズとポップが溶ける小規模公演",
@@ -523,7 +522,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-4b8263b68f119c80fbbd78ba",
@@ -547,9 +547,8 @@
       "spotify": [],
       "images": [],
       "deadline_at": "2026-10-04",
-      "price_terms": "1〜10巻 各77円、全10巻770円（税込・記事確認時）。",
-      "lifecycle": "ACTIVE",
       "public_detail": "高校の倫理教師・高柳が、生徒たちの抱える問題に倫理の授業を通じて向き合う教師漫画。抽象的な思想紹介だけでなく、各話の具体的な悩みや選択から「善く生きる」ことを考える構成になっている。",
+      "price_terms": "1〜10巻 各77円、全10巻770円（税込・記事確認時）。",
       "world_card": {
         "key": "world_card:a-4b8263b68f119c80fbbd78ba",
         "title": "『ここは今から倫理です。』全10巻 — 各77円で完結まで770円",
@@ -569,7 +568,8 @@
           "key": "world_card:a-4b8263b68f119c80fbbd78ba"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-bf0f944c0630fc89e8180cbe",
@@ -593,9 +593,8 @@
       "spotify": [],
       "images": [],
       "deadline_at": "2026-10-07",
-      "price_terms": "499円（通常1,056円との比較で約53%OFFと直近セール記事が確認）。",
-      "lifecycle": "ACTIVE",
       "public_detail": "人生や自己を一つの「物語」として整理することの便利さと危うさを問い、物語を相対化する手がかりを「遊び」から探る哲学書。後半ではゲーム、パズル、ギャンブル、おもちゃといった形式を通して、世界理解や生き方の別の捉え方を検討する。",
+      "price_terms": "499円（通常1,056円との比較で約53%OFFと直近セール記事が確認）。",
       "world_card": {
         "key": "world_card:a-bf0f944c0630fc89e8180cbe",
         "title": "『物語化批判の哲学』 — 講談社新書499円祭の強い1冊",
@@ -615,7 +614,8 @@
           "key": "world_card:a-bf0f944c0630fc89e8180cbe"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-86fc0b5635b4b6707cbba883",
@@ -640,7 +640,6 @@
       "images": [],
       "event_date": "2026-10-07",
       "price_terms": "視聴無料。連動Xキャンペーンは公式アカウントの案内条件に従う。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-86fc0b5635b4b6707cbba883",
         "title": "アークナイツ公式生放送「2026秋の大感謝祭スペシャル」— 10/7 20時",
@@ -660,7 +659,8 @@
           "key": "world_card:a-86fc0b5635b4b6707cbba883"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-f1e0215c8983d548b784c24f",
@@ -712,6 +712,7 @@
         }
       ],
       "event_date": "2026-12-18",
+      "public_detail": "鍵盤のDOMiとドラムのJD BECKによるデュオ。ジャズの高い演奏技術を核に、ヒップホップ／boom bap、IDM、フュージョン感覚を高速で行き来し、変拍子や急なテンポ変化を遊ぶように組み込む。",
       "venue": "名古屋CLUB QUATTRO",
       "city": "名古屋市",
       "price_terms": "9,900円（税込・All Standing・別途1ドリンク）。未就学児入場不可。",
@@ -725,8 +726,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
-      "public_detail": "鍵盤のDOMiとドラムのJD BECKによるデュオ。ジャズの高い演奏技術を核に、ヒップホップ／boom bap、IDM、フュージョン感覚を高速で行き来し、変拍子や急なテンポ変化を遊ぶように組み込む。",
       "world_card": {
         "key": "world_card:a-f1e0215c8983d548b784c24f",
         "title": "DOMi & JD BECK — 12/18 名古屋CLUB QUATTRO、一般発売中",
@@ -755,7 +754,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-7a2546ed21a249e0b890eb78",
@@ -788,6 +788,7 @@
       ],
       "images": [],
       "event_date": "2026-11-25",
+      "public_detail": "luvは2003年生まれの5人で組むフューチャーソウルバンド。90年代〜Y2Kのネオソウル／アシッドジャズを軸に、ジャズやヒップホップの影響を取り込み、バンドのグルーヴを前面に出す。今回の名古屋公演にはKan SanoがBand Setで参加する。",
       "venue": "名古屋CLUB QUATTRO",
       "city": "名古屋市",
       "price_terms": "前売5,500円（税込・オールスタンディング・ドリンク代別）。",
@@ -809,8 +810,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
-      "public_detail": "luvは2003年生まれの5人で組むフューチャーソウルバンド。90年代〜Y2Kのネオソウル／アシッドジャズを軸に、ジャズやヒップホップの影響を取り込み、バンドのグルーヴを前面に出す。今回の名古屋公演にはKan SanoがBand Setで参加する。",
       "world_card": {
         "key": "world_card:a-7a2546ed21a249e0b890eb78",
         "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
@@ -839,7 +838,8 @@
             "key": "world_card:a-7a2546ed21a249e0b890eb78"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-abfc60bd449aff8c7f16c3fd",
@@ -885,6 +885,7 @@
           }
         }
       ],
+      "public_detail": "宇宙船Von Braunを舞台にしたFPS/RPG系のSF作品。探索・戦闘・キャラクター強化を進めながら、変異体やロボットが徘徊する船内で暴走AI SHODANに対処する。25周年版は原作を現行環境向けにリマスターし、クロスプレイ協力やMod対応も加えている。",
       "price_terms": "期間中0円配布予定／実施枠。通常価格表示はEpic商品ページで地域により異なる。",
       "media": [
         {
@@ -896,8 +897,6 @@
           "type": "steam_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
-      "public_detail": "宇宙船Von Braunを舞台にしたFPS/RPG系のSF作品。探索・戦闘・キャラクター強化を進めながら、変異体やロボットが徘徊する船内で暴走AI SHODANに対処する。25周年版は原作を現行環境向けにリマスターし、クロスプレイ協力やMod対応も加えている。",
       "world_card": {
         "key": "world_card:a-abfc60bd449aff8c7f16c3fd",
         "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布",
@@ -926,7 +925,8 @@
             "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-73f6d065e7f625b80ec330c2",
@@ -995,7 +995,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-73f6d065e7f625b80ec330c2",
         "title": "DOVETAIL S/N 004 — 6年ぶり復活、WONK・TENDRE・luvら第1弾",
@@ -1028,7 +1027,8 @@
             "key": "world_card:a-73f6d065e7f625b80ec330c2"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-94ea44aa2f36a9e3ed6a8821",
@@ -1053,7 +1053,6 @@
       "images": [],
       "deadline_at": "2026-10-15",
       "price_terms": "出版社告知：1〜10巻各91円（税抜）。ストアにより内容が異なる。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-94ea44aa2f36a9e3ed6a8821",
         "title": "黒執事 1〜10巻 — 20周年セールで英国の怪異世界を少額から",
@@ -1073,7 +1072,8 @@
           "key": "world_card:a-94ea44aa2f36a9e3ed6a8821"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-34e2ad0ca9a583847b20abfb",
@@ -1113,7 +1113,6 @@
       ],
       "event_date": "2027-05-15",
       "venue": "有馬富士公園",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-34e2ad0ca9a583847b20abfb",
         "title": "ARIFUJI WEEKENDERS 2027 — 有馬富士公園で5月15日開催決定",
@@ -1138,7 +1137,8 @@
             "key": "image:https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-6ac2fc2618a7936ad3de9e97",
@@ -1179,7 +1179,6 @@
       "event_date": "2026-10-10",
       "venue": "朝霧アリーナ 中央砂利スペース",
       "price_terms": "参加無料。宿泊・BBQ等は別途自分で手配。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-6ac2fc2618a7936ad3de9e97",
         "title": "朝霧JAMは2026年休止 — 10月10日に灯火をつなぐ集会",
@@ -1204,7 +1203,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-6096dcf06c396ad4433514ee",
@@ -1241,7 +1241,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-6096dcf06c396ad4433514ee",
         "title": "FCO. — 小原綾斗の別名義を名古屋クアトロで",
@@ -1266,7 +1265,8 @@
             "key": "world_card:a-6096dcf06c396ad4433514ee"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-11beb44feb226d552a202143",
@@ -1338,7 +1338,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-11beb44feb226d552a202143",
         "title": "集楽座2026 — 民謡クルセイダーズとCHO CO PAを代々木の野外で",
@@ -1371,7 +1370,8 @@
             "key": "image:https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-bd47266a5d530a1f56ba313e",
@@ -1427,7 +1427,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-bd47266a5d530a1f56ba313e",
         "title": "YĪN YĪN — 名古屋でアジア音楽とサイケ・ファンクを楽しむ",
@@ -1456,7 +1455,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-c2508f7155a0f0dd0a7a3bf7",
@@ -1475,7 +1475,6 @@
       ],
       "spotify": [],
       "images": [],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-c2508f7155a0f0dd0a7a3bf7",
         "title": "アークナイツ — 一般資格証の交換条件が10月1日に更新",
@@ -1495,7 +1494,8 @@
           "key": "world_card:a-c2508f7155a0f0dd0a7a3bf7"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-a898a1a96de58ae58fe61d68",
@@ -1537,7 +1537,6 @@
           "type": "steam_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-a898a1a96de58ae58fe61d68",
         "title": "Nivalis Nights — サイバーパンク都市で店と生活を作る新作",
@@ -1562,7 +1561,8 @@
             "key": "world_card:a-a898a1a96de58ae58fe61d68"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-e6fe160577056a5346075362",
@@ -1602,7 +1602,6 @@
       ],
       "venue": "meitoこどもランド・とだがわ(とだがわこどもランド)会議室",
       "price_terms": "無料、部品代のみ実費。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-e6fe160577056a5346075362",
         "title": "あいちおもちゃクリニック（とだがわこどもランド）",
@@ -1627,7 +1626,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-bb64ec8be3ec294db2858d31",
@@ -1679,6 +1679,7 @@
         }
       ],
       "event_date": "2026-10-13",
+      "public_detail": "ゲーム機を実際に音源として使う電子音と、ファジーなギター、ドラム、歌を同居させる4人組。近作ではチップチューンの印象だけに寄らず、バンド演奏やグリッチ的な制作を前面に広げている。",
       "venue": "duo MUSIC EXCHANGE",
       "price_terms": "前売8,200円、ドリンク別。",
       "media": [
@@ -1691,8 +1692,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
-      "public_detail": "ゲーム機を実際に音源として使う電子音と、ファジーなギター、ドラム、歌を同居させる4人組。近作ではチップチューンの印象だけに寄らず、バンド演奏やグリッチ的な制作を前面に広げている。",
       "world_card": {
         "key": "world_card:a-bb64ec8be3ec294db2858d31",
         "title": "ANAMANAGUCHI TOKYO 2026",
@@ -1721,7 +1720,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-f5db1b40b98edb5f6b594249",
@@ -1741,7 +1741,6 @@
       "spotify": [],
       "images": [],
       "price_terms": "基本プレイ無料。限定コーデ・パックは別売。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-f5db1b40b98edb5f6b594249",
         "title": "期間限定『デュエルチャンネル：アイビーヴァインシティ』",
@@ -1761,7 +1760,8 @@
           "key": "world_card:a-f5db1b40b98edb5f6b594249"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-97866892876150625b4ce595",
@@ -1825,7 +1825,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-97866892876150625b4ce595",
         "title": "Bruno Mars — The Romantic Tour in Japan featuring Anderson .Paak as DJ Pee .Wee",
@@ -1854,7 +1853,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-3e3cdf1b4dee90a128396a7e",
@@ -1889,7 +1889,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-3e3cdf1b4dee90a128396a7e",
         "title": "digital shadows — VAIWATT World Tour 2026（栄TIGHT ROPE）",
@@ -1914,7 +1913,8 @@
             "key": "world_card:a-3e3cdf1b4dee90a128396a7e"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-048ccfa85b33fc86a5bca373",
@@ -1958,7 +1958,6 @@
       ],
       "venue": "文化のみち橦木館",
       "price_terms": "大人当日1,200円／前売1,000円、中学生以下無料。橦木館入館料は別途。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-048ccfa85b33fc86a5bca373",
         "title": "深堀隆介展『金魚の唄』―山田憲司・北川啓介との共創",
@@ -1983,7 +1982,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-483c54bc23908a5dbbb0f1d5",
@@ -2003,7 +2003,6 @@
       "spotify": [],
       "images": [],
       "price_terms": "入場無料。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-483c54bc23908a5dbbb0f1d5",
         "title": "こども万博 mini 名古屋",
@@ -2023,7 +2022,8 @@
           "key": "world_card:a-483c54bc23908a5dbbb0f1d5"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-a6798601ffd4d9dad14392c1",
@@ -2044,7 +2044,6 @@
       "images": [],
       "venue": "Valentine Drive",
       "price_terms": "3,500円＋オーダー。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-a6798601ffd4d9dad14392c1",
         "title": "Nagoya Gnaoua Meeting 2026 — UFO meets グナワ",
@@ -2064,7 +2063,8 @@
           "key": "world_card:a-a6798601ffd4d9dad14392c1"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-000f8527b956a63f74c8b376",
@@ -2132,7 +2132,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-000f8527b956a63f74c8b376",
         "title": "Queens of the Stone Age — Japan Tour 2026（名古屋公演あり）",
@@ -2161,7 +2160,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-7f7810d7e4dba2ab87344f71",
@@ -2213,6 +2213,7 @@
         }
       ],
       "event_date": "2026-11-19",
+      "public_detail": "Ryan Lee Westによる電子音楽プロジェクト。IDMやglitch、danceを背景にしつつ、シンセの質感や余白を絞り込み、電子音を有機的・人間的に聞かせる方向を追う。アンビエント寄りの広がりからビートの強い展開までを行き来する。",
       "venue": "WWW X / CIRCUS OSAKA",
       "price_terms": "前売7,800円、ドリンク別。",
       "media": [
@@ -2225,8 +2226,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
-      "public_detail": "Ryan Lee Westによる電子音楽プロジェクト。IDMやglitch、danceを背景にしつつ、シンセの質感や余白を絞り込み、電子音を有機的・人間的に聞かせる方向を追う。アンビエント寄りの広がりからビートの強い展開までを行き来する。",
       "world_card": {
         "key": "world_card:a-7f7810d7e4dba2ab87344f71",
         "title": "Rival Consoles — Landscape from Memory Tour 2026",
@@ -2255,7 +2254,8 @@
             "key": "image:https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-86dd52b5fca063f5aa32ac65",
@@ -2295,7 +2295,6 @@
       ],
       "venue": "天白公園",
       "price_terms": "無料。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-86dd52b5fca063f5aa32ac65",
         "title": "天白公園自然観察会",
@@ -2320,7 +2319,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-01a7d973657ccc68fb70ac10",
@@ -2364,7 +2364,6 @@
       ],
       "venue": "トヨタ産業技術記念館",
       "price_terms": "トヨタ産業技術記念館の入館条件に準拠。企画展追加料金の有無は来館前に公式詳細を確認。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-01a7d973657ccc68fb70ac10",
         "title": "華ひらくジャポニスム―技術と美術の文明開化―",
@@ -2389,7 +2388,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-7d5d68f7aa7a73c8a9346563",
@@ -2414,7 +2414,6 @@
       "images": [],
       "venue": "名鉄豊田市駅東口特設イベント広場",
       "price_terms": "入場条件は日別企画による。屋外企画は天候変更に注意。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-7d5d68f7aa7a73c8a9346563",
         "title": "アジアを味わえ！とよたまちなかフェス",
@@ -2434,7 +2433,8 @@
           "key": "world_card:a-7d5d68f7aa7a73c8a9346563"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-678ab5f9a35dc5113e312a83",
@@ -2458,7 +2458,6 @@
       "spotify": [],
       "images": [],
       "venue": "富士フイルムフォトサロン 名古屋",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-678ab5f9a35dc5113e312a83",
         "title": "写真展『with ペンギンたちの生きる島』",
@@ -2478,7 +2477,8 @@
           "key": "world_card:a-678ab5f9a35dc5113e312a83"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-9a67a8f724ad3f3ed7a12da1",
@@ -2499,7 +2499,16 @@
       "images": [],
       "venue": "名古屋PARCO 西館6F・PARCO GALLERY",
       "price_terms": "1,500円。10:00～20:00、最終入場は閉場30分前、最終日は18:00閉場。",
-      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "type": "x_embed",
+          "canonical_url": "https://x.com/parco_factory/status/2059107338955714797",
+          "provider_id": "2059107338955714797",
+          "title": "PARCO FACTORY公式開催告知（池袋会場）",
+          "evidence_url": "https://help.x.com/en/using-x/how-to-embed-a-post",
+          "source_url": "https://x.com/parco_factory/status/2059107338955714797"
+        }
+      ],
       "world_card": {
         "key": "world_card:a-9a67a8f724ad3f3ed7a12da1",
         "title": "残響シ念展―音と感情の実験室― 名古屋会場",
@@ -2525,16 +2534,7 @@
           }
         ]
       },
-      "media": [
-        {
-          "type": "x_embed",
-          "canonical_url": "https://x.com/parco_factory/status/2059107338955714797",
-          "provider_id": "2059107338955714797",
-          "title": "PARCO FACTORY公式開催告知（池袋会場）",
-          "evidence_url": "https://help.x.com/en/using-x/how-to-embed-a-post",
-          "source_url": "https://x.com/parco_factory/status/2059107338955714797"
-        }
-      ]
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-f6496eb4c10c514b08d6d898",
@@ -2567,7 +2567,6 @@
       "images": [],
       "deadline_at": "2026-10-19T23:59:00+09:00",
       "price_terms": "Prime会員限定。対象400万点以上。ポイント施策はエントリーや購入額など個別条件あり。Amazonふるさと納税では9月24日〜10月19日の4週企画も実施。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-f6496eb4c10c514b08d6d898",
         "title": "Amazonプライム感謝祭2026 — 日替わりセール・4週キャンペーンを追加発表",
@@ -2587,7 +2586,8 @@
           "key": "world_card:a-f6496eb4c10c514b08d6d898"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-c2744609ecf5b11db1d8b887",
@@ -2615,7 +2615,16 @@
       "spotify": [],
       "images": [],
       "price_terms": "参加作品・割引率は開始後に個別確認。発売・価格変更から30日以内など割引制約があるため、直近新作が必ず対象になるとは限らない。",
-      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "type": "youtube_embed",
+          "canonical_url": "https://www.youtube.com/watch?v=GTmrbdAQWaQ",
+          "provider_id": "GTmrbdAQWaQ",
+          "title": "Steam Autumn Sale 2026: Official Trailer",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "source_url": "https://www.youtube.com/watch?v=GTmrbdAQWaQ"
+        }
+      ],
       "world_card": {
         "key": "world_card:a-c2744609ecf5b11db1d8b887",
         "title": "Steam Autumn Sale 2026 — 日本時間では10月2日2時開始",
@@ -2641,16 +2650,7 @@
           }
         ]
       },
-      "media": [
-        {
-          "type": "youtube_embed",
-          "canonical_url": "https://www.youtube.com/watch?v=GTmrbdAQWaQ",
-          "provider_id": "GTmrbdAQWaQ",
-          "title": "Steam Autumn Sale 2026: Official Trailer",
-          "evidence_url": "https://developers.google.com/youtube/player_parameters",
-          "source_url": "https://www.youtube.com/watch?v=GTmrbdAQWaQ"
-        }
-      ]
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-9f879e56cf93b526236eb9ff",
@@ -2689,7 +2689,6 @@
         }
       ],
       "price_terms": "700ml、税別希望小売価格：9年4,000円、シェリー12年7,590円、15年13,754円、18年19,320円。販売店価格は異なりうる。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-9f879e56cf93b526236eb9ff",
         "title": "ボウモア9年／ボウモア シェリー3種",
@@ -2714,7 +2713,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-61512f53484a77c99b26447f",
@@ -2755,7 +2755,6 @@
         }
       ],
       "price_terms": "置換対象比でPCB面積最大70%削減とのメーカー値。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-61512f53484a77c99b26447f",
         "title": "Infineon TLE9744QK — トラクションインバータ用統合PMIC",
@@ -2784,7 +2783,8 @@
             "key": "world_card:a-61512f53484a77c99b26447f"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-3cf54000d810efd7e77b22ac",
@@ -2808,7 +2808,16 @@
       "spotify": [],
       "images": [],
       "price_terms": "無料、open source。TONE3000 accountでfavorites/private tones等を同期可能。",
-      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "type": "youtube_embed",
+          "canonical_url": "https://www.youtube.com/watch?v=n1pjVTwa6LU",
+          "provider_id": "n1pjVTwa6LU",
+          "title": "The TONE3000 Plugin is Here",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "source_url": "https://www.youtube.com/watch?v=n1pjVTwa6LU"
+        }
+      ],
       "world_card": {
         "key": "world_card:a-3cf54000d810efd7e77b22ac",
         "title": "TONE3000 Plugin / Standalone — 無料のNAM A2統合ブラウザ",
@@ -2834,16 +2843,7 @@
           }
         ]
       },
-      "media": [
-        {
-          "type": "youtube_embed",
-          "canonical_url": "https://www.youtube.com/watch?v=n1pjVTwa6LU",
-          "provider_id": "n1pjVTwa6LU",
-          "title": "The TONE3000 Plugin is Here",
-          "evidence_url": "https://developers.google.com/youtube/player_parameters",
-          "source_url": "https://www.youtube.com/watch?v=n1pjVTwa6LU"
-        }
-      ]
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-b002eefa738f842163436c80",
@@ -2863,7 +2863,6 @@
       "spotify": [],
       "images": [],
       "price_terms": "作者は低価格chip上の実装を説明。完成品価格は未確認。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-b002eefa738f842163436c80",
         "title": "CoyoPedal — ESP32-S3でNAM A2 Full profileを動かすopen-source pedal project",
@@ -2883,7 +2882,8 @@
           "key": "world_card:a-b002eefa738f842163436c80"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-e9c2a77708a2edbbca20352e",
@@ -2923,7 +2923,6 @@
       ],
       "deadline_at": "2026-09-30",
       "price_terms": "公式案内では各99円。価格は変動し得る。",
-      "lifecycle": "ENDED",
       "world_card": {
         "key": "world_card:a-e9c2a77708a2edbbca20352e",
         "title": "手塚治虫作品 Kindle 9月セール（ダスト8／カラー版MW）",
@@ -2948,7 +2947,8 @@
             "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
           }
         ]
-      }
+      },
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-c0297c14f885cd3075dddaee",
@@ -2986,7 +2986,6 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-c0297c14f885cd3075dddaee",
         "title": "ROHM SiCがBMW Neue Klasse Gen 6電動powertrainへ採用",
@@ -3011,7 +3010,8 @@
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-4298267034eeb8621be391a7",
@@ -3050,7 +3050,16 @@
         }
       ],
       "price_terms": "戦略顧客向けに2026年サンプル予定。",
-      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "type": "youtube_embed",
+          "canonical_url": "https://www.youtube.com/watch?v=KPt26AzAZU4",
+          "provider_id": "KPt26AzAZU4",
+          "title": "Embedded Power Platform Transforms Power System Design",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "source_url": "https://www.youtube.com/watch?v=KPt26AzAZU4"
+        }
+      ],
       "world_card": {
         "key": "world_card:a-4298267034eeb8621be391a7",
         "title": "onsemi Embedded Power Platform — wafer自体をpackage化する電力統合",
@@ -3080,16 +3089,7 @@
           }
         ]
       },
-      "media": [
-        {
-          "type": "youtube_embed",
-          "canonical_url": "https://www.youtube.com/watch?v=KPt26AzAZU4",
-          "provider_id": "KPt26AzAZU4",
-          "title": "Embedded Power Platform Transforms Power System Design",
-          "evidence_url": "https://developers.google.com/youtube/player_parameters",
-          "source_url": "https://www.youtube.com/watch?v=KPt26AzAZU4"
-        }
-      ]
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-dcba414cdca0fba5e21ffb28",
@@ -3109,7 +3109,6 @@
       "spotify": [],
       "images": [],
       "price_terms": "記録復元は常設追加。",
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-dcba414cdca0fba5e21ffb28",
         "title": "『バベル』記録復元と一般資格証交換所の更新",
@@ -3129,7 +3128,8 @@
           "key": "world_card:a-dcba414cdca0fba5e21ffb28"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-a22b296d0b900261847b548a",
@@ -3163,7 +3163,6 @@
           "type": "youtube_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-a22b296d0b900261847b548a",
         "title": "劇場版『チェンソーマン レゼ篇』Prime Video独占見放題",
@@ -3175,8 +3174,8 @@
       "display_selection": {
         "selector_version": 2,
         "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=pv8A7eubPQQ"
+          "kind": "world_card",
+          "key": "world_card:a-a22b296d0b900261847b548a"
         },
         "detail_primary": {
           "kind": "media",
@@ -3188,7 +3187,8 @@
             "key": "world_card:a-a22b296d0b900261847b548a"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-9c591dacf25fa1afa6d6bc2d",
@@ -3222,7 +3222,6 @@
           "type": "steam_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-9c591dacf25fa1afa6d6bc2d",
         "title": "CONTROL Resonant",
@@ -3247,7 +3246,8 @@
             "key": "world_card:a-9c591dacf25fa1afa6d6bc2d"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-b2a798191e25c0fe70804d14",
@@ -3296,7 +3296,6 @@
           "type": "youtube_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-b2a798191e25c0fe70804d14",
         "title": "Netflix『俺のこと、なんか言ってた？』",
@@ -3308,8 +3307,8 @@
       "display_selection": {
         "selector_version": 2,
         "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=MxQQ1S0N_wE"
+          "kind": "world_card",
+          "key": "world_card:a-b2a798191e25c0fe70804d14"
         },
         "detail_primary": {
           "kind": "media",
@@ -3325,7 +3324,8 @@
             "key": "image:https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-4269498568372099222789ff",
@@ -3346,7 +3346,6 @@
       "images": [],
       "deadline_at": "2026-09-30",
       "price_terms": "451円、51%OFFとの当日観測。",
-      "lifecycle": "ENDED",
       "world_card": {
         "key": "world_card:a-4269498568372099222789ff",
         "title": "『どこからが病気なの？』月替わりセール",
@@ -3366,7 +3365,8 @@
           "key": "world_card:a-4269498568372099222789ff"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-2361950123a99ecab7ebeb6a",
@@ -3413,7 +3413,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-2361950123a99ecab7ebeb6a",
         "title": "Le Motel『Pozo de Agua』",
@@ -3442,7 +3441,8 @@
             "key": "media:https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-0bc5fc2167a141be1439b2f6",
@@ -3467,7 +3467,6 @@
       "images": [],
       "deadline_at": "2026-09-29",
       "price_terms": "1〜11巻 各100円（通常770円の巻は約87%OFFとの観測）。",
-      "lifecycle": "ENDED",
       "world_card": {
         "key": "world_card:a-0bc5fc2167a141be1439b2f6",
         "title": "『スノウボールアース』1〜11巻 各100円",
@@ -3487,7 +3486,8 @@
           "key": "world_card:a-0bc5fc2167a141be1439b2f6"
         },
         "detail_secondary": []
-      }
+      },
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-602e00baa29b017c13070373",
@@ -3522,7 +3522,6 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE",
       "world_card": {
         "key": "world_card:a-602e00baa29b017c13070373",
         "title": "Steve Bates『An Infinite Antenna』",
@@ -3547,7 +3546,8 @@
             "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N"
           }
         ]
-      }
+      },
+      "lifecycle": "ACTIVE"
     }
   ]
 }
