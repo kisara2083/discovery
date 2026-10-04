@@ -251,6 +251,7 @@
       ],
       "spotify": [],
       "images": [],
+      "deadline_at": "2026-10-04",
       "price_terms": "1〜10巻 各77円、全10巻770円（税込・記事確認時）。",
       "lifecycle": "ACTIVE"
     },
@@ -275,6 +276,7 @@
       ],
       "spotify": [],
       "images": [],
+      "deadline_at": "2026-10-07",
       "price_terms": "499円（通常1,056円との比較で約53%OFFと直近セール記事が確認）。",
       "lifecycle": "ACTIVE"
     },
@@ -467,6 +469,7 @@
       ],
       "spotify": [],
       "images": [],
+      "deadline_at": "2026-10-15",
       "price_terms": "出版社告知：1〜10巻各91円（税抜）。ストアにより内容が異なる。",
       "lifecycle": "ACTIVE"
     },
@@ -1074,6 +1077,7 @@
       ],
       "spotify": [],
       "images": [],
+      "deadline_at": "2026-10-19T23:59:00+09:00",
       "price_terms": "Prime会員限定。対象400万点以上。ポイント施策はエントリーや購入額など個別条件あり。Amazonふるさと納税では9月24日〜10月19日の4週企画も実施。",
       "lifecycle": "ACTIVE"
     },
@@ -1219,8 +1223,9 @@
       ],
       "spotify": [],
       "images": [],
+      "deadline_at": "2026-09-30",
       "price_terms": "公式案内では各99円。価格は変動し得る。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-c0297c14f885cd3075dddaee",
@@ -1366,8 +1371,9 @@
       ],
       "spotify": [],
       "images": [],
+      "deadline_at": "2026-09-30",
       "price_terms": "451円、51%OFFとの当日観測。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-2361950123a99ecab7ebeb6a",
@@ -1419,8 +1425,9 @@
       ],
       "spotify": [],
       "images": [],
+      "deadline_at": "2026-09-29",
       "price_terms": "1〜11巻 各100円（通常770円の巻は約87%OFFとの観測）。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-602e00baa29b017c13070373",
