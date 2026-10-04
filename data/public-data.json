@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-10-04",
+  "as_of": "2026-10-05",
   "taxonomy": [
     {
       "id": "shopping",
@@ -77,8 +77,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Fontaines_DC_at_Loose_Ends_2019.jpg",
           "relation": "reference_same_entity",
-          "caption": "Fontaines DC at Loose Ends 2019.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "caption": "同アーティストの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Gruesome Gary / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Gruesome Gary",
@@ -104,7 +112,15 @@
           "provider_id": "3SXwqSqAoBz9WCI9PDQzY6",
           "source_url": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
           "title": "Fontaines D.C.",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -116,20 +132,16 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-14634d00af2d55edb8b71747"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6"
         },
         "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-14634d00af2d55edb8b71747"
-          },
           {
             "kind": "image",
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
@@ -168,8 +180,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Distillers_of_Nagahama_Distillery.jpg",
           "relation": "reference_same_entity",
-          "caption": "Distillers of Nagahama Distillery.jpg — 長濱蒸溜所の蒸溜器の参考写真。今回発売のボトル画像ではありません。",
+          "caption": "長濱蒸溜所の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Fluoros jp / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Fluoros jp",
@@ -191,21 +211,16 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-047f457703c08d1b21bdb4f7"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-047f457703c08d1b21bdb4f7"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -238,7 +253,7 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-fa1b69d48055b3fa36f39d48"
@@ -280,7 +295,7 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-ab87d2a4f1a16501179128ed"
@@ -291,7 +306,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-c79abd6fce19922533af23d3",
@@ -319,7 +334,15 @@
           "provider_id": "dyJJJgako-w",
           "source_url": "https://exit8-movie.toho.co.jp/",
           "title": "映画『８番出口』予告【8月29日(金)公開】",
-          "type": "youtube_embed"
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -331,21 +354,16 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-c79abd6fce19922533af23d3"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w"
         },
-        "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-c79abd6fce19922533af23d3"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -380,8 +398,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:2025_Radiohead_live_concert_at_Uber_Arena,_Berlin_102.jpg",
           "relation": "reference_same_entity",
-          "caption": "2025 Radiohead live concert at Uber Arena, Berlin 102.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "caption": "同アーティストの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Raph_PH / CC BY 4.0 / Wikimedia Commons",
             "creator": "Raph_PH",
@@ -405,7 +431,15 @@
           "provider_id": "4Z8W4fKeB5YxbusRsdQVPb",
           "source_url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
           "title": "Radiohead",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -417,20 +451,16 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-8006f3dee8380053be8def97"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
         },
         "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-8006f3dee8380053be8def97"
-          },
           {
             "kind": "image",
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
@@ -466,8 +496,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Feeble_Little_Horse,_2025-04-26.jpg",
           "relation": "reference_same_entity",
-          "caption": "Feeble Little Horse, 2025-04-26.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "caption": "同アーティストの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Redolta / CC0 / Wikimedia Commons",
             "creator": "Redolta",
@@ -491,7 +529,31 @@
           "provider_id": "2GJa7lPCjAB1rKXptXrfy8",
           "source_url": "https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8",
           "title": "feeble little horse",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=MJx4P1pkvoQ",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "MJx4P1pkvoQ",
+          "source_url": "https://www.creativeman.co.jp/event/feeble-little-horse/",
+          "title": "feeble little horse - 05 - Dior | Official BK-TV",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -503,19 +565,19 @@
         "variant": "grid"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-098b209211b9ec8626ef9dd2"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=MJx4P1pkvoQ"
         },
         "detail_primary": {
           "kind": "media",
-          "key": "media:https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8"
+          "key": "media:https://www.youtube.com/watch?v=MJx4P1pkvoQ"
         },
         "detail_secondary": [
           {
-            "kind": "world_card",
-            "key": "world_card:a-098b209211b9ec8626ef9dd2"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8"
           },
           {
             "kind": "image",
@@ -558,7 +620,7 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-4b8263b68f119c80fbbd78ba"
@@ -569,7 +631,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-bf0f944c0630fc89e8180cbe",
@@ -604,7 +666,7 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-bf0f944c0630fc89e8180cbe"
@@ -637,7 +699,25 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
+          "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "framing": "contain"
+        }
+      ],
       "event_date": "2026-10-07",
       "price_terms": "視聴無料。連動Xキャンペーンは公式アカウントの案内条件に従う。",
       "world_card": {
@@ -649,14 +729,14 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-86fc0b5635b4b6707cbba883"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-86fc0b5635b4b6707cbba883"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_secondary": []
       },
@@ -697,8 +777,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Domi_and_JD_Beck_at_History.jpg",
           "relation": "reference_same_entity",
-          "caption": "Domi and JD Beck at History.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "caption": "同アーティストの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Makeworldpedia / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Makeworldpedia",
@@ -723,7 +811,31 @@
           "provider_id": "4UpA1KitN1RgIZVyWDbZ0U",
           "source_url": "https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U",
           "title": "DOMi & JD BECK",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=jJVe_6N8cLY",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "jJVe_6N8cLY",
+          "source_url": "https://www.creativeman.co.jp/event/domi-jd-beck26/",
+          "title": "DOMi & JD BECK, Anderson .Paak - TAKE A CHANCE (Official)",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -735,19 +847,19 @@
         "variant": "grid"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-f1e0215c8983d548b784c24f"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=jJVe_6N8cLY"
         },
         "detail_primary": {
           "kind": "media",
-          "key": "media:https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U"
+          "key": "media:https://www.youtube.com/watch?v=jJVe_6N8cLY"
         },
         "detail_secondary": [
           {
-            "kind": "world_card",
-            "key": "world_card:a-f1e0215c8983d548b784c24f"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U"
           },
           {
             "kind": "image",
@@ -799,7 +911,15 @@
           "provider_id": "5b3ZFm6P1lpZIASMDnBDs9",
           "source_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
           "title": "Kan Sano",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         },
         {
           "canonical_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
@@ -807,7 +927,15 @@
           "provider_id": "5ZmDD0nqtQJBF11wXY9Kvl",
           "source_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
           "title": "With Love feat. luv",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -819,10 +947,10 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-7a2546ed21a249e0b890eb78"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9"
         },
         "detail_primary": {
           "kind": "media",
@@ -832,10 +960,6 @@
           {
             "kind": "media",
             "key": "media:https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl"
-          },
-          {
-            "kind": "world_card",
-            "key": "world_card:a-7a2546ed21a249e0b890eb78"
           }
         ]
       },
@@ -871,8 +995,16 @@
           "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source_page": "https://commons.wikimedia.org/wiki/File:System_Shock_2_Logo.png",
           "relation": "reference_same_entity",
-          "caption": "System Shock 2 Logo.png — System Shock 2の作品ロゴ。Remaster版のスクリーンショットではありません。商標の権利は各権利者に帰属します。",
+          "caption": "System Shock 2の作品ロゴ（参考）",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "EA / Public domain / Wikimedia Commons",
             "creator": "EA",
@@ -894,7 +1026,31 @@
           "provider_id": "866570",
           "source_url": "https://store.steampowered.com/app/866570/",
           "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布 — Steamストア",
-          "type": "steam_embed"
+          "type": "steam_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=gEY0utFag38",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "gEY0utFag38",
+          "source_url": "https://nightdivestudios.com/system-shock-2-25th-anniversary-remaster-2/",
+          "title": "System Shock 2: 25th Anniversary Remaster - Reveal Trailer | Nightdive Studios",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -906,19 +1062,19 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-abfc60bd449aff8c7f16c3fd"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=gEY0utFag38"
         },
         "detail_primary": {
           "kind": "media",
-          "key": "media:https://store.steampowered.com/app/866570/"
+          "key": "media:https://www.youtube.com/watch?v=gEY0utFag38"
         },
         "detail_secondary": [
           {
-            "kind": "world_card",
-            "key": "world_card:a-abfc60bd449aff8c7f16c3fd"
+            "kind": "media",
+            "key": "media:https://store.steampowered.com/app/866570/"
           },
           {
             "kind": "image",
@@ -976,7 +1132,15 @@
           "provider_id": "15B9FrdU78YP1NVHRekesE",
           "source_url": "https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE",
           "title": "WONK",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         },
         {
           "canonical_url": "https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb",
@@ -984,7 +1148,15 @@
           "provider_id": "6cMnpAZ9QN0wn4dVd0Tinb",
           "source_url": "https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb",
           "title": "TENDRE",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         },
         {
           "canonical_url": "https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB",
@@ -992,7 +1164,15 @@
           "provider_id": "2Gy7SZvabW5UQgL0oljfeB",
           "source_url": "https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB",
           "title": "luv",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -1004,10 +1184,10 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-73f6d065e7f625b80ec330c2"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE"
         },
         "detail_primary": {
           "kind": "media",
@@ -1021,10 +1201,6 @@
           {
             "kind": "media",
             "key": "media:https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb"
-          },
-          {
-            "kind": "world_card",
-            "key": "world_card:a-73f6d065e7f625b80ec330c2"
           }
         ]
       },
@@ -1053,6 +1229,24 @@
       "images": [],
       "deadline_at": "2026-10-15",
       "price_terms": "出版社告知：1〜10巻各91円（税抜）。ストアにより内容が異なる。",
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=rxFve1J4uW8",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "rxFve1J4uW8",
+          "source_url": "https://magazine.jp.square-enix.com/gfantasy/kuroshitsuji/20th/",
+          "title": "『黒執事』20th Anniversary PV",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
       "world_card": {
         "key": "world_card:a-94ea44aa2f36a9e3ed6a8821",
         "title": "黒執事 1〜10巻 — 20周年セールで英国の怪異世界を少額から",
@@ -1062,14 +1256,14 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-94ea44aa2f36a9e3ed6a8821"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=rxFve1J4uW8"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-94ea44aa2f36a9e3ed6a8821"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=rxFve1J4uW8"
         },
         "detail_secondary": []
       },
@@ -1097,8 +1291,16 @@
           "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source_page": "https://commons.wikimedia.org/wiki/File:Arimahuji_park.JPG",
           "relation": "reference_same_entity",
-          "caption": "Arimahuji park.JPG — 会場・有馬富士公園の参考写真。2027年の公演写真ではありません。",
+          "caption": "有馬富士公園の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "おぉたむすねィく探検隊 (Autumn Snake) / CC BY-SA 2.5 / Wikimedia Commons",
             "creator": "おぉたむすねィく探検隊 (Autumn Snake)",
@@ -1113,6 +1315,24 @@
       ],
       "event_date": "2027-05-15",
       "venue": "有馬富士公園",
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=5lzLPoX4oDI",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "5lzLPoX4oDI",
+          "source_url": "https://arifuji.com/snsgoldaward/",
+          "title": "【SUPER☆GiRLS 坂林佳奈】野外フェス『ARIFUJI WEEKENDERS 2026』公式アンバサダー「オフィシャル・ウィークエンダー」出演後の感想・2027年開催発表！",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        }
+      ],
       "world_card": {
         "key": "world_card:a-34e2ad0ca9a583847b20abfb",
         "title": "ARIFUJI WEEKENDERS 2027 — 有馬富士公園で5月15日開催決定",
@@ -1122,14 +1342,14 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-34e2ad0ca9a583847b20abfb"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=5lzLPoX4oDI"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-34e2ad0ca9a583847b20abfb"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=5lzLPoX4oDI"
         },
         "detail_secondary": [
           {
@@ -1162,8 +1382,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Asagiri_Jam%2717_(37565684272).jpg",
           "relation": "reference_same_entity",
-          "caption": "Asagiri Jam'17 (37565684272).jpg — 同じ朝霧JAMの2017年の参考写真。2026年の現地写真ではありません。",
+          "caption": "朝霧JAM（2017年）の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "t.kunikuni from Japan / CC BY-SA 2.0 / Wikimedia Commons",
             "creator": "t.kunikuni from Japan",
@@ -1188,21 +1416,16 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-6ac2fc2618a7936ad3de9e97"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-6ac2fc2618a7936ad3de9e97"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -1238,7 +1461,15 @@
           "provider_id": "4J9kLpFakm3b9gYfdFfkAq",
           "source_url": "https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq",
           "title": "FCO.",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -1250,21 +1481,16 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-6096dcf06c396ad4433514ee"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq"
         },
-        "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-6096dcf06c396ad4433514ee"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -1303,8 +1529,16 @@
           "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source_page": "https://commons.wikimedia.org/wiki/File:Minyo_Crusaders_2023.jpg",
           "relation": "reference_same_entity",
-          "caption": "Minyo Crusaders 2023.jpg — 出演者・民謡クルセイダーズの参考写真。今回の公演写真ではありません。",
+          "caption": "出演者・民謡クルセイダーズの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Tortillovsky / CC BY 4.0 / Wikimedia Commons",
             "creator": "Tortillovsky",
@@ -1327,7 +1561,15 @@
           "provider_id": "1zpJ58qKOgKcWge9iaFxHG",
           "source_url": "https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG",
           "title": "民謡クルセイダーズ",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         },
         {
           "canonical_url": "https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C",
@@ -1335,7 +1577,15 @@
           "provider_id": "3mWeBqMtDhKO66qel3iO2C",
           "source_url": "https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C",
           "title": "CHO CO PA CO CHO CO QUIN QUIN",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -1347,10 +1597,10 @@
         "variant": "grid"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-11beb44feb226d552a202143"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG"
         },
         "detail_primary": {
           "kind": "media",
@@ -1360,10 +1610,6 @@
           {
             "kind": "media",
             "key": "media:https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C"
-          },
-          {
-            "kind": "world_card",
-            "key": "world_card:a-11beb44feb226d552a202143"
           },
           {
             "kind": "image",
@@ -1400,8 +1646,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg",
           "relation": "reference_same_entity",
-          "caption": "YĪN YĪN OBS 2024 15.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "caption": "同アーティストの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Schorle / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Schorle",
@@ -1424,7 +1678,15 @@
           "provider_id": "2sLMYvxNmHIYNx6re1WUM2",
           "source_url": "https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2",
           "title": "Yin Yin",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -1436,20 +1698,16 @@
         "variant": "grid"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-bd47266a5d530a1f56ba313e"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2"
         },
         "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-bd47266a5d530a1f56ba313e"
-          },
           {
             "kind": "image",
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
@@ -1474,7 +1732,25 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
+          "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "framing": "contain"
+        }
+      ],
       "world_card": {
         "key": "world_card:a-c2508f7155a0f0dd0a7a3bf7",
         "title": "アークナイツ — 一般資格証の交換条件が10月1日に更新",
@@ -1484,14 +1760,14 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-c2508f7155a0f0dd0a7a3bf7"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-c2508f7155a0f0dd0a7a3bf7"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_secondary": []
       },
@@ -1534,7 +1810,15 @@
           "provider_id": "1488490",
           "source_url": "https://store.steampowered.com/app/1488490/",
           "title": "Nivalis Nights — サイバーパンク都市で店と生活を作る新作 — Steamストア",
-          "type": "steam_embed"
+          "type": "steam_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -1546,21 +1830,16 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-a898a1a96de58ae58fe61d68"
+          "kind": "media",
+          "key": "media:https://store.steampowered.com/app/1488490/"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://store.steampowered.com/app/1488490/"
         },
-        "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-a898a1a96de58ae58fe61d68"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -1586,8 +1865,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Todagawa_Kodomo_Land_-_1.jpg",
           "relation": "reference_same_entity",
-          "caption": "Todagawa Kodomo Land - 1.jpg — 会場・とだがわこどもランドの参考写真。今回のイベント写真ではありません。",
+          "caption": "とだがわこどもランドの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "KKPCW（Kyu3） / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "KKPCW（Kyu3）",
@@ -1611,21 +1898,16 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-e6fe160577056a5346075362"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-e6fe160577056a5346075362"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -1664,8 +1946,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Anamanaguchi_Group_Photo.JPG",
           "relation": "reference_same_entity",
-          "caption": "Anamanaguchi Group Photo.JPG — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "caption": "同アーティストの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "IronCurtaiNYC / CC0 / Wikimedia Commons",
             "creator": "IronCurtaiNYC",
@@ -1689,7 +1979,15 @@
           "provider_id": "2UwJRAgSOi1zcLkvUNc8XL",
           "source_url": "https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL",
           "title": "Anamanaguchi",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -1701,20 +1999,16 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-bb64ec8be3ec294db2858d31"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-bb64ec8be3ec294db2858d31"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL"
         },
         "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL"
-          },
           {
             "kind": "image",
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
@@ -1739,7 +2033,25 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
+          "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "framing": "contain"
+        }
+      ],
       "price_terms": "基本プレイ無料。限定コーデ・パックは別売。",
       "world_card": {
         "key": "world_card:a-f5db1b40b98edb5f6b594249",
@@ -1750,14 +2062,14 @@
         "variant": "grid"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-f5db1b40b98edb5f6b594249"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-f5db1b40b98edb5f6b594249"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_secondary": []
       },
@@ -1798,8 +2110,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Bruno_Mars_Doowops.jpg",
           "relation": "reference_same_entity",
-          "caption": "Bruno Mars Doowops.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "caption": "同アーティストの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Brothers Le / CC BY 2.0 / Wikimedia Commons",
             "creator": "Brothers Le",
@@ -1822,7 +2142,31 @@
           "provider_id": "0du5cEVh5yTK9QJze8zA0C",
           "source_url": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
           "title": "Bruno Mars",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=v8x5tJzmI60",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "v8x5tJzmI60",
+          "source_url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
+          "title": "【Bruno Mars - The Romantic Tour in Japan】ブルーノ・マーズ、6都市12公演 史上最大級のジャパンドームツアー開催決定！ブルーノからメッセージが到着！",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -1834,19 +2178,19 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-97866892876150625b4ce595"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=v8x5tJzmI60"
         },
         "detail_primary": {
           "kind": "media",
-          "key": "media:https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"
+          "key": "media:https://www.youtube.com/watch?v=v8x5tJzmI60"
         },
         "detail_secondary": [
           {
-            "kind": "world_card",
-            "key": "world_card:a-97866892876150625b4ce595"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"
           },
           {
             "kind": "image",
@@ -1886,7 +2230,31 @@
           "provider_id": "5t2lTLT3wZEE37uBNyDrTY",
           "source_url": "https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY",
           "title": "VAIWATT",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=TCGGWghrVHQ",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "TCGGWghrVHQ",
+          "source_url": "https://ambience.jp/event/digital-shadows/",
+          "title": "VAIWATT NEW YORK TOUR  (Amityville - Manhattan - Brooklyn)",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -1898,19 +2266,19 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-3e3cdf1b4dee90a128396a7e"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ"
         },
         "detail_primary": {
           "kind": "media",
-          "key": "media:https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY"
+          "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ"
         },
         "detail_secondary": [
           {
-            "kind": "world_card",
-            "key": "world_card:a-3e3cdf1b4dee90a128396a7e"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY"
           }
         ]
       },
@@ -1942,8 +2310,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Shumokukan_ac_(2).jpg",
           "relation": "reference_same_entity",
-          "caption": "Shumokukan ac (2).jpg — 会場・文化のみち橦木館の参考写真。今回のイベント写真ではありません。",
+          "caption": "文化のみち橦木館の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Asturio Cantabrio / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Asturio Cantabrio",
@@ -1958,6 +2334,24 @@
       ],
       "venue": "文化のみち橦木館",
       "price_terms": "大人当日1,200円／前売1,000円、中学生以下無料。橦木館入館料は別途。",
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=KL-t7Hn6Ios",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "KL-t7Hn6Ios",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000987.000014948.html",
+          "title": "深堀隆介展－『金魚の唄』（きんぎょのうた）－チケット好評販売中！",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        }
+      ],
       "world_card": {
         "key": "world_card:a-048ccfa85b33fc86a5bca373",
         "title": "深堀隆介展『金魚の唄』―山田憲司・北川啓介との共創",
@@ -1967,14 +2361,14 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-048ccfa85b33fc86a5bca373"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=KL-t7Hn6Ios"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-048ccfa85b33fc86a5bca373"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=KL-t7Hn6Ios"
         },
         "detail_secondary": [
           {
@@ -2012,7 +2406,7 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-483c54bc23908a5dbbb0f1d5"
@@ -2053,7 +2447,7 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-a6798601ffd4d9dad14392c1"
@@ -2105,8 +2499,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:QOTSA_2007.jpg",
           "relation": "reference_same_entity",
-          "caption": "QOTSA 2007.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "caption": "同アーティストの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Fabio Venni from London, UK / CC BY-SA 2.0 / Wikimedia Commons",
             "creator": "Fabio Venni from London, UK",
@@ -2129,7 +2531,15 @@
           "provider_id": "4pejUc4iciQfgdX6OKulQn",
           "source_url": "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn",
           "title": "Queens of the Stone Age",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -2141,20 +2551,16 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-000f8527b956a63f74c8b376"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn"
         },
         "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-000f8527b956a63f74c8b376"
-          },
           {
             "kind": "image",
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
@@ -2198,8 +2604,16 @@
           "original_url": "https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg",
           "source_page": "https://www.flickr.com/photos/22812646@N00/10362761505",
           "relation": "reference_same_entity",
-          "caption": "Rival Consoles was worth staying up for. — 同じアーティスト・Rival Consolesの過去の演奏写真。今回の公演写真ではありません。",
+          "caption": "同アーティストの参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "johanna kollmann / CC BY 2.0 / Flickr (Openverse discovery)",
             "creator": "johanna kollmann",
@@ -2223,7 +2637,15 @@
           "provider_id": "05lIUgmmsmTX2N9dCKc8rC",
           "source_url": "https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC",
           "title": "Rival Consoles",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -2235,20 +2657,16 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-7f7810d7e4dba2ab87344f71"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC"
         },
         "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-7f7810d7e4dba2ab87344f71"
-          },
           {
             "kind": "image",
             "key": "image:https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg"
@@ -2279,8 +2697,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Tenpaku_Park.JPG",
           "relation": "reference_same_entity",
-          "caption": "Tenpaku Park.JPG — 会場・天白公園の参考写真。今回のイベント写真ではありません。",
+          "caption": "天白公園の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Hosousu / CC BY 4.0 / Wikimedia Commons",
             "creator": "Hosousu",
@@ -2295,6 +2721,24 @@
       ],
       "venue": "天白公園",
       "price_terms": "無料。",
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=ghMHuCEgpWU",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "ghMHuCEgpWU",
+          "source_url": "https://www.city.nagoya.jp/tempaku/profile/1036931/1025461.html",
+          "title": "散歩道「天白プロムナード」　天白公園コース",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "venue_reference",
+            "source_revalidated": true
+          }
+        }
+      ],
       "world_card": {
         "key": "world_card:a-86dd52b5fca063f5aa32ac65",
         "title": "天白公園自然観察会",
@@ -2304,19 +2748,19 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-86dd52b5fca063f5aa32ac65"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-86dd52b5fca063f5aa32ac65"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_secondary": [
           {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=ghMHuCEgpWU"
           }
         ]
       },
@@ -2348,8 +2792,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Toyota_tecno_museum.jpg",
           "relation": "reference_same_entity",
-          "caption": "Toyota tecno museum.jpg — 会場・トヨタ産業技術記念館の参考写真。今回の催事写真ではありません。",
+          "caption": "トヨタ産業技術記念館の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Bariston / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Bariston",
@@ -2373,21 +2825,16 @@
         "variant": "grid"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-01a7d973657ccc68fb70ac10"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-01a7d973657ccc68fb70ac10"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -2423,7 +2870,7 @@
         "variant": "grid"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-7d5d68f7aa7a73c8a9346563"
@@ -2467,7 +2914,7 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-678ab5f9a35dc5113e312a83"
@@ -2501,12 +2948,20 @@
       "price_terms": "1,500円。10:00～20:00、最終入場は閉場30分前、最終日は18:00閉場。",
       "media": [
         {
-          "type": "x_embed",
           "canonical_url": "https://x.com/parco_factory/status/2059107338955714797",
-          "provider_id": "2059107338955714797",
-          "title": "PARCO FACTORY公式開催告知（池袋会場）",
           "evidence_url": "https://help.x.com/en/using-x/how-to-embed-a-post",
-          "source_url": "https://x.com/parco_factory/status/2059107338955714797"
+          "provider_id": "2059107338955714797",
+          "source_url": "https://x.com/parco_factory/status/2059107338955714797",
+          "title": "PARCO FACTORY公式開催告知（池袋会場）",
+          "type": "x_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "unknown",
+            "entity_match": false,
+            "official_source": false,
+            "relation": "related_project",
+            "source_revalidated": false
+          }
         }
       ],
       "world_card": {
@@ -2518,7 +2973,7 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-9a67a8f724ad3f3ed7a12da1"
@@ -2527,12 +2982,7 @@
           "kind": "media",
           "key": "media:https://x.com/parco_factory/status/2059107338955714797"
         },
-        "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-9a67a8f724ad3f3ed7a12da1"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -2576,7 +3026,7 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-f6496eb4c10c514b08d6d898"
@@ -2617,12 +3067,20 @@
       "price_terms": "参加作品・割引率は開始後に個別確認。発売・価格変更から30日以内など割引制約があるため、直近新作が必ず対象になるとは限らない。",
       "media": [
         {
-          "type": "youtube_embed",
           "canonical_url": "https://www.youtube.com/watch?v=GTmrbdAQWaQ",
-          "provider_id": "GTmrbdAQWaQ",
-          "title": "Steam Autumn Sale 2026: Official Trailer",
           "evidence_url": "https://developers.google.com/youtube/player_parameters",
-          "source_url": "https://www.youtube.com/watch?v=GTmrbdAQWaQ"
+          "provider_id": "GTmrbdAQWaQ",
+          "source_url": "https://www.youtube.com/watch?v=GTmrbdAQWaQ",
+          "title": "Steam Autumn Sale 2026: Official Trailer",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -2634,21 +3092,16 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-c2744609ecf5b11db1d8b887"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ"
         },
-        "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-c2744609ecf5b11db1d8b887"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -2674,8 +3127,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Distillerie_bowmore.jpg",
           "relation": "reference_same_entity",
-          "caption": "Distillerie bowmore.jpg — ボウモア蒸溜所の参考写真。新商品のボトル画像ではありません。",
+          "caption": "ボウモア蒸溜所の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "http://fr.wikipedia.org/wiki/Utilisateur:Rodpollet / CC BY-SA 3.0 / Wikimedia Commons",
             "creator": "http://fr.wikipedia.org/wiki/Utilisateur:Rodpollet",
@@ -2698,21 +3159,16 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-9f879e56cf93b526236eb9ff"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-9f879e56cf93b526236eb9ff"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -2743,7 +3199,15 @@
           "source_page": "https://www.infineon.com/regional/korea/ko/press-release/2026/kor202609-09",
           "relation": "article_specific",
           "caption": "TLE9744QK公式製品写真 — © Infineon Technologies AG. Informational, non-commercial use.",
-          "mode": "saved"
+          "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "unknown",
+            "entity_match": false,
+            "official_source": false,
+            "relation": "article_specific",
+            "source_revalidated": false
+          }
         },
         {
           "url": "assets/images/32ad3884c41ebf5d7d460d92c6385d43d6350b6745f521132d759c57b29b9daa.jpg",
@@ -2751,7 +3215,15 @@
           "source_page": "https://www.infineon.com/technology-news/2026/inftn202609-137",
           "relation": "article_specific",
           "caption": "Infineon OPTIREG TLE9744QK — © Infineon Technologies AG. Informational, non-commercial use.",
-          "mode": "saved"
+          "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "unknown",
+            "entity_match": false,
+            "official_source": false,
+            "relation": "article_specific",
+            "source_revalidated": false
+          }
         }
       ],
       "price_terms": "置換対象比でPCB面積最大70%削減とのメーカー値。",
@@ -2764,7 +3236,7 @@
         "variant": "grid"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "image",
           "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2"
@@ -2777,10 +3249,6 @@
           {
             "kind": "image",
             "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi.jpg?cdh=attachment"
-          },
-          {
-            "kind": "world_card",
-            "key": "world_card:a-61512f53484a77c99b26447f"
           }
         ]
       },
@@ -2810,12 +3278,20 @@
       "price_terms": "無料、open source。TONE3000 accountでfavorites/private tones等を同期可能。",
       "media": [
         {
-          "type": "youtube_embed",
           "canonical_url": "https://www.youtube.com/watch?v=n1pjVTwa6LU",
-          "provider_id": "n1pjVTwa6LU",
-          "title": "The TONE3000 Plugin is Here",
           "evidence_url": "https://developers.google.com/youtube/player_parameters",
-          "source_url": "https://www.youtube.com/watch?v=n1pjVTwa6LU"
+          "provider_id": "n1pjVTwa6LU",
+          "source_url": "https://www.youtube.com/watch?v=n1pjVTwa6LU",
+          "title": "The TONE3000 Plugin is Here",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -2827,21 +3303,16 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-3cf54000d810efd7e77b22ac"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=n1pjVTwa6LU"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://www.youtube.com/watch?v=n1pjVTwa6LU"
         },
-        "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-3cf54000d810efd7e77b22ac"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -2872,7 +3343,7 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-b002eefa738f842163436c80"
@@ -2907,8 +3378,16 @@
           "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source_page": "https://commons.wikimedia.org/wiki/File:Osamu-tezuka-713539.jpg",
           "relation": "reference_same_entity",
-          "caption": "Osamu-tezuka-713539.jpg — 作品作者・手塚治虫の参考写真。掲載作品の表紙ではありません。",
+          "caption": "作者・手塚治虫の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Mutaito890 / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Mutaito890",
@@ -2932,21 +3411,16 @@
         "variant": "grid"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-e9c2a77708a2edbbca20352e"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-e9c2a77708a2edbbca20352e"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ENDED"
     },
@@ -2972,8 +3446,16 @@
           "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source_page": "https://commons.wikimedia.org/wiki/File:Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto,_Japan.jpg",
           "relation": "reference_same_entity",
-          "caption": "Illuminated white and purple facade of the office building Rohm Semiconductor in Kyoto, Japan.jpg — ROHMの社屋の参考写真。採用された半導体や車両の画像ではありません。",
+          "caption": "ROHM社屋の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "Basile Morin / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Basile Morin",
@@ -2995,21 +3477,16 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-c0297c14f885cd3075dddaee"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-c0297c14f885cd3075dddaee"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     },
@@ -3035,8 +3512,16 @@
           "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source_page": "https://commons.wikimedia.org/wiki/File:Onsemi_factory,_Senawang.jpg",
           "relation": "reference_same_entity",
-          "caption": "Onsemi factory, Senawang.jpg — onsemiの工場の参考写真。Embedded Power Platform製品の画像ではありません。",
+          "caption": "onsemi工場の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "AyyanD / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "AyyanD",
@@ -3052,12 +3537,20 @@
       "price_terms": "戦略顧客向けに2026年サンプル予定。",
       "media": [
         {
-          "type": "youtube_embed",
           "canonical_url": "https://www.youtube.com/watch?v=KPt26AzAZU4",
-          "provider_id": "KPt26AzAZU4",
-          "title": "Embedded Power Platform Transforms Power System Design",
           "evidence_url": "https://developers.google.com/youtube/player_parameters",
-          "source_url": "https://www.youtube.com/watch?v=KPt26AzAZU4"
+          "provider_id": "KPt26AzAZU4",
+          "source_url": "https://www.youtube.com/watch?v=KPt26AzAZU4",
+          "title": "Embedded Power Platform Transforms Power System Design",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -3069,20 +3562,16 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-4298267034eeb8621be391a7"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=KPt26AzAZU4"
         },
         "detail_primary": {
           "kind": "media",
           "key": "media:https://www.youtube.com/watch?v=KPt26AzAZU4"
         },
         "detail_secondary": [
-          {
-            "kind": "world_card",
-            "key": "world_card:a-4298267034eeb8621be391a7"
-          },
           {
             "kind": "image",
             "key": "image:https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
@@ -3107,7 +3596,25 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
+          "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "framing": "contain"
+        }
+      ],
       "price_terms": "記録復元は常設追加。",
       "world_card": {
         "key": "world_card:a-dcba414cdca0fba5e21ffb28",
@@ -3118,14 +3625,14 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-dcba414cdca0fba5e21ffb28"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-dcba414cdca0fba5e21ffb28"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_secondary": []
       },
@@ -3160,7 +3667,31 @@
           "provider_id": "pv8A7eubPQQ",
           "source_url": "https://chainsawman.dog/movie/",
           "title": "“Chainsaw Man – The Movie: Reze Arc” - Main Trailer／劇場版『チェンソーマン レゼ篇』本予告",
-          "type": "youtube_embed"
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "unknown",
+            "entity_match": false,
+            "official_source": false,
+            "relation": "unknown",
+            "source_revalidated": false
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=pGfbjf9lBkA",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "pGfbjf9lBkA",
+          "source_url": "https://chainsawman.dog/news/260825_01/",
+          "title": "劇場版『#チェンソーマン レゼ篇』がついにプライムビデオで独占配信開始！！ #レゼ篇独占",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -3172,19 +3703,19 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-a22b296d0b900261847b548a"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=pGfbjf9lBkA"
         },
         "detail_primary": {
           "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=pv8A7eubPQQ"
+          "key": "media:https://www.youtube.com/watch?v=pGfbjf9lBkA"
         },
         "detail_secondary": [
           {
-            "kind": "world_card",
-            "key": "world_card:a-a22b296d0b900261847b548a"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=pv8A7eubPQQ"
           }
         ]
       },
@@ -3219,7 +3750,31 @@
           "provider_id": "3669870",
           "source_url": "https://store.steampowered.com/app/3669870/",
           "title": "CONTROL Resonant — Steamストア",
-          "type": "steam_embed"
+          "type": "steam_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=e1_eZyFM5-4",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "e1_eZyFM5-4",
+          "source_url": "https://blog.playstation.com/2025/12/11/control-resonant-brings-a-new-paranatural-crisis-to-ps5-out-2026/",
+          "title": "Control Resonant - Announcement Trailer | PS5 Games",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -3231,19 +3786,19 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-9c591dacf25fa1afa6d6bc2d"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=e1_eZyFM5-4"
         },
         "detail_primary": {
           "kind": "media",
-          "key": "media:https://store.steampowered.com/app/3669870/"
+          "key": "media:https://www.youtube.com/watch?v=e1_eZyFM5-4"
         },
         "detail_secondary": [
           {
-            "kind": "world_card",
-            "key": "world_card:a-9c591dacf25fa1afa6d6bc2d"
+            "kind": "media",
+            "key": "media:https://store.steampowered.com/app/3669870/"
           }
         ]
       },
@@ -3271,8 +3826,16 @@
           "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source_page": "https://commons.wikimedia.org/wiki/File:Japanese_actor-Koji_Yakusho_Ffa2.png",
           "relation": "reference_same_entity",
-          "caption": "Japanese actor-Koji Yakusho Ffa2.png — 出演者・役所広司の参考写真。Netflix作品の場面写真ではありません。",
+          "caption": "出演者・役所広司の参考写真",
           "mode": "saved",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
           "attribution": {
             "attribution": "File:Ffa2.jpg:  Efloch\nDerivative work: Eastmain / CC BY-SA 3.0 / Wikimedia Commons",
             "creator": "File:Ffa2.jpg:  Efloch\nDerivative work: Eastmain",
@@ -3293,7 +3856,31 @@
           "provider_id": "MxQQ1S0N_wE",
           "source_url": "https://about.netflix.com/en/news/did-someone-happen-to-mention-me-main-trailer",
           "title": "Netflix『俺のこと、なんか言ってた？』 — Netflix公式予告",
-          "type": "youtube_embed"
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=-tUulrroh6A",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "-tUulrroh6A",
+          "source_url": "https://about.netflix.com/ja/news/did-someone-happen-to-mention-me-teaser",
+          "title": "「俺のこと、なんか言ってた？」ティーザー予告編 - Netflix",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -3305,19 +3892,19 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-b2a798191e25c0fe70804d14"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=-tUulrroh6A"
         },
         "detail_primary": {
           "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=MxQQ1S0N_wE"
+          "key": "media:https://www.youtube.com/watch?v=-tUulrroh6A"
         },
         "detail_secondary": [
           {
-            "kind": "world_card",
-            "key": "world_card:a-b2a798191e25c0fe70804d14"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=MxQQ1S0N_wE"
           },
           {
             "kind": "image",
@@ -3355,7 +3942,7 @@
         "variant": "orbit"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-4269498568372099222789ff"
@@ -3402,7 +3989,15 @@
           "provider_id": "6vMtJp5d41Gi2ApvUHhX7j",
           "source_url": "https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j",
           "title": "Pozo de Agua",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         },
         {
           "canonical_url": "https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd",
@@ -3410,7 +4005,15 @@
           "provider_id": "4LLrhUqUv2Mi1NhHz0pjXd",
           "source_url": "https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd",
           "title": "Le Motel",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -3422,20 +4025,16 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-2361950123a99ecab7ebeb6a"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-2361950123a99ecab7ebeb6a"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j"
         },
         "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j"
-          },
           {
             "kind": "media",
             "key": "media:https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd"
@@ -3476,7 +4075,7 @@
         "variant": "field"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
           "kind": "world_card",
           "key": "world_card:a-0bc5fc2167a141be1439b2f6"
@@ -3519,7 +4118,15 @@
           "provider_id": "3nNB3aUZ2UyODwiciU2k3N",
           "source_url": "https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N",
           "title": "Steve Bates",
-          "type": "spotify_embed"
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
         }
       ],
       "world_card": {
@@ -3531,21 +4138,16 @@
         "variant": "signal"
       },
       "display_selection": {
-        "selector_version": 2,
+        "selector_version": 4,
         "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-602e00baa29b017c13070373"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-602e00baa29b017c13070373"
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N"
         },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N"
-          }
-        ]
+        "detail_secondary": []
       },
       "lifecycle": "ACTIVE"
     }
