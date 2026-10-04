@@ -71,12 +71,45 @@
           "name": "Fontaines D.C."
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/2c8c73a58a80f52f7e5fa0c79ba013208e4223d2482c36e955e4a8e2e4484a98.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Fontaines_DC_at_Loose_Ends_2019.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Fontaines DC at Loose Ends 2019.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Gruesome Gary",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Fontaines_DC_at_Loose_Ends_2019.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Fontaines_DC_at_Loose_Ends_2019.jpg",
+            "attribution": "Gruesome Gary / CC BY-SA 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2027-01-29",
       "deadline_at": "2026-10-12T23:59:00+09:00",
       "venue": "DIAMOND HALL",
       "city": "名古屋市",
       "price_terms": "スタンディング11,000円、ドリンク代別。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/2c8c73a58a80f52f7e5fa0c79ba013208e4223d2482c36e955e4a8e2e4484a98.jpg"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
+          "provider_id": "3SXwqSqAoBz9WCI9PDQzY6",
+          "title": "Fontaines D.C.",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -103,7 +136,32 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/61a9bced4f2eff4254c9743031ea859a834d7f92bb3024008b4f927cda13e0e1.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Distillers_of_Nagahama_Distillery.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Distillers of Nagahama Distillery.jpg — 長濱蒸溜所の蒸溜器の参考写真。今回発売のボトル画像ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Fluoros jp",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Distillers_of_Nagahama_Distillery.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Distillers_of_Nagahama_Distillery.jpg",
+            "attribution": "Fluoros jp / CC BY-SA 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/61a9bced4f2eff4254c9743031ea859a834d7f92bb3024008b4f927cda13e0e1.jpg"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -168,6 +226,16 @@
       "spotify": [],
       "images": [],
       "price_terms": "Prime会員特典。",
+      "media": [
+        {
+          "type": "youtube_embed",
+          "canonical_url": "https://www.youtube.com/watch?v=dyJJJgako-w",
+          "provider_id": "dyJJJgako-w",
+          "title": "映画『８番出口』予告【8月29日(金)公開】",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "source_url": "https://exit8-movie.toho.co.jp/"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -195,11 +263,44 @@
           "name": "Radiohead"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/c5ae13eb6545fe201484ddeb0a9aeea7ac7aa61093ec02677da00d04e7603b41.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:2025_Radiohead_live_concert_at_Uber_Arena,_Berlin_102.jpg",
+          "relation": "reference_same_entity",
+          "caption": "2025 Radiohead live concert at Uber Arena, Berlin 102.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Raph_PH",
+            "license": "CC BY 4.0",
+            "license_url": "https://creativecommons.org/licenses/by/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:2025_Radiohead_live_concert_at_Uber_Arena,_Berlin_102.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:2025_Radiohead_live_concert_at_Uber_Arena,_Berlin_102.jpg",
+            "attribution": "Raph_PH / CC BY 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2027-06-08",
       "venue": "GMO Arena Saitama",
       "city": "さいたま市",
       "price_terms": "スタンディング26,000円、指定席15,000〜30,000円、Fast Track Status 59,800円。転売・名義変更不可。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/c5ae13eb6545fe201484ddeb0a9aeea7ac7aa61093ec02677da00d04e7603b41.jpg"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
+          "provider_id": "4Z8W4fKeB5YxbusRsdQVPb",
+          "title": "Radiohead",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -223,11 +324,44 @@
           "name": "feeble little horse"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/e3c82d5183ed74fa9bc6cef85c80d79b6c8c3cbfbffae310135db9f56038d548.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Feeble_Little_Horse,_2025-04-26.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Feeble Little Horse, 2025-04-26.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Redolta",
+            "license": "CC0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Feeble_Little_Horse,_2025-04-26.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Feeble_Little_Horse,_2025-04-26.jpg",
+            "attribution": "Redolta / CC0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2027-03-12",
       "venue": "代官山 SPACE ODD",
       "city": "東京",
       "price_terms": "7,500円（税込・All Standing・1Drink別）。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/e3c82d5183ed74fa9bc6cef85c80d79b6c8c3cbfbffae310135db9f56038d548.jpg"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8",
+          "provider_id": "2GJa7lPCjAB1rKXptXrfy8",
+          "title": "feeble little horse",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -334,11 +468,44 @@
           "name": "DOMi & JD BECK"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/b4cb4a28f4d6a5aedce6bd9ea280c573db105d53f707caacc36f490d0d5387a9.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Domi_and_JD_Beck_at_History.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Domi and JD Beck at History.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Makeworldpedia",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Domi_and_JD_Beck_at_History.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Domi_and_JD_Beck_at_History.jpg",
+            "attribution": "Makeworldpedia / CC BY-SA 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2026-12-18",
       "venue": "名古屋CLUB QUATTRO",
       "city": "名古屋市",
       "price_terms": "9,900円（税込・All Standing・別途1ドリンク）。未就学児入場不可。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/b4cb4a28f4d6a5aedce6bd9ea280c573db105d53f707caacc36f490d0d5387a9.jpg"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U",
+          "provider_id": "4UpA1KitN1RgIZVyWDbZ0U",
+          "title": "DOMi & JD BECK",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -375,6 +542,24 @@
       "venue": "名古屋CLUB QUATTRO",
       "city": "名古屋市",
       "price_terms": "前売5,500円（税込・オールスタンディング・ドリンク代別）。",
+      "media": [
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
+          "provider_id": "5b3ZFm6P1lpZIASMDnBDs9",
+          "title": "Kan Sano",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
+          "provider_id": "5ZmDD0nqtQJBF11wXY9Kvl",
+          "title": "With Love feat. luv",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -401,8 +586,41 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/b5c77e53791d78c8126482e9391104ca67b9626dbc6ecf31929909d66d333765.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source_page": "https://commons.wikimedia.org/wiki/File:System_Shock_2_Logo.png",
+          "relation": "reference_same_entity",
+          "caption": "System Shock 2 Logo.png — System Shock 2の作品ロゴ。Remaster版のスクリーンショットではありません。商標の権利は各権利者に帰属します。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "EA",
+            "license": "Public domain",
+            "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:System_Shock_2_Logo.png",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:System_Shock_2_Logo.png",
+            "attribution": "EA / Public domain / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "price_terms": "期間中0円配布予定／実施枠。通常価格表示はEpic商品ページで地域により異なる。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/b5c77e53791d78c8126482e9391104ca67b9626dbc6ecf31929909d66d333765.png"
+        },
+        {
+          "type": "steam_embed",
+          "canonical_url": "https://store.steampowered.com/app/866570/",
+          "provider_id": "866570",
+          "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布 — Steamストア",
+          "evidence_url": "https://partner.steamgames.com/doc/marketing/widget",
+          "source_url": "https://store.steampowered.com/app/866570/"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -446,6 +664,32 @@
       "venue": "Spotify O-EAST / Spotify O-WEST / duo MUSIC EXCHANGE",
       "city": "東京都渋谷区",
       "price_terms": "スタンディング9,800円。指定席付入場券は15,500〜16,500円、いずれもドリンク代別。未就学児入場不可。",
+      "media": [
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE",
+          "provider_id": "15B9FrdU78YP1NVHRekesE",
+          "title": "WONK",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb",
+          "provider_id": "6cMnpAZ9QN0wn4dVd0Tinb",
+          "title": "TENDRE",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB",
+          "provider_id": "2Gy7SZvabW5UQgL0oljfeB",
+          "title": "luv",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -489,9 +733,34 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/ad263c498d299c48c02c025e4f1e103fd59025a51bfbe3ebfcce3273de06872a.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Arimahuji_park.JPG",
+          "relation": "reference_same_entity",
+          "caption": "Arimahuji park.JPG — 会場・有馬富士公園の参考写真。2027年の公演写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "おぉたむすねィく探検隊 (Autumn Snake)",
+            "license": "CC BY-SA 2.5",
+            "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Arimahuji_park.JPG",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Arimahuji_park.JPG",
+            "attribution": "おぉたむすねィく探検隊 (Autumn Snake) / CC BY-SA 2.5 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2027-05-15",
       "venue": "有馬富士公園",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/ad263c498d299c48c02c025e4f1e103fd59025a51bfbe3ebfcce3273de06872a.jpg"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -510,10 +779,35 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/c8c4945a3b3a7c221a800f778a6d88ddf8d1cc8acfa5ddfda53e42698396c18f.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Asagiri_Jam%2717_(37565684272).jpg",
+          "relation": "reference_same_entity",
+          "caption": "Asagiri Jam'17 (37565684272).jpg — 同じ朝霧JAMの2017年の参考写真。2026年の現地写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "t.kunikuni from Japan",
+            "license": "CC BY-SA 2.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Asagiri_Jam%2717_(37565684272).jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Asagiri_Jam%2717_(37565684272).jpg",
+            "attribution": "t.kunikuni from Japan / CC BY-SA 2.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2026-10-10",
       "venue": "朝霧アリーナ 中央砂利スペース",
       "price_terms": "参加無料。宿泊・BBQ等は別途自分で手配。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/c8c4945a3b3a7c221a800f778a6d88ddf8d1cc8acfa5ddfda53e42698396c18f.jpg"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -541,6 +835,16 @@
       "event_date": "2026-10-09",
       "venue": "NAGOYA CLUB QUATTRO",
       "price_terms": "前売5,500円、ドリンク代別。未就学児入場不可。",
+      "media": [
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq",
+          "provider_id": "4J9kLpFakm3b9gYfdFfkAq",
+          "title": "FCO.",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -572,10 +876,51 @@
           "name": "CHO CO PA CO CHO CO QUIN QUIN"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/05afb362d258ae2d55475a9f2daa43224b26c3bdecc59d72482c20a61e64ead4.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Minyo_Crusaders_2023.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Minyo Crusaders 2023.jpg — 出演者・民謡クルセイダーズの参考写真。今回の公演写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Tortillovsky",
+            "license": "CC BY 4.0",
+            "license_url": "https://creativecommons.org/licenses/by/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Minyo_Crusaders_2023.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Minyo_Crusaders_2023.jpg",
+            "attribution": "Tortillovsky / CC BY 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2026-10-24",
       "venue": "渋谷 代々木公園 野外ステージ アースガーデン“秋”内",
       "price_terms": "1日2,000円／2日6,000円（税込）。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/05afb362d258ae2d55475a9f2daa43224b26c3bdecc59d72482c20a61e64ead4.jpg"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG",
+          "provider_id": "1zpJ58qKOgKcWge9iaFxHG",
+          "title": "民謡クルセイダーズ",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C",
+          "provider_id": "3mWeBqMtDhKO66qel3iO2C",
+          "title": "CHO CO PA CO CHO CO QUIN QUIN",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -599,10 +944,43 @@
           "name": "Yin Yin"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/ad49f8879568e63e174fd1fa099cdf8beaf03b2c6fc7f5833dc82a97746c8d45.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg",
+          "relation": "reference_same_entity",
+          "caption": "YĪN YĪN OBS 2024 15.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Schorle",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg",
+            "attribution": "Schorle / CC BY-SA 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2026-10-15",
       "venue": "NAGOYA CLUB QUATTRO",
       "price_terms": "前売6,500円、ドリンク別。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/ad49f8879568e63e174fd1fa099cdf8beaf03b2c6fc7f5833dc82a97746c8d45.jpg"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2",
+          "provider_id": "2sLMYvxNmHIYNx6re1WUM2",
+          "title": "Yin Yin",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -654,6 +1032,16 @@
       "spotify": [],
       "images": [],
       "price_terms": "日本向けSteam表示で通常3,150円、ローンチ10%OFF 2,835円（補完時確認）。購入時に日本ストアの現在価格を確認。",
+      "media": [
+        {
+          "type": "steam_embed",
+          "canonical_url": "https://store.steampowered.com/app/1488490/",
+          "provider_id": "1488490",
+          "title": "Nivalis Nights — サイバーパンク都市で店と生活を作る新作 — Steamストア",
+          "evidence_url": "https://partner.steamgames.com/doc/marketing/widget",
+          "source_url": "https://store.steampowered.com/app/1488490/"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -672,9 +1060,34 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/75754f0c1a9949ae39d5e1185a13b00c3b75c9b98cc4e060a8164c8312fbdfa5.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Todagawa_Kodomo_Land_-_1.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Todagawa Kodomo Land - 1.jpg — 会場・とだがわこどもランドの参考写真。今回のイベント写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "KKPCW（Kyu3）",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Todagawa_Kodomo_Land_-_1.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Todagawa_Kodomo_Land_-_1.jpg",
+            "attribution": "KKPCW（Kyu3） / CC BY-SA 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "venue": "meitoこどもランド・とだがわ(とだがわこどもランド)会議室",
       "price_terms": "無料、部品代のみ実費。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/75754f0c1a9949ae39d5e1185a13b00c3b75c9b98cc4e060a8164c8312fbdfa5.jpg"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -706,10 +1119,43 @@
           "name": "Anamanaguchi"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/abbabd9c24b2e586cff9eec757fca4277d7c96a0b3e9e84a2fc3c6b799db150e.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Anamanaguchi_Group_Photo.JPG",
+          "relation": "reference_same_entity",
+          "caption": "Anamanaguchi Group Photo.JPG — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "IronCurtaiNYC",
+            "license": "CC0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Anamanaguchi_Group_Photo.JPG",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Anamanaguchi_Group_Photo.JPG",
+            "attribution": "IronCurtaiNYC / CC0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2026-10-13",
       "venue": "duo MUSIC EXCHANGE",
       "price_terms": "前売8,200円、ドリンク別。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/abbabd9c24b2e586cff9eec757fca4277d7c96a0b3e9e84a2fc3c6b799db150e.jpg"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL",
+          "provider_id": "2UwJRAgSOi1zcLkvUNc8XL",
+          "title": "Anamanaguchi",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -761,10 +1207,43 @@
           "name": "Bruno Mars"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/41e3abe860a2ef18b236272b09847e2b641da7f7cd6cd5e105dd84e47da30fb4.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bruno_Mars_Doowops.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Bruno Mars Doowops.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Brothers Le",
+            "license": "CC BY 2.0",
+            "license_url": "https://creativecommons.org/licenses/by/2.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Bruno_Mars_Doowops.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Bruno_Mars_Doowops.jpg",
+            "attribution": "Brothers Le / CC BY 2.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2027-01-05",
       "venue": "Vantelin Dome Nagoya",
       "price_terms": "券種別価格と残席は公式購入先で確認。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/41e3abe860a2ef18b236272b09847e2b641da7f7cd6cd5e105dd84e47da30fb4.jpg"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
+          "provider_id": "0du5cEVh5yTK9QJze8zA0C",
+          "title": "Bruno Mars",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -790,6 +1269,16 @@
       ],
       "images": [],
       "venue": "栄 TIGHT ROPE",
+      "media": [
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY",
+          "provider_id": "5t2lTLT3wZEE37uBNyDrTY",
+          "title": "VAIWATT",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -812,9 +1301,34 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/5c7b971efa81288ecd06f0fc744a6c8a1b324eff1a342530136150c745e83842.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Shumokukan_ac_(2).jpg",
+          "relation": "reference_same_entity",
+          "caption": "Shumokukan ac (2).jpg — 会場・文化のみち橦木館の参考写真。今回のイベント写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Asturio Cantabrio",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Shumokukan_ac_(2).jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Shumokukan_ac_(2).jpg",
+            "attribution": "Asturio Cantabrio / CC BY-SA 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "venue": "文化のみち橦木館",
       "price_terms": "大人当日1,200円／前売1,000円、中学生以下無料。橦木館入館料は別途。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/5c7b971efa81288ecd06f0fc744a6c8a1b324eff1a342530136150c745e83842.jpg"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -891,10 +1405,43 @@
           "name": "Queens of the Stone Age"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/873fb6628ea3f9e998c27578efc6e4b88435089f6d25a0f6de89dee867dcb481.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:QOTSA_2007.jpg",
+          "relation": "reference_same_entity",
+          "caption": "QOTSA 2007.jpg — 同じアーティストの過去の参考写真。今回の公演・発売時点の写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Fabio Venni from London, UK",
+            "license": "CC BY-SA 2.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:QOTSA_2007.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:QOTSA_2007.jpg",
+            "attribution": "Fabio Venni from London, UK / CC BY-SA 2.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2026-11-26",
       "venue": "Zepp Nagoya",
       "price_terms": "1階11,000円／2階13,000円、ドリンク別。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/873fb6628ea3f9e998c27578efc6e4b88435089f6d25a0f6de89dee867dcb481.jpg"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn",
+          "provider_id": "4pejUc4iciQfgdX6OKulQn",
+          "title": "Queens of the Stone Age",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -926,10 +1473,43 @@
           "name": "Rival Consoles"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/1651dfc30dddd9b5d40c4e317ae7759b188a7cb200aac7af187c450d9e387836.jpg",
+          "original_url": "https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg",
+          "source_page": "https://www.flickr.com/photos/22812646@N00/10362761505",
+          "relation": "reference_same_entity",
+          "caption": "Rival Consoles was worth staying up for. — 同じアーティスト・Rival Consolesの過去の演奏写真。今回の公演写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "johanna kollmann",
+            "license": "CC BY 2.0",
+            "license_url": "https://creativecommons.org/licenses/by/2.0/",
+            "file_page_url": "https://www.flickr.com/photos/22812646@N00/10362761505",
+            "evidence_url": "https://www.flickr.com/photos/22812646@N00/10362761505",
+            "attribution": "johanna kollmann / CC BY 2.0 / Flickr (Openverse discovery)",
+            "source": "Flickr (Openverse discovery)",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "event_date": "2026-11-19",
       "venue": "WWW X / CIRCUS OSAKA",
       "price_terms": "前売7,800円、ドリンク別。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/1651dfc30dddd9b5d40c4e317ae7759b188a7cb200aac7af187c450d9e387836.jpg"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC",
+          "provider_id": "05lIUgmmsmTX2N9dCKc8rC",
+          "title": "Rival Consoles",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -948,9 +1528,34 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/5b7cd7e2e60973235543b5f819fb4682fef02dbf79af236f69482cd30b79fbb5.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Tenpaku_Park.JPG",
+          "relation": "reference_same_entity",
+          "caption": "Tenpaku Park.JPG — 会場・天白公園の参考写真。今回のイベント写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Hosousu",
+            "license": "CC BY 4.0",
+            "license_url": "https://creativecommons.org/licenses/by/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Tenpaku_Park.JPG",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Tenpaku_Park.JPG",
+            "attribution": "Hosousu / CC BY 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "venue": "天白公園",
       "price_terms": "無料。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/5b7cd7e2e60973235543b5f819fb4682fef02dbf79af236f69482cd30b79fbb5.jpg"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -973,9 +1578,34 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/e89225354abad9fdb8a30b2919e0a5e912c2ec11e31ed9a0b37767c2439c84a6.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Toyota_tecno_museum.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Toyota tecno museum.jpg — 会場・トヨタ産業技術記念館の参考写真。今回の催事写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Bariston",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Toyota_tecno_museum.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Toyota_tecno_museum.jpg",
+            "attribution": "Bariston / CC BY-SA 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "venue": "トヨタ産業技術記念館",
       "price_terms": "トヨタ産業技術記念館の入館条件に準拠。企画展追加料金の有無は来館前に公式詳細を確認。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/e89225354abad9fdb8a30b2919e0a5e912c2ec11e31ed9a0b37767c2439c84a6.jpg"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -1125,8 +1755,33 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/ff079538694696648fc7343241e704981a3c52c55a5552e88e6b4d2870631438.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Distillerie_bowmore.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Distillerie bowmore.jpg — ボウモア蒸溜所の参考写真。新商品のボトル画像ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "http://fr.wikipedia.org/wiki/Utilisateur:Rodpollet",
+            "license": "CC BY-SA 3.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Distillerie_bowmore.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Distillerie_bowmore.jpg",
+            "attribution": "http://fr.wikipedia.org/wiki/Utilisateur:Rodpollet / CC BY-SA 3.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "price_terms": "700ml、税別希望小売価格：9年4,000円、シェリー12年7,590円、15年13,754円、18年19,320円。販売店価格は異なりうる。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/ff079538694696648fc7343241e704981a3c52c55a5552e88e6b4d2870631438.jpg"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -1230,9 +1885,34 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/c296fd54dfdf3a5510e0dc1eae047d64299c990b14015ffff4be3fb62900177d.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Osamu-tezuka-713539.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Osamu-tezuka-713539.jpg — 作品作者・手塚治虫の参考写真。掲載作品の表紙ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Mutaito890",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Osamu-tezuka-713539.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Osamu-tezuka-713539.jpg",
+            "attribution": "Mutaito890 / CC BY-SA 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "deadline_at": "2026-09-30",
       "price_terms": "公式案内では各99円。価格は変動し得る。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/c296fd54dfdf3a5510e0dc1eae047d64299c990b14015ffff4be3fb62900177d.jpg"
+        }
+      ],
       "lifecycle": "ENDED"
     },
     {
@@ -1251,7 +1931,32 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/cd5f828676f6c399df1ebad6ad0d3f7e566cda473c49298ff94f844c53e30be1.jpg",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto,_Japan.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Illuminated white and purple facade of the office building Rohm Semiconductor in Kyoto, Japan.jpg — ROHMの社屋の参考写真。採用された半導体や車両の画像ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "Basile Morin",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto,_Japan.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto,_Japan.jpg",
+            "attribution": "Basile Morin / CC BY-SA 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/cd5f828676f6c399df1ebad6ad0d3f7e566cda473c49298ff94f844c53e30be1.jpg"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -1270,8 +1975,33 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/dbcc69f3d20c998d7d54a54fa1096984072802a7372c9a9c42fdec515fa6b78c.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Onsemi_factory,_Senawang.jpg",
+          "relation": "reference_same_entity",
+          "caption": "Onsemi factory, Senawang.jpg — onsemiの工場の参考写真。Embedded Power Platform製品の画像ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "AyyanD",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Onsemi_factory,_Senawang.jpg",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Onsemi_factory,_Senawang.jpg",
+            "attribution": "AyyanD / CC BY-SA 4.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "price_terms": "戦略顧客向けに2026年サンプル予定。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/dbcc69f3d20c998d7d54a54fa1096984072802a7372c9a9c42fdec515fa6b78c.jpg"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -1316,6 +2046,16 @@
       "spotify": [],
       "images": [],
       "price_terms": "Prime会員特典対象。配信予定・対象条件は変更される可能性あり。",
+      "media": [
+        {
+          "type": "youtube_embed",
+          "canonical_url": "https://www.youtube.com/watch?v=pv8A7eubPQQ",
+          "provider_id": "pv8A7eubPQQ",
+          "title": "“Chainsaw Man – The Movie: Reze Arc” - Main Trailer／劇場版『チェンソーマン レゼ篇』本予告",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "source_url": "https://chainsawman.dog/movie/"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -1340,6 +2080,16 @@
       "spotify": [],
       "images": [],
       "price_terms": "Epic表示では通常価格。Steam sale対象・割引率は開始後確認。",
+      "media": [
+        {
+          "type": "steam_embed",
+          "canonical_url": "https://store.steampowered.com/app/3669870/",
+          "provider_id": "3669870",
+          "title": "CONTROL Resonant — Steamストア",
+          "evidence_url": "https://partner.steamgames.com/doc/marketing/widget",
+          "source_url": "https://store.steampowered.com/app/3669870/"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -1358,8 +2108,41 @@
         }
       ],
       "spotify": [],
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/ac756b7dd84c87d098ac6d728cc8f7b5e994cffd09559ca29201e6be968efa8d.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Japanese_actor-Koji_Yakusho_Ffa2.png",
+          "relation": "reference_same_entity",
+          "caption": "Japanese actor-Koji Yakusho Ffa2.png — 出演者・役所広司の参考写真。Netflix作品の場面写真ではありません。",
+          "mode": "saved",
+          "attribution": {
+            "creator": "File:Ffa2.jpg:  Efloch\nDerivative work: Eastmain",
+            "license": "CC BY-SA 3.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Japanese_actor-Koji_Yakusho_Ffa2.png",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Japanese_actor-Koji_Yakusho_Ffa2.png",
+            "attribution": "File:Ffa2.jpg:  Efloch\nDerivative work: Eastmain / CC BY-SA 3.0 / Wikimedia Commons",
+            "source": "Wikimedia Commons",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。"
+          }
+        }
+      ],
       "price_terms": "Netflix契約が必要。",
+      "media": [
+        {
+          "type": "static_image",
+          "image_url": "assets/images/ac756b7dd84c87d098ac6d728cc8f7b5e994cffd09559ca29201e6be968efa8d.png"
+        },
+        {
+          "type": "youtube_embed",
+          "canonical_url": "https://www.youtube.com/watch?v=MxQQ1S0N_wE",
+          "provider_id": "MxQQ1S0N_wE",
+          "title": "Netflix『俺のこと、なんか言ってた？』 — Netflix公式予告",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "source_url": "https://about.netflix.com/en/news/did-someone-happen-to-mention-me-main-trailer"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -1410,6 +2193,24 @@
       ],
       "images": [],
       "price_terms": "Digital $5 USD or more / Vinyl $20 USD or more。海外送料・税は別途。",
+      "media": [
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j",
+          "provider_id": "6vMtJp5d41Gi2ApvUHhX7j",
+          "title": "Pozo de Agua",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j"
+        },
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd",
+          "provider_id": "4LLrhUqUv2Mi1NhHz0pjXd",
+          "title": "Le Motel",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd"
+        }
+      ],
       "lifecycle": "ACTIVE"
     },
     {
@@ -1460,6 +2261,16 @@
       ],
       "images": [],
       "price_terms": "Digital £5、CD £9、LP £17（通常価格表示時）。海外送料・税は別途。",
+      "media": [
+        {
+          "type": "spotify_embed",
+          "canonical_url": "https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N",
+          "provider_id": "3nNB3aUZ2UyODwiciU2k3N",
+          "title": "Steve Bates",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "source_url": "https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N"
+        }
+      ],
       "lifecycle": "ACTIVE"
     }
   ]
