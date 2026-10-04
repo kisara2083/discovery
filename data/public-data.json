@@ -106,7 +106,8 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "public_detail": "ダブリン出身の5人組で、ポストパンク／オルタナティブ・ロックを軸に、荒いヴォーカル、推進力の強いリズム、ギターの反復を特徴とするバンド。初期の切迫したサウンドから、近作ではよりメロディックで実験的な音像へ広げている。"
     },
     {
       "id": "a-047f457703c08d1b21bdb4f7",
@@ -226,7 +227,8 @@
           "type": "youtube_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "public_detail": "無限に続く地下通路から脱出するため、周囲に「異変」があるかを見極め、異変があれば引き返し、なければ進むというルールが中心。見落とすと0番出口へ戻される反復構造を映画として組み立てている。"
     },
     {
       "id": "a-8006f3dee8380053be8def97",
@@ -369,7 +371,8 @@
       "images": [],
       "deadline_at": "2026-10-04",
       "price_terms": "1〜10巻 各77円、全10巻770円（税込・記事確認時）。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "public_detail": "高校の倫理教師・高柳が、生徒たちの抱える問題に倫理の授業を通じて向き合う教師漫画。抽象的な思想紹介だけでなく、各話の具体的な悩みや選択から「善く生きる」ことを考える構成になっている。"
     },
     {
       "id": "a-bf0f944c0630fc89e8180cbe",
@@ -394,7 +397,8 @@
       "images": [],
       "deadline_at": "2026-10-07",
       "price_terms": "499円（通常1,056円との比較で約53%OFFと直近セール記事が確認）。",
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "public_detail": "人生や自己を一つの「物語」として整理することの便利さと危うさを問い、物語を相対化する手がかりを「遊び」から探る哲学書。後半ではゲーム、パズル、ギャンブル、おもちゃといった形式を通して、世界理解や生き方の別の捉え方を検討する。"
     },
     {
       "id": "a-86fc0b5635b4b6707cbba883",
@@ -484,7 +488,8 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "public_detail": "鍵盤のDOMiとドラムのJD BECKによるデュオ。ジャズの高い演奏技術を核に、ヒップホップ／boom bap、IDM、フュージョン感覚を高速で行き来し、変拍子や急なテンポ変化を遊ぶように組み込む。"
     },
     {
       "id": "a-7a2546ed21a249e0b890eb78",
@@ -538,7 +543,8 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "public_detail": "luvは2003年生まれの5人で組むフューチャーソウルバンド。90年代〜Y2Kのネオソウル／アシッドジャズを軸に、ジャズやヒップホップの影響を取り込み、バンドのグルーヴを前面に出す。今回の名古屋公演にはKan SanoがBand Setで参加する。"
     },
     {
       "id": "a-abfc60bd449aff8c7f16c3fd",
@@ -595,7 +601,8 @@
           "type": "steam_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "public_detail": "宇宙船Von Braunを舞台にしたFPS/RPG系のSF作品。探索・戦闘・キャラクター強化を進めながら、変異体やロボットが徘徊する船内で暴走AI SHODANに対処する。25周年版は原作を現行環境向けにリマスターし、クロスプレイ協力やMod対応も加えている。"
     },
     {
       "id": "a-73f6d065e7f625b80ec330c2",
@@ -1100,7 +1107,8 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "public_detail": "ゲーム機を実際に音源として使う電子音と、ファジーなギター、ドラム、歌を同居させる4人組。近作ではチップチューンの印象だけに寄らず、バンド演奏やグリッチ的な制作を前面に広げている。"
     },
     {
       "id": "a-f5db1b40b98edb5f6b594249",
@@ -1436,7 +1444,8 @@
           "type": "spotify_embed"
         }
       ],
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ACTIVE",
+      "public_detail": "Ryan Lee Westによる電子音楽プロジェクト。IDMやglitch、danceを背景にしつつ、シンセの質感や余白を絞り込み、電子音を有機的・人間的に聞かせる方向を追う。アンビエント寄りの広がりからビートの強い展開までを行き来する。"
     },
     {
       "id": "a-86dd52b5fca063f5aa32ac65",
