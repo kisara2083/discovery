@@ -3,8 +3,10 @@ const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefine
 const $=id=>document.getElementById(id);let data;
 function link(text,href){const n=el('a',text);n.href=href;if(/^https?:/.test(href)){n.target='_blank';n.rel='noopener noreferrer';}return n;}
 const providers={spotify_embed:'Spotify',steam_embed:'Steam',youtube_embed:'YouTube',google_books_embed:'Google Books'};
+const mediaActions={spotify_embed:'LISTEN IN ARTICLE →',steam_embed:'EXPLORE IN ARTICLE →',youtube_embed:'WATCH IN ARTICLE →',google_books_embed:'PREVIEW IN ARTICLE →'};
 function embedList(a){return (a.media||[]).filter(m=>Object.hasOwn(providers,m.type));}
-function visual(a,index=0){const n=el('div',undefined,'visual');const i=a.images[index];if(i){const img=el('img');img.src=i.url;img.alt=i.caption;img.loading='lazy';img.referrerPolicy='no-referrer';img.addEventListener('error',()=>{n.replaceChildren(el('span',embedList(a).length?providers[embedList(a)[0].type]+' · 詳細で表示':'NO IMAGE'));});n.append(img);}else {const m=embedList(a)[0];n.append(el('span',m?providers[m.type]+' · 詳細で表示':'NO IMAGE',m?'media-indicator':undefined));}return n;}
+function mediaVisual(m){const card=el('div',undefined,'media-indicator media-card');card.append(el('span','DISCOVERY MEDIA','media-kicker'),el('strong',providers[m.type],'media-provider'),el('span',mediaActions[m.type]||'OPEN IN ARTICLE →','media-action'));return card;}
+function visual(a,index=0){const n=el('div',undefined,'visual');const i=a.images[index];if(i){const img=el('img');img.src=i.url;img.alt=i.caption;img.loading='lazy';img.referrerPolicy='no-referrer';img.addEventListener('error',()=>{const m=embedList(a)[0];n.replaceChildren(m?mediaVisual(m):el('span','NO IMAGE'));});n.append(img);}else {const m=embedList(a)[0];n.append(m?mediaVisual(m):el('span','NO IMAGE'));}return n;}
 function embedSource(m){
  const patterns={spotify_embed:/^https:\/\/open\.spotify\.com\/(artist|album|track)\/([A-Za-z0-9]{22})$/,steam_embed:/^https:\/\/store\.steampowered\.com\/app\/([1-9][0-9]{0,9})\/$/,youtube_embed:/^https:\/\/www\.youtube\.com\/watch\?v=([A-Za-z0-9_-]{11})$/,google_books_embed:/^https:\/\/books\.google\.com\/books\?id=([A-Za-z0-9_-]{6,40})$/};
  const p=patterns[m.type];const match=p&&p.exec(m.canonical_url);if(!match||match[match.length-1]!==m.provider_id)return null;
