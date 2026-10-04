@@ -2515,11 +2515,26 @@
           "key": "world_card:a-9a67a8f724ad3f3ed7a12da1"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-9a67a8f724ad3f3ed7a12da1"
+          "kind": "media",
+          "key": "media:https://x.com/parco_factory/status/2059107338955714797"
         },
-        "detail_secondary": []
-      }
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-9a67a8f724ad3f3ed7a12da1"
+          }
+        ]
+      },
+      "media": [
+        {
+          "type": "x_embed",
+          "canonical_url": "https://x.com/parco_factory/status/2059107338955714797",
+          "provider_id": "2059107338955714797",
+          "title": "PARCO FACTORY公式開催告知（池袋会場）",
+          "evidence_url": "https://help.x.com/en/using-x/how-to-embed-a-post",
+          "source_url": "https://x.com/parco_factory/status/2059107338955714797"
+        }
+      ]
     },
     {
       "id": "a-f6496eb4c10c514b08d6d898",
@@ -2616,11 +2631,26 @@
           "key": "world_card:a-c2744609ecf5b11db1d8b887"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-c2744609ecf5b11db1d8b887"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ"
         },
-        "detail_secondary": []
-      }
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-c2744609ecf5b11db1d8b887"
+          }
+        ]
+      },
+      "media": [
+        {
+          "type": "youtube_embed",
+          "canonical_url": "https://www.youtube.com/watch?v=GTmrbdAQWaQ",
+          "provider_id": "GTmrbdAQWaQ",
+          "title": "Steam Autumn Sale 2026: Official Trailer",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "source_url": "https://www.youtube.com/watch?v=GTmrbdAQWaQ"
+        }
+      ]
     },
     {
       "id": "a-9f879e56cf93b526236eb9ff",
