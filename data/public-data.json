@@ -2824,11 +2824,26 @@
           "key": "world_card:a-3cf54000d810efd7e77b22ac"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-3cf54000d810efd7e77b22ac"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=n1pjVTwa6LU"
         },
-        "detail_secondary": []
-      }
+        "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-3cf54000d810efd7e77b22ac"
+          }
+        ]
+      },
+      "media": [
+        {
+          "type": "youtube_embed",
+          "canonical_url": "https://www.youtube.com/watch?v=n1pjVTwa6LU",
+          "provider_id": "n1pjVTwa6LU",
+          "title": "The TONE3000 Plugin is Here",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "source_url": "https://www.youtube.com/watch?v=n1pjVTwa6LU"
+        }
+      ]
     },
     {
       "id": "a-b002eefa738f842163436c80",
@@ -3051,16 +3066,30 @@
           "key": "world_card:a-4298267034eeb8621be391a7"
         },
         "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-4298267034eeb8621be391a7"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=KPt26AzAZU4"
         },
         "detail_secondary": [
+          {
+            "kind": "world_card",
+            "key": "world_card:a-4298267034eeb8621be391a7"
+          },
           {
             "kind": "image",
             "key": "image:https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
           }
         ]
-      }
+      },
+      "media": [
+        {
+          "type": "youtube_embed",
+          "canonical_url": "https://www.youtube.com/watch?v=KPt26AzAZU4",
+          "provider_id": "KPt26AzAZU4",
+          "title": "Embedded Power Platform Transforms Power System Design",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "source_url": "https://www.youtube.com/watch?v=KPt26AzAZU4"
+        }
+      ]
     },
     {
       "id": "a-dcba414cdca0fba5e21ffb28",
