@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-06",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,13 +40,810 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-14634d00af2d55edb8b71747",
+  "todays_pick": "a-ebc179110aa9743d57a4a853",
   "articles": [
+    {
+      "id": "a-ebc179110aa9743d57a4a853",
+      "slug": "a-ebc179110aa9743d57a4a853",
+      "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
+      "public_summary": "家庭用・アーケード・PCのレトロゲームを横断するムックがKindle秋セールの紹介に掲載。ゲーム音楽やゲーセン探訪も収録する。",
+      "category": "shopping",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://book.impress.co.jp/books/1118102064",
+          "name": "インプレス公式書誌・目次"
+        },
+        {
+          "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2143065.html",
+          "name": "秋の特別セール：対象タイトルを紹介"
+        },
+        {
+          "url": "https://book.impress.co.jp/items/kindle260925",
+          "name": "出版社公式Kindle秋セール"
+        }
+      ],
+      "spotify": [],
+      "images": [],
+      "deadline_at": "2026-10-08T23:59:59+09:00",
+      "end_at": "2026-10-08T23:59:59+09:00",
+      "public_detail": "1980～90年代前半のゲームを中心に、ハードウェアやゲーム音楽、レトロゲーセンまで扱う196ページのムック。2019年刊行のため、入手方法などは現在の状況を別途確認する必要がある。",
+      "price_terms": "出版社直販通常価格1,958円。現在の個別Kindle販売価格は未確認。",
+      "note": "個別のKindle価格は販売画面で確認。出版社直販PDFとKindleの価格・形式は別。",
+      "whats_new": "今回初出。既刊が開催中の秋セールで紹介されている。",
+      "world_card": {
+        "key": "world_card:a-ebc179110aa9743d57a4a853",
+        "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
+        "kicker": "BOOK / DISCOVERY",
+        "concept": "家庭用・アーケード・PCのレトロゲームを横断するムックがKindle秋セールの紹介に掲載。ゲーム音楽やゲーセン探訪も収録する。",
+        "meta": "",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-ebc179110aa9743d57a4a853"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-ebc179110aa9743d57a4a853"
+        },
+        "detail_secondary": []
+      },
+      "lifecycle": "ACTIVE"
+    },
+    {
+      "id": "a-7245382ffb18e02fc4a11de4",
+      "slug": "a-7245382ffb18e02fc4a11de4",
+      "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
+      "public_summary": "宇宙列車の清掃任務から騒動へ展開するスペースコメディの漫画版。Kindle秋の特別セールの対象作品として紹介されている。セールは10月8日まで。",
+      "category": "shopping",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://www.kadokawa.co.jp/product/322509001232/",
+          "name": "KADOKAWA公式電子版書誌"
+        },
+        {
+          "url": "https://www.phileweb.com/amp/news/hobby/202610/05/8579.html",
+          "name": "Kindle秋の特別セール：対象作品・終了日"
+        },
+        {
+          "url": "https://www.kadokawa.co.jp/topics/15535/",
+          "name": "KADOKAWA公式：第1巻とコミックスPV"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=D18DTTC80bE",
+          "name": "コミックスPV"
+        }
+      ],
+      "spotify": [],
+      "images": [],
+      "deadline_at": "2026-10-08T23:59:59+09:00",
+      "end_at": "2026-10-08T23:59:59+09:00",
+      "public_detail": "強化人間やサイボーグたちが、奉仕活動として惑星間列車を清掃する物語。河野丼が漫画を担当し、亀山陽平が原作・監修を務める。",
+      "price_terms": "個別巻の現在価格は未確認。紙版定価836円とKindle販売価格を混同しない。",
+      "note": "対象巻・価格はKindle商品画面で確認。セール掲載は報道で確認し、販売画面の価格は未確認。",
+      "whats_new": "今回初出。新刊発表ではなく、開催中セールから個別作品を抽出。",
+      "world_card": {
+        "key": "world_card:a-7245382ffb18e02fc4a11de4",
+        "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
+        "kicker": "BOOK / DISCOVERY",
+        "concept": "宇宙列車の清掃任務から騒動へ展開するスペースコメディの漫画版。Kindle秋の特別セールの対象作品として紹介されている。セールは10月8日まで。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-7245382ffb18e02fc4a11de4"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-7245382ffb18e02fc4a11de4"
+        },
+        "detail_secondary": []
+      },
+      "lifecycle": "ACTIVE"
+    },
+    {
+      "id": "a-7ef78120e48b3ee43f526c4c",
+      "slug": "a-7ef78120e48b3ee43f526c4c",
+      "title": "Chris Dave／MonoNeon／Justus West：11月19日のセッション、一般予約は10月7日12時から",
+      "public_summary": "Chris Dave、MonoNeon、Justus Westが11月19日Billboard Live TOKYOで共演。17:30と20:30の2ステージを行う。",
+      "category": "music_live",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21707",
+          "name": "東京公式公演・一般予約開始データ"
+        },
+        {
+          "url": "https://www.billboard-live.com/osaka/show?event_id=ev-21709",
+          "name": "大阪公式公演11月20日"
+        },
+        {
+          "url": "https://linktr.ee/justus.west",
+          "name": "Justus West公式リンク集・Spotifyリンク"
+        }
+      ],
+      "spotify": [
+        {
+          "url": "https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j",
+          "name": "MonoNeon"
+        },
+        {
+          "url": "https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O",
+          "name": "Chris Dave and The Drumhedz"
+        },
+        {
+          "url": "https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO",
+          "name": "Justus West"
+        }
+      ],
+      "images": [],
+      "event_date": "2026-11-19T17:30:00+09:00",
+      "end_at": "2026-11-19T23:59:59+09:00",
+      "public_detail": "ドラムのChris Dave、ベースのMonoNeon、ギターのJustus Westによるセッション。東京のほか横浜11月17日、大阪11月20日の公演も公式ページが案内している。",
+      "venue": "Billboard Live TOKYO",
+      "city": "東京都港区",
+      "price_terms": "公式東京配信データのカジュアル8,900円／R指定9,400円等。料金・付帯条件・空席は購入時に確認。",
+      "note": "東京の一般ゲスト予約は10月7日12時開始。BBL・法人会員先行は9月30日開始。料金・席の条件は予約画面で再確認。",
+      "whats_new": "今回初出。一般発売開始前を公式ページ配信データで確認。",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "3IuEuLez19teZSN32Pf70j",
+          "source_url": "https://open.spotify.com/embed/artist/3IuEuLez19teZSN32Pf70j",
+          "title": "MonoNeon",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "3UdXt9iWJmKa9Rq481qd4O",
+          "source_url": "https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O",
+          "title": "Chris Dave and The Drumhedz",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "1Rr0QwTQSGjUCpYFfXqnWO",
+          "source_url": "https://linktr.ee/justus.west",
+          "title": "Justus West",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "world_card": {
+        "key": "world_card:a-7ef78120e48b3ee43f526c4c",
+        "title": "Chris Dave／MonoNeon／Justus West：11月19日のセッション、一般予約は10月7日12時から",
+        "kicker": "MUSIC / LIVE",
+        "concept": "Chris Dave、MonoNeon、Justus Westが11月19日Billboard Live TOKYOで共演。17:30と20:30の2ステージを行う。",
+        "meta": "2026-11-19T17:30:00+09:00 · Billboard Live TOKYO",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO"
+        },
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j"
+          },
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O"
+          }
+        ]
+      },
+      "lifecycle": "ACTIVE"
+    },
+    {
+      "id": "a-52602b586fedb6c0bda0a5c0",
+      "slug": "a-52602b586fedb6c0bda0a5c0",
+      "title": "The Lemon Twigs：2027年1月の来日、会員先行は10月8日18時まで",
+      "public_summary": "The Lemon Twigsが2027年1月22日東京、23日京都、24日大阪で来日公演を開催。10月5日に発表された。",
+      "category": "music_live",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://www.creativeman.co.jp/event/the-lemon-twigs_2027/",
+          "name": "THE LEMON TWIGS JAPAN TOUR 2027公式日程・受付条件"
+        }
+      ],
+      "spotify": [
+        {
+          "url": "https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T",
+          "name": "The Lemon Twigs"
+        }
+      ],
+      "images": [],
+      "event_date": "2027-01-23T18:00:00+09:00",
+      "deadline_at": "2026-10-08T18:00:00+09:00",
+      "end_at": "2027-01-24T23:59:59+09:00",
+      "public_detail": "ニューヨーク出身のダダリオ兄弟によるロックデュオ。メロディとハーモニー、変化に富むソングライティングを特徴とする。東京は19時、京都と大阪は18時開演。",
+      "venue": "Club METRO（京都公演）",
+      "city": "京都市",
+      "price_terms": "全公演税込8,800円、ドリンク別、未就学児入場不可。",
+      "note": "税込8,800円、ドリンク別。会員先行は10月8日18時まで、一般発売10月17日10時。未就学児入場不可。",
+      "whats_new": "10月5日の新規発表と受付開始を確認。",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "7eYZSXnQVCODCVmTV8Hk2T",
+          "source_url": "https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T",
+          "title": "The Lemon Twigs",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=jnylB5ylyw4",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "jnylB5ylyw4",
+          "source_url": "https://www.creativeman.co.jp/event/the-lemon-twigs_2027/",
+          "title": "The Lemon Twigs — My Golden Years（公式MV・2027公演映像ではない）",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "world_card": {
+        "key": "world_card:a-52602b586fedb6c0bda0a5c0",
+        "title": "The Lemon Twigs：2027年1月の来日、会員先行は10月8日18時まで",
+        "kicker": "MUSIC / LIVE",
+        "concept": "The Lemon Twigsが2027年1月22日東京、23日京都、24日大阪で来日公演を開催。10月5日に発表された。",
+        "meta": "2027-01-23T18:00:00+09:00 · Club METRO（京都公演）",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=jnylB5ylyw4"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=jnylB5ylyw4"
+        },
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T"
+          }
+        ]
+      },
+      "lifecycle": "ACTIVE"
+    },
+    {
+      "id": "a-5206c774fb880f206b848be2",
+      "slug": "a-5206c774fb880f206b848be2",
+      "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
+      "public_summary": "ジャズやソウル、オルタナティブの影響を持つSSW・luvisが10月31日、名古屋のK･D Japonに出演。18:30開場、19:00開演。",
+      "category": "music_live",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://eplus.jp/sf/detail/4503160001-P0030004P021001?P6=001",
+          "name": "イープラス：luvis名古屋公演・一般発売"
+        },
+        {
+          "url": "https://luvis-psi.vercel.app/en/music",
+          "name": "luvis公式音楽・ディスコグラフィー"
+        },
+        {
+          "url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
+          "name": "luvis公式Spotifyプロフィール"
+        }
+      ],
+      "spotify": [
+        {
+          "url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
+          "name": "luvis"
+        }
+      ],
+      "images": [],
+      "event_date": "2026-10-31T19:00:00+09:00",
+      "deadline_at": "2026-10-30T23:59:00+09:00",
+      "end_at": "2026-10-31T23:59:59+09:00",
+      "public_detail": "luvisは京都出身のシンガーソングライター。ジャズ、ソウル、ロック、フォークを取り入れたサウンドと、表情のある歌声を特徴とする。「Higher」「Oh」などを事前に聴いてから公演を検討できる。",
+      "venue": "K･D Japon（KDハポン）",
+      "city": "名古屋市中区",
+      "price_terms": "一般料金は今回未確認。早割・超早割は受付終了。",
+      "note": "先着受付は10月30日23:59まで。残券・料金は購入画面で確認。",
+      "whats_new": "今回初出。既発表公演の現在の一般発売を確認。",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "0TkhuOSDpZ6NhRiPkmQ77M",
+          "source_url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
+          "title": "luvis",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=s7zyqdo12S4",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "s7zyqdo12S4",
+          "source_url": "https://luvis-psi.vercel.app/",
+          "title": "luvis — Higher（公式MV・公演そのものの映像ではない）",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "world_card": {
+        "key": "world_card:a-5206c774fb880f206b848be2",
+        "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
+        "kicker": "MUSIC / LIVE",
+        "concept": "ジャズやソウル、オルタナティブの影響を持つSSW・luvisが10月31日、名古屋のK･D Japonに出演。18:30開場、19:00開演。",
+        "meta": "2026-10-31T19:00:00+09:00 · K･D Japon（KDハポン）",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4"
+        },
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M"
+          }
+        ]
+      },
+      "lifecycle": "ACTIVE"
+    },
+    {
+      "id": "a-af9eca4647569859e50950df",
+      "slug": "a-af9eca4647569859e50950df",
+      "title": "橋の下世界音楽祭 SOUL BEAT ASIA 2026：11月20〜22日の開催告知",
+      "public_summary": "橋の下世界音楽祭 SOUL BEAT ASIA 2026は11月20〜22日開催と公式サイトが告知している。",
+      "category": "music_live",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://2026.soulbeatasia.com/",
+          "name": "SOUL BEAT ASIA 2026公式開催日告知"
+        },
+        {
+          "url": "https://soulbeatasia.com/about/",
+          "name": "橋の下世界音楽祭公式団体概要"
+        }
+      ],
+      "spotify": [],
+      "images": [],
+      "event_date": "2026-11-20",
+      "end_at": "2026-11-22T23:59:59+09:00",
+      "public_detail": "国内外の音楽・芸能を紹介する橋の下世界音楽祭の2026年開催告知。出演者・券種・キャンプ・駐車場などの条件は、2026年版の公式発表を確認してから計画する。",
+      "price_terms": "2026年の券種・料金・販売期限は未確認。",
+      "note": "今回確認した公式ページでは会場と販売条件の詳細を確定できない。過年度情報は適用しない。",
+      "whats_new": "2026年の開催日を今回初記録。",
+      "world_card": {
+        "key": "world_card:a-af9eca4647569859e50950df",
+        "title": "橋の下世界音楽祭 SOUL BEAT ASIA 2026：11月20〜22日の開催告知",
+        "kicker": "MUSIC / FESTIVAL",
+        "concept": "橋の下世界音楽祭 SOUL BEAT ASIA 2026は11月20〜22日開催と公式サイトが告知している。",
+        "meta": "2026-11-20",
+        "variant": "field"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-af9eca4647569859e50950df"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-af9eca4647569859e50950df"
+        },
+        "detail_secondary": []
+      },
+      "lifecycle": "ACTIVE"
+    },
+    {
+      "id": "a-18925d143a8764eec4e87c2d",
+      "slug": "a-18925d143a8764eec4e87c2d",
+      "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
+      "public_summary": "弥富市の富浜緑地で11月14・15日に開催する音楽・アート・食のフェス。15日はcero、YONA YONA WEEKENDERS、水曜日のカンパネラ等が出演する。",
+      "category": "music_live",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://yatomi-pjt.jp/tomihama_fes/",
+          "name": "TOMIHAMA FES公式：開催・日割り・入場条件"
+        },
+        {
+          "url": "https://cero-web.jp/2026/",
+          "name": "cero公式：11月15日出演告知"
+        }
+      ],
+      "spotify": [
+        {
+          "url": "https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
+          "name": "cero"
+        }
+      ],
+      "images": [],
+      "event_date": "2026-11-14",
+      "end_at": "2026-11-15T23:59:59+09:00",
+      "public_detail": "公園の音楽ステージ、地域資源を扱うアート、フードマルシェを組み合わせる催し。一般エリアは原則無料で、音楽ライブなど一部コンテンツは有料となる。",
+      "venue": "富浜緑地",
+      "city": "愛知県弥富市",
+      "price_terms": "一般入場は原則無料。一部音楽ライブは有料、個別料金・残券は未確認。",
+      "note": "有料ライブの料金・販売状況・交通手段は公式チケット案内で確認。",
+      "whats_new": "今回初出。開催・日割り出演を公式サイトで確認。",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "1V1HDPQwGOyUIr9KB6Oq7Q",
+          "source_url": "https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q?go=1&sp_cid=102cacf09374c20c0ce2b421fb6eecf6",
+          "title": "cero",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "world_card": {
+        "key": "world_card:a-18925d143a8764eec4e87c2d",
+        "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
+        "kicker": "MUSIC / LIVE",
+        "concept": "弥富市の富浜緑地で11月14・15日に開催する音楽・アート・食のフェス。15日はcero、YONA YONA WEEKENDERS、水曜日のカンパネラ等が出演する。",
+        "meta": "2026-11-14 · 富浜緑地",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q"
+        },
+        "detail_secondary": []
+      },
+      "lifecycle": "ACTIVE"
+    },
+    {
+      "id": "a-8aab2a3f01815c412c6f3854",
+      "slug": "a-8aab2a3f01815c412c6f3854",
+      "title": "COCOON：世界を持ち運ぶパズル冒険が60%OFF・1,300円",
+      "public_summary": "世界そのものが球体に収まり、別世界へ潜り込んで仕組みを解くパズルアドベンチャー。Steamの日本向け価格情報で3,250円→1,300円（60%OFF）を確認。購入前に価格を再確認したい。",
+      "category": "games",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://store.steampowered.com/app/1497440/",
+          "name": "Steam公式ストア"
+        },
+        {
+          "url": "https://store.steampowered.com/api/appdetails?appids=1497440&cc=jp&l=japanese&filters=price_overview",
+          "name": "Steam公式：日本向け現在価格"
+        },
+        {
+          "url": "https://steamcommunity.com/groups/steamworks/announcements?l=japanese&snr=2_groupannouncements_detail_",
+          "name": "Valve公式イベント日程"
+        }
+      ],
+      "spotify": [],
+      "images": [],
+      "deadline_at": "2026-10-09T02:00:00+09:00",
+      "end_at": "2026-10-09T02:00:00+09:00",
+      "public_detail": "世界が球体として存在し、それを持ち運びながら複数の世界を行き来してパズルを解く。LIMBO・INSIDEのリードゲームプレイデザイナーが手掛けた一人用アドベンチャー。",
+      "price_terms": "3,250円→1,300円（60%OFF、Steam日本向け価格情報で確認）",
+      "note": "購入前に最新価格を確認。Steamオータムセールの終了は日本時間10月9日2時。",
+      "whats_new": "今回初出。開催中のSteamセールを個別ゲーム・日本向け価格まで展開。",
+      "media": [
+        {
+          "canonical_url": "https://store.steampowered.com/app/1497440/",
+          "evidence_url": "https://partner.steamgames.com/doc/marketing/widget",
+          "provider_id": "1497440",
+          "source_url": "https://store.steampowered.com/app/1497440/",
+          "title": "Steam公式ストア",
+          "type": "steam_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "world_card": {
+        "key": "world_card:a-8aab2a3f01815c412c6f3854",
+        "title": "COCOON：世界を持ち運ぶパズル冒険が60%OFF・1,300円",
+        "kicker": "GAME / DISCOVERY",
+        "concept": "世界そのものが球体に収まり、別世界へ潜り込んで仕組みを解くパズルアドベンチャー。Steamの日本向け価格情報で3,250円→1,300円（60%OFF）を確認。購入前に価格を再確認したい。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "media",
+          "key": "media:https://store.steampowered.com/app/1497440/"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://store.steampowered.com/app/1497440/"
+        },
+        "detail_secondary": []
+      },
+      "lifecycle": "ACTIVE"
+    },
+    {
+      "id": "a-561d45a0bc691307ef22b76b",
+      "slug": "a-561d45a0bc691307ef22b76b",
+      "title": "Disco Elysium - The Final Cut：75%OFF・1,150円、対話と内面を操作する探偵RPG",
+      "public_summary": "独自のスキルを使い、街を調査しながら対話や選択で進む探偵RPG。Steam日本向け価格情報で4,600円→1,150円（75%OFF）を確認。アクション中心ではなく、文章・対話を楽しむ余裕がある時の候補。",
+      "category": "games",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://store.steampowered.com/app/632470/",
+          "name": "Steam公式ストア"
+        },
+        {
+          "url": "https://store.steampowered.com/api/appdetails?appids=632470&cc=jp&l=japanese&filters=price_overview",
+          "name": "Steam公式：日本向け現在価格"
+        },
+        {
+          "url": "https://steamcommunity.com/groups/steamworks/announcements?l=japanese&snr=2_groupannouncements_detail_",
+          "name": "Valve公式イベント日程"
+        }
+      ],
+      "spotify": [],
+      "images": [],
+      "deadline_at": "2026-10-09T02:00:00+09:00",
+      "end_at": "2026-10-09T02:00:00+09:00",
+      "public_detail": "探偵として人物に話を聞き、街を調査するロールプレイングゲーム。独自のスキルシステムと対話の選択によって、事件へのアプローチや主人公の振る舞いが変わる。",
+      "price_terms": "4,600円→1,150円（75%OFF、Steam日本向け価格情報で確認）",
+      "note": "購入前に最新価格を確認。Steamオータムセールの終了は日本時間10月9日2時。",
+      "whats_new": "今回初出。開催中のSteamセールを個別ゲーム・日本向け価格まで展開。",
+      "media": [
+        {
+          "canonical_url": "https://store.steampowered.com/app/632470/",
+          "evidence_url": "https://partner.steamgames.com/doc/marketing/widget",
+          "provider_id": "632470",
+          "source_url": "https://store.steampowered.com/app/632470/",
+          "title": "Steam公式ストア",
+          "type": "steam_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "world_card": {
+        "key": "world_card:a-561d45a0bc691307ef22b76b",
+        "title": "Disco Elysium - The Final Cut：75%OFF・1,150円、対話と内面を操作する探偵RPG",
+        "kicker": "GAME / DISCOVERY",
+        "concept": "独自のスキルを使い、街を調査しながら対話や選択で進む探偵RPG。Steam日本向け価格情報で4,600円→1,150円（75%OFF）を確認。アクション中心ではなく、文章・対話を楽しむ余裕がある時の候補。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "media",
+          "key": "media:https://store.steampowered.com/app/632470/"
+        },
+        "detail_primary": {
+          "kind": "media",
+          "key": "media:https://store.steampowered.com/app/632470/"
+        },
+        "detail_secondary": []
+      },
+      "lifecycle": "ACTIVE"
+    },
+    {
+      "id": "a-3c8dda3bcfcb40de51cf9d4c",
+      "slug": "a-3c8dda3bcfcb40de51cf9d4c",
+      "title": "CLASSIC PRO CPH3000：音楽を聴き比べる低価格ヘッドホンが2,980円",
+      "public_summary": "密閉型オンイヤーヘッドホンCPH3000がサウンドハウスで税込2,980円。販売店告知のキャンペーンは10月15日まで。",
+      "category": "cross_domain",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://www.soundhouse.co.jp/products/detail/item/222598/",
+          "name": "CPH3000 BLACK公式商品仕様"
+        },
+        {
+          "url": "https://www.soundhouse.co.jp/search/index?i_type=se&sSeriesCd=CPH3000",
+          "name": "CPH3000シリーズ価格・在庫一覧"
+        },
+        {
+          "url": "https://www.soundhouse.co.jp/news/detail?NewsNo=24061",
+          "name": "CPH3000キャンペーン期限の公式告知"
+        }
+      ],
+      "spotify": [],
+      "images": [],
+      "deadline_at": "2026-10-15T23:59:59+09:00",
+      "public_detail": "3.5mmステレオミニ接続、約1.5mのケーブル、約165gの有線モデル。ブラックなど5色が対象となる。",
+      "price_terms": "税込2,980円。キャンペーン10月15日まで、送料・残在庫は購入時確認。",
+      "note": "音質は実聴未確認。接続端子、送料、最終価格は購入画面で確認。",
+      "whats_new": "今回初出。個別商品の対象価格とキャンペーン期限を確認。",
+      "world_card": {
+        "key": "world_card:a-3c8dda3bcfcb40de51cf9d4c",
+        "title": "CLASSIC PRO CPH3000：音楽を聴き比べる低価格ヘッドホンが2,980円",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "concept": "密閉型オンイヤーヘッドホンCPH3000がサウンドハウスで税込2,980円。販売店告知のキャンペーンは10月15日まで。",
+        "meta": "",
+        "variant": "signal"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-3c8dda3bcfcb40de51cf9d4c"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-3c8dda3bcfcb40de51cf9d4c"
+        },
+        "detail_secondary": []
+      },
+      "lifecycle": "ACTIVE"
+    },
+    {
+      "id": "a-26d59816809de415dba379b0",
+      "slug": "a-26d59816809de415dba379b0",
+      "title": "PLAYTECH AB420：PJ構成のアクティブベースが限定特価21,800円",
+      "public_summary": "PLAYTECHのAB420 Cherry Burstは、サウンドハウスの限定特価表示で税込21,800円。通常表示価格は24,800円。",
+      "category": "guitar",
+      "status": "NEW",
+      "published_date": "2026-10-05",
+      "updated_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://www.soundhouse.co.jp/products/detail/item/290191/",
+          "name": "AB420公式個別商品価格"
+        },
+        {
+          "url": "https://www.soundhouse.co.jp/en/products/detail/item/290191/",
+          "name": "AB420公式仕様（英語）"
+        },
+        {
+          "url": "https://www.soundhouse.co.jp/special_price_sale/index",
+          "name": "公式セール個別商品一覧"
+        }
+      ],
+      "spotify": [],
+      "images": [],
+      "public_detail": "JB型とPB型のピックアップを搭載し、バランサーで音を調整するアクティブ電気ベース。",
+      "price_terms": "通常24,800円→限定特価21,800円（税込）。終了日未確認。",
+      "note": "セール終了日と実機の弾き心地は未確認。購入前に用途、試奏、最終価格を確認。",
+      "whats_new": "セール一覧から個別商品の仕様と価格を今回初記録。",
+      "world_card": {
+        "key": "world_card:a-26d59816809de415dba379b0",
+        "title": "PLAYTECH AB420：PJ構成のアクティブベースが限定特価21,800円",
+        "kicker": "GUITAR / GEAR",
+        "concept": "PLAYTECHのAB420 Cherry Burstは、サウンドハウスの限定特価表示で税込21,800円。通常表示価格は24,800円。",
+        "meta": "",
+        "variant": "orbit"
+      },
+      "display_selection": {
+        "selector_version": 4,
+        "card_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-26d59816809de415dba379b0"
+        },
+        "detail_primary": {
+          "kind": "world_card",
+          "key": "world_card:a-26d59816809de415dba379b0"
+        },
+        "detail_secondary": []
+      },
+      "lifecycle": "ACTIVE"
+    },
     {
       "id": "a-14634d00af2d55edb8b71747",
       "slug": "a-14634d00af2d55edb8b71747",
       "title": "Fontaines D.C. JAPAN TOUR 2027 — 名古屋DIAMOND HALL、1次先行受付中",
-      "public_summary": "Fontaines D.C.が2027年1月に東京・名古屋・大阪を巡る日本ツアーを発表。名古屋は1月29日、DIAMOND HALLで18:00開場・19:00開演。",
+      "public_summary": "Fontaines D.C.が2027年1月に東京・名古屋・大阪を巡る日本ツアーを発表。名古屋は1月29日DIAMOND HALL、18:00開場・19:00開演。オフィシャル1次先行は9月30日17:00〜10月12日23:59。",
       "category": "music_live",
       "status": "NEW",
       "published_date": "2026-10-03",
@@ -100,8 +897,6 @@
         }
       ],
       "event_date": "2027-01-29",
-      "deadline_at": "2026-10-12T23:59:00+09:00",
-      "public_detail": "ダブリン出身の5人組で、ポストパンク／オルタナティブ・ロックを軸に、荒いヴォーカル、推進力の強いリズム、ギターの反復を特徴とするバンド。初期の切迫したサウンドから、近作ではよりメロディックで実験的な音像へ広げている。",
       "venue": "DIAMOND HALL",
       "city": "名古屋市",
       "price_terms": "スタンディング11,000円、ドリンク代別。",
@@ -127,7 +922,7 @@
         "key": "world_card:a-14634d00af2d55edb8b71747",
         "title": "Fontaines D.C. JAPAN TOUR 2027 — 名古屋DIAMOND HALL、1次先行受付中",
         "kicker": "MUSIC / LIVE",
-        "concept": "Fontaines D.C.が2027年1月に東京・名古屋・大阪を巡る日本ツアーを発表。名古屋は1月29日、DIAMOND HALLで18:00開場・19:00開演。",
+        "concept": "Fontaines D.C.が2027年1月に東京・名古屋・大阪を巡る日本ツアーを発表。名古屋は1月29日DIAMOND HALL、18:00開場・19:00開演。オフィシャル1次先行は9月30日17:00〜10月12日23:59。",
         "meta": "2027-01-29 · DIAMOND HALL",
         "variant": "signal"
       },
@@ -242,7 +1037,6 @@
       "spotify": [],
       "images": [],
       "event_date": "2026-10-03",
-      "end_at": "2026-10-03",
       "price_terms": "入場無料。",
       "world_card": {
         "key": "world_card:a-fa1b69d48055b3fa36f39d48",
@@ -284,7 +1078,6 @@
       "spotify": [],
       "images": [],
       "event_date": "2026-10-02",
-      "end_at": "2026-10-04",
       "price_terms": "入場無料。一部予約制。",
       "world_card": {
         "key": "world_card:a-ab87d2a4f1a16501179128ed",
@@ -325,7 +1118,6 @@
       ],
       "spotify": [],
       "images": [],
-      "public_detail": "無限に続く地下通路から脱出するため、周囲に「異変」があるかを見極め、異変があれば引き返し、なければ進むというルールが中心。見落とすと0番出口へ戻される反復構造を映画として組み立てている。",
       "price_terms": "Prime会員特典。",
       "media": [
         {
@@ -608,8 +1400,6 @@
       ],
       "spotify": [],
       "images": [],
-      "deadline_at": "2026-10-04",
-      "public_detail": "高校の倫理教師・高柳が、生徒たちの抱える問題に倫理の授業を通じて向き合う教師漫画。抽象的な思想紹介だけでなく、各話の具体的な悩みや選択から「善く生きる」ことを考える構成になっている。",
       "price_terms": "1〜10巻 各77円、全10巻770円（税込・記事確認時）。",
       "world_card": {
         "key": "world_card:a-4b8263b68f119c80fbbd78ba",
@@ -631,7 +1421,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ENDED"
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-bf0f944c0630fc89e8180cbe",
@@ -654,8 +1444,6 @@
       ],
       "spotify": [],
       "images": [],
-      "deadline_at": "2026-10-07",
-      "public_detail": "人生や自己を一つの「物語」として整理することの便利さと危うさを問い、物語を相対化する手がかりを「遊び」から探る哲学書。後半ではゲーム、パズル、ギャンブル、おもちゃといった形式を通して、世界理解や生き方の別の捉え方を検討する。",
       "price_terms": "499円（通常1,056円との比較で約53%OFFと直近セール記事が確認）。",
       "world_card": {
         "key": "world_card:a-bf0f944c0630fc89e8180cbe",
@@ -720,6 +1508,24 @@
       ],
       "event_date": "2026-10-07",
       "price_terms": "視聴無料。連動Xキャンペーンは公式アカウントの案内条件に従う。",
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=htcg3Sr_z0s",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "htcg3Sr_z0s",
+          "source_url": "https://arknights.jp/news/4750",
+          "title": "アークナイツ公式生放送～2026秋の大感謝祭スペシャル～",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        }
+      ],
       "world_card": {
         "key": "world_card:a-86fc0b5635b4b6707cbba883",
         "title": "アークナイツ公式生放送「2026秋の大感謝祭スペシャル」— 10/7 20時",
@@ -731,14 +1537,19 @@
       "display_selection": {
         "selector_version": 4,
         "card_primary": {
-          "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=htcg3Sr_z0s"
         },
         "detail_primary": {
-          "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=htcg3Sr_z0s"
         },
-        "detail_secondary": []
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          }
+        ]
       },
       "lifecycle": "ACTIVE"
     },
@@ -800,7 +1611,6 @@
         }
       ],
       "event_date": "2026-12-18",
-      "public_detail": "鍵盤のDOMiとドラムのJD BECKによるデュオ。ジャズの高い演奏技術を核に、ヒップホップ／boom bap、IDM、フュージョン感覚を高速で行き来し、変拍子や急なテンポ変化を遊ぶように組み込む。",
       "venue": "名古屋CLUB QUATTRO",
       "city": "名古屋市",
       "price_terms": "9,900円（税込・All Standing・別途1ドリンク）。未就学児入場不可。",
@@ -900,7 +1710,6 @@
       ],
       "images": [],
       "event_date": "2026-11-25",
-      "public_detail": "luvは2003年生まれの5人で組むフューチャーソウルバンド。90年代〜Y2Kのネオソウル／アシッドジャズを軸に、ジャズやヒップホップの影響を取り込み、バンドのグルーヴを前面に出す。今回の名古屋公演にはKan SanoがBand Setで参加する。",
       "venue": "名古屋CLUB QUATTRO",
       "city": "名古屋市",
       "price_terms": "前売5,500円（税込・オールスタンディング・ドリンク代別）。",
@@ -1017,7 +1826,6 @@
           }
         }
       ],
-      "public_detail": "宇宙船Von Braunを舞台にしたFPS/RPG系のSF作品。探索・戦闘・キャラクター強化を進めながら、変異体やロボットが徘徊する船内で暴走AI SHODANに対処する。25周年版は原作を現行環境向けにリマスターし、クロスプレイ協力やMod対応も加えている。",
       "price_terms": "期間中0円配布予定／実施枠。通常価格表示はEpic商品ページで地域により異なる。",
       "media": [
         {
@@ -1227,7 +2035,6 @@
       ],
       "spotify": [],
       "images": [],
-      "deadline_at": "2026-10-15",
       "price_terms": "出版社告知：1〜10巻各91円（税抜）。ストアにより内容が異なる。",
       "media": [
         {
@@ -1969,7 +2776,6 @@
         }
       ],
       "event_date": "2026-10-13",
-      "public_detail": "ゲーム機を実際に音源として使う電子音と、ファジーなギター、ドラム、歌を同居させる4人組。近作ではチップチューンの印象だけに寄らず、バンド演奏やグリッチ的な制作を前面に広げている。",
       "venue": "duo MUSIC EXCHANGE",
       "price_terms": "前売8,200円、ドリンク別。",
       "media": [
@@ -2053,6 +2859,24 @@
         }
       ],
       "price_terms": "基本プレイ無料。限定コーデ・パックは別売。",
+      "media": [
+        {
+          "canonical_url": "https://x.com/ArknightsStaff/status/2087441501072843214",
+          "evidence_url": "https://help.x.com/en/using-x/how-to-embed-a-post",
+          "provider_id": "2087441501072843214",
+          "source_url": "https://x.com/ArknightsStaff/status/2087441501072843214",
+          "title": "期間限定イベント「デュエルチャンネル：アイビーヴァインシティ」9月23日からスタート",
+          "type": "x_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        }
+      ],
       "world_card": {
         "key": "world_card:a-f5db1b40b98edb5f6b594249",
         "title": "期間限定『デュエルチャンネル：アイビーヴァインシティ』",
@@ -2068,10 +2892,15 @@
           "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_primary": {
-          "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          "kind": "media",
+          "key": "media:https://x.com/ArknightsStaff/status/2087441501072843214"
         },
-        "detail_secondary": []
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          }
+        ]
       },
       "lifecycle": "ACTIVE"
     },
@@ -2627,7 +3456,6 @@
         }
       ],
       "event_date": "2026-11-19",
-      "public_detail": "Ryan Lee Westによる電子音楽プロジェクト。IDMやglitch、danceを背景にしつつ、シンセの質感や余白を絞り込み、電子音を有機的・人間的に聞かせる方向を追う。アンビエント寄りの広がりからビートの強い展開までを行き来する。",
       "venue": "WWW X / CIRCUS OSAKA",
       "price_terms": "前売7,800円、ドリンク別。",
       "media": [
@@ -3015,7 +3843,6 @@
       ],
       "spotify": [],
       "images": [],
-      "deadline_at": "2026-10-19T23:59:00+09:00",
       "price_terms": "Prime会員限定。対象400万点以上。ポイント施策はエントリーや購入額など個別条件あり。Amazonふるさと納税では9月24日〜10月19日の4週企画も実施。",
       "world_card": {
         "key": "world_card:a-f6496eb4c10c514b08d6d898",
@@ -3400,7 +4227,6 @@
           }
         }
       ],
-      "deadline_at": "2026-09-30",
       "price_terms": "公式案内では各99円。価格は変動し得る。",
       "world_card": {
         "key": "world_card:a-e9c2a77708a2edbbca20352e",
@@ -3422,7 +4248,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ENDED"
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-c0297c14f885cd3075dddaee",
@@ -3616,6 +4442,24 @@
         }
       ],
       "price_terms": "記録復元は常設追加。",
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=G8Nqyt88CrA",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "G8Nqyt88CrA",
+          "source_url": "https://www.youtube.com/watch?v=G8Nqyt88CrA",
+          "title": "アークナイツ「バベル」イベントPV",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
       "world_card": {
         "key": "world_card:a-dcba414cdca0fba5e21ffb28",
         "title": "『バベル』記録復元と一般資格証交換所の更新",
@@ -3627,14 +4471,19 @@
       "display_selection": {
         "selector_version": 4,
         "card_primary": {
-          "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=G8Nqyt88CrA"
         },
         "detail_primary": {
-          "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=G8Nqyt88CrA"
         },
-        "detail_secondary": []
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          }
+        ]
       },
       "lifecycle": "ACTIVE"
     },
@@ -3931,7 +4780,6 @@
       ],
       "spotify": [],
       "images": [],
-      "deadline_at": "2026-09-30",
       "price_terms": "451円、51%OFFとの当日観測。",
       "world_card": {
         "key": "world_card:a-4269498568372099222789ff",
@@ -3953,7 +4801,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ENDED"
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-2361950123a99ecab7ebeb6a",
@@ -4064,7 +4912,6 @@
       ],
       "spotify": [],
       "images": [],
-      "deadline_at": "2026-09-29",
       "price_terms": "1〜11巻 各100円（通常770円の巻は約87%OFFとの観測）。",
       "world_card": {
         "key": "world_card:a-0bc5fc2167a141be1439b2f6",
@@ -4086,7 +4933,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ENDED"
+      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-602e00baa29b017c13070373",
