@@ -1,0 +1,80 @@
+name: DISCOVERY publication request
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: read
+  pages: write
+
+concurrency:
+  group: discovery-publication-main
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: >-
+      github.event.issue.user.login == 'kisara2083' &&
+      startsWith(github.event.issue.title, 'DISCOVERY_PUBLICATION_V1 ')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout authoritative main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Extract inert request body
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          event = json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text(encoding='utf-8'))
+          body = event['issue'].get('body') or ''
+          Path('.publication-request.json').write_text(body, encoding='utf-8')
+          PY
+
+      - name: Apply and validate complete snapshot mutation
+        id: apply
+        shell: bash
+        run: |
+          python scripts/apply_publication_request.py .publication-request.json data/public-data.json .publication-result.json
+          echo "changed=$(python -c 'import json; print(str(json.load(open(".publication-result.json"))["changed"]).lower())')" >> "$GITHUB_OUTPUT"
+          echo "publication_id=$(python -c 'import json; print(json.load(open(".publication-result.json"))["publication_id"])')" >> "$GITHUB_OUTPUT"
+
+      - name: Recheck main head before commit
+        if: steps.apply.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git fetch origin main --depth=1
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+
+      - name: Commit validated snapshot
+        if: steps.apply.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/public-data.json
+          test -n "$(git diff --cached --name-only)"
+          test "$(git diff --cached --name-only)" = "data/public-data.json"
+          git commit -m "Publish DISCOVERY ${PUBLICATION_ID}"
+          git push origin HEAD:main
+        env:
+          PUBLICATION_ID: ${{ steps.apply.outputs.publication_id }}
+
+      - name: Request GitHub Pages rebuild
+        if: steps.apply.outputs.changed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" >/dev/null
+
+      - name: Remove transient request files
+        if: always()
+        shell: bash
+        run: rm -f .publication-request.json .publication-result.json
