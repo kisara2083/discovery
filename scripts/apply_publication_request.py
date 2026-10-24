@@ -4,9 +4,11 @@
 The request contains public-safe article data plus an opaque root derived only from
 that public article. No Private repo revision/run/claim/source identity crosses the
 Public boundary. Repository snapshot + publication-state are authoritative.
+Lifecycle is a deterministic snapshot-time projection: delayed backlog publication
+refreshes it from the request's as_of date instead of rejecting otherwise-valid work.
 """
 from __future__ import annotations
-import datetime as dt, hashlib, json, re, sys
+import copy, datetime as dt, hashlib, json, re, sys
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 REQUEST_KEYS={"kind","schema_version","publication_id","sequence","operation","article_id","ready_root","as_of","article"}
@@ -48,7 +50,7 @@ def ref(v,l):
  if v is None:return
  exact(v,REF_KEYS,REF_KEYS,l)
  if v["kind"] not in REF_KINDS or not isinstance(v["key"],str) or not v["key"]: fail(l+"_value")
-def validate_article(a,tax,today):
+def validate_article(a,tax):
  exact(a,ARTICLE_ALLOWED,ARTICLE_REQUIRED,"article")
  if not re.fullmatch(r"a-[a-f0-9]{24}",str(a["id"])) or a["slug"]!=a["id"]: fail("article_identity")
  if not isinstance(a["title"],str) or not a["title"].strip() or not isinstance(a["public_summary"],str) or not a["public_summary"].strip(): fail("article_text")
@@ -56,7 +58,6 @@ def validate_article(a,tax,today):
  for k in ("published_date","updated_date"): date(a[k],k)
  for k in ("event_date","deadline_at","end_at"):
   if k in a: date(a[k],k)
- if a["lifecycle"]!=lifecycle(a,today): fail("article_lifecycle_stale")
  for k in ("sources","spotify"):
   if not isinstance(a[k],list): fail(k+"_type")
   for e in a[k]: exact(e,SOURCE_KEYS,SOURCE_KEYS,k); url(e["url"])
@@ -96,9 +97,10 @@ def main(reqp,datap,statep,resultp):
  if req["publication_id"]!=f"pub-v1-{req['sequence']:08d}-{req['ready_root']}": fail("publication_id_binding")
  if req["operation"] not in {"NEW","UPDATE"} or req["article_id"]!=req["article"].get("id"): fail("request_semantics")
  date(req["as_of"],"as_of"); today=dt.date.fromisoformat(req["as_of"]); scan({k:v for k,v in req.items() if k!="article"})
- data=json.loads(datap.read_text());
+ data=json.loads(datap.read_text())
  if data.get("schema_version")!="1" or data.get("site_name")!="DISCOVERY" or not isinstance(data.get("articles"),list): fail("public_dataset_shape")
- tax={g["id"] for g in data.get("taxonomy",[]) if isinstance(g,dict) and isinstance(g.get("id"),str)}; article=req["article"]; validate_article(article,tax,today); state=load_state(statep); seq=state["sequence"] if state else 0
+ tax={g["id"] for g in data.get("taxonomy",[]) if isinstance(g,dict) and isinstance(g.get("id"),str)}
+ validate_article(req["article"],tax); article=copy.deepcopy(req["article"]); article["lifecycle"]=lifecycle(article,today); state=load_state(statep); seq=state["sequence"] if state else 0
  if req["sequence"]==seq:
   if not state or any(state[k]!=req[k] for k in ("publication_id","article_id","ready_root")): fail("sequence_conflict")
   encoded=json.dumps(data,ensure_ascii=False,indent=2)+"\n"
