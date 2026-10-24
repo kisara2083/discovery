@@ -1,0 +1,104 @@
+name: DISCOVERY publication request
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+
+concurrency:
+  group: discovery-publication-main
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: >-
+      github.event.issue.user.login == 'kisara2083' &&
+      startsWith(github.event.issue.title, 'DISCOVERY_PUBLICATION_V1 ')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout authoritative main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Extract inert request body
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          event=json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text(encoding='utf-8'))
+          Path('.publication-request.json').write_text(event['issue'].get('body') or '',encoding='utf-8')
+          Path('.publication-title.txt').write_text(event['issue'].get('title') or '',encoding='utf-8')
+          PY
+
+      - name: Apply validated snapshot and durable receipt
+        id: apply
+        shell: bash
+        run: |
+          python scripts/apply_publication_request.py .publication-request.json data/public-data.json data/publication-state.json .publication-result.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('.publication-result.json').read_text())
+          title=Path('.publication-title.txt').read_text()
+          if title != 'DISCOVERY_PUBLICATION_V1 '+r['publication_id']:
+              raise SystemExit('issue_title_publication_id_mismatch')
+          with open(Path.home()/'.publication-output','w') as f:
+              f.write('changed='+str(r['changed']).lower()+'\n')
+              f.write('snapshot_changed='+str(r['snapshot_changed']).lower()+'\n')
+              f.write('publication_id='+r['publication_id']+'\n')
+          PY
+          cat "$HOME/.publication-output" >> "$GITHUB_OUTPUT"
+
+      - name: Recheck main head before commit
+        if: steps.apply.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git fetch origin main --depth=1
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+
+      - name: Commit validated snapshot and receipt atomically
+        if: steps.apply.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/public-data.json data/publication-state.json
+          python - <<'PY'
+          import subprocess
+          changed=set(subprocess.check_output(['git','diff','--cached','--name-only'],text=True).splitlines())
+          allowed={'data/public-data.json','data/publication-state.json'}
+          if not changed or not changed <= allowed or 'data/publication-state.json' not in changed:
+              raise SystemExit('unexpected_publication_changed_paths')
+          PY
+          git commit -m "Publish DISCOVERY ${PUBLICATION_ID}"
+          git push origin HEAD:main
+        env:
+          PUBLICATION_ID: ${{ steps.apply.outputs.publication_id }}
+
+      - name: Mark durable publication request complete
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh api --method PATCH "repos/${GITHUB_REPOSITORY}/issues/${ISSUE_NUMBER}" -f state=closed -f state_reason=completed >/dev/null
+
+      - name: Request GitHub Pages rebuild for visible snapshot change
+        if: steps.apply.outputs.snapshot_changed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" >/dev/null
+
+      - name: Remove transient request files
+        if: always()
+        shell: bash
+        run: rm -f .publication-request.json .publication-result.json .publication-title.txt "$HOME/.publication-output"
