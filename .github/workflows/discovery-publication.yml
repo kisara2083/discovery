@@ -6,7 +6,7 @@ on:
 
 permissions:
   contents: write
-  issues: read
+  issues: write
   pages: write
 
 concurrency:
@@ -81,6 +81,14 @@ jobs:
           git push origin HEAD:main
         env:
           PUBLICATION_ID: ${{ steps.apply.outputs.publication_id }}
+
+      - name: Mark durable publication request complete
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh api --method PATCH "repos/${GITHUB_REPOSITORY}/issues/${ISSUE_NUMBER}" -f state=closed -f state_reason=completed >/dev/null
 
       - name: Request GitHub Pages rebuild for visible snapshot change
         if: steps.apply.outputs.snapshot_changed == 'true'
