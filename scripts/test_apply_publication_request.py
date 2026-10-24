@@ -5,7 +5,8 @@ def article(article_id='a-111111111111111111111111',title='Example',summary='Sum
  return {'id':article_id,'slug':article_id,'title':title,'public_summary':summary,'category':'games','status':status,'lifecycle':'ACTIVE','published_date':published,'updated_date':updated,'sources':[{'url':'https://example.com/item','name':'Official source'}],'spotify':[],'images':[],'world_card':{'key':'world_card:'+article_id,'title':title,'kicker':'GAME / DISCOVERY','concept':summary,'meta':'','variant':'field'},'display_selection':{'selector_version':4,'card_primary':{'kind':'world_card','key':'world_card:'+article_id},'detail_primary':{'kind':'world_card','key':'world_card:'+article_id},'detail_secondary':[]}}
 def request(item,sequence=1,operation='NEW',root='a'*40,as_of='2026-10-24'):
  return {'kind':'DISCOVERY_PUBLICATION_REQUEST_V1','schema_version':1,'publication_id':f'pub-v1-{sequence:08d}-{root}','sequence':sequence,'operation':operation,'article_id':item['id'],'ready_root':root,'as_of':as_of,'article':item}
-def dataset(items=None): return {'schema_version':'1','site_name':'DISCOVERY','as_of':'2026-10-23','taxonomy':[{'id':'games','label':'ゲーム'}],'todays_pick':items[0]['id'] if items else None,'articles':list(items or [])}
+def dataset(items=None,as_of='2026-10-23'):
+ return {'schema_version':'1','site_name':'DISCOVERY','as_of':as_of,'taxonomy':[{'id':'games','label':'ゲーム'}],'todays_pick':items[0]['id'] if items else None,'articles':list(items or [])}
 class PublisherTests(unittest.TestCase):
  def run_case(self,data,req,state=None,expect_ok=True):
   with tempfile.TemporaryDirectory() as td:
@@ -17,8 +18,8 @@ class PublisherTests(unittest.TestCase):
  def test_new_then_exact_duplicate_is_no_change(self):
   item=article(); d1,s1,r1=self.run_case(dataset(),request(item)); self.assertTrue(r1['snapshot_changed']); self.assertTrue(r1['receipt_changed']); self.assertEqual(1,s1['sequence']); self.assertNotIn('private_revision',s1)
   d2,s2,r2=self.run_case(d1,request(item),s1); self.assertFalse(r2['changed']); self.assertEqual(s1,s2); self.assertEqual(1,len(d2['articles']))
- def test_existing_exact_article_still_creates_receipt(self):
-  item=article(); d,s,r=self.run_case(dataset([item]),request(item)); self.assertFalse(r['snapshot_changed']); self.assertTrue(r['receipt_changed']); self.assertTrue(r['changed']); self.assertEqual(item['id'],s['article_id'])
+ def test_existing_exact_article_still_creates_receipt_only(self):
+  item=article(); d,s,r=self.run_case(dataset([item],as_of='2026-10-24'),request(item)); self.assertFalse(r['snapshot_changed']); self.assertTrue(r['receipt_changed']); self.assertTrue(r['changed']); self.assertEqual(item['id'],s['article_id'])
  def test_update_sequence_two_replaces_stable_identity(self):
   old=article(summary='Old',status='NEW',published='2026-10-20',updated='2026-10-20'); new=article(summary='New',status='UPDATE',published='2026-10-20',updated='2026-10-24'); d1,s1,_=self.run_case(dataset(),request(old,1,'NEW','a'*40)); d2,s2,r2=self.run_case(d1,request(new,2,'UPDATE','b'*40),s1); self.assertTrue(r2['changed']); self.assertEqual(2,s2['sequence']); self.assertEqual('New',d2['articles'][0]['public_summary']); self.assertEqual(old['id'],d2['articles'][0]['id'])
  def test_sequence_gap_and_stale_fail_closed(self):
@@ -29,6 +30,7 @@ class PublisherTests(unittest.TestCase):
   req=request(article()); req['private_revision']='1'*40; p=self.run_case(dataset(),req,expect_ok=False); self.assertIn('request_unknown_fields',p.stderr)
  def test_conflicting_new_fails_closed(self):
   p=self.run_case(dataset([article(summary='Old')]),request(article(summary='Different')),expect_ok=False); self.assertIn('new_conflicts_existing',p.stderr)
- def test_lifecycle_must_be_current_at_request_boundary(self):
-  ended=article(); ended['end_at']='2026-10-23T23:59:59+09:00'; p=self.run_case(dataset(),request(ended),expect_ok=False); self.assertIn('article_lifecycle_stale',p.stderr)
+ def test_delayed_backlog_refreshes_lifecycle(self):
+  delayed=article(); delayed['end_at']='2026-10-23T23:59:59+09:00'; self.assertEqual('ACTIVE',delayed['lifecycle'])
+  d,s,r=self.run_case(dataset(),request(delayed)); stored=next(x for x in d['articles'] if x['id']==delayed['id']); self.assertEqual('ENDED',stored['lifecycle']); self.assertEqual('ENDED',stored['lifecycle']); self.assertTrue(r['snapshot_changed'])
 if __name__=='__main__': unittest.main()
