@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-10-06",
+  "as_of": "2026-10-26",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,7 +40,7 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-ebc179110aa9743d57a4a853",
+  "todays_pick": "a-7ef78120e48b3ee43f526c4c",
   "articles": [
     {
       "id": "a-ebc179110aa9743d57a4a853",
@@ -93,7 +93,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-7245382ffb18e02fc4a11de4",
@@ -150,7 +150,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-7ef78120e48b3ee43f526c4c",
@@ -369,7 +369,7 @@
           }
         ]
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-5206c774fb880f206b848be2",
@@ -663,7 +663,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-561d45a0bc691307ef22b76b",
@@ -734,7 +734,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-3c8dda3bcfcb40de51cf9d4c",
@@ -786,7 +786,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-26d59816809de415dba379b0",
@@ -1551,7 +1551,7 @@
           }
         ]
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-f1e0215c8983d548b784c24f",
@@ -2234,7 +2234,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-6096dcf06c396ad4433514ee",
@@ -2299,7 +2299,7 @@
         },
         "detail_secondary": []
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-11beb44feb226d552a202143",
@@ -2424,7 +2424,7 @@
           }
         ]
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-bd47266a5d530a1f56ba313e",
@@ -2521,7 +2521,7 @@
           }
         ]
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-c2508f7155a0f0dd0a7a3bf7",
@@ -2821,7 +2821,7 @@
           }
         ]
       },
-      "lifecycle": "ACTIVE"
+      "lifecycle": "ENDED"
     },
     {
       "id": "a-f5db1b40b98edb5f6b594249",
@@ -3933,37 +3933,22 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-9f879e56cf93b526236eb9ff",
-      "slug": "a-9f879e56cf93b526236eb9ff",
-      "title": "ボウモア9年／ボウモア シェリー3種",
-      "public_summary": "2026年9月29日に全国発売。9年はバーボン樽とオロロソシェリー樽原酒で、甘い樽香と柔らかなスモーク。シェリー12・15・18年は甘い香りと熟成差を比較できる通年商品。",
       "category": "food_drink",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://www.suntory.co.jp/news/article/2026/15091.html",
-          "name": "ボウモア9年・ボウモア シェリー3種 新発売"
-        }
-      ],
-      "spotify": [],
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-9f879e56cf93b526236eb9ff",
       "images": [
         {
-          "url": "assets/images/ff079538694696648fc7343241e704981a3c52c55a5552e88e6b4d2870631438.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Distillerie_bowmore.jpg",
-          "relation": "reference_same_entity",
-          "caption": "ボウモア蒸溜所の参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "http://fr.wikipedia.org/wiki/Utilisateur:Rodpollet / CC BY-SA 3.0 / Wikimedia Commons",
             "creator": "http://fr.wikipedia.org/wiki/Utilisateur:Rodpollet",
@@ -3973,31 +3958,46 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "ボウモア蒸溜所の参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Distillerie_bowmore.jpg",
+          "url": "assets/images/ff079538694696648fc7343241e704981a3c52c55a5552e88e6b4d2870631438.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
+      "lifecycle": "ACTIVE",
       "price_terms": "700ml、税別希望小売価格：9年4,000円、シェリー12年7,590円、15年13,754円、18年19,320円。販売店価格は異なりうる。",
+      "public_summary": "2026年9月29日に全国発売。9年はバーボン樽とオロロソシェリー樽原酒で、甘い樽香と柔らかなスモーク。シェリー12・15・18年は甘い香りと熟成差を比較できる通年商品。",
+      "published_date": "2026-09-29",
+      "slug": "a-9f879e56cf93b526236eb9ff",
+      "sources": [
+        {
+          "name": "ボウモア9年・ボウモア シェリー3種 新発売",
+          "url": "https://www.suntory.co.jp/news/article/2026/15091.html"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "ボウモア9年／ボウモア シェリー3種",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-9f879e56cf93b526236eb9ff",
-        "title": "ボウモア9年／ボウモア シェリー3種",
-        "kicker": "FOOD / DRINK",
         "concept": "2026年9月29日に全国発売。9年はバーボン樽とオロロソシェリー樽原酒で、甘い樽香と柔らかなスモーク。シェリー12・15・18年は甘い香りと熟成差を比較できる通年商品。",
+        "key": "world_card:a-9f879e56cf93b526236eb9ff",
+        "kicker": "FOOD / DRINK",
         "meta": "",
+        "title": "ボウモア9年／ボウモア シェリー3種",
         "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "image",
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        },
-        "detail_primary": {
-          "kind": "image",
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-61512f53484a77c99b26447f",
