@@ -3030,28 +3030,27 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-3e3cdf1b4dee90a128396a7e",
-      "slug": "a-3e3cdf1b4dee90a128396a7e",
-      "title": "digital shadows — VAIWATT World Tour 2026（栄TIGHT ROPE）",
-      "public_summary": "10月24日、サイバーパンクの『未来のアンダーグラウンド』を会場化し、生のギターとデジタル世界を組み合わせるコンセプチュアル公演。予約受付導線あり。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://ambience.jp/event/digital-shadows/",
-          "name": "Ambience — digital shadows"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY",
-          "name": "VAIWATT"
-        }
-      ],
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "id": "a-3e3cdf1b4dee90a128396a7e",
       "images": [],
-      "venue": "栄 TIGHT ROPE",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY",
@@ -3086,32 +3085,33 @@
           }
         }
       ],
+      "public_summary": "10月24日、サイバーパンクの『未来のアンダーグラウンド』を会場化し、生のギターとデジタル世界を組み合わせるコンセプチュアル公演。予約受付導線あり。",
+      "published_date": "2026-09-29",
+      "slug": "a-3e3cdf1b4dee90a128396a7e",
+      "sources": [
+        {
+          "name": "Ambience — digital shadows",
+          "url": "https://ambience.jp/event/digital-shadows/"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "VAIWATT",
+          "url": "https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY"
+        }
+      ],
+      "status": "NEW",
+      "title": "digital shadows — VAIWATT World Tour 2026（栄TIGHT ROPE）",
+      "updated_date": "2026-09-29",
+      "venue": "栄 TIGHT ROPE",
       "world_card": {
-        "key": "world_card:a-3e3cdf1b4dee90a128396a7e",
-        "title": "digital shadows — VAIWATT World Tour 2026（栄TIGHT ROPE）",
-        "kicker": "MUSIC / LIVE",
         "concept": "10月24日、サイバーパンクの『未来のアンダーグラウンド』を会場化し、生のギターとデジタル世界を組み合わせるコンセプチュアル公演。予約受付導線あり。",
+        "key": "world_card:a-3e3cdf1b4dee90a128396a7e",
+        "kicker": "MUSIC / LIVE",
         "meta": "栄 TIGHT ROPE",
+        "title": "digital shadows — VAIWATT World Tour 2026（栄TIGHT ROPE）",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-048ccfa85b33fc86a5bca373",
