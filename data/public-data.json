@@ -4184,37 +4184,23 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-e9c2a77708a2edbbca20352e",
-      "slug": "a-e9c2a77708a2edbbca20352e",
-      "title": "手塚治虫作品 Kindle 9月セール（ダスト8／カラー版MW）",
-      "public_summary": "手塚治虫公式は、2026年9月の月替わり対象として『ダスト8 1』『カラー版 MW 1』を各99円と案内。9月30日には『ロック冒険記 1』の日替わり99円も案内している。",
       "category": "shopping",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://tezukaosamu.net/jp/mushi/entry/35041.html",
-          "name": "amazon.co.jp Kindle 9月日替わり月替わりセール"
-        }
-      ],
-      "spotify": [],
+      "deadline_at": "2026-09-30",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-e9c2a77708a2edbbca20352e",
       "images": [
         {
-          "url": "assets/images/c296fd54dfdf3a5510e0dc1eae047d64299c990b14015ffff4be3fb62900177d.jpg",
-          "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Osamu-tezuka-713539.jpg",
-          "relation": "reference_same_entity",
-          "caption": "作者・手塚治虫の参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Mutaito890 / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Mutaito890",
@@ -4224,31 +4210,46 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "作者・手塚治虫の参考写真",
+          "mode": "saved",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Osamu-tezuka-713539.jpg",
+          "url": "assets/images/c296fd54dfdf3a5510e0dc1eae047d64299c990b14015ffff4be3fb62900177d.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
+      "lifecycle": "ENDED",
       "price_terms": "公式案内では各99円。価格は変動し得る。",
+      "public_summary": "手塚治虫公式は、2026年9月の月替わり対象として『ダスト8 1』『カラー版 MW 1』を各99円と案内。9月30日には『ロック冒険記 1』の日替わり99円も案内している。",
+      "published_date": "2026-09-29",
+      "slug": "a-e9c2a77708a2edbbca20352e",
+      "sources": [
+        {
+          "name": "amazon.co.jp Kindle 9月日替わり月替わりセール",
+          "url": "https://tezukaosamu.net/jp/mushi/entry/35041.html"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "手塚治虫作品 Kindle 9月セール（ダスト8／カラー版MW）",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-e9c2a77708a2edbbca20352e",
-        "title": "手塚治虫作品 Kindle 9月セール（ダスト8／カラー版MW）",
-        "kicker": "BOOK / DISCOVERY",
         "concept": "手塚治虫公式は、2026年9月の月替わり対象として『ダスト8 1』『カラー版 MW 1』を各99円と案内。9月30日には『ロック冒険記 1』の日替わり99円も案内している。",
+        "key": "world_card:a-e9c2a77708a2edbbca20352e",
+        "kicker": "BOOK / DISCOVERY",
         "meta": "",
+        "title": "手塚治虫作品 Kindle 9月セール（ダスト8／カラー版MW）",
         "variant": "grid"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "image",
-          "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-        },
-        "detail_primary": {
-          "kind": "image",
-          "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-c0297c14f885cd3075dddaee",
