@@ -3712,48 +3712,48 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-678ab5f9a35dc5113e312a83",
-      "slug": "a-678ab5f9a35dc5113e312a83",
-      "title": "写真展『with ペンギンたちの生きる島』",
-      "public_summary": "10月2〜8日、名古屋市中区。フォークランド諸島のキング、ジェンツー、マゼラン、ミナミイワトビの4種を時間の流れに沿って紹介。",
       "category": "local_family",
-      "status": "NEW",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-678ab5f9a35dc5113e312a83",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-678ab5f9a35dc5113e312a83",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-678ab5f9a35dc5113e312a83",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_summary": "10月2〜8日、名古屋市中区。フォークランド諸島のキング、ジェンツー、マゼラン、ミナミイワトビの4種を時間の流れに沿って紹介。",
       "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
+      "slug": "a-678ab5f9a35dc5113e312a83",
       "sources": [
         {
-          "url": "https://www.city.nagoya.jp/kodomo/wakamono/1017035/1017060/1052683.html",
-          "name": "名古屋市 幼児・児童向け案内"
+          "name": "名古屋市 幼児・児童向け案内",
+          "url": "https://www.city.nagoya.jp/kodomo/wakamono/1017035/1017060/1052683.html"
         },
         {
-          "url": "https://www.fujifilm.co.jp/photosalon/nagoya/",
-          "name": "www.fujifilm.co.jp"
+          "name": "www.fujifilm.co.jp",
+          "url": "https://www.fujifilm.co.jp/photosalon/nagoya/"
         }
       ],
       "spotify": [],
-      "images": [],
+      "status": "NEW",
+      "title": "写真展『with ペンギンたちの生きる島』",
+      "updated_date": "2026-09-29",
       "venue": "富士フイルムフォトサロン 名古屋",
       "world_card": {
-        "key": "world_card:a-678ab5f9a35dc5113e312a83",
-        "title": "写真展『with ペンギンたちの生きる島』",
-        "kicker": "LOCAL / EXPERIENCE",
         "concept": "10月2〜8日、名古屋市中区。フォークランド諸島のキング、ジェンツー、マゼラン、ミナミイワトビの4種を時間の流れに沿って紹介。",
+        "key": "world_card:a-678ab5f9a35dc5113e312a83",
+        "kicker": "LOCAL / EXPERIENCE",
         "meta": "富士フイルムフォトサロン 名古屋",
+        "title": "写真展『with ペンギンたちの生きる島』",
         "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-678ab5f9a35dc5113e312a83"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-678ab5f9a35dc5113e312a83"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-9a67a8f724ad3f3ed7a12da1",
