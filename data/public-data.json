@@ -4805,32 +4805,27 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-2361950123a99ecab7ebeb6a",
-      "slug": "a-2361950123a99ecab7ebeb6a",
-      "title": "Le Motel『Pozo de Agua』",
-      "public_summary": "環境録音、アンビエント、ダウンテンポ電子音を、水滴や空気の動きまでリズム要素として組み上げた2026年9月15日作。屋外や移動中に作られた短編7曲。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://ctatsu.bandcamp.com/album/pozo-de-agua",
-          "name": "Pozo de Agua | Le Motel | Constellation Tatsu"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j",
-          "name": "Pozo de Agua"
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j",
+          "kind": "media"
         },
-        {
-          "url": "https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd",
-          "name": "Le Motel"
-        }
-      ],
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "id": "a-2361950123a99ecab7ebeb6a",
       "images": [],
-      "price_terms": "Digital $5 USD or more / Vinyl $20 USD or more。海外送料・税は別途。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j",
@@ -4865,32 +4860,37 @@
           }
         }
       ],
+      "price_terms": "Digital $5 USD or more / Vinyl $20 USD or more。海外送料・税は別途。",
+      "public_summary": "環境録音、アンビエント、ダウンテンポ電子音を、水滴や空気の動きまでリズム要素として組み上げた2026年9月15日作。屋外や移動中に作られた短編7曲。",
+      "published_date": "2026-09-29",
+      "slug": "a-2361950123a99ecab7ebeb6a",
+      "sources": [
+        {
+          "name": "Pozo de Agua | Le Motel | Constellation Tatsu",
+          "url": "https://ctatsu.bandcamp.com/album/pozo-de-agua"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Pozo de Agua",
+          "url": "https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j"
+        },
+        {
+          "name": "Le Motel",
+          "url": "https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd"
+        }
+      ],
+      "status": "NEW",
+      "title": "Le Motel『Pozo de Agua』",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-2361950123a99ecab7ebeb6a",
-        "title": "Le Motel『Pozo de Agua』",
-        "kicker": "MUSIC / LIVE",
         "concept": "環境録音、アンビエント、ダウンテンポ電子音を、水滴や空気の動きまでリズム要素として組み上げた2026年9月15日作。屋外や移動中に作られた短編7曲。",
+        "key": "world_card:a-2361950123a99ecab7ebeb6a",
+        "kicker": "MUSIC / LIVE",
         "meta": "",
+        "title": "Le Motel『Pozo de Agua』",
         "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-0bc5fc2167a141be1439b2f6",
