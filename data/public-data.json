@@ -3667,49 +3667,49 @@
       }
     },
     {
-      "id": "a-7d5d68f7aa7a73c8a9346563",
-      "slug": "a-7d5d68f7aa7a73c8a9346563",
-      "title": "アジアを味わえ！とよたまちなかフェス",
-      "public_summary": "豊田市駅東口で10月24日までの土日祝を中心に、アジアのグルメ、音楽・伝統文化ステージ、競技体験などを日替わり開催。",
       "category": "local_family",
-      "status": "NEW",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-7d5d68f7aa7a73c8a9346563",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-7d5d68f7aa7a73c8a9346563",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-7d5d68f7aa7a73c8a9346563",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "入場条件は日別企画による。屋外企画は天候変更に注意。",
+      "public_summary": "豊田市駅東口で10月24日までの土日祝を中心に、アジアのグルメ、音楽・伝統文化ステージ、競技体験などを日替わり開催。",
       "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
+      "slug": "a-7d5d68f7aa7a73c8a9346563",
       "sources": [
         {
-          "url": "https://www.city.toyota.aichi.jp/topics/1080172.html",
-          "name": "アジアを味わえ！とよたまちなかフェス"
+          "name": "アジアを味わえ！とよたまちなかフェス",
+          "url": "https://www.city.toyota.aichi.jp/topics/1080172.html"
         },
         {
-          "url": "https://www.toyota-machinaka.com/event/",
-          "name": "とよたまちなかイベント情報"
+          "name": "とよたまちなかイベント情報",
+          "url": "https://www.toyota-machinaka.com/event/"
         }
       ],
       "spotify": [],
-      "images": [],
+      "status": "NEW",
+      "title": "アジアを味わえ！とよたまちなかフェス",
+      "updated_date": "2026-09-29",
       "venue": "名鉄豊田市駅東口特設イベント広場",
-      "price_terms": "入場条件は日別企画による。屋外企画は天候変更に注意。",
       "world_card": {
-        "key": "world_card:a-7d5d68f7aa7a73c8a9346563",
-        "title": "アジアを味わえ！とよたまちなかフェス",
-        "kicker": "LOCAL / EXPERIENCE",
         "concept": "豊田市駅東口で10月24日までの土日祝を中心に、アジアのグルメ、音楽・伝統文化ステージ、競技体験などを日替わり開催。",
+        "key": "world_card:a-7d5d68f7aa7a73c8a9346563",
+        "kicker": "LOCAL / EXPERIENCE",
         "meta": "名鉄豊田市駅東口特設イベント広場",
+        "title": "アジアを味わえ！とよたまちなかフェス",
         "variant": "grid"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-7d5d68f7aa7a73c8a9346563"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-7d5d68f7aa7a73c8a9346563"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "local_family",
