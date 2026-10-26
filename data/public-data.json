@@ -3114,41 +3114,27 @@
       }
     },
     {
-      "id": "a-048ccfa85b33fc86a5bca373",
-      "slug": "a-048ccfa85b33fc86a5bca373",
-      "title": "深堀隆介展『金魚の唄』―山田憲司・北川啓介との共創",
-      "public_summary": "橦木館全館で、金魚の立体樹脂作品・絵画・インスタレーションに、畳の鶴とインスタントハウスを交差させる展示。2026年9月18日から10月25日まで。",
       "category": "local_family",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://www.nagoya-info.jp/event/detail/1369/",
-          "name": "名古屋コンシェルジュ イベント詳細"
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=KL-t7Hn6Ios",
+          "kind": "media"
         },
-        {
-          "url": "https://shumokukan.jp/news/kingyonouta.html",
-          "name": "文化のみち橦木館 公式案内"
-        }
-      ],
-      "spotify": [],
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=KL-t7Hn6Ios",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "id": "a-048ccfa85b33fc86a5bca373",
       "images": [
         {
-          "url": "assets/images/5c7b971efa81288ecd06f0fc744a6c8a1b324eff1a342530136150c745e83842.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Shumokukan_ac_(2).jpg",
-          "relation": "reference_same_entity",
-          "caption": "文化のみち橦木館の参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Asturio Cantabrio / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Asturio Cantabrio",
@@ -3158,11 +3144,24 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "文化のみち橦木館の参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Shumokukan_ac_(2).jpg",
+          "url": "assets/images/5c7b971efa81288ecd06f0fc744a6c8a1b324eff1a342530136150c745e83842.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "venue": "文化のみち橦木館",
-      "price_terms": "大人当日1,200円／前売1,000円、中学生以下無料。橦木館入館料は別途。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://www.youtube.com/watch?v=KL-t7Hn6Ios",
@@ -3181,32 +3180,33 @@
           }
         }
       ],
+      "price_terms": "大人当日1,200円／前売1,000円、中学生以下無料。橦木館入館料は別途。",
+      "public_summary": "橦木館全館で、金魚の立体樹脂作品・絵画・インスタレーションに、畳の鶴とインスタントハウスを交差させる展示。2026年9月18日から10月25日まで。",
+      "published_date": "2026-09-29",
+      "slug": "a-048ccfa85b33fc86a5bca373",
+      "sources": [
+        {
+          "name": "名古屋コンシェルジュ イベント詳細",
+          "url": "https://www.nagoya-info.jp/event/detail/1369/"
+        },
+        {
+          "name": "文化のみち橦木館 公式案内",
+          "url": "https://shumokukan.jp/news/kingyonouta.html"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "深堀隆介展『金魚の唄』―山田憲司・北川啓介との共創",
+      "updated_date": "2026-09-29",
+      "venue": "文化のみち橦木館",
       "world_card": {
-        "key": "world_card:a-048ccfa85b33fc86a5bca373",
-        "title": "深堀隆介展『金魚の唄』―山田憲司・北川啓介との共創",
-        "kicker": "LOCAL / EXPERIENCE",
         "concept": "橦木館全館で、金魚の立体樹脂作品・絵画・インスタレーションに、畳の鶴とインスタントハウスを交差させる展示。2026年9月18日から10月25日まで。",
+        "key": "world_card:a-048ccfa85b33fc86a5bca373",
+        "kicker": "LOCAL / EXPERIENCE",
         "meta": "文化のみち橦木館",
+        "title": "深堀隆介展『金魚の唄』―山田憲司・北川啓介との共創",
         "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=KL-t7Hn6Ios"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=KL-t7Hn6Ios"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-483c54bc23908a5dbbb0f1d5",
