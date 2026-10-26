@@ -2824,29 +2824,34 @@
       "lifecycle": "ENDED"
     },
     {
-      "id": "a-f5db1b40b98edb5f6b594249",
-      "slug": "a-f5db1b40b98edb5f6b594249",
-      "title": "期間限定『デュエルチャンネル：アイビーヴァインシティ』",
-      "public_summary": "デイリー任務でデュエルクラッカーを集め、プロファイルアイコン等を得る期間限定イベント。9月23日開始。",
       "category": "games",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://arknights.jp/news/4670",
-          "name": "アークナイツ公式 — デュエルチャンネル"
-        }
-      ],
-      "spotify": [],
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "media:https://x.com/ArknightsStaff/status/2087441501072843214",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "id": "a-f5db1b40b98edb5f6b594249",
       "images": [
         {
-          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "source_page": "https://www.arknights.jp/fankit/",
-          "relation": "reference_same_entity",
           "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
+          "framing": "contain",
           "mode": "saved",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "relation": "reference_same_entity",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
           "visual_provenance": {
             "article_match": false,
             "authority_class": "official_entity",
@@ -2854,11 +2859,10 @@
             "official_source": true,
             "relation": "official_entity",
             "source_revalidated": true
-          },
-          "framing": "contain"
+          }
         }
       ],
-      "price_terms": "基本プレイ無料。限定コーデ・パックは別売。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://x.com/ArknightsStaff/status/2087441501072843214",
@@ -2877,32 +2881,28 @@
           }
         }
       ],
+      "price_terms": "基本プレイ無料。限定コーデ・パックは別売。",
+      "public_summary": "デイリー任務でデュエルクラッカーを集め、プロファイルアイコン等を得る期間限定イベント。9月23日開始。",
+      "published_date": "2026-09-29",
+      "slug": "a-f5db1b40b98edb5f6b594249",
+      "sources": [
+        {
+          "name": "アークナイツ公式 — デュエルチャンネル",
+          "url": "https://arknights.jp/news/4670"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "期間限定『デュエルチャンネル：アイビーヴァインシティ』",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-f5db1b40b98edb5f6b594249",
-        "title": "期間限定『デュエルチャンネル：アイビーヴァインシティ』",
-        "kicker": "GAME / EVENT",
         "concept": "デイリー任務でデュエルクラッカーを集め、プロファイルアイコン等を得る期間限定イベント。9月23日開始。",
+        "key": "world_card:a-f5db1b40b98edb5f6b594249",
+        "kicker": "GAME / EVENT",
         "meta": "",
+        "title": "期間限定『デュエルチャンネル：アイビーヴァインシティ』",
         "variant": "grid"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://x.com/ArknightsStaff/status/2087441501072843214"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-97866892876150625b4ce595",
