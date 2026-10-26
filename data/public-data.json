@@ -2302,50 +2302,32 @@
       "lifecycle": "ENDED"
     },
     {
-      "id": "a-11beb44feb226d552a202143",
-      "slug": "a-11beb44feb226d552a202143",
-      "title": "集楽座2026 — 民謡クルセイダーズとCHO CO PAを代々木の野外で",
-      "public_summary": "2026年10月24日・25日、代々木公園で開催。24日は民謡クルセイダーズ、CHO CO PA、滞空時間など、25日は安部勇磨、ELECTRONICOS FANTASTICOS!などの出演が公式発表されている。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-09-30",
-      "updated_date": "2026-09-30",
-      "sources": [
-        {
-          "url": "https://www.earth-garden.jp/festival/83485/",
-          "name": "集楽座2026 — 民謡クルセイダーズとCHO CO PAを代々木の野外で 公式案内"
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "kind": "image"
         },
-        {
-          "url": "https://shurakuza.jp/",
-          "name": "集楽座 公式サイト"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG",
-          "name": "民謡クルセイダーズ"
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG",
+          "kind": "media"
         },
-        {
-          "url": "https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C",
-          "name": "CHO CO PA CO CHO CO QUIN QUIN"
-        }
-      ],
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C",
+            "kind": "media"
+          },
+          {
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2026-10-24",
+      "id": "a-11beb44feb226d552a202143",
       "images": [
         {
-          "url": "assets/images/05afb362d258ae2d55475a9f2daa43224b26c3bdecc59d72482c20a61e64ead4.jpg",
-          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Minyo_Crusaders_2023.jpg",
-          "relation": "reference_same_entity",
-          "caption": "出演者・民謡クルセイダーズの参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Tortillovsky / CC BY 4.0 / Wikimedia Commons",
             "creator": "Tortillovsky",
@@ -2355,12 +2337,24 @@
             "license_url": "https://creativecommons.org/licenses/by/4.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "出演者・民謡クルセイダーズの参考写真",
+          "mode": "saved",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Minyo_Crusaders_2023.jpg",
+          "url": "assets/images/05afb362d258ae2d55475a9f2daa43224b26c3bdecc59d72482c20a61e64ead4.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "event_date": "2026-10-24",
-      "venue": "渋谷 代々木公園 野外ステージ アースガーデン“秋”内",
-      "price_terms": "1日2,000円／2日6,000円（税込）。",
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG",
@@ -2395,36 +2389,42 @@
           }
         }
       ],
+      "price_terms": "1日2,000円／2日6,000円（税込）。",
+      "public_summary": "2026年10月24日・25日、代々木公園で開催。24日は民謡クルセイダーズ、CHO CO PA、滞空時間など、25日は安部勇磨、ELECTRONICOS FANTASTICOS!などの出演が公式発表されている。",
+      "published_date": "2026-09-30",
+      "slug": "a-11beb44feb226d552a202143",
+      "sources": [
+        {
+          "name": "集楽座2026 — 民謡クルセイダーズとCHO CO PAを代々木の野外で 公式案内",
+          "url": "https://www.earth-garden.jp/festival/83485/"
+        },
+        {
+          "name": "集楽座 公式サイト",
+          "url": "https://shurakuza.jp/"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "民謡クルセイダーズ",
+          "url": "https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG"
+        },
+        {
+          "name": "CHO CO PA CO CHO CO QUIN QUIN",
+          "url": "https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C"
+        }
+      ],
+      "status": "NEW",
+      "title": "集楽座2026 — 民謡クルセイダーズとCHO CO PAを代々木の野外で",
+      "updated_date": "2026-09-30",
+      "venue": "渋谷 代々木公園 野外ステージ アースガーデン“秋”内",
       "world_card": {
-        "key": "world_card:a-11beb44feb226d552a202143",
-        "title": "集楽座2026 — 民謡クルセイダーズとCHO CO PAを代々木の野外で",
-        "kicker": "MUSIC / FESTIVAL",
         "concept": "2026年10月24日・25日、代々木公園で開催。24日は民謡クルセイダーズ、CHO CO PA、滞空時間など、25日は安部勇磨、ELECTRONICOS FANTASTICOS!などの出演が公式発表されている。",
+        "key": "world_card:a-11beb44feb226d552a202143",
+        "kicker": "MUSIC / FESTIVAL",
         "meta": "2026-10-24 · 渋谷 代々木公園 野外ステージ アースガーデン“秋”内",
+        "title": "集楽座2026 — 民謡クルセイダーズとCHO CO PAを代々木の野外で",
         "variant": "grid"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C"
-          },
-          {
-            "kind": "image",
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-          }
-        ]
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
       "id": "a-bd47266a5d530a1f56ba313e",
