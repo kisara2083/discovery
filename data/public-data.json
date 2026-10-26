@@ -3290,54 +3290,28 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-000f8527b956a63f74c8b376",
-      "slug": "a-000f8527b956a63f74c8b376",
-      "title": "Queens of the Stone Age — Japan Tour 2026（名古屋公演あり）",
-      "public_summary": "11月26日、Zepp Nagoyaで18時開場・19時開演。主催公式とイープラス名古屋公演ページを再取得し、一般発売受付中を確認。",
       "category": "music_live",
-      "status": "UPDATE",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://www.creativeman.co.jp/event/queens-of-the-stone-age_2026/",
-          "name": "CREATIVEMAN — QUEENS OF THE STONE AGE"
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
         },
-        {
-          "url": "https://eplus.jp/sf/detail/2661760001-P0030005P021001?P1=0817",
-          "name": "イープラス販売ページ"
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn",
+          "kind": "media"
         },
-        {
-          "url": "https://www.creativeman.co.jp/event/queens-of-the-stone-age_2026/",
-          "name": "Queens of the Stone Age — Japan Tour 2026（名古屋公演あり） 公式案内"
-        },
-        {
-          "url": "https://eplus.jp/sf/detail/2661760001-P0030006P021001?P6=001",
-          "name": "名古屋公演 一般発売"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn",
-          "name": "Queens of the Stone Age"
-        }
-      ],
+        "detail_secondary": [
+          {
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2026-11-26",
+      "id": "a-000f8527b956a63f74c8b376",
       "images": [
         {
-          "url": "assets/images/873fb6628ea3f9e998c27578efc6e4b88435089f6d25a0f6de89dee867dcb481.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:QOTSA_2007.jpg",
-          "relation": "reference_same_entity",
-          "caption": "同アーティストの参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Fabio Venni from London, UK / CC BY-SA 2.0 / Wikimedia Commons",
             "creator": "Fabio Venni from London, UK",
@@ -3347,12 +3321,24 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "同アーティストの参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:QOTSA_2007.jpg",
+          "url": "assets/images/873fb6628ea3f9e998c27578efc6e4b88435089f6d25a0f6de89dee867dcb481.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "event_date": "2026-11-26",
-      "venue": "Zepp Nagoya",
-      "price_terms": "1階11,000円／2階13,000円、ドリンク別。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn",
@@ -3371,32 +3357,46 @@
           }
         }
       ],
+      "price_terms": "1階11,000円／2階13,000円、ドリンク別。",
+      "public_summary": "11月26日、Zepp Nagoyaで18時開場・19時開演。主催公式とイープラス名古屋公演ページを再取得し、一般発売受付中を確認。",
+      "published_date": "2026-09-29",
+      "slug": "a-000f8527b956a63f74c8b376",
+      "sources": [
+        {
+          "name": "CREATIVEMAN — QUEENS OF THE STONE AGE",
+          "url": "https://www.creativeman.co.jp/event/queens-of-the-stone-age_2026/"
+        },
+        {
+          "name": "イープラス販売ページ",
+          "url": "https://eplus.jp/sf/detail/2661760001-P0030005P021001?P1=0817"
+        },
+        {
+          "name": "Queens of the Stone Age — Japan Tour 2026（名古屋公演あり） 公式案内",
+          "url": "https://www.creativeman.co.jp/event/queens-of-the-stone-age_2026/"
+        },
+        {
+          "name": "名古屋公演 一般発売",
+          "url": "https://eplus.jp/sf/detail/2661760001-P0030006P021001?P6=001"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Queens of the Stone Age",
+          "url": "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn"
+        }
+      ],
+      "status": "UPDATE",
+      "title": "Queens of the Stone Age — Japan Tour 2026（名古屋公演あり）",
+      "updated_date": "2026-09-29",
+      "venue": "Zepp Nagoya",
       "world_card": {
-        "key": "world_card:a-000f8527b956a63f74c8b376",
-        "title": "Queens of the Stone Age — Japan Tour 2026（名古屋公演あり）",
-        "kicker": "MUSIC / LIVE",
         "concept": "11月26日、Zepp Nagoyaで18時開場・19時開演。主催公式とイープラス名古屋公演ページを再取得し、一般発売受付中を確認。",
+        "key": "world_card:a-000f8527b956a63f74c8b376",
+        "kicker": "MUSIC / LIVE",
         "meta": "2026-11-26 · Zepp Nagoya",
+        "title": "Queens of the Stone Age — Japan Tour 2026（名古屋公演あり）",
         "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-7f7810d7e4dba2ab87344f71",
