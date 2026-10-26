@@ -3595,41 +3595,22 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-01a7d973657ccc68fb70ac10",
-      "slug": "a-01a7d973657ccc68fb70ac10",
-      "title": "華ひらくジャポニスム―技術と美術の文明開化―",
-      "public_summary": "江戸から明治の美術・工芸を『ものづくり』の視点で紹介し、江戸技術による美術体験も行うトヨタコレクション企画展。10月3日から12月13日まで。",
       "category": "local_family",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://www.tcmit.org/enjoy/annualevents",
-          "name": "トヨタ産業技術記念館 年間イベント"
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
         },
-        {
-          "url": "https://www.tcmit.org/event-info",
-          "name": "トヨタ産業技術記念館 イベント情報"
-        }
-      ],
-      "spotify": [],
+        "detail_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-01a7d973657ccc68fb70ac10",
       "images": [
         {
-          "url": "assets/images/e89225354abad9fdb8a30b2919e0a5e912c2ec11e31ed9a0b37767c2439c84a6.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Toyota_tecno_museum.jpg",
-          "relation": "reference_same_entity",
-          "caption": "トヨタ産業技術記念館の参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Bariston / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Bariston",
@@ -3639,32 +3620,51 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "トヨタ産業技術記念館の参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Toyota_tecno_museum.jpg",
+          "url": "assets/images/e89225354abad9fdb8a30b2919e0a5e912c2ec11e31ed9a0b37767c2439c84a6.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "venue": "トヨタ産業技術記念館",
+      "lifecycle": "ACTIVE",
       "price_terms": "トヨタ産業技術記念館の入館条件に準拠。企画展追加料金の有無は来館前に公式詳細を確認。",
+      "public_summary": "江戸から明治の美術・工芸を『ものづくり』の視点で紹介し、江戸技術による美術体験も行うトヨタコレクション企画展。10月3日から12月13日まで。",
+      "published_date": "2026-09-29",
+      "slug": "a-01a7d973657ccc68fb70ac10",
+      "sources": [
+        {
+          "name": "トヨタ産業技術記念館 年間イベント",
+          "url": "https://www.tcmit.org/enjoy/annualevents"
+        },
+        {
+          "name": "トヨタ産業技術記念館 イベント情報",
+          "url": "https://www.tcmit.org/event-info"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "華ひらくジャポニスム―技術と美術の文明開化―",
+      "updated_date": "2026-09-29",
+      "venue": "トヨタ産業技術記念館",
       "world_card": {
-        "key": "world_card:a-01a7d973657ccc68fb70ac10",
-        "title": "華ひらくジャポニスム―技術と美術の文明開化―",
-        "kicker": "EXHIBITION / EXPERIENCE",
         "concept": "江戸から明治の美術・工芸を『ものづくり』の視点で紹介し、江戸技術による美術体験も行うトヨタコレクション企画展。10月3日から12月13日まで。",
+        "key": "world_card:a-01a7d973657ccc68fb70ac10",
+        "kicker": "EXHIBITION / EXPERIENCE",
         "meta": "トヨタ産業技術記念館",
+        "title": "華ひらくジャポニスム―技術と美術の文明開化―",
         "variant": "grid"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "image",
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        },
-        "detail_primary": {
-          "kind": "image",
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-7d5d68f7aa7a73c8a9346563",
