@@ -4000,86 +4000,86 @@
       }
     },
     {
-      "id": "a-61512f53484a77c99b26447f",
-      "slug": "a-61512f53484a77c99b26447f",
-      "title": "Infineon TLE9744QK — トラクションインバータ用統合PMIC",
-      "public_summary": "電源、レゾルバ励磁、独立Safety Engineを統合。位相電流、DC-link電圧、MCU、ゲートドライバを監視し、MCU異常時に独立経路で安全状態へ移行するASIL-D設計。現在供給中。",
       "category": "automotive",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://www.infineon.com/regional/korea/ko/press-release/2026/kor202609-09",
-          "name": "Infineon press release — TLE9744QK"
-        },
-        {
-          "url": "https://www.infineon.com/part/TLE9744QK",
-          "name": "TLE9744QK product page"
-        }
-      ],
-      "spotify": [],
-      "images": [
-        {
-          "url": "assets/images/d4c29a5963aed2d38ef06acfbe8b5e84d81beb5e2e0e90cdaf588ba98c16a33d.jpg",
-          "original_url": "https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2",
-          "source_page": "https://www.infineon.com/regional/korea/ko/press-release/2026/kor202609-09",
-          "relation": "article_specific",
-          "caption": "TLE9744QK公式製品写真 — © Infineon Technologies AG. Informational, non-commercial use.",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "unknown",
-            "entity_match": false,
-            "official_source": false,
-            "relation": "article_specific",
-            "source_revalidated": false
-          }
-        },
-        {
-          "url": "assets/images/32ad3884c41ebf5d7d460d92c6385d43d6350b6745f521132d759c57b29b9daa.jpg",
-          "original_url": "https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi.jpg?cdh=attachment",
-          "source_page": "https://www.infineon.com/technology-news/2026/inftn202609-137",
-          "relation": "article_specific",
-          "caption": "Infineon OPTIREG TLE9744QK — © Infineon Technologies AG. Informational, non-commercial use.",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "unknown",
-            "entity_match": false,
-            "official_source": false,
-            "relation": "article_specific",
-            "source_revalidated": false
-          }
-        }
-      ],
-      "price_terms": "置換対象比でPCB面積最大70%削減とのメーカー値。",
-      "world_card": {
-        "key": "world_card:a-61512f53484a77c99b26447f",
-        "title": "Infineon TLE9744QK — トラクションインバータ用統合PMIC",
-        "kicker": "AUTOMOTIVE / TECH",
-        "concept": "電源、レゾルバ励磁、独立Safety Engineを統合。位相電流、DC-link電圧、MCU、ゲートドライバを監視し、MCU異常時に独立経路で安全状態へ移行するASIL-D設計。現在供給中。",
-        "meta": "",
-        "variant": "grid"
-      },
       "display_selection": {
-        "selector_version": 4,
         "card_primary": {
-          "kind": "image",
-          "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2"
+          "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2",
+          "kind": "image"
         },
         "detail_primary": {
-          "kind": "image",
-          "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2"
+          "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2",
+          "kind": "image"
         },
         "detail_secondary": [
           {
-            "kind": "image",
-            "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi.jpg?cdh=attachment"
+            "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi.jpg?cdh=attachment",
+            "kind": "image"
           }
-        ]
+        ],
+        "selector_version": 6
       },
-      "lifecycle": "ACTIVE"
+      "id": "a-61512f53484a77c99b26447f",
+      "images": [
+        {
+          "caption": "TLE9744QK公式製品写真 — © Infineon Technologies AG. Informational, non-commercial use.",
+          "mode": "saved",
+          "original_url": "https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2",
+          "relation": "article_specific",
+          "source_page": "https://www.infineon.com/regional/korea/ko/press-release/2026/kor202609-09",
+          "url": "assets/images/d4c29a5963aed2d38ef06acfbe8b5e84d81beb5e2e0e90cdaf588ba98c16a33d.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "unknown",
+            "entity_match": false,
+            "official_source": false,
+            "relation": "article_specific",
+            "source_revalidated": false
+          }
+        },
+        {
+          "caption": "Infineon OPTIREG TLE9744QK — © Infineon Technologies AG. Informational, non-commercial use.",
+          "mode": "saved",
+          "original_url": "https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi.jpg?cdh=attachment",
+          "relation": "article_specific",
+          "source_page": "https://www.infineon.com/technology-news/2026/inftn202609-137",
+          "url": "assets/images/32ad3884c41ebf5d7d460d92c6385d43d6350b6745f521132d759c57b29b9daa.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "unknown",
+            "entity_match": false,
+            "official_source": false,
+            "relation": "article_specific",
+            "source_revalidated": false
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "price_terms": "置換対象比でPCB面積最大70%削減とのメーカー値。",
+      "public_summary": "電源、レゾルバ励磁、独立Safety Engineを統合。位相電流、DC-link電圧、MCU、ゲートドライバを監視し、MCU異常時に独立経路で安全状態へ移行するASIL-D設計。現在供給中。",
+      "published_date": "2026-09-29",
+      "slug": "a-61512f53484a77c99b26447f",
+      "sources": [
+        {
+          "name": "Infineon press release — TLE9744QK",
+          "url": "https://www.infineon.com/regional/korea/ko/press-release/2026/kor202609-09"
+        },
+        {
+          "name": "TLE9744QK product page",
+          "url": "https://www.infineon.com/part/TLE9744QK"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Infineon TLE9744QK — トラクションインバータ用統合PMIC",
+      "updated_date": "2026-09-29",
+      "world_card": {
+        "concept": "電源、レゾルバ励磁、独立Safety Engineを統合。位相電流、DC-link電圧、MCU、ゲートドライバを監視し、MCU異常時に独立経路で安全状態へ移行するASIL-D設計。現在供給中。",
+        "key": "world_card:a-61512f53484a77c99b26447f",
+        "kicker": "AUTOMOTIVE / TECH",
+        "meta": "",
+        "title": "Infineon TLE9744QK — トラクションインバータ用統合PMIC",
+        "variant": "grid"
+      }
     },
     {
       "id": "a-3cf54000d810efd7e77b22ac",
