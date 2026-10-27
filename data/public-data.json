@@ -946,45 +946,22 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-047f457703c08d1b21bdb4f7",
-      "slug": "a-047f457703c08d1b21bdb4f7",
-      "title": "長濱蒸溜所 × Snow Peak「TAKIBI / OKIBI」— 10/3数量限定発売",
-      "public_summary": "長濱蒸溜所とSnow Peakのコラボウイスキー2種。OKIBIは赤ワイン樽・シェリー樽由来の甘みを主役にスモーキーさ控えめ、TAKIBIは少量のアイラカスクピーテッド原酒などを重ねる。",
       "category": "food_drink",
-      "status": "NEW",
-      "published_date": "2026-10-03",
-      "updated_date": "2026-10-03",
-      "sources": [
-        {
-          "url": "https://www.snowpeak.co.jp/products/localfoods/takibiwhisky/",
-          "name": "WORLD BLENDED WHISKY - LOCAL FOODS NAGAHAMA, SHIGA"
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
         },
-        {
-          "url": "https://www.snowpeak.co.jp/news/p20260928/",
-          "name": "Snow Peak × 長濱蒸溜所 2026 プレスリリース"
+        "detail_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
         },
-        {
-          "url": "https://foods-ch.infomart.co.jp/news/336515",
-          "name": "発売情報"
-        }
-      ],
-      "spotify": [],
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-047f457703c08d1b21bdb4f7",
       "images": [
         {
-          "url": "assets/images/61a9bced4f2eff4254c9743031ea859a834d7f92bb3024008b4f927cda13e0e1.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Distillers_of_Nagahama_Distillery.jpg",
-          "relation": "reference_same_entity",
-          "caption": "長濱蒸溜所の参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Fluoros jp / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Fluoros jp",
@@ -994,30 +971,53 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "長濱蒸溜所の参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Distillers_of_Nagahama_Distillery.jpg",
+          "url": "assets/images/61a9bced4f2eff4254c9743031ea859a834d7f92bb3024008b4f927cda13e0e1.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
+      "lifecycle": "ACTIVE",
+      "public_summary": "長濱蒸溜所とSnow Peakのコラボウイスキー2種。OKIBIは赤ワイン樽・シェリー樽由来の甘みを主役にスモーキーさ控えめ、TAKIBIは少量のアイラカスクピーテッド原酒などを重ねる。",
+      "published_date": "2026-10-03",
+      "slug": "a-047f457703c08d1b21bdb4f7",
+      "sources": [
+        {
+          "name": "WORLD BLENDED WHISKY - LOCAL FOODS NAGAHAMA, SHIGA",
+          "url": "https://www.snowpeak.co.jp/products/localfoods/takibiwhisky/"
+        },
+        {
+          "name": "Snow Peak × 長濱蒸溜所 2026 プレスリリース",
+          "url": "https://www.snowpeak.co.jp/news/p20260928/"
+        },
+        {
+          "name": "発売情報",
+          "url": "https://foods-ch.infomart.co.jp/news/336515"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "長濱蒸溜所 × Snow Peak「TAKIBI / OKIBI」— 10/3数量限定発売",
+      "updated_date": "2026-10-03",
       "world_card": {
-        "key": "world_card:a-047f457703c08d1b21bdb4f7",
-        "title": "長濱蒸溜所 × Snow Peak「TAKIBI / OKIBI」— 10/3数量限定発売",
-        "kicker": "FOOD / DRINK",
         "concept": "長濱蒸溜所とSnow Peakのコラボウイスキー2種。OKIBIは赤ワイン樽・シェリー樽由来の甘みを主役にスモーキーさ控えめ、TAKIBIは少量のアイラカスクピーテッド原酒などを重ねる。",
+        "key": "world_card:a-047f457703c08d1b21bdb4f7",
+        "kicker": "FOOD / DRINK",
         "meta": "",
+        "title": "長濱蒸溜所 × Snow Peak「TAKIBI / OKIBI」— 10/3数量限定発売",
         "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "image",
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        },
-        "detail_primary": {
-          "kind": "image",
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-fa1b69d48055b3fa36f39d48",
