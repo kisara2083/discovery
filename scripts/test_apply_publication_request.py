@@ -22,6 +22,15 @@ class PublisherTests(unittest.TestCase):
   item=article(); d,s,r=self.run_case(dataset([item],as_of='2026-10-24'),request(item)); self.assertFalse(r['snapshot_changed']); self.assertTrue(r['receipt_changed']); self.assertTrue(r['changed']); self.assertEqual(item['id'],s['article_id'])
  def test_update_sequence_two_replaces_stable_identity(self):
   old=article(summary='Old',status='NEW',published='2026-10-20',updated='2026-10-20'); new=article(summary='New',status='UPDATE',published='2026-10-20',updated='2026-10-24'); d1,s1,_=self.run_case(dataset(),request(old,1,'NEW','a'*40)); d2,s2,r2=self.run_case(d1,request(new,2,'UPDATE','b'*40),s1); self.assertTrue(r2['changed']); self.assertEqual(2,s2['sequence']); self.assertEqual('New',d2['articles'][0]['public_summary']); self.assertEqual(old['id'],d2['articles'][0]['id'])
+ def test_new_article_updated_date_is_publication_date(self):
+  item=article(updated='2026-10-01'); d,_,_=self.run_case(dataset(),request(item,as_of='2026-10-24')); self.assertEqual('2026-10-24',d['articles'][0]['updated_date'])
+ def test_technical_update_preserves_updated_date(self):
+  old=article(updated='2026-10-20'); d1,s1,_=self.run_case(dataset(),request(old,1,'NEW','a'*40,as_of='2026-10-24'))
+  technical=article(status='UPDATE',updated='2026-10-25'); technical['display_selection']['selector_version']=6; technical['sources'].append({'url':'https://example.com/more-evidence','name':'More evidence'})
+  d2,_,_=self.run_case(d1,request(technical,2,'UPDATE','b'*40,as_of='2026-10-25'),s1); self.assertEqual('2026-10-24',d2['articles'][0]['updated_date'])
+ def test_meaningful_update_uses_publication_date(self):
+  old=article(summary='Old',updated='2026-10-20'); d1,s1,_=self.run_case(dataset(),request(old,1,'NEW','a'*40,as_of='2026-10-24'))
+  new=article(summary='New',status='UPDATE',updated='2026-01-01'); d2,_,_=self.run_case(d1,request(new,2,'UPDATE','b'*40,as_of='2026-10-25'),s1); self.assertEqual('2026-10-25',d2['articles'][0]['updated_date'])
  def test_sequence_gap_and_stale_fail_closed(self):
   item=article(); d1,s1,_=self.run_case(dataset(),request(item)); p=self.run_case(d1,request(item,3,'UPDATE','c'*40),s1,False); self.assertIn('sequence_gap_or_stale',p.stderr); p=self.run_case(d1,request(item,1,'NEW','d'*40),s1,False); self.assertIn('sequence_conflict',p.stderr)
  def test_privacy_pattern_fails_closed(self):
