@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-10-27",
+  "as_of": "2026-10-28",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,67 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-7ef78120e48b3ee43f526c4c",
+  "todays_pick": "a-c79abd6fce19922533af23d3",
   "articles": [
+    {
+      "category": "film_streaming",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w",
+          "kind": "media"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-c79abd6fce19922533af23d3",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=dyJJJgako-w",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "dyJJJgako-w",
+          "source_url": "https://exit8-movie.toho.co.jp/",
+          "title": "映画『８番出口』予告【8月29日(金)公開】",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "price_terms": "Prime会員特典。",
+      "public_detail": "無限に続く地下通路から脱出するため、周囲に「異変」があるかを見極め、異変があれば引き返し、なければ進むというルールが中心。見落とすと0番出口へ戻される反復構造を映画として組み立てている。",
+      "public_summary": "10月2日からPrime Videoで見放題独占配信。",
+      "published_date": "2026-10-02",
+      "slug": "a-c79abd6fce19922533af23d3",
+      "sources": [
+        {
+          "name": "Prime Video 2026年10月ラインナップ",
+          "url": "https://screenonline.jp/_ct/17867164"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "映画『8番出口』 — Prime Videoで本日から見放題独占",
+      "updated_date": "2026-10-28",
+      "world_card": {
+        "concept": "10月2日からPrime Videoで見放題独占配信。",
+        "key": "world_card:a-c79abd6fce19922533af23d3",
+        "kicker": "FILM / STREAMING",
+        "meta": "",
+        "title": "映画『8番出口』 — Prime Videoで本日から見放題独占",
+        "variant": "field"
+      }
+    },
     {
       "id": "a-ebc179110aa9743d57a4a853",
       "slug": "a-ebc179110aa9743d57a4a853",
@@ -1100,64 +1159,6 @@
         "detail_secondary": []
       },
       "lifecycle": "ENDED"
-    },
-    {
-      "id": "a-c79abd6fce19922533af23d3",
-      "slug": "a-c79abd6fce19922533af23d3",
-      "title": "映画『8番出口』 — Prime Videoで本日から見放題独占",
-      "public_summary": "10月2日からPrime Videoで見放題独占配信。",
-      "category": "film_streaming",
-      "status": "NEW",
-      "published_date": "2026-10-02",
-      "updated_date": "2026-10-02",
-      "sources": [
-        {
-          "url": "https://screenonline.jp/_ct/17867164",
-          "name": "Prime Video 2026年10月ラインナップ"
-        }
-      ],
-      "spotify": [],
-      "images": [],
-      "price_terms": "Prime会員特典。",
-      "media": [
-        {
-          "canonical_url": "https://www.youtube.com/watch?v=dyJJJgako-w",
-          "evidence_url": "https://developers.google.com/youtube/player_parameters",
-          "provider_id": "dyJJJgako-w",
-          "source_url": "https://exit8-movie.toho.co.jp/",
-          "title": "映画『８番出口』予告【8月29日(金)公開】",
-          "type": "youtube_embed",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "official_entity",
-            "source_revalidated": true
-          }
-        }
-      ],
-      "world_card": {
-        "key": "world_card:a-c79abd6fce19922533af23d3",
-        "title": "映画『8番出口』 — Prime Videoで本日から見放題独占",
-        "kicker": "FILM / STREAMING",
-        "concept": "10月2日からPrime Videoで見放題独占配信。",
-        "meta": "",
-        "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-8006f3dee8380053be8def97",
