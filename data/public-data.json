@@ -405,6 +405,48 @@
       }
     },
     {
+      "category": "local_family",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-fa1b69d48055b3fa36f39d48",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-fa1b69d48055b3fa36f39d48",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-10-03",
+      "event_date": "2026-10-03",
+      "id": "a-fa1b69d48055b3fa36f39d48",
+      "images": [],
+      "lifecycle": "ENDED",
+      "price_terms": "入場無料。",
+      "public_summary": "10月3日、なごのキャンパスで親子向け体験フェス。",
+      "published_date": "2026-10-02",
+      "slug": "a-fa1b69d48055b3fa36f39d48",
+      "sources": [
+        {
+          "name": "愛知週末イベント",
+          "url": "https://report.iko-yo.net/articles/33848"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "すきフェス！ — AI・3Dプリンター・科学実験など26体験",
+      "updated_date": "2026-10-28",
+      "world_card": {
+        "concept": "10月3日、なごのキャンパスで親子向け体験フェス。",
+        "key": "world_card:a-fa1b69d48055b3fa36f39d48",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "2026-10-03",
+        "title": "すきフェス！ — AI・3Dプリンター・科学実験など26体験",
+        "variant": "orbit"
+      }
+    },
+    {
       "id": "a-ebc179110aa9743d57a4a853",
       "slug": "a-ebc179110aa9743d57a4a853",
       "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
@@ -1380,47 +1422,6 @@
         "title": "長濱蒸溜所 × Snow Peak「TAKIBI / OKIBI」— 10/3数量限定発売",
         "variant": "signal"
       }
-    },
-    {
-      "id": "a-fa1b69d48055b3fa36f39d48",
-      "slug": "a-fa1b69d48055b3fa36f39d48",
-      "title": "すきフェス！ — AI・3Dプリンター・科学実験など26体験",
-      "public_summary": "10月3日、なごのキャンパスで親子向け体験フェス。",
-      "category": "local_family",
-      "status": "NEW",
-      "published_date": "2026-10-02",
-      "updated_date": "2026-10-02",
-      "sources": [
-        {
-          "url": "https://report.iko-yo.net/articles/33848",
-          "name": "愛知週末イベント"
-        }
-      ],
-      "spotify": [],
-      "images": [],
-      "event_date": "2026-10-03",
-      "price_terms": "入場無料。",
-      "world_card": {
-        "key": "world_card:a-fa1b69d48055b3fa36f39d48",
-        "title": "すきフェス！ — AI・3Dプリンター・科学実験など26体験",
-        "kicker": "LOCAL / EXPERIENCE",
-        "concept": "10月3日、なごのキャンパスで親子向け体験フェス。",
-        "meta": "2026-10-03",
-        "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-fa1b69d48055b3fa36f39d48"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-fa1b69d48055b3fa36f39d48"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ENDED"
     },
     {
       "id": "a-8006f3dee8380053be8def97",
