@@ -3399,50 +3399,28 @@
       }
     },
     {
-      "id": "a-7f7810d7e4dba2ab87344f71",
-      "slug": "a-7f7810d7e4dba2ab87344f71",
-      "title": "Rival Consoles — Landscape from Memory Tour 2026",
-      "public_summary": "11月19日WWW X、20日CIRCUS OSAKAで開催。公式は一般発売を9月26日からと案内している。",
       "category": "music_live",
-      "status": "UPDATE",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://smash-jpn.com/live/?id=4777",
-          "name": "SMASH — Rival Consoles"
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg",
+          "kind": "image"
         },
-        {
-          "url": "https://l-tike.com/concert/mevent/?mid=794745",
-          "name": "ローソンチケット"
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC",
+          "kind": "media"
         },
-        {
-          "url": "https://smash-jpn.com/live/?id=4777",
-          "name": "Rival Consoles — Landscape from Memory Tour 2026 公式案内"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC",
-          "name": "Rival Consoles"
-        }
-      ],
+        "detail_secondary": [
+          {
+            "key": "image:https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2026-11-19",
+      "id": "a-7f7810d7e4dba2ab87344f71",
       "images": [
         {
-          "url": "assets/images/1651dfc30dddd9b5d40c4e317ae7759b188a7cb200aac7af187c450d9e387836.jpg",
-          "original_url": "https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg",
-          "source_page": "https://www.flickr.com/photos/22812646@N00/10362761505",
-          "relation": "reference_same_entity",
-          "caption": "同アーティストの参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "johanna kollmann / CC BY 2.0 / Flickr (Openverse discovery)",
             "creator": "johanna kollmann",
@@ -3452,12 +3430,24 @@
             "license_url": "https://creativecommons.org/licenses/by/2.0/",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Flickr (Openverse discovery)"
+          },
+          "caption": "同アーティストの参考写真",
+          "mode": "saved",
+          "original_url": "https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg",
+          "relation": "reference_same_entity",
+          "source_page": "https://www.flickr.com/photos/22812646@N00/10362761505",
+          "url": "assets/images/1651dfc30dddd9b5d40c4e317ae7759b188a7cb200aac7af187c450d9e387836.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "event_date": "2026-11-19",
-      "venue": "WWW X / CIRCUS OSAKA",
-      "price_terms": "前売7,800円、ドリンク別。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC",
@@ -3476,32 +3466,43 @@
           }
         }
       ],
+      "price_terms": "前売7,800円、ドリンク別。",
+      "public_detail": "Ryan Lee Westによる電子音楽プロジェクト。IDMやglitch、danceを背景にしつつ、シンセの質感や余白を絞り込み、電子音を有機的・人間的に聞かせる方向を追う。アンビエント寄りの広がりからビートの強い展開までを行き来する。",
+      "public_summary": "11月19日WWW X、20日CIRCUS OSAKAで開催。公式は一般発売を9月26日からと案内している。",
+      "published_date": "2026-09-29",
+      "slug": "a-7f7810d7e4dba2ab87344f71",
+      "sources": [
+        {
+          "name": "SMASH — Rival Consoles",
+          "url": "https://smash-jpn.com/live/?id=4777"
+        },
+        {
+          "name": "ローソンチケット",
+          "url": "https://l-tike.com/concert/mevent/?mid=794745"
+        },
+        {
+          "name": "Rival Consoles — Landscape from Memory Tour 2026 公式案内",
+          "url": "https://smash-jpn.com/live/?id=4777"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Rival Consoles",
+          "url": "https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC"
+        }
+      ],
+      "status": "UPDATE",
+      "title": "Rival Consoles — Landscape from Memory Tour 2026",
+      "updated_date": "2026-09-29",
+      "venue": "WWW X / CIRCUS OSAKA",
       "world_card": {
-        "key": "world_card:a-7f7810d7e4dba2ab87344f71",
-        "title": "Rival Consoles — Landscape from Memory Tour 2026",
-        "kicker": "MUSIC / LIVE",
         "concept": "11月19日WWW X、20日CIRCUS OSAKAで開催。公式は一般発売を9月26日からと案内している。",
+        "key": "world_card:a-7f7810d7e4dba2ab87344f71",
+        "kicker": "MUSIC / LIVE",
         "meta": "2026-11-19 · WWW X / CIRCUS OSAKA",
+        "title": "Rival Consoles — Landscape from Memory Tour 2026",
         "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-86dd52b5fca063f5aa32ac65",
