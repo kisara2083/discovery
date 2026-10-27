@@ -2525,29 +2525,29 @@
       "lifecycle": "ENDED"
     },
     {
-      "id": "a-c2508f7155a0f0dd0a7a3bf7",
-      "slug": "a-c2508f7155a0f0dd0a7a3bf7",
-      "title": "アークナイツ — 一般資格証の交換条件が10月1日に更新",
-      "public_summary": "公式告知では10月1日4:00から一般資格証の交換所を更新。次のフェーズは一定数の資格証を消費すると開く方式になり、フェーズ2には商品が追加される。貯めている資格証の使い道をゲーム内で確認するタイミング。",
       "category": "games",
-      "status": "NEW",
-      "published_date": "2026-09-30",
-      "updated_date": "2026-09-30",
-      "sources": [
-        {
-          "url": "https://arknights.jp/news/4670",
-          "name": "アークナイツ — 一般資格証の交換条件が10月1日に更新 公式案内"
-        }
-      ],
-      "spotify": [],
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-c2508f7155a0f0dd0a7a3bf7",
       "images": [
         {
-          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "source_page": "https://www.arknights.jp/fankit/",
-          "relation": "reference_same_entity",
           "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
+          "framing": "contain",
           "mode": "saved",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "relation": "reference_same_entity",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
           "visual_provenance": {
             "article_match": false,
             "authority_class": "official_entity",
@@ -2555,31 +2555,31 @@
             "official_source": true,
             "relation": "official_entity",
             "source_revalidated": true
-          },
-          "framing": "contain"
+          }
         }
       ],
+      "lifecycle": "ACTIVE",
+      "public_summary": "公式告知では10月1日4:00から一般資格証の交換所を更新。次のフェーズは一定数の資格証を消費すると開く方式になり、フェーズ2には商品が追加される。貯めている資格証の使い道をゲーム内で確認するタイミング。",
+      "published_date": "2026-09-30",
+      "slug": "a-c2508f7155a0f0dd0a7a3bf7",
+      "sources": [
+        {
+          "name": "アークナイツ — 一般資格証の交換条件が10月1日に更新 公式案内",
+          "url": "https://arknights.jp/news/4670"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "アークナイツ — 一般資格証の交換条件が10月1日に更新",
+      "updated_date": "2026-09-30",
       "world_card": {
-        "key": "world_card:a-c2508f7155a0f0dd0a7a3bf7",
-        "title": "アークナイツ — 一般資格証の交換条件が10月1日に更新",
-        "kicker": "GAME / UPDATE",
         "concept": "公式告知では10月1日4:00から一般資格証の交換所を更新。次のフェーズは一定数の資格証を消費すると開く方式になり、フェーズ2には商品が追加される。貯めている資格証の使い道をゲーム内で確認するタイミング。",
+        "key": "world_card:a-c2508f7155a0f0dd0a7a3bf7",
+        "kicker": "GAME / UPDATE",
         "meta": "",
+        "title": "アークナイツ — 一般資格証の交換条件が10月1日に更新",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
-        },
-        "detail_primary": {
-          "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-a898a1a96de58ae58fe61d68",
