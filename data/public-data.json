@@ -3505,37 +3505,27 @@
       }
     },
     {
-      "id": "a-86dd52b5fca063f5aa32ac65",
-      "slug": "a-86dd52b5fca063f5aa32ac65",
-      "title": "天白公園自然観察会",
-      "public_summary": "10月12日10時予定、天白公園で身近な植物を観察する無料の自然観察会。どなたでも参加でき、センター窓口で先着受付。",
       "category": "local_family",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://www.suisin.city.nagoya.jp/system/lecture/index.cgi?action=lect_view&key=00024311",
-          "name": "天白公園自然観察会"
-        }
-      ],
-      "spotify": [],
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://www.youtube.com/watch?v=ghMHuCEgpWU",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "id": "a-86dd52b5fca063f5aa32ac65",
       "images": [
         {
-          "url": "assets/images/5b7cd7e2e60973235543b5f819fb4682fef02dbf79af236f69482cd30b79fbb5.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Tenpaku_Park.JPG",
-          "relation": "reference_same_entity",
-          "caption": "天白公園の参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Hosousu / CC BY 4.0 / Wikimedia Commons",
             "creator": "Hosousu",
@@ -3545,11 +3535,24 @@
             "license_url": "https://creativecommons.org/licenses/by/4.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "天白公園の参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Tenpaku_Park.JPG",
+          "url": "assets/images/5b7cd7e2e60973235543b5f819fb4682fef02dbf79af236f69482cd30b79fbb5.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "venue": "天白公園",
-      "price_terms": "無料。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://www.youtube.com/watch?v=ghMHuCEgpWU",
@@ -3568,32 +3571,29 @@
           }
         }
       ],
+      "price_terms": "無料。",
+      "public_summary": "10月12日10時予定、天白公園で身近な植物を観察する無料の自然観察会。どなたでも参加でき、センター窓口で先着受付。",
+      "published_date": "2026-09-29",
+      "slug": "a-86dd52b5fca063f5aa32ac65",
+      "sources": [
+        {
+          "name": "天白公園自然観察会",
+          "url": "https://www.suisin.city.nagoya.jp/system/lecture/index.cgi?action=lect_view&key=00024311"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "天白公園自然観察会",
+      "updated_date": "2026-09-29",
+      "venue": "天白公園",
       "world_card": {
-        "key": "world_card:a-86dd52b5fca063f5aa32ac65",
-        "title": "天白公園自然観察会",
-        "kicker": "LOCAL / EXPERIENCE",
         "concept": "10月12日10時予定、天白公園で身近な植物を観察する無料の自然観察会。どなたでも参加でき、センター窓口で先着受付。",
+        "key": "world_card:a-86dd52b5fca063f5aa32ac65",
+        "kicker": "LOCAL / EXPERIENCE",
         "meta": "天白公園",
+        "title": "天白公園自然観察会",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "image",
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        },
-        "detail_primary": {
-          "kind": "image",
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://www.youtube.com/watch?v=ghMHuCEgpWU"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "local_family",
