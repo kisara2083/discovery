@@ -4657,37 +4657,31 @@
       }
     },
     {
-      "id": "a-b2a798191e25c0fe70804d14",
-      "slug": "a-b2a798191e25c0fe70804d14",
-      "title": "Netflix『俺のこと、なんか言ってた？』",
-      "public_summary": "国民的俳優が帰国すると99%の人に忘れられていた、という設定から再起する宮藤官九郎脚本のコメディ。2026年10月22日配信開始。",
       "category": "film_streaming",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://about.netflix.com/en/news/did-someone-happen-to-mention-me-main-trailer",
-          "name": "Netflix Drops Main Trailer for Did Someone Happen to Mention Me?"
-        }
-      ],
-      "spotify": [],
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=-tUulrroh6A",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=-tUulrroh6A",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://www.youtube.com/watch?v=MxQQ1S0N_wE",
+            "kind": "media"
+          },
+          {
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "id": "a-b2a798191e25c0fe70804d14",
       "images": [
         {
-          "url": "assets/images/ac756b7dd84c87d098ac6d728cc8f7b5e994cffd09559ca29201e6be968efa8d.png",
-          "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Japanese_actor-Koji_Yakusho_Ffa2.png",
-          "relation": "reference_same_entity",
-          "caption": "出演者・役所広司の参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "File:Ffa2.jpg:  Efloch\nDerivative work: Eastmain / CC BY-SA 3.0 / Wikimedia Commons",
             "creator": "File:Ffa2.jpg:  Efloch\nDerivative work: Eastmain",
@@ -4697,10 +4691,24 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "出演者・役所広司の参考写真",
+          "mode": "saved",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Japanese_actor-Koji_Yakusho_Ffa2.png",
+          "url": "assets/images/ac756b7dd84c87d098ac6d728cc8f7b5e994cffd09559ca29201e6be968efa8d.png",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "price_terms": "Netflix契約が必要。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://www.youtube.com/watch?v=MxQQ1S0N_wE",
@@ -4735,36 +4743,28 @@
           }
         }
       ],
+      "price_terms": "Netflix契約が必要。",
+      "public_summary": "国民的俳優が帰国すると99%の人に忘れられていた、という設定から再起する宮藤官九郎脚本のコメディ。2026年10月22日配信開始。",
+      "published_date": "2026-09-29",
+      "slug": "a-b2a798191e25c0fe70804d14",
+      "sources": [
+        {
+          "name": "Netflix Drops Main Trailer for Did Someone Happen to Mention Me?",
+          "url": "https://about.netflix.com/en/news/did-someone-happen-to-mention-me-main-trailer"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Netflix『俺のこと、なんか言ってた？』",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-b2a798191e25c0fe70804d14",
-        "title": "Netflix『俺のこと、なんか言ってた？』",
-        "kicker": "FILM / STREAMING",
         "concept": "国民的俳優が帰国すると99%の人に忘れられていた、という設定から再起する宮藤官九郎脚本のコメディ。2026年10月22日配信開始。",
+        "key": "world_card:a-b2a798191e25c0fe70804d14",
+        "kicker": "FILM / STREAMING",
         "meta": "",
+        "title": "Netflix『俺のこと、なんか言ってた？』",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=-tUulrroh6A"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=-tUulrroh6A"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://www.youtube.com/watch?v=MxQQ1S0N_wE"
-          },
-          {
-            "kind": "image",
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-4269498568372099222789ff",
