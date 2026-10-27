@@ -2387,30 +2387,23 @@
       }
     },
     {
-      "id": "a-6096dcf06c396ad4433514ee",
-      "slug": "a-6096dcf06c396ad4433514ee",
-      "title": "FCO. — 小原綾斗の別名義を名古屋クアトロで",
-      "public_summary": "Tempalayの小原綾斗が率いるFCO.が10月9日に名古屋へ。開場18時・開演19時のクアトロ公演で、東京会場は売り切れでも名古屋の案内は別に掲載されている。オープニングアクトは後日発表。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-09-30",
-      "updated_date": "2026-09-30",
-      "sources": [
-        {
-          "url": "https://smash-jpn.com/live/?id=4766",
-          "name": "FCO. — 小原綾斗の別名義を名古屋クアトロで 公式案内"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq",
-          "name": "FCO."
-        }
-      ],
-      "images": [],
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq",
+          "kind": "media"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
       "event_date": "2026-10-09",
-      "venue": "NAGOYA CLUB QUATTRO",
-      "price_terms": "前売5,500円、ドリンク代別。未就学児入場不可。",
+      "id": "a-6096dcf06c396ad4433514ee",
+      "images": [],
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq",
@@ -2429,27 +2422,34 @@
           }
         }
       ],
+      "price_terms": "前売5,500円、ドリンク代別。未就学児入場不可。",
+      "public_summary": "Tempalayの小原綾斗が率いるFCO.が10月9日に名古屋へ。開場18時・開演19時のクアトロ公演で、東京会場は売り切れでも名古屋の案内は別に掲載されている。オープニングアクトは後日発表。",
+      "published_date": "2026-09-30",
+      "slug": "a-6096dcf06c396ad4433514ee",
+      "sources": [
+        {
+          "name": "FCO. — 小原綾斗の別名義を名古屋クアトロで 公式案内",
+          "url": "https://smash-jpn.com/live/?id=4766"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "FCO.",
+          "url": "https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq"
+        }
+      ],
+      "status": "NEW",
+      "title": "FCO. — 小原綾斗の別名義を名古屋クアトロで",
+      "updated_date": "2026-09-30",
+      "venue": "NAGOYA CLUB QUATTRO",
       "world_card": {
-        "key": "world_card:a-6096dcf06c396ad4433514ee",
-        "title": "FCO. — 小原綾斗の別名義を名古屋クアトロで",
-        "kicker": "MUSIC / LIVE",
         "concept": "Tempalayの小原綾斗が率いるFCO.が10月9日に名古屋へ。開場18時・開演19時のクアトロ公演で、東京会場は売り切れでも名古屋の案内は別に掲載されている。オープニングアクトは後日発表。",
+        "key": "world_card:a-6096dcf06c396ad4433514ee",
+        "kicker": "MUSIC / LIVE",
         "meta": "2026-10-09 · NAGOYA CLUB QUATTRO",
+        "title": "FCO. — 小原綾斗の別名義を名古屋クアトロで",
         "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
       "category": "music_live",
