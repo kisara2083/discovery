@@ -1189,36 +1189,24 @@
       }
     },
     {
-      "id": "a-561d45a0bc691307ef22b76b",
-      "slug": "a-561d45a0bc691307ef22b76b",
-      "title": "Disco Elysium - The Final Cut：75%OFF・1,150円、対話と内面を操作する探偵RPG",
-      "public_summary": "独自のスキルを使い、街を調査しながら対話や選択で進む探偵RPG。Steam日本向け価格情報で4,600円→1,150円（75%OFF）を確認。アクション中心ではなく、文章・対話を楽しむ余裕がある時の候補。",
       "category": "games",
-      "status": "NEW",
-      "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
-      "sources": [
-        {
-          "url": "https://store.steampowered.com/app/632470/",
-          "name": "Steam公式ストア"
-        },
-        {
-          "url": "https://store.steampowered.com/api/appdetails?appids=632470&cc=jp&l=japanese&filters=price_overview",
-          "name": "Steam公式：日本向け現在価格"
-        },
-        {
-          "url": "https://steamcommunity.com/groups/steamworks/announcements?l=japanese&snr=2_groupannouncements_detail_",
-          "name": "Valve公式イベント日程"
-        }
-      ],
-      "spotify": [],
-      "images": [],
       "deadline_at": "2026-10-09T02:00:00+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://store.steampowered.com/app/632470/",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://store.steampowered.com/app/632470/",
+          "kind": "media"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
       "end_at": "2026-10-09T02:00:00+09:00",
-      "public_detail": "探偵として人物に話を聞き、街を調査するロールプレイングゲーム。独自のスキルシステムと対話の選択によって、事件へのアプローチや主人公の振る舞いが変わる。",
-      "price_terms": "4,600円→1,150円（75%OFF、Steam日本向け価格情報で確認）",
-      "note": "購入前に最新価格を確認。Steamオータムセールの終了は日本時間10月9日2時。",
-      "whats_new": "今回初出。開催中のSteamセールを個別ゲーム・日本向け価格まで展開。",
+      "id": "a-561d45a0bc691307ef22b76b",
+      "images": [],
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://store.steampowered.com/app/632470/",
@@ -1237,27 +1225,39 @@
           }
         }
       ],
+      "note": "購入前に最新価格を確認。Steamオータムセールの終了は日本時間10月9日2時。",
+      "price_terms": "4,600円→1,150円（75%OFF、Steam日本向け価格情報で確認）",
+      "public_detail": "探偵として人物に話を聞き、街を調査するロールプレイングゲーム。独自のスキルシステムと対話の選択によって、事件へのアプローチや主人公の振る舞いが変わる。",
+      "public_summary": "独自のスキルを使い、街を調査しながら対話や選択で進む探偵RPG。Steam日本向け価格情報で4,600円→1,150円（75%OFF）を確認。アクション中心ではなく、文章・対話を楽しむ余裕がある時の候補。",
+      "published_date": "2026-10-05",
+      "slug": "a-561d45a0bc691307ef22b76b",
+      "sources": [
+        {
+          "name": "Steam公式ストア",
+          "url": "https://store.steampowered.com/app/632470/"
+        },
+        {
+          "name": "Steam公式：日本向け現在価格",
+          "url": "https://store.steampowered.com/api/appdetails?appids=632470&cc=jp&l=japanese&filters=price_overview"
+        },
+        {
+          "name": "Valve公式イベント日程",
+          "url": "https://steamcommunity.com/groups/steamworks/announcements?l=japanese&snr=2_groupannouncements_detail_"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Disco Elysium - The Final Cut：75%OFF・1,150円、対話と内面を操作する探偵RPG",
+      "updated_date": "2026-10-05",
+      "whats_new": "今回初出。開催中のSteamセールを個別ゲーム・日本向け価格まで展開。",
       "world_card": {
-        "key": "world_card:a-561d45a0bc691307ef22b76b",
-        "title": "Disco Elysium - The Final Cut：75%OFF・1,150円、対話と内面を操作する探偵RPG",
-        "kicker": "GAME / DISCOVERY",
         "concept": "独自のスキルを使い、街を調査しながら対話や選択で進む探偵RPG。Steam日本向け価格情報で4,600円→1,150円（75%OFF）を確認。アクション中心ではなく、文章・対話を楽しむ余裕がある時の候補。",
+        "key": "world_card:a-561d45a0bc691307ef22b76b",
+        "kicker": "GAME / DISCOVERY",
         "meta": "",
+        "title": "Disco Elysium - The Final Cut：75%OFF・1,150円、対話と内面を操作する探偵RPG",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://store.steampowered.com/app/632470/"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://store.steampowered.com/app/632470/"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
       "category": "cross_domain",
