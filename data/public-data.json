@@ -3868,31 +3868,22 @@
       }
     },
     {
-      "id": "a-c2744609ecf5b11db1d8b887",
-      "slug": "a-c2744609ecf5b11db1d8b887",
-      "title": "Steam Autumn Sale 2026 — 日本時間では10月2日2時開始",
-      "public_summary": "ValveのSteamworks公式日程は2026年10月1日10:00 PT〜10月8日10:00 PT。日本時間では10月2日2:00ごろ開始となるため、現在はまだ開始前。",
       "category": "games",
-      "status": "UPDATE",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://partner.steamgames.com/doc/marketing/discounts/seasonalsales",
-          "name": "Steamworks Seasonal Sales"
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ",
+          "kind": "media"
         },
-        {
-          "url": "https://partner.steamgames.com/doc/marketing/upcoming_events/2026_autumn_sale",
-          "name": "Steam Autumn Sale 2026 — Steamworks Documentation"
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ",
+          "kind": "media"
         },
-        {
-          "url": "https://partner.steamgames.com/doc/marketing/discounts/seasonalsales",
-          "name": "Seasonal Sales — Steamworks Documentation"
-        }
-      ],
-      "spotify": [],
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-c2744609ecf5b11db1d8b887",
       "images": [],
-      "price_terms": "参加作品・割引率は開始後に個別確認。発売・価格変更から30日以内など割引制約があるため、直近新作が必ず対象になるとは限らない。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://www.youtube.com/watch?v=GTmrbdAQWaQ",
@@ -3911,27 +3902,36 @@
           }
         }
       ],
+      "price_terms": "参加作品・割引率は開始後に個別確認。発売・価格変更から30日以内など割引制約があるため、直近新作が必ず対象になるとは限らない。",
+      "public_summary": "ValveのSteamworks公式日程は2026年10月1日10:00 PT〜10月8日10:00 PT。日本時間では10月2日2:00ごろ開始となるため、現在はまだ開始前。",
+      "published_date": "2026-09-29",
+      "slug": "a-c2744609ecf5b11db1d8b887",
+      "sources": [
+        {
+          "name": "Steamworks Seasonal Sales",
+          "url": "https://partner.steamgames.com/doc/marketing/discounts/seasonalsales"
+        },
+        {
+          "name": "Steam Autumn Sale 2026 — Steamworks Documentation",
+          "url": "https://partner.steamgames.com/doc/marketing/upcoming_events/2026_autumn_sale"
+        },
+        {
+          "name": "Seasonal Sales — Steamworks Documentation",
+          "url": "https://partner.steamgames.com/doc/marketing/discounts/seasonalsales"
+        }
+      ],
+      "spotify": [],
+      "status": "UPDATE",
+      "title": "Steam Autumn Sale 2026 — 日本時間では10月2日2時開始",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-c2744609ecf5b11db1d8b887",
-        "title": "Steam Autumn Sale 2026 — 日本時間では10月2日2時開始",
-        "kicker": "GAME / DISCOVERY",
         "concept": "ValveのSteamworks公式日程は2026年10月1日10:00 PT〜10月8日10:00 PT。日本時間では10月2日2:00ごろ開始となるため、現在はまだ開始前。",
+        "key": "world_card:a-c2744609ecf5b11db1d8b887",
+        "kicker": "GAME / DISCOVERY",
         "meta": "",
+        "title": "Steam Autumn Sale 2026 — 日本時間では10月2日2時開始",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "food_drink",
