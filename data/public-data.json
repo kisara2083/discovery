@@ -1543,46 +1543,29 @@
       }
     },
     {
-      "id": "a-8006f3dee8380053be8def97",
-      "slug": "a-8006f3dee8380053be8def97",
-      "title": "RADIOHEAD JAPAN 2027 — 受付終了、落選時はwaitlistへ",
-      "public_summary": "Radiohead公式は2027年6月8・9・11・12・13日のGMOアリーナさいたま5公演を案内。日本向け登録は現在「REGISTRATION NOW CLOSED」となっており、初回抽選で取れなかった登録者は自動的にwaitlistへ入ると明記している。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-01",
-      "updated_date": "2026-10-01",
-      "sources": [
-        {
-          "url": "https://www.radiohead.com/",
-          "name": "Australia and Japan 2027 | RADIOHEAD.COM"
+      "city": "さいたま市",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
         },
-        {
-          "url": "https://www.creativeman.co.jp/2026/09/07/107812/",
-          "name": "RADIOHEAD JAPAN 2027 決定！"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
-          "name": "Radiohead"
-        }
-      ],
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2027-06-08",
+      "id": "a-8006f3dee8380053be8def97",
       "images": [
         {
-          "url": "assets/images/c5ae13eb6545fe201484ddeb0a9aeea7ac7aa61093ec02677da00d04e7603b41.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:2025_Radiohead_live_concert_at_Uber_Arena,_Berlin_102.jpg",
-          "relation": "reference_same_entity",
-          "caption": "同アーティストの参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Raph_PH / CC BY 4.0 / Wikimedia Commons",
             "creator": "Raph_PH",
@@ -1592,13 +1575,24 @@
             "license_url": "https://creativecommons.org/licenses/by/4.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "同アーティストの参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:2025_Radiohead_live_concert_at_Uber_Arena,_Berlin_102.jpg",
+          "url": "assets/images/c5ae13eb6545fe201484ddeb0a9aeea7ac7aa61093ec02677da00d04e7603b41.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "event_date": "2027-06-08",
-      "venue": "GMO Arena Saitama",
-      "city": "さいたま市",
-      "price_terms": "スタンディング26,000円、指定席15,000〜30,000円、Fast Track Status 59,800円。転売・名義変更不可。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
@@ -1617,32 +1611,38 @@
           }
         }
       ],
+      "price_terms": "スタンディング26,000円、指定席15,000〜30,000円、Fast Track Status 59,800円。転売・名義変更不可。",
+      "public_summary": "Radiohead公式は2027年6月8・9・11・12・13日のGMOアリーナさいたま5公演を案内。日本向け登録は現在「REGISTRATION NOW CLOSED」となっており、初回抽選で取れなかった登録者は自動的にwaitlistへ入ると明記している。",
+      "published_date": "2026-10-01",
+      "slug": "a-8006f3dee8380053be8def97",
+      "sources": [
+        {
+          "name": "Australia and Japan 2027 | RADIOHEAD.COM",
+          "url": "https://www.radiohead.com/"
+        },
+        {
+          "name": "RADIOHEAD JAPAN 2027 決定！",
+          "url": "https://www.creativeman.co.jp/2026/09/07/107812/"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Radiohead",
+          "url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
+        }
+      ],
+      "status": "NEW",
+      "title": "RADIOHEAD JAPAN 2027 — 受付終了、落選時はwaitlistへ",
+      "updated_date": "2026-10-01",
+      "venue": "GMO Arena Saitama",
       "world_card": {
-        "key": "world_card:a-8006f3dee8380053be8def97",
-        "title": "RADIOHEAD JAPAN 2027 — 受付終了、落選時はwaitlistへ",
-        "kicker": "MUSIC / LIVE",
         "concept": "Radiohead公式は2027年6月8・9・11・12・13日のGMOアリーナさいたま5公演を案内。日本向け登録は現在「REGISTRATION NOW CLOSED」となっており、初回抽選で取れなかった登録者は自動的にwaitlistへ入ると明記している。",
+        "key": "world_card:a-8006f3dee8380053be8def97",
+        "kicker": "MUSIC / LIVE",
         "meta": "2027-06-08 · GMO Arena Saitama",
+        "title": "RADIOHEAD JAPAN 2027 — 受付終了、落選時はwaitlistへ",
         "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-098b209211b9ec8626ef9dd2",
