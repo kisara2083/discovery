@@ -911,36 +911,31 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-52602b586fedb6c0bda0a5c0",
-      "slug": "a-52602b586fedb6c0bda0a5c0",
-      "title": "The Lemon Twigs：2027年1月の来日、会員先行は10月8日18時まで",
-      "public_summary": "The Lemon Twigsが2027年1月22日東京、23日京都、24日大阪で来日公演を開催。10月5日に発表された。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
-      "sources": [
-        {
-          "url": "https://www.creativeman.co.jp/event/the-lemon-twigs_2027/",
-          "name": "THE LEMON TWIGS JAPAN TOUR 2027公式日程・受付条件"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T",
-          "name": "The Lemon Twigs"
-        }
-      ],
-      "images": [],
-      "event_date": "2027-01-23T18:00:00+09:00",
-      "deadline_at": "2026-10-08T18:00:00+09:00",
-      "end_at": "2027-01-24T23:59:59+09:00",
-      "public_detail": "ニューヨーク出身のダダリオ兄弟によるロックデュオ。メロディとハーモニー、変化に富むソングライティングを特徴とする。東京は19時、京都と大阪は18時開演。",
-      "venue": "Club METRO（京都公演）",
       "city": "京都市",
-      "price_terms": "全公演税込8,800円、ドリンク別、未就学児入場不可。",
-      "note": "税込8,800円、ドリンク別。会員先行は10月8日18時まで、一般発売10月17日10時。未就学児入場不可。",
-      "whats_new": "10月5日の新規発表と受付開始を確認。",
+      "deadline_at": "2026-10-08T18:00:00+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=jnylB5ylyw4",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=jnylB5ylyw4",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "end_at": "2027-01-24T23:59:59+09:00",
+      "event_date": "2027-01-23T18:00:00+09:00",
+      "id": "a-52602b586fedb6c0bda0a5c0",
+      "images": [],
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T",
@@ -975,32 +970,37 @@
           }
         }
       ],
+      "note": "税込8,800円、ドリンク別。会員先行は10月8日18時まで、一般発売10月17日10時。未就学児入場不可。",
+      "price_terms": "全公演税込8,800円、ドリンク別、未就学児入場不可。",
+      "public_detail": "ニューヨーク出身のダダリオ兄弟によるロックデュオ。メロディとハーモニー、変化に富むソングライティングを特徴とする。東京は19時、京都と大阪は18時開演。",
+      "public_summary": "The Lemon Twigsが2027年1月22日東京、23日京都、24日大阪で来日公演を開催。10月5日に発表された。",
+      "published_date": "2026-10-05",
+      "slug": "a-52602b586fedb6c0bda0a5c0",
+      "sources": [
+        {
+          "name": "THE LEMON TWIGS JAPAN TOUR 2027公式日程・受付条件",
+          "url": "https://www.creativeman.co.jp/event/the-lemon-twigs_2027/"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "The Lemon Twigs",
+          "url": "https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T"
+        }
+      ],
+      "status": "NEW",
+      "title": "The Lemon Twigs：2027年1月の来日、会員先行は10月8日18時まで",
+      "updated_date": "2026-10-05",
+      "venue": "Club METRO（京都公演）",
+      "whats_new": "10月5日の新規発表と受付開始を確認。",
       "world_card": {
-        "key": "world_card:a-52602b586fedb6c0bda0a5c0",
-        "title": "The Lemon Twigs：2027年1月の来日、会員先行は10月8日18時まで",
-        "kicker": "MUSIC / LIVE",
         "concept": "The Lemon Twigsが2027年1月22日東京、23日京都、24日大阪で来日公演を開催。10月5日に発表された。",
+        "key": "world_card:a-52602b586fedb6c0bda0a5c0",
+        "kicker": "MUSIC / LIVE",
         "meta": "2027-01-23T18:00:00+09:00 · Club METRO（京都公演）",
+        "title": "The Lemon Twigs：2027年1月の来日、会員先行は10月8日18時まで",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=jnylB5ylyw4"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=jnylB5ylyw4"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T"
-          }
-        ]
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
       "id": "a-5206c774fb880f206b848be2",
