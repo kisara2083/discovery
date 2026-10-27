@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-27",
   "taxonomy": [
     {
       "id": "shopping",
@@ -3815,56 +3815,57 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-f6496eb4c10c514b08d6d898",
-      "slug": "a-f6496eb4c10c514b08d6d898",
-      "title": "Amazonプライム感謝祭2026 — 日替わりセール・4週キャンペーンを追加発表",
-      "public_summary": "Amazon Japanが9月28日に追加情報を発表。本番は10月16〜19日、先行セールは10月13〜15日で、対象は400万点以上。16〜19日はBRAUN・Dyson・Boseなどの対象商品が毎日入れ替わる「厳選日替わりセール」を実施し、対象品は当日発表される。",
       "category": "shopping",
-      "status": "UPDATE",
+      "deadline_at": "2026-10-19T23:59:00+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-f6496eb4c10c514b08d6d898",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-f6496eb4c10c514b08d6d898",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-f6496eb4c10c514b08d6d898",
+      "images": [],
+      "lifecycle": "ENDED",
+      "price_terms": "Prime会員限定。対象400万点以上。ポイント施策はエントリーや購入額など個別条件あり。Amazonふるさと納税では9月24日〜10月19日の4週企画も実施。",
+      "public_summary": "Amazon Japanが9月28日に追加情報を発表。本番は10月16〜19日、先行セールは10月13〜15日で、対象は400万点以上。16〜19日はBRAUN・Dyson・Boseなどの対象商品が毎日入れ替わる「厳選日替わりセール」を実施し、対象品は当日発表される。",
       "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
+      "slug": "a-f6496eb4c10c514b08d6d898",
       "sources": [
         {
-          "url": "https://prtimes.jp/main/html/rd/p/000002182.000004612.html",
-          "name": "Amazon Japan 2026年プライム感謝祭発表"
+          "name": "Amazon Japan 2026年プライム感謝祭発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000002182.000004612.html"
         },
         {
-          "url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/dpay_amazon_260915_7803/",
-          "name": "d払い連動campaign"
+          "name": "d払い連動campaign",
+          "url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/dpay_amazon_260915_7803/"
         },
         {
-          "url": "https://prtimes.jp/main/html/rd/p/000002185.000004612.html",
-          "name": "Amazon Japan — プライム感謝祭の注目セールとキャンペーンを発表"
+          "name": "Amazon Japan — プライム感謝祭の注目セールとキャンペーンを発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000002185.000004612.html"
         },
         {
-          "url": "https://prtimes.jp/main/html/rd/p/000002182.000004612.html",
-          "name": "Amazon Japan — プライム感謝祭2026 開催発表"
+          "name": "Amazon Japan — プライム感謝祭2026 開催発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000002182.000004612.html"
         }
       ],
       "spotify": [],
-      "images": [],
-      "price_terms": "Prime会員限定。対象400万点以上。ポイント施策はエントリーや購入額など個別条件あり。Amazonふるさと納税では9月24日〜10月19日の4週企画も実施。",
+      "status": "UPDATE",
+      "title": "Amazonプライム感謝祭2026 — 日替わりセール・4週キャンペーンを追加発表",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-f6496eb4c10c514b08d6d898",
-        "title": "Amazonプライム感謝祭2026 — 日替わりセール・4週キャンペーンを追加発表",
-        "kicker": "OBJECT / DISCOVERY",
         "concept": "Amazon Japanが9月28日に追加情報を発表。本番は10月16〜19日、先行セールは10月13〜15日で、対象は400万点以上。16〜19日はBRAUN・Dyson・Boseなどの対象商品が毎日入れ替わる「厳選日替わりセール」を実施し、対象品は当日発表される。",
+        "key": "world_card:a-f6496eb4c10c514b08d6d898",
+        "kicker": "OBJECT / DISCOVERY",
         "meta": "",
+        "title": "Amazonプライム感謝祭2026 — 日替わりセール・4週キャンペーンを追加発表",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-f6496eb4c10c514b08d6d898"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-f6496eb4c10c514b08d6d898"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-c2744609ecf5b11db1d8b887",
