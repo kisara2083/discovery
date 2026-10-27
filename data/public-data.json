@@ -1895,46 +1895,32 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-73f6d065e7f625b80ec330c2",
-      "slug": "a-73f6d065e7f625b80ec330c2",
-      "title": "DOVETAIL S/N 004 — 6年ぶり復活、WONK・TENDRE・luvら第1弾",
-      "public_summary": "DOVETAILが約6年ぶりに復活。2027年2月11日、渋谷のSpotify O-EAST / O-WEST / duo MUSIC EXCHANGEを回遊する3会場サーキットとして開催し、10月1日にKIRINJI、WONK、TENDRE、Jeremy Quartus、luv、モノンクル、LAGHEADSなど第1弾11組を発表した。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-01",
-      "updated_date": "2026-10-01",
-      "sources": [
-        {
-          "url": "https://www.red-hot.ne.jp/play/detail.php?pid=py28802",
-          "name": "DOVETAIL S/N 004 公演情報"
-        },
-        {
-          "url": "https://www.kirinji-official.com/contents/1114856",
-          "name": "KIRINJI — DOVETAIL S/N 004"
-        },
-        {
-          "url": "https://spincoaster.com/news/dovetail-2027",
-          "name": "DOVETAILが6年ぶりに復活、第1弾11組"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE",
-          "name": "WONK"
-        },
-        {
-          "url": "https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb",
-          "name": "TENDRE"
-        },
-        {
-          "url": "https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB",
-          "name": "luv"
-        }
-      ],
-      "images": [],
-      "venue": "Spotify O-EAST / Spotify O-WEST / duo MUSIC EXCHANGE",
       "city": "東京都渋谷区",
-      "price_terms": "スタンディング9,800円。指定席付入場券は15,500〜16,500円、いずれもドリンク代別。未就学児入場不可。",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB",
+            "kind": "media"
+          },
+          {
+            "key": "media:https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "id": "a-73f6d065e7f625b80ec330c2",
+      "images": [],
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE",
@@ -1985,36 +1971,50 @@
           }
         }
       ],
+      "price_terms": "スタンディング9,800円。指定席付入場券は15,500〜16,500円、いずれもドリンク代別。未就学児入場不可。",
+      "public_summary": "DOVETAILが約6年ぶりに復活。2027年2月11日、渋谷のSpotify O-EAST / O-WEST / duo MUSIC EXCHANGEを回遊する3会場サーキットとして開催し、10月1日にKIRINJI、WONK、TENDRE、Jeremy Quartus、luv、モノンクル、LAGHEADSなど第1弾11組を発表した。",
+      "published_date": "2026-10-01",
+      "slug": "a-73f6d065e7f625b80ec330c2",
+      "sources": [
+        {
+          "name": "DOVETAIL S/N 004 公演情報",
+          "url": "https://www.red-hot.ne.jp/play/detail.php?pid=py28802"
+        },
+        {
+          "name": "KIRINJI — DOVETAIL S/N 004",
+          "url": "https://www.kirinji-official.com/contents/1114856"
+        },
+        {
+          "name": "DOVETAILが6年ぶりに復活、第1弾11組",
+          "url": "https://spincoaster.com/news/dovetail-2027"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "WONK",
+          "url": "https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE"
+        },
+        {
+          "name": "TENDRE",
+          "url": "https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb"
+        },
+        {
+          "name": "luv",
+          "url": "https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB"
+        }
+      ],
+      "status": "NEW",
+      "title": "DOVETAIL S/N 004 — 6年ぶり復活、WONK・TENDRE・luvら第1弾",
+      "updated_date": "2026-10-01",
+      "venue": "Spotify O-EAST / Spotify O-WEST / duo MUSIC EXCHANGE",
       "world_card": {
-        "key": "world_card:a-73f6d065e7f625b80ec330c2",
-        "title": "DOVETAIL S/N 004 — 6年ぶり復活、WONK・TENDRE・luvら第1弾",
-        "kicker": "MUSIC / FESTIVAL",
         "concept": "DOVETAILが約6年ぶりに復活。2027年2月11日、渋谷のSpotify O-EAST / O-WEST / duo MUSIC EXCHANGEを回遊する3会場サーキットとして開催し、10月1日にKIRINJI、WONK、TENDRE、Jeremy Quartus、luv、モノンクル、LAGHEADSなど第1弾11組を発表した。",
+        "key": "world_card:a-73f6d065e7f625b80ec330c2",
+        "kicker": "MUSIC / FESTIVAL",
         "meta": "Spotify O-EAST / Spotify O-WEST / duo MUSIC EXCHANGE",
+        "title": "DOVETAIL S/N 004 — 6年ぶり復活、WONK・TENDRE・luvら第1弾",
         "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB"
-          },
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-94ea44aa2f36a9e3ed6a8821",
