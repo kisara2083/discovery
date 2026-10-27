@@ -102,6 +102,48 @@
       }
     },
     {
+      "category": "local_family",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-ab87d2a4f1a16501179128ed",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-ab87d2a4f1a16501179128ed",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-10-04",
+      "event_date": "2026-10-02",
+      "id": "a-ab87d2a4f1a16501179128ed",
+      "images": [],
+      "lifecycle": "ENDED",
+      "price_terms": "入場無料。一部予約制。",
+      "public_summary": "10月2〜4日、イオンモール Nagoya Noritake Gardenで開催。",
+      "published_date": "2026-10-02",
+      "slug": "a-ab87d2a4f1a16501179128ed",
+      "sources": [
+        {
+          "name": "愛知週末イベント",
+          "url": "https://report.iko-yo.net/articles/33848"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "こども万博mini 名古屋 — 仕事体験・こども店長・縁日",
+      "updated_date": "2026-10-28",
+      "world_card": {
+        "concept": "10月2〜4日、イオンモール Nagoya Noritake Gardenで開催。",
+        "key": "world_card:a-ab87d2a4f1a16501179128ed",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "2026-10-02",
+        "title": "こども万博mini 名古屋 — 仕事体験・こども店長・縁日",
+        "variant": "field"
+      }
+    },
+    {
       "id": "a-ebc179110aa9743d57a4a853",
       "slug": "a-ebc179110aa9743d57a4a853",
       "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
@@ -1114,47 +1156,6 @@
         "detail_primary": {
           "kind": "world_card",
           "key": "world_card:a-fa1b69d48055b3fa36f39d48"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ENDED"
-    },
-    {
-      "id": "a-ab87d2a4f1a16501179128ed",
-      "slug": "a-ab87d2a4f1a16501179128ed",
-      "title": "こども万博mini 名古屋 — 仕事体験・こども店長・縁日",
-      "public_summary": "10月2〜4日、イオンモール Nagoya Noritake Gardenで開催。",
-      "category": "local_family",
-      "status": "NEW",
-      "published_date": "2026-10-02",
-      "updated_date": "2026-10-02",
-      "sources": [
-        {
-          "url": "https://report.iko-yo.net/articles/33848",
-          "name": "愛知週末イベント"
-        }
-      ],
-      "spotify": [],
-      "images": [],
-      "event_date": "2026-10-02",
-      "price_terms": "入場無料。一部予約制。",
-      "world_card": {
-        "key": "world_card:a-ab87d2a4f1a16501179128ed",
-        "title": "こども万博mini 名古屋 — 仕事体験・こども店長・縁日",
-        "kicker": "LOCAL / EXPERIENCE",
-        "concept": "10月2〜4日、イオンモール Nagoya Noritake Gardenで開催。",
-        "meta": "2026-10-02",
-        "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-ab87d2a4f1a16501179128ed"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-ab87d2a4f1a16501179128ed"
         },
         "detail_secondary": []
       },
