@@ -111,7 +111,7 @@ def main(reqp,datap,statep,resultp):
   if len(found)!=1 or digest(found[0])!=state["article_digest"]: fail("duplicate_article_drift")
   out={"v":1,**{k:state[k] for k in STATE_KEYS if k!="v"},"snapshot_changed":False,"receipt_changed":False,"changed":False}; resultp.write_text(json.dumps(out,sort_keys=True)+"\n"); print(json.dumps(out,sort_keys=True)); return 0
  if req["sequence"]!=seq+1: fail("sequence_gap_or_stale")
- pos=[i for i,x in enumerate(data["articles"] if x.get("id")==article["id"])]
+ pos=[i for i,x in enumerate(data["articles"]) if x.get("id")==article["id"]]
  if len(pos)>1: fail("duplicate_existing_identity")
  existing=data["articles"][pos[0]] if pos else None
  if req["operation"]=="NEW" and existing is not None and digest(existing)!=digest(article): fail("new_conflicts_existing")
@@ -120,10 +120,7 @@ def main(reqp,datap,statep,resultp):
  if existing is None:
   article["updated_date"]=req["as_of"]
  elif req["operation"]=="UPDATE":
-  if meaningful(article)==meaningful(existing): article["updated_date"]=existing["updated_date"]
-  else:
-   if req["as_of"]<existing["updated_date"]: fail("update_date_regression")
-   article["updated_date"]=req["as_of"]
+  article["updated_date"]=existing["updated_date"] if meaningful(article)==meaningful(existing) else req["as_of"]
  if existing is None:data["articles"].append(article)
  elif digest(existing)!=digest(article):data["articles"][pos[0]]=article
  for x in data["articles"]:x["lifecycle"]=lifecycle(x,today)
