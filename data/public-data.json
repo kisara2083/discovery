@@ -3756,24 +3756,22 @@
       }
     },
     {
-      "id": "a-9a67a8f724ad3f3ed7a12da1",
-      "slug": "a-9a67a8f724ad3f3ed7a12da1",
-      "title": "残響シ念展―音と感情の実験室― 名古屋会場",
-      "public_summary": "6つの実験室で、音が認知と感情を書き換える過程を体験する没入型展示。名古屋PARCOで10月3日から11月15日まで。",
       "category": "local_family",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://art.parco.jp/parcogallery/detail/?id=2001",
-          "name": "残響シ念展 名古屋会場 | PARCO ART"
-        }
-      ],
-      "spotify": [],
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-9a67a8f724ad3f3ed7a12da1",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "media:https://x.com/parco_factory/status/2059107338955714797",
+          "kind": "media"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-9a67a8f724ad3f3ed7a12da1",
       "images": [],
-      "venue": "名古屋PARCO 西館6F・PARCO GALLERY",
-      "price_terms": "1,500円。10:00～20:00、最終入場は閉場30分前、最終日は18:00閉場。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://x.com/parco_factory/status/2059107338955714797",
@@ -3792,27 +3790,29 @@
           }
         }
       ],
+      "price_terms": "1,500円。10:00～20:00、最終入場は閉場30分前、最終日は18:00閉場。",
+      "public_summary": "6つの実験室で、音が認知と感情を書き換える過程を体験する没入型展示。名古屋PARCOで10月3日から11月15日まで。",
+      "published_date": "2026-09-29",
+      "slug": "a-9a67a8f724ad3f3ed7a12da1",
+      "sources": [
+        {
+          "name": "残響シ念展 名古屋会場 | PARCO ART",
+          "url": "https://art.parco.jp/parcogallery/detail/?id=2001"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "残響シ念展―音と感情の実験室― 名古屋会場",
+      "updated_date": "2026-09-29",
+      "venue": "名古屋PARCO 西館6F・PARCO GALLERY",
       "world_card": {
-        "key": "world_card:a-9a67a8f724ad3f3ed7a12da1",
-        "title": "残響シ念展―音と感情の実験室― 名古屋会場",
-        "kicker": "IMMERSIVE / EXPERIMENT",
         "concept": "6つの実験室で、音が認知と感情を書き換える過程を体験する没入型展示。名古屋PARCOで10月3日から11月15日まで。",
+        "key": "world_card:a-9a67a8f724ad3f3ed7a12da1",
+        "kicker": "IMMERSIVE / EXPERIMENT",
         "meta": "名古屋PARCO 西館6F・PARCO GALLERY",
+        "title": "残響シ念展―音と感情の実験室― 名古屋会場",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-9a67a8f724ad3f3ed7a12da1"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://x.com/parco_factory/status/2059107338955714797"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "shopping",
