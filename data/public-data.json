@@ -3209,44 +3209,44 @@
       }
     },
     {
-      "id": "a-483c54bc23908a5dbbb0f1d5",
-      "slug": "a-483c54bc23908a5dbbb0f1d5",
-      "title": "こども万博 mini 名古屋",
-      "public_summary": "10月2〜4日、西区で開催。子ども店長体験、縁日など、子どもが自分で挑戦する入場無料イベント。",
       "category": "local_family",
-      "status": "NEW",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-483c54bc23908a5dbbb0f1d5",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-483c54bc23908a5dbbb0f1d5",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-483c54bc23908a5dbbb0f1d5",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "入場無料。",
+      "public_summary": "10月2〜4日、西区で開催。子ども店長体験、縁日など、子どもが自分で挑戦する入場無料イベント。",
       "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
+      "slug": "a-483c54bc23908a5dbbb0f1d5",
       "sources": [
         {
-          "url": "https://www.city.nagoya.jp/kodomo/wakamono/1017035/1017060/1052683.html",
-          "name": "名古屋市 幼児・児童向けイベント案内"
+          "name": "名古屋市 幼児・児童向けイベント案内",
+          "url": "https://www.city.nagoya.jp/kodomo/wakamono/1017035/1017060/1052683.html"
         }
       ],
       "spotify": [],
-      "images": [],
-      "price_terms": "入場無料。",
+      "status": "NEW",
+      "title": "こども万博 mini 名古屋",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-483c54bc23908a5dbbb0f1d5",
-        "title": "こども万博 mini 名古屋",
-        "kicker": "LOCAL / EXPERIENCE",
         "concept": "10月2〜4日、西区で開催。子ども店長体験、縁日など、子どもが自分で挑戦する入場無料イベント。",
+        "key": "world_card:a-483c54bc23908a5dbbb0f1d5",
+        "kicker": "LOCAL / EXPERIENCE",
         "meta": "",
+        "title": "こども万博 mini 名古屋",
         "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-483c54bc23908a5dbbb0f1d5"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-483c54bc23908a5dbbb0f1d5"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "music_live",
