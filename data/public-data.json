@@ -144,6 +144,112 @@
       }
     },
     {
+      "category": "music_live",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2026-10-13",
+      "id": "a-bb64ec8be3ec294db2858d31",
+      "images": [
+        {
+          "attribution": {
+            "attribution": "IronCurtaiNYC / CC0 / Wikimedia Commons",
+            "creator": "IronCurtaiNYC",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Anamanaguchi_Group_Photo.JPG",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Anamanaguchi_Group_Photo.JPG",
+            "license": "CC0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
+            "source": "Wikimedia Commons"
+          },
+          "caption": "同アーティストの参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Anamanaguchi_Group_Photo.JPG",
+          "url": "assets/images/abbabd9c24b2e586cff9eec757fca4277d7c96a0b3e9e84a2fc3c6b799db150e.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "lifecycle": "ENDED",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "2UwJRAgSOi1zcLkvUNc8XL",
+          "source_url": "https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL",
+          "title": "Anamanaguchi",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "price_terms": "前売8,200円、ドリンク別。",
+      "public_detail": "ゲーム機を実際に音源として使う電子音と、ファジーなギター、ドラム、歌を同居させる4人組。近作ではチップチューンの印象だけに寄らず、バンド演奏やグリッチ的な制作を前面に広げている。",
+      "public_summary": "10月13日、duo MUSIC EXCHANGEで18時開場・19時開演。主催SMASHが来日公演とCHIP TANAKAのサポートを案内している。",
+      "published_date": "2026-09-29",
+      "slug": "a-bb64ec8be3ec294db2858d31",
+      "sources": [
+        {
+          "name": "duo MUSIC EXCHANGE イープラス会場一覧",
+          "url": "https://eplus.jp/sf/venue/1500560/events"
+        },
+        {
+          "name": "LiveFans 公演情報",
+          "url": "https://www.livefans.jp/groups/276141"
+        },
+        {
+          "name": "ANAMANAGUCHI TOKYO 2026 公式案内",
+          "url": "https://smash-jpn.com/live/?id=4751"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Anamanaguchi",
+          "url": "https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL"
+        }
+      ],
+      "status": "UPDATE",
+      "title": "ANAMANAGUCHI TOKYO 2026",
+      "updated_date": "2026-10-28",
+      "venue": "duo MUSIC EXCHANGE",
+      "world_card": {
+        "concept": "10月13日、duo MUSIC EXCHANGEで18時開場・19時開演。主催SMASHが来日公演とCHIP TANAKAのサポートを案内している。",
+        "key": "world_card:a-bb64ec8be3ec294db2858d31",
+        "kicker": "MUSIC / LIVE",
+        "meta": "2026-10-13 · duo MUSIC EXCHANGE",
+        "title": "ANAMANAGUCHI TOKYO 2026",
+        "variant": "field"
+      }
+    },
+    {
       "id": "a-ebc179110aa9743d57a4a853",
       "slug": "a-ebc179110aa9743d57a4a853",
       "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
@@ -2719,111 +2825,6 @@
         "title": "あいちおもちゃクリニック（とだがわこどもランド）",
         "variant": "orbit"
       }
-    },
-    {
-      "id": "a-bb64ec8be3ec294db2858d31",
-      "slug": "a-bb64ec8be3ec294db2858d31",
-      "title": "ANAMANAGUCHI TOKYO 2026",
-      "public_summary": "10月13日、duo MUSIC EXCHANGEで18時開場・19時開演。主催SMASHが来日公演とCHIP TANAKAのサポートを案内している。",
-      "category": "music_live",
-      "status": "UPDATE",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://eplus.jp/sf/venue/1500560/events",
-          "name": "duo MUSIC EXCHANGE イープラス会場一覧"
-        },
-        {
-          "url": "https://www.livefans.jp/groups/276141",
-          "name": "LiveFans 公演情報"
-        },
-        {
-          "url": "https://smash-jpn.com/live/?id=4751",
-          "name": "ANAMANAGUCHI TOKYO 2026 公式案内"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL",
-          "name": "Anamanaguchi"
-        }
-      ],
-      "images": [
-        {
-          "url": "assets/images/abbabd9c24b2e586cff9eec757fca4277d7c96a0b3e9e84a2fc3c6b799db150e.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Anamanaguchi_Group_Photo.JPG",
-          "relation": "reference_same_entity",
-          "caption": "同アーティストの参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
-          "attribution": {
-            "attribution": "IronCurtaiNYC / CC0 / Wikimedia Commons",
-            "creator": "IronCurtaiNYC",
-            "evidence_url": "https://commons.wikimedia.org/wiki/File:Anamanaguchi_Group_Photo.JPG",
-            "file_page_url": "https://commons.wikimedia.org/wiki/File:Anamanaguchi_Group_Photo.JPG",
-            "license": "CC0",
-            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
-            "source": "Wikimedia Commons"
-          }
-        }
-      ],
-      "event_date": "2026-10-13",
-      "venue": "duo MUSIC EXCHANGE",
-      "price_terms": "前売8,200円、ドリンク別。",
-      "media": [
-        {
-          "canonical_url": "https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL",
-          "evidence_url": "https://developer.spotify.com/documentation/embeds",
-          "provider_id": "2UwJRAgSOi1zcLkvUNc8XL",
-          "source_url": "https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL",
-          "title": "Anamanaguchi",
-          "type": "spotify_embed",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "official_entity",
-            "source_revalidated": true
-          }
-        }
-      ],
-      "world_card": {
-        "key": "world_card:a-bb64ec8be3ec294db2858d31",
-        "title": "ANAMANAGUCHI TOKYO 2026",
-        "kicker": "MUSIC / LIVE",
-        "concept": "10月13日、duo MUSIC EXCHANGEで18時開場・19時開演。主催SMASHが来日公演とCHIP TANAKAのサポートを案内している。",
-        "meta": "2026-10-13 · duo MUSIC EXCHANGE",
-        "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
-      },
-      "lifecycle": "ENDED"
     },
     {
       "category": "games",
