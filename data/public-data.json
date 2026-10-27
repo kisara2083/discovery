@@ -447,6 +447,125 @@
       }
     },
     {
+      "category": "games",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=gEY0utFag38",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=gEY0utFag38",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://store.steampowered.com/app/866570/",
+            "kind": "media"
+          },
+          {
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "id": "a-abfc60bd449aff8c7f16c3fd",
+      "images": [
+        {
+          "attribution": {
+            "attribution": "EA / Public domain / Wikimedia Commons",
+            "creator": "EA",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:System_Shock_2_Logo.png",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:System_Shock_2_Logo.png",
+            "license": "Public domain",
+            "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
+            "source": "Wikimedia Commons"
+          },
+          "caption": "System Shock 2の作品ロゴ（参考）",
+          "mode": "saved",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:System_Shock_2_Logo.png",
+          "url": "assets/images/b5c77e53791d78c8126482e9391104ca67b9626dbc6ecf31929909d66d333765.png",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://store.steampowered.com/app/866570/",
+          "evidence_url": "https://partner.steamgames.com/doc/marketing/widget",
+          "provider_id": "866570",
+          "source_url": "https://store.steampowered.com/app/866570/",
+          "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布 — Steamストア",
+          "type": "steam_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=gEY0utFag38",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "gEY0utFag38",
+          "source_url": "https://nightdivestudios.com/system-shock-2-25th-anniversary-remaster-2/",
+          "title": "System Shock 2: 25th Anniversary Remaster - Reveal Trailer | Nightdive Studios",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "price_terms": "期間中0円配布予定／実施枠。通常価格表示はEpic商品ページで地域により異なる。",
+      "public_detail": "宇宙船Von Braunを舞台にしたFPS/RPG系のSF作品。探索・戦闘・キャラクター強化を進めながら、変異体やロボットが徘徊する船内で暴走AI SHODANに対処する。25周年版は原作を現行環境向けにリマスターし、クロスプレイ協力やMod対応も加えている。",
+      "public_summary": "Epic Games Storeの10月1日〜8日の無料配布枠に『System Shock 2: 25th Anniversary Remaster』が登場。期間内にライブラリへ追加すれば保持できる週替わり配布。",
+      "published_date": "2026-10-01",
+      "slug": "a-abfc60bd449aff8c7f16c3fd",
+      "sources": [
+        {
+          "name": "Epic Games Store free games",
+          "url": "https://store.epicgames.com/free-games"
+        },
+        {
+          "name": "System Shock 2: 25th Anniversary Remaster",
+          "url": "https://store.epicgames.com/p/system-shock-2-25th-anniversary-remaster-cb94d9?lang=ja"
+        },
+        {
+          "name": "Epic free games Oct 1–8",
+          "url": "https://www.pcgamer.com/epic-games-store-free-games-list/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布",
+      "updated_date": "2026-10-28",
+      "world_card": {
+        "concept": "Epic Games Storeの10月1日〜8日の無料配布枠に『System Shock 2: 25th Anniversary Remaster』が登場。期間内にライブラリへ追加すれば保持できる週替わり配布。",
+        "key": "world_card:a-abfc60bd449aff8c7f16c3fd",
+        "kicker": "GAME / UPDATE",
+        "meta": "",
+        "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布",
+        "variant": "field"
+      }
+    },
+    {
       "id": "a-ebc179110aa9743d57a4a853",
       "slug": "a-ebc179110aa9743d57a4a853",
       "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
@@ -2033,124 +2152,6 @@
           {
             "kind": "media",
             "key": "media:https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
-    },
-    {
-      "id": "a-abfc60bd449aff8c7f16c3fd",
-      "slug": "a-abfc60bd449aff8c7f16c3fd",
-      "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布",
-      "public_summary": "Epic Games Storeの10月1日〜8日の無料配布枠に『System Shock 2: 25th Anniversary Remaster』が登場。期間内にライブラリへ追加すれば保持できる週替わり配布。",
-      "category": "games",
-      "status": "NEW",
-      "published_date": "2026-10-01",
-      "updated_date": "2026-10-01",
-      "sources": [
-        {
-          "url": "https://store.epicgames.com/free-games",
-          "name": "Epic Games Store free games"
-        },
-        {
-          "url": "https://store.epicgames.com/p/system-shock-2-25th-anniversary-remaster-cb94d9?lang=ja",
-          "name": "System Shock 2: 25th Anniversary Remaster"
-        },
-        {
-          "url": "https://www.pcgamer.com/epic-games-store-free-games-list/",
-          "name": "Epic free games Oct 1–8"
-        }
-      ],
-      "spotify": [],
-      "images": [
-        {
-          "url": "assets/images/b5c77e53791d78c8126482e9391104ca67b9626dbc6ecf31929909d66d333765.png",
-          "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source_page": "https://commons.wikimedia.org/wiki/File:System_Shock_2_Logo.png",
-          "relation": "reference_same_entity",
-          "caption": "System Shock 2の作品ロゴ（参考）",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
-          "attribution": {
-            "attribution": "EA / Public domain / Wikimedia Commons",
-            "creator": "EA",
-            "evidence_url": "https://commons.wikimedia.org/wiki/File:System_Shock_2_Logo.png",
-            "file_page_url": "https://commons.wikimedia.org/wiki/File:System_Shock_2_Logo.png",
-            "license": "Public domain",
-            "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
-            "source": "Wikimedia Commons"
-          }
-        }
-      ],
-      "price_terms": "期間中0円配布予定／実施枠。通常価格表示はEpic商品ページで地域により異なる。",
-      "media": [
-        {
-          "canonical_url": "https://store.steampowered.com/app/866570/",
-          "evidence_url": "https://partner.steamgames.com/doc/marketing/widget",
-          "provider_id": "866570",
-          "source_url": "https://store.steampowered.com/app/866570/",
-          "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布 — Steamストア",
-          "type": "steam_embed",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "official_entity",
-            "source_revalidated": true
-          }
-        },
-        {
-          "canonical_url": "https://www.youtube.com/watch?v=gEY0utFag38",
-          "evidence_url": "https://developers.google.com/youtube/player_parameters",
-          "provider_id": "gEY0utFag38",
-          "source_url": "https://nightdivestudios.com/system-shock-2-25th-anniversary-remaster-2/",
-          "title": "System Shock 2: 25th Anniversary Remaster - Reveal Trailer | Nightdive Studios",
-          "type": "youtube_embed",
-          "visual_provenance": {
-            "article_match": true,
-            "authority_class": "official_article",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "article_specific",
-            "source_revalidated": true
-          }
-        }
-      ],
-      "world_card": {
-        "key": "world_card:a-abfc60bd449aff8c7f16c3fd",
-        "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布",
-        "kicker": "GAME / UPDATE",
-        "concept": "Epic Games Storeの10月1日〜8日の無料配布枠に『System Shock 2: 25th Anniversary Remaster』が登場。期間内にライブラリへ追加すれば保持できる週替わり配布。",
-        "meta": "",
-        "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=gEY0utFag38"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=gEY0utFag38"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://store.steampowered.com/app/866570/"
-          },
-          {
-            "kind": "image",
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
           }
         ]
       },
