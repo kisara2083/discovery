@@ -4895,48 +4895,49 @@
       }
     },
     {
-      "id": "a-0bc5fc2167a141be1439b2f6",
-      "slug": "a-0bc5fc2167a141be1439b2f6",
-      "title": "『スノウボールアース』1〜11巻 各100円",
-      "public_summary": "凍結した地球、巨大ロボット、宇宙怪獣を扱うSF漫画。9月29日まで1〜11巻が各100円との当日更新情報。",
       "category": "shopping",
-      "status": "NEW",
+      "deadline_at": "2026-09-29",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-0bc5fc2167a141be1439b2f6",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-0bc5fc2167a141be1439b2f6",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-0bc5fc2167a141be1439b2f6",
+      "images": [],
+      "lifecycle": "ENDED",
+      "price_terms": "1〜11巻 各100円（通常770円の巻は約87%OFFとの観測）。",
+      "public_summary": "凍結した地球、巨大ロボット、宇宙怪獣を扱うSF漫画。9月29日まで1〜11巻が各100円との当日更新情報。",
       "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
+      "slug": "a-0bc5fc2167a141be1439b2f6",
       "sources": [
         {
-          "url": "https://bibouroku.net/post43",
-          "name": "Kindleセール最新まとめ"
+          "name": "Kindleセール最新まとめ",
+          "url": "https://bibouroku.net/post43"
         },
         {
-          "url": "https://zakuzaku911.com/archives/4672468.html",
-          "name": "Kindleセールまとめ 2026-09-28更新"
+          "name": "Kindleセールまとめ 2026-09-28更新",
+          "url": "https://zakuzaku911.com/archives/4672468.html"
         }
       ],
       "spotify": [],
-      "images": [],
-      "price_terms": "1〜11巻 各100円（通常770円の巻は約87%OFFとの観測）。",
+      "status": "NEW",
+      "title": "『スノウボールアース』1〜11巻 各100円",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-0bc5fc2167a141be1439b2f6",
-        "title": "『スノウボールアース』1〜11巻 各100円",
-        "kicker": "BOOK / DISCOVERY",
         "concept": "凍結した地球、巨大ロボット、宇宙怪獣を扱うSF漫画。9月29日まで1〜11巻が各100円との当日更新情報。",
+        "key": "world_card:a-0bc5fc2167a141be1439b2f6",
+        "kicker": "BOOK / DISCOVERY",
         "meta": "",
+        "title": "『スノウボールアース』1〜11巻 各100円",
         "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-0bc5fc2167a141be1439b2f6"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-0bc5fc2167a141be1439b2f6"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-602e00baa29b017c13070373",
