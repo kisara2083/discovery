@@ -1645,42 +1645,33 @@
       }
     },
     {
-      "id": "a-098b209211b9ec8626ef9dd2",
-      "slug": "a-098b209211b9ec8626ef9dd2",
-      "title": "feeble little horse 初来日 — ノイズとポップが溶ける小規模公演",
-      "public_summary": "新世代シューゲイザーのfeeble little horseが初来日。2027年3月12日に代官山SPACE ODDで18時開場・19時開演、一般発売は9月19日からで現在チケット発売中。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-01",
-      "updated_date": "2026-10-01",
-      "sources": [
-        {
-          "url": "https://www.creativeman.co.jp/event/feeble-little-horse/",
-          "name": "feeble little horse"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8",
-          "name": "feeble little horse"
-        }
-      ],
+      "city": "東京",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=MJx4P1pkvoQ",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8",
+            "kind": "media"
+          },
+          {
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2027-03-12",
+      "id": "a-098b209211b9ec8626ef9dd2",
       "images": [
         {
-          "url": "assets/images/e3c82d5183ed74fa9bc6cef85c80d79b6c8c3cbfbffae310135db9f56038d548.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Feeble_Little_Horse,_2025-04-26.jpg",
-          "relation": "reference_same_entity",
-          "caption": "同アーティストの参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Redolta / CC0 / Wikimedia Commons",
             "creator": "Redolta",
@@ -1690,13 +1681,24 @@
             "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "同アーティストの参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Feeble_Little_Horse,_2025-04-26.jpg",
+          "url": "assets/images/e3c82d5183ed74fa9bc6cef85c80d79b6c8c3cbfbffae310135db9f56038d548.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "event_date": "2027-03-12",
-      "venue": "代官山 SPACE ODD",
-      "city": "東京",
-      "price_terms": "7,500円（税込・All Standing・1Drink別）。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8",
@@ -1731,36 +1733,34 @@
           }
         }
       ],
+      "price_terms": "7,500円（税込・All Standing・1Drink別）。",
+      "public_summary": "新世代シューゲイザーのfeeble little horseが初来日。2027年3月12日に代官山SPACE ODDで18時開場・19時開演、一般発売は9月19日からで現在チケット発売中。",
+      "published_date": "2026-10-01",
+      "slug": "a-098b209211b9ec8626ef9dd2",
+      "sources": [
+        {
+          "name": "feeble little horse",
+          "url": "https://www.creativeman.co.jp/event/feeble-little-horse/"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "feeble little horse",
+          "url": "https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8"
+        }
+      ],
+      "status": "NEW",
+      "title": "feeble little horse 初来日 — ノイズとポップが溶ける小規模公演",
+      "updated_date": "2026-10-01",
+      "venue": "代官山 SPACE ODD",
       "world_card": {
-        "key": "world_card:a-098b209211b9ec8626ef9dd2",
-        "title": "feeble little horse 初来日 — ノイズとポップが溶ける小規模公演",
-        "kicker": "MUSIC / LIVE",
         "concept": "新世代シューゲイザーのfeeble little horseが初来日。2027年3月12日に代官山SPACE ODDで18時開場・19時開演、一般発売は9月19日からで現在チケット発売中。",
+        "key": "world_card:a-098b209211b9ec8626ef9dd2",
+        "kicker": "MUSIC / LIVE",
         "meta": "2027-03-12 · 代官山 SPACE ODD",
+        "title": "feeble little horse 初来日 — ノイズとポップが溶ける小規模公演",
         "variant": "grid"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=MJx4P1pkvoQ"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=MJx4P1pkvoQ"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8"
-          },
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-4b8263b68f119c80fbbd78ba",
