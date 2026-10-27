@@ -876,53 +876,53 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-af9eca4647569859e50950df",
-      "slug": "a-af9eca4647569859e50950df",
-      "title": "橋の下世界音楽祭 SOUL BEAT ASIA 2026：11月20〜22日の開催告知",
-      "public_summary": "橋の下世界音楽祭 SOUL BEAT ASIA 2026は11月20〜22日開催と公式サイトが告知している。",
       "category": "music_live",
-      "status": "NEW",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-af9eca4647569859e50950df",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-af9eca4647569859e50950df",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-11-22T23:59:59+09:00",
+      "event_date": "2026-11-20",
+      "id": "a-af9eca4647569859e50950df",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "note": "今回確認した公式ページでは会場と販売条件の詳細を確定できない。過年度情報は適用しない。",
+      "price_terms": "2026年の券種・料金・販売期限は未確認。",
+      "public_detail": "国内外の音楽・芸能を紹介する橋の下世界音楽祭の2026年開催告知。出演者・券種・キャンプ・駐車場などの条件は、2026年版の公式発表を確認してから計画する。",
+      "public_summary": "橋の下世界音楽祭 SOUL BEAT ASIA 2026は11月20〜22日開催と公式サイトが告知している。",
       "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
+      "slug": "a-af9eca4647569859e50950df",
       "sources": [
         {
-          "url": "https://2026.soulbeatasia.com/",
-          "name": "SOUL BEAT ASIA 2026公式開催日告知"
+          "name": "SOUL BEAT ASIA 2026公式開催日告知",
+          "url": "https://2026.soulbeatasia.com/"
         },
         {
-          "url": "https://soulbeatasia.com/about/",
-          "name": "橋の下世界音楽祭公式団体概要"
+          "name": "橋の下世界音楽祭公式団体概要",
+          "url": "https://soulbeatasia.com/about/"
         }
       ],
       "spotify": [],
-      "images": [],
-      "event_date": "2026-11-20",
-      "end_at": "2026-11-22T23:59:59+09:00",
-      "public_detail": "国内外の音楽・芸能を紹介する橋の下世界音楽祭の2026年開催告知。出演者・券種・キャンプ・駐車場などの条件は、2026年版の公式発表を確認してから計画する。",
-      "price_terms": "2026年の券種・料金・販売期限は未確認。",
-      "note": "今回確認した公式ページでは会場と販売条件の詳細を確定できない。過年度情報は適用しない。",
+      "status": "NEW",
+      "title": "橋の下世界音楽祭 SOUL BEAT ASIA 2026：11月20〜22日の開催告知",
+      "updated_date": "2026-10-05",
       "whats_new": "2026年の開催日を今回初記録。",
       "world_card": {
-        "key": "world_card:a-af9eca4647569859e50950df",
-        "title": "橋の下世界音楽祭 SOUL BEAT ASIA 2026：11月20〜22日の開催告知",
-        "kicker": "MUSIC / FESTIVAL",
         "concept": "橋の下世界音楽祭 SOUL BEAT ASIA 2026は11月20〜22日開催と公式サイトが告知している。",
+        "key": "world_card:a-af9eca4647569859e50950df",
+        "kicker": "MUSIC / FESTIVAL",
         "meta": "2026-11-20",
+        "title": "橋の下世界音楽祭 SOUL BEAT ASIA 2026：11月20〜22日の開催告知",
         "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-af9eca4647569859e50950df"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-af9eca4647569859e50950df"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "id": "a-18925d143a8764eec4e87c2d",
