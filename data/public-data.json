@@ -1118,36 +1118,24 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-8aab2a3f01815c412c6f3854",
-      "slug": "a-8aab2a3f01815c412c6f3854",
-      "title": "COCOON：世界を持ち運ぶパズル冒険が60%OFF・1,300円",
-      "public_summary": "世界そのものが球体に収まり、別世界へ潜り込んで仕組みを解くパズルアドベンチャー。Steamの日本向け価格情報で3,250円→1,300円（60%OFF）を確認。購入前に価格を再確認したい。",
       "category": "games",
-      "status": "NEW",
-      "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
-      "sources": [
-        {
-          "url": "https://store.steampowered.com/app/1497440/",
-          "name": "Steam公式ストア"
-        },
-        {
-          "url": "https://store.steampowered.com/api/appdetails?appids=1497440&cc=jp&l=japanese&filters=price_overview",
-          "name": "Steam公式：日本向け現在価格"
-        },
-        {
-          "url": "https://steamcommunity.com/groups/steamworks/announcements?l=japanese&snr=2_groupannouncements_detail_",
-          "name": "Valve公式イベント日程"
-        }
-      ],
-      "spotify": [],
-      "images": [],
       "deadline_at": "2026-10-09T02:00:00+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://store.steampowered.com/app/1497440/",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://store.steampowered.com/app/1497440/",
+          "kind": "media"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
       "end_at": "2026-10-09T02:00:00+09:00",
-      "public_detail": "世界が球体として存在し、それを持ち運びながら複数の世界を行き来してパズルを解く。LIMBO・INSIDEのリードゲームプレイデザイナーが手掛けた一人用アドベンチャー。",
-      "price_terms": "3,250円→1,300円（60%OFF、Steam日本向け価格情報で確認）",
-      "note": "購入前に最新価格を確認。Steamオータムセールの終了は日本時間10月9日2時。",
-      "whats_new": "今回初出。開催中のSteamセールを個別ゲーム・日本向け価格まで展開。",
+      "id": "a-8aab2a3f01815c412c6f3854",
+      "images": [],
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://store.steampowered.com/app/1497440/",
@@ -1166,27 +1154,39 @@
           }
         }
       ],
+      "note": "購入前に最新価格を確認。Steamオータムセールの終了は日本時間10月9日2時。",
+      "price_terms": "3,250円→1,300円（60%OFF、Steam日本向け価格情報で確認）",
+      "public_detail": "世界が球体として存在し、それを持ち運びながら複数の世界を行き来してパズルを解く。LIMBO・INSIDEのリードゲームプレイデザイナーが手掛けた一人用アドベンチャー。",
+      "public_summary": "世界そのものが球体に収まり、別世界へ潜り込んで仕組みを解くパズルアドベンチャー。Steamの日本向け価格情報で3,250円→1,300円（60%OFF）を確認。購入前に価格を再確認したい。",
+      "published_date": "2026-10-05",
+      "slug": "a-8aab2a3f01815c412c6f3854",
+      "sources": [
+        {
+          "name": "Steam公式ストア",
+          "url": "https://store.steampowered.com/app/1497440/"
+        },
+        {
+          "name": "Steam公式：日本向け現在価格",
+          "url": "https://store.steampowered.com/api/appdetails?appids=1497440&cc=jp&l=japanese&filters=price_overview"
+        },
+        {
+          "name": "Valve公式イベント日程",
+          "url": "https://steamcommunity.com/groups/steamworks/announcements?l=japanese&snr=2_groupannouncements_detail_"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "COCOON：世界を持ち運ぶパズル冒険が60%OFF・1,300円",
+      "updated_date": "2026-10-05",
+      "whats_new": "今回初出。開催中のSteamセールを個別ゲーム・日本向け価格まで展開。",
       "world_card": {
-        "key": "world_card:a-8aab2a3f01815c412c6f3854",
-        "title": "COCOON：世界を持ち運ぶパズル冒険が60%OFF・1,300円",
-        "kicker": "GAME / DISCOVERY",
         "concept": "世界そのものが球体に収まり、別世界へ潜り込んで仕組みを解くパズルアドベンチャー。Steamの日本向け価格情報で3,250円→1,300円（60%OFF）を確認。購入前に価格を再確認したい。",
+        "key": "world_card:a-8aab2a3f01815c412c6f3854",
+        "kicker": "GAME / DISCOVERY",
         "meta": "",
+        "title": "COCOON：世界を持ち運ぶパズル冒険が60%OFF・1,300円",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://store.steampowered.com/app/1497440/"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://store.steampowered.com/app/1497440/"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
       "id": "a-561d45a0bc691307ef22b76b",
