@@ -4940,28 +4940,22 @@
       }
     },
     {
-      "id": "a-602e00baa29b017c13070373",
-      "slug": "a-602e00baa29b017c13070373",
-      "title": "Steve Bates『An Infinite Antenna』",
-      "public_summary": "分解したドラムマシン、点描的なエレクトリックギター、フィールド録音、ノーインプットミキサーを41分にまとめた2026年9月25日作。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://cstrecords.com/en-gb/collections/catalogue/products/cst195-steve-bates-an-infinite-antenna",
-          "name": "Steve Bates — An Infinite Antenna | Constellation"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N",
-          "name": "Steve Bates"
-        }
-      ],
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N",
+          "kind": "media"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-602e00baa29b017c13070373",
       "images": [],
-      "price_terms": "Digital £5、CD £9、LP £17（通常価格表示時）。海外送料・税は別途。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N",
@@ -4980,27 +4974,33 @@
           }
         }
       ],
+      "price_terms": "Digital £5、CD £9、LP £17（通常価格表示時）。海外送料・税は別途。",
+      "public_summary": "分解したドラムマシン、点描的なエレクトリックギター、フィールド録音、ノーインプットミキサーを41分にまとめた2026年9月25日作。",
+      "published_date": "2026-09-29",
+      "slug": "a-602e00baa29b017c13070373",
+      "sources": [
+        {
+          "name": "Steve Bates — An Infinite Antenna | Constellation",
+          "url": "https://cstrecords.com/en-gb/collections/catalogue/products/cst195-steve-bates-an-infinite-antenna"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Steve Bates",
+          "url": "https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N"
+        }
+      ],
+      "status": "NEW",
+      "title": "Steve Bates『An Infinite Antenna』",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-602e00baa29b017c13070373",
-        "title": "Steve Bates『An Infinite Antenna』",
-        "kicker": "MUSIC / LIVE",
         "concept": "分解したドラムマシン、点描的なエレクトリックギター、フィールド録音、ノーインプットミキサーを41分にまとめた2026年9月25日作。",
+        "key": "world_card:a-602e00baa29b017c13070373",
+        "kicker": "MUSIC / LIVE",
         "meta": "",
+        "title": "Steve Bates『An Infinite Antenna』",
         "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     }
   ]
 }
