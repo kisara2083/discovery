@@ -354,6 +354,57 @@
       }
     },
     {
+      "category": "local_family",
+      "city": "名古屋市天白区",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-55bd01f2c955cbbf8af73b2b",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-55bd01f2c955cbbf8af73b2b",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-11-07T15:00:00+09:00",
+      "event_date": "2026-11-07T10:00:00+09:00",
+      "id": "a-55bd01f2c955cbbf8af73b2b",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "note": "申込不要・参加無料。駐車場はなく、少雨決行・荒天中止。開催可否は当日朝に案内予定。",
+      "price_terms": "参加無料、申込不要。",
+      "public_detail": "センターで保全している生きものや収蔵標本を特別公開し、市民団体や教育・研究機関の展示、体験型ワークショップ、ステージ企画を組み合わせる催し。中高生の活動発表『生物多様性ユースひろば』も同時開催される。",
+      "public_summary": "11月7日、塩釜口駅近くのなごや生物多様性センターで、生体・標本の特別展示やワークショップを楽しめる無料イベントを開催。ミニ水族館やミニ博物館も予定されている。",
+      "published_date": "2026-10-06",
+      "slug": "a-55bd01f2c955cbbf8af73b2b",
+      "sources": [
+        {
+          "name": "名古屋市 — 第11回なごや生物多様性センターまつり",
+          "url": "https://www.city.nagoya.jp/houdou/3003942/3003949/3005817.html"
+        },
+        {
+          "name": "なごや生物多様性センター — 11月7日 第11回センターまつり",
+          "url": "https://ikimono.city.nagoya.jp/events/event/%E3%80%9011%E6%9C%887%E6%97%A5%EF%BC%88%E5%9C%9F%EF%BC%89%E3%80%91%E3%80%8C%E7%AC%AC11%E5%9B%9E%E3%81%AA%E3%81%94%E3%82%84%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A7%98%E6%80%A7%E3%82%BB%E3%83%B3%E3%82%BF/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "第11回なごや生物多様性センターまつり — 塩釜口5分でミニ水族館・標本・ワークショップ",
+      "updated_date": "2026-10-28",
+      "venue": "なごや生物多様性センター",
+      "whats_new": "名古屋市が2026年10月1日に今年の開催内容を公開。",
+      "world_card": {
+        "concept": "11月7日、塩釜口駅近くのなごや生物多様性センターで、生体・標本の特別展示やワークショップを楽しめる無料イベントを開催。ミニ水族館やミニ博物館も予定されている。",
+        "key": "world_card:a-55bd01f2c955cbbf8af73b2b",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "2026-11-07T10:00:00+09:00 · なごや生物多様性センター",
+        "title": "第11回なごや生物多様性センターまつり — 塩釜口5分でミニ水族館・標本・ワークショップ",
+        "variant": "grid"
+      }
+    },
+    {
       "id": "a-ebc179110aa9743d57a4a853",
       "slug": "a-ebc179110aa9743d57a4a853",
       "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
