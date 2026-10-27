@@ -2576,42 +2576,28 @@
       }
     },
     {
-      "id": "a-bd47266a5d530a1f56ba313e",
-      "slug": "a-bd47266a5d530a1f56ba313e",
-      "title": "YĪN YĪN — 名古屋でアジア音楽とサイケ・ファンクを楽しむ",
-      "public_summary": "10月15日NAGOYA CLUB QUATTROで18時開場・19時開演。大阪14日、東京16日も主催公式が案内している。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-09-30",
-      "updated_date": "2026-09-30",
-      "sources": [
-        {
-          "url": "https://smash-jpn.com/live/?id=4707",
-          "name": "YĪN YĪN — 名古屋でアジア音楽とサイケ・ファンクを楽しむ 公式案内"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2",
-          "name": "Yin Yin"
-        }
-      ],
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2026-10-15",
+      "id": "a-bd47266a5d530a1f56ba313e",
       "images": [
         {
-          "url": "assets/images/ad49f8879568e63e174fd1fa099cdf8beaf03b2c6fc7f5833dc82a97746c8d45.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg",
-          "relation": "reference_same_entity",
-          "caption": "同アーティストの参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Schorle / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "Schorle",
@@ -2621,12 +2607,24 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "同アーティストの参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg",
+          "url": "assets/images/ad49f8879568e63e174fd1fa099cdf8beaf03b2c6fc7f5833dc82a97746c8d45.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "event_date": "2026-10-15",
-      "venue": "NAGOYA CLUB QUATTRO",
-      "price_terms": "前売6,500円、ドリンク別。",
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2",
@@ -2645,32 +2643,34 @@
           }
         }
       ],
+      "price_terms": "前売6,500円、ドリンク別。",
+      "public_summary": "10月15日NAGOYA CLUB QUATTROで18時開場・19時開演。大阪14日、東京16日も主催公式が案内している。",
+      "published_date": "2026-09-30",
+      "slug": "a-bd47266a5d530a1f56ba313e",
+      "sources": [
+        {
+          "name": "YĪN YĪN — 名古屋でアジア音楽とサイケ・ファンクを楽しむ 公式案内",
+          "url": "https://smash-jpn.com/live/?id=4707"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Yin Yin",
+          "url": "https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2"
+        }
+      ],
+      "status": "NEW",
+      "title": "YĪN YĪN — 名古屋でアジア音楽とサイケ・ファンクを楽しむ",
+      "updated_date": "2026-09-30",
+      "venue": "NAGOYA CLUB QUATTRO",
       "world_card": {
-        "key": "world_card:a-bd47266a5d530a1f56ba313e",
-        "title": "YĪN YĪN — 名古屋でアジア音楽とサイケ・ファンクを楽しむ",
-        "kicker": "MUSIC / LIVE",
         "concept": "10月15日NAGOYA CLUB QUATTROで18時開場・19時開演。大阪14日、東京16日も主催公式が案内している。",
+        "key": "world_card:a-bd47266a5d530a1f56ba313e",
+        "kicker": "MUSIC / LIVE",
         "meta": "2026-10-15 · NAGOYA CLUB QUATTRO",
+        "title": "YĪN YĪN — 名古屋でアジア音楽とサイケ・ファンクを楽しむ",
         "variant": "grid"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
       "category": "games",
