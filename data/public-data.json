@@ -566,6 +566,114 @@
       }
     },
     {
+      "category": "music_live",
+      "city": "名古屋市",
+      "deadline_at": "2026-10-12T23:59:00+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2027-01-29",
+      "id": "a-14634d00af2d55edb8b71747",
+      "images": [
+        {
+          "attribution": {
+            "attribution": "Gruesome Gary / CC BY-SA 4.0 / Wikimedia Commons",
+            "creator": "Gruesome Gary",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Fontaines_DC_at_Loose_Ends_2019.jpg",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Fontaines_DC_at_Loose_Ends_2019.jpg",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
+            "source": "Wikimedia Commons"
+          },
+          "caption": "同アーティストの参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Fontaines_DC_at_Loose_Ends_2019.jpg",
+          "url": "assets/images/2c8c73a58a80f52f7e5fa0c79ba013208e4223d2482c36e955e4a8e2e4484a98.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "lifecycle": "ENDED",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "3SXwqSqAoBz9WCI9PDQzY6",
+          "source_url": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
+          "title": "Fontaines D.C.",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "price_terms": "スタンディング11,000円、ドリンク代別。",
+      "public_detail": "ダブリン出身の5人組で、ポストパンク／オルタナティブ・ロックを軸に、荒いヴォーカル、推進力の強いリズム、ギターの反復を特徴とするバンド。初期の切迫したサウンドから、近作ではよりメロディックで実験的な音像へ広げている。",
+      "public_summary": "Fontaines D.C.が2027年1月に東京・名古屋・大阪を巡る日本ツアーを発表。名古屋は1月29日、DIAMOND HALLで18:00開場・19:00開演。",
+      "published_date": "2026-10-03",
+      "slug": "a-14634d00af2d55edb8b71747",
+      "sources": [
+        {
+          "name": "Fontaines D.C. Japan 2027",
+          "url": "https://fontainesdc.com/pages/live-japan-australia-new-zealand-2027"
+        },
+        {
+          "name": "SMASH Fontaines D.C.",
+          "url": "https://smash-jpn.com/live/?id=4784"
+        },
+        {
+          "name": "e+ 名古屋",
+          "url": "https://eplus.jp/sf/detail/3636990001-P0030007P021001"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Fontaines D.C.",
+          "url": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6"
+        }
+      ],
+      "status": "NEW",
+      "title": "Fontaines D.C. JAPAN TOUR 2027 — 名古屋DIAMOND HALL、1次先行受付中",
+      "updated_date": "2026-10-28",
+      "venue": "DIAMOND HALL",
+      "world_card": {
+        "concept": "Fontaines D.C.が2027年1月に東京・名古屋・大阪を巡る日本ツアーを発表。名古屋は1月29日、DIAMOND HALLで18:00開場・19:00開演。",
+        "key": "world_card:a-14634d00af2d55edb8b71747",
+        "kicker": "MUSIC / LIVE",
+        "meta": "2027-01-29 · DIAMOND HALL",
+        "title": "Fontaines D.C. JAPAN TOUR 2027 — 名古屋DIAMOND HALL、1次先行受付中",
+        "variant": "signal"
+      }
+    },
+    {
       "id": "a-ebc179110aa9743d57a4a853",
       "slug": "a-ebc179110aa9743d57a4a853",
       "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
@@ -1359,112 +1467,6 @@
           "key": "world_card:a-26d59816809de415dba379b0"
         },
         "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
-    },
-    {
-      "id": "a-14634d00af2d55edb8b71747",
-      "slug": "a-14634d00af2d55edb8b71747",
-      "title": "Fontaines D.C. JAPAN TOUR 2027 — 名古屋DIAMOND HALL、1次先行受付中",
-      "public_summary": "Fontaines D.C.が2027年1月に東京・名古屋・大阪を巡る日本ツアーを発表。名古屋は1月29日DIAMOND HALL、18:00開場・19:00開演。オフィシャル1次先行は9月30日17:00〜10月12日23:59。",
-      "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-03",
-      "updated_date": "2026-10-03",
-      "sources": [
-        {
-          "url": "https://fontainesdc.com/pages/live-japan-australia-new-zealand-2027",
-          "name": "Fontaines D.C. Japan 2027"
-        },
-        {
-          "url": "https://smash-jpn.com/live/?id=4784",
-          "name": "SMASH Fontaines D.C."
-        },
-        {
-          "url": "https://eplus.jp/sf/detail/3636990001-P0030007P021001",
-          "name": "e+ 名古屋"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
-          "name": "Fontaines D.C."
-        }
-      ],
-      "images": [
-        {
-          "url": "assets/images/2c8c73a58a80f52f7e5fa0c79ba013208e4223d2482c36e955e4a8e2e4484a98.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Fontaines_DC_at_Loose_Ends_2019.jpg",
-          "relation": "reference_same_entity",
-          "caption": "同アーティストの参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
-          "attribution": {
-            "attribution": "Gruesome Gary / CC BY-SA 4.0 / Wikimedia Commons",
-            "creator": "Gruesome Gary",
-            "evidence_url": "https://commons.wikimedia.org/wiki/File:Fontaines_DC_at_Loose_Ends_2019.jpg",
-            "file_page_url": "https://commons.wikimedia.org/wiki/File:Fontaines_DC_at_Loose_Ends_2019.jpg",
-            "license": "CC BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
-            "source": "Wikimedia Commons"
-          }
-        }
-      ],
-      "event_date": "2027-01-29",
-      "venue": "DIAMOND HALL",
-      "city": "名古屋市",
-      "price_terms": "スタンディング11,000円、ドリンク代別。",
-      "media": [
-        {
-          "canonical_url": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
-          "evidence_url": "https://developer.spotify.com/documentation/embeds",
-          "provider_id": "3SXwqSqAoBz9WCI9PDQzY6",
-          "source_url": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
-          "title": "Fontaines D.C.",
-          "type": "spotify_embed",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "official_entity",
-            "source_revalidated": true
-          }
-        }
-      ],
-      "world_card": {
-        "key": "world_card:a-14634d00af2d55edb8b71747",
-        "title": "Fontaines D.C. JAPAN TOUR 2027 — 名古屋DIAMOND HALL、1次先行受付中",
-        "kicker": "MUSIC / LIVE",
-        "concept": "Fontaines D.C.が2027年1月に東京・名古屋・大阪を巡る日本ツアーを発表。名古屋は1月29日DIAMOND HALL、18:00開場・19:00開演。オフィシャル1次先行は9月30日17:00〜10月12日23:59。",
-        "meta": "2027-01-29 · DIAMOND HALL",
-        "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
       },
       "lifecycle": "ACTIVE"
     },
