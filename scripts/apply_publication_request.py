@@ -15,6 +15,7 @@ REQUEST_KEYS={"kind","schema_version","publication_id","sequence","operation","a
 STATE_KEYS={"v","sequence","publication_id","article_id","ready_root","article_digest","dataset_digest"}
 ARTICLE_REQUIRED={"id","slug","title","public_summary","category","status","lifecycle","published_date","updated_date","sources","spotify","images"}
 ARTICLE_ALLOWED=ARTICLE_REQUIRED|{"public_detail","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","media","world_card","display_selection"}
+MEANINGFUL_UPDATE_FIELDS={"title","public_summary","public_detail","category","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new"}
 SOURCE_KEYS={"url","name"}; WORLD_KEYS={"key","title","kicker","concept","meta","variant"}; DISPLAY_KEYS={"selector_version","card_primary","detail_primary","detail_secondary"}; REF_KEYS={"kind","key"}
 IMAGE_ALLOWED={"url","source_page","relation","caption","mode","original_url","attribution","visual_provenance","framing","visual_role","quote_context"}; MEDIA_ALLOWED={"type","canonical_url","provider_id","title","evidence_url","source_url","image_url","visual_provenance"}
 STATUSES={"NEW","UPDATE","REPEAT_RECOMMENDATION","HISTORICAL_CONTEXT"}; LIFECYCLES={"ACTIVE","ENDED"}; IMAGE_RELATIONS={"article_specific","official_entity","official_venue_or_organizer","reference_same_entity","related_official_reference"}; MEDIA_TYPES={"static_image","spotify_embed","steam_embed","youtube_embed","google_books_embed","x_embed"}; VARIANTS={"signal","grid","orbit","field"}; REF_KINDS={"image","media","world_card"}
@@ -25,6 +26,7 @@ def exact(o,a,r=None,l="object"):
  if set(o)-set(a): fail(l+"_unknown_fields")
  if r is not None and set(r)-set(o): fail(l+"_missing_fields")
 def digest(v): return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True,separators=(",",":")).encode()).hexdigest()
+def meaningful(a): return {k:a.get(k) for k in MEANINGFUL_UPDATE_FIELDS}
 def scan(v):
  text=unquote(json.dumps(v,ensure_ascii=False,sort_keys=True))
  for n,p in PRIVATE_PATTERNS.items():
@@ -115,6 +117,10 @@ def main(reqp,datap,statep,resultp):
  if req["operation"]=="NEW" and existing is not None and digest(existing)!=digest(article): fail("new_conflicts_existing")
  if req["operation"]=="UPDATE" and existing is None: fail("update_missing_existing")
  if req["operation"]=="UPDATE" and article["published_date"]!=existing["published_date"]: fail("update_published_date_drift")
+ if existing is None:
+  article["updated_date"]=req["as_of"]
+ elif req["operation"]=="UPDATE":
+  article["updated_date"]=existing["updated_date"] if meaningful(article)==meaningful(existing) else req["as_of"]
  if existing is None:data["articles"].append(article)
  elif digest(existing)!=digest(article):data["articles"][pos[0]]=article
  for x in data["articles"]:x["lifecycle"]=lifecycle(x,today)
