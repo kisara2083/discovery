@@ -2079,37 +2079,28 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-34e2ad0ca9a583847b20abfb",
-      "slug": "a-34e2ad0ca9a583847b20abfb",
-      "title": "ARIFUJI WEEKENDERS 2027 — 有馬富士公園で5月15日開催決定",
-      "public_summary": "2027年5月15日の開催と有馬富士公園の会場を主催が発表。出演者とチケット情報は今後の発表待ち。2026年の券種や出演者を来年の情報として流用しない。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-09-30",
-      "updated_date": "2026-09-30",
-      "sources": [
-        {
-          "url": "https://arifuji.com/snsgoldaward/",
-          "name": "ARIFUJI WEEKENDERS 2027 — 有馬富士公園で5月15日開催決定 公式案内"
-        }
-      ],
-      "spotify": [],
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=5lzLPoX4oDI",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=5lzLPoX4oDI",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2027-05-15",
+      "id": "a-34e2ad0ca9a583847b20abfb",
       "images": [
         {
-          "url": "assets/images/ad263c498d299c48c02c025e4f1e103fd59025a51bfbe3ebfcce3273de06872a.jpg",
-          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Arimahuji_park.JPG",
-          "relation": "reference_same_entity",
-          "caption": "有馬富士公園の参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "おぉたむすねィく探検隊 (Autumn Snake) / CC BY-SA 2.5 / Wikimedia Commons",
             "creator": "おぉたむすねィく探検隊 (Autumn Snake)",
@@ -2119,11 +2110,24 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "有馬富士公園の参考写真",
+          "mode": "saved",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Arimahuji_park.JPG",
+          "url": "assets/images/ad263c498d299c48c02c025e4f1e103fd59025a51bfbe3ebfcce3273de06872a.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "event_date": "2027-05-15",
-      "venue": "有馬富士公園",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://www.youtube.com/watch?v=5lzLPoX4oDI",
@@ -2142,32 +2146,28 @@
           }
         }
       ],
+      "public_summary": "2027年5月15日の開催と有馬富士公園の会場を主催が発表。出演者とチケット情報は今後の発表待ち。2026年の券種や出演者を来年の情報として流用しない。",
+      "published_date": "2026-09-30",
+      "slug": "a-34e2ad0ca9a583847b20abfb",
+      "sources": [
+        {
+          "name": "ARIFUJI WEEKENDERS 2027 — 有馬富士公園で5月15日開催決定 公式案内",
+          "url": "https://arifuji.com/snsgoldaward/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "ARIFUJI WEEKENDERS 2027 — 有馬富士公園で5月15日開催決定",
+      "updated_date": "2026-09-30",
+      "venue": "有馬富士公園",
       "world_card": {
-        "key": "world_card:a-34e2ad0ca9a583847b20abfb",
-        "title": "ARIFUJI WEEKENDERS 2027 — 有馬富士公園で5月15日開催決定",
-        "kicker": "MUSIC / FESTIVAL",
         "concept": "2027年5月15日の開催と有馬富士公園の会場を主催が発表。出演者とチケット情報は今後の発表待ち。2026年の券種や出演者を来年の情報として流用しない。",
+        "key": "world_card:a-34e2ad0ca9a583847b20abfb",
+        "kicker": "MUSIC / FESTIVAL",
         "meta": "2027-05-15 · 有馬富士公園",
+        "title": "ARIFUJI WEEKENDERS 2027 — 有馬富士公園で5月15日開催決定",
         "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=5lzLPoX4oDI"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=5lzLPoX4oDI"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "music_live",
