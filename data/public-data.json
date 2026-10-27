@@ -250,6 +250,47 @@
       }
     },
     {
+      "category": "shopping",
+      "deadline_at": "2026-09-30",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-4269498568372099222789ff",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-4269498568372099222789ff",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-4269498568372099222789ff",
+      "images": [],
+      "lifecycle": "ENDED",
+      "price_terms": "451円、51%OFFとの当日観測。",
+      "public_summary": "病理医が健康と病気の境界を解説するちくまプリマー新書。9月30日までの月替わり対象。",
+      "published_date": "2026-09-29",
+      "slug": "a-4269498568372099222789ff",
+      "sources": [
+        {
+          "name": "2026年9月 Kindle月替わりセール",
+          "url": "https://softantenna.com/kindle_sales/5245"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "『どこからが病気なの？』月替わりセール",
+      "updated_date": "2026-10-28",
+      "world_card": {
+        "concept": "病理医が健康と病気の境界を解説するちくまプリマー新書。9月30日までの月替わり対象。",
+        "key": "world_card:a-4269498568372099222789ff",
+        "kicker": "BOOK / DISCOVERY",
+        "meta": "",
+        "title": "『どこからが病気なの？』月替わりセール",
+        "variant": "orbit"
+      }
+    },
+    {
       "id": "a-ebc179110aa9743d57a4a853",
       "slug": "a-ebc179110aa9743d57a4a853",
       "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
@@ -4768,46 +4809,6 @@
         "title": "Netflix『俺のこと、なんか言ってた？』",
         "variant": "orbit"
       }
-    },
-    {
-      "id": "a-4269498568372099222789ff",
-      "slug": "a-4269498568372099222789ff",
-      "title": "『どこからが病気なの？』月替わりセール",
-      "public_summary": "病理医が健康と病気の境界を解説するちくまプリマー新書。9月30日までの月替わり対象。",
-      "category": "shopping",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://softantenna.com/kindle_sales/5245",
-          "name": "2026年9月 Kindle月替わりセール"
-        }
-      ],
-      "spotify": [],
-      "images": [],
-      "price_terms": "451円、51%OFFとの当日観測。",
-      "world_card": {
-        "key": "world_card:a-4269498568372099222789ff",
-        "title": "『どこからが病気なの？』月替わりセール",
-        "kicker": "BOOK / DISCOVERY",
-        "concept": "病理医が健康と病気の境界を解説するちくまプリマー新書。9月30日までの月替わり対象。",
-        "meta": "",
-        "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-4269498568372099222789ff"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-4269498568372099222789ff"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
     },
     {
       "category": "music_live",
