@@ -2905,50 +2905,32 @@
       }
     },
     {
-      "id": "a-97866892876150625b4ce595",
-      "slug": "a-97866892876150625b4ce595",
-      "title": "Bruno Mars — The Romantic Tour in Japan featuring Anderson .Paak as DJ Pee .Wee",
-      "public_summary": "2027年1月の日本ツアー。名古屋1月4日は完売、5日は公式で残席わずか。Anderson .PaakのDJ Pee .WeeとSilk Sonic特別演奏が案内されている。",
       "category": "music_live",
-      "status": "UPDATE",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
-          "name": "Live Nation H.I.P. official tour page"
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=v8x5tJzmI60",
+          "kind": "media"
         },
-        {
-          "url": "https://www.brunomars.com/tour",
-          "name": "Bruno Mars official tour"
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=v8x5tJzmI60",
+          "kind": "media"
         },
-        {
-          "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
-          "name": "Bruno Mars — The Romantic Tour in Japan featuring Anderson .Paak as DJ Pee .Wee 公式案内"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
-          "name": "Bruno Mars"
-        }
-      ],
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
+            "kind": "media"
+          },
+          {
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2027-01-05",
+      "id": "a-97866892876150625b4ce595",
       "images": [
         {
-          "url": "assets/images/41e3abe860a2ef18b236272b09847e2b641da7f7cd6cd5e105dd84e47da30fb4.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Bruno_Mars_Doowops.jpg",
-          "relation": "reference_same_entity",
-          "caption": "同アーティストの参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "Brothers Le / CC BY 2.0 / Wikimedia Commons",
             "creator": "Brothers Le",
@@ -2958,12 +2940,24 @@
             "license_url": "https://creativecommons.org/licenses/by/2.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "同アーティストの参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bruno_Mars_Doowops.jpg",
+          "url": "assets/images/41e3abe860a2ef18b236272b09847e2b641da7f7cd6cd5e105dd84e47da30fb4.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "event_date": "2027-01-05",
-      "venue": "Vantelin Dome Nagoya",
-      "price_terms": "券種別価格と残席は公式購入先で確認。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
@@ -2998,36 +2992,42 @@
           }
         }
       ],
+      "price_terms": "券種別価格と残席は公式購入先で確認。",
+      "public_summary": "2027年1月の日本ツアー。名古屋1月4日は完売、5日は公式で残席わずか。Anderson .PaakのDJ Pee .WeeとSilk Sonic特別演奏が案内されている。",
+      "published_date": "2026-09-29",
+      "slug": "a-97866892876150625b4ce595",
+      "sources": [
+        {
+          "name": "Live Nation H.I.P. official tour page",
+          "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754"
+        },
+        {
+          "name": "Bruno Mars official tour",
+          "url": "https://www.brunomars.com/tour"
+        },
+        {
+          "name": "Bruno Mars — The Romantic Tour in Japan featuring Anderson .Paak as DJ Pee .Wee 公式案内",
+          "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Bruno Mars",
+          "url": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"
+        }
+      ],
+      "status": "UPDATE",
+      "title": "Bruno Mars — The Romantic Tour in Japan featuring Anderson .Paak as DJ Pee .Wee",
+      "updated_date": "2026-09-29",
+      "venue": "Vantelin Dome Nagoya",
       "world_card": {
-        "key": "world_card:a-97866892876150625b4ce595",
-        "title": "Bruno Mars — The Romantic Tour in Japan featuring Anderson .Paak as DJ Pee .Wee",
-        "kicker": "MUSIC / LIVE",
         "concept": "2027年1月の日本ツアー。名古屋1月4日は完売、5日は公式で残席わずか。Anderson .PaakのDJ Pee .WeeとSilk Sonic特別演奏が案内されている。",
+        "key": "world_card:a-97866892876150625b4ce595",
+        "kicker": "MUSIC / LIVE",
         "meta": "2027-01-05 · Vantelin Dome Nagoya",
+        "title": "Bruno Mars — The Romantic Tour in Japan featuring Anderson .Paak as DJ Pee .Wee",
         "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=v8x5tJzmI60"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=v8x5tJzmI60"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"
-          },
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "music_live",
