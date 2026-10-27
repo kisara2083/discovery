@@ -2168,37 +2168,23 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-6ac2fc2618a7936ad3de9e97",
-      "slug": "a-6ac2fc2618a7936ad3de9e97",
-      "title": "朝霧JAMは2026年休止 — 10月10日に灯火をつなぐ集会",
-      "public_summary": "朝霧JAM本体は2026年の開催を休止。地元朝霧JAMS’は10月10日14〜20時にキャンプファイヤーを囲む集会を案内している。通常の音楽フェスとは別企画。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-09-30",
-      "updated_date": "2026-09-30",
-      "sources": [
-        {
-          "url": "https://asagirijams.info/2026/158339/",
-          "name": "朝霧JAMは2026年休止 — 10月10日に灯火をつなぐ集会 公式案内"
-        }
-      ],
-      "spotify": [],
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "event_date": "2026-10-10",
+      "id": "a-6ac2fc2618a7936ad3de9e97",
       "images": [
         {
-          "url": "assets/images/c8c4945a3b3a7c221a800f778a6d88ddf8d1cc8acfa5ddfda53e42698396c18f.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Asagiri_Jam%2717_(37565684272).jpg",
-          "relation": "reference_same_entity",
-          "caption": "朝霧JAM（2017年）の参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "t.kunikuni from Japan / CC BY-SA 2.0 / Wikimedia Commons",
             "creator": "t.kunikuni from Japan",
@@ -2208,33 +2194,47 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "朝霧JAM（2017年）の参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Asagiri_Jam%2717_(37565684272).jpg",
+          "url": "assets/images/c8c4945a3b3a7c221a800f778a6d88ddf8d1cc8acfa5ddfda53e42698396c18f.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "event_date": "2026-10-10",
-      "venue": "朝霧アリーナ 中央砂利スペース",
+      "lifecycle": "ENDED",
       "price_terms": "参加無料。宿泊・BBQ等は別途自分で手配。",
+      "public_summary": "朝霧JAM本体は2026年の開催を休止。地元朝霧JAMS’は10月10日14〜20時にキャンプファイヤーを囲む集会を案内している。通常の音楽フェスとは別企画。",
+      "published_date": "2026-09-30",
+      "slug": "a-6ac2fc2618a7936ad3de9e97",
+      "sources": [
+        {
+          "name": "朝霧JAMは2026年休止 — 10月10日に灯火をつなぐ集会 公式案内",
+          "url": "https://asagirijams.info/2026/158339/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "朝霧JAMは2026年休止 — 10月10日に灯火をつなぐ集会",
+      "updated_date": "2026-09-30",
+      "venue": "朝霧アリーナ 中央砂利スペース",
       "world_card": {
-        "key": "world_card:a-6ac2fc2618a7936ad3de9e97",
-        "title": "朝霧JAMは2026年休止 — 10月10日に灯火をつなぐ集会",
-        "kicker": "MUSIC / LIVE",
         "concept": "朝霧JAM本体は2026年の開催を休止。地元朝霧JAMS’は10月10日14〜20時にキャンプファイヤーを囲む集会を案内している。通常の音楽フェスとは別企画。",
+        "key": "world_card:a-6ac2fc2618a7936ad3de9e97",
+        "kicker": "MUSIC / LIVE",
         "meta": "2026-10-10 · 朝霧アリーナ 中央砂利スペース",
+        "title": "朝霧JAMは2026年休止 — 10月10日に灯火をつなぐ集会",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "image",
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        },
-        "detail_primary": {
-          "kind": "image",
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
       "id": "a-6096dcf06c396ad4433514ee",
