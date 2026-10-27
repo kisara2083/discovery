@@ -3249,45 +3249,45 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-a6798601ffd4d9dad14392c1",
-      "slug": "a-a6798601ffd4d9dad14392c1",
-      "title": "Nagoya Gnaoua Meeting 2026 — UFO meets グナワ",
-      "public_summary": "9月30日、今池Valentine Drive。モロッコからグナワのマーレムを迎える小規模公演。",
       "category": "music_live",
-      "status": "NEW",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-a6798601ffd4d9dad14392c1",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-a6798601ffd4d9dad14392c1",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-a6798601ffd4d9dad14392c1",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "3,500円＋オーダー。",
+      "public_summary": "9月30日、今池Valentine Drive。モロッコからグナワのマーレムを迎える小規模公演。",
       "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
+      "slug": "a-a6798601ffd4d9dad14392c1",
       "sources": [
         {
-          "url": "https://www.valentinedrive.com/index.html",
-          "name": "Valentine Drive 公式スケジュール"
+          "name": "Valentine Drive 公式スケジュール",
+          "url": "https://www.valentinedrive.com/index.html"
         }
       ],
       "spotify": [],
-      "images": [],
+      "status": "NEW",
+      "title": "Nagoya Gnaoua Meeting 2026 — UFO meets グナワ",
+      "updated_date": "2026-09-29",
       "venue": "Valentine Drive",
-      "price_terms": "3,500円＋オーダー。",
       "world_card": {
-        "key": "world_card:a-a6798601ffd4d9dad14392c1",
-        "title": "Nagoya Gnaoua Meeting 2026 — UFO meets グナワ",
-        "kicker": "MUSIC / LIVE",
         "concept": "9月30日、今池Valentine Drive。モロッコからグナワのマーレムを迎える小規模公演。",
+        "key": "world_card:a-a6798601ffd4d9dad14392c1",
+        "kicker": "MUSIC / LIVE",
         "meta": "Valentine Drive",
+        "title": "Nagoya Gnaoua Meeting 2026 — UFO meets グナワ",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-a6798601ffd4d9dad14392c1"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-a6798601ffd4d9dad14392c1"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "music_live",
