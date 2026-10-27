@@ -4490,27 +4490,27 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-a22b296d0b900261847b548a",
-      "slug": "a-a22b296d0b900261847b548a",
-      "title": "劇場版『チェンソーマン レゼ篇』Prime Video独占見放題",
-      "public_summary": "2026年9月19日から日本のPrime Videoで独占見放題配信。TVアニメの続きを描く劇場版。",
       "category": "film_streaming",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://www.aboutamazon.jp/news/entertainment/amazon-prime-video-new-content-september-2026",
-          "name": "Prime Video 2026年9月新着配信コンテンツ"
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=pGfbjf9lBkA",
+          "kind": "media"
         },
-        {
-          "url": "https://www.amazon.co.jp/dp/B0HFN74P3W",
-          "name": "劇場版 チェンソーマン レゼ篇"
-        }
-      ],
-      "spotify": [],
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=pGfbjf9lBkA",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://www.youtube.com/watch?v=pv8A7eubPQQ",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "id": "a-a22b296d0b900261847b548a",
       "images": [],
-      "price_terms": "Prime会員特典対象。配信予定・対象条件は変更される可能性あり。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://www.youtube.com/watch?v=pv8A7eubPQQ",
@@ -4545,32 +4545,32 @@
           }
         }
       ],
+      "price_terms": "Prime会員特典対象。配信予定・対象条件は変更される可能性あり。",
+      "public_summary": "2026年9月19日から日本のPrime Videoで独占見放題配信。TVアニメの続きを描く劇場版。",
+      "published_date": "2026-09-29",
+      "slug": "a-a22b296d0b900261847b548a",
+      "sources": [
+        {
+          "name": "Prime Video 2026年9月新着配信コンテンツ",
+          "url": "https://www.aboutamazon.jp/news/entertainment/amazon-prime-video-new-content-september-2026"
+        },
+        {
+          "name": "劇場版 チェンソーマン レゼ篇",
+          "url": "https://www.amazon.co.jp/dp/B0HFN74P3W"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "劇場版『チェンソーマン レゼ篇』Prime Video独占見放題",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-a22b296d0b900261847b548a",
-        "title": "劇場版『チェンソーマン レゼ篇』Prime Video独占見放題",
-        "kicker": "FILM / STREAMING",
         "concept": "2026年9月19日から日本のPrime Videoで独占見放題配信。TVアニメの続きを描く劇場版。",
+        "key": "world_card:a-a22b296d0b900261847b548a",
+        "kicker": "FILM / STREAMING",
         "meta": "",
+        "title": "劇場版『チェンソーマン レゼ篇』Prime Video独占見放題",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=pGfbjf9lBkA"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=pGfbjf9lBkA"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://www.youtube.com/watch?v=pv8A7eubPQQ"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "games",
