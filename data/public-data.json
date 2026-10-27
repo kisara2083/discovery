@@ -4319,37 +4319,27 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-4298267034eeb8621be391a7",
-      "slug": "a-4298267034eeb8621be391a7",
-      "title": "onsemi Embedded Power Platform — wafer自体をpackage化する電力統合",
-      "public_summary": "Si/SiC/GaN、FET、driver、controllerをwafer-levelで統合し、電気・熱・機械を同時最適化。EV traction inverterで最大4倍の電力密度、15%低損失を掲げ、Subaruが先行評価。2026年サンプル予定。",
       "category": "automotive",
-      "status": "NEW",
-      "published_date": "2026-09-29",
-      "updated_date": "2026-09-29",
-      "sources": [
-        {
-          "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-introduces-embedded-power-platform-breakthrough",
-          "name": "onsemi Embedded Power Platform release"
-        }
-      ],
-      "spotify": [],
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=KPt26AzAZU4",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=KPt26AzAZU4",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "id": "a-4298267034eeb8621be391a7",
       "images": [
         {
-          "url": "assets/images/dbcc69f3d20c998d7d54a54fa1096984072802a7372c9a9c42fdec515fa6b78c.jpg",
-          "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Onsemi_factory,_Senawang.jpg",
-          "relation": "reference_same_entity",
-          "caption": "onsemi工場の参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
           "attribution": {
             "attribution": "AyyanD / CC BY-SA 4.0 / Wikimedia Commons",
             "creator": "AyyanD",
@@ -4359,10 +4349,24 @@
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
             "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
             "source": "Wikimedia Commons"
+          },
+          "caption": "onsemi工場の参考写真",
+          "mode": "saved",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Onsemi_factory,_Senawang.jpg",
+          "url": "assets/images/dbcc69f3d20c998d7d54a54fa1096984072802a7372c9a9c42fdec515fa6b78c.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
           }
         }
       ],
-      "price_terms": "戦略顧客向けに2026年サンプル予定。",
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://www.youtube.com/watch?v=KPt26AzAZU4",
@@ -4381,32 +4385,28 @@
           }
         }
       ],
+      "price_terms": "戦略顧客向けに2026年サンプル予定。",
+      "public_summary": "Si/SiC/GaN、FET、driver、controllerをwafer-levelで統合し、電気・熱・機械を同時最適化。EV traction inverterで最大4倍の電力密度、15%低損失を掲げ、Subaruが先行評価。2026年サンプル予定。",
+      "published_date": "2026-09-29",
+      "slug": "a-4298267034eeb8621be391a7",
+      "sources": [
+        {
+          "name": "onsemi Embedded Power Platform release",
+          "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-introduces-embedded-power-platform-breakthrough"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "onsemi Embedded Power Platform — wafer自体をpackage化する電力統合",
+      "updated_date": "2026-09-29",
       "world_card": {
-        "key": "world_card:a-4298267034eeb8621be391a7",
-        "title": "onsemi Embedded Power Platform — wafer自体をpackage化する電力統合",
-        "kicker": "AUTOMOTIVE / TECH",
         "concept": "Si/SiC/GaN、FET、driver、controllerをwafer-levelで統合し、電気・熱・機械を同時最適化。EV traction inverterで最大4倍の電力密度、15%低損失を掲げ、Subaruが先行評価。2026年サンプル予定。",
+        "key": "world_card:a-4298267034eeb8621be391a7",
+        "kicker": "AUTOMOTIVE / TECH",
         "meta": "",
+        "title": "onsemi Embedded Power Platform — wafer自体をpackage化する電力統合",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=KPt26AzAZU4"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=KPt26AzAZU4"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "games",
