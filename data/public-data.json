@@ -1469,33 +1469,35 @@
       "lifecycle": "ACTIVE"
     },
     {
-      "id": "a-86fc0b5635b4b6707cbba883",
-      "slug": "a-86fc0b5635b4b6707cbba883",
-      "title": "アークナイツ公式生放送「2026秋の大感謝祭スペシャル」— 10/7 20時",
-      "public_summary": "公式サイトの最新欄に9月30日付で追加された生放送。10月7日20時からYouTubeと公式Xで配信し、ゲーム内外の最新情報を届ける予定。",
       "category": "games",
-      "status": "NEW",
-      "published_date": "2026-10-01",
-      "updated_date": "2026-10-01",
-      "sources": [
-        {
-          "url": "https://www.arknights.jp/",
-          "name": "アークナイツ公式サイト"
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=htcg3Sr_z0s",
+          "kind": "media"
         },
-        {
-          "url": "https://www.gamer.ne.jp/news/202609300049/",
-          "name": "2026秋の大感謝祭スペシャル 10月7日20時配信"
-        }
-      ],
-      "spotify": [],
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=htcg3Sr_z0s",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2026-10-07",
+      "id": "a-86fc0b5635b4b6707cbba883",
       "images": [
         {
-          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "source_page": "https://www.arknights.jp/fankit/",
-          "relation": "reference_same_entity",
           "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
+          "framing": "contain",
           "mode": "saved",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "relation": "reference_same_entity",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
           "visual_provenance": {
             "article_match": false,
             "authority_class": "official_entity",
@@ -1503,12 +1505,10 @@
             "official_source": true,
             "relation": "official_entity",
             "source_revalidated": true
-          },
-          "framing": "contain"
+          }
         }
       ],
-      "event_date": "2026-10-07",
-      "price_terms": "視聴無料。連動Xキャンペーンは公式アカウントの案内条件に従う。",
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://www.youtube.com/watch?v=htcg3Sr_z0s",
@@ -1527,32 +1527,32 @@
           }
         }
       ],
+      "price_terms": "視聴無料。連動Xキャンペーンは公式アカウントの案内条件に従う。",
+      "public_summary": "公式サイトの最新欄に9月30日付で追加された生放送。10月7日20時からYouTubeと公式Xで配信し、ゲーム内外の最新情報を届ける予定。",
+      "published_date": "2026-10-01",
+      "slug": "a-86fc0b5635b4b6707cbba883",
+      "sources": [
+        {
+          "name": "アークナイツ公式サイト",
+          "url": "https://www.arknights.jp/"
+        },
+        {
+          "name": "2026秋の大感謝祭スペシャル 10月7日20時配信",
+          "url": "https://www.gamer.ne.jp/news/202609300049/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "アークナイツ公式生放送「2026秋の大感謝祭スペシャル」— 10/7 20時",
+      "updated_date": "2026-10-01",
       "world_card": {
-        "key": "world_card:a-86fc0b5635b4b6707cbba883",
-        "title": "アークナイツ公式生放送「2026秋の大感謝祭スペシャル」— 10/7 20時",
-        "kicker": "GAME / EVENT",
         "concept": "公式サイトの最新欄に9月30日付で追加された生放送。10月7日20時からYouTubeと公式Xで配信し、ゲーム内外の最新情報を届ける予定。",
+        "key": "world_card:a-86fc0b5635b4b6707cbba883",
+        "kicker": "GAME / EVENT",
         "meta": "2026-10-07",
+        "title": "アークナイツ公式生放送「2026秋の大感謝祭スペシャル」— 10/7 20時",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=htcg3Sr_z0s"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=htcg3Sr_z0s"
-        },
-        "detail_secondary": [
-          {
-            "kind": "image",
-            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
-          }
-        ]
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
       "id": "a-f1e0215c8983d548b784c24f",
