@@ -1535,39 +1535,25 @@
       }
     },
     {
-      "id": "a-18925d143a8764eec4e87c2d",
-      "slug": "a-18925d143a8764eec4e87c2d",
-      "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
-      "public_summary": "弥富市の富浜緑地で11月14・15日に開催する音楽・アート・食のフェス。15日はcero、YONA YONA WEEKENDERS、水曜日のカンパネラ等が出演する。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
-      "sources": [
-        {
-          "url": "https://yatomi-pjt.jp/tomihama_fes/",
-          "name": "TOMIHAMA FES公式：開催・日割り・入場条件"
-        },
-        {
-          "url": "https://cero-web.jp/2026/",
-          "name": "cero公式：11月15日出演告知"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
-          "name": "cero"
-        }
-      ],
-      "images": [],
-      "event_date": "2026-11-14",
-      "end_at": "2026-11-15T23:59:59+09:00",
-      "public_detail": "公園の音楽ステージ、地域資源を扱うアート、フードマルシェを組み合わせる催し。一般エリアは原則無料で、音楽ライブなど一部コンテンツは有料となる。",
-      "venue": "富浜緑地",
       "city": "愛知県弥富市",
-      "price_terms": "一般入場は原則無料。一部音楽ライブは有料、個別料金・残券は未確認。",
-      "note": "有料ライブの料金・販売状況・交通手段は公式チケット案内で確認。",
-      "whats_new": "今回初出。開催・日割り出演を公式サイトで確認。",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
+          "kind": "media"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-11-15T23:59:59+09:00",
+      "event_date": "2026-11-14",
+      "id": "a-18925d143a8764eec4e87c2d",
+      "images": [],
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
@@ -1586,27 +1572,41 @@
           }
         }
       ],
+      "note": "有料ライブの料金・販売状況・交通手段は公式チケット案内で確認。",
+      "price_terms": "一般入場は原則無料。一部音楽ライブは有料、個別料金・残券は未確認。",
+      "public_detail": "公園の音楽ステージ、地域資源を扱うアート、フードマルシェを組み合わせる催し。一般エリアは原則無料で、音楽ライブなど一部コンテンツは有料となる。",
+      "public_summary": "弥富市の富浜緑地で11月14・15日に開催する音楽・アート・食のフェス。15日はcero、YONA YONA WEEKENDERS、水曜日のカンパネラ等が出演する。",
+      "published_date": "2026-10-05",
+      "slug": "a-18925d143a8764eec4e87c2d",
+      "sources": [
+        {
+          "name": "TOMIHAMA FES公式：開催・日割り・入場条件",
+          "url": "https://yatomi-pjt.jp/tomihama_fes/"
+        },
+        {
+          "name": "cero公式：11月15日出演告知",
+          "url": "https://cero-web.jp/2026/"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "cero",
+          "url": "https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q"
+        }
+      ],
+      "status": "NEW",
+      "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
+      "updated_date": "2026-10-05",
+      "venue": "富浜緑地",
+      "whats_new": "今回初出。開催・日割り出演を公式サイトで確認。",
       "world_card": {
-        "key": "world_card:a-18925d143a8764eec4e87c2d",
-        "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
-        "kicker": "MUSIC / LIVE",
         "concept": "弥富市の富浜緑地で11月14・15日に開催する音楽・アート・食のフェス。15日はcero、YONA YONA WEEKENDERS、水曜日のカンパネラ等が出演する。",
+        "key": "world_card:a-18925d143a8764eec4e87c2d",
+        "kicker": "MUSIC / LIVE",
         "meta": "2026-11-14 · 富浜緑地",
+        "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
         "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "games",
