@@ -834,61 +834,61 @@
       "lifecycle": "ENDED"
     },
     {
-      "id": "a-7245382ffb18e02fc4a11de4",
-      "slug": "a-7245382ffb18e02fc4a11de4",
-      "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
-      "public_summary": "宇宙列車の清掃任務から騒動へ展開するスペースコメディの漫画版。Kindle秋の特別セールの対象作品として紹介されている。セールは10月8日まで。",
       "category": "shopping",
-      "status": "NEW",
+      "deadline_at": "2026-10-08T23:59:59+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-7245382ffb18e02fc4a11de4",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-7245382ffb18e02fc4a11de4",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-10-08T23:59:59+09:00",
+      "id": "a-7245382ffb18e02fc4a11de4",
+      "images": [],
+      "lifecycle": "ENDED",
+      "note": "対象巻・価格はKindle商品画面で確認。セール掲載は報道で確認し、販売画面の価格は未確認。",
+      "price_terms": "個別巻の現在価格は未確認。紙版定価836円とKindle販売価格を混同しない。",
+      "public_detail": "強化人間やサイボーグたちが、奉仕活動として惑星間列車を清掃する物語。河野丼が漫画を担当し、亀山陽平が原作・監修を務める。",
+      "public_summary": "宇宙列車の清掃任務から騒動へ展開するスペースコメディの漫画版。Kindle秋の特別セールの対象作品として紹介されている。セールは10月8日まで。",
       "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
+      "slug": "a-7245382ffb18e02fc4a11de4",
       "sources": [
         {
-          "url": "https://www.kadokawa.co.jp/product/322509001232/",
-          "name": "KADOKAWA公式電子版書誌"
+          "name": "KADOKAWA公式電子版書誌",
+          "url": "https://www.kadokawa.co.jp/product/322509001232/"
         },
         {
-          "url": "https://www.phileweb.com/amp/news/hobby/202610/05/8579.html",
-          "name": "Kindle秋の特別セール：対象作品・終了日"
+          "name": "Kindle秋の特別セール：対象作品・終了日",
+          "url": "https://www.phileweb.com/amp/news/hobby/202610/05/8579.html"
         },
         {
-          "url": "https://www.kadokawa.co.jp/topics/15535/",
-          "name": "KADOKAWA公式：第1巻とコミックスPV"
+          "name": "KADOKAWA公式：第1巻とコミックスPV",
+          "url": "https://www.kadokawa.co.jp/topics/15535/"
         },
         {
-          "url": "https://www.youtube.com/watch?v=D18DTTC80bE",
-          "name": "コミックスPV"
+          "name": "コミックスPV",
+          "url": "https://www.youtube.com/watch?v=D18DTTC80bE"
         }
       ],
       "spotify": [],
-      "images": [],
-      "deadline_at": "2026-10-08T23:59:59+09:00",
-      "end_at": "2026-10-08T23:59:59+09:00",
-      "public_detail": "強化人間やサイボーグたちが、奉仕活動として惑星間列車を清掃する物語。河野丼が漫画を担当し、亀山陽平が原作・監修を務める。",
-      "price_terms": "個別巻の現在価格は未確認。紙版定価836円とKindle販売価格を混同しない。",
-      "note": "対象巻・価格はKindle商品画面で確認。セール掲載は報道で確認し、販売画面の価格は未確認。",
+      "status": "NEW",
+      "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
+      "updated_date": "2026-10-05",
       "whats_new": "今回初出。新刊発表ではなく、開催中セールから個別作品を抽出。",
       "world_card": {
-        "key": "world_card:a-7245382ffb18e02fc4a11de4",
-        "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
-        "kicker": "BOOK / DISCOVERY",
         "concept": "宇宙列車の清掃任務から騒動へ展開するスペースコメディの漫画版。Kindle秋の特別セールの対象作品として紹介されている。セールは10月8日まで。",
+        "key": "world_card:a-7245382ffb18e02fc4a11de4",
+        "kicker": "BOOK / DISCOVERY",
         "meta": "",
+        "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-7245382ffb18e02fc4a11de4"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-7245382ffb18e02fc4a11de4"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
       "category": "music_live",
