@@ -330,6 +330,102 @@
       }
     },
     {
+      "category": "music_live",
+      "city": "名古屋市",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2026-11-25",
+      "id": "a-7a2546ed21a249e0b890eb78",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "5b3ZFm6P1lpZIASMDnBDs9",
+          "source_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
+          "title": "Kan Sano",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "5ZmDD0nqtQJBF11wXY9Kvl",
+          "source_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
+          "title": "With Love feat. luv",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "price_terms": "前売5,500円（税込・オールスタンディング・ドリンク代別）。",
+      "public_detail": "luvは2003年生まれの5人で組むフューチャーソウルバンド。90年代〜Y2Kのネオソウル／アシッドジャズを軸に、ジャズやヒップホップの影響を取り込み、バンドのグルーヴを前面に出す。今回の名古屋公演にはKan SanoがBand Setで参加する。",
+      "public_summary": "luv live tour 2026 “by”名古屋公演は11月25日、名古屋CLUB QUATTRO。ゲストはKan Sano(Band Set)、18時開場・19時開演。",
+      "published_date": "2026-10-01",
+      "slug": "a-7a2546ed21a249e0b890eb78",
+      "sources": [
+        {
+          "name": "luv live tour 2026 by",
+          "url": "https://luv-band.com/live_information/detail/43689"
+        },
+        {
+          "name": "NAGOYA CLUB QUATTRO 2026年11月schedule",
+          "url": "https://www.club-quattro.com/nagoya/schedule/?ym=202611"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Kan Sano",
+          "url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9"
+        },
+        {
+          "name": "With Love feat. luv",
+          "url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl"
+        }
+      ],
+      "status": "NEW",
+      "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
+      "updated_date": "2026-10-29",
+      "venue": "名古屋CLUB QUATTRO",
+      "world_card": {
+        "concept": "luv live tour 2026 “by”名古屋公演は11月25日、名古屋CLUB QUATTRO。ゲストはKan Sano(Band Set)、18時開場・19時開演。",
+        "key": "world_card:a-7a2546ed21a249e0b890eb78",
+        "kicker": "MUSIC / LIVE",
+        "meta": "2026-11-25 · 名古屋CLUB QUATTRO",
+        "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
+        "variant": "orbit"
+      }
+    },
+    {
       "category": "film_streaming",
       "display_selection": {
         "card_primary": {
@@ -2136,101 +2232,6 @@
         "title": "アークナイツ公式生放送「2026秋の大感謝祭スペシャル」— 10/7 20時",
         "variant": "orbit"
       }
-    },
-    {
-      "id": "a-7a2546ed21a249e0b890eb78",
-      "slug": "a-7a2546ed21a249e0b890eb78",
-      "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
-      "public_summary": "luv live tour 2026 “by”名古屋公演は11月25日、名古屋CLUB QUATTRO。ゲストはKan Sano(Band Set)、18時開場・19時開演。",
-      "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-01",
-      "updated_date": "2026-10-01",
-      "sources": [
-        {
-          "url": "https://luv-band.com/live_information/detail/43689",
-          "name": "luv live tour 2026 by"
-        },
-        {
-          "url": "https://www.club-quattro.com/nagoya/schedule/?ym=202611",
-          "name": "NAGOYA CLUB QUATTRO 2026年11月schedule"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
-          "name": "Kan Sano"
-        },
-        {
-          "url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
-          "name": "With Love feat. luv"
-        }
-      ],
-      "images": [],
-      "event_date": "2026-11-25",
-      "venue": "名古屋CLUB QUATTRO",
-      "city": "名古屋市",
-      "price_terms": "前売5,500円（税込・オールスタンディング・ドリンク代別）。",
-      "media": [
-        {
-          "canonical_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
-          "evidence_url": "https://developer.spotify.com/documentation/embeds",
-          "provider_id": "5b3ZFm6P1lpZIASMDnBDs9",
-          "source_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
-          "title": "Kan Sano",
-          "type": "spotify_embed",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "official_entity",
-            "source_revalidated": true
-          }
-        },
-        {
-          "canonical_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
-          "evidence_url": "https://developer.spotify.com/documentation/embeds",
-          "provider_id": "5ZmDD0nqtQJBF11wXY9Kvl",
-          "source_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
-          "title": "With Love feat. luv",
-          "type": "spotify_embed",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "official_entity",
-            "source_revalidated": true
-          }
-        }
-      ],
-      "world_card": {
-        "key": "world_card:a-7a2546ed21a249e0b890eb78",
-        "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
-        "kicker": "MUSIC / LIVE",
-        "concept": "luv live tour 2026 “by”名古屋公演は11月25日、名古屋CLUB QUATTRO。ゲストはKan Sano(Band Set)、18時開場・19時開演。",
-        "meta": "2026-11-25 · 名古屋CLUB QUATTRO",
-        "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
     },
     {
       "category": "music_live",
