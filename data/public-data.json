@@ -277,6 +277,59 @@
       }
     },
     {
+      "category": "shopping",
+      "deadline_at": "2026-10-07T23:59:59+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-7f8a61121952703c2d1802e2",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-7f8a61121952703c2d1802e2",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-10-07T23:59:59+09:00",
+      "id": "a-7f8a61121952703c2d1802e2",
+      "images": [],
+      "lifecycle": "ENDED",
+      "note": "2001年刊の文化論。現在の状況へそのまま適用せず、歴史的な批評として読む。",
+      "price_terms": "10月2日時点でKindle 499円。講談社第1週セールは10月7日まで。購入時に現在価格を再確認。",
+      "public_detail": "東浩紀がオタク文化を手がかりに、物語消費からデータベース消費への変化を論じた2001年の講談社現代新書。刊行時の文化状況を扱うため、現在のサブカルチャーの直接説明ではなく歴史的な批評として読む位置づけ。",
+      "public_summary": "東浩紀『動物化するポストモダン』がKindle 499円セール対象として確認。オタク文化から物語消費とデータベース消費の転換を考える、2000年代批評の代表的な一冊。",
+      "published_date": "2026-10-07",
+      "slug": "a-7f8a61121952703c2d1802e2",
+      "sources": [
+        {
+          "name": "講談社公式書誌：動物化するポストモダン",
+          "url": "https://www.kodansha.co.jp/book/products/0000147035"
+        },
+        {
+          "name": "講談社Kindleセール 499円の棚から選ぶ",
+          "url": "https://note.com/yomushi/n/n7afcd403ea9c"
+        },
+        {
+          "name": "講談社 3週連続セール 第1弾 新書499円均一",
+          "url": "https://kindou.info/23859.html"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "『動物化するポストモダン』：Kindle 499円の批評候補",
+      "updated_date": "2026-10-29",
+      "whats_new": "今回初出。終了日当日の499円候補として抽出。",
+      "world_card": {
+        "concept": "東浩紀『動物化するポストモダン』がKindle 499円セール対象として確認。オタク文化から物語消費とデータベース消費の転換を考える、2000年代批評の代表的な一冊。",
+        "key": "world_card:a-7f8a61121952703c2d1802e2",
+        "kicker": "BOOK / DISCOVERY",
+        "meta": "",
+        "title": "『動物化するポストモダン』：Kindle 499円の批評候補",
+        "variant": "field"
+      }
+    },
+    {
       "category": "film_streaming",
       "display_selection": {
         "card_primary": {
