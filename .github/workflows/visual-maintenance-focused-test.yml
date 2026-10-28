@@ -1,0 +1,20 @@
+name: Visual maintenance focused test
+
+on:
+  push:
+    branches:
+      - maintenance/visual-only-lane-v1
+
+permissions:
+  contents: read
+
+jobs:
+  focused:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run focused maintenance/coexistence tests
+        run: python -m unittest scripts/test_apply_visual_maintenance_request.py -v
