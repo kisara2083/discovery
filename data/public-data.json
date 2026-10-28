@@ -89,6 +89,67 @@
       }
     },
     {
+      "category": "shopping",
+      "deadline_at": "2026-10-07",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-bf0f944c0630fc89e8180cbe",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-bf0f944c0630fc89e8180cbe",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-10-07T23:59:59+09:00",
+      "id": "a-bf0f944c0630fc89e8180cbe",
+      "images": [],
+      "lifecycle": "ENDED",
+      "note": "499円セールは10月7日まで。販売価格は変動し得るため購入画面で確認。",
+      "price_terms": "Kindle 499円均一セール対象として10月7日まで掲載。通常紙版定価1,056円。購入時にKindle価格を再確認。",
+      "public_detail": "人生や自己を一つの「物語」として整理することの便利さと危うさを問い、物語を相対化する手がかりを「遊び」から探る哲学書。後半ではゲーム、パズル、ギャンブル、おもちゃといった形式を通して、世界理解や生き方の別の捉え方を検討する。",
+      "public_summary": "『物語化批判の哲学』が講談社のKindle新書499円均一セール対象。人生を一貫した物語として説明する圧力を問い、別の生き方・遊び方を考える一冊。セールは本日10月7日まで。",
+      "published_date": "2026-10-01",
+      "slug": "a-bf0f944c0630fc89e8180cbe",
+      "sources": [
+        {
+          "name": "物語化批判の哲学 | 講談社",
+          "url": "https://www.kodansha.co.jp/titles/1000049718"
+        },
+        {
+          "name": "講談社 3週連続セール 第1弾 新書499円均一",
+          "url": "https://kindou.info/23859.html"
+        },
+        {
+          "name": "講談社公式書誌：物語化批判の哲学",
+          "url": "https://www.kodansha.co.jp/book/products/0000415351"
+        },
+        {
+          "name": "講談社 今日のおすすめ：物語化批判の哲学",
+          "url": "https://news.kodansha.co.jp/books/20151448"
+        },
+        {
+          "name": "講談社 3週連続セール 第1弾 新書499円均一",
+          "url": "https://kindou.info/23859.html"
+        }
+      ],
+      "spotify": [],
+      "status": "REPEAT_RECOMMENDATION",
+      "title": "『物語化批判の哲学』：本日までKindle 499円",
+      "updated_date": "2026-10-29",
+      "whats_new": "10月1日に既出の候補を、終了日当日に再確認。",
+      "world_card": {
+        "concept": "『物語化批判の哲学』が講談社のKindle新書499円均一セール対象。人生を一貫した物語として説明する圧力を問い、別の生き方・遊び方を考える一冊。セールは本日10月7日まで。",
+        "key": "world_card:a-bf0f944c0630fc89e8180cbe",
+        "kicker": "BOOK / DISCOVERY",
+        "meta": "",
+        "title": "『物語化批判の哲学』：本日までKindle 499円",
+        "variant": "field"
+      }
+    },
+    {
       "category": "film_streaming",
       "display_selection": {
         "card_primary": {
@@ -1809,50 +1870,6 @@
         "title": "feeble little horse 初来日 — ノイズとポップが溶ける小規模公演",
         "variant": "grid"
       }
-    },
-    {
-      "id": "a-bf0f944c0630fc89e8180cbe",
-      "slug": "a-bf0f944c0630fc89e8180cbe",
-      "title": "『物語化批判の哲学』 — 講談社新書499円祭の強い1冊",
-      "public_summary": "10月1日開始の『講談社書籍10月祭』第1週で、難波優輝『物語化批判の哲学』が499円。第1週の新書499円均一は10月7日まで。",
-      "category": "shopping",
-      "status": "NEW",
-      "published_date": "2026-10-01",
-      "updated_date": "2026-10-01",
-      "sources": [
-        {
-          "url": "https://www.kodansha.co.jp/titles/1000049718",
-          "name": "物語化批判の哲学 | 講談社"
-        },
-        {
-          "url": "https://kindou.info/23859.html",
-          "name": "講談社 3週連続セール 第1弾 新書499円均一"
-        }
-      ],
-      "spotify": [],
-      "images": [],
-      "price_terms": "499円（通常1,056円との比較で約53%OFFと直近セール記事が確認）。",
-      "world_card": {
-        "key": "world_card:a-bf0f944c0630fc89e8180cbe",
-        "title": "『物語化批判の哲学』 — 講談社新書499円祭の強い1冊",
-        "kicker": "BOOK / DISCOVERY",
-        "concept": "10月1日開始の『講談社書籍10月祭』第1週で、難波優輝『物語化批判の哲学』が499円。第1週の新書499円均一は10月7日まで。",
-        "meta": "",
-        "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-bf0f944c0630fc89e8180cbe"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-bf0f944c0630fc89e8180cbe"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
     },
     {
       "category": "games",
