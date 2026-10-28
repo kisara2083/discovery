@@ -43,6 +43,52 @@
   "todays_pick": "a-c79abd6fce19922533af23d3",
   "articles": [
     {
+      "category": "shopping",
+      "deadline_at": "2026-10-04",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-4b8263b68f119c80fbbd78ba",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-4b8263b68f119c80fbbd78ba",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-4b8263b68f119c80fbbd78ba",
+      "images": [],
+      "lifecycle": "ENDED",
+      "price_terms": "1〜10巻 各77円、全10巻770円（税込・記事確認時）。",
+      "public_detail": "高校の倫理教師・高柳が、生徒たちの抱える問題に倫理の授業を通じて向き合う教師漫画。抽象的な思想紹介だけでなく、各話の具体的な悩みや選択から「善く生きる」ことを考える構成になっている。",
+      "public_summary": "雨瀬シオリ『ここは今から倫理です。』全10巻がKindleで各77円。全巻770円で、セールは10月4日までと案内されている。",
+      "published_date": "2026-10-01",
+      "slug": "a-4b8263b68f119c80fbbd78ba",
+      "sources": [
+        {
+          "name": "ここは今から倫理です。公式",
+          "url": "https://grandjump.shueisha.co.jp/manga/rinri.html"
+        },
+        {
+          "name": "『ここは今から倫理です。』各77円・10/4まで",
+          "url": "https://news.denfaminicogamer.jp/news/260928u"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "『ここは今から倫理です。』全10巻 — 各77円で完結まで770円",
+      "updated_date": "2026-10-29",
+      "world_card": {
+        "concept": "雨瀬シオリ『ここは今から倫理です。』全10巻がKindleで各77円。全巻770円で、セールは10月4日までと案内されている。",
+        "key": "world_card:a-4b8263b68f119c80fbbd78ba",
+        "kicker": "BOOK / DISCOVERY",
+        "meta": "",
+        "title": "『ここは今から倫理です。』全10巻 — 各77円で完結まで770円",
+        "variant": "field"
+      }
+    },
+    {
       "category": "film_streaming",
       "display_selection": {
         "card_primary": {
@@ -1763,50 +1809,6 @@
         "title": "feeble little horse 初来日 — ノイズとポップが溶ける小規模公演",
         "variant": "grid"
       }
-    },
-    {
-      "id": "a-4b8263b68f119c80fbbd78ba",
-      "slug": "a-4b8263b68f119c80fbbd78ba",
-      "title": "『ここは今から倫理です。』全10巻 — 各77円で完結まで770円",
-      "public_summary": "雨瀬シオリ『ここは今から倫理です。』全10巻がKindleで各77円。全巻770円で、セールは10月4日までと案内されている。",
-      "category": "shopping",
-      "status": "NEW",
-      "published_date": "2026-10-01",
-      "updated_date": "2026-10-01",
-      "sources": [
-        {
-          "url": "https://grandjump.shueisha.co.jp/manga/rinri.html",
-          "name": "ここは今から倫理です。公式"
-        },
-        {
-          "url": "https://news.denfaminicogamer.jp/news/260928u",
-          "name": "『ここは今から倫理です。』各77円・10/4まで"
-        }
-      ],
-      "spotify": [],
-      "images": [],
-      "price_terms": "1〜10巻 各77円、全10巻770円（税込・記事確認時）。",
-      "world_card": {
-        "key": "world_card:a-4b8263b68f119c80fbbd78ba",
-        "title": "『ここは今から倫理です。』全10巻 — 各77円で完結まで770円",
-        "kicker": "BOOK / DISCOVERY",
-        "concept": "雨瀬シオリ『ここは今から倫理です。』全10巻がKindleで各77円。全巻770円で、セールは10月4日までと案内されている。",
-        "meta": "",
-        "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-4b8263b68f119c80fbbd78ba"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-4b8263b68f119c80fbbd78ba"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
     },
     {
       "id": "a-bf0f944c0630fc89e8180cbe",
