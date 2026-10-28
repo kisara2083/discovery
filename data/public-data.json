@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "taxonomy": [
     {
       "id": "shopping",
@@ -784,51 +784,34 @@
       "lifecycle": "ENDED"
     },
     {
-      "id": "a-7ef78120e48b3ee43f526c4c",
-      "slug": "a-7ef78120e48b3ee43f526c4c",
-      "title": "Chris Dave／MonoNeon／Justus West：11月19日のセッション、一般予約は10月7日12時から",
-      "public_summary": "Chris Dave、MonoNeon、Justus Westが11月19日Billboard Live TOKYOで共演。17:30と20:30の2ステージを行う。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
-      "sources": [
-        {
-          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21707",
-          "name": "東京公式公演・一般予約開始データ"
-        },
-        {
-          "url": "https://www.billboard-live.com/osaka/show?event_id=ev-21709",
-          "name": "大阪公式公演11月20日"
-        },
-        {
-          "url": "https://linktr.ee/justus.west",
-          "name": "Justus West公式リンク集・Spotifyリンク"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j",
-          "name": "MonoNeon"
-        },
-        {
-          "url": "https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O",
-          "name": "Chris Dave and The Drumhedz"
-        },
-        {
-          "url": "https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO",
-          "name": "Justus West"
-        }
-      ],
-      "images": [],
-      "event_date": "2026-11-19T17:30:00+09:00",
-      "end_at": "2026-11-19T23:59:59+09:00",
-      "public_detail": "ドラムのChris Dave、ベースのMonoNeon、ギターのJustus Westによるセッション。東京のほか横浜11月17日、大阪11月20日の公演も公式ページが案内している。",
-      "venue": "Billboard Live TOKYO",
       "city": "東京都港区",
-      "price_terms": "公式東京配信データのカジュアル8,900円／R指定9,400円等。料金・付帯条件・空席は購入時に確認。",
-      "note": "東京の一般ゲスト予約は10月7日12時開始。BBL・法人会員先行は9月30日開始。料金・席の条件は予約画面で再確認。",
-      "whats_new": "今回初出。一般発売開始前を公式ページ配信データで確認。",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j",
+            "kind": "media"
+          },
+          {
+            "key": "media:https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "end_at": "2026-11-19T23:59:59+09:00",
+      "event_date": "2026-11-19T17:30:00+09:00",
+      "id": "a-7ef78120e48b3ee43f526c4c",
+      "images": [],
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j",
@@ -879,36 +862,53 @@
           }
         }
       ],
+      "note": "東京の一般ゲスト予約は10月7日12時開始。BBL・法人会員先行は9月30日開始。料金・席の条件は予約画面で再確認。",
+      "price_terms": "公式東京配信データのカジュアル8,900円／R指定9,400円等。料金・付帯条件・空席は購入時に確認。",
+      "public_detail": "ドラムのChris Dave、ベースのMonoNeon、ギターのJustus Westによるセッション。東京のほか横浜11月17日、大阪11月20日の公演も公式ページが案内している。",
+      "public_summary": "Chris Dave、MonoNeon、Justus Westが11月19日Billboard Live TOKYOで共演。17:30と20:30の2ステージを行う。",
+      "published_date": "2026-10-05",
+      "slug": "a-7ef78120e48b3ee43f526c4c",
+      "sources": [
+        {
+          "name": "東京公式公演・一般予約開始データ",
+          "url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21707"
+        },
+        {
+          "name": "大阪公式公演11月20日",
+          "url": "https://www.billboard-live.com/osaka/show?event_id=ev-21709"
+        },
+        {
+          "name": "Justus West公式リンク集・Spotifyリンク",
+          "url": "https://linktr.ee/justus.west"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "MonoNeon",
+          "url": "https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j"
+        },
+        {
+          "name": "Chris Dave and The Drumhedz",
+          "url": "https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O"
+        },
+        {
+          "name": "Justus West",
+          "url": "https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO"
+        }
+      ],
+      "status": "NEW",
+      "title": "Chris Dave／MonoNeon／Justus West：11月19日のセッション、一般予約は10月7日12時から",
+      "updated_date": "2026-10-05",
+      "venue": "Billboard Live TOKYO",
+      "whats_new": "今回初出。一般発売開始前を公式ページ配信データで確認。",
       "world_card": {
-        "key": "world_card:a-7ef78120e48b3ee43f526c4c",
-        "title": "Chris Dave／MonoNeon／Justus West：11月19日のセッション、一般予約は10月7日12時から",
-        "kicker": "MUSIC / LIVE",
         "concept": "Chris Dave、MonoNeon、Justus Westが11月19日Billboard Live TOKYOで共演。17:30と20:30の2ステージを行う。",
+        "key": "world_card:a-7ef78120e48b3ee43f526c4c",
+        "kicker": "MUSIC / LIVE",
         "meta": "2026-11-19T17:30:00+09:00 · Billboard Live TOKYO",
+        "title": "Chris Dave／MonoNeon／Justus West：11月19日のセッション、一般予約は10月7日12時から",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j"
-          },
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "music_live",
