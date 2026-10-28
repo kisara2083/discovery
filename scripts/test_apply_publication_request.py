@@ -8,6 +8,20 @@ def request(item,sequence=1,operation='NEW',root='a'*40,as_of='2026-10-24'):
 def dataset(items=None,as_of='2026-10-23'):
  return {'schema_version':'1','site_name':'DISCOVERY','as_of':as_of,'taxonomy':[{'id':'games','label':'ゲーム'}],'todays_pick':items[0]['id'] if items else None,'articles':list(items or [])}
 class PublisherTests(unittest.TestCase):
+ def test_v7_accepted_and_v6_compatible(self):
+  for version in (6,7):
+   item=article(); item['display_selection']['selector_version']=version
+   d,_,_=self.run_case(dataset(),request(item)); self.assertEqual(version,d['articles'][0]['display_selection']['selector_version'])
+ def test_v7_selector_only_preserves_updated_date(self):
+  d,s,_=self.run_case(dataset(),request(article()))
+  item=json.loads(json.dumps(d['articles'][0])); item['display_selection']['selector_version']=7
+  after,_,_=self.run_case(d,request(item,2,'UPDATE','b'*40,'2026-10-25'),s)
+  self.assertEqual(d['articles'][0]['updated_date'],after['articles'][0]['updated_date'])
+ def test_v7_rejects_invalid_secondary(self):
+  for secondary,primary,error in (([{'kind':'world_card','key':'world_card:x'}],None,'secondary_world'),([{'kind':'image','key':'image:x'}]*2,None,'secondary_duplicate'),([{'kind':'image','key':'image:x'}],{'kind':'image','key':'image:x'},'secondary_duplicate'),([{'kind':'bogus','key':'x'}],None,'detail_secondary_ref_value'),([{'kind':'image','key':''}],None,'detail_secondary_ref_value'),([None],None,'secondary_world'),([{'kind':'image','key':'image:'+str(i)} for i in range(5)],None,'detail_secondary')):
+   item=article(); d=item['display_selection']; d['selector_version']=7; d['detail_secondary']=secondary
+   if primary is not None:d['detail_primary']=primary
+   proc=self.run_case(dataset(),request(item),expect_ok=False); self.assertIn(error,proc.stderr)
  def run_case(self,data,req,state=None,expect_ok=True):
   with tempfile.TemporaryDirectory() as td:
    p=Path(td); dp=p/'data.json'; rp=p/'request.json'; sp=p/'state.json'; op=p/'result.json'; dp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n'); rp.write_text(json.dumps(req,ensure_ascii=False))

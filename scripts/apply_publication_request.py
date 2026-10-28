@@ -81,10 +81,15 @@ def validate_article(a,tax):
   if a["world_card"]["variant"] not in VARIANTS or a["world_card"]["key"]!="world_card:"+a["id"]: fail("world_card")
  if "display_selection" in a:
   d=a["display_selection"]; exact(d,DISPLAY_KEYS,DISPLAY_KEYS,"display")
-  if d["selector_version"] not in {2,3,4,5,6}: fail("selector_version")
+  if type(d["selector_version"]) is not int or d["selector_version"] not in {2,3,4,5,6,7}: fail("selector_version")
   ref(d["card_primary"],"card_primary"); ref(d["detail_primary"],"detail_primary")
   if not isinstance(d["detail_secondary"],list) or len(d["detail_secondary"])>4: fail("detail_secondary")
   for x in d["detail_secondary"]: ref(x,"detail_secondary_ref")
+  if d["selector_version"]==7:
+   secondary=d["detail_secondary"]
+   if any(x is None or x["kind"]=="world_card" for x in secondary): fail("secondary_world_or_null")
+   keys=[x["key"] for x in secondary]
+   if len(set(keys))!=len(keys) or (d["detail_primary"] and d["detail_primary"]["key"] in keys): fail("secondary_duplicate")
  scan(a)
 def load_state(p):
  if not p.exists():return None
