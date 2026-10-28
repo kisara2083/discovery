@@ -1,10 +1,13 @@
-import copy, hashlib, json, subprocess, tempfile, unittest
+import copy, hashlib, json, subprocess, sys, tempfile, unittest
 from pathlib import Path
 
+SCRIPTS=Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+ sys.path.insert(0,str(SCRIPTS))
 import apply_visual_maintenance_request as vm
 
-SCRIPT=Path(__file__).with_name('apply_visual_maintenance_request.py')
-NORMAL=Path(__file__).with_name('apply_publication_request.py')
+SCRIPT=SCRIPTS/'apply_visual_maintenance_request.py'
+NORMAL=SCRIPTS/'apply_publication_request.py'
 
 def digest(v):
  return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
