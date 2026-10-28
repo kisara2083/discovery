@@ -1386,44 +1386,31 @@
       }
     },
     {
-      "id": "a-5206c774fb880f206b848be2",
-      "slug": "a-5206c774fb880f206b848be2",
-      "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
-      "public_summary": "ジャズやソウル、オルタナティブの影響を持つSSW・luvisが10月31日、名古屋のK･D Japonに出演。18:30開場、19:00開演。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
-      "sources": [
-        {
-          "url": "https://eplus.jp/sf/detail/4503160001-P0030004P021001?P6=001",
-          "name": "イープラス：luvis名古屋公演・一般発売"
-        },
-        {
-          "url": "https://luvis-psi.vercel.app/en/music",
-          "name": "luvis公式音楽・ディスコグラフィー"
-        },
-        {
-          "url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
-          "name": "luvis公式Spotifyプロフィール"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
-          "name": "luvis"
-        }
-      ],
-      "images": [],
-      "event_date": "2026-10-31T19:00:00+09:00",
-      "deadline_at": "2026-10-30T23:59:00+09:00",
-      "end_at": "2026-10-31T23:59:59+09:00",
-      "public_detail": "luvisは京都出身のシンガーソングライター。ジャズ、ソウル、ロック、フォークを取り入れたサウンドと、表情のある歌声を特徴とする。「Higher」「Oh」などを事前に聴いてから公演を検討できる。",
-      "venue": "K･D Japon（KDハポン）",
       "city": "名古屋市中区",
-      "price_terms": "一般料金は今回未確認。早割・超早割は受付終了。",
-      "note": "先着受付は10月30日23:59まで。残券・料金は購入画面で確認。",
-      "whats_new": "今回初出。既発表公演の現在の一般発売を確認。",
+      "deadline_at": "2026-10-30T23:59:00+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "end_at": "2026-10-31T23:59:59+09:00",
+      "event_date": "2026-10-31T19:00:00+09:00",
+      "id": "a-5206c774fb880f206b848be2",
+      "images": [],
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
@@ -1458,32 +1445,45 @@
           }
         }
       ],
+      "note": "先着受付は10月30日23:59まで。残券・料金は購入画面で確認。",
+      "price_terms": "一般料金は今回未確認。早割・超早割は受付終了。",
+      "public_detail": "luvisは京都出身のシンガーソングライター。ジャズ、ソウル、ロック、フォークを取り入れたサウンドと、表情のある歌声を特徴とする。「Higher」「Oh」などを事前に聴いてから公演を検討できる。",
+      "public_summary": "ジャズやソウル、オルタナティブの影響を持つSSW・luvisが10月31日、名古屋のK･D Japonに出演。18:30開場、19:00開演。",
+      "published_date": "2026-10-05",
+      "slug": "a-5206c774fb880f206b848be2",
+      "sources": [
+        {
+          "name": "イープラス：luvis名古屋公演・一般発売",
+          "url": "https://eplus.jp/sf/detail/4503160001-P0030004P021001?P6=001"
+        },
+        {
+          "name": "luvis公式音楽・ディスコグラフィー",
+          "url": "https://luvis-psi.vercel.app/en/music"
+        },
+        {
+          "name": "luvis公式Spotifyプロフィール",
+          "url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "luvis",
+          "url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M"
+        }
+      ],
+      "status": "NEW",
+      "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
+      "updated_date": "2026-10-05",
+      "venue": "K･D Japon（KDハポン）",
+      "whats_new": "今回初出。既発表公演の現在の一般発売を確認。",
       "world_card": {
-        "key": "world_card:a-5206c774fb880f206b848be2",
-        "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
-        "kicker": "MUSIC / LIVE",
         "concept": "ジャズやソウル、オルタナティブの影響を持つSSW・luvisが10月31日、名古屋のK･D Japonに出演。18:30開場、19:00開演。",
+        "key": "world_card:a-5206c774fb880f206b848be2",
+        "kicker": "MUSIC / LIVE",
         "meta": "2026-10-31T19:00:00+09:00 · K･D Japon（KDハポン）",
+        "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "music_live",
