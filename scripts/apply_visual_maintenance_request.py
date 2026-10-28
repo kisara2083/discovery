@@ -1,0 +1,148 @@
+#!/usr/bin/env python3
+"""Apply one Visual-only maintenance request to the public DISCOVERY snapshot.
+
+This lane is intentionally independent of normal publication sequence/READY
+semantics. It mutates only article Visual fields and a dedicated maintenance
+receipt. The request is bound to the exact current full Public article digest;
+any factual/lifecycle/source drift fails closed before a write.
+"""
+from __future__ import annotations
+
+import copy
+import hashlib
+import json
+import re
+import sys
+from pathlib import Path
+
+import apply_publication_request as publication
+
+REQUEST_KEYS={"kind","schema_version","maintenance_id","article_id","expected_article_digest","visual"}
+VISUAL_KEYS={"images","media","world_card","display_selection"}
+STATE_KEYS={"v","maintenance_id","article_id","expected_article_digest","result_article_digest","visual_digest","dataset_digest"}
+
+def fail(x):
+    raise ValueError(x)
+
+def exact(o,allowed,required=None,label="object"):
+    if not isinstance(o,dict): fail(label+"_type")
+    if set(o)-set(allowed): fail(label+"_unknown_fields")
+    if required is not None and set(required)-set(o): fail(label+"_missing_fields")
+
+def digest(v):
+    return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True,separators=(",",":")).encode()).hexdigest()
+
+def dataset_text(data):
+    return json.dumps(data,ensure_ascii=False,indent=2)+"\n"
+
+def bound_maintenance_id(article_id,expected_article_digest,visual):
+    binding={"article_id":article_id,"expected_article_digest":expected_article_digest,"visual":visual}
+    return "vm-v1-"+digest(binding)[:40]
+
+def load_state(path):
+    if not path.exists(): return None
+    value=json.loads(path.read_text(encoding="utf-8"))
+    exact(value,STATE_KEYS,STATE_KEYS,"state")
+    if value["v"]!=1: fail("state_version")
+    return value
+
+def validate_request(req):
+    exact(req,REQUEST_KEYS,REQUEST_KEYS,"request")
+    if req["kind"]!="DISCOVERY_VISUAL_MAINTENANCE_REQUEST_V1" or req["schema_version"]!=1:
+        fail("request_version")
+    if not re.fullmatch(r"a-[a-f0-9]{24}",str(req["article_id"])):
+        fail("article_id")
+    if not re.fullmatch(r"[a-f0-9]{64}",str(req["expected_article_digest"])):
+        fail("expected_article_digest")
+    exact(req["visual"],VISUAL_KEYS,VISUAL_KEYS,"visual")
+    if not isinstance(req["visual"]["images"],list) or not isinstance(req["visual"]["media"],list):
+        fail("visual_list_type")
+    if not isinstance(req["visual"]["world_card"],dict) or not isinstance(req["visual"]["display_selection"],dict):
+        fail("visual_object_type")
+    if req["visual"]["display_selection"].get("selector_version")!=7:
+        fail("visual_selector_version")
+    expected_id=bound_maintenance_id(req["article_id"],req["expected_article_digest"],req["visual"])
+    if req["maintenance_id"]!=expected_id:
+        fail("maintenance_id_binding")
+
+def main(reqp,datap,statep,resultp):
+    if reqp.stat().st_size>65536: fail("request_too_large")
+    req=json.loads(reqp.read_text(encoding="utf-8"))
+    validate_request(req)
+
+    data=json.loads(datap.read_text(encoding="utf-8"))
+    if data.get("schema_version")!="1" or data.get("site_name")!="DISCOVERY" or not isinstance(data.get("articles"),list):
+        fail("public_dataset_shape")
+    positions=[i for i,a in enumerate(data["articles"]) if isinstance(a,dict) and a.get("id")==req["article_id"]]
+    if len(positions)!=1: fail("target_article_count")
+    pos=positions[0]
+    current=data["articles"][pos]
+    current_digest=digest(current)
+    encoded_before=dataset_text(data)
+    state=load_state(statep)
+    vdig=digest(req["visual"])
+
+    # Exact retry of the latest successful maintenance request is idempotent.
+    if state and state["maintenance_id"]==req["maintenance_id"]:
+        if state["article_id"]!=req["article_id"] or state["expected_article_digest"]!=req["expected_article_digest"] or state["visual_digest"]!=vdig:
+            fail("duplicate_binding_drift")
+        if current_digest!=state["result_article_digest"] or hashlib.sha256(encoded_before.encode()).hexdigest()!=state["dataset_digest"]:
+            fail("duplicate_dataset_drift")
+        out={**state,"changed":False,"snapshot_changed":False,"receipt_changed":False}
+        resultp.write_text(json.dumps(out,sort_keys=True)+"\n",encoding="utf-8")
+        print(json.dumps(out,sort_keys=True))
+        return 0
+
+    # The target article is the lock. Any intervening normal update to it rejects
+    # this request with zero writes; changes to other articles are allowed.
+    if current_digest!=req["expected_article_digest"]:
+        fail("article_digest_mismatch")
+
+    replacement=copy.deepcopy(current)
+    immutable_before={k:copy.deepcopy(v) for k,v in current.items() if k not in VISUAL_KEYS}
+    for k in VISUAL_KEYS:
+        replacement[k]=copy.deepcopy(req["visual"][k])
+    immutable_after={k:copy.deepcopy(v) for k,v in replacement.items() if k not in VISUAL_KEYS}
+    if immutable_after!=immutable_before:
+        fail("non_visual_field_changed")
+
+    taxonomy={g["id"] for g in data.get("taxonomy",[]) if isinstance(g,dict) and isinstance(g.get("id"),str)}
+    publication.validate_article(replacement,taxonomy)
+    result_article_digest=digest(replacement)
+
+    if result_article_digest!=current_digest:
+        data["articles"][pos]=replacement
+    encoded=dataset_text(data)
+    snapshot_changed=encoded!=encoded_before
+    if snapshot_changed:
+        datap.write_text(encoded,encoding="utf-8")
+
+    receipt={
+        "v":1,
+        "maintenance_id":req["maintenance_id"],
+        "article_id":req["article_id"],
+        "expected_article_digest":req["expected_article_digest"],
+        "result_article_digest":result_article_digest,
+        "visual_digest":vdig,
+        "dataset_digest":hashlib.sha256(encoded.encode()).hexdigest(),
+    }
+    prior=json.dumps(state,sort_keys=True)+"\n" if state else None
+    receipt_text=json.dumps(receipt,sort_keys=True)+"\n"
+    receipt_changed=receipt_text!=prior
+    if receipt_changed:
+        statep.parent.mkdir(parents=True,exist_ok=True)
+        statep.write_text(receipt_text,encoding="utf-8")
+
+    out={**receipt,"changed":snapshot_changed or receipt_changed,"snapshot_changed":snapshot_changed,"receipt_changed":receipt_changed}
+    resultp.write_text(json.dumps(out,sort_keys=True)+"\n",encoding="utf-8")
+    print(json.dumps(out,sort_keys=True))
+    return 0
+
+if __name__=="__main__":
+    if len(sys.argv)!=5:
+        raise SystemExit("usage: apply_visual_maintenance_request.py REQUEST DATA STATE RESULT")
+    try:
+        raise SystemExit(main(*(Path(x) for x in sys.argv[1:])))
+    except Exception as e:
+        print(json.dumps({"v":1,"error":type(e).__name__+":"+str(e)},sort_keys=True),file=sys.stderr)
+        raise
