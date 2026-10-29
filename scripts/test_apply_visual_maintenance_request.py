@@ -28,6 +28,9 @@ def request(a,v=None):
 def dataset(items,as_of='2026-10-29'):
  return {'schema_version':'1','site_name':'DISCOVERY','as_of':as_of,'taxonomy':[{'id':'games','label':'ゲーム'}],'todays_pick':items[0]['id'] if items else None,'articles':copy.deepcopy(items)}
 
+def quoted_image():
+ return {'url':'https://example.com/image.jpg','source_page':'https://example.com/source','relation':'article_specific','caption':'対象作品：Example','mode':'external','framing':'contain','visual_role':'work_identity','visual_provenance':{'relation':'article_specific','official_source':True,'source_revalidated':True,'article_match':True,'entity_match':True,'authority_class':'official_article'},'quote_context':{'quote_version':2,'relation':'work_identity','target':'Example','source_name':'Official source','source_page':'https://example.com/source','display_mode':'external','role_label':'対象作品：Example','context_sentence':'記事で扱う対象作品を識別するための画像です。'}}
+
 class VisualMaintenanceTests(unittest.TestCase):
  def run_case(self,data,req,state=None,publication_state='sentinel-publication-state\n',expect_ok=True):
   with tempfile.TemporaryDirectory() as td:
@@ -45,6 +48,18 @@ class VisualMaintenanceTests(unittest.TestCase):
   a=article(); req=request(a); before={k:copy.deepcopy(v) for k,v in a.items() if k not in vm.VISUAL_KEYS}; d,s,r,pub=self.run_case(dataset([a]),req)
   stored=d['articles'][0]; after={k:copy.deepcopy(v) for k,v in stored.items() if k not in vm.VISUAL_KEYS}
   self.assertEqual(before,after); self.assertEqual('sentinel-publication-state\n',pub); self.assertEqual('grid',stored['world_card']['variant']); self.assertEqual(a['world_card']['concept'],stored['world_card']['concept']); self.assertTrue(r['snapshot_changed']); self.assertTrue(r['receipt_changed']); self.assertEqual(req['maintenance_id'],s['maintenance_id'])
+
+ def test_public_quote_projection_is_accepted(self):
+  a=article(); v=visual(a); img=quoted_image(); v['images']=[img]; key='image:'+img['url']; v['display_selection']['card_primary']={'kind':'image','key':key}; v['display_selection']['detail_primary']={'kind':'image','key':key}; req=request(a,v)
+  d,_,_,_=self.run_case(dataset([a]),req); stored=d['articles'][0]['images'][0]; self.assertEqual(2,stored['quote_context']['quote_version']); self.assertNotIn('review',stored['quote_context'])
+
+ def test_private_quote_review_metadata_is_rejected_zero_write(self):
+  a=article(); v=visual(a); img=quoted_image(); img['quote_context']['review']={'reviewer':'private','gates':{}}; v['images']=[img]; key='image:'+img['url']; v['display_selection']['card_primary']={'kind':'image','key':key}; v['display_selection']['detail_primary']={'kind':'image','key':key}; req=request(a,v)
+  p=self.run_case(dataset([a]),req,expect_ok=False); self.assertIn('public_quote_unknown_fields',p.stderr)
+
+ def test_private_provenance_metadata_is_rejected_zero_write(self):
+  a=article(); v=visual(a); img=quoted_image(); img['visual_provenance']['reviewer']='private'; v['images']=[img]; key='image:'+img['url']; v['display_selection']['card_primary']={'kind':'image','key':key}; v['display_selection']['detail_primary']={'kind':'image','key':key}; req=request(a,v)
+  p=self.run_case(dataset([a]),req,expect_ok=False); self.assertIn('public_image_provenance_unknown_fields',p.stderr)
 
  def test_world_card_text_drift_is_rejected_zero_write(self):
   a=article(); v=visual(a); v['world_card']['concept']='Changed through Visual lane'; req=request(a,v)
