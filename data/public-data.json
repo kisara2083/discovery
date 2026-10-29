@@ -426,6 +426,45 @@
       }
     },
     {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-bef4ea91b9dc638763bd0e7f",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-bef4ea91b9dc638763bd0e7f",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-3e2ca912689a3725746b5e92",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_summary": "孤独なフランケンシュタインのため蘇生された花嫁が、殺人や社会現象を巻き起こす2時間6分のダークな再解釈。",
+      "published_date": "2026-10-27",
+      "slug": "a-3e2ca912689a3725746b5e92",
+      "sources": [
+        {
+          "name": "www.primevideo.com",
+          "url": "https://www.primevideo.com/-/ja/detail/0O0SJTA5QK29NUMHXURKJGF4FT?tr=jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "ザ・ブライド！ — 1930年代シカゴの怪物ロマンス",
+      "updated_date": "2026-10-29",
+      "world_card": {
+        "concept": "孤独なフランケンシュタインのため蘇生された花嫁が、殺人や社会現象を巻き起こす2時間6分のダークな再解釈。",
+        "key": "world_card:a-bef4ea91b9dc638763bd0e7f",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "ザ・ブライド！ — 1930年代シカゴの怪物ロマンス",
+        "variant": "orbit"
+      }
+    },
+    {
       "category": "film_streaming",
       "display_selection": {
         "card_primary": {
