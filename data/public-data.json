@@ -87,6 +87,45 @@
       }
     },
     {
+      "category": "games",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-00979b34efb414adfa06ca41",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-00979b34efb414adfa06ca41",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-6b2410cf19c11c79326fea09",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_summary": "新たな生息演算「新たな礎」が開始予定。専用アイテム「作業検収書」やマウンテン専用コーデなどの報酬が案内されている。",
+      "published_date": "2026-10-24",
+      "slug": "a-6b2410cf19c11c79326fea09",
+      "sources": [
+        {
+          "name": "arknights.jp",
+          "url": "https://arknights.jp/news/4977"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "生息演算 新たな礎 開始",
+      "updated_date": "2026-10-30",
+      "world_card": {
+        "concept": "新たな生息演算「新たな礎」が開始予定。専用アイテム「作業検収書」やマウンテン専用コーデなどの報酬が案内されている。",
+        "key": "world_card:a-00979b34efb414adfa06ca41",
+        "kicker": "GAME / EVENT",
+        "meta": "",
+        "title": "生息演算 新たな礎 開始",
+        "variant": "signal"
+      }
+    },
+    {
       "category": "shopping",
       "deadline_at": "2026-10-04",
       "display_selection": {
