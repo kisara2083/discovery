@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,52 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-f1e0215c8983d548b784c24f",
+  "todays_pick": "a-e4f027536e9193f6eafc7f44",
   "articles": [
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-ac2c7026f50655f7146f1193",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-ac2c7026f50655f7146f1193",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-e4f027536e9193f6eafc7f44",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "前売2,500円、当日3,000円。前売はフェスバッグと抽選参加付き。",
+      "public_summary": "栄駅近くのサカエヒロバスに56ブース・60出店者が集まり、無料試飲だけで200種類超を予定する屋外イベント。特別な有料試飲やボトル販売もある。",
+      "published_date": "2026-10-28",
+      "slug": "a-e4f027536e9193f6eafc7f44",
+      "sources": [
+        {
+          "name": "anytime-whisky.localinfo.jp",
+          "url": "https://anytime-whisky.localinfo.jp/posts/58759290/"
+        },
+        {
+          "name": "t.pia.jp",
+          "url": "https://t.pia.jp/pia/event/event.do?eventCd=2623029"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Anytime Whisky 2026 — 栄で200種類超を試せるウイスキーイベント",
+      "updated_date": "2026-10-30",
+      "world_card": {
+        "concept": "栄駅近くのサカエヒロバスに56ブース・60出店者が集まり、無料試飲だけで200種類超を予定する屋外イベント。特別な有料試飲やボトル販売もある。",
+        "key": "world_card:a-ac2c7026f50655f7146f1193",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "Anytime Whisky 2026 — 栄で200種類超を試せるウイスキーイベント",
+        "variant": "signal"
+      }
+    },
     {
       "category": "shopping",
       "deadline_at": "2026-10-04",
