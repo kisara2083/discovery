@@ -44,7 +44,19 @@ class VisualMaintenanceTests(unittest.TestCase):
  def test_visual_only_mutation_preserves_all_non_visual_fields_and_publication_state(self):
   a=article(); req=request(a); before={k:copy.deepcopy(v) for k,v in a.items() if k not in vm.VISUAL_KEYS}; d,s,r,pub=self.run_case(dataset([a]),req)
   stored=d['articles'][0]; after={k:copy.deepcopy(v) for k,v in stored.items() if k not in vm.VISUAL_KEYS}
-  self.assertEqual(before,after); self.assertEqual('sentinel-publication-state\n',pub); self.assertEqual('grid',stored['world_card']['variant']); self.assertTrue(r['snapshot_changed']); self.assertTrue(r['receipt_changed']); self.assertEqual(req['maintenance_id'],s['maintenance_id'])
+  self.assertEqual(before,after); self.assertEqual('sentinel-publication-state\n',pub); self.assertEqual('grid',stored['world_card']['variant']); self.assertEqual(a['world_card']['concept'],stored['world_card']['concept']); self.assertTrue(r['snapshot_changed']); self.assertTrue(r['receipt_changed']); self.assertEqual(req['maintenance_id'],s['maintenance_id'])
+
+ def test_world_card_text_drift_is_rejected_zero_write(self):
+  a=article(); v=visual(a); v['world_card']['concept']='Changed through Visual lane'; req=request(a,v)
+  p=self.run_case(dataset([a]),req,expect_ok=False); self.assertIn('world_card_nonvisual_drift',p.stderr)
+
+ def test_dangling_display_ref_is_rejected_zero_write(self):
+  a=article(); v=visual(a); v['display_selection']['card_primary']={'kind':'image','key':'image:https://example.com/missing.jpg'}; req=request(a,v)
+  p=self.run_case(dataset([a]),req,expect_ok=False); self.assertIn('display_ref_missing_candidate',p.stderr)
+
+ def test_missing_saved_asset_is_rejected_zero_write(self):
+  a=article(); v=visual(a); h='0'*64; v['images']=[{'url':'assets/images/'+h+'.jpg','source_page':'https://example.com/source','relation':'article_specific','caption':'Exact image','mode':'saved'}]; req=request(a,v)
+  p=self.run_case(dataset([a]),req,expect_ok=False); self.assertIn('saved_image_missing',p.stderr)
 
  def test_same_target_normal_update_after_request_fails_zero_write(self):
   a=article(); req=request(a); changed=copy.deepcopy(a); changed['public_summary']='Normal publication changed facts'
