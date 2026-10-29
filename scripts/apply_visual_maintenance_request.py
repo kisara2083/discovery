@@ -20,6 +20,8 @@ import apply_publication_request as publication
 REQUEST_KEYS={"kind","schema_version","maintenance_id","article_id","expected_article_digest","visual"}
 VISUAL_KEYS={"images","media","world_card","display_selection"}
 WORLD_IMMUTABLE_KEYS={"key","title","kicker","concept","meta"}
+PUBLIC_QUOTE_KEYS={"quote_version","relation","target","source_name","source_page","display_mode","role_label","context_sentence"}
+PUBLIC_PROVENANCE_KEYS={"relation","official_source","source_revalidated","article_match","entity_match","authority_class"}
 STATE_KEYS={"v","maintenance_id","article_id","expected_article_digest","result_article_digest","visual_digest","dataset_digest"}
 
 def fail(x):
@@ -66,6 +68,24 @@ def validate_request(req):
     if req["maintenance_id"]!=expected_id:
         fail("maintenance_id_binding")
 
+def validate_public_provenance(value,label):
+    exact(value,PUBLIC_PROVENANCE_KEYS,PUBLIC_PROVENANCE_KEYS,label)
+    if not isinstance(value["relation"],str) or not value["relation"] or not isinstance(value["authority_class"],str) or not value["authority_class"]:
+        fail(label+"_value")
+    for key in ("official_source","source_revalidated","article_match","entity_match"):
+        if type(value[key]) is not bool: fail(label+"_value")
+
+def validate_public_quote(value,image):
+    exact(value,PUBLIC_QUOTE_KEYS,PUBLIC_QUOTE_KEYS,"public_quote")
+    if value["quote_version"]!=2: fail("public_quote_version")
+    for key in ("relation","target","source_name","source_page","role_label","context_sentence"):
+        if not isinstance(value[key],str) or not value[key].strip(): fail("public_quote_value")
+    publication.url(value["source_page"])
+    if value["display_mode"] not in {"external","saved"} or value["display_mode"]!=image.get("mode"):
+        fail("public_quote_display_mode")
+    if value["source_page"]!=image.get("source_page"):
+        fail("public_quote_source_binding")
+
 def validate_visual_payload(current,replacement,repo_root):
     current_world=current.get("world_card")
     replacement_world=replacement.get("world_card")
@@ -87,6 +107,17 @@ def validate_visual_payload(current,replacement,repo_root):
         if ref is None: continue
         if ref["key"] not in candidates.get(ref["kind"],set()):
             fail("display_ref_missing_candidate")
+
+    # Private review gates/history are not Public payload. Accept only the small
+    # display context and provenance projection emitted by the reviewed preview.
+    for image in replacement.get("images",[]):
+        if image.get("visual_provenance") is not None:
+            validate_public_provenance(image["visual_provenance"],"public_image_provenance")
+        if image.get("quote_context") is not None:
+            validate_public_quote(image["quote_context"],image)
+    for media in replacement.get("media",[]):
+        if media.get("visual_provenance") is not None:
+            validate_public_provenance(media["visual_provenance"],"public_media_provenance")
 
     # Binary transport is a separate migration lane. A saved image referenced by
     # maintenance must already exist in the checked-out Public repository and its
