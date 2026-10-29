@@ -19,6 +19,7 @@ import apply_publication_request as publication
 
 REQUEST_KEYS={"kind","schema_version","maintenance_id","article_id","expected_article_digest","visual"}
 VISUAL_KEYS={"images","media","world_card","display_selection"}
+WORLD_IMMUTABLE_KEYS={"key","title","kicker","concept","meta"}
 STATE_KEYS={"v","maintenance_id","article_id","expected_article_digest","result_article_digest","visual_digest","dataset_digest"}
 
 def fail(x):
@@ -65,6 +66,38 @@ def validate_request(req):
     if req["maintenance_id"]!=expected_id:
         fail("maintenance_id_binding")
 
+def validate_visual_payload(current,replacement,repo_root):
+    current_world=current.get("world_card")
+    replacement_world=replacement.get("world_card")
+    if not isinstance(current_world,dict) or not isinstance(replacement_world,dict):
+        fail("world_card_current_missing")
+    # world_card is a Visual surface, but its factual/title text is not a
+    # maintenance input. Only the presentation variant may change here.
+    if any(replacement_world.get(k)!=current_world.get(k) for k in WORLD_IMMUTABLE_KEYS):
+        fail("world_card_nonvisual_drift")
+
+    image_keys={"image:"+str(i.get("url","")) for i in replacement.get("images",[])}
+    media_keys={"media:"+str(m.get("canonical_url","")) for m in replacement.get("media",[])}
+    if len(image_keys)!=len(replacement.get("images",[])) or len(media_keys)!=len(replacement.get("media",[])):
+        fail("visual_candidate_duplicate")
+    candidates={"image":image_keys,"media":media_keys,"world_card":{replacement_world["key"]}}
+    selection=replacement["display_selection"]
+    refs=[selection.get("card_primary"),selection.get("detail_primary"),*selection.get("detail_secondary",[])]
+    for ref in refs:
+        if ref is None: continue
+        if ref["key"] not in candidates.get(ref["kind"],set()):
+            fail("display_ref_missing_candidate")
+
+    # Binary transport is a separate migration lane. A saved image referenced by
+    # maintenance must already exist in the checked-out Public repository and its
+    # bytes must match the content-addressed filename.
+    for image in replacement.get("images",[]):
+        if image.get("mode")!="saved": continue
+        asset=repo_root/image["url"]
+        if not asset.is_file(): fail("saved_image_missing")
+        if hashlib.sha256(asset.read_bytes()).hexdigest()!=asset.stem:
+            fail("saved_image_digest")
+
 def main(reqp,datap,statep,resultp):
     if reqp.stat().st_size>65536: fail("request_too_large")
     req=json.loads(reqp.read_text(encoding="utf-8"))
@@ -108,6 +141,8 @@ def main(reqp,datap,statep,resultp):
 
     taxonomy={g["id"] for g in data.get("taxonomy",[]) if isinstance(g,dict) and isinstance(g.get("id"),str)}
     publication.validate_article(replacement,taxonomy)
+    repo_root=datap.parent.parent if datap.parent.name=="data" else Path.cwd()
+    validate_visual_payload(current,replacement,repo_root)
     result_article_digest=digest(replacement)
 
     if result_article_digest!=current_digest:
