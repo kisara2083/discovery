@@ -1,0 +1,106 @@
+name: DISCOVERY visual maintenance request
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+
+concurrency:
+  group: discovery-publication-main
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    if: >-
+      github.event.issue.user.login == 'kisara2083' &&
+      startsWith(github.event.issue.title, 'DISCOVERY_VISUAL_MAINTENANCE_V1 ')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout authoritative main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Extract inert maintenance request body
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          event=json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text(encoding='utf-8'))
+          Path('.visual-maintenance-request.json').write_text(event['issue'].get('body') or '',encoding='utf-8')
+          Path('.visual-maintenance-title.txt').write_text(event['issue'].get('title') or '',encoding='utf-8')
+          PY
+
+      - name: Apply Visual-only snapshot change and dedicated receipt
+        id: apply
+        shell: bash
+        run: |
+          python scripts/apply_visual_maintenance_request.py .visual-maintenance-request.json data/public-data.json data/visual-maintenance-state.json .visual-maintenance-result.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('.visual-maintenance-result.json').read_text())
+          title=Path('.visual-maintenance-title.txt').read_text()
+          if title != 'DISCOVERY_VISUAL_MAINTENANCE_V1 '+r['maintenance_id']:
+              raise SystemExit('issue_title_maintenance_id_mismatch')
+          with open(Path.home()/'.visual-maintenance-output','w') as f:
+              f.write('changed='+str(r['changed']).lower()+'\n')
+              f.write('snapshot_changed='+str(r['snapshot_changed']).lower()+'\n')
+              f.write('maintenance_id='+r['maintenance_id']+'\n')
+          PY
+          cat "$HOME/.visual-maintenance-output" >> "$GITHUB_OUTPUT"
+
+      - name: Recheck main head before commit
+        if: steps.apply.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git fetch origin main --depth=1
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+
+      - name: Commit Visual snapshot and maintenance receipt atomically
+        if: steps.apply.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/public-data.json data/visual-maintenance-state.json
+          python - <<'PY'
+          import subprocess
+          changed=set(subprocess.check_output(['git','diff','--cached','--name-only'],text=True).splitlines())
+          allowed={'data/public-data.json','data/visual-maintenance-state.json'}
+          if not changed or not changed <= allowed or 'data/visual-maintenance-state.json' not in changed:
+              raise SystemExit('unexpected_visual_maintenance_changed_paths')
+          if 'data/publication-state.json' in changed:
+              raise SystemExit('normal_publication_state_must_not_change')
+          PY
+          git commit -m "Maintain DISCOVERY visual ${MAINTENANCE_ID}"
+          git push origin HEAD:main
+        env:
+          MAINTENANCE_ID: ${{ steps.apply.outputs.maintenance_id }}
+
+      - name: Mark durable Visual maintenance request complete
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh api --method PATCH "repos/${GITHUB_REPOSITORY}/issues/${ISSUE_NUMBER}" -f state=closed -f state_reason=completed >/dev/null
+
+      - name: Request GitHub Pages rebuild for visible snapshot change
+        if: steps.apply.outputs.snapshot_changed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" >/dev/null
+
+      - name: Remove transient request files
+        if: always()
+        shell: bash
+        run: rm -f .visual-maintenance-request.json .visual-maintenance-result.json .visual-maintenance-title.txt "$HOME/.visual-maintenance-output"
