@@ -941,20 +941,49 @@
       "category": "local_family",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-ab87d2a4f1a16501179128ed",
-          "kind": "world_card"
+          "key": "image:https://d28w2qw7dtr435.cloudfront.net/uploaded/article_images/images/284528/normal.png?1790549514",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-ab87d2a4f1a16501179128ed",
-          "kind": "world_card"
+          "key": "image:https://d28w2qw7dtr435.cloudfront.net/uploaded/article_images/images/284528/normal.png?1790549514",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2026-10-04",
       "event_date": "2026-10-02",
       "id": "a-ab87d2a4f1a16501179128ed",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：こども万博mini 名古屋（2026年10月2〜4日）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://d28w2qw7dtr435.cloudfront.net/uploaded/article_images/images/284528/normal.png?1790549514",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：こども万博mini 名古屋（2026年10月2〜4日）",
+            "source_name": "report.iko-yo.net",
+            "source_page": "https://report.iko-yo.net/articles/33848",
+            "target": "こども万博mini 名古屋（2026年10月2〜4日）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://report.iko-yo.net/articles/33848",
+          "url": "https://d28w2qw7dtr435.cloudfront.net/uploaded/article_images/images/284528/normal.png?1790549514",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "price_terms": "入場無料。一部予約制。",
       "public_summary": "10月2〜4日、イオンモール Nagoya Noritake Gardenで開催。",
@@ -977,7 +1006,8 @@
         "meta": "2026-10-02",
         "title": "こども万博mini 名古屋 — 仕事体験・こども店長・縁日",
         "variant": "field"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
