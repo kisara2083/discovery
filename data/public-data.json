@@ -5123,18 +5123,52 @@
       "category": "local_family",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-9a67a8f724ad3f3ed7a12da1",
-          "kind": "world_card"
+          "key": "image:https://art.parco.jp/img/hq/store/storage/w750xh750/cname_20260819203632.png",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://x.com/parco_factory/status/2059107338955714797",
-          "kind": "media"
+          "key": "image:https://art.parco.jp/img/hq/store/storage/w750xh750/cname_20260819203632.png",
+          "kind": "image"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "media:https://x.com/parco_factory/status/2059107338955714797",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 7
       },
       "id": "a-9a67a8f724ad3f3ed7a12da1",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：残響シ念展―音と感情の実験室― 名古屋会場",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://art.parco.jp/img/hq/store/storage/w750xh750/cname_20260819203632.png",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：残響シ念展―音と感情の実験室― 名古屋会場",
+            "source_name": "art.parco.jp",
+            "source_page": "https://art.parco.jp/parcogallery/detail/?id=2001",
+            "target": "残響シ念展―音と感情の実験室― 名古屋会場"
+          },
+          "relation": "article_specific",
+          "source_page": "https://art.parco.jp/parcogallery/detail/?id=2001",
+          "url": "https://art.parco.jp/img/hq/store/storage/w750xh750/cname_20260819203632.png",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
