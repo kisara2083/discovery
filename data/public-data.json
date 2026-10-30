@@ -1472,8 +1472,8 @@
       "city": "東京都港区",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO",
-          "kind": "media"
+          "key": "image:https://www.billboard-live.com/public/event_img/ev-21707/detail/dtl_ev-21707_1_1790217941.jpg",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO",
@@ -1487,14 +1487,47 @@
           {
             "key": "media:https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O",
             "kind": "media"
+          },
+          {
+            "key": "image:https://www.billboard-live.com/public/event_img/ev-21707/detail/dtl_ev-21707_1_1790217941.jpg",
+            "kind": "image"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2026-11-19T23:59:59+09:00",
       "event_date": "2026-11-19T17:30:00+09:00",
       "id": "a-7ef78120e48b3ee43f526c4c",
-      "images": [],
+      "images": [
+        {
+          "caption": "出演アーティスト：Chris Dave / MonoNeon / Justus West",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.billboard-live.com/public/event_img/ev-21707/detail/dtl_ev-21707_1_1790217941.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う出演アーティストを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "performer_identity",
+            "role_label": "出演アーティスト：Chris Dave / MonoNeon / Justus West",
+            "source_name": "Billboard Live",
+            "source_page": "https://www.billboard-live.com/tokyo/show?event_id=ev-21707",
+            "target": "Chris Dave / MonoNeon / Justus West"
+          },
+          "relation": "official_entity",
+          "source_page": "https://www.billboard-live.com/tokyo/show?event_id=ev-21707",
+          "url": "https://www.billboard-live.com/public/event_img/ev-21707/detail/dtl_ev-21707_1_1790217941.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "visual_role": "performer_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
