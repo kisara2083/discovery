@@ -979,20 +979,49 @@
       "city": "名古屋市天白区",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-55bd01f2c955cbbf8af73b2b",
-          "kind": "world_card"
+          "key": "image:https://www.city.nagoya.jp/houdou/_res/projects/project_houdou/_page_/003/005/817/20261107tayousei.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-55bd01f2c955cbbf8af73b2b",
-          "kind": "world_card"
+          "key": "image:https://www.city.nagoya.jp/houdou/_res/projects/project_houdou/_page_/003/005/817/20261107tayousei.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2026-11-07T15:00:00+09:00",
       "event_date": "2026-11-07T10:00:00+09:00",
       "id": "a-55bd01f2c955cbbf8af73b2b",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：第11回なごや生物多様性センターまつり",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.city.nagoya.jp/houdou/_res/projects/project_houdou/_page_/003/005/817/20261107tayousei.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：第11回なごや生物多様性センターまつり",
+            "source_name": "名古屋市",
+            "source_page": "https://www.city.nagoya.jp/houdou/3003942/3003949/3005817.html",
+            "target": "第11回なごや生物多様性センターまつり"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.city.nagoya.jp/houdou/3003942/3003949/3005817.html",
+          "url": "https://www.city.nagoya.jp/houdou/_res/projects/project_houdou/_page_/003/005/817/20261107tayousei.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "note": "申込不要・参加無料。駐車場はなく、少雨決行・荒天中止。開催可否は当日朝に案内予定。",
       "price_terms": "参加無料、申込不要。",
@@ -1023,7 +1052,8 @@
         "meta": "2026-11-07T10:00:00+09:00 · なごや生物多様性センター",
         "title": "第11回なごや生物多様性センターまつり — 塩釜口5分でミニ水族館・標本・ワークショップ",
         "variant": "grid"
-      }
+      },
+      "media": []
     },
     {
       "category": "local_family",
