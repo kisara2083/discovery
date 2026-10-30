@@ -90,18 +90,47 @@
       "category": "games",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-00979b34efb414adfa06ca41",
-          "kind": "world_card"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-00979b34efb414adfa06ca41",
-          "kind": "world_card"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
         "selector_version": 7
       },
       "id": "a-6b2410cf19c11c79326fea09",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：アークナイツ（同一作品ファンキット参考画像）",
+          "framing": "contain",
+          "mode": "saved",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "saved",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：アークナイツ（同一作品ファンキット参考画像）",
+            "source_name": "www.arknights.jp",
+            "source_page": "https://www.arknights.jp/fankit/",
+            "target": "アークナイツ（同一作品ファンキット参考画像）"
+          },
+          "relation": "reference_same_entity",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "public_summary": "新たな生息演算「新たな礎」が開始予定。専用アイテム「作業検収書」やマウンテン専用コーデなどの報酬が案内されている。",
       "published_date": "2026-10-24",
@@ -123,7 +152,8 @@
         "meta": "",
         "title": "生息演算 新たな礎 開始",
         "variant": "signal"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
