@@ -1633,8 +1633,8 @@
       "deadline_at": "2026-10-08T18:00:00+09:00",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=jnylB5ylyw4",
-          "kind": "media"
+          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/10/402.jpg",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://www.youtube.com/watch?v=jnylB5ylyw4",
@@ -1644,14 +1644,47 @@
           {
             "key": "media:https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T",
             "kind": "media"
+          },
+          {
+            "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/10/402.jpg",
+            "kind": "image"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2027-01-24T23:59:59+09:00",
       "event_date": "2027-01-23T18:00:00+09:00",
       "id": "a-52602b586fedb6c0bda0a5c0",
-      "images": [],
+      "images": [
+        {
+          "caption": "出演アーティスト：The Lemon Twigs",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.creativeman.co.jp/wp-content/uploads/2026/10/402.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う出演アーティストを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "performer_identity",
+            "role_label": "出演アーティスト：The Lemon Twigs",
+            "source_name": "CREATIVEMAN",
+            "source_page": "https://www.creativeman.co.jp/event/the-lemon-twigs_2027/",
+            "target": "The Lemon Twigs"
+          },
+          "relation": "official_entity",
+          "source_page": "https://www.creativeman.co.jp/event/the-lemon-twigs_2027/",
+          "url": "https://www.creativeman.co.jp/wp-content/uploads/2026/10/402.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "visual_role": "performer_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "media": [
         {
