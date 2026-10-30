@@ -5989,8 +5989,8 @@
       "category": "film_streaming",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=pGfbjf9lBkA",
-          "kind": "media"
+          "key": "image:https://assets.aboutamazon.com/9a/3d/3b308f8944e68ce1981009fb9128/chainsawman-movie-leze-fighting-monsters.jpg",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://www.youtube.com/watch?v=pGfbjf9lBkA",
@@ -5998,14 +5998,47 @@
         },
         "detail_secondary": [
           {
+            "key": "image:https://assets.aboutamazon.com/9a/3d/3b308f8944e68ce1981009fb9128/chainsawman-movie-leze-fighting-monsters.jpg",
+            "kind": "image"
+          },
+          {
             "key": "media:https://www.youtube.com/watch?v=pv8A7eubPQQ",
             "kind": "media"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-a22b296d0b900261847b548a",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：劇場版チェンソーマン レゼ篇",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://assets.aboutamazon.com/9a/3d/3b308f8944e68ce1981009fb9128/chainsawman-movie-leze-fighting-monsters.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：劇場版チェンソーマン レゼ篇",
+            "source_name": "www.aboutamazon.jp",
+            "source_page": "https://www.aboutamazon.jp/news/entertainment/amazon-prime-video-new-content-september-2026",
+            "target": "劇場版チェンソーマン レゼ篇"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.aboutamazon.jp/news/entertainment/amazon-prime-video-new-content-september-2026",
+          "url": "https://assets.aboutamazon.com/9a/3d/3b308f8944e68ce1981009fb9128/chainsawman-movie-leze-fighting-monsters.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
