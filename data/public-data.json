@@ -319,7 +319,7 @@
       "city": "名古屋市",
       "display_selection": {
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/07/domi-jd-beck26artist402.jpg",
           "kind": "image"
         },
         "detail_primary": {
@@ -332,11 +332,15 @@
             "kind": "media"
           },
           {
+            "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/07/domi-jd-beck26artist402.jpg",
+            "kind": "image"
+          },
+          {
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "kind": "image"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "event_date": "2026-12-18",
       "id": "a-f1e0215c8983d548b784c24f",
@@ -366,6 +370,34 @@
             "relation": "reference_same_entity",
             "source_revalidated": true
           }
+        },
+        {
+          "caption": "出演アーティスト：DOMi & JD BECK",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.creativeman.co.jp/wp-content/uploads/2026/07/domi-jd-beck26artist402.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う出演アーティストを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "performer_identity",
+            "role_label": "出演アーティスト：DOMi & JD BECK",
+            "source_name": "CREATIVEMAN",
+            "source_page": "https://www.creativeman.co.jp/event/domi-jd-beck26/",
+            "target": "DOMi & JD BECK"
+          },
+          "relation": "official_entity",
+          "source_page": "https://www.creativeman.co.jp/event/domi-jd-beck26/",
+          "url": "https://www.creativeman.co.jp/wp-content/uploads/2026/07/domi-jd-beck26artist402.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "visual_role": "performer_identity"
         }
       ],
       "lifecycle": "ACTIVE",
