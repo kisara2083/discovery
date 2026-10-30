@@ -2156,8 +2156,8 @@
       "deadline_at": "2026-10-30T23:59:00+09:00",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4",
-          "kind": "media"
+          "key": "image:https://eplus.jp/s/image/450316/0001/000/4503160001_2.jpg",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4",
@@ -2167,14 +2167,47 @@
           {
             "key": "media:https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
             "kind": "media"
+          },
+          {
+            "key": "image:https://eplus.jp/s/image/450316/0001/000/4503160001_2.jpg",
+            "kind": "image"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2026-10-31T23:59:59+09:00",
       "event_date": "2026-10-31T19:00:00+09:00",
       "id": "a-5206c774fb880f206b848be2",
-      "images": [],
+      "images": [
+        {
+          "caption": "出演アーティスト：luvis",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://eplus.jp/s/image/450316/0001/000/4503160001_2.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う出演アーティストを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "performer_identity",
+            "role_label": "出演アーティスト：luvis",
+            "source_name": "eplus.jp",
+            "source_page": "https://eplus.jp/sf/detail/4503160001-P0030004P021001?P6=001",
+            "target": "luvis"
+          },
+          "relation": "official_entity",
+          "source_page": "https://eplus.jp/sf/detail/4503160001-P0030004P021001?P6=001",
+          "url": "https://eplus.jp/s/image/450316/0001/000/4503160001_2.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "visual_role": "performer_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
