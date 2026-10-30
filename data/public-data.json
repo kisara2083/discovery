@@ -201,18 +201,57 @@
       "deadline_at": "2026-10-25T09:00:00Z",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-0574b0b6e693290b187fc1cd",
-          "kind": "world_card"
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-0574b0b6e693290b187fc1cd",
-          "kind": "world_card"
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
         },
         "detail_secondary": [],
         "selector_version": 7
       },
       "id": "a-5e5695a6bd1c08901ca65c6e",
-      "images": [],
+      "images": [
+        {
+          "attribution": {
+            "attribution": "Redolta / CC0 / Wikimedia Commons",
+            "creator": "Redolta",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Feeble_Little_Horse,_2025-04-26.jpg",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Feeble_Little_Horse,_2025-04-26.jpg",
+            "license": "CC0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "modifications": "元画像を無改変で保存し、全体をcontain表示。",
+            "source": "Wikimedia Commons"
+          },
+          "caption": "出演アーティスト：feeble little horse",
+          "framing": "contain",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "quote_context": {
+            "context_sentence": "記事で扱う出演アーティストを識別するための画像です。",
+            "display_mode": "saved",
+            "quote_version": 2,
+            "relation": "performer_identity",
+            "role_label": "出演アーティスト：feeble little horse",
+            "source_name": "commons.wikimedia.org",
+            "source_page": "https://commons.wikimedia.org/wiki/File:Feeble_Little_Horse,_2025-04-26.jpg",
+            "target": "feeble little horse"
+          },
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Feeble_Little_Horse,_2025-04-26.jpg",
+          "url": "assets/images/e3c82d5183ed74fa9bc6cef85c80d79b6c8c3cbfbffae310135db9f56038d548.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
+          "visual_role": "performer_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "price_terms": "オールスタンディング7,500円、別途ドリンク代。",
       "public_summary": "初来日公演の3月12日分が完売し、2027年3月11日に追加公演が決定。轟音ギターと甘いフック、シンセやサンプルを組み合わせるノイズ・ポップを小規模会場で体験できる。",
@@ -235,7 +274,8 @@
         "meta": "",
         "title": "feeble little horse 初来日追加公演",
         "variant": "grid"
-      }
+      },
+      "media": []
     },
     {
       "category": "shopping",
