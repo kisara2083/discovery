@@ -6527,18 +6527,52 @@
       "category": "music_live",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N",
-          "kind": "media"
+          "key": "image:https://cstrecords.com/cdn/shop/files/CST195_01FrontCover_3600px.jpg?v=1780511878&width=1445",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N",
-          "kind": "media"
+          "key": "image:https://cstrecords.com/cdn/shop/files/CST195_01FrontCover_3600px.jpg?v=1780511878&width=1445",
+          "kind": "image"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 7
       },
       "id": "a-602e00baa29b017c13070373",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：Steve Bates — An Infinite Antenna（CST195）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://cstrecords.com/cdn/shop/files/CST195_01FrontCover_3600px.jpg?v=1780511878&width=1445",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：Steve Bates — An Infinite Antenna（CST195）",
+            "source_name": "cstrecords.com",
+            "source_page": "https://cstrecords.com/en-gb/collections/catalogue/products/cst195-steve-bates-an-infinite-antenna",
+            "target": "Steve Bates — An Infinite Antenna（CST195）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://cstrecords.com/en-gb/collections/catalogue/products/cst195-steve-bates-an-infinite-antenna",
+          "url": "https://cstrecords.com/cdn/shop/files/CST195_01FrontCover_3600px.jpg?v=1780511878&width=1445",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
