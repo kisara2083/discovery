@@ -499,24 +499,57 @@
       "city": "名古屋市",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
-          "kind": "media"
+          "key": "image:https://d1rjcmiyngzjnh.cloudfront.net/prod/public/fcopen/contents/information/1892/2d7fc8ada625091ceb646af213a3839a.jpeg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
-          "kind": "media"
+          "key": "image:https://d1rjcmiyngzjnh.cloudfront.net/prod/public/fcopen/contents/information/1892/2d7fc8ada625091ceb646af213a3839a.jpeg",
+          "kind": "image"
         },
         "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
+            "kind": "media"
+          },
           {
             "key": "media:https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
             "kind": "media"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "event_date": "2026-11-25",
       "id": "a-7a2546ed21a249e0b890eb78",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：luv live tour 2026 “by”",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://d1rjcmiyngzjnh.cloudfront.net/prod/public/fcopen/contents/information/1892/2d7fc8ada625091ceb646af213a3839a.jpeg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：luv live tour 2026 “by”",
+            "source_name": "luv official",
+            "source_page": "https://luv-band.com/news/detail/88528",
+            "target": "luv live tour 2026 “by”"
+          },
+          "relation": "article_specific",
+          "source_page": "https://luv-band.com/news/detail/88528",
+          "url": "https://d1rjcmiyngzjnh.cloudfront.net/prod/public/fcopen/contents/information/1892/2d7fc8ada625091ceb646af213a3839a.jpeg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
