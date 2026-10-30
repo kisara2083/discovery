@@ -3933,19 +3933,52 @@
     {
       "category": "games",
       "display_selection": {
+        "selector_version": 7,
         "card_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/18/L9zIeXYz.png"
         },
         "detail_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/18/L9zIeXYz.png"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          }
+        ]
       },
       "id": "a-c2508f7155a0f0dd0a7a3bf7",
       "images": [
+        {
+          "relation": "article_specific",
+          "caption": "対象商品：一般資格証リニューアル",
+          "framing": "contain",
+          "visual_role": "product_identity",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/18/L9zIeXYz.png",
+          "original_url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/18/L9zIeXYz.png",
+          "source_page": "https://arknights.jp/news/4670",
+          "mode": "external",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "product_identity",
+            "target": "一般資格証リニューアル",
+            "source_name": "アークナイツ公式（Arknights Operations Team）",
+            "source_page": "https://arknights.jp/news/4670",
+            "display_mode": "external",
+            "role_label": "対象商品：一般資格証リニューアル",
+            "context_sentence": "記事で扱う対象商品を識別するための画像です。"
+          }
+        },
         {
           "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
           "framing": "contain",
@@ -3985,7 +4018,8 @@
         "meta": "",
         "title": "アークナイツ — 一般資格証の交換条件が10月1日に更新",
         "variant": "orbit"
-      }
+      },
+      "media": []
     },
     {
       "category": "games",
