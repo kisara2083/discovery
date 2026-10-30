@@ -3893,18 +3893,52 @@
       "category": "games",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://store.steampowered.com/app/1488490/",
-          "kind": "media"
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1793287544",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://store.steampowered.com/app/1488490/",
-          "kind": "media"
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1793287544",
+          "kind": "image"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "media:https://store.steampowered.com/app/1488490/",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 7
       },
       "id": "a-a898a1a96de58ae58fe61d68",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：Nivalis Nights（Steam app 1488490）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1793287544",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：Nivalis Nights（Steam app 1488490）",
+            "source_name": "store.steampowered.com",
+            "source_page": "https://store.steampowered.com/app/1488490/Nivalis_Nights/",
+            "target": "Nivalis Nights（Steam app 1488490）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://store.steampowered.com/app/1488490/Nivalis_Nights/",
+          "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1793287544",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
