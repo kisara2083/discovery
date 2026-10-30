@@ -5299,18 +5299,52 @@
       "category": "games",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ",
-          "kind": "media"
+          "key": "image:https://shared.fastly.steamstatic.com/community_assets/images/steamworks_docs/english/auutmn_sale_doc_26.jpg",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ",
           "kind": "media"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "image:https://shared.fastly.steamstatic.com/community_assets/images/steamworks_docs/english/auutmn_sale_doc_26.jpg",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 7
       },
       "id": "a-c2744609ecf5b11db1d8b887",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：Steam Autumn Sale 2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://shared.fastly.steamstatic.com/community_assets/images/steamworks_docs/english/auutmn_sale_doc_26.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：Steam Autumn Sale 2026",
+            "source_name": "partner.steamgames.com",
+            "source_page": "https://partner.steamgames.com/doc/marketing/upcoming_events/2026_autumn_sale",
+            "target": "Steam Autumn Sale 2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://partner.steamgames.com/doc/marketing/upcoming_events/2026_autumn_sale",
+          "url": "https://shared.fastly.steamstatic.com/community_assets/images/steamworks_docs/english/auutmn_sale_doc_26.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
