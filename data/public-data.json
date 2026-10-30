@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,173 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-c79abd6fce19922533af23d3",
+  "todays_pick": "a-e4f027536e9193f6eafc7f44",
   "articles": [
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-ac2c7026f50655f7146f1193",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-ac2c7026f50655f7146f1193",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-e4f027536e9193f6eafc7f44",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "前売2,500円、当日3,000円。前売はフェスバッグと抽選参加付き。",
+      "public_summary": "栄駅近くのサカエヒロバスに56ブース・60出店者が集まり、無料試飲だけで200種類超を予定する屋外イベント。特別な有料試飲やボトル販売もある。",
+      "published_date": "2026-10-28",
+      "slug": "a-e4f027536e9193f6eafc7f44",
+      "sources": [
+        {
+          "name": "anytime-whisky.localinfo.jp",
+          "url": "https://anytime-whisky.localinfo.jp/posts/58759290/"
+        },
+        {
+          "name": "t.pia.jp",
+          "url": "https://t.pia.jp/pia/event/event.do?eventCd=2623029"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Anytime Whisky 2026 — 栄で200種類超を試せるウイスキーイベント",
+      "updated_date": "2026-10-30",
+      "world_card": {
+        "concept": "栄駅近くのサカエヒロバスに56ブース・60出店者が集まり、無料試飲だけで200種類超を予定する屋外イベント。特別な有料試飲やボトル販売もある。",
+        "key": "world_card:a-ac2c7026f50655f7146f1193",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "Anytime Whisky 2026 — 栄で200種類超を試せるウイスキーイベント",
+        "variant": "signal"
+      }
+    },
+    {
+      "category": "games",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-00979b34efb414adfa06ca41",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-00979b34efb414adfa06ca41",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-6b2410cf19c11c79326fea09",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_summary": "新たな生息演算「新たな礎」が開始予定。専用アイテム「作業検収書」やマウンテン専用コーデなどの報酬が案内されている。",
+      "published_date": "2026-10-24",
+      "slug": "a-6b2410cf19c11c79326fea09",
+      "sources": [
+        {
+          "name": "arknights.jp",
+          "url": "https://arknights.jp/news/4977"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "生息演算 新たな礎 開始",
+      "updated_date": "2026-10-30",
+      "world_card": {
+        "concept": "新たな生息演算「新たな礎」が開始予定。専用アイテム「作業検収書」やマウンテン専用コーデなどの報酬が案内されている。",
+        "key": "world_card:a-00979b34efb414adfa06ca41",
+        "kicker": "GAME / EVENT",
+        "meta": "",
+        "title": "生息演算 新たな礎 開始",
+        "variant": "signal"
+      }
+    },
+    {
+      "category": "music_live",
+      "deadline_at": "2026-11-01T14:59:00Z",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-807738bee160d49caae634c3",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-807738bee160d49caae634c3",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-21e41bf05c6acaaec57047d8",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "スタンディング前売り7,500円、別途ドリンク代。",
+      "public_summary": "UKマンチェスターの新人バンドが、デビュー作『It Goes On』を伴う初来日公演を2027年3月4日に開催。アメリカーナの土着性とUKインディの焦燥感を合わせたバンドで、オフィシャル先行は11月1日まで。",
+      "published_date": "2026-10-23",
+      "slug": "a-21e41bf05c6acaaec57047d8",
+      "sources": [
+        {
+          "name": "www.smash-jpn.com",
+          "url": "https://www.smash-jpn.com/live/?id=4795"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "WESTSIDE COWBOY 初来日公演",
+      "updated_date": "2026-10-30",
+      "world_card": {
+        "concept": "UKマンチェスターの新人バンドが、デビュー作『It Goes On』を伴う初来日公演を2027年3月4日に開催。アメリカーナの土着性とUKインディの焦燥感を合わせたバンドで、オフィシャル先行は11月1日まで。",
+        "key": "world_card:a-807738bee160d49caae634c3",
+        "kicker": "MUSIC / LIVE",
+        "meta": "",
+        "title": "WESTSIDE COWBOY 初来日公演",
+        "variant": "signal"
+      }
+    },
+    {
+      "category": "music_live",
+      "deadline_at": "2026-10-25T09:00:00Z",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-0574b0b6e693290b187fc1cd",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-0574b0b6e693290b187fc1cd",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-5e5695a6bd1c08901ca65c6e",
+      "images": [],
+      "lifecycle": "ENDED",
+      "price_terms": "オールスタンディング7,500円、別途ドリンク代。",
+      "public_summary": "初来日公演の3月12日分が完売し、2027年3月11日に追加公演が決定。轟音ギターと甘いフック、シンセやサンプルを組み合わせるノイズ・ポップを小規模会場で体験できる。",
+      "published_date": "2026-10-23",
+      "slug": "a-5e5695a6bd1c08901ca65c6e",
+      "sources": [
+        {
+          "name": "www.creativeman.co.jp",
+          "url": "https://www.creativeman.co.jp/event/feeble-little-horse/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "feeble little horse 初来日追加公演",
+      "updated_date": "2026-10-30",
+      "world_card": {
+        "concept": "初来日公演の3月12日分が完売し、2027年3月11日に追加公演が決定。轟音ギターと甘いフック、シンセやサンプルを組み合わせるノイズ・ポップを小規模会場で体験できる。",
+        "key": "world_card:a-0574b0b6e693290b187fc1cd",
+        "kicker": "MUSIC / LIVE",
+        "meta": "",
+        "title": "feeble little horse 初来日追加公演",
+        "variant": "grid"
+      }
+    },
     {
       "category": "shopping",
       "deadline_at": "2026-10-04",
@@ -147,6 +312,321 @@
         "meta": "",
         "title": "『物語化批判の哲学』：本日までKindle 499円",
         "variant": "field"
+      }
+    },
+    {
+      "category": "music_live",
+      "city": "名古屋市",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=jJVe_6N8cLY",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U",
+            "kind": "media"
+          },
+          {
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2026-12-18",
+      "id": "a-f1e0215c8983d548b784c24f",
+      "images": [
+        {
+          "attribution": {
+            "attribution": "Makeworldpedia / CC BY-SA 4.0 / Wikimedia Commons",
+            "creator": "Makeworldpedia",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Domi_and_JD_Beck_at_History.jpg",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Domi_and_JD_Beck_at_History.jpg",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
+            "source": "Wikimedia Commons"
+          },
+          "caption": "同アーティストの参考写真",
+          "mode": "saved",
+          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Domi_and_JD_Beck_at_History.jpg",
+          "url": "assets/images/b4cb4a28f4d6a5aedce6bd9ea280c573db105d53f707caacc36f490d0d5387a9.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "4UpA1KitN1RgIZVyWDbZ0U",
+          "source_url": "https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U",
+          "title": "DOMi & JD BECK",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=jJVe_6N8cLY",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "jJVe_6N8cLY",
+          "source_url": "https://www.creativeman.co.jp/event/domi-jd-beck26/",
+          "title": "DOMi & JD BECK, Anderson .Paak - TAKE A CHANCE (Official)",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "price_terms": "9,900円（税込・All Standing・別途1ドリンク）。未就学児入場不可。",
+      "public_detail": "鍵盤のDOMiとドラムのJD BECKによるデュオ。ジャズの高い演奏技術を核に、ヒップホップ／boom bap、IDM、フュージョン感覚を高速で行き来し、変拍子や急なテンポ変化を遊ぶように組み込む。",
+      "public_summary": "DOMi & JD BECKのWHO ASKED? TOURが12月18日に名古屋CLUB QUATTROで開催。18時開場・19時開演で、一般発売は現在受付中。",
+      "published_date": "2026-10-01",
+      "slug": "a-f1e0215c8983d548b784c24f",
+      "sources": [
+        {
+          "name": "DOMi & JD BECK WHO ASKED? TOUR",
+          "url": "https://www.creativeman.co.jp/event/domi-jd-beck26/"
+        },
+        {
+          "name": "DOMi & JD Beck Dec 18 Nagoya",
+          "url": "https://www.domiandjdbeck.com/gig/friday-december-18th-2026-who-asked-asia-tour/"
+        },
+        {
+          "name": "イープラス 名古屋",
+          "url": "https://eplus.jp/sf/detail/3978710001-P0030008P021001?P1=0817"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "DOMi & JD BECK",
+          "url": "https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U"
+        }
+      ],
+      "status": "NEW",
+      "title": "DOMi & JD BECK — 12/18 名古屋CLUB QUATTRO、一般発売中",
+      "updated_date": "2026-10-29",
+      "venue": "名古屋CLUB QUATTRO",
+      "world_card": {
+        "concept": "DOMi & JD BECKのWHO ASKED? TOURが12月18日に名古屋CLUB QUATTROで開催。18時開場・19時開演で、一般発売は現在受付中。",
+        "key": "world_card:a-f1e0215c8983d548b784c24f",
+        "kicker": "MUSIC / LIVE",
+        "meta": "2026-12-18 · 名古屋CLUB QUATTRO",
+        "title": "DOMi & JD BECK — 12/18 名古屋CLUB QUATTRO、一般発売中",
+        "variant": "grid"
+      }
+    },
+    {
+      "category": "shopping",
+      "deadline_at": "2026-10-07T23:59:59+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-7f8a61121952703c2d1802e2",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-7f8a61121952703c2d1802e2",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-10-07T23:59:59+09:00",
+      "id": "a-7f8a61121952703c2d1802e2",
+      "images": [],
+      "lifecycle": "ENDED",
+      "note": "2001年刊の文化論。現在の状況へそのまま適用せず、歴史的な批評として読む。",
+      "price_terms": "10月2日時点でKindle 499円。講談社第1週セールは10月7日まで。購入時に現在価格を再確認。",
+      "public_detail": "東浩紀がオタク文化を手がかりに、物語消費からデータベース消費への変化を論じた2001年の講談社現代新書。刊行時の文化状況を扱うため、現在のサブカルチャーの直接説明ではなく歴史的な批評として読む位置づけ。",
+      "public_summary": "東浩紀『動物化するポストモダン』がKindle 499円セール対象として確認。オタク文化から物語消費とデータベース消費の転換を考える、2000年代批評の代表的な一冊。",
+      "published_date": "2026-10-07",
+      "slug": "a-7f8a61121952703c2d1802e2",
+      "sources": [
+        {
+          "name": "講談社公式書誌：動物化するポストモダン",
+          "url": "https://www.kodansha.co.jp/book/products/0000147035"
+        },
+        {
+          "name": "講談社Kindleセール 499円の棚から選ぶ",
+          "url": "https://note.com/yomushi/n/n7afcd403ea9c"
+        },
+        {
+          "name": "講談社 3週連続セール 第1弾 新書499円均一",
+          "url": "https://kindou.info/23859.html"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "『動物化するポストモダン』：Kindle 499円の批評候補",
+      "updated_date": "2026-10-29",
+      "whats_new": "今回初出。終了日当日の499円候補として抽出。",
+      "world_card": {
+        "concept": "東浩紀『動物化するポストモダン』がKindle 499円セール対象として確認。オタク文化から物語消費とデータベース消費の転換を考える、2000年代批評の代表的な一冊。",
+        "key": "world_card:a-7f8a61121952703c2d1802e2",
+        "kicker": "BOOK / DISCOVERY",
+        "meta": "",
+        "title": "『動物化するポストモダン』：Kindle 499円の批評候補",
+        "variant": "field"
+      }
+    },
+    {
+      "category": "music_live",
+      "city": "名古屋市",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "event_date": "2026-11-25",
+      "id": "a-7a2546ed21a249e0b890eb78",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "5b3ZFm6P1lpZIASMDnBDs9",
+          "source_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
+          "title": "Kan Sano",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "5ZmDD0nqtQJBF11wXY9Kvl",
+          "source_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
+          "title": "With Love feat. luv",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "price_terms": "前売5,500円（税込・オールスタンディング・ドリンク代別）。",
+      "public_detail": "luvは2003年生まれの5人で組むフューチャーソウルバンド。90年代〜Y2Kのネオソウル／アシッドジャズを軸に、ジャズやヒップホップの影響を取り込み、バンドのグルーヴを前面に出す。今回の名古屋公演にはKan SanoがBand Setで参加する。",
+      "public_summary": "luv live tour 2026 “by”名古屋公演は11月25日、名古屋CLUB QUATTRO。ゲストはKan Sano(Band Set)、18時開場・19時開演。",
+      "published_date": "2026-10-01",
+      "slug": "a-7a2546ed21a249e0b890eb78",
+      "sources": [
+        {
+          "name": "luv live tour 2026 by",
+          "url": "https://luv-band.com/live_information/detail/43689"
+        },
+        {
+          "name": "NAGOYA CLUB QUATTRO 2026年11月schedule",
+          "url": "https://www.club-quattro.com/nagoya/schedule/?ym=202611"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "Kan Sano",
+          "url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9"
+        },
+        {
+          "name": "With Love feat. luv",
+          "url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl"
+        }
+      ],
+      "status": "NEW",
+      "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
+      "updated_date": "2026-10-29",
+      "venue": "名古屋CLUB QUATTRO",
+      "world_card": {
+        "concept": "luv live tour 2026 “by”名古屋公演は11月25日、名古屋CLUB QUATTRO。ゲストはKan Sano(Band Set)、18時開場・19時開演。",
+        "key": "world_card:a-7a2546ed21a249e0b890eb78",
+        "kicker": "MUSIC / LIVE",
+        "meta": "2026-11-25 · 名古屋CLUB QUATTRO",
+        "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
+        "variant": "orbit"
+      }
+    },
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-bef4ea91b9dc638763bd0e7f",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-bef4ea91b9dc638763bd0e7f",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-3e2ca912689a3725746b5e92",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_summary": "孤独なフランケンシュタインのため蘇生された花嫁が、殺人や社会現象を巻き起こす2時間6分のダークな再解釈。",
+      "published_date": "2026-10-27",
+      "slug": "a-3e2ca912689a3725746b5e92",
+      "sources": [
+        {
+          "name": "www.primevideo.com",
+          "url": "https://www.primevideo.com/-/ja/detail/0O0SJTA5QK29NUMHXURKJGF4FT?tr=jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "ザ・ブライド！ — 1930年代シカゴの怪物ロマンス",
+      "updated_date": "2026-10-29",
+      "world_card": {
+        "concept": "孤独なフランケンシュタインのため蘇生された花嫁が、殺人や社会現象を巻き起こす2時間6分のダークな再解釈。",
+        "key": "world_card:a-bef4ea91b9dc638763bd0e7f",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "ザ・ブライド！ — 1930年代シカゴの怪物ロマンス",
+        "variant": "orbit"
       }
     },
     {
@@ -781,114 +1261,114 @@
       }
     },
     {
-      "id": "a-ebc179110aa9743d57a4a853",
-      "slug": "a-ebc179110aa9743d57a4a853",
-      "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
-      "public_summary": "家庭用・アーケード・PCのレトロゲームを横断するムックがKindle秋セールの紹介に掲載。ゲーム音楽やゲーセン探訪も収録する。",
       "category": "shopping",
-      "status": "NEW",
+      "deadline_at": "2026-10-08T23:59:59+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-ebc179110aa9743d57a4a853",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-ebc179110aa9743d57a4a853",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-10-08T23:59:59+09:00",
+      "id": "a-ebc179110aa9743d57a4a853",
+      "images": [],
+      "lifecycle": "ENDED",
+      "note": "個別のKindle価格は販売画面で確認。出版社直販PDFとKindleの価格・形式は別。",
+      "price_terms": "出版社直販通常価格1,958円。現在の個別Kindle販売価格は未確認。",
+      "public_detail": "1980～90年代前半のゲームを中心に、ハードウェアやゲーム音楽、レトロゲーセンまで扱う196ページのムック。2019年刊行のため、入手方法などは現在の状況を別途確認する必要がある。",
+      "public_summary": "家庭用・アーケード・PCのレトロゲームを横断するムックがKindle秋セールの紹介に掲載。ゲーム音楽やゲーセン探訪も収録する。",
       "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
+      "slug": "a-ebc179110aa9743d57a4a853",
       "sources": [
         {
-          "url": "https://book.impress.co.jp/books/1118102064",
-          "name": "インプレス公式書誌・目次"
+          "name": "インプレス公式書誌・目次",
+          "url": "https://book.impress.co.jp/books/1118102064"
         },
         {
-          "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2143065.html",
-          "name": "秋の特別セール：対象タイトルを紹介"
+          "name": "秋の特別セール：対象タイトルを紹介",
+          "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2143065.html"
         },
         {
-          "url": "https://book.impress.co.jp/items/kindle260925",
-          "name": "出版社公式Kindle秋セール"
+          "name": "出版社公式Kindle秋セール",
+          "url": "https://book.impress.co.jp/items/kindle260925"
         }
       ],
       "spotify": [],
-      "images": [],
-      "deadline_at": "2026-10-08T23:59:59+09:00",
-      "end_at": "2026-10-08T23:59:59+09:00",
-      "public_detail": "1980～90年代前半のゲームを中心に、ハードウェアやゲーム音楽、レトロゲーセンまで扱う196ページのムック。2019年刊行のため、入手方法などは現在の状況を別途確認する必要がある。",
-      "price_terms": "出版社直販通常価格1,958円。現在の個別Kindle販売価格は未確認。",
-      "note": "個別のKindle価格は販売画面で確認。出版社直販PDFとKindleの価格・形式は別。",
+      "status": "NEW",
+      "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
+      "updated_date": "2026-10-05",
       "whats_new": "今回初出。既刊が開催中の秋セールで紹介されている。",
       "world_card": {
-        "key": "world_card:a-ebc179110aa9743d57a4a853",
-        "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
-        "kicker": "BOOK / DISCOVERY",
         "concept": "家庭用・アーケード・PCのレトロゲームを横断するムックがKindle秋セールの紹介に掲載。ゲーム音楽やゲーセン探訪も収録する。",
+        "key": "world_card:a-ebc179110aa9743d57a4a853",
+        "kicker": "BOOK / DISCOVERY",
         "meta": "",
+        "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
         "variant": "field"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-ebc179110aa9743d57a4a853"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-ebc179110aa9743d57a4a853"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
-      "id": "a-7245382ffb18e02fc4a11de4",
-      "slug": "a-7245382ffb18e02fc4a11de4",
-      "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
-      "public_summary": "宇宙列車の清掃任務から騒動へ展開するスペースコメディの漫画版。Kindle秋の特別セールの対象作品として紹介されている。セールは10月8日まで。",
       "category": "shopping",
-      "status": "NEW",
+      "deadline_at": "2026-10-08T23:59:59+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-7245382ffb18e02fc4a11de4",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-7245382ffb18e02fc4a11de4",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-10-08T23:59:59+09:00",
+      "id": "a-7245382ffb18e02fc4a11de4",
+      "images": [],
+      "lifecycle": "ENDED",
+      "note": "対象巻・価格はKindle商品画面で確認。セール掲載は報道で確認し、販売画面の価格は未確認。",
+      "price_terms": "個別巻の現在価格は未確認。紙版定価836円とKindle販売価格を混同しない。",
+      "public_detail": "強化人間やサイボーグたちが、奉仕活動として惑星間列車を清掃する物語。河野丼が漫画を担当し、亀山陽平が原作・監修を務める。",
+      "public_summary": "宇宙列車の清掃任務から騒動へ展開するスペースコメディの漫画版。Kindle秋の特別セールの対象作品として紹介されている。セールは10月8日まで。",
       "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
+      "slug": "a-7245382ffb18e02fc4a11de4",
       "sources": [
         {
-          "url": "https://www.kadokawa.co.jp/product/322509001232/",
-          "name": "KADOKAWA公式電子版書誌"
+          "name": "KADOKAWA公式電子版書誌",
+          "url": "https://www.kadokawa.co.jp/product/322509001232/"
         },
         {
-          "url": "https://www.phileweb.com/amp/news/hobby/202610/05/8579.html",
-          "name": "Kindle秋の特別セール：対象作品・終了日"
+          "name": "Kindle秋の特別セール：対象作品・終了日",
+          "url": "https://www.phileweb.com/amp/news/hobby/202610/05/8579.html"
         },
         {
-          "url": "https://www.kadokawa.co.jp/topics/15535/",
-          "name": "KADOKAWA公式：第1巻とコミックスPV"
+          "name": "KADOKAWA公式：第1巻とコミックスPV",
+          "url": "https://www.kadokawa.co.jp/topics/15535/"
         },
         {
-          "url": "https://www.youtube.com/watch?v=D18DTTC80bE",
-          "name": "コミックスPV"
+          "name": "コミックスPV",
+          "url": "https://www.youtube.com/watch?v=D18DTTC80bE"
         }
       ],
       "spotify": [],
-      "images": [],
-      "deadline_at": "2026-10-08T23:59:59+09:00",
-      "end_at": "2026-10-08T23:59:59+09:00",
-      "public_detail": "強化人間やサイボーグたちが、奉仕活動として惑星間列車を清掃する物語。河野丼が漫画を担当し、亀山陽平が原作・監修を務める。",
-      "price_terms": "個別巻の現在価格は未確認。紙版定価836円とKindle販売価格を混同しない。",
-      "note": "対象巻・価格はKindle商品画面で確認。セール掲載は報道で確認し、販売画面の価格は未確認。",
+      "status": "NEW",
+      "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
+      "updated_date": "2026-10-05",
       "whats_new": "今回初出。新刊発表ではなく、開催中セールから個別作品を抽出。",
       "world_card": {
-        "key": "world_card:a-7245382ffb18e02fc4a11de4",
-        "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
-        "kicker": "BOOK / DISCOVERY",
         "concept": "宇宙列車の清掃任務から騒動へ展開するスペースコメディの漫画版。Kindle秋の特別セールの対象作品として紹介されている。セールは10月8日まで。",
+        "key": "world_card:a-7245382ffb18e02fc4a11de4",
+        "kicker": "BOOK / DISCOVERY",
         "meta": "",
+        "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-7245382ffb18e02fc4a11de4"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-7245382ffb18e02fc4a11de4"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ENDED"
+      }
     },
     {
       "category": "music_live",
@@ -1110,44 +1590,31 @@
       }
     },
     {
-      "id": "a-5206c774fb880f206b848be2",
-      "slug": "a-5206c774fb880f206b848be2",
-      "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
-      "public_summary": "ジャズやソウル、オルタナティブの影響を持つSSW・luvisが10月31日、名古屋のK･D Japonに出演。18:30開場、19:00開演。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
-      "sources": [
-        {
-          "url": "https://eplus.jp/sf/detail/4503160001-P0030004P021001?P6=001",
-          "name": "イープラス：luvis名古屋公演・一般発売"
-        },
-        {
-          "url": "https://luvis-psi.vercel.app/en/music",
-          "name": "luvis公式音楽・ディスコグラフィー"
-        },
-        {
-          "url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
-          "name": "luvis公式Spotifyプロフィール"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
-          "name": "luvis"
-        }
-      ],
-      "images": [],
-      "event_date": "2026-10-31T19:00:00+09:00",
-      "deadline_at": "2026-10-30T23:59:00+09:00",
-      "end_at": "2026-10-31T23:59:59+09:00",
-      "public_detail": "luvisは京都出身のシンガーソングライター。ジャズ、ソウル、ロック、フォークを取り入れたサウンドと、表情のある歌声を特徴とする。「Higher」「Oh」などを事前に聴いてから公演を検討できる。",
-      "venue": "K･D Japon（KDハポン）",
       "city": "名古屋市中区",
-      "price_terms": "一般料金は今回未確認。早割・超早割は受付終了。",
-      "note": "先着受付は10月30日23:59まで。残券・料金は購入画面で確認。",
-      "whats_new": "今回初出。既発表公演の現在の一般発売を確認。",
+      "deadline_at": "2026-10-30T23:59:00+09:00",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 6
+      },
+      "end_at": "2026-10-31T23:59:59+09:00",
+      "event_date": "2026-10-31T19:00:00+09:00",
+      "id": "a-5206c774fb880f206b848be2",
+      "images": [],
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
@@ -1182,32 +1649,45 @@
           }
         }
       ],
+      "note": "先着受付は10月30日23:59まで。残券・料金は購入画面で確認。",
+      "price_terms": "一般料金は今回未確認。早割・超早割は受付終了。",
+      "public_detail": "luvisは京都出身のシンガーソングライター。ジャズ、ソウル、ロック、フォークを取り入れたサウンドと、表情のある歌声を特徴とする。「Higher」「Oh」などを事前に聴いてから公演を検討できる。",
+      "public_summary": "ジャズやソウル、オルタナティブの影響を持つSSW・luvisが10月31日、名古屋のK･D Japonに出演。18:30開場、19:00開演。",
+      "published_date": "2026-10-05",
+      "slug": "a-5206c774fb880f206b848be2",
+      "sources": [
+        {
+          "name": "イープラス：luvis名古屋公演・一般発売",
+          "url": "https://eplus.jp/sf/detail/4503160001-P0030004P021001?P6=001"
+        },
+        {
+          "name": "luvis公式音楽・ディスコグラフィー",
+          "url": "https://luvis-psi.vercel.app/en/music"
+        },
+        {
+          "name": "luvis公式Spotifyプロフィール",
+          "url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "luvis",
+          "url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M"
+        }
+      ],
+      "status": "NEW",
+      "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
+      "updated_date": "2026-10-05",
+      "venue": "K･D Japon（KDハポン）",
+      "whats_new": "今回初出。既発表公演の現在の一般発売を確認。",
       "world_card": {
-        "key": "world_card:a-5206c774fb880f206b848be2",
-        "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
-        "kicker": "MUSIC / LIVE",
         "concept": "ジャズやソウル、オルタナティブの影響を持つSSW・luvisが10月31日、名古屋のK･D Japonに出演。18:30開場、19:00開演。",
+        "key": "world_card:a-5206c774fb880f206b848be2",
+        "kicker": "MUSIC / LIVE",
         "meta": "2026-10-31T19:00:00+09:00 · K･D Japon（KDハポン）",
+        "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "music_live",
@@ -1259,39 +1739,25 @@
       }
     },
     {
-      "id": "a-18925d143a8764eec4e87c2d",
-      "slug": "a-18925d143a8764eec4e87c2d",
-      "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
-      "public_summary": "弥富市の富浜緑地で11月14・15日に開催する音楽・アート・食のフェス。15日はcero、YONA YONA WEEKENDERS、水曜日のカンパネラ等が出演する。",
       "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
-      "sources": [
-        {
-          "url": "https://yatomi-pjt.jp/tomihama_fes/",
-          "name": "TOMIHAMA FES公式：開催・日割り・入場条件"
-        },
-        {
-          "url": "https://cero-web.jp/2026/",
-          "name": "cero公式：11月15日出演告知"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
-          "name": "cero"
-        }
-      ],
-      "images": [],
-      "event_date": "2026-11-14",
-      "end_at": "2026-11-15T23:59:59+09:00",
-      "public_detail": "公園の音楽ステージ、地域資源を扱うアート、フードマルシェを組み合わせる催し。一般エリアは原則無料で、音楽ライブなど一部コンテンツは有料となる。",
-      "venue": "富浜緑地",
       "city": "愛知県弥富市",
-      "price_terms": "一般入場は原則無料。一部音楽ライブは有料、個別料金・残券は未確認。",
-      "note": "有料ライブの料金・販売状況・交通手段は公式チケット案内で確認。",
-      "whats_new": "今回初出。開催・日割り出演を公式サイトで確認。",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
+          "kind": "media"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "end_at": "2026-11-15T23:59:59+09:00",
+      "event_date": "2026-11-14",
+      "id": "a-18925d143a8764eec4e87c2d",
+      "images": [],
+      "lifecycle": "ACTIVE",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
@@ -1310,27 +1776,41 @@
           }
         }
       ],
+      "note": "有料ライブの料金・販売状況・交通手段は公式チケット案内で確認。",
+      "price_terms": "一般入場は原則無料。一部音楽ライブは有料、個別料金・残券は未確認。",
+      "public_detail": "公園の音楽ステージ、地域資源を扱うアート、フードマルシェを組み合わせる催し。一般エリアは原則無料で、音楽ライブなど一部コンテンツは有料となる。",
+      "public_summary": "弥富市の富浜緑地で11月14・15日に開催する音楽・アート・食のフェス。15日はcero、YONA YONA WEEKENDERS、水曜日のカンパネラ等が出演する。",
+      "published_date": "2026-10-05",
+      "slug": "a-18925d143a8764eec4e87c2d",
+      "sources": [
+        {
+          "name": "TOMIHAMA FES公式：開催・日割り・入場条件",
+          "url": "https://yatomi-pjt.jp/tomihama_fes/"
+        },
+        {
+          "name": "cero公式：11月15日出演告知",
+          "url": "https://cero-web.jp/2026/"
+        }
+      ],
+      "spotify": [
+        {
+          "name": "cero",
+          "url": "https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q"
+        }
+      ],
+      "status": "NEW",
+      "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
+      "updated_date": "2026-10-05",
+      "venue": "富浜緑地",
+      "whats_new": "今回初出。開催・日割り出演を公式サイトで確認。",
       "world_card": {
-        "key": "world_card:a-18925d143a8764eec4e87c2d",
-        "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
-        "kicker": "MUSIC / LIVE",
         "concept": "弥富市の富浜緑地で11月14・15日に開催する音楽・アート・食のフェス。15日はcero、YONA YONA WEEKENDERS、水曜日のカンパネラ等が出演する。",
+        "key": "world_card:a-18925d143a8764eec4e87c2d",
+        "kicker": "MUSIC / LIVE",
         "meta": "2026-11-14 · 富浜緑地",
+        "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
         "variant": "signal"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "games",
@@ -1527,55 +2007,55 @@
       }
     },
     {
-      "id": "a-26d59816809de415dba379b0",
-      "slug": "a-26d59816809de415dba379b0",
-      "title": "PLAYTECH AB420：PJ構成のアクティブベースが限定特価21,800円",
-      "public_summary": "PLAYTECHのAB420 Cherry Burstは、サウンドハウスの限定特価表示で税込21,800円。通常表示価格は24,800円。",
       "category": "guitar",
-      "status": "NEW",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-26d59816809de415dba379b0",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-26d59816809de415dba379b0",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 6
+      },
+      "id": "a-26d59816809de415dba379b0",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "note": "セール終了日と実機の弾き心地は未確認。購入前に用途、試奏、最終価格を確認。",
+      "price_terms": "通常24,800円→限定特価21,800円（税込）。終了日未確認。",
+      "public_detail": "JB型とPB型のピックアップを搭載し、バランサーで音を調整するアクティブ電気ベース。",
+      "public_summary": "PLAYTECHのAB420 Cherry Burstは、サウンドハウスの限定特価表示で税込21,800円。通常表示価格は24,800円。",
       "published_date": "2026-10-05",
-      "updated_date": "2026-10-05",
+      "slug": "a-26d59816809de415dba379b0",
       "sources": [
         {
-          "url": "https://www.soundhouse.co.jp/products/detail/item/290191/",
-          "name": "AB420公式個別商品価格"
+          "name": "AB420公式個別商品価格",
+          "url": "https://www.soundhouse.co.jp/products/detail/item/290191/"
         },
         {
-          "url": "https://www.soundhouse.co.jp/en/products/detail/item/290191/",
-          "name": "AB420公式仕様（英語）"
+          "name": "AB420公式仕様（英語）",
+          "url": "https://www.soundhouse.co.jp/en/products/detail/item/290191/"
         },
         {
-          "url": "https://www.soundhouse.co.jp/special_price_sale/index",
-          "name": "公式セール個別商品一覧"
+          "name": "公式セール個別商品一覧",
+          "url": "https://www.soundhouse.co.jp/special_price_sale/index"
         }
       ],
       "spotify": [],
-      "images": [],
-      "public_detail": "JB型とPB型のピックアップを搭載し、バランサーで音を調整するアクティブ電気ベース。",
-      "price_terms": "通常24,800円→限定特価21,800円（税込）。終了日未確認。",
-      "note": "セール終了日と実機の弾き心地は未確認。購入前に用途、試奏、最終価格を確認。",
+      "status": "NEW",
+      "title": "PLAYTECH AB420：PJ構成のアクティブベースが限定特価21,800円",
+      "updated_date": "2026-10-05",
       "whats_new": "セール一覧から個別商品の仕様と価格を今回初記録。",
       "world_card": {
-        "key": "world_card:a-26d59816809de415dba379b0",
-        "title": "PLAYTECH AB420：PJ構成のアクティブベースが限定特価21,800円",
-        "kicker": "GUITAR / GEAR",
         "concept": "PLAYTECHのAB420 Cherry Burstは、サウンドハウスの限定特価表示で税込21,800円。通常表示価格は24,800円。",
+        "key": "world_card:a-26d59816809de415dba379b0",
+        "kicker": "GUITAR / GEAR",
         "meta": "",
+        "title": "PLAYTECH AB420：PJ構成のアクティブベースが限定特価21,800円",
         "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-26d59816809de415dba379b0"
-        },
-        "detail_primary": {
-          "kind": "world_card",
-          "key": "world_card:a-26d59816809de415dba379b0"
-        },
-        "detail_secondary": []
-      },
-      "lifecycle": "ACTIVE"
+      }
     },
     {
       "category": "food_drink",
@@ -1956,227 +2436,6 @@
         "title": "アークナイツ公式生放送「2026秋の大感謝祭スペシャル」— 10/7 20時",
         "variant": "orbit"
       }
-    },
-    {
-      "id": "a-f1e0215c8983d548b784c24f",
-      "slug": "a-f1e0215c8983d548b784c24f",
-      "title": "DOMi & JD BECK — 12/18 名古屋CLUB QUATTRO、一般発売中",
-      "public_summary": "DOMi & JD BECKのWHO ASKED? TOURが12月18日に名古屋CLUB QUATTROで開催。18時開場・19時開演で、一般発売は現在受付中。",
-      "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-01",
-      "updated_date": "2026-10-01",
-      "sources": [
-        {
-          "url": "https://www.creativeman.co.jp/event/domi-jd-beck26/",
-          "name": "DOMi & JD BECK WHO ASKED? TOUR"
-        },
-        {
-          "url": "https://www.domiandjdbeck.com/gig/friday-december-18th-2026-who-asked-asia-tour/",
-          "name": "DOMi & JD Beck Dec 18 Nagoya"
-        },
-        {
-          "url": "https://eplus.jp/sf/detail/3978710001-P0030008P021001?P1=0817",
-          "name": "イープラス 名古屋公演"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U",
-          "name": "DOMi & JD BECK"
-        }
-      ],
-      "images": [
-        {
-          "url": "assets/images/b4cb4a28f4d6a5aedce6bd9ea280c573db105d53f707caacc36f490d0d5387a9.jpg",
-          "original_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source_page": "https://commons.wikimedia.org/wiki/File:Domi_and_JD_Beck_at_History.jpg",
-          "relation": "reference_same_entity",
-          "caption": "同アーティストの参考写真",
-          "mode": "saved",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "reference",
-            "entity_match": true,
-            "official_source": false,
-            "relation": "reference_same_entity",
-            "source_revalidated": true
-          },
-          "attribution": {
-            "attribution": "Makeworldpedia / CC BY-SA 4.0 / Wikimedia Commons",
-            "creator": "Makeworldpedia",
-            "evidence_url": "https://commons.wikimedia.org/wiki/File:Domi_and_JD_Beck_at_History.jpg",
-            "file_page_url": "https://commons.wikimedia.org/wiki/File:Domi_and_JD_Beck_at_History.jpg",
-            "license": "CC BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-            "modifications": "提供画像を無改変で保存。一覧表示のみCSSでトリミング。",
-            "source": "Wikimedia Commons"
-          }
-        }
-      ],
-      "event_date": "2026-12-18",
-      "venue": "名古屋CLUB QUATTRO",
-      "city": "名古屋市",
-      "price_terms": "9,900円（税込・All Standing・別途1ドリンク）。未就学児入場不可。",
-      "media": [
-        {
-          "canonical_url": "https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U",
-          "evidence_url": "https://developer.spotify.com/documentation/embeds",
-          "provider_id": "4UpA1KitN1RgIZVyWDbZ0U",
-          "source_url": "https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U",
-          "title": "DOMi & JD BECK",
-          "type": "spotify_embed",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "official_entity",
-            "source_revalidated": true
-          }
-        },
-        {
-          "canonical_url": "https://www.youtube.com/watch?v=jJVe_6N8cLY",
-          "evidence_url": "https://developers.google.com/youtube/player_parameters",
-          "provider_id": "jJVe_6N8cLY",
-          "source_url": "https://www.creativeman.co.jp/event/domi-jd-beck26/",
-          "title": "DOMi & JD BECK, Anderson .Paak - TAKE A CHANCE (Official)",
-          "type": "youtube_embed",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "official_entity",
-            "source_revalidated": true
-          }
-        }
-      ],
-      "world_card": {
-        "key": "world_card:a-f1e0215c8983d548b784c24f",
-        "title": "DOMi & JD BECK — 12/18 名古屋CLUB QUATTRO、一般発売中",
-        "kicker": "MUSIC / LIVE",
-        "concept": "DOMi & JD BECKのWHO ASKED? TOURが12月18日に名古屋CLUB QUATTROで開催。18時開場・19時開演で、一般発売は現在受付中。",
-        "meta": "2026-12-18 · 名古屋CLUB QUATTRO",
-        "variant": "grid"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=jJVe_6N8cLY"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=jJVe_6N8cLY"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U"
-          },
-          {
-            "kind": "image",
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
-    },
-    {
-      "id": "a-7a2546ed21a249e0b890eb78",
-      "slug": "a-7a2546ed21a249e0b890eb78",
-      "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
-      "public_summary": "luv live tour 2026 “by”名古屋公演は11月25日、名古屋CLUB QUATTRO。ゲストはKan Sano(Band Set)、18時開場・19時開演。",
-      "category": "music_live",
-      "status": "NEW",
-      "published_date": "2026-10-01",
-      "updated_date": "2026-10-01",
-      "sources": [
-        {
-          "url": "https://luv-band.com/live_information/detail/43689",
-          "name": "luv live tour 2026 by"
-        },
-        {
-          "url": "https://www.club-quattro.com/nagoya/schedule/?ym=202611",
-          "name": "NAGOYA CLUB QUATTRO 2026年11月schedule"
-        }
-      ],
-      "spotify": [
-        {
-          "url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
-          "name": "Kan Sano"
-        },
-        {
-          "url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
-          "name": "With Love feat. luv"
-        }
-      ],
-      "images": [],
-      "event_date": "2026-11-25",
-      "venue": "名古屋CLUB QUATTRO",
-      "city": "名古屋市",
-      "price_terms": "前売5,500円（税込・オールスタンディング・ドリンク代別）。",
-      "media": [
-        {
-          "canonical_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
-          "evidence_url": "https://developer.spotify.com/documentation/embeds",
-          "provider_id": "5b3ZFm6P1lpZIASMDnBDs9",
-          "source_url": "https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
-          "title": "Kan Sano",
-          "type": "spotify_embed",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "official_entity",
-            "source_revalidated": true
-          }
-        },
-        {
-          "canonical_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
-          "evidence_url": "https://developer.spotify.com/documentation/embeds",
-          "provider_id": "5ZmDD0nqtQJBF11wXY9Kvl",
-          "source_url": "https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
-          "title": "With Love feat. luv",
-          "type": "spotify_embed",
-          "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
-            "relation": "official_entity",
-            "source_revalidated": true
-          }
-        }
-      ],
-      "world_card": {
-        "key": "world_card:a-7a2546ed21a249e0b890eb78",
-        "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
-        "kicker": "MUSIC / LIVE",
-        "concept": "luv live tour 2026 “by”名古屋公演は11月25日、名古屋CLUB QUATTRO。ゲストはKan Sano(Band Set)、18時開場・19時開演。",
-        "meta": "2026-11-25 · 名古屋CLUB QUATTRO",
-        "variant": "orbit"
-      },
-      "display_selection": {
-        "selector_version": 4,
-        "card_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9"
-        },
-        "detail_primary": {
-          "kind": "media",
-          "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9"
-        },
-        "detail_secondary": [
-          {
-            "kind": "media",
-            "key": "media:https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl"
-          }
-        ]
-      },
-      "lifecycle": "ACTIVE"
     },
     {
       "category": "music_live",

@@ -1,4 +1,4 @@
-import json, subprocess, tempfile, unittest
+import copy, importlib.util, json, subprocess, sys, tempfile, unittest
 from pathlib import Path
 SCRIPT=Path(__file__).with_name('apply_publication_request.py')
 def article(article_id='a-111111111111111111111111',title='Example',summary='Summary',status='NEW',published='2026-10-24',updated='2026-10-24'):
@@ -9,7 +9,7 @@ def dataset(items=None,as_of='2026-10-23'):
  return {'schema_version':'1','site_name':'DISCOVERY','as_of':as_of,'taxonomy':[{'id':'games','label':'ゲーム'}],'todays_pick':items[0]['id'] if items else None,'articles':list(items or [])}
 class PublisherTests(unittest.TestCase):
  def test_v7_accepted_and_v6_compatible(self):
-  for version in (6,7):
+  for version in (2,3,4,5,6,7):
    item=article(); item['display_selection']['selector_version']=version
    d,_,_=self.run_case(dataset(),request(item)); self.assertEqual(version,d['articles'][0]['display_selection']['selector_version'])
  def test_v7_selector_only_preserves_updated_date(self):
@@ -20,14 +20,19 @@ class PublisherTests(unittest.TestCase):
  def test_v7_rejects_invalid_secondary(self):
   for secondary,primary,error in (([{'kind':'world_card','key':'world_card:x'}],None,'secondary_world'),([{'kind':'image','key':'image:x'}]*2,None,'secondary_duplicate'),([{'kind':'image','key':'image:x'}],{'kind':'image','key':'image:x'},'secondary_duplicate'),([{'kind':'bogus','key':'x'}],None,'detail_secondary_ref_value'),([{'kind':'image','key':''}],None,'detail_secondary_ref_value'),([None],None,'secondary_world'),([{'kind':'image','key':'image:'+str(i)} for i in range(5)],None,'detail_secondary')):
    item=article(); d=item['display_selection']; d['selector_version']=7; d['detail_secondary']=secondary
+   if secondary and secondary[0] and secondary[0]['kind']=='world_card':secondary[0]['key']=item['world_card']['key']
    if primary is not None:d['detail_primary']=primary
    proc=self.run_case(dataset(),request(item),expect_ok=False); self.assertIn(error,proc.stderr)
  def run_case(self,data,req,state=None,expect_ok=True):
   with tempfile.TemporaryDirectory() as td:
    p=Path(td); dp=p/'data.json'; rp=p/'request.json'; sp=p/'state.json'; op=p/'result.json'; dp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n'); rp.write_text(json.dumps(req,ensure_ascii=False))
    if state is not None: sp.write_text(json.dumps(state,sort_keys=True)+'\n')
-   proc=subprocess.run(['python',str(SCRIPT),str(rp),str(dp),str(sp),str(op)],text=True,capture_output=True)
-   if not expect_ok: self.assertNotEqual(proc.returncode,0); return proc
+   before={x:x.read_bytes() for x in (dp,sp) if x.exists()}
+   proc=subprocess.run([sys.executable,str(SCRIPT),str(rp),str(dp),str(sp),str(op)],text=True,capture_output=True)
+   if not expect_ok:
+    self.assertNotEqual(proc.returncode,0)
+    for x,raw in before.items():self.assertEqual(raw,x.read_bytes())
+    self.assertFalse(op.exists()); self.assertEqual(sp in before,sp.exists()); return proc
    self.assertEqual(proc.returncode,0,proc.stderr); return json.loads(dp.read_text()),json.loads(sp.read_text()),json.loads(op.read_text())
  def test_new_then_exact_duplicate_is_no_change(self):
   item=article(); d1,s1,r1=self.run_case(dataset(),request(item)); self.assertTrue(r1['snapshot_changed']); self.assertTrue(r1['receipt_changed']); self.assertEqual(1,s1['sequence']); self.assertNotIn('private_revision',s1)
@@ -56,4 +61,40 @@ class PublisherTests(unittest.TestCase):
  def test_delayed_backlog_refreshes_lifecycle(self):
   delayed=article(); delayed['end_at']='2026-10-23T23:59:59+09:00'; self.assertEqual('ACTIVE',delayed['lifecycle'])
   d,s,r=self.run_case(dataset(),request(delayed)); stored=next(x for x in d['articles'] if x['id']==delayed['id']); self.assertEqual('ENDED',stored['lifecycle']); self.assertEqual('ENDED',stored['lifecycle']); self.assertTrue(r['snapshot_changed'])
+class WorldCardCompatibilityTests(unittest.TestCase):
+ run_case=PublisherTests.run_case
+ def test_opaque_world_identity_retained_for_all_selectors(self):
+  for version in range(2,8):
+   item=article();item['world_card']['key']='world_card:opaque-export-identity'
+   d=item['display_selection'];d['selector_version']=version
+   for k in ('card_primary','detail_primary'):d[k]['key']=item['world_card']['key']
+   after,_,_=self.run_case(dataset(),request(item))
+   self.assertEqual(item['world_card']['key'],after['articles'][0]['world_card']['key'])
+ def test_world_binding_failures_are_zero_write(self):
+  for slot in ('card_primary','detail_primary','detail_secondary'):
+   for version in (2,6,7):
+    item=article();item['display_selection']['selector_version']=version
+    wrong={'kind':'world_card','key':'world_card:unrelated'}
+    item['display_selection'][slot]=[wrong] if slot=='detail_secondary' else wrong
+    self.assertIn('world_card_binding',self.run_case(dataset(),request(item),expect_ok=False).stderr)
+  item=article();del item['world_card']
+  self.assertIn('world_card_binding',self.run_case(dataset(),request(item),expect_ok=False).stderr)
+  item=article();item['world_card']['key']='world_card:changed'
+  self.assertIn('world_card_binding',self.run_case(dataset(),request(item),expect_ok=False).stderr)
+ def test_world_key_shape_and_privacy_fail_closed(self):
+  for key in (None,42,'','other:opaque','world_card:','world_card: '):
+   item=article();item['world_card']['key']=key
+   self.assertIn('world_card',self.run_case(dataset(),request(item),expect_ok=False).stderr)
+  item=article();key='world_card:10_profile/secret';item['world_card']['key']=key
+  for k in ('card_primary','detail_primary'):item['display_selection'][k]['key']=key
+  self.assertIn('privacy_private_path',self.run_case(dataset(),request(item),expect_ok=False).stderr)
+ def test_original_sequence68_request_applies_without_rewriting(self):
+  raw=(SCRIPT.parent/'fixtures/sequence68-request.json').read_bytes();req=json.loads(raw)
+  base=dataset();base['taxonomy']=[{'id':'cross_domain','label':'Cross domain'}]
+  state={'v':1,'sequence':67,'publication_id':'pub-v1-00000067-'+'b'*40,'article_id':'a-'+'b'*24,'ready_root':'b'*40,'article_digest':'1'*64,'dataset_digest':'2'*64}
+  after,receipt,_=self.run_case(base,req,state)
+  self.assertEqual(req['article'],after['articles'][0])
+  for k in ('sequence','publication_id','article_id','ready_root'):self.assertEqual(req[k],receipt[k])
+  self.assertEqual(raw,(SCRIPT.parent/'fixtures/sequence68-request.json').read_bytes())
+
 if __name__=='__main__': unittest.main()
