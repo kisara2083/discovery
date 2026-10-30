@@ -5217,18 +5217,47 @@
       "deadline_at": "2026-10-19T23:59:00+09:00",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-f6496eb4c10c514b08d6d898",
-          "kind": "world_card"
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/4612/2182/4612-2182-0e629c4a2ce34fdc29e8aef5f3c52448-1910x1000.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-f6496eb4c10c514b08d6d898",
-          "kind": "world_card"
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/4612/2182/4612-2182-0e629c4a2ce34fdc29e8aef5f3c52448-1910x1000.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-f6496eb4c10c514b08d6d898",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：Amazonプライム感謝祭2026（10月16〜19日）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://prcdn.freetls.fastly.net/release_image/4612/2182/4612-2182-0e629c4a2ce34fdc29e8aef5f3c52448-1910x1000.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：Amazonプライム感謝祭2026（10月16〜19日）",
+            "source_name": "prtimes.jp",
+            "source_page": "https://prtimes.jp/main/html/rd/p/000002182.000004612.html",
+            "target": "Amazonプライム感謝祭2026（10月16〜19日）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://prtimes.jp/main/html/rd/p/000002182.000004612.html",
+          "url": "https://prcdn.freetls.fastly.net/release_image/4612/2182/4612-2182-0e629c4a2ce34fdc29e8aef5f3c52448-1910x1000.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "price_terms": "Prime会員限定。対象400万点以上。ポイント施策はエントリーや購入額など個別条件あり。Amazonふるさと納税では9月24日〜10月19日の4週企画も実施。",
       "public_summary": "Amazon Japanが9月28日に追加情報を発表。本番は10月16〜19日、先行セールは10月13〜15日で、対象は400万点以上。16〜19日はBRAUN・Dyson・Boseなどの対象商品が毎日入れ替わる「厳選日替わりセール」を実施し、対象品は当日発表される。",
@@ -5263,7 +5292,8 @@
         "meta": "",
         "title": "Amazonプライム感謝祭2026 — 日替わりセール・4週キャンペーンを追加発表",
         "variant": "orbit"
-      }
+      },
+      "media": []
     },
     {
       "category": "games",
