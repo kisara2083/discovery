@@ -5004,18 +5004,47 @@
       "category": "local_family",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-7d5d68f7aa7a73c8a9346563",
-          "kind": "world_card"
+          "key": "image:https://www.toyota-machinaka.com/upload/events/large/6532957196aae61e644e68.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-7d5d68f7aa7a73c8a9346563",
-          "kind": "world_card"
+          "key": "image:https://www.toyota-machinaka.com/upload/events/large/6532957196aae61e644e68.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-7d5d68f7aa7a73c8a9346563",
-      "images": [],
+      "images": [
+        {
+          "caption": "開催概要：とよたまちなかフェス（2026年・全体案内）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.toyota-machinaka.com/upload/events/large/6532957196aae61e644e68.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う開催概要を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_overview",
+            "role_label": "開催概要：とよたまちなかフェス（2026年・全体案内）",
+            "source_name": "www.toyota-machinaka.com",
+            "source_page": "https://www.toyota-machinaka.com/event/detail/445/",
+            "target": "とよたまちなかフェス（2026年・全体案内）"
+          },
+          "relation": "official_entity",
+          "source_page": "https://www.toyota-machinaka.com/event/detail/445/",
+          "url": "https://www.toyota-machinaka.com/upload/events/large/6532957196aae61e644e68.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_overview"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "入場条件は日別企画による。屋外企画は天候変更に注意。",
       "public_summary": "豊田市駅東口で10月24日までの土日祝を中心に、アジアのグルメ、音楽・伝統文化ステージ、競技体験などを日替わり開催。",
@@ -5043,7 +5072,8 @@
         "meta": "名鉄豊田市駅東口特設イベント広場",
         "title": "アジアを味わえ！とよたまちなかフェス",
         "variant": "grid"
-      }
+      },
+      "media": []
     },
     {
       "category": "local_family",
