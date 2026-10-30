@@ -633,18 +633,52 @@
       "category": "film_streaming",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w",
-          "kind": "media"
+          "key": "image:https://assets.aboutamazon.com/dims4/default/04b10e3/2147483647/strip/true/crop/1110x743+0+0/resize/1110x743!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F36%2F5a%2Fa46b22104c3287b4d1721d8d5700%2Fprime-video-2026-october-exit8.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w",
-          "kind": "media"
+          "key": "image:https://assets.aboutamazon.com/dims4/default/04b10e3/2147483647/strip/true/crop/1110x743+0+0/resize/1110x743!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F36%2F5a%2Fa46b22104c3287b4d1721d8d5700%2Fprime-video-2026-october-exit8.jpg",
+          "kind": "image"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 7
       },
       "id": "a-c79abd6fce19922533af23d3",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：映画『8番出口』",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://assets.aboutamazon.com/dims4/default/04b10e3/2147483647/strip/true/crop/1110x743+0+0/resize/1110x743!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F36%2F5a%2Fa46b22104c3287b4d1721d8d5700%2Fprime-video-2026-october-exit8.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：映画『8番出口』",
+            "source_name": "About Amazon Japan",
+            "source_page": "https://www.aboutamazon.jp/news/entertainment/amazon-prime-video-new-content-october-2026",
+            "target": "映画『8番出口』"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.aboutamazon.jp/news/entertainment/amazon-prime-video-new-content-october-2026",
+          "url": "https://assets.aboutamazon.com/dims4/default/04b10e3/2147483647/strip/true/crop/1110x743+0+0/resize/1110x743!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F36%2F5a%2Fa46b22104c3287b4d1721d8d5700%2Fprime-video-2026-october-exit8.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
