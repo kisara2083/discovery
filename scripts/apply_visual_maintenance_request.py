@@ -76,7 +76,7 @@ def validate_public_provenance(value,label):
         if type(value[key]) is not bool: fail(label+"_value")
 
 def validate_public_quote(value,image):
-    exact(value,PUBLIC_QUOTE_KEYS,PUBLIC_QUOTE_KEYS,"public_quote")
+    exact(value,PUBLIC_QUOTE_KEYS|{"copyright_notice"},PUBLIC_QUOTE_KEYS,"public_quote")
     if value["quote_version"]!=2: fail("public_quote_version")
     for key in ("relation","target","source_name","source_page","role_label","context_sentence"):
         if not isinstance(value[key],str) or not value[key].strip(): fail("public_quote_value")
@@ -85,8 +85,24 @@ def validate_public_quote(value,image):
         fail("public_quote_display_mode")
     if value["source_page"]!=image.get("source_page"):
         fail("public_quote_source_binding")
+    if "copyright_notice" in value:
+        notice=value["copyright_notice"]
+        keys={"text","source_page","official_source","rights_holder_verified"}
+        exact(notice,keys,keys,"public_quote_copyright")
+        if notice["official_source"] is not True or notice["rights_holder_verified"] is not True or notice["source_page"]!=value["source_page"]:
+            fail("public_quote_copyright_evidence")
+        text=notice["text"]
+        if not isinstance(text,str) or not text.strip() or len(text)>240 or any(c in text for c in "<>\n\r"):
+            fail("public_quote_copyright_text")
 
 def validate_visual_payload(current,replacement,repo_root):
+    # A retained image must not lose or rewrite an already confirmed notice.
+    # New notices use the same narrow evidence contract as quotation v2 export.
+    existing_notices={str(i.get("original_url") or i.get("url","")):(i.get("quote_context") or {}).get("copyright_notice") for i in current.get("images",[])}
+    for image in replacement.get("images",[]):
+        notice=existing_notices.get(str(image.get("original_url") or image.get("url","")))
+        if notice is not None and (image.get("quote_context") or {}).get("copyright_notice")!=notice:
+            fail("public_quote_copyright_drift")
     current_world=current.get("world_card")
     replacement_world=replacement.get("world_card")
     if not isinstance(current_world,dict) or not isinstance(replacement_world,dict):

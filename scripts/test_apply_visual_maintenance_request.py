@@ -32,6 +32,43 @@ def quoted_image():
  return {'url':'https://example.com/image.jpg','source_page':'https://example.com/source','relation':'article_specific','caption':'対象作品：Example','mode':'external','framing':'contain','visual_role':'work_identity','visual_provenance':{'relation':'article_specific','official_source':True,'source_revalidated':True,'article_match':True,'entity_match':True,'authority_class':'official_article'},'quote_context':{'quote_version':2,'relation':'work_identity','target':'Example','source_name':'Official source','source_page':'https://example.com/source','display_mode':'external','role_label':'対象作品：Example','context_sentence':'記事で扱う対象作品を識別するための画像です。'}}
 
 class VisualMaintenanceTests(unittest.TestCase):
+ def notice_visual(self,a):
+  v=visual(a); img=quoted_image()
+  img['quote_context']['copyright_notice']={'text':'©篠田岬輝','source_page':img['source_page'],'official_source':True,'rights_holder_verified':True}
+  v['images']=[img]; ref={'kind':'image','key':'image:'+img['url']}
+  v['display_selection']['card_primary']=copy.deepcopy(ref); v['display_selection']['detail_primary']=copy.deepcopy(ref)
+  return v
+
+ def test_confirmed_notice_preserved_with_nonvisual_fields_and_normal_state(self):
+  a=article(); v=self.notice_visual(a); req=request(a,v)
+  d,_,_,pub=self.run_case(dataset([a]),req)
+  actual=d['articles'][0]
+  self.assertEqual(v['images'][0]['quote_context']['copyright_notice'],actual['images'][0]['quote_context']['copyright_notice'])
+  self.assertEqual({k:x for k,x in a.items() if k not in vm.VISUAL_KEYS},{k:x for k,x in actual.items() if k not in vm.VISUAL_KEYS})
+  self.assertEqual('sentinel-publication-state\n',pub)
+
+ def test_unconfirmed_or_mismatched_notice_rejected_zero_write(self):
+  for field,value in [('official_source',False),('rights_holder_verified',False),('source_page','https://example.com/other'),('text','©wrong\nmarkup'),('reviewer','private')]:
+   with self.subTest(field=field):
+    a=article();v=self.notice_visual(a);v['images'][0]['quote_context']['copyright_notice'][field]=value
+    p=self.run_case(dataset([a]),request(a,v),expect_ok=False)
+    self.assertIn('public_quote_copyright',p.stderr)
+
+ def test_existing_confirmed_notice_cannot_be_rewritten_or_dropped(self):
+  for drop in (False,True):
+   with self.subTest(drop=drop):
+    a=article();a.update(self.notice_visual(a));v=visual(a)
+    if drop:v['images'][0]['quote_context'].pop('copyright_notice')
+    else:v['images'][0]['quote_context']['copyright_notice']['text']='©Another holder'
+    p=self.run_case(dataset([a]),request(a,v),expect_ok=False)
+    self.assertIn('public_quote_copyright_drift',p.stderr)
+
+ def test_notice_tamper_after_request_binding_rejected_zero_write(self):
+  a=article();req=request(a,self.notice_visual(a))
+  req['visual']['images'][0]['quote_context']['copyright_notice']['text']='©Another holder'
+  p=self.run_case(dataset([a]),req,expect_ok=False)
+  self.assertIn('maintenance_id_binding',p.stderr)
+
  def run_case(self,data,req,state=None,publication_state='sentinel-publication-state\n',expect_ok=True,assets=None):
   with tempfile.TemporaryDirectory() as td:
    p=Path(td); dp=p/'data'/'public-data.json'; rp=p/'request.json'; sp=p/'visual-maintenance-state.json'; op=p/'result.json'; pp=p/'publication-state.json'
