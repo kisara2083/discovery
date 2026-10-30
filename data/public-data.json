@@ -130,18 +130,47 @@
       "deadline_at": "2026-11-01T14:59:00Z",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-807738bee160d49caae634c3",
-          "kind": "world_card"
+          "key": "image:https://cdn.fujirockfestival.com/smash/artist/CDnA1GXBmK2ISLah5FoXpqgkvvlyeQ8KQwrY7cKz.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-807738bee160d49caae634c3",
-          "kind": "world_card"
+          "key": "image:https://cdn.fujirockfestival.com/smash/artist/CDnA1GXBmK2ISLah5FoXpqgkvvlyeQ8KQwrY7cKz.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
         "selector_version": 7
       },
       "id": "a-21e41bf05c6acaaec57047d8",
-      "images": [],
+      "images": [
+        {
+          "caption": "出演アーティスト：WESTSIDE COWBOY",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://cdn.fujirockfestival.com/smash/artist/CDnA1GXBmK2ISLah5FoXpqgkvvlyeQ8KQwrY7cKz.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う出演アーティストを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "performer_identity",
+            "role_label": "出演アーティスト：WESTSIDE COWBOY",
+            "source_name": "www.smash-jpn.com",
+            "source_page": "https://www.smash-jpn.com/live/?id=4795",
+            "target": "WESTSIDE COWBOY"
+          },
+          "relation": "official_entity",
+          "source_page": "https://www.smash-jpn.com/live/?id=4795",
+          "url": "https://cdn.fujirockfestival.com/smash/artist/CDnA1GXBmK2ISLah5FoXpqgkvvlyeQ8KQwrY7cKz.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "visual_role": "performer_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "スタンディング前売り7,500円、別途ドリンク代。",
       "public_summary": "UKマンチェスターの新人バンドが、デビュー作『It Goes On』を伴う初来日公演を2027年3月4日に開催。アメリカーナの土着性とUKインディの焦燥感を合わせたバンドで、オフィシャル先行は11月1日まで。",
@@ -164,7 +193,8 @@
         "meta": "",
         "title": "WESTSIDE COWBOY 初来日公演",
         "variant": "signal"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
