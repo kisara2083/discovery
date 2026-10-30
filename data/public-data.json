@@ -779,18 +779,47 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-bef4ea91b9dc638763bd0e7f",
-          "kind": "world_card"
+          "key": "image:https://m.media-amazon.com/images/S/pv-target-images/79696ed3ddf9ffa47a00825277060d73512de691887f81c4d99cb6dffb4c6d74._SX1080_FMjpg_.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-bef4ea91b9dc638763bd0e7f",
-          "kind": "world_card"
+          "key": "image:https://m.media-amazon.com/images/S/pv-target-images/79696ed3ddf9ffa47a00825277060d73512de691887f81c4d99cb6dffb4c6d74._SX1080_FMjpg_.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
         "selector_version": 7
       },
       "id": "a-3e2ca912689a3725746b5e92",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：ザ・ブライド！",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://m.media-amazon.com/images/S/pv-target-images/79696ed3ddf9ffa47a00825277060d73512de691887f81c4d99cb6dffb4c6d74._SX1080_FMjpg_.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：ザ・ブライド！",
+            "source_name": "www.primevideo.com",
+            "source_page": "https://www.primevideo.com/-/ja/detail/0O0SJTA5QK29NUMHXURKJGF4FT?tr=jp",
+            "target": "ザ・ブライド！"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.primevideo.com/-/ja/detail/0O0SJTA5QK29NUMHXURKJGF4FT?tr=jp",
+          "url": "https://m.media-amazon.com/images/S/pv-target-images/79696ed3ddf9ffa47a00825277060d73512de691887f81c4d99cb6dffb4c6d74._SX1080_FMjpg_.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "public_summary": "孤独なフランケンシュタインのため蘇生された花嫁が、殺人や社会現象を巻き起こす2時間6分のダークな再解釈。",
       "published_date": "2026-10-27",
@@ -812,7 +841,8 @@
         "meta": "",
         "title": "ザ・ブライド！ — 1930年代シカゴの怪物ロマンス",
         "variant": "orbit"
-      }
+      },
+      "media": []
     },
     {
       "category": "film_streaming",
