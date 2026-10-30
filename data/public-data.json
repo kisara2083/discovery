@@ -318,19 +318,48 @@
       "deadline_at": "2026-10-07",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-bf0f944c0630fc89e8180cbe",
-          "kind": "world_card"
+          "key": "image:https://dvs-cover.kodansha.co.jp/0000415351/LgxegsCfA3Xk4KIz5FbeX7rNJQHDIYowAig7AyEF.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-bf0f944c0630fc89e8180cbe",
-          "kind": "world_card"
+          "key": "image:https://dvs-cover.kodansha.co.jp/0000415351/LgxegsCfA3Xk4KIz5FbeX7rNJQHDIYowAig7AyEF.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2026-10-07T23:59:59+09:00",
       "id": "a-bf0f944c0630fc89e8180cbe",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：物語化批判の哲学〈わたしの人生〉を遊びなおすために",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://dvs-cover.kodansha.co.jp/0000415351/LgxegsCfA3Xk4KIz5FbeX7rNJQHDIYowAig7AyEF.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：物語化批判の哲学〈わたしの人生〉を遊びなおすために",
+            "source_name": "講談社",
+            "source_page": "https://www.kodansha.co.jp/book/products/0000415351",
+            "target": "物語化批判の哲学〈わたしの人生〉を遊びなおすために"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.kodansha.co.jp/book/products/0000415351",
+          "url": "https://dvs-cover.kodansha.co.jp/0000415351/LgxegsCfA3Xk4KIz5FbeX7rNJQHDIYowAig7AyEF.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "note": "499円セールは10月7日まで。販売価格は変動し得るため購入画面で確認。",
       "price_terms": "Kindle 499円均一セール対象として10月7日まで掲載。通常紙版定価1,056円。購入時にKindle価格を再確認。",
@@ -372,7 +401,8 @@
         "meta": "",
         "title": "『物語化批判の哲学』：本日までKindle 499円",
         "variant": "field"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
