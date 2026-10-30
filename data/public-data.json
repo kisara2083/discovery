@@ -1870,20 +1870,54 @@
       "city": "愛知県弥富市",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
-          "kind": "media"
+          "key": "image:https://yatomi-pjt.jp/tomihama_fes/imgs/kv_pc2.svg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
-          "kind": "media"
+          "key": "image:https://yatomi-pjt.jp/tomihama_fes/imgs/kv_pc2.svg",
+          "kind": "image"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 7
       },
       "end_at": "2026-11-15T23:59:59+09:00",
       "event_date": "2026-11-14",
       "id": "a-18925d143a8764eec4e87c2d",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：TOMIHAMA FES 2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://yatomi-pjt.jp/tomihama_fes/imgs/kv_pc2.svg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：TOMIHAMA FES 2026",
+            "source_name": "TOMIHAMA FES",
+            "source_page": "https://yatomi-pjt.jp/tomihama_fes/",
+            "target": "TOMIHAMA FES 2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://yatomi-pjt.jp/tomihama_fes/",
+          "url": "https://yatomi-pjt.jp/tomihama_fes/imgs/kv_pc2.svg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
