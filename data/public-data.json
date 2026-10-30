@@ -2320,15 +2320,20 @@
       "category": "food_drink",
       "display_selection": {
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "key": "image:https://www.snowpeak.co.jp/news/wp-content/uploads/2026/09/info_202609_takibiokibiwhisky.jpg",
           "kind": "image"
         },
         "detail_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "key": "image:https://www.snowpeak.co.jp/news/wp-content/uploads/2026/09/info_202609_takibiokibiwhisky.jpg",
           "kind": "image"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 7
       },
       "id": "a-047f457703c08d1b21bdb4f7",
       "images": [
@@ -2357,6 +2362,34 @@
             "relation": "reference_same_entity",
             "source_revalidated": true
           }
+        },
+        {
+          "caption": "対象商品：TAKIBI / OKIBI",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.snowpeak.co.jp/news/wp-content/uploads/2026/09/info_202609_takibiokibiwhisky.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象商品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "product_identity",
+            "role_label": "対象商品：TAKIBI / OKIBI",
+            "source_name": "Snow Peak",
+            "source_page": "https://www.snowpeak.co.jp/news/p20260928/",
+            "target": "TAKIBI / OKIBI"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.snowpeak.co.jp/news/p20260928/",
+          "url": "https://www.snowpeak.co.jp/news/wp-content/uploads/2026/09/info_202609_takibiokibiwhisky.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "product_identity"
         }
       ],
       "lifecycle": "ACTIVE",
@@ -2388,7 +2421,8 @@
         "meta": "",
         "title": "長濱蒸溜所 × Snow Peak「TAKIBI / OKIBI」— 10/3数量限定発売",
         "variant": "signal"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
