@@ -6453,18 +6453,47 @@
       "deadline_at": "2026-09-29",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-0bc5fc2167a141be1439b2f6",
-          "kind": "world_card"
+          "key": "image:https://shogakukan-comic.jp/book-images/w400/books/9784098611072.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-0bc5fc2167a141be1439b2f6",
-          "kind": "world_card"
+          "key": "image:https://shogakukan-comic.jp/book-images/w400/books/9784098611072.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-0bc5fc2167a141be1439b2f6",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：スノウボールアース 第1巻（1〜11巻記事のシリーズ識別）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://shogakukan-comic.jp/book-images/w400/books/9784098611072.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：スノウボールアース 第1巻（1〜11巻記事のシリーズ識別）",
+            "source_name": "shogakukan-comic.jp",
+            "source_page": "https://shogakukan-comic.jp/book?isbn=9784098611072",
+            "target": "スノウボールアース 第1巻（1〜11巻記事のシリーズ識別）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://shogakukan-comic.jp/book?isbn=9784098611072",
+          "url": "https://shogakukan-comic.jp/book-images/w400/books/9784098611072.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "price_terms": "1〜11巻 各100円（通常770円の巻は約87%OFFとの観測）。",
       "public_summary": "凍結した地球、巨大ロボット、宇宙怪獣を扱うSF漫画。9月29日まで1〜11巻が各100円との当日更新情報。",
@@ -6491,7 +6520,8 @@
         "meta": "",
         "title": "『スノウボールアース』1〜11巻 各100円",
         "variant": "field"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
