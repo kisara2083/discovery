@@ -1783,19 +1783,48 @@
       "deadline_at": "2026-10-08T23:59:59+09:00",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-7245382ffb18e02fc4a11de4",
-          "kind": "world_card"
+          "key": "image:https://cdn.kdkw.jp/cover_b/322509/322509001231.webp",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-7245382ffb18e02fc4a11de4",
-          "kind": "world_card"
+          "key": "image:https://cdn.kdkw.jp/cover_b/322509/322509001231.webp",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2026-10-08T23:59:59+09:00",
       "id": "a-7245382ffb18e02fc4a11de4",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：銀河特急 ミルキー☆サブウェイ 第1巻",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://cdn.kdkw.jp/cover_b/322509/322509001231.webp",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：銀河特急 ミルキー☆サブウェイ 第1巻",
+            "source_name": "www.kadokawa.co.jp",
+            "source_page": "https://www.kadokawa.co.jp/product/322509001232/",
+            "target": "銀河特急 ミルキー☆サブウェイ 第1巻"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.kadokawa.co.jp/product/322509001232/",
+          "url": "https://cdn.kdkw.jp/cover_b/322509/322509001231.webp",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "note": "対象巻・価格はKindle商品画面で確認。セール掲載は報道で確認し、販売画面の価格は未確認。",
       "price_terms": "個別巻の現在価格は未確認。紙版定価836円とKindle販売価格を混同しない。",
@@ -1833,7 +1862,8 @@
         "meta": "",
         "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
         "variant": "orbit"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
