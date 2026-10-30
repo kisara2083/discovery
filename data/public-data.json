@@ -6044,8 +6044,8 @@
       "category": "games",
       "display_selection": {
         "card_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "kind": "image"
+          "key": "media:https://www.youtube.com/watch?v=G8Nqyt88CrA",
+          "kind": "media"
         },
         "detail_primary": {
           "key": "media:https://www.youtube.com/watch?v=G8Nqyt88CrA",
@@ -6057,7 +6057,7 @@
             "kind": "image"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-dcba414cdca0fba5e21ffb28",
       "images": [
