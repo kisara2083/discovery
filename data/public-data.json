@@ -126,6 +126,47 @@
       }
     },
     {
+      "category": "music_live",
+      "deadline_at": "2026-11-01T14:59:00Z",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-807738bee160d49caae634c3",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-807738bee160d49caae634c3",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-21e41bf05c6acaaec57047d8",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "スタンディング前売り7,500円、別途ドリンク代。",
+      "public_summary": "UKマンチェスターの新人バンドが、デビュー作『It Goes On』を伴う初来日公演を2027年3月4日に開催。アメリカーナの土着性とUKインディの焦燥感を合わせたバンドで、オフィシャル先行は11月1日まで。",
+      "published_date": "2026-10-23",
+      "slug": "a-21e41bf05c6acaaec57047d8",
+      "sources": [
+        {
+          "name": "www.smash-jpn.com",
+          "url": "https://www.smash-jpn.com/live/?id=4795"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "WESTSIDE COWBOY 初来日公演",
+      "updated_date": "2026-10-30",
+      "world_card": {
+        "concept": "UKマンチェスターの新人バンドが、デビュー作『It Goes On』を伴う初来日公演を2027年3月4日に開催。アメリカーナの土着性とUKインディの焦燥感を合わせたバンドで、オフィシャル先行は11月1日まで。",
+        "key": "world_card:a-807738bee160d49caae634c3",
+        "kicker": "MUSIC / LIVE",
+        "meta": "",
+        "title": "WESTSIDE COWBOY 初来日公演",
+        "variant": "signal"
+      }
+    },
+    {
       "category": "shopping",
       "deadline_at": "2026-10-04",
       "display_selection": {
