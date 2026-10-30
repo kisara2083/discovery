@@ -4483,18 +4483,47 @@
       "category": "local_family",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-483c54bc23908a5dbbb0f1d5",
-          "kind": "world_card"
+          "key": "image:https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/052/683/kodomobanpaku-mini.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-483c54bc23908a5dbbb0f1d5",
-          "kind": "world_card"
+          "key": "image:https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/052/683/kodomobanpaku-mini.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-483c54bc23908a5dbbb0f1d5",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：こども万博 mini 名古屋（2026年10月2〜4日）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/052/683/kodomobanpaku-mini.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：こども万博 mini 名古屋（2026年10月2〜4日）",
+            "source_name": "www.city.nagoya.jp",
+            "source_page": "https://www.city.nagoya.jp/kodomo/wakamono/1017035/1017060/1052683.html",
+            "target": "こども万博 mini 名古屋（2026年10月2〜4日）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.city.nagoya.jp/kodomo/wakamono/1017035/1017060/1052683.html",
+          "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/052/683/kodomobanpaku-mini.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "入場無料。",
       "public_summary": "10月2〜4日、西区で開催。子ども店長体験、縁日など、子どもが自分で挑戦する入場無料イベント。",
@@ -4517,7 +4546,8 @@
         "meta": "",
         "title": "こども万博 mini 名古屋",
         "variant": "signal"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
