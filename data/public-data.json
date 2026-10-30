@@ -6105,8 +6105,8 @@
       "category": "games",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=e1_eZyFM5-4",
-          "kind": "media"
+          "key": "image:https://cdn1.epicgames.com/spt-assets/c24dd5ab6e484bf08eb44c7a98f81fd1/control-resonant-1vsfi.png",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://www.youtube.com/watch?v=e1_eZyFM5-4",
@@ -6114,14 +6114,47 @@
         },
         "detail_secondary": [
           {
+            "key": "image:https://cdn1.epicgames.com/spt-assets/c24dd5ab6e484bf08eb44c7a98f81fd1/control-resonant-1vsfi.png",
+            "kind": "image"
+          },
+          {
             "key": "media:https://store.steampowered.com/app/3669870/",
             "kind": "media"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-9c591dacf25fa1afa6d6bc2d",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：CONTROL Resonant",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://cdn1.epicgames.com/spt-assets/c24dd5ab6e484bf08eb44c7a98f81fd1/control-resonant-1vsfi.png",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：CONTROL Resonant",
+            "source_name": "store.epicgames.com",
+            "source_page": "https://store.epicgames.com/pt/p/control-resonant-3568d3",
+            "target": "CONTROL Resonant"
+          },
+          "relation": "article_specific",
+          "source_page": "https://store.epicgames.com/pt/p/control-resonant-3568d3",
+          "url": "https://cdn1.epicgames.com/spt-assets/c24dd5ab6e484bf08eb44c7a98f81fd1/control-resonant-1vsfi.png",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
