@@ -89,19 +89,47 @@
     {
       "category": "games",
       "display_selection": {
+        "selector_version": 7,
         "card_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/ylK8ZGnV.png"
         },
         "detail_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/ylK8ZGnV.png"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-6b2410cf19c11c79326fea09",
       "images": [
+        {
+          "relation": "article_specific",
+          "caption": "対象イベント：生息演算「新たな礎」",
+          "framing": "contain",
+          "visual_role": "event_identity",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/ylK8ZGnV.png",
+          "original_url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/ylK8ZGnV.png",
+          "source_page": "https://arknights.jp/news/4977",
+          "mode": "external",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "event_identity",
+            "target": "生息演算「新たな礎」",
+            "source_name": "アークナイツ公式（Arknights Operations Team）",
+            "source_page": "https://arknights.jp/news/4977",
+            "display_mode": "external",
+            "role_label": "対象イベント：生息演算「新たな礎」",
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。"
+          }
+        },
         {
           "caption": "対象作品：アークナイツ（同一作品ファンキット参考画像）",
           "framing": "contain",
