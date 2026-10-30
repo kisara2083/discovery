@@ -4271,23 +4271,56 @@
       "category": "music_live",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ",
-          "kind": "media"
+          "key": "image:https://ambience.jp/wp-content/uploads/2026/09/ds-flyer.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ",
-          "kind": "media"
+          "key": "image:https://ambience.jp/wp-content/uploads/2026/09/ds-flyer.jpg",
+          "kind": "image"
         },
         "detail_secondary": [
+          {
+            "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ",
+            "kind": "media"
+          },
           {
             "key": "media:https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY",
             "kind": "media"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-3e3cdf1b4dee90a128396a7e",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：digital shadows — VAIWATT World Tour 2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://ambience.jp/wp-content/uploads/2026/09/ds-flyer.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：digital shadows — VAIWATT World Tour 2026",
+            "source_name": "ambience.jp",
+            "source_page": "https://ambience.jp/event/digital-shadows/",
+            "target": "digital shadows — VAIWATT World Tour 2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://ambience.jp/event/digital-shadows/",
+          "url": "https://ambience.jp/wp-content/uploads/2026/09/ds-flyer.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
