@@ -1255,20 +1255,24 @@
       "deadline_at": "2026-10-12T23:59:00+09:00",
       "display_selection": {
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "key": "image:https://fontainesdc.com/cdn/shop/files/jap-aus-nz-horizontal-web.png?v=1790690423&width=3840",
           "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
-          "kind": "media"
+          "key": "image:https://fontainesdc.com/cdn/shop/files/jap-aus-nz-horizontal-web.png?v=1790690423&width=3840",
+          "kind": "image"
         },
         "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
+            "kind": "media"
+          },
           {
             "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "kind": "image"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "event_date": "2027-01-29",
       "id": "a-14634d00af2d55edb8b71747",
@@ -1298,6 +1302,34 @@
             "relation": "reference_same_entity",
             "source_revalidated": true
           }
+        },
+        {
+          "caption": "対象イベント：Fontaines D.C. Japan Australia New Zealand 2027",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://fontainesdc.com/cdn/shop/files/jap-aus-nz-horizontal-web.png?v=1790690423&width=3840",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：Fontaines D.C. Japan Australia New Zealand 2027",
+            "source_name": "Fontaines D.C.",
+            "source_page": "https://fontainesdc.com/pages/live-japan-australia-new-zealand-2027",
+            "target": "Fontaines D.C. Japan Australia New Zealand 2027"
+          },
+          "relation": "article_specific",
+          "source_page": "https://fontainesdc.com/pages/live-japan-australia-new-zealand-2027",
+          "url": "https://fontainesdc.com/cdn/shop/files/jap-aus-nz-horizontal-web.png?v=1790690423&width=3840",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
         }
       ],
       "lifecycle": "ENDED",
