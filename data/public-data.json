@@ -5149,18 +5149,53 @@
       "category": "local_family",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-678ab5f9a35dc5113e312a83",
-          "kind": "world_card"
+          "key": "image:https://www.fujifilm.co.jp/photosalon/pack/images/2608/o26082801_01.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-678ab5f9a35dc5113e312a83",
-          "kind": "world_card"
+          "key": "image:https://www.fujifilm.co.jp/photosalon/pack/images/2608/o26082801_01.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-678ab5f9a35dc5113e312a83",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：篠田岬輝写真展 with ペンギンたちの生きる島",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.fujifilm.co.jp/photosalon/pack/images/2608/o26082801_01.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "copyright_notice": {
+              "official_source": true,
+              "rights_holder_verified": true,
+              "source_page": "https://www.fujifilm.co.jp/photosalon/nagoya/26100201.html",
+              "text": "©篠田岬輝"
+            },
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：篠田岬輝写真展 with ペンギンたちの生きる島",
+            "source_name": "富士フイルムフォトサロン",
+            "source_page": "https://www.fujifilm.co.jp/photosalon/nagoya/26100201.html",
+            "target": "篠田岬輝写真展 with ペンギンたちの生きる島"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.fujifilm.co.jp/photosalon/nagoya/26100201.html",
+          "url": "https://www.fujifilm.co.jp/photosalon/pack/images/2608/o26082801_01.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "public_summary": "10月2〜8日、名古屋市中区。フォークランド諸島のキング、ジェンツー、マゼラン、ミナミイワトビの4種を時間の流れに沿って紹介。",
       "published_date": "2026-09-29",
@@ -5187,7 +5222,8 @@
         "meta": "富士フイルムフォトサロン 名古屋",
         "title": "写真展『with ペンギンたちの生きる島』",
         "variant": "field"
-      }
+      },
+      "media": []
     },
     {
       "category": "local_family",
