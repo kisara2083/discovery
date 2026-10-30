@@ -96,7 +96,9 @@ def validate_visual_payload(current,replacement,repo_root):
     if any(replacement_world.get(k)!=current_world.get(k) for k in WORLD_IMMUTABLE_KEYS):
         fail("world_card_nonvisual_drift")
 
-    image_keys={"image:"+str(i.get("url","")) for i in replacement.get("images",[])}
+    # Match canonical selector/renderer identity for an already-saved image;
+    # its transport URL remains content-addressed and is hash-checked below.
+    image_keys={"image:"+str(i.get("original_url") or i.get("url","")) for i in replacement.get("images",[])}
     media_keys={"media:"+str(m.get("canonical_url","")) for m in replacement.get("media",[])}
     if len(image_keys)!=len(replacement.get("images",[])) or len(media_keys)!=len(replacement.get("media",[])):
         fail("visual_candidate_duplicate")
