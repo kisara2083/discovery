@@ -1191,18 +1191,52 @@
       "deadline_at": "2026-10-15",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=rxFve1J4uW8",
-          "kind": "media"
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/128734/434/128734-434-18c1c17c5d170a802abb8e6bc5d25978-1000x1422.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://www.youtube.com/watch?v=rxFve1J4uW8",
           "kind": "media"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "image:https://prcdn.freetls.fastly.net/release_image/128734/434/128734-434-18c1c17c5d170a802abb8e6bc5d25978-1000x1422.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 7
       },
       "id": "a-94ea44aa2f36a9e3ed6a8821",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：黒執事（シリーズ作品識別）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://prcdn.freetls.fastly.net/release_image/128734/434/128734-434-18c1c17c5d170a802abb8e6bc5d25978-1000x1422.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：黒執事（シリーズ作品識別）",
+            "source_name": "prtimes.jp",
+            "source_page": "https://prtimes.jp/main/html/rd/p/000000434.000128734.html",
+            "target": "黒執事（シリーズ作品識別）"
+          },
+          "relation": "official_entity",
+          "source_page": "https://prtimes.jp/main/html/rd/p/000000434.000128734.html",
+          "url": "https://prcdn.freetls.fastly.net/release_image/128734/434/128734-434-18c1c17c5d170a802abb8e6bc5d25978-1000x1422.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "media": [
         {
