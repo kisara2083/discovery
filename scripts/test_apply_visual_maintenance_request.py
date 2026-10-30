@@ -32,9 +32,12 @@ def quoted_image():
  return {'url':'https://example.com/image.jpg','source_page':'https://example.com/source','relation':'article_specific','caption':'対象作品：Example','mode':'external','framing':'contain','visual_role':'work_identity','visual_provenance':{'relation':'article_specific','official_source':True,'source_revalidated':True,'article_match':True,'entity_match':True,'authority_class':'official_article'},'quote_context':{'quote_version':2,'relation':'work_identity','target':'Example','source_name':'Official source','source_page':'https://example.com/source','display_mode':'external','role_label':'対象作品：Example','context_sentence':'記事で扱う対象作品を識別するための画像です。'}}
 
 class VisualMaintenanceTests(unittest.TestCase):
- def run_case(self,data,req,state=None,publication_state='sentinel-publication-state\n',expect_ok=True):
+ def run_case(self,data,req,state=None,publication_state='sentinel-publication-state\n',expect_ok=True,assets=None):
   with tempfile.TemporaryDirectory() as td:
-   p=Path(td); dp=p/'public-data.json'; rp=p/'request.json'; sp=p/'visual-maintenance-state.json'; op=p/'result.json'; pp=p/'publication-state.json'
+   p=Path(td); dp=p/'data'/'public-data.json'; rp=p/'request.json'; sp=p/'visual-maintenance-state.json'; op=p/'result.json'; pp=p/'publication-state.json'
+   dp.parent.mkdir()
+   for name,raw in (assets or {}).items():
+    asset=p/name; asset.parent.mkdir(parents=True,exist_ok=True); asset.write_bytes(raw)
    dp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); rp.write_text(json.dumps(req,ensure_ascii=False),encoding='utf-8'); pp.write_text(publication_state,encoding='utf-8')
    if state is not None: sp.write_text(json.dumps(state,sort_keys=True)+'\n',encoding='utf-8')
    before_pub=pp.read_bytes(); before_data=dp.read_bytes(); before_state=sp.read_bytes() if sp.exists() else None
@@ -51,7 +54,12 @@ class VisualMaintenanceTests(unittest.TestCase):
 
  def test_public_quote_projection_is_accepted(self):
   a=article(); v=visual(a); img=quoted_image(); v['images']=[img]; key='image:'+img['url']; v['display_selection']['card_primary']={'kind':'image','key':key}; v['display_selection']['detail_primary']={'kind':'image','key':key}; req=request(a,v)
-  d,_,_,_=self.run_case(dataset([a]),req); stored=d['articles'][0]['images'][0]; self.assertEqual(2,stored['quote_context']['quote_version']); self.assertNotIn('review',stored['quote_context'])
+  # Preserve an existing saved reference beside the newly quoted image. Both
+  # renderer and canonical selector identify saved images by original_url.
+  raw=b'existing saved fixture bytes'; asset='assets/images/'+hashlib.sha256(raw).hexdigest()+'.jpg'
+  saved={'url':asset,'original_url':'https://example.com/reference.jpg','source_page':'https://example.com/source','relation':'reference_same_entity','caption':'Existing reference','mode':'saved'}
+  a['images']=[copy.deepcopy(saved)]; v['images'].append(saved); v['display_selection']['detail_secondary']=[{'kind':'image','key':'image:'+saved['original_url']}]; req=request(a,v)
+  d,_,_,_=self.run_case(dataset([a]),req,assets={asset:raw}); stored=d['articles'][0]['images'][0]; self.assertEqual(2,stored['quote_context']['quote_version']); self.assertNotIn('review',stored['quote_context']); self.assertEqual(saved,d['articles'][0]['images'][1])
 
  def test_private_quote_review_metadata_is_rejected_zero_write(self):
   a=article(); v=visual(a); img=quoted_image(); img['quote_context']['review']={'reviewer':'private','gates':{}}; v['images']=[img]; key='image:'+img['url']; v['display_selection']['card_primary']={'kind':'image','key':key}; v['display_selection']['detail_primary']={'kind':'image','key':key}; req=request(a,v)
