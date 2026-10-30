@@ -1790,20 +1790,49 @@
       "category": "music_live",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-af9eca4647569859e50950df",
-          "kind": "world_card"
+          "key": "image:https://2026.soulbeatasia.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://img.soulbeatasia.com/2026/26_sba_09_SNS-02-26c09d97.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-af9eca4647569859e50950df",
-          "kind": "world_card"
+          "key": "image:https://2026.soulbeatasia.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://img.soulbeatasia.com/2026/26_sba_09_SNS-02-26c09d97.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2026-11-22T23:59:59+09:00",
       "event_date": "2026-11-20",
       "id": "a-af9eca4647569859e50950df",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：SOUL BEAT ASIA 2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://2026.soulbeatasia.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://img.soulbeatasia.com/2026/26_sba_09_SNS-02-26c09d97.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：SOUL BEAT ASIA 2026",
+            "source_name": "橋の下世界音楽祭",
+            "source_page": "https://2026.soulbeatasia.com/",
+            "target": "SOUL BEAT ASIA 2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://2026.soulbeatasia.com/",
+          "url": "https://2026.soulbeatasia.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://img.soulbeatasia.com/2026/26_sba_09_SNS-02-26c09d97.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "note": "今回確認した公式ページでは会場と販売条件の詳細を確定できない。過年度情報は適用しない。",
       "price_terms": "2026年の券種・料金・販売期限は未確認。",
@@ -1833,7 +1862,8 @@
         "meta": "2026-11-20",
         "title": "橋の下世界音楽祭 SOUL BEAT ASIA 2026：11月20〜22日の開催告知",
         "variant": "field"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
