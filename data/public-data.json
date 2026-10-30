@@ -242,18 +242,47 @@
       "deadline_at": "2026-10-04",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-4b8263b68f119c80fbbd78ba",
-          "kind": "world_card"
+          "key": "image:https://grandjump.shueisha.co.jp/_comics/rinri_01.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-4b8263b68f119c80fbbd78ba",
-          "kind": "world_card"
+          "key": "image:https://grandjump.shueisha.co.jp/_comics/rinri_01.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-4b8263b68f119c80fbbd78ba",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：ここは今から倫理です。（第1巻・シリーズ識別）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://grandjump.shueisha.co.jp/_comics/rinri_01.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：ここは今から倫理です。（第1巻・シリーズ識別）",
+            "source_name": "grandjump.shueisha.co.jp",
+            "source_page": "https://grandjump.shueisha.co.jp/manga/rinri.html",
+            "target": "ここは今から倫理です。（第1巻・シリーズ識別）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://grandjump.shueisha.co.jp/manga/rinri.html",
+          "url": "https://grandjump.shueisha.co.jp/_comics/rinri_01.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "price_terms": "1〜10巻 各77円、全10巻770円（税込・記事確認時）。",
       "public_detail": "高校の倫理教師・高柳が、生徒たちの抱える問題に倫理の授業を通じて向き合う教師漫画。抽象的な思想紹介だけでなく、各話の具体的な悩みや選択から「善く生きる」ことを考える構成になっている。",
@@ -281,7 +310,8 @@
         "meta": "",
         "title": "『ここは今から倫理です。』全10巻 — 各77円で完結まで770円",
         "variant": "field"
-      }
+      },
+      "media": []
     },
     {
       "category": "shopping",
