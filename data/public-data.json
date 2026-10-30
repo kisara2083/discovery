@@ -1120,18 +1120,47 @@
       "deadline_at": "2026-09-30",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-4269498568372099222789ff",
-          "kind": "world_card"
+          "key": "image:https://www.chikumashobo.co.jp/docs/images/book/big/9784480683663.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-4269498568372099222789ff",
-          "kind": "world_card"
+          "key": "image:https://www.chikumashobo.co.jp/docs/images/book/big/9784480683663.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-4269498568372099222789ff",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：どこからが病気なの？（市原真）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.chikumashobo.co.jp/docs/images/book/big/9784480683663.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：どこからが病気なの？（市原真）",
+            "source_name": "筑摩書房",
+            "source_page": "https://www.chikumashobo.co.jp/product/9784480683663/",
+            "target": "どこからが病気なの？（市原真）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.chikumashobo.co.jp/product/9784480683663/",
+          "url": "https://www.chikumashobo.co.jp/docs/images/book/big/9784480683663.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "price_terms": "451円、51%OFFとの当日観測。",
       "public_summary": "病理医が健康と病気の境界を解説するちくまプリマー新書。9月30日までの月替わり対象。",
@@ -1154,7 +1183,8 @@
         "meta": "",
         "title": "『どこからが病気なの？』月替わりセール",
         "variant": "orbit"
-      }
+      },
+      "media": []
     },
     {
       "category": "shopping",
