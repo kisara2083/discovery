@@ -6331,23 +6331,56 @@
       "category": "music_live",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j",
-          "kind": "media"
+          "key": "image:https://f4.bcbits.com/img/a0697641923_5.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j",
-          "kind": "media"
+          "key": "image:https://f4.bcbits.com/img/a0697641923_5.jpg",
+          "kind": "image"
         },
         "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j",
+            "kind": "media"
+          },
           {
             "key": "media:https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd",
             "kind": "media"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-2361950123a99ecab7ebeb6a",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：Le Motel — Pozo de Agua / Artwork by Milagros Yaya",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://f4.bcbits.com/img/a0697641923_5.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：Le Motel — Pozo de Agua",
+            "source_name": "Constellation Tatsu / Artwork by Milagros Yaya",
+            "source_page": "https://ctatsu.bandcamp.com/album/pozo-de-agua",
+            "target": "Le Motel — Pozo de Agua"
+          },
+          "relation": "article_specific",
+          "source_page": "https://ctatsu.bandcamp.com/album/pozo-de-agua",
+          "url": "https://f4.bcbits.com/img/a0697641923_5.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
