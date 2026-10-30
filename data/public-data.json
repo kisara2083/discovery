@@ -167,6 +167,47 @@
       }
     },
     {
+      "category": "music_live",
+      "deadline_at": "2026-10-25T09:00:00Z",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-0574b0b6e693290b187fc1cd",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-0574b0b6e693290b187fc1cd",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-5e5695a6bd1c08901ca65c6e",
+      "images": [],
+      "lifecycle": "ENDED",
+      "price_terms": "オールスタンディング7,500円、別途ドリンク代。",
+      "public_summary": "初来日公演の3月12日分が完売し、2027年3月11日に追加公演が決定。轟音ギターと甘いフック、シンセやサンプルを組み合わせるノイズ・ポップを小規模会場で体験できる。",
+      "published_date": "2026-10-23",
+      "slug": "a-5e5695a6bd1c08901ca65c6e",
+      "sources": [
+        {
+          "name": "www.creativeman.co.jp",
+          "url": "https://www.creativeman.co.jp/event/feeble-little-horse/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "feeble little horse 初来日追加公演",
+      "updated_date": "2026-10-30",
+      "world_card": {
+        "concept": "初来日公演の3月12日分が完売し、2027年3月11日に追加公演が決定。轟音ギターと甘いフック、シンセやサンプルを組み合わせるノイズ・ポップを小規模会場で体験できる。",
+        "key": "world_card:a-0574b0b6e693290b187fc1cd",
+        "kicker": "MUSIC / LIVE",
+        "meta": "",
+        "title": "feeble little horse 初来日追加公演",
+        "variant": "grid"
+      }
+    },
+    {
       "category": "shopping",
       "deadline_at": "2026-10-04",
       "display_selection": {
