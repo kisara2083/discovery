@@ -1368,20 +1368,49 @@
       "category": "local_family",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-fa1b69d48055b3fa36f39d48",
-          "kind": "world_card"
+          "key": "image:https://nagono-campus.jp/wp-content/uploads/2026/08/ae01a48daad24f8466cc230253cc50dc-1280x720.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-fa1b69d48055b3fa36f39d48",
-          "kind": "world_card"
+          "key": "image:https://nagono-campus.jp/wp-content/uploads/2026/08/ae01a48daad24f8466cc230253cc50dc-1280x720.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2026-10-03",
       "event_date": "2026-10-03",
       "id": "a-fa1b69d48055b3fa36f39d48",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象イベント：すきフェス！（2026年10月3日・なごのキャンパス）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://nagono-campus.jp/wp-content/uploads/2026/08/ae01a48daad24f8466cc230253cc50dc-1280x720.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：すきフェス！（2026年10月3日・なごのキャンパス）",
+            "source_name": "nagono-campus.jp",
+            "source_page": "https://nagono-campus.jp/eventinfo/eventinfo-39230/",
+            "target": "すきフェス！（2026年10月3日・なごのキャンパス）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://nagono-campus.jp/eventinfo/eventinfo-39230/",
+          "url": "https://nagono-campus.jp/wp-content/uploads/2026/08/ae01a48daad24f8466cc230253cc50dc-1280x720.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "price_terms": "入場無料。",
       "public_summary": "10月3日、なごのキャンパスで親子向け体験フェス。",
@@ -1404,7 +1433,8 @@
         "meta": "2026-10-03",
         "title": "すきフェス！ — AI・3Dプリンター・科学実験など26体験",
         "variant": "orbit"
-      }
+      },
+      "media": []
     },
     {
       "category": "games",
