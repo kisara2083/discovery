@@ -37,11 +37,11 @@ jobs:
           Path('.publication-title.txt').write_text(event['issue'].get('title') or '',encoding='utf-8')
           PY
 
-      - name: Apply validated snapshot and durable receipt
+      - name: Apply validated snapshot, saved assets and durable receipt
         id: apply
         shell: bash
         run: |
-          python scripts/apply_publication_request.py .publication-request.json data/public-data.json data/publication-state.json .publication-result.json
+          python scripts/apply_publication_request_hydrating.py .publication-request.json data/public-data.json data/publication-state.json .publication-result.json
           python - <<'PY'
           import json
           from pathlib import Path
@@ -63,18 +63,20 @@ jobs:
           git fetch origin main --depth=1
           test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
 
-      - name: Commit validated snapshot and receipt atomically
+      - name: Commit validated snapshot, assets and receipt atomically
         if: steps.apply.outputs.changed == 'true'
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/public-data.json data/publication-state.json
+          git add -- data/public-data.json data/publication-state.json assets/images
           python - <<'PY'
-          import subprocess
+          import re, subprocess
           changed=set(subprocess.check_output(['git','diff','--cached','--name-only'],text=True).splitlines())
-          allowed={'data/public-data.json','data/publication-state.json'}
-          if not changed or not changed <= allowed or 'data/publication-state.json' not in changed:
+          base={'data/public-data.json','data/publication-state.json'}
+          def allowed(path):
+              return path in base or re.fullmatch(r'assets/images/[0-9a-f]{64}\.(?:jpg|png|gif|webp)',path)
+          if not changed or not all(allowed(p) for p in changed) or 'data/publication-state.json' not in changed:
               raise SystemExit('unexpected_publication_changed_paths')
           PY
           git commit -m "Publish DISCOVERY ${PUBLICATION_ID}"
