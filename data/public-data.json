@@ -568,19 +568,48 @@
       "deadline_at": "2026-10-07T23:59:59+09:00",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-7f8a61121952703c2d1802e2",
-          "kind": "world_card"
+          "key": "image:https://dvs-cover.kodansha.co.jp/0000147035/LuYvA3FdQXSZsGFncFLWMYvRfIXOIbiA9vQJSM4J.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-7f8a61121952703c2d1802e2",
-          "kind": "world_card"
+          "key": "image:https://dvs-cover.kodansha.co.jp/0000147035/LuYvA3FdQXSZsGFncFLWMYvRfIXOIbiA9vQJSM4J.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2026-10-07T23:59:59+09:00",
       "id": "a-7f8a61121952703c2d1802e2",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：動物化するポストモダン オタクから見た日本社会",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://dvs-cover.kodansha.co.jp/0000147035/LuYvA3FdQXSZsGFncFLWMYvRfIXOIbiA9vQJSM4J.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：動物化するポストモダン オタクから見た日本社会",
+            "source_name": "講談社",
+            "source_page": "https://www.kodansha.co.jp/book/products/0000147035",
+            "target": "動物化するポストモダン オタクから見た日本社会"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.kodansha.co.jp/book/products/0000147035",
+          "url": "https://dvs-cover.kodansha.co.jp/0000147035/LuYvA3FdQXSZsGFncFLWMYvRfIXOIbiA9vQJSM4J.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "note": "2001年刊の文化論。現在の状況へそのまま適用せず、歴史的な批評として読む。",
       "price_terms": "10月2日時点でKindle 499円。講談社第1週セールは10月7日まで。購入時に現在価格を再確認。",
@@ -614,7 +643,8 @@
         "meta": "",
         "title": "『動物化するポストモダン』：Kindle 499円の批評候補",
         "variant": "field"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
