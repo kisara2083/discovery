@@ -5714,18 +5714,47 @@
       "category": "guitar",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-b002eefa738f842163436c80",
-          "kind": "world_card"
+          "key": "image:https://github.com/dashersw/coyopedal/raw/main/web/og.png",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-b002eefa738f842163436c80",
-          "kind": "world_card"
+          "key": "image:https://github.com/dashersw/coyopedal/raw/main/web/og.png",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-b002eefa738f842163436c80",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象プロジェクト：CoyoPedal（open-source pedal project）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://github.com/dashersw/coyopedal/raw/main/web/og.png",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象プロジェクトを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "project_identity",
+            "role_label": "対象プロジェクト：CoyoPedal（open-source pedal project）",
+            "source_name": "dashersw / CoyoPedal official repository",
+            "source_page": "https://github.com/dashersw/coyopedal",
+            "target": "CoyoPedal（open-source pedal project）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://github.com/dashersw/coyopedal",
+          "url": "https://github.com/dashersw/coyopedal/raw/main/web/og.png",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "project_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "作者は低価格chip上の実装を説明。完成品価格は未確認。",
       "public_summary": "9月19日公開。低価格ESP32-S3上でNAM A2 Full amp profileを動かす実験的effects processorで、設計をopen source化。",
@@ -5748,7 +5777,8 @@
         "meta": "",
         "title": "CoyoPedal — ESP32-S3でNAM A2 Full profileを動かすopen-source pedal project",
         "variant": "signal"
-      }
+      },
+      "media": []
     },
     {
       "category": "shopping",
