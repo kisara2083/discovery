@@ -1700,19 +1700,48 @@
       "deadline_at": "2026-10-08T23:59:59+09:00",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-ebc179110aa9743d57a4a853",
-          "kind": "world_card"
+          "key": "image:https://img.ips.co.jp/ij/18/1118102064/1118102064-520x.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-ebc179110aa9743d57a4a853",
-          "kind": "world_card"
+          "key": "image:https://img.ips.co.jp/ij/18/1118102064/1118102064-520x.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "end_at": "2026-10-08T23:59:59+09:00",
       "id": "a-ebc179110aa9743d57a4a853",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：このレトロゲームを遊べ！",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://img.ips.co.jp/ij/18/1118102064/1118102064-520x.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：このレトロゲームを遊べ！",
+            "source_name": "book.impress.co.jp",
+            "source_page": "https://book.impress.co.jp/books/1118102064",
+            "target": "このレトロゲームを遊べ！"
+          },
+          "relation": "article_specific",
+          "source_page": "https://book.impress.co.jp/books/1118102064",
+          "url": "https://img.ips.co.jp/ij/18/1118102064/1118102064-520x.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "note": "個別のKindle価格は販売画面で確認。出版社直販PDFとKindleの価格・形式は別。",
       "price_terms": "出版社直販通常価格1,958円。現在の個別Kindle販売価格は未確認。",
@@ -1746,7 +1775,8 @@
         "meta": "",
         "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
         "variant": "field"
-      }
+      },
+      "media": []
     },
     {
       "category": "shopping",
