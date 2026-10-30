@@ -3515,19 +3515,53 @@
       "category": "music_live",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq",
-          "kind": "media"
+          "key": "image:https://cdn.fujirockfestival.com/smash/artist/OknDATNikcwv6kPJojkNlOCFCeHXJKcDgMh1oIeE.jpg",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq",
           "kind": "media"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "image:https://cdn.fujirockfestival.com/smash/artist/OknDATNikcwv6kPJojkNlOCFCeHXJKcDgMh1oIeE.jpg",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 7
       },
       "event_date": "2026-10-09",
       "id": "a-6096dcf06c396ad4433514ee",
-      "images": [],
+      "images": [
+        {
+          "caption": "出演アーティスト：FCO.",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://cdn.fujirockfestival.com/smash/artist/OknDATNikcwv6kPJojkNlOCFCeHXJKcDgMh1oIeE.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う出演アーティストを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "performer_identity",
+            "role_label": "出演アーティスト：FCO.",
+            "source_name": "smash-jpn.com",
+            "source_page": "https://smash-jpn.com/live/?id=4766",
+            "target": "FCO."
+          },
+          "relation": "official_entity",
+          "source_page": "https://smash-jpn.com/live/?id=4766",
+          "url": "https://cdn.fujirockfestival.com/smash/artist/OknDATNikcwv6kPJojkNlOCFCeHXJKcDgMh1oIeE.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          },
+          "visual_role": "performer_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "media": [
         {
