@@ -4197,7 +4197,7 @@
       "category": "games",
       "display_selection": {
         "card_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg",
           "kind": "image"
         },
         "detail_primary": {
@@ -4206,22 +4206,22 @@
         },
         "detail_secondary": [
           {
-            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg",
             "kind": "image"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-f5db1b40b98edb5f6b594249",
       "images": [
         {
-          "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
+          "caption": "アークナイツ公式ファンキット：バーチャル背景①（記事固有の告知画像ではありません）",
           "framing": "contain",
           "mode": "saved",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg",
           "relation": "reference_same_entity",
           "source_page": "https://www.arknights.jp/fankit/",
-          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
+          "url": "assets/images/eba0715c65472e1a3fb7b4ef6c2494025e3c1b78dfa25e6ca6e70181119b2e8c.jpg",
           "visual_provenance": {
             "article_match": false,
             "authority_class": "official_entity",
