@@ -2108,19 +2108,53 @@
       "deadline_at": "2026-10-09T02:00:00+09:00",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://store.steampowered.com/app/1497440/",
-          "kind": "media"
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1497440/capsule_616x353.jpg?t=1763721043",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://store.steampowered.com/app/1497440/",
-          "kind": "media"
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1497440/capsule_616x353.jpg?t=1763721043",
+          "kind": "image"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "media:https://store.steampowered.com/app/1497440/",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 7
       },
       "end_at": "2026-10-09T02:00:00+09:00",
       "id": "a-8aab2a3f01815c412c6f3854",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：COCOON",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1497440/capsule_616x353.jpg?t=1763721043",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：COCOON",
+            "source_name": "Steam / Annapurna Interactive",
+            "source_page": "https://store.steampowered.com/app/1497440/COCOON/",
+            "target": "COCOON"
+          },
+          "relation": "article_specific",
+          "source_page": "https://store.steampowered.com/app/1497440/COCOON/",
+          "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1497440/capsule_616x353.jpg?t=1763721043",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "media": [
         {
