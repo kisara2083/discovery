@@ -2213,19 +2213,53 @@
       "deadline_at": "2026-10-09T02:00:00+09:00",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://store.steampowered.com/app/632470/",
-          "kind": "media"
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg?t=1780913406",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://store.steampowered.com/app/632470/",
-          "kind": "media"
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg?t=1780913406",
+          "kind": "image"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "media:https://store.steampowered.com/app/632470/",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 7
       },
       "end_at": "2026-10-09T02:00:00+09:00",
       "id": "a-561d45a0bc691307ef22b76b",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象作品：Disco Elysium - The Final Cut",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg?t=1780913406",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：Disco Elysium - The Final Cut",
+            "source_name": "Steam / ZA/UM",
+            "source_page": "https://store.steampowered.com/app/632470/Disco_Elysium_The_Final_Cut/",
+            "target": "Disco Elysium - The Final Cut"
+          },
+          "relation": "article_specific",
+          "source_page": "https://store.steampowered.com/app/632470/Disco_Elysium_The_Final_Cut/",
+          "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg?t=1780913406",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "media": [
         {
