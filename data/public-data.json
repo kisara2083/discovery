@@ -5548,18 +5548,52 @@
       "category": "guitar",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=n1pjVTwa6LU",
-          "kind": "media"
+          "key": "image:https://cdn.sanity.io/images/cwdo0dfy/production/82e6f97aab10ffd8291fb49268466e8b47cdc30d-1200x691.jpg",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://www.youtube.com/watch?v=n1pjVTwa6LU",
           "kind": "media"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": [
+          {
+            "key": "image:https://cdn.sanity.io/images/cwdo0dfy/production/82e6f97aab10ffd8291fb49268466e8b47cdc30d-1200x691.jpg",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 7
       },
       "id": "a-3cf54000d810efd7e77b22ac",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象商品：TONE3000 Plugin / Standalone（NAM A2）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://cdn.sanity.io/images/cwdo0dfy/production/82e6f97aab10ffd8291fb49268466e8b47cdc30d-1200x691.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象商品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "product_identity",
+            "role_label": "対象商品：TONE3000 Plugin / Standalone（NAM A2）",
+            "source_name": "www.tone3000.com",
+            "source_page": "https://www.tone3000.com/blog/tone3000-launches-free-nam-a2-plugin",
+            "target": "TONE3000 Plugin / Standalone（NAM A2）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.tone3000.com/blog/tone3000-launches-free-nam-a2-plugin",
+          "url": "https://cdn.sanity.io/images/cwdo0dfy/production/82e6f97aab10ffd8291fb49268466e8b47cdc30d-1200x691.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "product_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
