@@ -1,4 +1,10 @@
 
+/* Keep article titles compact without truncating their text. */
+.card .body>h3,
+#hero .hero .body>h2{
+  text-wrap:balance
+}
+
 /* Text Spread must retain the real article title on every viewport. */
 .card:has(.world-card) .body>h3,
 #hero .hero:has(.world-card) .body>h2{
@@ -31,6 +37,13 @@
 @media(min-width:900px) and (max-width:1180px) and (orientation:landscape){#content>.grid{row-gap:36px!important}}
 
 @media(min-width:1181px){
+  .card .body>h3{
+    max-width:100%!important;
+    font-size:clamp(23px,1.45vw,31px)!important;
+    line-height:1.17!important;
+    letter-spacing:-.45px!important;
+    text-wrap:balance
+  }
   .card:not(:has(.world-card))>a:first-child,
   .card:not(:has(.world-card))>.card-visual{margin-top:8px!important}
   #hero .hero:not(:has(.world-card))>a:first-child,
