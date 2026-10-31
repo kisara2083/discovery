@@ -1,0 +1,20 @@
+@media(max-width:1180px){
+:root{--feed-gutter:5vw}
+#content>.grid{grid-template-columns:1fr;gap:0;margin-left:calc(-1 * var(--feed-gutter));margin-right:calc(-1 * var(--feed-gutter))}
+.card,.hero{--editorial-bg:#e8e3d8;background:var(--editorial-bg);border:0;color:#242820;overflow:hidden}
+.card>a:first-child,.hero>a:first-child{display:block}
+.card .card-visual,.hero .card-visual{width:100%;aspect-ratio:auto!important;overflow:hidden;background:var(--editorial-bg)}
+.card .card-visual>.visual:not(.embed-card),.hero .card-visual>.visual:not(.embed-card),.card .quoted-visual .visual,.hero .quoted-visual .visual{width:100%;height:auto!important;min-height:0;max-height:none;aspect-ratio:auto!important;background:var(--editorial-bg)}
+.card .card-visual img,.hero .card-visual img,.card .quoted-visual img,.hero .quoted-visual img{display:block;width:100%;height:auto!important;max-height:none;object-fit:contain!important;object-position:center}
+.card.is-extreme-portrait .card-visual,.hero.is-extreme-portrait .card-visual{display:flex;align-items:center;justify-content:center;background:var(--editorial-bg)}
+.card.is-extreme-portrait .card-visual img,.hero.is-extreme-portrait .card-visual img{width:auto!important;max-width:100%;height:min(78vh,720px)!important;max-height:min(78vh,720px);margin:auto}
+.card .body,.hero .body{background-color:var(--editorial-bg);background-image:linear-gradient(135deg,rgba(255,255,255,.12),rgba(36,40,32,.025));padding:24px var(--feed-gutter) 34px}
+.card .summary,.hero .summary{max-width:68ch}
+.card .quoted-visual,.hero .quoted-visual{width:100%;margin:0;padding:0;border:0;background:var(--editorial-bg)}
+.card .quoted-visual .quote-credit,.hero .quoted-visual .quote-credit{margin:0;padding:12px var(--feed-gutter) 14px;background:var(--editorial-bg)}
+.card .embed-card,.hero .embed-card{width:100%;background:var(--editorial-bg)}
+.hero{grid-template-columns:1fr;min-height:0;margin-left:calc(-1 * var(--feed-gutter));margin-right:calc(-1 * var(--feed-gutter));margin-bottom:34px}
+.hero .visual{min-height:0}
+}
+@media(max-width:760px){:root{--feed-gutter:6vw}.card .body,.hero .body{padding-top:22px;padding-bottom:32px}}
+@media(min-width:900px) and (max-width:1180px) and (orientation:landscape){#content>.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:stretch}.card{height:100%}.card .body{padding:22px 24px 30px}.card .quoted-visual .quote-credit{padding-left:24px;padding-right:24px}}
