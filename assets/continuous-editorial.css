@@ -1,7 +1,7 @@
 @media(max-width:1180px){
 :root{--feed-gutter:5vw}
 #content>.grid{grid-template-columns:1fr;column-gap:0;row-gap:44px;margin-left:calc(-1 * var(--feed-gutter));margin-right:calc(-1 * var(--feed-gutter));align-items:start}
-.card,.hero{--editorial-bg:#e8e3d8;display:grid!important;grid-template-columns:1fr;grid-template-areas:"eyebrow" "meta" "title" "visual" "summary" "read";background:var(--editorial-bg);border:0;color:#242820;overflow:hidden}
+.card,.hero{--editorial-bg:#e8e3d8;display:grid!important;grid-template-columns:1fr;grid-template-areas:"eyebrow" "meta" "title" "visual" "summary" "read";background-color:var(--editorial-bg);background-image:linear-gradient(135deg,rgba(255,255,255,.12),rgba(36,40,32,.025));border:0;color:#242820;overflow:hidden}
 .card .body,.hero .body{display:contents}
 .card .body>.eyebrow,.hero .body>.eyebrow{grid-area:eyebrow;margin:0;padding:24px var(--feed-gutter) 0}
 .card .body>.meta,.hero .body>.meta{grid-area:meta;margin:8px 0 0;padding:0 var(--feed-gutter)}
@@ -14,6 +14,9 @@
 .card .card-visual img,.hero .card-visual img,.card .quoted-visual img,.hero .quoted-visual img{display:block;width:100%;height:auto!important;max-height:none;object-fit:contain!important;object-position:center}
 .card.is-extreme-portrait .card-visual,.hero.is-extreme-portrait .card-visual{display:flex;align-items:center;justify-content:center;background:var(--editorial-bg)}
 .card.is-extreme-portrait .card-visual img,.hero.is-extreme-portrait .card-visual img{width:auto!important;max-width:100%;height:min(78vh,720px)!important;max-height:min(78vh,720px);margin:auto}
+.card:has(.world-card) .body>h3,.hero:has(.world-card) .body>h2{display:block}
+.card:has(.world-card) .world-title,.hero:has(.world-card) .world-title{display:none}
+.card:has(.world-card) .world-card,.hero:has(.world-card) .world-card{aspect-ratio:16/9!important;min-height:0}
 .card .quoted-visual,.hero .quoted-visual{width:100%;margin:0;padding:0;border:0;background:var(--editorial-bg)}
 .card .quoted-visual .quote-credit,.hero .quoted-visual .quote-credit{margin:0;padding:12px var(--feed-gutter) 14px;background:var(--editorial-bg)}
 .card .embed-card,.hero .embed-card{width:100%;background:var(--editorial-bg)}
