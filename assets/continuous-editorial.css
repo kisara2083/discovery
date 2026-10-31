@@ -2,6 +2,7 @@
 :root{--feed-gutter:5vw}
 #content>.grid{grid-template-columns:1fr;gap:0;margin-left:calc(-1 * var(--feed-gutter));margin-right:calc(-1 * var(--feed-gutter))}
 .card,.hero{--editorial-bg:#e8e3d8;background:var(--editorial-bg);border:0;color:#242820;overflow:hidden}
+.card>a:first-child,.hero>a:first-child{display:block}
 .card .card-visual,.hero .card-visual{width:100%;aspect-ratio:auto!important;overflow:hidden;background:var(--editorial-bg)}
 .card .card-visual>.visual:not(.embed-card),.hero .card-visual>.visual:not(.embed-card),.card .quoted-visual .visual,.hero .quoted-visual .visual{width:100%;height:auto!important;min-height:0;max-height:none;aspect-ratio:auto!important;background:var(--editorial-bg)}
 .card .card-visual img,.hero .card-visual img,.card .quoted-visual img,.hero .quoted-visual img{display:block;width:100%;height:auto!important;max-height:none;object-fit:contain!important;object-position:center}
