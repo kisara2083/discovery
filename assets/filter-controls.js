@@ -1,9 +1,10 @@
 (()=>{"use strict";
-if(window.__discoveryFilterControlsV11)return;
-window.__discoveryFilterControlsV11=true;
+if(window.__discoveryFilterControlsV12)return;
+window.__discoveryFilterControlsV12=true;
 const targetLabel="イベント";
 const oldLabel="近場・家族・イベント";
 const monthViews=new Set(["home","today","weekly","archive"]);
+let visibilityObserver=null;
 function wrapField(id,label){
  const input=document.getElementById(id);
  if(!input||input.closest(".filter-field"))return;
@@ -28,12 +29,21 @@ function relabelCategory(){
 }
 function currentView(){return ((location.hash||"#home").slice(1).split("/")[0]||"home");}
 function setHidden(node,value){if(node&&node.hidden!==value)node.hidden=value;}
+function observeVisibility(){
+ const date=document.getElementById("date");
+ const month=document.getElementById("month");
+ if(!visibilityObserver)visibilityObserver=new MutationObserver(schedule);
+ visibilityObserver.disconnect();
+ if(date)visibilityObserver.observe(date,{attributes:true,attributeFilter:["hidden"]});
+ if(month)visibilityObserver.observe(month,{attributes:true,attributeFilter:["hidden"]});
+}
 function syncDateControls(){
  const useMonth=monthViews.has(currentView());
  const date=document.getElementById("date");
  const month=document.getElementById("month");
  const dateWrapper=date&&date.closest(".filter-field");
  const monthWrapper=month&&month.closest(".filter-field");
+ if(visibilityObserver)visibilityObserver.disconnect();
  if(date){
    setHidden(date,useMonth);
    setHidden(dateWrapper,useMonth);
@@ -46,6 +56,7 @@ function syncDateControls(){
    setHidden(month,!useMonth);
    setHidden(monthWrapper,!useMonth);
  }
+ observeVisibility();
 }
 function apply(){
  wrapField("date","記事の日付");
