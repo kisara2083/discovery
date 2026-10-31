@@ -1,6 +1,6 @@
 (()=>{"use strict";
-if(window.__discoveryFilterControlsV9)return;
-window.__discoveryFilterControlsV9=true;
+if(window.__discoveryFilterControlsV10)return;
+window.__discoveryFilterControlsV10=true;
 const targetLabel="イベント";
 const oldLabel="近場・家族・イベント";
 function wrapField(id,label){
@@ -26,6 +26,7 @@ function relabelCategory(){
  }
 }
 function isArchive(){return (location.hash||"#home").startsWith("#archive");}
+function setHidden(node,value){if(node&&node.hidden!==value)node.hidden=value;}
 function syncDateControls(){
  const archive=isArchive();
  const date=document.getElementById("date");
@@ -33,16 +34,16 @@ function syncDateControls(){
  const dateWrapper=date&&date.closest(".filter-field");
  const monthWrapper=month&&month.closest(".filter-field");
  if(date){
-   date.hidden=archive;
-   if(dateWrapper)dateWrapper.hidden=archive;
+   setHidden(date,archive);
+   setHidden(dateWrapper,archive);
    if(archive&&date.value){
      date.value="";
      date.dispatchEvent(new Event("input",{bubbles:true}));
    }
  }
  if(month){
-   month.hidden=!archive;
-   if(monthWrapper)monthWrapper.hidden=!archive;
+   setHidden(month,!archive);
+   setHidden(monthWrapper,!archive);
  }
 }
 function apply(){
@@ -55,5 +56,5 @@ let queued=false;
 const schedule=()=>{if(queued)return;queued=true;queueMicrotask(()=>{queued=false;apply();});};
 apply();
 window.addEventListener("hashchange",schedule);
-new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:["hidden"]});
+new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true});
 })();
