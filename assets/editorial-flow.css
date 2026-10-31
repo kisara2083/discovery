@@ -1,0 +1,26 @@
+@media(max-width:1180px){
+main{--editorial-page-gutter:5vw;position:relative;isolation:isolate;background:#f4f1e9}
+main::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background-image:var(--feed-material-texture,none);background-size:256px 256px;background-position:0 0;background-repeat:repeat;mix-blend-mode:overlay;opacity:.34;filter:grayscale(1) brightness(.94) contrast(1.55)}
+main>*{position:relative;z-index:1}
+.card::before,.hero::before{display:none!important}
+.card,.hero{background-color:transparent!important;background-color:color-mix(in srgb,var(--editorial-bg) 3%,transparent)!important;border:0!important}
+#content>.grid{margin-left:0!important;margin-right:0!important;row-gap:64px!important;column-gap:18px!important;align-items:start}
+.card .body>.eyebrow{padding:0!important;margin:0!important}
+.card .body>.meta{padding:0!important;margin:6px 0 0!important;font-size:9px;letter-spacing:1.5px}
+.card .body>h3{padding:0!important;margin:10px 0 0!important;font-family:Georgia,serif;font-weight:400;font-size:clamp(22px,4.8vw,30px);line-height:1.28}
+.card .card-visual{margin-top:18px}
+.card .body>.summary{padding:0!important;margin:18px 0 0!important;display:-webkit-box!important;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:13px;line-height:1.75}
+.card .body>a:last-child{padding:10px 0 0!important;margin:0!important;font-size:0!important;opacity:.72}
+.card .body>a:last-child::after{content:"Read →";font-size:11px;letter-spacing:1.2px;text-transform:uppercase}
+.card .quoted-visual{border:0!important;padding:0!important}
+#hero{margin-left:calc(-1 * var(--editorial-page-gutter));margin-right:calc(-1 * var(--editorial-page-gutter))}
+.hero .body>h2{font-family:Georgia,serif;font-weight:400;line-height:1.28}
+}
+@media(max-width:760px){
+main{--editorial-page-gutter:6vw}
+#content>.grid{row-gap:72px!important}
+}
+@media(min-width:900px) and (max-width:1180px) and (orientation:landscape){
+#content>.grid{row-gap:48px!important;column-gap:22px!important}
+.card .body>h3{font-size:22px}
+}
