@@ -1,10 +1,7 @@
 "use strict";
 (()=>{
- const hash32=s=>{let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;};
- const articleID=n=>{const a=n.closest('a[href^="#article/"]');if(a){const m=a.getAttribute('href').match(/#article\/(a-[a-f0-9]{24})/);if(m)return m[1];}const hm=location.hash.match(/^#article\/(a-[a-f0-9]{24})/);if(hm)return hm[1];return n.querySelector('.world-title')?.textContent||'world';};
  const palette=k=>{k=(k||'').toLowerCase();if(k.includes('music'))return'music';if(k.includes('game'))return'games';if(k.includes('local')||k.includes('experience')||k.includes('exhibition')||k.includes('immersive'))return'local';if(k.includes('automotive')||k.includes('tech'))return'auto';if(k.includes('food')||k.includes('drink'))return'food';if(k.includes('object')||k.includes('shopping')||k.includes('book'))return'shopping';if(k.includes('film')||k.includes('stream'))return'film';if(k.includes('guitar'))return'guitar';return'neutral';};
- const pct=(n,min,max)=>`${min+(n%(max-min+1))}%`;
- const deg=(n,min,max)=>`${min+(n%(max-min+1))}deg`;
- const apply=n=>{if(n.dataset.worldEditorial==='1')return;const id=articleID(n),h=hash32(id),k=n.querySelector('.world-kicker')?.textContent||'';n.dataset.worldEditorial='1';n.dataset.worldPalette=palette(k);n.dataset.worldTone=String((h>>>2)%3);n.style.setProperty('--field-angle',deg(h,116,136));n.style.setProperty('--light-angle',deg(h>>>5,96,112));n.style.setProperty('--field-shift',pct(h>>>9,-4,5));n.style.setProperty('--field-scale',(1+((h>>>13)%6)/100).toFixed(2));n.style.setProperty('--light-stop',pct(h>>>17,44,53));n.style.setProperty('--grain-opacity',(0.055+((h>>>21)%5)*0.006).toFixed(3));const art=document.createElement('div');art.className='world-art';for(const cls of ['world-field','world-light','world-grain']){const s=document.createElement('span');s.className='world-layer '+cls;art.append(s);}n.prepend(art);};
+ const word=p=>({music:'MUSIC',games:'GAMES',local:'LOCAL',auto:'MOBILITY',food:'TASTE',shopping:'OBJECTS',film:'SCREEN',guitar:'GUITAR',neutral:'FIELD NOTE'})[p];
+ const apply=n=>{if(n.dataset.worldEditorial==='2')return;const k=n.querySelector('.world-kicker')?.textContent||'';const p=palette(k);n.dataset.worldEditorial='2';n.dataset.worldPalette=p;n.dataset.worldWord=word(p);n.querySelectorAll('.world-art').forEach(x=>x.remove());};
  const decorate=()=>document.querySelectorAll('.world-card').forEach(apply);decorate();new MutationObserver(decorate).observe(document.documentElement,{childList:true,subtree:true});
 })();
