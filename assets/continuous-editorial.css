@@ -1,7 +1,7 @@
 @media(max-width:1180px){
 :root{--feed-gutter:5vw}
 #content>.grid{grid-template-columns:1fr;column-gap:0;row-gap:44px;margin-left:calc(-1 * var(--feed-gutter));margin-right:calc(-1 * var(--feed-gutter));align-items:start}
-.card,.hero{--editorial-bg:#e8e3d8;display:grid!important;grid-template-columns:1fr;grid-template-areas:"eyebrow" "meta" "title" "visual" "summary" "read";background-color:var(--editorial-bg);background-image:linear-gradient(135deg,rgba(255,255,255,.12),rgba(36,40,32,.025));border:0;color:#242820;overflow:hidden}
+.card,.hero{--editorial-bg:#e8e3d8;--stone-surface:radial-gradient(130% 90% at 16% 8%,rgba(255,255,255,.15),transparent 44%),radial-gradient(100% 80% at 84% 78%,rgba(36,40,32,.035),transparent 52%),radial-gradient(circle,rgba(36,40,32,.022) .65px,transparent .8px),radial-gradient(circle,rgba(255,255,255,.085) .55px,transparent .75px),linear-gradient(135deg,rgba(255,255,255,.07),rgba(36,40,32,.018));--stone-size:auto,auto,17px 17px,23px 23px,auto;--stone-position:center,center,0 0,9px 11px,center;--stone-repeat:no-repeat,no-repeat,repeat,repeat,no-repeat;display:grid!important;grid-template-columns:1fr;grid-template-areas:"eyebrow" "meta" "title" "visual" "summary" "read";background-color:var(--editorial-bg);background-image:var(--stone-surface);background-size:var(--stone-size);background-position:var(--stone-position);background-repeat:var(--stone-repeat);border:0;color:#242820;overflow:hidden}
 .card .body,.hero .body{display:contents}
 .card .body>.eyebrow,.hero .body>.eyebrow{grid-area:eyebrow;margin:0;padding:24px var(--feed-gutter) 0}
 .card .body>.meta,.hero .body>.meta{grid-area:meta;margin:8px 0 0;padding:0 var(--feed-gutter)}
@@ -9,17 +9,18 @@
 .card>a:first-child,.hero>a:first-child,.card>.card-visual,.hero>.card-visual{grid-area:visual;display:block}
 .card .body>.summary,.hero .body>.summary{grid-area:summary;max-width:none;margin:0;padding:20px var(--feed-gutter) 0;line-height:1.9}
 .card .body>a:last-child,.hero .body>a:last-child{grid-area:read;display:block;padding:12px var(--feed-gutter) 30px}
-.card .card-visual,.hero .card-visual{width:100%;aspect-ratio:auto!important;overflow:hidden;background:var(--editorial-bg)}
-.card .card-visual>.visual:not(.embed-card),.hero .card-visual>.visual:not(.embed-card),.card .quoted-visual .visual,.hero .quoted-visual .visual{width:100%;height:auto!important;min-height:0;max-height:none;aspect-ratio:auto!important;background:var(--editorial-bg)}
+.card .card-visual,.hero .card-visual{width:100%;aspect-ratio:auto!important;overflow:hidden}
+.card .card-visual>.visual:not(.embed-card),.hero .card-visual>.visual:not(.embed-card),.card .quoted-visual .visual,.hero .quoted-visual .visual{width:100%;height:auto!important;min-height:0;max-height:none;aspect-ratio:auto!important}
+.card .card-visual,.hero .card-visual,.card .card-visual>.visual:not(.embed-card):not(.world-card),.hero .card-visual>.visual:not(.embed-card):not(.world-card),.card .quoted-visual,.hero .quoted-visual,.card .quoted-visual .visual,.hero .quoted-visual .visual,.card .quoted-visual .quote-credit,.hero .quoted-visual .quote-credit,.card .embed-card,.hero .embed-card{background-color:var(--editorial-bg);background-image:var(--stone-surface);background-size:var(--stone-size);background-position:var(--stone-position);background-repeat:var(--stone-repeat)}
 .card .card-visual img,.hero .card-visual img,.card .quoted-visual img,.hero .quoted-visual img{display:block;width:100%;height:auto!important;max-height:none;object-fit:contain!important;object-position:center}
-.card.is-extreme-portrait .card-visual,.hero.is-extreme-portrait .card-visual{display:flex;align-items:center;justify-content:center;background:var(--editorial-bg)}
+.card.is-extreme-portrait .card-visual,.hero.is-extreme-portrait .card-visual{display:flex;align-items:center;justify-content:center}
 .card.is-extreme-portrait .card-visual img,.hero.is-extreme-portrait .card-visual img{width:auto!important;max-width:100%;height:min(78vh,720px)!important;max-height:min(78vh,720px);margin:auto}
 .card:has(.world-card) .body>h3,.hero:has(.world-card) .body>h2{display:block}
 .card:has(.world-card) .world-title,.hero:has(.world-card) .world-title{display:none}
 .card:has(.world-card) .world-card,.hero:has(.world-card) .world-card{aspect-ratio:16/9!important;min-height:0}
-.card .quoted-visual,.hero .quoted-visual{width:100%;margin:0;padding:0;border:0;background:var(--editorial-bg)}
-.card .quoted-visual .quote-credit,.hero .quoted-visual .quote-credit{margin:0;padding:12px var(--feed-gutter) 14px;background:var(--editorial-bg)}
-.card .embed-card,.hero .embed-card{width:100%;background:var(--editorial-bg)}
+.card .quoted-visual,.hero .quoted-visual{width:100%;margin:0;padding:0;border:0}
+.card .quoted-visual .quote-credit,.hero .quoted-visual .quote-credit{margin:0;padding:12px var(--feed-gutter) 14px}
+.card .embed-card,.hero .embed-card{width:100%}
 .hero{min-height:0;margin-left:calc(-1 * var(--feed-gutter));margin-right:calc(-1 * var(--feed-gutter));margin-bottom:44px}
 .hero .visual{min-height:0}
 }
