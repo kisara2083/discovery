@@ -1,4 +1,17 @@
 
+/* Lifecycle state is metadata, not a media/text fade. */
+.card.ended,
+#hero .hero.ended{
+  opacity:1!important;
+  filter:none!important
+}
+.card.ended .badge,
+#hero .hero.ended .badge{
+  color:#777b72!important;
+  border-color:#9ea39a!important;
+  background:transparent!important
+}
+
 /* Fill ordinary title lines naturally; reserve phrase-aware breaking for display titles. */
 .card .body>h3,
 #hero .hero .body>h2{
