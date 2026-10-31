@@ -1538,8 +1538,8 @@
       "category": "games",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=gEY0utFag38",
-          "kind": "media"
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://www.youtube.com/watch?v=gEY0utFag38",
@@ -1555,7 +1555,7 @@
             "kind": "image"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-abfc60bd449aff8c7f16c3fd",
       "images": [
