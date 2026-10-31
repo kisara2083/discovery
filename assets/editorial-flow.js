@@ -1,5 +1,6 @@
 (()=>{"use strict";
 const headingLabel=text=>({"Latest Discoveries":"THE CURRENT EDITION","Today · Current Discoveries":"NOW","This Week":"WEEKLY","By Category":"CATEGORY INDEX","Search Discoveries":"SEARCH","The Archive":"ARCHIVE INDEX"})[text]||"DISCOVERY";
+const backdropWords=text=>({"Latest Discoveries":["DISCOVERY","FIELD NOTES"],"Today · Current Discoveries":["TODAY","CURRENT"],"This Week":["WEEKLY","DISCOVERY"],"By Category":["CATEGORIES","INDEX"],"Search Discoveries":["SEARCH","DISCOVERY"],"The Archive":["ARCHIVE","EDITIONS"]})[text]||["DISCOVERY","FIELD NOTES"];
 const syncMaterial=()=>{
   const source=document.querySelector(".card,.hero");
   if(!source)return;
@@ -9,9 +10,12 @@ const syncMaterial=()=>{
 const decorateHeading=()=>{
   const h=document.querySelector("#content>.section-title");
   if(!h)return;
-  h.dataset.editorialLabel=headingLabel(h.textContent.trim());
+  const text=h.textContent.trim();
+  h.dataset.editorialLabel=headingLabel(text);
+  const content=document.getElementById("content");
+  if(content){const [a,b]=backdropWords(text);content.dataset.editorialBackdropA=a;content.dataset.editorialBackdropB=b;}
 };
-const scan=()=>{syncMaterial();decorateHeading();document.documentElement.dataset.editorialMagazine="2";};
+const scan=()=>{syncMaterial();decorateHeading();document.documentElement.dataset.editorialMagazine="3";};
 const root=document.querySelector("#content")||document.body;
 let queued=false;const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;scan();});};
 new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
