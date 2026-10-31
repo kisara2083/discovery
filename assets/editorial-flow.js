@@ -1,12 +1,6 @@
 (()=>{"use strict";
 const headingLabel=text=>({"Latest Discoveries":"THE CURRENT EDITION","Today · Current Discoveries":"NOW","This Week":"WEEKLY","By Category":"CATEGORY INDEX","Search Discoveries":"SEARCH","The Archive":"ARCHIVE INDEX"})[text]||"DISCOVERY";
 const backdropWords=text=>({"Latest Discoveries":["DISCOVERY","FIELD NOTES"],"Today · Current Discoveries":["TODAY","CURRENT"],"This Week":["WEEKLY","DISCOVERY"],"By Category":["CATEGORIES","INDEX"],"Search Discoveries":["SEARCH","DISCOVERY"],"The Archive":["ARCHIVE","EDITIONS"]})[text]||["DISCOVERY","FIELD NOTES"];
-const syncMaterial=()=>{
-  const source=document.querySelector(".card,.hero");
-  if(!source)return;
-  const texture=getComputedStyle(source).getPropertyValue("--material-texture").trim();
-  if(texture)document.documentElement.style.setProperty("--feed-material-texture",texture);
-};
 const syncBackdropWords=text=>{
   const [a,b]=backdropWords(text);
   const one=document.querySelector(".editorial-backdrop-a");
@@ -36,7 +30,7 @@ const syncBackdropGeometry=()=>{
   stage.style.setProperty("--backdrop-a-y",`${Math.round(contentY+lead)}px`);
   stage.style.setProperty("--backdrop-b-y",`${Math.round(contentY+c.height*.56)}px`);
 };
-const scan=()=>{syncMaterial();decorateHeading();syncBackdropGeometry();document.documentElement.dataset.editorialMagazine="4";};
+const scan=()=>{decorateHeading();syncBackdropGeometry();document.documentElement.dataset.editorialMagazine="5";};
 const root=document.querySelector(".editorial-foreground")||document.body;
 let queued=false;const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;scan();});};
 new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
