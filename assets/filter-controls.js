@@ -1,7 +1,8 @@
 (()=>{"use strict";
-if(window.__discoveryFilterControlsV8)return;
-window.__discoveryFilterControlsV8=true;
+if(window.__discoveryFilterControlsV9)return;
+window.__discoveryFilterControlsV9=true;
 const targetLabel="イベント";
+const oldLabel="近場・家族・イベント";
 function wrapField(id,label){
  const input=document.getElementById(id);
  if(!input||input.closest(".filter-field"))return;
@@ -20,20 +21,39 @@ function relabelCategory(){
  for(const link of document.querySelectorAll('#taxonomy a[href="#category/local_family"]')){
    if(link.textContent!==targetLabel)link.textContent=targetLabel;
  }
+ for(const span of document.querySelectorAll('.meta span:not(.badge)')){
+   if(span.textContent===oldLabel)span.textContent=targetLabel;
+ }
 }
-function syncMonthVisibility(){
- const input=document.getElementById("month");
- const wrapper=input&&input.closest(".filter-field");
- if(wrapper&&wrapper.hidden!==input.hidden)wrapper.hidden=input.hidden;
+function isArchive(){return (location.hash||"#home").startsWith("#archive");}
+function syncDateControls(){
+ const archive=isArchive();
+ const date=document.getElementById("date");
+ const month=document.getElementById("month");
+ const dateWrapper=date&&date.closest(".filter-field");
+ const monthWrapper=month&&month.closest(".filter-field");
+ if(date){
+   date.hidden=archive;
+   if(dateWrapper)dateWrapper.hidden=archive;
+   if(archive&&date.value){
+     date.value="";
+     date.dispatchEvent(new Event("input",{bubbles:true}));
+   }
+ }
+ if(month){
+   month.hidden=!archive;
+   if(monthWrapper)monthWrapper.hidden=!archive;
+ }
 }
 function apply(){
  wrapField("date","記事の日付");
  wrapField("month","アーカイブ年月");
  relabelCategory();
- syncMonthVisibility();
+ syncDateControls();
 }
 let queued=false;
 const schedule=()=>{if(queued)return;queued=true;queueMicrotask(()=>{queued=false;apply();});};
 apply();
+window.addEventListener("hashchange",schedule);
 new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:["hidden"]});
 })();
