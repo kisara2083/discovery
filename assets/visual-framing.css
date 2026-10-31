@@ -1,7 +1,7 @@
+.quoted-visual.blank-border-trim .visual{position:relative!important;overflow:hidden!important}
+.quoted-visual.blank-border-trim .visual img{margin:0!important;max-width:none!important;max-height:none!important}
 @media(max-width:1180px){
 html,body{max-width:100%;overflow-x:hidden}
 @supports (overflow:clip){html,body{overflow-x:clip}}
 .card.is-extreme-portrait .card-visual img,.hero.is-extreme-portrait .card-visual img{height:min(90vh,960px)!important;max-height:min(90vh,960px)!important}
-.quoted-visual.blank-border-trim .visual{overflow:hidden!important}
-.quoted-visual.blank-border-trim .visual img{width:var(--blank-trim-width,100%)!important;max-width:none!important;margin-left:var(--blank-trim-left,0)!important;margin-right:0!important}
 }

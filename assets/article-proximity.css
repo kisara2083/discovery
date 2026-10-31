@@ -1,0 +1,42 @@
+
+/* Text Spread must retain the real article title on every viewport. */
+.card:has(.world-card) .body>h3,
+#hero .hero:has(.world-card) .body>h2{
+  display:block!important;visibility:visible!important;opacity:1!important;
+  color:#fff!important;position:relative;z-index:3
+}
+.card:has(.world-card) .body>h3>a,
+#hero .hero:has(.world-card) .body>h2>a{
+  display:inline!important;visibility:visible!important;opacity:1!important;
+  color:#fff!important;position:relative;z-index:3
+}
+.card:has(.world-card)>a:first-child,.card:has(.world-card)>.card-visual,
+#hero .hero:has(.world-card)>a:first-child,#hero .hero:has(.world-card)>.card-visual{display:none!important}
+
+/* Keep the components of one article perceptually close. */
+.card:not(:has(.world-card)) .quoted-visual .quote-credit{
+  margin:0!important;padding-top:6px!important;padding-bottom:4px!important
+}
+.card:not(:has(.world-card)) .body>.summary{margin-top:10px!important}
+.card:not(:has(.world-card)) .body>a:last-child{padding-top:6px!important}
+
+@media(max-width:1180px){
+  #content>.grid{row-gap:44px!important}
+  .card:not(:has(.world-card)) .card-visual{margin-top:8px!important}
+  #hero .hero:not(:has(.world-card)) .card-visual{margin-top:10px!important}
+  .card:not(:has(.world-card)) .body>h3{margin-bottom:0!important}
+  #hero .hero:not(:has(.world-card)) .body>h2{margin-bottom:0!important}
+}
+@media(max-width:760px){#content>.grid{row-gap:44px!important}}
+@media(min-width:900px) and (max-width:1180px) and (orientation:landscape){#content>.grid{row-gap:36px!important}}
+
+@media(min-width:1181px){
+  .card:not(:has(.world-card))>a:first-child,
+  .card:not(:has(.world-card))>.card-visual{margin-top:8px!important}
+  #hero .hero:not(:has(.world-card))>a:first-child,
+  #hero .hero:not(:has(.world-card))>.card-visual{margin-top:10px!important}
+  .card:not(:has(.world-card)) .body>h3{margin-bottom:0!important}
+  #hero .hero:not(:has(.world-card)) .body>h2{margin-bottom:0!important}
+  /* Included in masonry measurement: 12px internal bottom air + existing 18px pack gap = ~30px between article clusters. */
+  #content>.grid>.card:not(:has(.world-card)){padding-bottom:12px!important}
+}
