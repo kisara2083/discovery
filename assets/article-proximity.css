@@ -1,8 +1,13 @@
 
-/* Keep article titles compact without truncating their text. */
+/* Fill ordinary title lines naturally; reserve phrase-aware breaking for display titles. */
 .card .body>h3,
 #hero .hero .body>h2{
-  text-wrap:balance
+  text-wrap:wrap;
+  line-break:strict
+}
+@supports (word-break:auto-phrase){
+  .card:has(.world-card) .body>h3,
+  #hero .hero .body>h2{word-break:auto-phrase}
 }
 
 /* Text Spread must retain the real article title on every viewport. */
@@ -42,7 +47,7 @@
     font-size:clamp(23px,1.45vw,31px)!important;
     line-height:1.17!important;
     letter-spacing:-.45px!important;
-    text-wrap:balance
+    text-wrap:wrap
   }
   .card:not(:has(.world-card))>a:first-child,
   .card:not(:has(.world-card))>.card-visual{margin-top:8px!important}
