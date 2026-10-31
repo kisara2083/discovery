@@ -17,6 +17,8 @@ main>*{position:relative;z-index:1}
 .card .body>a:last-child{padding:10px 0 0!important;margin:0!important;font-size:0!important;opacity:.72}
 .card .body>a:last-child::after{content:"Read →";font-size:11px;letter-spacing:1.2px;text-transform:uppercase}
 .card .quoted-visual{border:0!important;padding:0!important}
+.card:has(.world-card) .world-concept,.hero:has(.world-card) .world-concept{display:-webkit-box!important}
+.card:has(.world-card) .world-meta,.hero:has(.world-card) .world-meta{display:block!important}
 #hero{margin-left:calc(-1 * var(--editorial-page-gutter));margin-right:calc(-1 * var(--editorial-page-gutter));margin-bottom:88px}
 #hero .hero{padding-bottom:28px;border-top:1px solid #9fa794!important;border-bottom:1px solid #9fa794!important}
 #hero .hero .body>.eyebrow{padding-top:22px!important;font-size:9px;letter-spacing:2.6px}
