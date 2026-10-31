@@ -1,0 +1,8 @@
+.filter-field{display:contents}
+.filter-field-label{display:none}
+@media(max-width:760px){
+  .controls .filter-field{display:flex;flex:1 1 130px;min-width:130px;flex-direction:column;gap:5px}
+  .controls .filter-field[hidden]{display:none!important}
+  .controls .filter-field-label{display:block;padding-left:1px;font-size:9px;line-height:1.2;letter-spacing:.08em;color:#657153}
+  .controls .filter-field input{width:100%;min-width:0;margin:0}
+}
