@@ -19,6 +19,8 @@ main>*{position:relative;z-index:1}
 .card .quoted-visual{border:0!important;padding:0!important}
 .card:has(.world-card) .world-concept,.hero:has(.world-card) .world-concept{display:-webkit-box!important}
 .card:has(.world-card) .world-meta,.hero:has(.world-card) .world-meta{display:block!important}
+.card:has(.world-card) .world-inner{width:62%!important;padding:clamp(44px,7vw,70px) clamp(18px,4vw,34px) clamp(18px,4vw,34px)!important}
+.hero:has(.world-card) .world-inner{width:60%!important;padding:clamp(54px,8vw,84px) clamp(24px,4vw,46px) clamp(24px,4vw,46px)!important}
 #hero{margin-left:calc(-1 * var(--editorial-page-gutter));margin-right:calc(-1 * var(--editorial-page-gutter));margin-bottom:88px}
 #hero .hero{padding-bottom:28px;border-top:1px solid #9fa794!important;border-bottom:1px solid #9fa794!important}
 #hero .hero .body>.eyebrow{padding-top:22px!important;font-size:9px;letter-spacing:2.6px}
