@@ -6419,8 +6419,8 @@
       "category": "film_streaming",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=-tUulrroh6A",
-          "kind": "media"
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "kind": "image"
         },
         "detail_primary": {
           "key": "media:https://www.youtube.com/watch?v=-tUulrroh6A",
@@ -6436,7 +6436,7 @@
             "kind": "image"
           }
         ],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-b2a798191e25c0fe70804d14",
       "images": [
