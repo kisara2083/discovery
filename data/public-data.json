@@ -577,6 +577,74 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
+          "key": "image:https://awsimages.detik.net.id/community/media/visual/2026/02/17/drama-korea-the-art-of-sarah-1771294974286.jpeg?w=1200",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://awsimages.detik.net.id/community/media/visual/2026/02/17/drama-korea-the-art-of-sarah-1771294974286.jpeg?w=1200",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-b8dfb646c2269732ef1010b9",
+      "images": [
+        {
+          "caption": "The Art of Sarah / サラ・キムという女",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://awsimages.detik.net.id/community/media/visual/2026/02/17/drama-korea-the-art-of-sarah-1771294974286.jpeg?w=1200",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：The Art of Sarah / サラ・キムという女",
+            "source_name": "detikPop — Netflix promotional poster",
+            "source_page": "https://www.detik.com/pop/korean-wave/d-8364821/the-art-of-sarah-tayang-seminggu-diputar-22-9-juta-jam",
+            "target": "The Art of Sarah / サラ・キムという女"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.detik.com/pop/korean-wave/d-8364821/the-art-of-sarah-tayang-seminggu-diputar-22-9-juta-jam",
+          "url": "https://awsimages.detik.net.id/community/media/visual/2026/02/17/drama-korea-the-art-of-sarah-1771294974286.jpeg?w=1200",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "licensed_third_party",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_summary": "都会で発見された遺体と急成長する高級ブランドを結ぶ「ある女」の物語を、刑事が一つずつ検証するリミテッドシリーズ。",
+      "published_date": "2026-10-27",
+      "slug": "a-b8dfb646c2269732ef1010b9",
+      "sources": [
+        {
+          "name": "www.netflix.com",
+          "url": "https://www.netflix.com/jp/title/81904993"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "サラ・キムという女 — ブランドと死体を巡る多層ミステリー",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "都会で発見された遺体と急成長する高級ブランドを結ぶ「ある女」の物語を、刑事が一つずつ検証するリミテッドシリーズ。",
+        "key": "world_card:a-c3f6aef7c48d673f2b898763",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "サラ・キムという女 — ブランドと死体を巡る多層ミステリー",
+        "variant": "field"
+      }
+    },
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
           "key": "world_card:a-ac2c7026f50655f7146f1193",
           "kind": "world_card"
         },
