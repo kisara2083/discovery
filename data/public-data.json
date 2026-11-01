@@ -165,6 +165,46 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
+          "key": "world_card:a-07609e579ce3e7ff7848b96d",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-07609e579ce3e7ff7848b96d",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-af3b63edbaadc8b5066db458",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "前売6,800円。入場時にドリンク代600円が別途必要。",
+      "public_summary": "ZAZEN BOYSが名古屋CLUB QUATTROで行う年末公演。反復するリズム、鋭いアンサンブル、語りと歌の境界を行き来する表現を一夜で体験できる。",
+      "published_date": "2026-10-29",
+      "slug": "a-af3b63edbaadc8b5066db458",
+      "sources": [
+        {
+          "name": "www.club-quattro.com",
+          "url": "https://www.club-quattro.com/nagoya/schedule/detail/?cd=018865"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "ZAZEN BOYS MATSURI SESSION — 年末の名古屋クアトロ公演",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "ZAZEN BOYSが名古屋CLUB QUATTROで行う年末公演。反復するリズム、鋭いアンサンブル、語りと歌の境界を行き来する表現を一夜で体験できる。",
+        "key": "world_card:a-07609e579ce3e7ff7848b96d",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "ZAZEN BOYS MATSURI SESSION — 年末の名古屋クアトロ公演",
+        "variant": "field"
+      }
+    },
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
           "key": "world_card:a-ac2c7026f50655f7146f1193",
           "kind": "world_card"
         },
