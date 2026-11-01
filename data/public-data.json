@@ -83,6 +83,45 @@
       }
     },
     {
+      "category": "games",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-e2b603e4477799e1ff020045",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-e2b603e4477799e1ff020045",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-580c2384c103eae8ef677a35",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_summary": "終末世界を走る最後の列車を舞台に、探索・捜査・非線形ストーリーとカード型システムを組み合わせたWindows向けアドベンチャー。2026年10月16日発売。",
+      "published_date": "2026-10-22",
+      "slug": "a-580c2384c103eae8ef677a35",
+      "sources": [
+        {
+          "name": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Dreadline_Express"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Dreadline Express",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "終末世界を走る最後の列車を舞台に、探索・捜査・非線形ストーリーとカード型システムを組み合わせたWindows向けアドベンチャー。2026年10月16日発売。",
+        "key": "world_card:a-e2b603e4477799e1ff020045",
+        "kicker": "GAME / DISCOVERY",
+        "meta": "",
+        "title": "Dreadline Express",
+        "variant": "orbit"
+      }
+    },
+    {
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
