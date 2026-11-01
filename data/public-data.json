@@ -530,18 +530,47 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-158970df127e2f1d8b714734",
-          "kind": "world_card"
+          "key": "image:https://www.shortshorts.org/2026/wp-content/uploads/2026/04/1064-768x321.webp",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-158970df127e2f1d8b714734",
-          "kind": "world_card"
+          "key": "image:https://www.shortshorts.org/2026/wp-content/uploads/2026/04/1064-768x321.webp",
+          "kind": "image"
         },
         "detail_secondary": [],
         "selector_version": 7
       },
       "id": "a-7cab4889792dbc44762ce100",
-      "images": [],
+      "images": [
+        {
+          "caption": "Houston, We Have a Crush",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.shortshorts.org/2026/wp-content/uploads/2026/04/1064-768x321.webp",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：Houston, We Have a Crush",
+            "source_name": "Short Shorts Film Festival & Asia 2026",
+            "source_page": "https://www.shortshorts.org/2026/program/houston-we-have-a-crush/",
+            "target": "Houston, We Have a Crush"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.shortshorts.org/2026/program/houston-we-have-a-crush/",
+          "url": "https://www.shortshorts.org/2026/wp-content/uploads/2026/04/1064-768x321.webp",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "public_summary": "ある惑星に置き忘れられた携帯電話を拾った孤独なエイリアンが、その持ち主への恋によって現実感を揺さぶられていく10分の短編。",
       "published_date": "2026-10-27",
@@ -563,7 +592,8 @@
         "meta": "",
         "title": "ヒューストン、恋に落ちました — 携帯電話に恋するエイリアンの10分SF",
         "variant": "grid"
-      }
+      },
+      "media": []
     },
     {
       "category": "cross_domain",
