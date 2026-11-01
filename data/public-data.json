@@ -404,6 +404,45 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
+          "key": "world_card:a-158970df127e2f1d8b714734",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-158970df127e2f1d8b714734",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-7cab4889792dbc44762ce100",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_summary": "ある惑星に置き忘れられた携帯電話を拾った孤独なエイリアンが、その持ち主への恋によって現実感を揺さぶられていく10分の短編。",
+      "published_date": "2026-10-27",
+      "slug": "a-7cab4889792dbc44762ce100",
+      "sources": [
+        {
+          "name": "www.disneyplus.com",
+          "url": "https://www.disneyplus.com/ja-jp/browse/entity-f9f820ce-abac-4cf4-8adc-ff789b6af79e"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "ヒューストン、恋に落ちました — 携帯電話に恋するエイリアンの10分SF",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "ある惑星に置き忘れられた携帯電話を拾った孤独なエイリアンが、その持ち主への恋によって現実感を揺さぶられていく10分の短編。",
+        "key": "world_card:a-158970df127e2f1d8b714734",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "ヒューストン、恋に落ちました — 携帯電話に恋するエイリアンの10分SF",
+        "variant": "grid"
+      }
+    },
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
           "key": "world_card:a-ac2c7026f50655f7146f1193",
           "kind": "world_card"
         },
