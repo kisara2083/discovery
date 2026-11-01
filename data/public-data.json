@@ -5680,7 +5680,7 @@
           "kind": "world_card"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-a6798601ffd4d9dad14392c1",
       "images": [],
@@ -5707,7 +5707,8 @@
         "meta": "Valentine Drive",
         "title": "Nagoya Gnaoua Meeting 2026 — UFO meets グナワ",
         "variant": "orbit"
-      }
+      },
+      "media": []
     },
     {
       "category": "music_live",
