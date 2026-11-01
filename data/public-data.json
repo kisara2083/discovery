@@ -245,6 +245,46 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
+          "key": "world_card:a-d72f2274d33c593d2f63abec",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-d72f2274d33c593d2f63abec",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-28f7bf4d6f28fb24bdad1d93",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "前売13,000円。入場時にドリンク代が別途必要。",
+      "public_summary": "ロドリーゴ・イ・ガブリエーラが名古屋CLUB QUATTROで行う来日公演。2本のアコースティックギターだけで旋律、低音、打撃音を組み上げる。",
+      "published_date": "2026-10-29",
+      "slug": "a-28f7bf4d6f28fb24bdad1d93",
+      "sources": [
+        {
+          "name": "www.club-quattro.com",
+          "url": "https://www.club-quattro.com/nagoya/schedule/detail/?cd=018683"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "RODRIGO Y GABRIELA OurHome Tour — 2本のギターで作る打楽器的グルーヴ",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "ロドリーゴ・イ・ガブリエーラが名古屋CLUB QUATTROで行う来日公演。2本のアコースティックギターだけで旋律、低音、打撃音を組み上げる。",
+        "key": "world_card:a-d72f2274d33c593d2f63abec",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "RODRIGO Y GABRIELA OurHome Tour — 2本のギターで作る打楽器的グルーヴ",
+        "variant": "field"
+      }
+    },
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
           "key": "world_card:a-ac2c7026f50655f7146f1193",
           "kind": "world_card"
         },
