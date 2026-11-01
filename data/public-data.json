@@ -3680,18 +3680,47 @@
       "deadline_at": "2026-10-15T23:59:59+09:00",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-3c8dda3bcfcb40de51cf9d4c",
-          "kind": "world_card"
+          "key": "image:https://www.soundhouse.co.jp/material/cph3000/img/img1.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-3c8dda3bcfcb40de51cf9d4c",
-          "kind": "world_card"
+          "key": "image:https://www.soundhouse.co.jp/material/cph3000/img/img1.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-3c8dda3bcfcb40de51cf9d4c",
-      "images": [],
+      "images": [
+        {
+          "caption": "CLASSIC PRO CPH3000",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.soundhouse.co.jp/material/cph3000/img/img1.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象商品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "product_identity",
+            "role_label": "対象商品：CLASSIC PRO CPH3000",
+            "source_name": "SOUND HOUSE",
+            "source_page": "https://www.soundhouse.co.jp/material/cph3000/",
+            "target": "CLASSIC PRO CPH3000"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.soundhouse.co.jp/material/cph3000/",
+          "url": "https://www.soundhouse.co.jp/material/cph3000/img/img1.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "product_identity"
+        }
+      ],
       "lifecycle": "ENDED",
       "note": "音質は実聴未確認。接続端子、送料、最終価格は購入画面で確認。",
       "price_terms": "税込2,980円。キャンペーン10月15日まで、送料・残在庫は購入時確認。",
@@ -3725,7 +3754,8 @@
         "meta": "",
         "title": "CLASSIC PRO CPH3000：音楽を聴き比べる低価格ヘッドホンが2,980円",
         "variant": "signal"
-      }
+      },
+      "media": []
     },
     {
       "category": "guitar",
