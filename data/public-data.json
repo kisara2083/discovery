@@ -730,6 +730,64 @@
       }
     },
     {
+      "category": "games",
+      "deadline_at": "2026-10-27T18:59:00Z",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-09718092d27dcc1214b5d68f",
+      "images": [
+        {
+          "caption": "アークナイツ公式ファンキット：バーチャル背景②（記事固有の告知画像ではありません）",
+          "framing": "contain",
+          "mode": "saved",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
+          "relation": "reference_same_entity",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "url": "assets/images/440acf1b2150a04031c0d0aa6f89903890d9d9b8c221b04df588c38c5b270f18.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "lifecycle": "ENDED",
+      "public_summary": "期間限定スカウト「約諾」で使える無料10回スカウト券。未使用のまま期限を過ぎると消失する。",
+      "published_date": "2026-10-24",
+      "slug": "a-09718092d27dcc1214b5d68f",
+      "sources": [
+        {
+          "name": "arknights.jp",
+          "url": "https://arknights.jp/news/4806"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "感謝祭記念10回スカウト券 使用期限",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "期間限定スカウト「約諾」で使える無料10回スカウト券。未使用のまま期限を過ぎると消失する。",
+        "key": "world_card:a-96efbeedd384ce7ae4600bc5",
+        "kicker": "GAME / EVENT",
+        "meta": "",
+        "title": "感謝祭記念10回スカウト券 使用期限",
+        "variant": "orbit"
+      }
+    },
+    {
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
