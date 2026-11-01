@@ -323,12 +323,12 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-d72f2274d33c593d2f63abec",
-          "kind": "world_card"
+          "key": "media:https://www.youtube.com/watch?v=Q3U-Q0U4gjY",
+          "kind": "media"
         },
         "detail_primary": {
-          "key": "world_card:a-d72f2274d33c593d2f63abec",
-          "kind": "world_card"
+          "key": "media:https://www.youtube.com/watch?v=Q3U-Q0U4gjY",
+          "kind": "media"
         },
         "detail_secondary": [],
         "selector_version": 7
@@ -357,7 +357,25 @@
         "meta": "",
         "title": "RODRIGO Y GABRIELA OurHome Tour — 2本のギターで作る打楽器的グルーヴ",
         "variant": "field"
-      }
+      },
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=Q3U-Q0U4gjY",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "Q3U-Q0U4gjY",
+          "source_url": "https://www.rodgab.com/",
+          "title": "Rodrigo y Gabriela - OurHome (Official Video)",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ]
     },
     {
       "category": "cross_domain",
