@@ -122,6 +122,46 @@
       }
     },
     {
+      "category": "local_family",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-dd157d56c274813ec03ee114",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-dd157d56c274813ec03ee114",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-41528d9ac7f7718b8c48d96e",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "入場無料。飲食・物販は実費。",
+      "public_summary": "名古屋市と台中市の観光パートナー都市協定を背景に、台湾・台中の夜市をテーマにしたイベント。グルメ・スイーツ、物販、観光PR、ミニライブを久屋大通公園で楽しめる。",
+      "published_date": "2026-10-26",
+      "slug": "a-41528d9ac7f7718b8c48d96e",
+      "sources": [
+        {
+          "name": "www.nagoya-info.jp",
+          "url": "https://www.nagoya-info.jp/event/detail/664/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "台湾・台中夜市2026 — 久屋大通で台湾夜市を体験",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "名古屋市と台中市の観光パートナー都市協定を背景に、台湾・台中の夜市をテーマにしたイベント。グルメ・スイーツ、物販、観光PR、ミニライブを久屋大通公園で楽しめる。",
+        "key": "world_card:a-dd157d56c274813ec03ee114",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "",
+        "title": "台湾・台中夜市2026 — 久屋大通で台湾夜市を体験",
+        "variant": "grid"
+      }
+    },
+    {
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
