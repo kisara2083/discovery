@@ -235,18 +235,47 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-1f34f4406f2d017a6e4baf91",
-          "kind": "world_card"
+          "key": "image:https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260627162924.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-1f34f4406f2d017a6e4baf91",
-          "kind": "world_card"
+          "key": "image:https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260627162924.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
         "selector_version": 7
       },
       "id": "a-c3baf4abe58f72dfa3d78d34",
-      "images": [],
+      "images": [
+        {
+          "caption": "トリプルファイヤー「あこがれのクアトロツアー」名古屋公演",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260627162924.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：トリプルファイヤー「あこがれのクアトロツアー」名古屋公演",
+            "source_name": "NAGOYA CLUB QUATTRO",
+            "source_page": "https://www.club-quattro.com/nagoya/schedule/detail/?cd=018528",
+            "target": "トリプルファイヤー「あこがれのクアトロツアー」名古屋公演"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.club-quattro.com/nagoya/schedule/detail/?cd=018528",
+          "url": "https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260627162924.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "前売4,500円。入場時にドリンク代が別途必要。",
       "public_summary": "独特の言葉遣いと反復的なグルーヴを持つトリプルファイヤーのクアトロツアー名古屋公演。歌詞の可笑しさと演奏の間を同時に味わえる。",
@@ -269,7 +298,8 @@
         "meta": "",
         "title": "トリプルファイヤー「あこがれのクアトロツアー」名古屋公演",
         "variant": "field"
-      }
+      },
+      "media": []
     },
     {
       "category": "cross_domain",
