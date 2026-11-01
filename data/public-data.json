@@ -86,12 +86,12 @@
       "category": "games",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-e2b603e4477799e1ff020045",
-          "kind": "world_card"
+          "key": "media:https://www.youtube.com/watch?v=6dtT42qNRm0",
+          "kind": "media"
         },
         "detail_primary": {
-          "key": "world_card:a-e2b603e4477799e1ff020045",
-          "kind": "world_card"
+          "key": "media:https://www.youtube.com/watch?v=6dtT42qNRm0",
+          "kind": "media"
         },
         "detail_secondary": [],
         "selector_version": 7
@@ -119,7 +119,25 @@
         "meta": "",
         "title": "Dreadline Express",
         "variant": "orbit"
-      }
+      },
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=6dtT42qNRm0",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "6dtT42qNRm0",
+          "source_url": "https://steamcommunity.com/app/3327120/allnews/",
+          "title": "Dreadline Express Launch Trailer",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        }
+      ]
     },
     {
       "category": "local_family",
