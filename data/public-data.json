@@ -3791,18 +3791,47 @@
       "category": "guitar",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-26d59816809de415dba379b0",
-          "kind": "world_card"
+          "key": "image:https://www.soundhouse.co.jp/images/shop/prod_img/p/pt_ab420cbs_la.jpg",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-26d59816809de415dba379b0",
-          "kind": "world_card"
+          "key": "image:https://www.soundhouse.co.jp/images/shop/prod_img/p/pt_ab420cbs_la.jpg",
+          "kind": "image"
         },
         "detail_secondary": [],
-        "selector_version": 6
+        "selector_version": 7
       },
       "id": "a-26d59816809de415dba379b0",
-      "images": [],
+      "images": [
+        {
+          "caption": "PLAYTECH AB420 Cherry Burst",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.soundhouse.co.jp/images/shop/prod_img/p/pt_ab420cbs_la.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象商品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "product_identity",
+            "role_label": "対象商品：PLAYTECH AB420 Cherry Burst",
+            "source_name": "SOUND HOUSE",
+            "source_page": "https://www.soundhouse.co.jp/products/detail/item/290191/",
+            "target": "PLAYTECH AB420 Cherry Burst"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.soundhouse.co.jp/products/detail/item/290191/",
+          "url": "https://www.soundhouse.co.jp/images/shop/prod_img/p/pt_ab420cbs_la.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "product_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "note": "セール終了日と実機の弾き心地は未確認。購入前に用途、試奏、最終価格を確認。",
       "price_terms": "通常24,800円→限定特価21,800円（税込）。終了日未確認。",
@@ -3836,7 +3865,8 @@
         "meta": "",
         "title": "PLAYTECH AB420：PJ構成のアクティブベースが限定特価21,800円",
         "variant": "orbit"
-      }
+      },
+      "media": []
     },
     {
       "category": "food_drink",
