@@ -325,6 +325,45 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
+          "key": "world_card:a-3c57fcf46e0e55eec2c38238",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-3c57fcf46e0e55eec2c38238",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-09d346569af11236a08ed9e6",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_summary": "名古屋各地の映画館や星が丘テラスなどを舞台に、プレミア上映、監督・ゲストのトーク、食事付き上映、クリエイター映像AWARD、マルシェなどを組み合わせる映画祭。",
+      "published_date": "2026-10-26",
+      "slug": "a-09d346569af11236a08ed9e6",
+      "sources": [
+        {
+          "name": "nagoya-cinema-week.com",
+          "url": "https://nagoya-cinema-week.com/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "NAGOYA CINEMA Week 2026 — 上映・トーク・食体験を横断する映画祭",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "名古屋各地の映画館や星が丘テラスなどを舞台に、プレミア上映、監督・ゲストのトーク、食事付き上映、クリエイター映像AWARD、マルシェなどを組み合わせる映画祭。",
+        "key": "world_card:a-3c57fcf46e0e55eec2c38238",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "NAGOYA CINEMA Week 2026 — 上映・トーク・食体験を横断する映画祭",
+        "variant": "signal"
+      }
+    },
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
           "key": "world_card:a-ac2c7026f50655f7146f1193",
           "kind": "world_card"
         },
