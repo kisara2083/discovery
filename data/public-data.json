@@ -533,18 +533,47 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-898b91640372697c79de4926",
-          "kind": "world_card"
+          "key": "image:https://images.ctfassets.net/8puu65w27ud0/4vjfwfLZ6rSXpHWs06W0hO/c733cb3a6e6bf74c13122dc588abd1bd/f-tk-standalone.png?fm=webp&w=1536",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-898b91640372697c79de4926",
-          "kind": "world_card"
+          "key": "image:https://images.ctfassets.net/8puu65w27ud0/4vjfwfLZ6rSXpHWs06W0hO/c733cb3a6e6bf74c13122dc588abd1bd/f-tk-standalone.png?fm=webp&w=1536",
+          "kind": "image"
         },
         "detail_secondary": [],
         "selector_version": 7
       },
       "id": "a-d6412c2bfc9c27ff8f21647d",
-      "images": [],
+      "images": [
+        {
+          "caption": "Tone King Imperial MKII X",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://images.ctfassets.net/8puu65w27ud0/4vjfwfLZ6rSXpHWs06W0hO/c733cb3a6e6bf74c13122dc588abd1bd/f-tk-standalone.png?fm=webp&w=1536",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象商品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "product_identity",
+            "role_label": "対象商品：Tone King Imperial MKII X",
+            "source_name": "Neural DSP — Tone King Imperial MKII X",
+            "source_page": "https://neuraldsp.com/plugins/tone-king-imperial-mkii",
+            "target": "Tone King Imperial MKII X"
+          },
+          "relation": "article_specific",
+          "source_page": "https://neuraldsp.com/plugins/tone-king-imperial-mkii",
+          "url": "https://images.ctfassets.net/8puu65w27ud0/4vjfwfLZ6rSXpHWs06W0hO/c733cb3a6e6bf74c13122dc588abd1bd/f-tk-standalone.png?fm=webp&w=1536",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "product_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "€99.00から€69.30。EUと英国はVAT込み、その他地域の税は決済時算出。終了日時は公式ページに明記なし。",
       "public_summary": "2026年10月14日公開の新しいアンププラグイン。公式ストアでは通常€99から€69.30になっており、ビンテージ系のAmerican cleanとtweed grit、120超のプリセット、Transpose、Doubler、メトロノームなどを収録。",
@@ -571,7 +600,8 @@
         "meta": "",
         "title": "Neural DSP Tone King Imperial MKII X 発売記念価格",
         "variant": "grid"
-      }
+      },
+      "media": []
     },
     {
       "category": "cross_domain",
