@@ -473,6 +473,50 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
+          "key": "world_card:a-898b91640372697c79de4926",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-898b91640372697c79de4926",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-d6412c2bfc9c27ff8f21647d",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "€99.00から€69.30。EUと英国はVAT込み、その他地域の税は決済時算出。終了日時は公式ページに明記なし。",
+      "public_summary": "2026年10月14日公開の新しいアンププラグイン。公式ストアでは通常€99から€69.30になっており、ビンテージ系のAmerican cleanとtweed grit、120超のプリセット、Transpose、Doubler、メトロノームなどを収録。",
+      "published_date": "2026-10-23",
+      "slug": "a-d6412c2bfc9c27ff8f21647d",
+      "sources": [
+        {
+          "name": "neuraldsp.com",
+          "url": "https://neuraldsp.com/news/introducing-tone-king-imperial-mkii-x"
+        },
+        {
+          "name": "neuraldsp.com",
+          "url": "https://neuraldsp.com/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Neural DSP Tone King Imperial MKII X 発売記念価格",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "2026年10月14日公開の新しいアンププラグイン。公式ストアでは通常€99から€69.30になっており、ビンテージ系のAmerican cleanとtweed grit、120超のプリセット、Transpose、Doubler、メトロノームなどを収録。",
+        "key": "world_card:a-898b91640372697c79de4926",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "Neural DSP Tone King Imperial MKII X 発売記念価格",
+        "variant": "grid"
+      }
+    },
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
           "key": "world_card:a-ac2c7026f50655f7146f1193",
           "kind": "world_card"
         },
