@@ -14,7 +14,7 @@ from urllib.parse import unquote, urlparse
 REQUEST_KEYS={"kind","schema_version","publication_id","sequence","operation","article_id","ready_root","as_of","article"}
 STATE_KEYS={"v","sequence","publication_id","article_id","ready_root","article_digest","dataset_digest"}
 ARTICLE_REQUIRED={"id","slug","title","public_summary","category","status","lifecycle","published_date","updated_date","sources","spotify","images"}
-ARTICLE_ALLOWED=ARTICLE_REQUIRED|{"public_detail","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","media","world_card","display_selection"}
+ARTICLE_ALLOWED=ARTICLE_REQUIRED|{"public_detail","match_tags","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","media","world_card","display_selection"}
 MEANINGFUL_UPDATE_FIELDS={"title","public_summary","public_detail","category","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new"}
 SOURCE_KEYS={"url","name"}; WORLD_KEYS={"key","title","kicker","concept","meta","variant"}; DISPLAY_KEYS={"selector_version","card_primary","detail_primary","detail_secondary"}; REF_KEYS={"kind","key"}
 IMAGE_ALLOWED={"url","source_page","relation","caption","mode","original_url","attribution","visual_provenance","framing","visual_role","quote_context"}; MEDIA_ALLOWED={"type","canonical_url","provider_id","title","evidence_url","source_url","image_url","visual_provenance"}
@@ -57,6 +57,10 @@ def validate_article(a,tax):
  if not re.fullmatch(r"a-[a-f0-9]{24}",str(a["id"])) or a["slug"]!=a["id"]: fail("article_identity")
  if not isinstance(a["title"],str) or not a["title"].strip() or not isinstance(a["public_summary"],str) or not a["public_summary"].strip(): fail("article_text")
  if a["category"] not in tax or a["status"] not in STATUSES or a["lifecycle"] not in LIFECYCLES: fail("article_enum")
+ if "match_tags" in a:
+  tags=a["match_tags"]
+  if not isinstance(tags,list) or len(tags)>8 or len(set(tags))!=len(tags): fail("match_tags")
+  if any(not isinstance(tag,str) or not tag.strip() or len(tag)>58 for tag in tags): fail("match_tags")
  for k in ("published_date","updated_date"): date(a[k],k)
  for k in ("event_date","deadline_at","end_at"):
   if k in a: date(a[k],k)
