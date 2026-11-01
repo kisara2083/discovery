@@ -846,6 +846,64 @@
       }
     },
     {
+      "category": "games",
+      "deadline_at": "2026-11-02T18:59:00Z",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-3799871fbcf280c992a27c4d",
+      "images": [
+        {
+          "caption": "アークナイツ公式ファンキット：バーチャル背景②（記事固有の告知画像ではありません）",
+          "framing": "contain",
+          "mode": "saved",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
+          "relation": "reference_same_entity",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "url": "assets/images/440acf1b2150a04031c0d0aa6f89903890d9d9b8c221b04df588c38c5b270f18.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_summary": "毎日更新されるスクラッチ企画。毎日の回数をすべて使うと、その日の最高額の合成玉を獲得できる。",
+      "published_date": "2026-10-24",
+      "slug": "a-3799871fbcf280c992a27c4d",
+      "sources": [
+        {
+          "name": "arknights.jp",
+          "url": "https://arknights.jp/news/4805"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "ゼルグラードスクラッチ 毎日分を消化",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "毎日更新されるスクラッチ企画。毎日の回数をすべて使うと、その日の最高額の合成玉を獲得できる。",
+        "key": "world_card:a-2a7ee695e3c73bebfa56ce9c",
+        "kicker": "GAME / EVENT",
+        "meta": "",
+        "title": "ゼルグラードスクラッチ 毎日分を消化",
+        "variant": "orbit"
+      }
+    },
+    {
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
