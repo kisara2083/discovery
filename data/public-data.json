@@ -205,6 +205,46 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
+          "key": "world_card:a-1f34f4406f2d017a6e4baf91",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-1f34f4406f2d017a6e4baf91",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-c3baf4abe58f72dfa3d78d34",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "前売4,500円。入場時にドリンク代が別途必要。",
+      "public_summary": "独特の言葉遣いと反復的なグルーヴを持つトリプルファイヤーのクアトロツアー名古屋公演。歌詞の可笑しさと演奏の間を同時に味わえる。",
+      "published_date": "2026-10-29",
+      "slug": "a-c3baf4abe58f72dfa3d78d34",
+      "sources": [
+        {
+          "name": "www.club-quattro.com",
+          "url": "https://www.club-quattro.com/nagoya/schedule/detail/?cd=018528"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "トリプルファイヤー「あこがれのクアトロツアー」名古屋公演",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "独特の言葉遣いと反復的なグルーヴを持つトリプルファイヤーのクアトロツアー名古屋公演。歌詞の可笑しさと演奏の間を同時に味わえる。",
+        "key": "world_card:a-1f34f4406f2d017a6e4baf91",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "トリプルファイヤー「あこがれのクアトロツアー」名古屋公演",
+        "variant": "field"
+      }
+    },
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
           "key": "world_card:a-ac2c7026f50655f7146f1193",
           "kind": "world_card"
         },
