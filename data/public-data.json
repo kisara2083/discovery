@@ -364,6 +364,46 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
+          "key": "world_card:a-f9f311a5699cabce159d4621",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-f9f311a5699cabce159d4621",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-bff53dc12f057cc436dd8084",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "参加無料。一部施設は入場料など別料金。",
+      "public_summary": "名古屋市内6エリアで歴史的建物から現代建築まで全40施設を公開。普段は入れない場所の特別公開に加え、ガイドツアー、展示、講演会などを行う。",
+      "published_date": "2026-10-26",
+      "slug": "a-bff53dc12f057cc436dd8084",
+      "sources": [
+        {
+          "name": "www.nagoya-info.jp",
+          "url": "https://www.nagoya-info.jp/event/detail/1426/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "なごや建築まつり2026 — 普段入れない建築を含む40施設公開",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "名古屋市内6エリアで歴史的建物から現代建築まで全40施設を公開。普段は入れない場所の特別公開に加え、ガイドツアー、展示、講演会などを行う。",
+        "key": "world_card:a-f9f311a5699cabce159d4621",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "なごや建築まつり2026 — 普段入れない建築を含む40施設公開",
+        "variant": "grid"
+      }
+    },
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
           "key": "world_card:a-ac2c7026f50655f7146f1193",
           "kind": "world_card"
         },
