@@ -285,6 +285,46 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
+          "key": "world_card:a-68dcd340e4a6f1281741f054",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-68dcd340e4a6f1281741f054",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-788feea6a14bbb75e319f0c5",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "前売5,500円、当日6,000円。",
+      "public_summary": "田中義人、沼澤尚、大神田智彦、ミトカツユキによる名古屋TOKUZO公演。ギター、ドラム、ベース、鍵盤と歌による少人数のライブ・セッション。",
+      "published_date": "2026-10-29",
+      "slug": "a-788feea6a14bbb75e319f0c5",
+      "sources": [
+        {
+          "name": "takashinumazawa.com",
+          "url": "https://takashinumazawa.com/news2026.html"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "TANAKA YOSHITO LIVE EXPERIMENT X — TOKUZOの精鋭セッション",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "田中義人、沼澤尚、大神田智彦、ミトカツユキによる名古屋TOKUZO公演。ギター、ドラム、ベース、鍵盤と歌による少人数のライブ・セッション。",
+        "key": "world_card:a-68dcd340e4a6f1281741f054",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "TANAKA YOSHITO LIVE EXPERIMENT X — TOKUZOの精鋭セッション",
+        "variant": "signal"
+      }
+    },
+    {
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
           "key": "world_card:a-ac2c7026f50655f7146f1193",
           "kind": "world_card"
         },
