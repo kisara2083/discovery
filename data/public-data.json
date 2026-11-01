@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-10-30",
+  "as_of": "2026-11-01",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,48 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-e4f027536e9193f6eafc7f44",
+  "todays_pick": "a-5a02e41cc4b925590a05a34f",
   "articles": [
+    {
+      "category": "local_family",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-f1e24d861605397da1d2fc79",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-f1e24d861605397da1d2fc79",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 7
+      },
+      "id": "a-5a02e41cc4b925590a05a34f",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "入場無料。",
+      "public_summary": "日泰寺参道にアート・クラフト、スイーツ、グルメが並び、歌・音楽・ダンスやファッションショー、子ども向けゲームも行われる秋祭。10月31日と11月1日の11:00〜18:00、雨天決行。",
+      "published_date": "2026-10-26",
+      "slug": "a-5a02e41cc4b925590a05a34f",
+      "sources": [
+        {
+          "name": "www.nagoya-info.jp",
+          "url": "https://www.nagoya-info.jp/event/detail/64/"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "覚王山秋祭2026 — アート・クラフトと食を参道で楽しむ2日間",
+      "updated_date": "2026-11-01",
+      "world_card": {
+        "concept": "日泰寺参道にアート・クラフト、スイーツ、グルメが並び、歌・音楽・ダンスやファッションショー、子ども向けゲームも行われる秋祭。10月31日と11月1日の11:00〜18:00、雨天決行。",
+        "key": "world_card:a-f1e24d861605397da1d2fc79",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "",
+        "title": "覚王山秋祭2026 — アート・クラフトと食を参道で楽しむ2日間",
+        "variant": "grid"
+      }
+    },
     {
       "category": "cross_domain",
       "display_selection": {
@@ -2306,7 +2346,7 @@
           "visual_role": "performer_identity"
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
