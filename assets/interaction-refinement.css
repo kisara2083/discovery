@@ -1,0 +1,47 @@
+/* Interaction and hierarchy cleanup.
+ * Keep the atmospheric light rule distinct from actual control boundaries. */
+.controls{
+  border-bottom:1px solid var(--discovery-rule)!important;
+  padding-bottom:14px!important;
+  margin-bottom:14px!important
+}
+.controls #query,
+#filter-toggle{
+  border-bottom:0!important
+}
+#taxonomy{
+  padding-top:12px!important
+}
+
+/* The explicit Read label is redundant because cards themselves are links. */
+.card .body>a:last-child,
+#hero .hero .body>a:last-child{
+  display:none!important
+}
+
+/* Text Spread / World Card: article-proximity previously positioned the title
+ * and title link, which made the title-link ::after overlay resolve to the
+ * title box instead of the whole article. Restore the card as the containing
+ * block so World Cards behave like ordinary cards. */
+.card:has(.world-card) .body>h3,
+.card:has(.world-card) .body>h3>a,
+#hero .hero:has(.world-card) .body>h2,
+#hero .hero:has(.world-card) .body>h2>a{
+  position:static!important
+}
+.card:has(.world-card) .body>h3>a::after,
+#hero .hero:has(.world-card) .body>h2>a::after{
+  content:""!important;
+  display:block!important;
+  position:absolute!important;
+  inset:0!important;
+  z-index:4!important
+}
+
+@media(max-width:760px){
+  .controls{
+    padding-bottom:15px!important;
+    margin-bottom:16px!important
+  }
+  #taxonomy{padding-top:10px!important}
+}
