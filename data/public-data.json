@@ -385,18 +385,47 @@
       "category": "cross_domain",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-3c57fcf46e0e55eec2c38238",
-          "kind": "world_card"
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/77693/107/77693-107-9d01d7ec792a2d0e5bb7a11ef954eed2-1920x1280.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-3c57fcf46e0e55eec2c38238",
-          "kind": "world_card"
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/77693/107/77693-107-9d01d7ec792a2d0e5bb7a11ef954eed2-1920x1280.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "kind": "image"
         },
         "detail_secondary": [],
         "selector_version": 7
       },
       "id": "a-09d346569af11236a08ed9e6",
-      "images": [],
+      "images": [
+        {
+          "caption": "NAGOYA CINEMA Week 2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://prcdn.freetls.fastly.net/release_image/77693/107/77693-107-9d01d7ec792a2d0e5bb7a11ef954eed2-1920x1280.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：NAGOYA CINEMA Week 2026",
+            "source_name": "スターキャット株式会社 公式プレスリリース",
+            "source_page": "https://prtimes.jp/main/html/rd/p/000000107.000077693.html",
+            "target": "NAGOYA CINEMA Week 2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://prtimes.jp/main/html/rd/p/000000107.000077693.html",
+          "url": "https://prcdn.freetls.fastly.net/release_image/77693/107/77693-107-9d01d7ec792a2d0e5bb7a11ef954eed2-1920x1280.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "public_summary": "名古屋各地の映画館や星が丘テラスなどを舞台に、プレミア上映、監督・ゲストのトーク、食事付き上映、クリエイター映像AWARD、マルシェなどを組み合わせる映画祭。",
       "published_date": "2026-10-26",
@@ -418,7 +447,8 @@
         "meta": "",
         "title": "NAGOYA CINEMA Week 2026 — 上映・トーク・食体験を横断する映画祭",
         "variant": "signal"
-      }
+      },
+      "media": []
     },
     {
       "category": "cross_domain",
