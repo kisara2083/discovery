@@ -1,0 +1,108 @@
+:root{
+  --light-wash-cyan:rgba(121,166,168,.10);
+  --light-wash-violet:rgba(113,96,121,.055);
+  --light-wash-rule:rgba(207,211,208,.92);
+}
+
+/* Light belongs to the editorial surface, not to quoted media. Everything is
+ * static CSS: no runtime randomness, no animation, no image filter or mask. */
+.featured-shell,.controls,#taxonomy,#content>.section-title{position:relative;isolation:isolate}
+
+.featured-shell::before{
+  content:"";position:absolute;z-index:-1;pointer-events:none;
+  width:min(54vw,760px);height:min(42vw,560px);right:-8vw;top:-90px;
+  background:
+    radial-gradient(ellipse at 52% 44%,var(--light-wash-cyan) 0 14%,rgba(121,166,168,.052) 30%,transparent 67%),
+    radial-gradient(ellipse at 72% 58%,var(--light-wash-violet) 0 9%,transparent 52%);
+  opacity:.78
+}
+
+/* Rules partially disappear into white light instead of ending abruptly. */
+.featured-heading{border-bottom:0!important}
+.featured-heading::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:1px;pointer-events:none;
+  background:linear-gradient(90deg,
+    var(--light-wash-rule) 0 34%,rgba(207,211,208,.58) 42%,rgba(121,166,168,.22) 48%,
+    rgba(255,255,255,.12) 54%,transparent 59%,rgba(207,211,208,.48) 69%,var(--light-wash-rule) 100%)
+}
+
+.controls{border-top:0!important}
+.controls::before{
+  content:"";position:absolute;left:0;right:0;top:0;height:1px;pointer-events:none;
+  background:linear-gradient(90deg,
+    var(--light-wash-rule) 0 12%,rgba(207,211,208,.62) 27%,transparent 40%,
+    rgba(121,166,168,.18) 46%,rgba(207,211,208,.52) 58%,var(--light-wash-rule) 100%)
+}
+.controls::after{
+  content:"";position:absolute;z-index:-1;pointer-events:none;
+  left:21%;top:-34px;width:38%;height:86px;
+  background:radial-gradient(ellipse at center,rgba(121,166,168,.055),rgba(255,255,255,0) 70%)
+}
+
+#taxonomy::before{
+  content:"";position:absolute;z-index:-1;pointer-events:none;
+  width:44%;height:92px;left:-5%;top:-27px;
+  background:radial-gradient(ellipse at 45% 50%,rgba(121,166,168,.052),transparent 72%)
+}
+
+/* Deterministic light positions keep the surface stable between loads. */
+#content>.section-title::after{
+  border:0!important;height:1px;
+  background:linear-gradient(90deg,
+    var(--light-wash-rule) 0 21%,rgba(207,211,208,.50) 34%,transparent 45%,
+    rgba(121,166,168,.16) 51%,rgba(207,211,208,.46) 61%,var(--light-wash-rule) 100%)!important
+}
+#content>.section-title:nth-of-type(3n+2)::after{
+  background:linear-gradient(90deg,
+    var(--light-wash-rule) 0 48%,rgba(121,166,168,.14) 57%,transparent 66%,
+    rgba(207,211,208,.46) 75%,var(--light-wash-rule) 100%)!important
+}
+#content>.section-title:nth-of-type(3n)::after{
+  background:linear-gradient(90deg,
+    var(--light-wash-rule) 0 8%,rgba(207,211,208,.44) 18%,transparent 29%,
+    rgba(121,166,168,.13) 36%,var(--light-wash-rule) 52% 100%)!important
+}
+
+/* Giant backdrop type can lose ink locally as if crossed by a beam of light.
+ * Unsupported browsers simply keep the current faint text. */
+@supports ((mask-image:linear-gradient(#000,#000)) or (-webkit-mask-image:linear-gradient(#000,#000))){
+  .editorial-backdrop-today{
+    -webkit-mask-image:linear-gradient(104deg,#000 0 38%,rgba(0,0,0,.28) 49%,transparent 58%,rgba(0,0,0,.42) 68%,#000 84%);
+    mask-image:linear-gradient(104deg,#000 0 38%,rgba(0,0,0,.28) 49%,transparent 58%,rgba(0,0,0,.42) 68%,#000 84%)
+  }
+  .editorial-backdrop-a{
+    -webkit-mask-image:linear-gradient(78deg,#000 0 22%,rgba(0,0,0,.36) 33%,transparent 46%,rgba(0,0,0,.48) 57%,#000 73%);
+    mask-image:linear-gradient(78deg,#000 0 22%,rgba(0,0,0,.36) 33%,transparent 46%,rgba(0,0,0,.48) 57%,#000 73%)
+  }
+  .editorial-backdrop-b{
+    -webkit-mask-image:linear-gradient(116deg,#000 0 52%,rgba(0,0,0,.30) 61%,transparent 72%,#000 88%);
+    mask-image:linear-gradient(116deg,#000 0 52%,rgba(0,0,0,.30) 61%,transparent 72%,#000 88%)
+  }
+}
+
+@media(max-width:760px){
+  .featured-shell::before{
+    width:112vw;height:330px;right:-46vw;top:-78px;
+    background:
+      radial-gradient(ellipse at 48% 44%,rgba(121,166,168,.072) 0 12%,rgba(121,166,168,.032) 34%,transparent 68%),
+      radial-gradient(ellipse at 67% 54%,rgba(113,96,121,.035),transparent 48%);
+    opacity:.72
+  }
+  .featured-heading::after{
+    background:linear-gradient(90deg,
+      var(--light-wash-rule) 0 25%,rgba(207,211,208,.48) 39%,rgba(121,166,168,.19) 47%,
+      transparent 57%,rgba(207,211,208,.48) 69%,var(--light-wash-rule) 100%)
+  }
+  .controls::before{
+    background:linear-gradient(90deg,
+      var(--light-wash-rule) 0 8%,rgba(207,211,208,.48) 21%,transparent 37%,
+      rgba(121,166,168,.16) 45%,rgba(207,211,208,.50) 60%,var(--light-wash-rule) 100%)
+  }
+  .controls::after{left:32%;top:-28px;width:58%;height:72px;opacity:.74}
+  #taxonomy::before{width:72%;height:76px;left:-19%;top:-20px;opacity:.72}
+}
+
+@media(prefers-contrast:more){
+  .featured-shell::before,.controls::after,#taxonomy::before{display:none}
+  .featured-heading::after,.controls::before,#content>.section-title::after{background:var(--discovery-rule)!important}
+}
