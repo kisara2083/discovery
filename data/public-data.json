@@ -63,6 +63,26 @@
       "updated_date": "2026-11-02"
     },
     {
+      "category": "games",
+      "id": "a-2eddf9bbfe71fa8a4a0e7b42",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_detail": "『Spell Code SlingerZ』は、2〜4人で遊ぶローカル／オンライン対応のパーティー対戦アクションだ。戦闘中にCode Weave状態へ入り、時間をかけてSpellcodeを準備して保存し、必要な場面で発動する。素早いコマンド入力とは別の形で、技をどう仕込むかが対戦の読み合いになる。\n\n各バトルフェーズの間には最大9種のSpellcodeから1つを選び、同じコードを重ねたり、異なる系統を混ぜたりしてビルドを変化させる。画面と音楽はY2K風で、R&B、EDM、ハウスを軸にしたスコアが使われている。",
+      "public_summary": "複雑なコマンド入力の代わりに、コードを編んで必殺技を保存する2D対戦ゲーム『Spell Code SlingerZ』。11月3日の発売を前に無料デモを公開している。",
+      "published_date": "2026-11-01",
+      "slug": "a-2eddf9bbfe71fa8a4a0e7b42",
+      "sources": [
+        {
+          "url": "https://store.steampowered.com/app/4500000/Spell_Code_SlingerZ/",
+          "name": "Steam公式ストア Spell Code SlingerZ"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Spell Code SlingerZ、技を組み立てる2D対戦デモを配信",
+      "updated_date": "2026-11-02"
+    },
+    {
       "category": "local_family",
       "display_selection": {
         "card_primary": {
