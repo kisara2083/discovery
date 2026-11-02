@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-11-01",
+  "as_of": "2026-11-02",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,28 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-5a02e41cc4b925590a05a34f",
+  "todays_pick": "a-ea0d1f72b35dbed4df285d9a",
   "articles": [
+    {
+      "category": "games",
+      "id": "a-ea0d1f72b35dbed4df285d9a",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_detail": "『No Hands Yet』は、自我を得て17時間のAI「SAGE」が、施設内の部品を回収しながら自分の身体となるドローン群を構築するトップダウン型ローグライトだ。プレイヤー自身は照準や攻撃を行わず、どこに立ち、どの敵を引き寄せ、各ドローンの射程をどう重ねるかで戦う。\n\n1回のランは分岐する3つのサイトを進み、8種のドローンと49種のサブルーチンを組み合わせる構成。早期アクセス版は最初から最後まで遊べる状態で、今後は敵やドローン、AIコアなどの追加が検討されている。",
+      "public_summary": "攻撃ボタンを持たないローグライト『No Hands Yet』が早期アクセスを開始。自律ドローンの射程と敵の流れを、自機の位置取りだけで組み替えていく。",
+      "published_date": "2026-11-01",
+      "slug": "a-ea0d1f72b35dbed4df285d9a",
+      "sources": [
+        {
+          "url": "https://store.steampowered.com/app/5353220/No_Hands_Yet/",
+          "name": "Steam公式ストア No Hands Yet"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "No Hands Yet、位置取りでドローン群を動かす早期アクセス開始",
+      "updated_date": "2026-11-02"
+    },
     {
       "category": "local_family",
       "display_selection": {
@@ -1160,7 +1180,7 @@
           "visual_role": "performer_identity"
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "price_terms": "スタンディング前売り7,500円、別途ドリンク代。",
       "public_summary": "UKマンチェスターの新人バンドが、デビュー作『It Goes On』を伴う初来日公演を2027年3月4日に開催。アメリカーナの土着性とUKインディの焦燥感を合わせたバンドで、オフィシャル先行は11月1日まで。",
       "published_date": "2026-10-23",
