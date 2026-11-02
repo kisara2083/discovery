@@ -83,6 +83,26 @@
       "updated_date": "2026-11-02"
     },
     {
+      "category": "games",
+      "id": "a-962e9a28a244b2043a2469a2",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_detail": "『DEADLINE DINNER』は、資金難のレストランを30日間で立て直す経営シミュレーションだ。料理の価格帯、客数、テーブル回転率、スタッフ編成を調整し、ランごとに提示される料理・シェフ・経営アイテムから相乗効果を作る。\n\n10日目と20日目には株主による評価が入り、売上と評判がその後の展開へ影響する。安価な料理で客数を稼ぐか、高価格帯のメニューへ寄せるかなど、同じ目標に対して複数の戦略を試せる。製品版に加えて無料デモも公開されている。",
+      "public_summary": "30日で売上100万ドルを作るレストラン経営ローグライト『DEADLINE DINNER』が発売。料理、スタッフ、設備の組み合わせを毎回組み直す。",
+      "published_date": "2026-11-01",
+      "slug": "a-962e9a28a244b2043a2469a2",
+      "sources": [
+        {
+          "url": "https://store.steampowered.com/app/4922230",
+          "name": "Steam公式ストア DEADLINE DINNER"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "DEADLINE DINNER、30日制限のレストラン経営ローグライト発売",
+      "updated_date": "2026-11-02"
+    },
+    {
       "category": "local_family",
       "display_selection": {
         "card_primary": {
