@@ -14,7 +14,7 @@ from urllib.parse import unquote, urlparse
 REQUEST_KEYS={"kind","schema_version","publication_id","sequence","operation","article_id","ready_root","as_of","article"}
 STATE_KEYS={"v","sequence","publication_id","article_id","ready_root","article_digest","dataset_digest"}
 ARTICLE_REQUIRED={"id","slug","title","public_summary","category","status","lifecycle","published_date","updated_date","sources","spotify","images"}
-ARTICLE_ALLOWED=ARTICLE_REQUIRED|{"public_detail","match_tags","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","media","world_card","display_selection"}
+ARTICLE_ALLOWED=ARTICLE_REQUIRED|{"public_detail","match_tags","categories","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","media","world_card","display_selection"}
 MEANINGFUL_UPDATE_FIELDS={"title","public_summary","public_detail","category","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new"}
 SOURCE_KEYS={"url","name"}; WORLD_KEYS={"key","title","kicker","concept","meta","variant"}; DISPLAY_KEYS={"selector_version","card_primary","detail_primary","detail_secondary"}; REF_KEYS={"kind","key"}
 IMAGE_ALLOWED={"url","source_page","relation","caption","mode","original_url","attribution","visual_provenance","framing","visual_role","quote_context"}; MEDIA_ALLOWED={"type","canonical_url","provider_id","title","evidence_url","source_url","image_url","visual_provenance"}
@@ -57,6 +57,9 @@ def validate_article(a,tax):
  if not re.fullmatch(r"a-[a-f0-9]{24}",str(a["id"])) or a["slug"]!=a["id"]: fail("article_identity")
  if not isinstance(a["title"],str) or not a["title"].strip() or not isinstance(a["public_summary"],str) or not a["public_summary"].strip(): fail("article_text")
  if a["category"] not in tax or a["status"] not in STATUSES or a["lifecycle"] not in LIFECYCLES: fail("article_enum")
+ if "categories" in a:
+  values=a['categories']
+  if not isinstance(values,list) or not values or any(not isinstance(v,str) or v not in tax for v in values) or len(values)!=len(set(values)) or a['category'] not in values: fail('article_categories')
  if "match_tags" in a:
   tags=a["match_tags"]
   if not isinstance(tags,list) or len(tags)>8 or len(set(tags))!=len(tags): fail("match_tags")
@@ -87,13 +90,13 @@ def validate_article(a,tax):
       or not key.startswith("world_card:") or not key[len("world_card:"):].strip()): fail("world_card")
  if "display_selection" in a:
   d=a["display_selection"]; exact(d,DISPLAY_KEYS,DISPLAY_KEYS,"display")
-  if type(d["selector_version"]) is not int or d["selector_version"] not in {2,3,4,5,6,7}: fail("selector_version")
+  if type(d["selector_version"]) is not int or d["selector_version"] not in {2,3,4,5,6,7,8}: fail("selector_version")
   ref(d["card_primary"],"card_primary"); ref(d["detail_primary"],"detail_primary")
   if not isinstance(d["detail_secondary"],list) or len(d["detail_secondary"])>4: fail("detail_secondary")
   for x in d["detail_secondary"]: ref(x,"detail_secondary_ref")
   for x in [d["card_primary"],d["detail_primary"],*d["detail_secondary"]]:
    if x and x["kind"]=="world_card" and ("world_card" not in a or x["key"]!=a["world_card"]["key"]): fail("world_card_binding")
-  if d["selector_version"]==7:
+  if d["selector_version"]>=7:
    secondary=d["detail_secondary"]
    if any(x is None or x["kind"]=="world_card" for x in secondary): fail("secondary_world_or_null")
    keys=[x["key"] for x in secondary]
