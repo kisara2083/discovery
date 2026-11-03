@@ -1,0 +1,50 @@
+/* Dense visual layout: preserve the neutral shell while filling desktop space with imagery. */
+@media (min-width:761px){
+  .grid.masonry-grid,#content>.grid.masonry-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    grid-auto-rows:8px!important;
+    row-gap:16px!important;
+    column-gap:18px!important;
+    align-items:start!important;
+  }
+  .grid.masonry-grid>.card,.grid.masonry-grid>.hero{
+    grid-row-end:span var(--masonry-span,1)!important;
+    padding-bottom:14px!important;
+  }
+}
+@media (max-width:1180px) and (min-width:761px){
+  .grid.masonry-grid,#content>.grid.masonry-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+
+.card .body,.hero .body{padding-top:12px!important}
+.card h3{margin:8px 0!important}
+.card .summary{
+  margin:8px 0!important;
+  line-height:1.7!important;
+  display:-webkit-box!important;
+  -webkit-box-orient:vertical!important;
+  -webkit-line-clamp:3!important;
+  overflow:hidden!important;
+}
+.card .body>a:last-child{padding:5px 0!important}
+
+a,a:visited{
+  transition:color 750ms ease-in-out,opacity 750ms ease-in-out!important;
+}
+a:hover,a:focus-visible{opacity:.5!important}
+/* The slow fade is a text affordance; imagery itself must not wash out. */
+a.visual-link,a.visual-link:hover,a.visual-link:focus-visible{opacity:1!important}
+
+@media (max-width:760px){
+  .grid.masonry-grid,#content>.grid.masonry-grid{
+    grid-template-columns:1fr!important;
+    grid-auto-rows:auto!important;
+    row-gap:36px!important;
+    column-gap:0!important;
+  }
+  .grid.masonry-grid>.card,.grid.masonry-grid>.hero{grid-row-end:auto!important}
+}
+
+@media (prefers-reduced-motion:reduce){
+  a,a:visited{transition:none!important}
+}
