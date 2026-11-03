@@ -17,7 +17,7 @@
       "before": {
         "public_detail": "『No Hands Yet』は、自我を得て17時間のAI「SAGE」が、施設内の部品を回収しながら自分の身体となるドローン群を構築するトップダウン型ローグライトだ。プレイヤー自身は照準や攻撃を行わず、どこに立ち、どの敵を引き寄せ、各ドローンの射程をどう重ねるかで戦う。\n\n1回のランは分岐する3つのサイトを進み、8種のドローンと49種のサブルーチンを組み合わせる構成。早期アクセス版は最初から最後まで遊べる状態で、今後は敵やドローン、AIコアなどの追加が検討されている。"
       },
-      "review_digest": "685efccbf15f1f67890ae91b9a96b5e50b5e5485ce2ed58a353965a0b6d737c3"
+      "review_digest": "df0ac8d8f263179d5e59d53696cab3c73c8ba3dc18acfc67d55d2edcb245651b"
     },
     {
       "id": "a-2eddf9bbfe71fa8a4a0e7b42",
@@ -28,7 +28,7 @@
       "before": {
         "public_detail": "『Spell Code SlingerZ』は、2〜4人で遊ぶローカル／オンライン対応のパーティー対戦アクションだ。戦闘中にCode Weave状態へ入り、時間をかけてSpellcodeを準備して保存し、必要な場面で発動する。素早いコマンド入力とは別の形で、技をどう仕込むかが対戦の読み合いになる。\n\n各バトルフェーズの間には最大9種のSpellcodeから1つを選び、同じコードを重ねたり、異なる系統を混ぜたりしてビルドを変化させる。画面と音楽はY2K風で、R&B、EDM、ハウスを軸にしたスコアが使われている。"
       },
-      "review_digest": "02fa4ae82bd9c134fdee1ecddc9cbffbb7afae9212455d8b21a3284b7b3e1399"
+      "review_digest": "7f1205c2609ac0e1cf0e1d3ec13039f0ffe485b2018b8d4077063cc404858f64"
     },
     {
       "id": "a-962e9a28a244b2043a2469a2",
@@ -39,7 +39,7 @@
       "before": {
         "public_detail": "『DEADLINE DINNER』は、資金難のレストランを30日間で立て直す経営シミュレーションだ。料理の価格帯、客数、テーブル回転率、スタッフ編成を調整し、ランごとに提示される料理・シェフ・経営アイテムから相乗効果を作る。\n\n10日目と20日目には株主による評価が入り、売上と評判がその後の展開へ影響する。安価な料理で客数を稼ぐか、高価格帯のメニューへ寄せるかなど、同じ目標に対して複数の戦略を試せる。製品版に加えて無料デモも公開されている。"
       },
-      "review_digest": "fbf444549a3f1ae7dc7d67521c7cab1193f40a204e174adc11cd8d00a30f17db"
+      "review_digest": "38b6a7b4bd445042e30c7666ca14ecb6d75172a8ccfb05932adb401eec6a4355"
     },
     {
       "id": "a-5a02e41cc4b925590a05a34f",
@@ -48,7 +48,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "75fab6d4b93ae651373a36a70e86bb1fdfde7f00624ea61e943abff15af5fbd4"
+      "review_digest": "13d382e24f9313cb30309f63b042e7ebc184eea569ef62f6b6b25b966299709a"
     },
     {
       "id": "a-580c2384c103eae8ef677a35",
@@ -57,7 +57,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "f4db3cff099fcd004bb20f6b486acc046a8426efc399ebec22df2763720dcd47"
+      "review_digest": "9319093d94ad753079cda9c3ff2596cdd9e2da86e676cd0abd258b550c9c9743"
     },
     {
       "id": "a-41528d9ac7f7718b8c48d96e",
@@ -66,7 +66,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "79c13fc630e46838150ea6c7170bce38c5fd7512f506f91b1cc8357a21544626"
+      "review_digest": "b8910bedd6d98d33da88c944f0a61a89e1387e9ba56041fad6b99a5f9183f1aa"
     },
     {
       "id": "a-af3b63edbaadc8b5066db458",
@@ -75,7 +75,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "d3be9f3ad144ed06bccae7528ee5d24ad979c66cc85ba0ecf2506bb7028b4b14"
+      "review_digest": "8a34819e6423ce7db360b320253e2b014aeedc4a7fb2f28f90e62706685fc456"
     },
     {
       "id": "a-c3baf4abe58f72dfa3d78d34",
@@ -84,7 +84,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "e1152b34fa3b099701b0b662ca2cfb346c7515e05dda0abcf25f4278fd3255b3"
+      "review_digest": "278ce7dc01c368e1e2133233cb436548c1267c4dfceb67cefc781748d543d2d1"
     },
     {
       "id": "a-28f7bf4d6f28fb24bdad1d93",
@@ -93,7 +93,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "90200673dadbeb06cce0006bc98ab381d73428acf120b8618f065e29127115a9"
+      "review_digest": "07d84979f9a193118303c8f28be8afdfa1bdccbbb8d70e4c6ec34ca226a2d22e"
     },
     {
       "id": "a-788feea6a14bbb75e319f0c5",
@@ -102,7 +102,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "05e57872e27fffaec624b4c4ea842ef5a7ef76c54c352f82660ecc8fbecacf6c"
+      "review_digest": "f411f278404a347a73f9dc80a8da5668d18aef700a299c2f2c088093b26de83e"
     },
     {
       "id": "a-09d346569af11236a08ed9e6",
@@ -111,7 +111,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "42b165cba226cc6b97c836f12a1bead13b3994c86878b3ecb57e43b265078464"
+      "review_digest": "9b83fbda3c0beecb1e0dad367ba687e15aa0e8d8e67dbcfc3d72e95763660647"
     },
     {
       "id": "a-bff53dc12f057cc436dd8084",
@@ -120,7 +120,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "881aaa2a673fcd49b56356c56c58e846c145cbd878667ecd321e574263eb82a2"
+      "review_digest": "5bdf6af03115f7047a79bf20d99fea855844bff621bfc683763286eca94aed16"
     },
     {
       "id": "a-7cab4889792dbc44762ce100",
@@ -129,7 +129,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "03255b6c84d7ec0ee5bcf792884ce8a4e348193ec92841f85c723e5f64815e37"
+      "review_digest": "b28d12df2bd899970cbb400ccdbd1b43be09e9e82e4236957ce3456791ee4a64"
     },
     {
       "id": "a-d6412c2bfc9c27ff8f21647d",
@@ -138,7 +138,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "6aca3cecd44d05812de380391ca091285ce239ff04e81292bda8f60782571c4d"
+      "review_digest": "d791140299eafe0129c0d4bcc0093198bc21995e3e2a6d646c234b384cedebb0"
     },
     {
       "id": "a-b8dfb646c2269732ef1010b9",
@@ -147,7 +147,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "84ac68b106fe51c0d2c5c8bcd818eb0309ebc26054d898db184fc79429a68329"
+      "review_digest": "7a7b7efc09bbdbb38d3983840d7220a2dea4ee67b02bbc3269ef4d19a3bd43f4"
     },
     {
       "id": "a-88fd21518a52979e37a2319e",
@@ -156,7 +156,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "55db8c936dbb1e80857861149026c210ab2b0dd03f593e20d00f82769ac6acdc"
+      "review_digest": "9d22a55e288073f24d841e774e4d7a66f0f4f14209ddecb701547a6a26688e69"
     },
     {
       "id": "a-09718092d27dcc1214b5d68f",
@@ -165,7 +165,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "64da61b02304bff5008888eb8292da33a618ff8576968150588e212fdac24180"
+      "review_digest": "63210860502a73041d59a78bc5fda8232a62e8ae57573526aa6902d4c941821b"
     },
     {
       "id": "a-4e9f88e6c86745e482f4cdc5",
@@ -174,7 +174,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "cc1377cd26d646d4c0cbcb4dc96746bfe76a6826a0567a7e42b368b6d86dfb41"
+      "review_digest": "a052e06f59d6facbd4184a8d476e5ca45722f902a6ea3c740d6b1b316c37b8f9"
     },
     {
       "id": "a-3799871fbcf280c992a27c4d",
@@ -183,7 +183,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "56e382039f91d68973e90de99b3a028332a626d72d1bc60165d58a9294ee2c4e"
+      "review_digest": "3a7035b4bffee972ec20bfa9632200ee713afb8f3c14affb9664cfb18ea39604"
     },
     {
       "id": "a-e4f027536e9193f6eafc7f44",
@@ -192,7 +192,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "4ce4c025b0615afdb6ef193a19e66655ed2911a54c0d145a09545c082e56b385"
+      "review_digest": "2033e5c869639f708c2c907b30e4a6c7b580fd977f46f4476eb5e3c491c5cbec"
     },
     {
       "id": "a-6b2410cf19c11c79326fea09",
@@ -201,7 +201,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "5a05feba656a5a665d1f88178502645cb6f4bd37b5e8a4da3ebf8e8bb0f432a2"
+      "review_digest": "03e82169f2ee287b5fe4a60a743347b4c5d259e0a01b337ccb554bc7755cb058"
     },
     {
       "id": "a-21e41bf05c6acaaec57047d8",
@@ -210,7 +210,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "c7895fa6b1bdaf00992d12fb60663121521ce83ead16f0c03598f885420c84e6"
+      "review_digest": "0ff1ba3961a03c510c7ac600ec6d6ad67f9997c623ab9926279607f6091b4cdb"
     },
     {
       "id": "a-5e5695a6bd1c08901ca65c6e",
@@ -219,7 +219,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "e3f8f91816c1cff345dc99473d07e9e626c651a309a88ddec180b1b65bf993cf"
+      "review_digest": "0ee2c459928a7e1c1a7564377948264bbf697c34e86c70fafc4c15c158e04e40"
     },
     {
       "id": "a-4b8263b68f119c80fbbd78ba",
@@ -230,7 +230,7 @@
       "before": {
         "public_detail": "高校の倫理教師・高柳が、生徒たちの抱える問題に倫理の授業を通じて向き合う教師漫画。抽象的な思想紹介だけでなく、各話の具体的な悩みや選択から「善く生きる」ことを考える構成になっている。"
       },
-      "review_digest": "f32b094c90aa10c424192f5baa5f08a88011a2a203c6e5c1da84b442684ef550"
+      "review_digest": "271ddaccf45c0e2abb9cab5ecd9b6d7242f5848c91d70e4ece768a8bb2930c6e"
     },
     {
       "id": "a-bf0f944c0630fc89e8180cbe",
@@ -241,7 +241,7 @@
       "before": {
         "public_detail": "人生や自己を一つの「物語」として整理することの便利さと危うさを問い、物語を相対化する手がかりを「遊び」から探る哲学書。後半ではゲーム、パズル、ギャンブル、おもちゃといった形式を通して、世界理解や生き方の別の捉え方を検討する。"
       },
-      "review_digest": "74e7ea6cac2eb473ede279bdbfb0a475f5a2f236f4b3f4e151c41ed306905acf"
+      "review_digest": "fe170d4fae87860269c801927779f8c58166b3d5e8829d0226e393b7f311f43c"
     },
     {
       "id": "a-f1e0215c8983d548b784c24f",
@@ -252,7 +252,7 @@
       "before": {
         "public_detail": "鍵盤のDOMiとドラムのJD BECKによるデュオ。ジャズの高い演奏技術を核に、ヒップホップ／boom bap、IDM、フュージョン感覚を高速で行き来し、変拍子や急なテンポ変化を遊ぶように組み込む。"
       },
-      "review_digest": "b0748a2d2b06844c23ba7254368ecae6db70e77caae608ea0b4382c94af51eac"
+      "review_digest": "776ba0cadd548cf9c0c8d3f966156cd1f75f3fb1b9bff686219c5f1557be9c09"
     },
     {
       "id": "a-7f8a61121952703c2d1802e2",
@@ -263,7 +263,7 @@
       "before": {
         "public_detail": "東浩紀がオタク文化を手がかりに、物語消費からデータベース消費への変化を論じた2001年の講談社現代新書。刊行時の文化状況を扱うため、現在のサブカルチャーの直接説明ではなく歴史的な批評として読む位置づけ。"
       },
-      "review_digest": "9d64d39a4e83f56b53659743938de7a132c77ba11f4f2b0c20600d44e5bc81b4"
+      "review_digest": "3008e4881d438a6e4d66857a08d70d5c2a40dddbd9bd2c758cc050599dbec689"
     },
     {
       "id": "a-7a2546ed21a249e0b890eb78",
@@ -274,7 +274,7 @@
       "before": {
         "public_detail": "luvは2003年生まれの5人で組むフューチャーソウルバンド。90年代〜Y2Kのネオソウル／アシッドジャズを軸に、ジャズやヒップホップの影響を取り込み、バンドのグルーヴを前面に出す。今回の名古屋公演にはKan SanoがBand Setで参加する。"
       },
-      "review_digest": "384ae2d4276deaff4efb0f20971e66af79497a4cb2e33b673bf1b5bf2cba8279"
+      "review_digest": "5a7f44be5ebb04f6521d3a461dadbbecdb23bbac61ba9c5403fa16404bc25010"
     },
     {
       "id": "a-3e2ca912689a3725746b5e92",
@@ -283,7 +283,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "52dae2447fb77bd86f0249cf2ad6a09aa348228bcd9591184b74f93bb69f41a2"
+      "review_digest": "ccbfe6704cfc95177c75cf19349e90d4c681c14ca804675a9f75a520ee64cdb2"
     },
     {
       "id": "a-c79abd6fce19922533af23d3",
@@ -294,7 +294,7 @@
       "before": {
         "public_detail": "無限に続く地下通路から脱出するため、周囲に「異変」があるかを見極め、異変があれば引き返し、なければ進むというルールが中心。見落とすと0番出口へ戻される反復構造を映画として組み立てている。"
       },
-      "review_digest": "b16f3bb55f53f60797d681bb323d1c16287604686b6e0a375641d15924cebead"
+      "review_digest": "db76cf8bf8888b55ee7f6645bdfd928035615396f6eb8ef04aa8786682db6af9"
     },
     {
       "id": "a-ab87d2a4f1a16501179128ed",
@@ -303,7 +303,7 @@
       "body_changed": true,
       "match_changed": false,
       "before": {},
-      "review_digest": "0e5a5dbea4b20c7a23dab5050e2fbfb3b7573d2026c92a9ad4dca314205da786"
+      "review_digest": "6d9d1b1b794b96aac37e9ee041b00eb83300a1325ed19993fcbeb333e433aae9"
     },
     {
       "id": "a-bb64ec8be3ec294db2858d31",
@@ -314,7 +314,7 @@
       "before": {
         "public_detail": "ゲーム機を実際に音源として使う電子音と、ファジーなギター、ドラム、歌を同居させる4人組。近作ではチップチューンの印象だけに寄らず、バンド演奏やグリッチ的な制作を前面に広げている。"
       },
-      "review_digest": "254ba58bcfb399e84b507deafcd5b60714c3468abd138037dba389f9164fb3a9"
+      "review_digest": "8a24bfde7b67ce42ada1867a26046dfff41f25b629f6e3bd1b85bfb3496b6054"
     },
     {
       "id": "a-4269498568372099222789ff",
@@ -323,7 +323,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "2d6e9d346c2e34f61fa216d9e2f90df629925d7d3f2989ff7a37fc32e4fb20f1"
+      "review_digest": "e5f0b95e1895d78f7cc1dc79ed5c663eec8b00951503875d4e2e97eb2f92f7d7"
     },
     {
       "id": "a-94ea44aa2f36a9e3ed6a8821",
@@ -332,7 +332,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "3f9faca8e72799afa8736858539225744c8840e678686098585d9de909a5c501"
+      "review_digest": "b4cfbc19e075d24292c72276c41d968844f4e746ab2461f4f98274790b85c762"
     },
     {
       "id": "a-55bd01f2c955cbbf8af73b2b",
@@ -343,7 +343,7 @@
       "before": {
         "public_detail": "センターで保全している生きものや収蔵標本を特別公開し、市民団体や教育・研究機関の展示、体験型ワークショップ、ステージ企画を組み合わせる催し。中高生の活動発表『生物多様性ユースひろば』も同時開催される。"
       },
-      "review_digest": "ce8615d6aa053e433df5a5e86ae8703e5ad4afa75d3a8c9292f5fcb857b8426c"
+      "review_digest": "b43f76c3887dcd5a0b971aacaa61d1ef7b903a5a4960411145a55d909b9d0255"
     },
     {
       "id": "a-fa1b69d48055b3fa36f39d48",
@@ -352,7 +352,7 @@
       "body_changed": true,
       "match_changed": false,
       "before": {},
-      "review_digest": "54ed3d9b2e10eb24dae0dbd01dcab7ee69f5ae349d2536739e7246e9f35cab85"
+      "review_digest": "133123f86fe735b3f6550976855eac3f9c58e5a276a6692f5f209da98ba76b2a"
     },
     {
       "id": "a-abfc60bd449aff8c7f16c3fd",
@@ -363,7 +363,7 @@
       "before": {
         "public_detail": "宇宙船Von Braunを舞台にしたFPS/RPG系のSF作品。探索・戦闘・キャラクター強化を進めながら、変異体やロボットが徘徊する船内で暴走AI SHODANに対処する。25周年版は原作を現行環境向けにリマスターし、クロスプレイ協力やMod対応も加えている。"
       },
-      "review_digest": "59b7ace502e305da9fabdbe20f3a0848a70141bb95e974e4e438313e03fe4120"
+      "review_digest": "613e06ae910da80c2446a925c0d01d13bcc1d17346c916b5921146931bb8e181"
     },
     {
       "id": "a-14634d00af2d55edb8b71747",
@@ -374,7 +374,7 @@
       "before": {
         "public_detail": "ダブリン出身の5人組で、ポストパンク／オルタナティブ・ロックを軸に、荒いヴォーカル、推進力の強いリズム、ギターの反復を特徴とするバンド。初期の切迫したサウンドから、近作ではよりメロディックで実験的な音像へ広げている。"
       },
-      "review_digest": "1fd132726edee519916ef151fda16840bd6e99d4192566af9ed42efa1eb10d9c"
+      "review_digest": "05cfd13e4257623aaa7086e00fa901638ffce1f9f119c09af2d8f9fe55948884"
     },
     {
       "id": "a-ebc179110aa9743d57a4a853",
@@ -385,7 +385,7 @@
       "before": {
         "public_detail": "1980～90年代前半のゲームを中心に、ハードウェアやゲーム音楽、レトロゲーセンまで扱う196ページのムック。2019年刊行のため、入手方法などは現在の状況を別途確認する必要がある。"
       },
-      "review_digest": "212294e9b6b9fdf471bb5a200cd60e52e0f27dd01004f6791dbd49a1a241e776"
+      "review_digest": "bfedd75fa4e8facdec99828a07a63e74a605d3765a56402f13cf5a712978eb48"
     },
     {
       "id": "a-7245382ffb18e02fc4a11de4",
@@ -396,7 +396,7 @@
       "before": {
         "public_detail": "強化人間やサイボーグたちが、奉仕活動として惑星間列車を清掃する物語。河野丼が漫画を担当し、亀山陽平が原作・監修を務める。"
       },
-      "review_digest": "046c2c893ec2b76f19969928103d31ecbdeffdd096ed84b8b2e5c44a3529ff70"
+      "review_digest": "aab0b8c7cf09f6d477b048b5f4cf92a0ab1840b229292b45bdd471a8ff1ba7d4"
     },
     {
       "id": "a-7ef78120e48b3ee43f526c4c",
@@ -407,7 +407,7 @@
       "before": {
         "public_detail": "ドラムのChris Dave、ベースのMonoNeon、ギターのJustus Westによるセッション。東京のほか横浜11月17日、大阪11月20日の公演も公式ページが案内している。"
       },
-      "review_digest": "fdd24d0d130525cfe5d1524ed1bc91ba20a493a1db90a8d09393d7c5f92798cc"
+      "review_digest": "f3306a8ae5adc2e5dbfdb8ff4e349adeaed020a4825c02b40b09cc5fa5f45f4d"
     },
     {
       "id": "a-52602b586fedb6c0bda0a5c0",
@@ -418,7 +418,7 @@
       "before": {
         "public_detail": "ニューヨーク出身のダダリオ兄弟によるロックデュオ。メロディとハーモニー、変化に富むソングライティングを特徴とする。東京は19時、京都と大阪は18時開演。"
       },
-      "review_digest": "5bfe77dbcdc928d96e0a76ff08197ed3eae778a48a76251cbc742978e470521c"
+      "review_digest": "ec7f363c57293142c0bcefbd61c82484690548d4d171231d577d6c4236bd3244"
     },
     {
       "id": "a-5206c774fb880f206b848be2",
@@ -429,7 +429,7 @@
       "before": {
         "public_detail": "luvisは京都出身のシンガーソングライター。ジャズ、ソウル、ロック、フォークを取り入れたサウンドと、表情のある歌声を特徴とする。「Higher」「Oh」などを事前に聴いてから公演を検討できる。"
       },
-      "review_digest": "83259efdbee061c5e9b26ff6f2ffbe3c7aca792b5912db316534b53b6dd0caa0"
+      "review_digest": "8f21ebfdeab57165df61ee144421a60eca6fe77fac556bb0d84a024aa29b5619"
     },
     {
       "id": "a-af9eca4647569859e50950df",
@@ -440,7 +440,7 @@
       "before": {
         "public_detail": "国内外の音楽・芸能を紹介する橋の下世界音楽祭の2026年開催告知。出演者・券種・キャンプ・駐車場などの条件は、2026年版の公式発表を確認してから計画する。"
       },
-      "review_digest": "d8b7d637e7a1d83bd16cd899b2f8487c50b5c718090b0e486f4270283da96c9c"
+      "review_digest": "ee0e3af868ec732096e3d01663dfcb250ce1818d709d6851058192c60cb664b3"
     },
     {
       "id": "a-18925d143a8764eec4e87c2d",
@@ -451,7 +451,7 @@
       "before": {
         "public_detail": "公園の音楽ステージ、地域資源を扱うアート、フードマルシェを組み合わせる催し。一般エリアは原則無料で、音楽ライブなど一部コンテンツは有料となる。"
       },
-      "review_digest": "3810d24927b71c68bb7950f98a050c5047a76dea69c89f9f69ba5c1c1af15f60"
+      "review_digest": "8e951e56eaa3a82e847596069318c2bb10f245cd22fdc3be1bded207ef9b68a3"
     },
     {
       "id": "a-8aab2a3f01815c412c6f3854",
@@ -462,7 +462,7 @@
       "before": {
         "public_detail": "世界が球体として存在し、それを持ち運びながら複数の世界を行き来してパズルを解く。LIMBO・INSIDEのリードゲームプレイデザイナーが手掛けた一人用アドベンチャー。"
       },
-      "review_digest": "aae1a9af516556ac9393816c363dbb9868908f304a108cf3a20f61dcdc1bad4e"
+      "review_digest": "a8437cbfe806e4191e3a41953ed59ec9c83a0ec6f7b4cdee0128ed87cc45f97c"
     },
     {
       "id": "a-561d45a0bc691307ef22b76b",
@@ -473,7 +473,7 @@
       "before": {
         "public_detail": "探偵として人物に話を聞き、街を調査するロールプレイングゲーム。独自のスキルシステムと対話の選択によって、事件へのアプローチや主人公の振る舞いが変わる。"
       },
-      "review_digest": "a9a0af517d3569a926524283744074922341bc39f31832e848c487afa64aca6e"
+      "review_digest": "9745c30f7d08d13a1328a72358769db8ba22ef1c4d00cbc9c2c41eeeb539ab26"
     },
     {
       "id": "a-3c8dda3bcfcb40de51cf9d4c",
@@ -484,7 +484,7 @@
       "before": {
         "public_detail": "3.5mmステレオミニ接続、約1.5mのケーブル、約165gの有線モデル。ブラックなど5色が対象となる。"
       },
-      "review_digest": "b533313e23d0482a8cfca9399f78b875926c9dd6a3a96ffa9499278c719f14a4"
+      "review_digest": "3310a84d6cd6e23847ea18255a615ea809f1ffc542383687e28a41fd7098ab97"
     },
     {
       "id": "a-26d59816809de415dba379b0",
@@ -495,7 +495,7 @@
       "before": {
         "public_detail": "JB型とPB型のピックアップを搭載し、バランサーで音を調整するアクティブ電気ベース。"
       },
-      "review_digest": "0ab79a4223aa50e1d297ca40f6c47b27f47df9a5d994a21058c5feaa65fbdeaf"
+      "review_digest": "11b63c6b32eba2d1987c351095014d248a17ac031fd86d7518ab7039b82e0fd2"
     },
     {
       "id": "a-047f457703c08d1b21bdb4f7",
@@ -504,7 +504,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "939066189796602fe3bf14245493fbe5f4cbbafd8a223f6c0077705ef380182a"
+      "review_digest": "9837a3bd28d8759bbafd29a060bca9a8f86e5a04136788a175ec21c11209a799"
     },
     {
       "id": "a-8006f3dee8380053be8def97",
@@ -513,7 +513,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "4db990b1e3161fc875b7988973dddbe07d27a58eeb7c2113b088aeb43b20f35e"
+      "review_digest": "984d942ee390157252e2ea32cd319aece603aa647e058a6efdb0cff147f651d2"
     },
     {
       "id": "a-098b209211b9ec8626ef9dd2",
@@ -522,7 +522,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "224f187dffba7f6660011abdb07b04a424065367aea47606312ddca9ff2b5b95"
+      "review_digest": "ef87f28561246800a347542ececf8388b40ddb622ab65dc3d5efb415bdbdf7e2"
     },
     {
       "id": "a-86fc0b5635b4b6707cbba883",
@@ -531,7 +531,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "3787c3ebe84669a59803599f458efdd5fd80711064a568c4ae8d9b370a73fab4"
+      "review_digest": "dadf724c6232acb43c4a95db0ee19c3d229cc2f3a2d54006d69f9dc139776b11"
     },
     {
       "id": "a-73f6d065e7f625b80ec330c2",
@@ -540,7 +540,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "af9c7d7eb55cb9e083683d01b8cf8aa1727bc0c83012cb4810c9e798fde22870"
+      "review_digest": "0025253570dd3c1104f4fe1bf46a7d462f09d4414b960fc81af965d3ff33640b"
     },
     {
       "id": "a-34e2ad0ca9a583847b20abfb",
@@ -549,7 +549,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "052da39377cfd16372158ec60fc029453a58da1ce8d9a37d04f2c957cec74ee4"
+      "review_digest": "56f60879508116b13b6a6fa67df4cb7484f57e8408d53c7772baf0dce586db33"
     },
     {
       "id": "a-6ac2fc2618a7936ad3de9e97",
@@ -558,7 +558,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "fccd6af0b154b2becf964e0fa5e04e5de043a27a8ddedd4fc1633ed101bf4b46"
+      "review_digest": "2ad54995e3e9a7b6de8670fc17a1247e46b80f3bb035d8f7b402e9d8478ef7d9"
     },
     {
       "id": "a-6096dcf06c396ad4433514ee",
@@ -567,7 +567,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "fd50d2681b23ed565fef38e89e609cc4b7cfeb85979ed81626b9eea8bce5ae35"
+      "review_digest": "e222a46e96b26c444d3da27a1a6832abc0b3e118fe16af4afa06927bfa33e6e1"
     },
     {
       "id": "a-11beb44feb226d552a202143",
@@ -576,7 +576,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "6e7f75d3c9578750597bfe64a5d575046982cd3c3b0d3247b4c1b3c5dd0fefa3"
+      "review_digest": "746b855187f9b89ae92f8a7dbad3f09d23c1f346ef91120bbad17e5d617dde05"
     },
     {
       "id": "a-bd47266a5d530a1f56ba313e",
@@ -585,7 +585,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "7be4b364df2a3136f8038e85ffe8f05c81787d4479c41184abad2d746154bc8a"
+      "review_digest": "6b10e0e4c0158308bde05ab078637060d240fdac71462cf4e6b347ca02b52aa2"
     },
     {
       "id": "a-c2508f7155a0f0dd0a7a3bf7",
@@ -594,7 +594,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "0bab5b211784e1d99c726ac2a57397008f80cab4df9e0845490269e148d8e9ee"
+      "review_digest": "af9fb36ca96aa4cb8e6ff91e88a73cd4ad29858cdf1a57e57851ef24ae730cda"
     },
     {
       "id": "a-a898a1a96de58ae58fe61d68",
@@ -603,7 +603,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "714b55bb091af09ca04c2a41b02e94fc783d67b1ca890ace64be7a03efa52015"
+      "review_digest": "a6b148a8f2bb88d02cd5e80abdb79dee30484bd4d702dc6bdf2bd7f7846a8fe7"
     },
     {
       "id": "a-e6fe160577056a5346075362",
@@ -612,7 +612,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "1016e2c1306a4badaa05100c0f507c3fc63348e6a3e200be713c7b137e11bc90"
+      "review_digest": "947efbe8155f8fe19a38a87811b9ff0d7785dc2a9aa90015ffd9733d58262104"
     },
     {
       "id": "a-f5db1b40b98edb5f6b594249",
@@ -621,7 +621,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "fe46855bf4c71543c7a65c11b2995a81c9a3ec5cecee679b2111eb306dc5bf53"
+      "review_digest": "5666237a3d03f6f55108548433ac5682c9ba67a19b2150b573e689d321937ed3"
     },
     {
       "id": "a-97866892876150625b4ce595",
@@ -630,7 +630,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "58c46001895c8ef26044e88bb8a80ba5db6553a5fce0a9ca3db6ba6cdc30991a"
+      "review_digest": "f83313ce1efc3e3745131348f506f838a1e692d382df8bff6c7e3b15e8aeaaae"
     },
     {
       "id": "a-3e3cdf1b4dee90a128396a7e",
@@ -639,7 +639,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "5a1900a9af479acd998337433237e47174d4a61be6c729d449b8363677cbe593"
+      "review_digest": "2bc706ed7fd20d550143220fb097aec84fd95c2c84aa4748597d434243c205df"
     },
     {
       "id": "a-048ccfa85b33fc86a5bca373",
@@ -648,7 +648,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "3d006fb5a292e21ffc647c11d0f7fbd3a9f51afb6908902119cfde4cd4b8d2a1"
+      "review_digest": "cc318849a01f700ba2cf042a7c5fd5a07fe43064504d2535cb8affb6774e67f9"
     },
     {
       "id": "a-483c54bc23908a5dbbb0f1d5",
@@ -657,7 +657,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "b8238ee233db76d955b755f9237265667af341c37274c6bbf6c821eafcc19f19"
+      "review_digest": "7ec949670970e33d8e2b66145b4a2ea54a0f59203a2eea280c553aa1378d3023"
     },
     {
       "id": "a-a6798601ffd4d9dad14392c1",
@@ -666,7 +666,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "7eb2b8451c3b4d97c32a7da8d4663c68a6fa62d0aaddcbff01163021d50ff3f2"
+      "review_digest": "b3b5fe35944dea0443642d81f36071b4aa01d4743d25c83376915fb20143f90a"
     },
     {
       "id": "a-000f8527b956a63f74c8b376",
@@ -675,7 +675,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "2b1904a543a61117dc5a7c8310e0ee2857deec4f15a936322c6474b53dc2d8c0"
+      "review_digest": "fc34b234e20a12dbe0600cf1afa13369369fc4c2f5bbe216cb55dd771d553979"
     },
     {
       "id": "a-7f7810d7e4dba2ab87344f71",
@@ -686,7 +686,7 @@
       "before": {
         "public_detail": "Ryan Lee Westによる電子音楽プロジェクト。IDMやglitch、danceを背景にしつつ、シンセの質感や余白を絞り込み、電子音を有機的・人間的に聞かせる方向を追う。アンビエント寄りの広がりからビートの強い展開までを行き来する。"
       },
-      "review_digest": "693fef35b632d8d5f591c341e67bee77eae1ccf2ad4a89591a46561ff27c025f"
+      "review_digest": "a32024bf92d4843e81de5ccfe60975b4c1ecb3165a59e2de0439327294c25c6a"
     },
     {
       "id": "a-86dd52b5fca063f5aa32ac65",
@@ -695,7 +695,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "a576ff6537c5926d02206ae820d68e689166cf5a2bbd5758347ece65d569c11c"
+      "review_digest": "00a43205795fcb00d6e7c176f7a7602a63865b2cb9b2835a30814096ae04d049"
     },
     {
       "id": "a-01a7d973657ccc68fb70ac10",
@@ -704,7 +704,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "72ea12acd8693cf5bdde71ac8a89e0cd5ccbc36d5751c94524bff2b37d74c7cd"
+      "review_digest": "396bb455fe35fadb6f6ee3a1fc88766c6996f62435f2efc3729d48cb4930f46f"
     },
     {
       "id": "a-7d5d68f7aa7a73c8a9346563",
@@ -713,7 +713,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "5841221c9bb5794c436291823aca8d3db79105add386e58db9d6450e58e55bcf"
+      "review_digest": "b9d429a7f39712093cc34011de47036fb4655ac059add7c56efef5dcafe1f4b7"
     },
     {
       "id": "a-678ab5f9a35dc5113e312a83",
@@ -722,7 +722,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "adb6f3bc38571752abe3f302a0d1d0f766389fdf983a2633cb74505a40317d8e"
+      "review_digest": "1f65bd4ebb92b03fcc76030c8294a186f18533175cece62d788280ca9fd36805"
     },
     {
       "id": "a-9a67a8f724ad3f3ed7a12da1",
@@ -731,7 +731,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "cf4c0a81178463e95d0c34daf6ff804b2881dd45c2fd7a6b3cc98f8fc022c165"
+      "review_digest": "b9a5c6a2a4464c56eda8a765bf61d94f1425d01ce0142128574ab54182cfb922"
     },
     {
       "id": "a-f6496eb4c10c514b08d6d898",
@@ -740,7 +740,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "dd318c0768d7f9aa9386ae30f0dc51a6e3e0d4575f9347b52bc29841e8c55e67"
+      "review_digest": "780166e1a3db1a1896a3cd40f720d9818cb928a81031b5f5661b80ea2d0daf9d"
     },
     {
       "id": "a-c2744609ecf5b11db1d8b887",
@@ -749,7 +749,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "4e9444b365d6bee98d8efa76fd2e603b07d088bf0cb3f7417d2064b3df5b03cc"
+      "review_digest": "bf25c6f96e0dd730572a18e1412d2c208b2af278d35aa324c5d95356fdde785e"
     },
     {
       "id": "a-9f879e56cf93b526236eb9ff",
@@ -758,7 +758,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "6acf0a895ccc359f20966d30cf76842605f9ce225b402000623c32a11fcda8d4"
+      "review_digest": "c66a34eb0cf60c648a7b276ef8b2f59be8798e9ea94185ab6fcbce8d680f3d4d"
     },
     {
       "id": "a-61512f53484a77c99b26447f",
@@ -767,7 +767,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "9965c7bb0340128db6acbaaaacc10f553abc5183ce8831360dd2a7acf0dcfec2"
+      "review_digest": "5f3504ecc04570ec1fcb0e9b5172ee602def6aed5c539a8f62b5b36abdf6d36f"
     },
     {
       "id": "a-3cf54000d810efd7e77b22ac",
@@ -776,7 +776,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "165a6a67a1e2c164d3f5e6514944a331a1435ab4e978450a8b13db2eafc51ac6"
+      "review_digest": "0a19049d11cc09be8c116b599f96a84d053297da40a1259ec7a05c2743051656"
     },
     {
       "id": "a-b002eefa738f842163436c80",
@@ -785,7 +785,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "c7ab81563ec8fe06c0dfca76d1173821b26a79057896f01e31b9916dc2b0011d"
+      "review_digest": "6ef43b4702863f08837c260c937824f2274fa98f61d0b50227c5fd482874a086"
     },
     {
       "id": "a-e9c2a77708a2edbbca20352e",
@@ -794,7 +794,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "e17db7f81370b5a71346dd314e6b235e6f073dbf05ca5e9f5d3ec85d960faf37"
+      "review_digest": "8dcc354237b699fdb1a1fb9d70c0d931677fd76b5762e437034fa8b0b10c183f"
     },
     {
       "id": "a-c0297c14f885cd3075dddaee",
@@ -803,7 +803,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "3622365e3e6d08fd02f8e3ac93afe782325fee55c52c7d31ece01e18a30ee9a2"
+      "review_digest": "32c54530aca554e7b23fe1174ebf556e134e66f7b9aea6e31a6d357b2e702995"
     },
     {
       "id": "a-4298267034eeb8621be391a7",
@@ -812,7 +812,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "9c48ee8389f734fce0374b7a3ee59e788e99d4fc3ab3d9edacd0769337777cec"
+      "review_digest": "157c9d01d02c69c63ed47cd095178efcbc0a6b5d520efe07be9ca4a54d1f7fab"
     },
     {
       "id": "a-dcba414cdca0fba5e21ffb28",
@@ -821,7 +821,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "b635e1af0168dcef895653d57496a6da05a61197a5b1852d6088617557d9ea5a"
+      "review_digest": "8745c6cfc40283d28bca603b5336ed81150042a719a9fcc853ad876972899ec1"
     },
     {
       "id": "a-a22b296d0b900261847b548a",
@@ -830,7 +830,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "02f74cb91426cce8ab6335afb671b4b8ac2afb6034e35a2e1d28146f3477f5a3"
+      "review_digest": "0e222c180e6a03886ea136d145fed59e6369bf9f111ed7e168b5362d00b3c310"
     },
     {
       "id": "a-9c591dacf25fa1afa6d6bc2d",
@@ -839,7 +839,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "b0da2e0e804dff34983a96b6b7d83b86a0d94220a3a9afe033609c459767fb8a"
+      "review_digest": "6322c3ce4cb860c9a30584b7b4b2acef321f867d46caeab36f0f7bd432ef6c0a"
     },
     {
       "id": "a-b2a798191e25c0fe70804d14",
@@ -848,7 +848,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "f11d51b636859ec69f51ccc28ae3b96c8caa89c7849eebc7d48d7411286f3405"
+      "review_digest": "f4622076f46a3b71d3b1d35517174386ba65d3b13ed4c4fa99ea2d48adb261e7"
     },
     {
       "id": "a-2361950123a99ecab7ebeb6a",
@@ -857,7 +857,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "adc165589ae1a94c93fd2a77c946b796453adeae0addcaf6d451258a21898489"
+      "review_digest": "b67d36ebfe1f9919f32bb9e37d87024d542cfc3350f880a21f1e2e3ea682aedf"
     },
     {
       "id": "a-0bc5fc2167a141be1439b2f6",
@@ -866,7 +866,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "3703b65ac0085e5587bd45e63823f5617289707352344f3f07509eb8bc79a6b5"
+      "review_digest": "e6e512d181e65c1f0bd8e925666f74eb73846f06aba9c4578903899bb2a5c696"
     },
     {
       "id": "a-602e00baa29b017c13070373",
@@ -875,7 +875,7 @@
       "body_changed": true,
       "match_changed": true,
       "before": {},
-      "review_digest": "a3e9f18d22d8d2e937cbf219072e3e35062c21e94a4b2930ad13dbf7d9885d63"
+      "review_digest": "f9464020ac5f4677c47e129fbeceba5861f38b408362c455e2dfeebbce272aec"
     }
   ]
 }
