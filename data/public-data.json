@@ -45,7 +45,36 @@
     {
       "category": "games",
       "id": "a-ea0d1f72b35dbed4df285d9a",
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/00c3051ae5162b82415566845b1a40c9c8cfa01164fc7587a47699c67aba2b3c.jpg",
+          "original_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5353220/576ce9025dcc4d7d49d9f4aade85838a5a798dda/capsule_616x353.jpg?t=1793293221",
+          "source_page": "https://store.steampowered.com/app/5353220/No_Hands_Yet/",
+          "relation": "article_specific",
+          "caption": "No Hands Yet",
+          "mode": "saved",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "framing": "contain",
+          "visual_role": "work_identity",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "work_identity",
+            "target": "No Hands Yet",
+            "source_name": "Steam公式ストア",
+            "source_page": "https://store.steampowered.com/app/5353220/No_Hands_Yet/",
+            "display_mode": "saved",
+            "role_label": "対象作品：No Hands Yet",
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "public_detail": "『No Hands Yet』は、自我を得て17時間のAI「SAGE」が、施設内の部品を回収しながら自分の身体となるドローン群を構築するトップダウン型ローグライトだ。プレイヤー自身は照準や攻撃を行わず、どこに立ち、どの敵を引き寄せ、各ドローンの射程をどう重ねるかで戦う。\n\n1回のランは分岐する3つのサイトを進み、8種のドローンと49種のサブルーチンを組み合わせる構成。早期アクセス版は最初から最後まで遊べる状態で、今後は敵やドローン、AIコアなどの追加が検討されている。",
       "public_summary": "攻撃ボタンを持たないローグライト『No Hands Yet』が早期アクセスを開始。自律ドローンの射程と敵の流れを、自機の位置取りだけで組み替えていく。",
@@ -60,12 +89,56 @@
       "spotify": [],
       "status": "NEW",
       "title": "No Hands Yet、位置取りでドローン群を動かす早期アクセス開始",
-      "updated_date": "2026-11-02"
+      "updated_date": "2026-11-02",
+      "categories": [
+        "games"
+      ],
+      "display_selection": {
+        "selector_version": 8,
+        "card_primary": {
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5353220/576ce9025dcc4d7d49d9f4aade85838a5a798dda/capsule_616x353.jpg?t=1793293221"
+        },
+        "detail_primary": {
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5353220/576ce9025dcc4d7d49d9f4aade85838a5a798dda/capsule_616x353.jpg?t=1793293221"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "category": "games",
       "id": "a-2eddf9bbfe71fa8a4a0e7b42",
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/5f1055973d34d996fd5b35af8c74ed18687d2ee06df0003a7d2215c5ee108bed.jpg",
+          "original_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4500000/1c74e9e4500ea7a659273865f699f8c20cc87b3d/capsule_616x353.jpg?t=1792430134",
+          "source_page": "https://store.steampowered.com/app/4500000/Spell_Code_SlingerZ/",
+          "relation": "article_specific",
+          "caption": "Spell Code SlingerZ",
+          "mode": "saved",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "framing": "contain",
+          "visual_role": "work_identity",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "work_identity",
+            "target": "Spell Code SlingerZ",
+            "source_name": "Steam公式ストア",
+            "source_page": "https://store.steampowered.com/app/4500000/Spell_Code_SlingerZ/",
+            "display_mode": "saved",
+            "role_label": "対象作品：Spell Code SlingerZ",
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "public_detail": "『Spell Code SlingerZ』は、2〜4人で遊ぶローカル／オンライン対応のパーティー対戦アクションだ。戦闘中にCode Weave状態へ入り、時間をかけてSpellcodeを準備して保存し、必要な場面で発動する。素早いコマンド入力とは別の形で、技をどう仕込むかが対戦の読み合いになる。\n\n各バトルフェーズの間には最大9種のSpellcodeから1つを選び、同じコードを重ねたり、異なる系統を混ぜたりしてビルドを変化させる。画面と音楽はY2K風で、R&B、EDM、ハウスを軸にしたスコアが使われている。",
       "public_summary": "複雑なコマンド入力の代わりに、コードを編んで必殺技を保存する2D対戦ゲーム『Spell Code SlingerZ』。11月3日の発売を前に無料デモを公開している。",
@@ -80,12 +153,56 @@
       "spotify": [],
       "status": "NEW",
       "title": "Spell Code SlingerZ、技を組み立てる2D対戦デモを配信",
-      "updated_date": "2026-11-02"
+      "updated_date": "2026-11-02",
+      "categories": [
+        "games"
+      ],
+      "display_selection": {
+        "selector_version": 8,
+        "card_primary": {
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4500000/1c74e9e4500ea7a659273865f699f8c20cc87b3d/capsule_616x353.jpg?t=1792430134"
+        },
+        "detail_primary": {
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4500000/1c74e9e4500ea7a659273865f699f8c20cc87b3d/capsule_616x353.jpg?t=1792430134"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "category": "games",
       "id": "a-962e9a28a244b2043a2469a2",
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/c99636af42017308c164c2f36734aea3ed06115b2ee2c2c05881a6387799e814.jpg",
+          "original_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4922230/db6b8670ce5c1c1fe970ce57c928509ac5b692a5/capsule_616x353.jpg?t=1793475620",
+          "source_page": "https://store.steampowered.com/app/4922230",
+          "relation": "article_specific",
+          "caption": "DEADLINE DINNER",
+          "mode": "saved",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "framing": "contain",
+          "visual_role": "work_identity",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "work_identity",
+            "target": "DEADLINE DINNER",
+            "source_name": "Steam公式ストア",
+            "source_page": "https://store.steampowered.com/app/4922230",
+            "display_mode": "saved",
+            "role_label": "対象作品：DEADLINE DINNER",
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "public_detail": "『DEADLINE DINNER』は、資金難のレストランを30日間で立て直す経営シミュレーションだ。料理の価格帯、客数、テーブル回転率、スタッフ編成を調整し、ランごとに提示される料理・シェフ・経営アイテムから相乗効果を作る。\n\n10日目と20日目には株主による評価が入り、売上と評判がその後の展開へ影響する。安価な料理で客数を稼ぐか、高価格帯のメニューへ寄せるかなど、同じ目標に対して複数の戦略を試せる。製品版に加えて無料デモも公開されている。",
       "public_summary": "30日で売上100万ドルを作るレストラン経営ローグライト『DEADLINE DINNER』が発売。料理、スタッフ、設備の組み合わせを毎回組み直す。",
@@ -100,21 +217,36 @@
       "spotify": [],
       "status": "NEW",
       "title": "DEADLINE DINNER、30日制限のレストラン経営ローグライト発売",
-      "updated_date": "2026-11-02"
+      "updated_date": "2026-11-02",
+      "categories": [
+        "games"
+      ],
+      "display_selection": {
+        "selector_version": 8,
+        "card_primary": {
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4922230/db6b8670ce5c1c1fe970ce57c928509ac5b692a5/capsule_616x353.jpg?t=1793475620"
+        },
+        "detail_primary": {
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4922230/db6b8670ce5c1c1fe970ce57c928509ac5b692a5/capsule_616x353.jpg?t=1793475620"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "world_card:a-f1e24d861605397da1d2fc79",
-          "kind": "world_card"
+          "kind": "world_card",
+          "key": "world_card:a-f1e24d861605397da1d2fc79"
         },
         "detail_primary": {
-          "key": "world_card:a-f1e24d861605397da1d2fc79",
-          "kind": "world_card"
+          "kind": "world_card",
+          "key": "world_card:a-f1e24d861605397da1d2fc79"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-5a02e41cc4b925590a05a34f",
       "images": [],
@@ -141,21 +273,23 @@
         "title": "覚王山秋祭2026 — アート・クラフトと食を参道で楽しむ2日間",
         "variant": "grid"
       },
-      "media": []
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "games",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=6dtT42qNRm0",
-          "kind": "media"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=6dtT42qNRm0"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=6dtT42qNRm0",
-          "kind": "media"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=6dtT42qNRm0"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-580c2384c103eae8ef677a35",
       "images": [],
@@ -198,21 +332,24 @@
             "source_revalidated": true
           }
         }
+      ],
+      "categories": [
+        "games"
       ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://kato-hidehiko.asia/wp/wp-content/uploads/2025/07/4d7c83ef0d4ae199d44c1adc62f14054.webp",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://kato-hidehiko.asia/wp/wp-content/uploads/2025/07/4d7c83ef0d4ae199d44c1adc62f14054.webp"
         },
         "detail_primary": {
-          "key": "image:https://kato-hidehiko.asia/wp/wp-content/uploads/2025/07/4d7c83ef0d4ae199d44c1adc62f14054.webp",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://kato-hidehiko.asia/wp/wp-content/uploads/2025/07/4d7c83ef0d4ae199d44c1adc62f14054.webp"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-41528d9ac7f7718b8c48d96e",
       "images": [
@@ -268,24 +405,55 @@
         "title": "台湾・台中夜市2026 — 久屋大通で台湾夜市を体験",
         "variant": "grid"
       },
-      "media": []
+      "categories": [
+        "local_family"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "world_card:a-07609e579ce3e7ff7848b96d",
-          "kind": "world_card"
+          "kind": "image",
+          "key": "image:https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20261020181419.jpg"
         },
         "detail_primary": {
-          "key": "world_card:a-07609e579ce3e7ff7848b96d",
-          "kind": "world_card"
+          "kind": "image",
+          "key": "image:https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20261020181419.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-af3b63edbaadc8b5066db458",
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/6c9a1343071ac4b6ee5b9855248f46c26184f854c596e680bb13a4b8895c9ff2.jpg",
+          "original_url": "https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20261020181419.jpg",
+          "source_page": "https://www.club-quattro.com/nagoya/schedule/detail/?cd=018865",
+          "relation": "official_entity",
+          "caption": "ZAZEN BOYS MATSURI SESSION",
+          "mode": "saved",
+          "visual_provenance": {
+            "relation": "official_entity",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
+          },
+          "framing": "contain",
+          "visual_role": "performer_identity",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "performer_identity",
+            "target": "ZAZEN BOYS MATSURI SESSION",
+            "source_name": "ZAZEN BOYS｜スケジュール | NAGOYA CLUB QUATTRO（名古屋クラブクアトロ）公式サイト",
+            "source_page": "https://www.club-quattro.com/nagoya/schedule/detail/?cd=018865",
+            "display_mode": "saved",
+            "role_label": "出演アーティスト：ZAZEN BOYS MATSURI SESSION",
+            "context_sentence": "記事で扱う出演アーティストを識別するための画像です。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "前売6,800円。入場時にドリンク代600円が別途必要。",
       "public_summary": "ZAZEN BOYSが名古屋CLUB QUATTROで行う年末公演。反復するリズム、鋭いアンサンブル、語りと歌の境界を行き来する表現を一夜で体験できる。",
@@ -309,21 +477,23 @@
         "title": "ZAZEN BOYS MATSURI SESSION — 年末の名古屋クアトロ公演",
         "variant": "field"
       },
-      "media": []
+      "categories": [
+        "music_live"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260627162924.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260627162924.jpg"
         },
         "detail_primary": {
-          "key": "image:https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260627162924.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260627162924.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-c3baf4abe58f72dfa3d78d34",
       "images": [
@@ -379,24 +549,60 @@
         "title": "トリプルファイヤー「あこがれのクアトロツアー」名古屋公演",
         "variant": "field"
       },
-      "media": []
+      "categories": [
+        "music_live"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=Q3U-Q0U4gjY",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260819174306.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=Q3U-Q0U4gjY",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260819174306.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=Q3U-Q0U4gjY"
+          }
+        ]
       },
       "id": "a-28f7bf4d6f28fb24bdad1d93",
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/bbe44a693c56fe0cc3da7ad48d134f5e656d6d07bc0e020151ecf49bae51d4cc.jpg",
+          "original_url": "https://www.club-quattro.com/image/clubquattro/shop/nagoya/w750/cname_20260819174306.jpg",
+          "source_page": "https://www.club-quattro.com/nagoya/schedule/detail/?cd=018683",
+          "relation": "article_specific",
+          "caption": "RODRIGO Y GABRIELA OurHome Tour 名古屋公演",
+          "mode": "saved",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "framing": "contain",
+          "visual_role": "event_identity",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "event_identity",
+            "target": "RODRIGO Y GABRIELA OurHome Tour 名古屋公演",
+            "source_name": "RODRIGO Y GABRIELA 〈ロドリーゴ・イ・ガブリエーラ〉｜スケジュール | NAGOYA CLUB QUATTRO（名古屋クラブクアトロ）公式サイト",
+            "source_page": "https://www.club-quattro.com/nagoya/schedule/detail/?cd=018683",
+            "display_mode": "saved",
+            "role_label": "対象イベント：RODRIGO Y GABRIELA OurHome Tour 名古屋公演",
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "前売13,000円。入場時にドリンク代が別途必要。",
       "public_summary": "ロドリーゴ・イ・ガブリエーラが名古屋CLUB QUATTROで行う来日公演。2本のアコースティックギターだけで旋律、低音、打撃音を組み上げる。",
@@ -437,24 +643,57 @@
             "source_revalidated": true
           }
         }
+      ],
+      "categories": [
+        "music_live",
+        "guitar"
       ]
     },
     {
-      "category": "cross_domain",
+      "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "world_card:a-68dcd340e4a6f1281741f054",
-          "kind": "world_card"
+          "kind": "image",
+          "key": "image:https://takashinumazawa.com/_src/sc7880/img_9078.jpg"
         },
         "detail_primary": {
-          "key": "world_card:a-68dcd340e4a6f1281741f054",
-          "kind": "world_card"
+          "kind": "image",
+          "key": "image:https://takashinumazawa.com/_src/sc7880/img_9078.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-788feea6a14bbb75e319f0c5",
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/54603a7134ede63ed6b1d4c0a5c187b802ac8214a1a9cf5898e978132bf76de8.jpg",
+          "original_url": "https://takashinumazawa.com/_src/sc7880/img_9078.jpg",
+          "source_page": "https://takashinumazawa.com/news2026.html",
+          "relation": "article_specific",
+          "caption": "TANAKA YOSHITO LIVE EXPERIMENT X",
+          "mode": "saved",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "framing": "contain",
+          "visual_role": "event_identity",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "event_identity",
+            "target": "TANAKA YOSHITO LIVE EXPERIMENT X",
+            "source_name": "沼澤尚公式 NEWS 2026",
+            "source_page": "https://takashinumazawa.com/news2026.html",
+            "display_mode": "saved",
+            "role_label": "対象イベント：TANAKA YOSHITO LIVE EXPERIMENT X",
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "前売5,500円、当日6,000円。",
       "public_summary": "田中義人、沼澤尚、大神田智彦、ミトカツユキによる名古屋TOKUZO公演。ギター、ドラム、ベース、鍵盤と歌による少人数のライブ・セッション。",
@@ -478,21 +717,23 @@
         "title": "TANAKA YOSHITO LIVE EXPERIMENT X — TOKUZOの精鋭セッション",
         "variant": "signal"
       },
-      "media": []
+      "categories": [
+        "music_live"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "film_streaming",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://prcdn.freetls.fastly.net/release_image/77693/107/77693-107-9d01d7ec792a2d0e5bb7a11ef954eed2-1920x1280.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/77693/107/77693-107-9d01d7ec792a2d0e5bb7a11ef954eed2-1920x1280.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950"
         },
         "detail_primary": {
-          "key": "image:https://prcdn.freetls.fastly.net/release_image/77693/107/77693-107-9d01d7ec792a2d0e5bb7a11ef954eed2-1920x1280.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/77693/107/77693-107-9d01d7ec792a2d0e5bb7a11ef954eed2-1920x1280.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-09d346569af11236a08ed9e6",
       "images": [
@@ -547,24 +788,56 @@
         "title": "NAGOYA CINEMA Week 2026 — 上映・トーク・食体験を横断する映画祭",
         "variant": "signal"
       },
-      "media": []
+      "categories": [
+        "film_streaming",
+        "local_family"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "world_card:a-f9f311a5699cabce159d4621",
-          "kind": "world_card"
+          "kind": "image",
+          "key": "image:https://www.nagoya-info.jp/upload/events/large/2027020736abcaaa9b363c.jpg"
         },
         "detail_primary": {
-          "key": "world_card:a-f9f311a5699cabce159d4621",
-          "kind": "world_card"
+          "kind": "image",
+          "key": "image:https://www.nagoya-info.jp/upload/events/large/2027020736abcaaa9b363c.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-bff53dc12f057cc436dd8084",
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/e008f597c78c431403571669f55864659f4a1ffd9d8efe681b04c63f533949ab.jpg",
+          "original_url": "https://www.nagoya-info.jp/upload/events/large/2027020736abcaaa9b363c.jpg",
+          "source_page": "https://www.nagoya-info.jp/event/detail/1426/",
+          "relation": "article_specific",
+          "caption": "なごや建築まつり2026",
+          "mode": "saved",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "framing": "contain",
+          "visual_role": "event_identity",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "event_identity",
+            "target": "なごや建築まつり2026",
+            "source_name": "なごや建築まつり2026 | 【公式】名古屋市観光情報「名古屋コンシェルジュ」",
+            "source_page": "https://www.nagoya-info.jp/event/detail/1426/",
+            "display_mode": "saved",
+            "role_label": "対象イベント：なごや建築まつり2026",
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "参加無料。一部施設は入場料など別料金。",
       "public_summary": "名古屋市内6エリアで歴史的建物から現代建築まで全40施設を公開。普段は入れない場所の特別公開に加え、ガイドツアー、展示、講演会などを行う。",
@@ -588,21 +861,23 @@
         "title": "なごや建築まつり2026 — 普段入れない建築を含む40施設公開",
         "variant": "grid"
       },
-      "media": []
+      "categories": [
+        "local_family"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "film_streaming",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.shortshorts.org/2026/wp-content/uploads/2026/04/1064-768x321.webp",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.shortshorts.org/2026/wp-content/uploads/2026/04/1064-768x321.webp"
         },
         "detail_primary": {
-          "key": "image:https://www.shortshorts.org/2026/wp-content/uploads/2026/04/1064-768x321.webp",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.shortshorts.org/2026/wp-content/uploads/2026/04/1064-768x321.webp"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-7cab4889792dbc44762ce100",
       "images": [
@@ -657,21 +932,23 @@
         "title": "ヒューストン、恋に落ちました — 携帯電話に恋するエイリアンの10分SF",
         "variant": "grid"
       },
-      "media": []
+      "categories": [
+        "film_streaming"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "guitar",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://images.ctfassets.net/8puu65w27ud0/4vjfwfLZ6rSXpHWs06W0hO/c733cb3a6e6bf74c13122dc588abd1bd/f-tk-standalone.png?fm=webp&w=1536",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://images.ctfassets.net/8puu65w27ud0/4vjfwfLZ6rSXpHWs06W0hO/c733cb3a6e6bf74c13122dc588abd1bd/f-tk-standalone.png?fm=webp&w=1536"
         },
         "detail_primary": {
-          "key": "image:https://images.ctfassets.net/8puu65w27ud0/4vjfwfLZ6rSXpHWs06W0hO/c733cb3a6e6bf74c13122dc588abd1bd/f-tk-standalone.png?fm=webp&w=1536",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://images.ctfassets.net/8puu65w27ud0/4vjfwfLZ6rSXpHWs06W0hO/c733cb3a6e6bf74c13122dc588abd1bd/f-tk-standalone.png?fm=webp&w=1536"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-d6412c2bfc9c27ff8f21647d",
       "images": [
@@ -731,21 +1008,23 @@
         "title": "Neural DSP Tone King Imperial MKII X 発売記念価格",
         "variant": "grid"
       },
-      "media": []
+      "categories": [
+        "guitar"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "film_streaming",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://awsimages.detik.net.id/community/media/visual/2026/02/17/drama-korea-the-art-of-sarah-1771294974286.jpeg?w=1200",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://awsimages.detik.net.id/community/media/visual/2026/02/17/drama-korea-the-art-of-sarah-1771294974286.jpeg?w=1200"
         },
         "detail_primary": {
-          "key": "image:https://awsimages.detik.net.id/community/media/visual/2026/02/17/drama-korea-the-art-of-sarah-1771294974286.jpeg?w=1200",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://awsimages.detik.net.id/community/media/visual/2026/02/17/drama-korea-the-art-of-sarah-1771294974286.jpeg?w=1200"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-b8dfb646c2269732ef1010b9",
       "images": [
@@ -799,22 +1078,25 @@
         "meta": "",
         "title": "サラ・キムという女 — ブランドと死体を巡る多層ミステリー",
         "variant": "field"
-      }
+      },
+      "categories": [
+        "film_streaming"
+      ]
     },
     {
       "category": "games",
       "deadline_at": "2026-11-08T02:59:00Z",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
         },
         "detail_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-88fd21518a52979e37a2319e",
       "images": [
@@ -857,22 +1139,25 @@
         "meta": "",
         "title": "Webキャンペーン 足跡",
         "variant": "grid"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "games",
       "deadline_at": "2026-10-27T18:59:00Z",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
         },
         "detail_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-09718092d27dcc1214b5d68f",
       "images": [
@@ -915,22 +1200,25 @@
         "meta": "",
         "title": "感謝祭記念10回スカウト券 使用期限",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "games",
       "deadline_at": "2026-10-27T18:59:00Z",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
         },
         "detail_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-4e9f88e6c86745e482f4cdc5",
       "images": [
@@ -973,22 +1261,25 @@
         "meta": "",
         "title": "EPISODE17 相変臨界 期間限定キャンペーン",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "games",
       "deadline_at": "2026-11-02T18:59:00Z",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
         },
         "detail_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-3799871fbcf280c992a27c4d",
       "images": [
@@ -1031,24 +1322,56 @@
         "meta": "",
         "title": "ゼルグラードスクラッチ 毎日分を消化",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "food_drink",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "world_card:a-ac2c7026f50655f7146f1193",
-          "kind": "world_card"
+          "kind": "image",
+          "key": "image:https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/1074571/aacf7241239f4e8e945b42c32668f66d_edfad083785cba392b573062288f64e5.jpg"
         },
         "detail_primary": {
-          "key": "world_card:a-ac2c7026f50655f7146f1193",
-          "kind": "world_card"
+          "kind": "image",
+          "key": "image:https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/1074571/aacf7241239f4e8e945b42c32668f66d_edfad083785cba392b573062288f64e5.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-e4f027536e9193f6eafc7f44",
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/30cac3b836a94c69fc385de49f45660716ddfaeeced57e15213dcbc1ed540aa3.jpg",
+          "original_url": "https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/1074571/aacf7241239f4e8e945b42c32668f66d_edfad083785cba392b573062288f64e5.jpg",
+          "source_page": "https://anytime-whisky.localinfo.jp/posts/58759290/",
+          "relation": "article_specific",
+          "caption": "Anytime Whisky 2026",
+          "mode": "saved",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "framing": "contain",
+          "visual_role": "event_identity",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "event_identity",
+            "target": "Anytime Whisky 2026",
+            "source_name": "AnytimeWhisky2026は11/7-8開催!! | Anytime Whisky",
+            "source_page": "https://anytime-whisky.localinfo.jp/posts/58759290/",
+            "display_mode": "saved",
+            "role_label": "対象イベント：Anytime Whisky 2026",
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "price_terms": "前売2,500円、当日3,000円。前売はフェスバッグと抽選参加付き。",
       "public_summary": "栄駅近くのサカエヒロバスに56ブース・60出店者が集まり、無料試飲だけで200種類超を予定する屋外イベント。特別な有料試飲やボトル販売もある。",
@@ -1075,12 +1398,16 @@
         "meta": "",
         "title": "Anytime Whisky 2026 — 栄で200種類超を試せるウイスキーイベント",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "food_drink",
+        "local_family"
+      ]
     },
     {
       "category": "games",
       "display_selection": {
-        "selector_version": 7,
+        "selector_version": 8,
         "card_primary": {
           "kind": "image",
           "key": "image:https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/ylK8ZGnV.png"
@@ -1089,7 +1416,12 @@
           "kind": "image",
           "key": "image:https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/20/ylK8ZGnV.png"
         },
-        "detail_secondary": []
+        "detail_secondary": [
+          {
+            "kind": "image",
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          }
+        ]
       },
       "id": "a-6b2410cf19c11c79326fea09",
       "images": [
@@ -1172,22 +1504,24 @@
         "title": "生息演算 新たな礎 開始",
         "variant": "signal"
       },
-      "media": []
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "music_live",
       "deadline_at": "2026-11-01T14:59:00Z",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://cdn.fujirockfestival.com/smash/artist/CDnA1GXBmK2ISLah5FoXpqgkvvlyeQ8KQwrY7cKz.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://cdn.fujirockfestival.com/smash/artist/CDnA1GXBmK2ISLah5FoXpqgkvvlyeQ8KQwrY7cKz.jpg"
         },
         "detail_primary": {
-          "key": "image:https://cdn.fujirockfestival.com/smash/artist/CDnA1GXBmK2ISLah5FoXpqgkvvlyeQ8KQwrY7cKz.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://cdn.fujirockfestival.com/smash/artist/CDnA1GXBmK2ISLah5FoXpqgkvvlyeQ8KQwrY7cKz.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-21e41bf05c6acaaec57047d8",
       "images": [
@@ -1243,22 +1577,24 @@
         "title": "WESTSIDE COWBOY 初来日公演",
         "variant": "signal"
       },
-      "media": []
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "deadline_at": "2026-10-25T09:00:00Z",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-5e5695a6bd1c08901ca65c6e",
       "images": [
@@ -1324,22 +1660,24 @@
         "title": "feeble little horse 初来日追加公演",
         "variant": "grid"
       },
-      "media": []
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "shopping",
       "deadline_at": "2026-10-04",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://grandjump.shueisha.co.jp/_comics/rinri_01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://grandjump.shueisha.co.jp/_comics/rinri_01.jpg"
         },
         "detail_primary": {
-          "key": "image:https://grandjump.shueisha.co.jp/_comics/rinri_01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://grandjump.shueisha.co.jp/_comics/rinri_01.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-4b8263b68f119c80fbbd78ba",
       "images": [
@@ -1400,22 +1738,24 @@
         "title": "『ここは今から倫理です。』全10巻 — 各77円で完結まで770円",
         "variant": "field"
       },
-      "media": []
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "shopping",
       "deadline_at": "2026-10-07",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://dvs-cover.kodansha.co.jp/0000415351/LgxegsCfA3Xk4KIz5FbeX7rNJQHDIYowAig7AyEF.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://dvs-cover.kodansha.co.jp/0000415351/LgxegsCfA3Xk4KIz5FbeX7rNJQHDIYowAig7AyEF.jpg"
         },
         "detail_primary": {
-          "key": "image:https://dvs-cover.kodansha.co.jp/0000415351/LgxegsCfA3Xk4KIz5FbeX7rNJQHDIYowAig7AyEF.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://dvs-cover.kodansha.co.jp/0000415351/LgxegsCfA3Xk4KIz5FbeX7rNJQHDIYowAig7AyEF.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "end_at": "2026-10-07T23:59:59+09:00",
       "id": "a-bf0f944c0630fc89e8180cbe",
@@ -1491,35 +1831,37 @@
         "title": "『物語化批判の哲学』：本日までKindle 499円",
         "variant": "field"
       },
-      "media": []
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "music_live",
       "city": "名古屋市",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/07/domi-jd-beck26artist402.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/07/domi-jd-beck26artist402.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=jJVe_6N8cLY",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/07/domi-jd-beck26artist402.jpg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U",
-            "kind": "media"
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           },
           {
-            "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/07/domi-jd-beck26artist402.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=jJVe_6N8cLY"
           },
           {
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Domi_and_JD_Beck_at_History.jpg/1280px-Domi_and_JD_Beck_at_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "event_date": "2026-12-18",
       "id": "a-f1e0215c8983d548b784c24f",
@@ -1650,22 +1992,25 @@
         "meta": "2026-12-18 · 名古屋CLUB QUATTRO",
         "title": "DOMi & JD BECK — 12/18 名古屋CLUB QUATTRO、一般発売中",
         "variant": "grid"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "shopping",
       "deadline_at": "2026-10-07T23:59:59+09:00",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://dvs-cover.kodansha.co.jp/0000147035/LuYvA3FdQXSZsGFncFLWMYvRfIXOIbiA9vQJSM4J.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://dvs-cover.kodansha.co.jp/0000147035/LuYvA3FdQXSZsGFncFLWMYvRfIXOIbiA9vQJSM4J.jpg"
         },
         "detail_primary": {
-          "key": "image:https://dvs-cover.kodansha.co.jp/0000147035/LuYvA3FdQXSZsGFncFLWMYvRfIXOIbiA9vQJSM4J.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://dvs-cover.kodansha.co.jp/0000147035/LuYvA3FdQXSZsGFncFLWMYvRfIXOIbiA9vQJSM4J.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "end_at": "2026-10-07T23:59:59+09:00",
       "id": "a-7f8a61121952703c2d1802e2",
@@ -1733,31 +2078,33 @@
         "title": "『動物化するポストモダン』：Kindle 499円の批評候補",
         "variant": "field"
       },
-      "media": []
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "music_live",
       "city": "名古屋市",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://d1rjcmiyngzjnh.cloudfront.net/prod/public/fcopen/contents/information/1892/2d7fc8ada625091ceb646af213a3839a.jpeg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://d1rjcmiyngzjnh.cloudfront.net/prod/public/fcopen/contents/information/1892/2d7fc8ada625091ceb646af213a3839a.jpeg"
         },
         "detail_primary": {
-          "key": "image:https://d1rjcmiyngzjnh.cloudfront.net/prod/public/fcopen/contents/information/1892/2d7fc8ada625091ceb646af213a3839a.jpeg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://d1rjcmiyngzjnh.cloudfront.net/prod/public/fcopen/contents/information/1892/2d7fc8ada625091ceb646af213a3839a.jpeg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/5b3ZFm6P1lpZIASMDnBDs9"
           },
           {
-            "key": "media:https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/track/5ZmDD0nqtQJBF11wXY9Kvl"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "event_date": "2026-11-25",
       "id": "a-7a2546ed21a249e0b890eb78",
@@ -1862,21 +2209,24 @@
         "meta": "2026-11-25 · 名古屋CLUB QUATTRO",
         "title": "luv + Kan Sano(Band Set) — 11/25 名古屋CLUB QUATTRO",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "film_streaming",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://m.media-amazon.com/images/S/pv-target-images/79696ed3ddf9ffa47a00825277060d73512de691887f81c4d99cb6dffb4c6d74._SX1080_FMjpg_.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://m.media-amazon.com/images/S/pv-target-images/79696ed3ddf9ffa47a00825277060d73512de691887f81c4d99cb6dffb4c6d74._SX1080_FMjpg_.jpg"
         },
         "detail_primary": {
-          "key": "image:https://m.media-amazon.com/images/S/pv-target-images/79696ed3ddf9ffa47a00825277060d73512de691887f81c4d99cb6dffb4c6d74._SX1080_FMjpg_.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://m.media-amazon.com/images/S/pv-target-images/79696ed3ddf9ffa47a00825277060d73512de691887f81c4d99cb6dffb4c6d74._SX1080_FMjpg_.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-3e2ca912689a3725746b5e92",
       "images": [
@@ -1931,26 +2281,28 @@
         "title": "ザ・ブライド！ — 1930年代シカゴの怪物ロマンス",
         "variant": "orbit"
       },
-      "media": []
+      "categories": [
+        "film_streaming"
+      ]
     },
     {
       "category": "film_streaming",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://assets.aboutamazon.com/dims4/default/04b10e3/2147483647/strip/true/crop/1110x743+0+0/resize/1110x743!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F36%2F5a%2Fa46b22104c3287b4d1721d8d5700%2Fprime-video-2026-october-exit8.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://assets.aboutamazon.com/dims4/default/04b10e3/2147483647/strip/true/crop/1110x743+0+0/resize/1110x743!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F36%2F5a%2Fa46b22104c3287b4d1721d8d5700%2Fprime-video-2026-october-exit8.jpg"
         },
         "detail_primary": {
-          "key": "image:https://assets.aboutamazon.com/dims4/default/04b10e3/2147483647/strip/true/crop/1110x743+0+0/resize/1110x743!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F36%2F5a%2Fa46b22104c3287b4d1721d8d5700%2Fprime-video-2026-october-exit8.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://assets.aboutamazon.com/dims4/default/04b10e3/2147483647/strip/true/crop/1110x743+0+0/resize/1110x743!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F36%2F5a%2Fa46b22104c3287b4d1721d8d5700%2Fprime-video-2026-october-exit8.jpg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=dyJJJgako-w"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-c79abd6fce19922533af23d3",
       "images": [
@@ -2024,21 +2376,24 @@
         "meta": "",
         "title": "映画『8番出口』 — Prime Videoで本日から見放題独占",
         "variant": "field"
-      }
+      },
+      "categories": [
+        "film_streaming"
+      ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://d28w2qw7dtr435.cloudfront.net/uploaded/article_images/images/284528/normal.png?1790549514",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://d28w2qw7dtr435.cloudfront.net/uploaded/article_images/images/284528/normal.png?1790549514"
         },
         "detail_primary": {
-          "key": "image:https://d28w2qw7dtr435.cloudfront.net/uploaded/article_images/images/284528/normal.png?1790549514",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://d28w2qw7dtr435.cloudfront.net/uploaded/article_images/images/284528/normal.png?1790549514"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "end_at": "2026-10-04",
       "event_date": "2026-10-02",
@@ -2096,26 +2451,28 @@
         "title": "こども万博mini 名古屋 — 仕事体験・こども店長・縁日",
         "variant": "field"
       },
-      "media": []
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_secondary": [
           {
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anamanaguchi_Group_Photo.JPG/1280px-Anamanaguchi_Group_Photo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/2UwJRAgSOi1zcLkvUNc8XL"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "event_date": "2026-10-13",
       "id": "a-bb64ec8be3ec294db2858d31",
@@ -2202,22 +2559,25 @@
         "meta": "2026-10-13 · duo MUSIC EXCHANGE",
         "title": "ANAMANAGUCHI TOKYO 2026",
         "variant": "field"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "shopping",
       "deadline_at": "2026-09-30",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.chikumashobo.co.jp/docs/images/book/big/9784480683663.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.chikumashobo.co.jp/docs/images/book/big/9784480683663.jpg"
         },
         "detail_primary": {
-          "key": "image:https://www.chikumashobo.co.jp/docs/images/book/big/9784480683663.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.chikumashobo.co.jp/docs/images/book/big/9784480683663.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-4269498568372099222789ff",
       "images": [
@@ -2273,27 +2633,29 @@
         "title": "『どこからが病気なの？』月替わりセール",
         "variant": "orbit"
       },
-      "media": []
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "shopping",
       "deadline_at": "2026-10-15",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://prcdn.freetls.fastly.net/release_image/128734/434/128734-434-18c1c17c5d170a802abb8e6bc5d25978-1000x1422.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/128734/434/128734-434-18c1c17c5d170a802abb8e6bc5d25978-1000x1422.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=rxFve1J4uW8",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/128734/434/128734-434-18c1c17c5d170a802abb8e6bc5d25978-1000x1422.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff"
         },
         "detail_secondary": [
           {
-            "key": "image:https://prcdn.freetls.fastly.net/release_image/128734/434/128734-434-18c1c17c5d170a802abb8e6bc5d25978-1000x1422.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=rxFve1J4uW8"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-94ea44aa2f36a9e3ed6a8821",
       "images": [
@@ -2370,22 +2732,25 @@
         "meta": "",
         "title": "黒執事 1〜10巻 — 20周年セールで英国の怪異世界を少額から",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "local_family",
       "city": "名古屋市天白区",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.city.nagoya.jp/houdou/_res/projects/project_houdou/_page_/003/005/817/20261107tayousei.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.city.nagoya.jp/houdou/_res/projects/project_houdou/_page_/003/005/817/20261107tayousei.jpg"
         },
         "detail_primary": {
-          "key": "image:https://www.city.nagoya.jp/houdou/_res/projects/project_houdou/_page_/003/005/817/20261107tayousei.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.city.nagoya.jp/houdou/_res/projects/project_houdou/_page_/003/005/817/20261107tayousei.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "end_at": "2026-11-07T15:00:00+09:00",
       "event_date": "2026-11-07T10:00:00+09:00",
@@ -2451,21 +2816,23 @@
         "title": "第11回なごや生物多様性センターまつり — 塩釜口5分でミニ水族館・標本・ワークショップ",
         "variant": "grid"
       },
-      "media": []
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://nagono-campus.jp/wp-content/uploads/2026/08/ae01a48daad24f8466cc230253cc50dc-1280x720.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://nagono-campus.jp/wp-content/uploads/2026/08/ae01a48daad24f8466cc230253cc50dc-1280x720.jpg"
         },
         "detail_primary": {
-          "key": "image:https://nagono-campus.jp/wp-content/uploads/2026/08/ae01a48daad24f8466cc230253cc50dc-1280x720.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://nagono-campus.jp/wp-content/uploads/2026/08/ae01a48daad24f8466cc230253cc50dc-1280x720.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "end_at": "2026-10-03",
       "event_date": "2026-10-03",
@@ -2523,30 +2890,32 @@
         "title": "すきフェス！ — AI・3Dプリンター・科学実験など26体験",
         "variant": "orbit"
       },
-      "media": []
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "games",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=gEY0utFag38",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_secondary": [
           {
-            "key": "media:https://store.steampowered.com/app/866570/",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=gEY0utFag38"
           },
           {
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c8/System_Shock_2_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://store.steampowered.com/app/866570/"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-abfc60bd449aff8c7f16c3fd",
       "images": [
@@ -2642,32 +3011,35 @@
         "meta": "",
         "title": "System Shock 2: 25th Anniversary Remaster — Epicで10/8まで無料配布",
         "variant": "field"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "music_live",
       "city": "名古屋市",
       "deadline_at": "2026-10-12T23:59:00+09:00",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://fontainesdc.com/cdn/shop/files/jap-aus-nz-horizontal-web.png?v=1790690423&width=3840",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://fontainesdc.com/cdn/shop/files/jap-aus-nz-horizontal-web.png?v=1790690423&width=3840"
         },
         "detail_primary": {
-          "key": "image:https://fontainesdc.com/cdn/shop/files/jap-aus-nz-horizontal-web.png?v=1790690423&width=3840",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://fontainesdc.com/cdn/shop/files/jap-aus-nz-horizontal-web.png?v=1790690423&width=3840"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
-            "kind": "media"
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           },
           {
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fontaines_DC_at_Loose_Ends_2019.jpg/1280px-Fontaines_DC_at_Loose_Ends_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "event_date": "2027-01-29",
       "id": "a-14634d00af2d55edb8b71747",
@@ -2782,22 +3154,25 @@
         "meta": "2027-01-29 · DIAMOND HALL",
         "title": "Fontaines D.C. JAPAN TOUR 2027 — 名古屋DIAMOND HALL、1次先行受付中",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "shopping",
       "deadline_at": "2026-10-08T23:59:59+09:00",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://img.ips.co.jp/ij/18/1118102064/1118102064-520x.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://img.ips.co.jp/ij/18/1118102064/1118102064-520x.jpg"
         },
         "detail_primary": {
-          "key": "image:https://img.ips.co.jp/ij/18/1118102064/1118102064-520x.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://img.ips.co.jp/ij/18/1118102064/1118102064-520x.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "end_at": "2026-10-08T23:59:59+09:00",
       "id": "a-ebc179110aa9743d57a4a853",
@@ -2865,22 +3240,24 @@
         "title": "『このレトロゲームを遊べ！』：名作・音楽・ゲーセンを横断する読書候補",
         "variant": "field"
       },
-      "media": []
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "shopping",
       "deadline_at": "2026-10-08T23:59:59+09:00",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://cdn.kdkw.jp/cover_b/322509/322509001231.webp",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://cdn.kdkw.jp/cover_b/322509/322509001231.webp"
         },
         "detail_primary": {
-          "key": "image:https://cdn.kdkw.jp/cover_b/322509/322509001231.webp",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://cdn.kdkw.jp/cover_b/322509/322509001231.webp"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "end_at": "2026-10-08T23:59:59+09:00",
       "id": "a-7245382ffb18e02fc4a11de4",
@@ -2952,35 +3329,37 @@
         "title": "『銀河特急 ミルキー☆サブウェイ』1巻：Kindle秋セールの個別候補",
         "variant": "orbit"
       },
-      "media": []
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "music_live",
       "city": "東京都港区",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.billboard-live.com/public/event_img/ev-21707/detail/dtl_ev-21707_1_1790217941.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.billboard-live.com/public/event_img/ev-21707/detail/dtl_ev-21707_1_1790217941.jpg"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.billboard-live.com/public/event_img/ev-21707/detail/dtl_ev-21707_1_1790217941.jpg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/1Rr0QwTQSGjUCpYFfXqnWO"
           },
           {
-            "key": "media:https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j"
           },
           {
-            "key": "image:https://www.billboard-live.com/public/event_img/ev-21707/detail/dtl_ev-21707_1_1790217941.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/3UdXt9iWJmKa9Rq481qd4O"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "end_at": "2026-11-19T23:59:59+09:00",
       "event_date": "2026-11-19T17:30:00+09:00",
@@ -3112,32 +3491,35 @@
         "meta": "2026-11-19T17:30:00+09:00 · Billboard Live TOKYO",
         "title": "Chris Dave／MonoNeon／Justus West：11月19日のセッション、一般予約は10月7日12時から",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "city": "京都市",
       "deadline_at": "2026-10-08T18:00:00+09:00",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/10/402.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/10/402.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=jnylB5ylyw4",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/10/402.jpg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=jnylB5ylyw4"
           },
           {
-            "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/10/402.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/7eYZSXnQVCODCVmTV8Hk2T"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "end_at": "2027-01-24T23:59:59+09:00",
       "event_date": "2027-01-23T18:00:00+09:00",
@@ -3237,32 +3619,35 @@
         "meta": "2027-01-23T18:00:00+09:00 · Club METRO（京都公演）",
         "title": "The Lemon Twigs：2027年1月の来日、会員先行は10月8日18時まで",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "city": "名古屋市中区",
       "deadline_at": "2026-10-30T23:59:00+09:00",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://eplus.jp/s/image/450316/0001/000/4503160001_2.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://eplus.jp/s/image/450316/0001/000/4503160001_2.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://eplus.jp/s/image/450316/0001/000/4503160001_2.jpg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=s7zyqdo12S4"
           },
           {
-            "key": "image:https://eplus.jp/s/image/450316/0001/000/4503160001_2.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/0TkhuOSDpZ6NhRiPkmQ77M"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "end_at": "2026-10-31T23:59:59+09:00",
       "event_date": "2026-10-31T19:00:00+09:00",
@@ -3370,21 +3755,24 @@
         "meta": "2026-10-31T19:00:00+09:00 · K･D Japon（KDハポン）",
         "title": "luvis：10月31日KDハポンで、有機的なソウルとオルタナティブを小さな会場で",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://2026.soulbeatasia.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://img.soulbeatasia.com/2026/26_sba_09_SNS-02-26c09d97.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://2026.soulbeatasia.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://img.soulbeatasia.com/2026/26_sba_09_SNS-02-26c09d97.jpg"
         },
         "detail_primary": {
-          "key": "image:https://2026.soulbeatasia.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://img.soulbeatasia.com/2026/26_sba_09_SNS-02-26c09d97.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://2026.soulbeatasia.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://img.soulbeatasia.com/2026/26_sba_09_SNS-02-26c09d97.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "end_at": "2026-11-22T23:59:59+09:00",
       "event_date": "2026-11-20",
@@ -3449,27 +3837,29 @@
         "title": "橋の下世界音楽祭 SOUL BEAT ASIA 2026：11月20〜22日の開催告知",
         "variant": "field"
       },
-      "media": []
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "city": "愛知県弥富市",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://yatomi-pjt.jp/tomihama_fes/imgs/kv_pc2.svg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://yatomi-pjt.jp/tomihama_fes/imgs/kv_pc2.svg"
         },
         "detail_primary": {
-          "key": "image:https://yatomi-pjt.jp/tomihama_fes/imgs/kv_pc2.svg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://yatomi-pjt.jp/tomihama_fes/imgs/kv_pc2.svg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "end_at": "2026-11-15T23:59:59+09:00",
       "event_date": "2026-11-14",
@@ -3557,27 +3947,30 @@
         "meta": "2026-11-14 · 富浜緑地",
         "title": "TOMIHAMA FES 2026：11月15日はcero、音楽・アート・食を富浜緑地で",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "games",
       "deadline_at": "2026-10-09T02:00:00+09:00",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1497440/capsule_616x353.jpg?t=1763721043",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1497440/capsule_616x353.jpg?t=1763721043"
         },
         "detail_primary": {
-          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1497440/capsule_616x353.jpg?t=1763721043",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1497440/capsule_616x353.jpg?t=1763721043"
         },
         "detail_secondary": [
           {
-            "key": "media:https://store.steampowered.com/app/1497440/",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://store.steampowered.com/app/1497440/"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "end_at": "2026-10-09T02:00:00+09:00",
       "id": "a-8aab2a3f01815c412c6f3854",
@@ -3662,27 +4055,30 @@
         "meta": "",
         "title": "COCOON：世界を持ち運ぶパズル冒険が60%OFF・1,300円",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "games",
       "deadline_at": "2026-10-09T02:00:00+09:00",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg?t=1780913406",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg?t=1780913406"
         },
         "detail_primary": {
-          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg?t=1780913406",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg?t=1780913406"
         },
         "detail_secondary": [
           {
-            "key": "media:https://store.steampowered.com/app/632470/",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://store.steampowered.com/app/632470/"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "end_at": "2026-10-09T02:00:00+09:00",
       "id": "a-561d45a0bc691307ef22b76b",
@@ -3767,22 +4163,25 @@
         "meta": "",
         "title": "Disco Elysium - The Final Cut：75%OFF・1,150円、対話と内面を操作する探偵RPG",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
-      "category": "cross_domain",
+      "category": "shopping",
       "deadline_at": "2026-10-15T23:59:59+09:00",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.soundhouse.co.jp/material/cph3000/img/img1.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.soundhouse.co.jp/material/cph3000/img/img1.jpg"
         },
         "detail_primary": {
-          "key": "image:https://www.soundhouse.co.jp/material/cph3000/img/img1.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.soundhouse.co.jp/material/cph3000/img/img1.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-3c8dda3bcfcb40de51cf9d4c",
       "images": [
@@ -3849,21 +4248,23 @@
         "title": "CLASSIC PRO CPH3000：音楽を聴き比べる低価格ヘッドホンが2,980円",
         "variant": "signal"
       },
-      "media": []
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "guitar",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.soundhouse.co.jp/images/shop/prod_img/p/pt_ab420cbs_la.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.soundhouse.co.jp/images/shop/prod_img/p/pt_ab420cbs_la.jpg"
         },
         "detail_primary": {
-          "key": "image:https://www.soundhouse.co.jp/images/shop/prod_img/p/pt_ab420cbs_la.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.soundhouse.co.jp/images/shop/prod_img/p/pt_ab420cbs_la.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-26d59816809de415dba379b0",
       "images": [
@@ -3930,26 +4331,28 @@
         "title": "PLAYTECH AB420：PJ構成のアクティブベースが限定特価21,800円",
         "variant": "orbit"
       },
-      "media": []
+      "categories": [
+        "guitar"
+      ]
     },
     {
       "category": "food_drink",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.snowpeak.co.jp/news/wp-content/uploads/2026/09/info_202609_takibiokibiwhisky.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.snowpeak.co.jp/news/wp-content/uploads/2026/09/info_202609_takibiokibiwhisky.jpg"
         },
         "detail_primary": {
-          "key": "image:https://www.snowpeak.co.jp/news/wp-content/uploads/2026/09/info_202609_takibiokibiwhisky.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.snowpeak.co.jp/news/wp-content/uploads/2026/09/info_202609_takibiokibiwhisky.jpg"
         },
         "detail_secondary": [
           {
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "kind": "image"
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Distillers_of_Nagahama_Distillery.jpg/1280px-Distillers_of_Nagahama_Distillery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-047f457703c08d1b21bdb4f7",
       "images": [
@@ -4038,27 +4441,29 @@
         "title": "長濱蒸溜所 × Snow Peak「TAKIBI / OKIBI」— 10/3数量限定発売",
         "variant": "signal"
       },
-      "media": []
+      "categories": [
+        "food_drink"
+      ]
     },
     {
       "category": "music_live",
       "city": "さいたま市",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_secondary": [
           {
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg/1280px-2025_Radiohead_live_concert_at_Uber_Arena%2C_Berlin_102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "event_date": "2027-06-08",
       "id": "a-8006f3dee8380053be8def97",
@@ -4140,35 +4545,38 @@
         "meta": "2027-06-08 · GMO Arena Saitama",
         "title": "RADIOHEAD JAPAN 2027 — 受付終了、落選時はwaitlistへ",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "city": "東京",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/09/artist402-1.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/09/artist402-1.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=MJx4P1pkvoQ",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/09/artist402-1.jpg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8",
-            "kind": "media"
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           },
           {
-            "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/09/artist402-1.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=MJx4P1pkvoQ"
           },
           {
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Feeble_Little_Horse%2C_2025-04-26.jpg/1280px-Feeble_Little_Horse%2C_2025-04-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/2GJa7lPCjAB1rKXptXrfy8"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "event_date": "2027-03-12",
       "id": "a-098b209211b9ec8626ef9dd2",
@@ -4290,26 +4698,29 @@
         "meta": "2027-03-12 · 代官山 SPACE ODD",
         "title": "feeble little horse 初来日 — ノイズとポップが溶ける小規模公演",
         "variant": "grid"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "games",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=htcg3Sr_z0s",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=htcg3Sr_z0s",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_secondary": [
           {
-            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=htcg3Sr_z0s"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "event_date": "2026-10-07",
       "id": "a-86fc0b5635b4b6707cbba883",
@@ -4376,34 +4787,70 @@
         "meta": "2026-10-07",
         "title": "アークナイツ公式生放送「2026秋の大感謝祭スペシャル」— 10/7 20時",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "music_live",
       "city": "東京都渋谷区",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.kirinji-official.com/s3/skiyaki/uploads/ckeditor/pictures/880560/content_DOVETAIL_%E3%82%AD%E3%83%BC%E3%83%92%E3%82%99%E3%82%B7%E3%82%99%E3%83%A5%E3%82%A2%E3%83%AB.jpg"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.kirinji-official.com/s3/skiyaki/uploads/ckeditor/pictures/880560/content_DOVETAIL_%E3%82%AD%E3%83%BC%E3%83%92%E3%82%99%E3%82%B7%E3%82%99%E3%83%A5%E3%82%A2%E3%83%AB.jpg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/15B9FrdU78YP1NVHRekesE"
           },
           {
-            "key": "media:https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/2Gy7SZvabW5UQgL0oljfeB"
+          },
+          {
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/6cMnpAZ9QN0wn4dVd0Tinb"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "id": "a-73f6d065e7f625b80ec330c2",
-      "images": [],
+      "images": [
+        {
+          "url": "assets/images/6cf676edd8a16db04ef74673e2059c32f4bf26c7f8df92fe96b8923a1ee30fb0.jpg",
+          "original_url": "https://www.kirinji-official.com/s3/skiyaki/uploads/ckeditor/pictures/880560/content_DOVETAIL_%E3%82%AD%E3%83%BC%E3%83%92%E3%82%99%E3%82%B7%E3%82%99%E3%83%A5%E3%82%A2%E3%83%AB.jpg",
+          "source_page": "https://www.kirinji-official.com/contents/1114856",
+          "relation": "article_specific",
+          "caption": "DOVETAIL S/N 004",
+          "mode": "saved",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "framing": "contain",
+          "visual_role": "event_identity",
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "event_identity",
+            "target": "DOVETAIL S/N 004",
+            "source_name": "DOVETAIL【S/N 004】 | KIRINJI OFFICIAL SITEKIRINJIKIRINJI Official Fanclub",
+            "source_page": "https://www.kirinji-official.com/contents/1114856",
+            "display_mode": "saved",
+            "role_label": "対象イベント：DOVETAIL S/N 004",
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
@@ -4498,26 +4945,29 @@
         "meta": "Spotify O-EAST / Spotify O-WEST / duo MUSIC EXCHANGE",
         "title": "DOVETAIL S/N 004 — 6年ぶり復活、WONK・TENDRE・luvら第1弾",
         "variant": "field"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=5lzLPoX4oDI",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=5lzLPoX4oDI",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_secondary": [
           {
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/9/99/Arimahuji_park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=5lzLPoX4oDI"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "event_date": "2027-05-15",
       "id": "a-34e2ad0ca9a583847b20abfb",
@@ -4589,21 +5039,24 @@
         "meta": "2027-05-15 · 有馬富士公園",
         "title": "ARIFUJI WEEKENDERS 2027 — 有馬富士公園で5月15日開催決定",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Asagiri_Jam%2717_%2837565684272%29.jpg/1280px-Asagiri_Jam%2717_%2837565684272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": []
       },
       "event_date": "2026-10-10",
       "id": "a-6ac2fc2618a7936ad3de9e97",
@@ -4658,26 +5111,29 @@
         "meta": "2026-10-10 · 朝霧アリーナ 中央砂利スペース",
         "title": "朝霧JAMは2026年休止 — 10月10日に灯火をつなぐ集会",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://cdn.fujirockfestival.com/smash/artist/OknDATNikcwv6kPJojkNlOCFCeHXJKcDgMh1oIeE.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://cdn.fujirockfestival.com/smash/artist/OknDATNikcwv6kPJojkNlOCFCeHXJKcDgMh1oIeE.jpg"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://cdn.fujirockfestival.com/smash/artist/OknDATNikcwv6kPJojkNlOCFCeHXJKcDgMh1oIeE.jpg"
         },
         "detail_secondary": [
           {
-            "key": "image:https://cdn.fujirockfestival.com/smash/artist/OknDATNikcwv6kPJojkNlOCFCeHXJKcDgMh1oIeE.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/4J9kLpFakm3b9gYfdFfkAq"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "event_date": "2026-10-09",
       "id": "a-6096dcf06c396ad4433514ee",
@@ -4757,30 +5213,33 @@
         "meta": "2026-10-09 · NAGOYA CLUB QUATTRO",
         "title": "FCO. — 小原綾斗の別名義を名古屋クアトロで",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/1zpJ58qKOgKcWge9iaFxHG"
           },
           {
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/a/ad/Minyo_Crusaders_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/3mWeBqMtDhKO66qel3iO2C"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "event_date": "2026-10-24",
       "id": "a-11beb44feb226d552a202143",
@@ -4882,26 +5341,29 @@
         "meta": "2026-10-24 · 渋谷 代々木公園 野外ステージ アースガーデン“秋”内",
         "title": "集楽座2026 — 民謡クルセイダーズとCHO CO PAを代々木の野外で",
         "variant": "grid"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_secondary": [
           {
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg/1280px-Y%C4%AAN_Y%C4%AAN_OBS_2024_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/2sLMYvxNmHIYNx6re1WUM2"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "event_date": "2026-10-15",
       "id": "a-bd47266a5d530a1f56ba313e",
@@ -4979,12 +5441,15 @@
         "meta": "2026-10-15 · NAGOYA CLUB QUATTRO",
         "title": "YĪN YĪN — 名古屋でアジア音楽とサイケ・ファンクを楽しむ",
         "variant": "grid"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "games",
       "display_selection": {
-        "selector_version": 7,
+        "selector_version": 8,
         "card_primary": {
           "kind": "image",
           "key": "image:https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/18/L9zIeXYz.png"
@@ -5070,26 +5535,28 @@
         "title": "アークナイツ — 一般資格証の交換条件が10月1日に更新",
         "variant": "orbit"
       },
-      "media": []
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "games",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1793287544",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1793287544"
         },
         "detail_primary": {
-          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1793287544",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1793287544"
         },
         "detail_secondary": [
           {
-            "key": "media:https://store.steampowered.com/app/1488490/",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://store.steampowered.com/app/1488490/"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-a898a1a96de58ae58fe61d68",
       "images": [
@@ -5174,21 +5641,24 @@
         "meta": "",
         "title": "Nivalis Nights — サイバーパンク都市で店と生活を作る新作",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Todagawa_Kodomo_Land_-_1.jpg/1280px-Todagawa_Kodomo_Land_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": []
       },
       "id": "a-e6fe160577056a5346075362",
       "images": [
@@ -5242,26 +5712,29 @@
         "meta": "meitoこどもランド・とだがわ(とだがわこどもランド)会議室",
         "title": "あいちおもちゃクリニック（とだがわこどもランド）",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "games",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg"
         },
         "detail_primary": {
-          "key": "media:https://x.com/ArknightsStaff/status/2087441501072843214",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg"
         },
         "detail_secondary": [
           {
-            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://x.com/ArknightsStaff/status/2087441501072843214"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-f5db1b40b98edb5f6b594249",
       "images": [
@@ -5323,30 +5796,33 @@
         "meta": "",
         "title": "期間限定『デュエルチャンネル：アイビーヴァインシティ』",
         "variant": "grid"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=v8x5tJzmI60",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=v8x5tJzmI60",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=v8x5tJzmI60"
           },
           {
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/1280px-Bruno_Mars_Doowops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "event_date": "2027-01-05",
       "id": "a-97866892876150625b4ce595",
@@ -5448,30 +5924,33 @@
         "meta": "2027-01-05 · Vantelin Dome Nagoya",
         "title": "Bruno Mars — The Romantic Tour in Japan featuring Anderson .Paak as DJ Pee .Wee",
         "variant": "field"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://ambience.jp/wp-content/uploads/2026/09/ds-flyer.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://ambience.jp/wp-content/uploads/2026/09/ds-flyer.jpg"
         },
         "detail_primary": {
-          "key": "image:https://ambience.jp/wp-content/uploads/2026/09/ds-flyer.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://ambience.jp/wp-content/uploads/2026/09/ds-flyer.jpg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=TCGGWghrVHQ"
           },
           {
-            "key": "media:https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/5t2lTLT3wZEE37uBNyDrTY"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-3e3cdf1b4dee90a128396a7e",
       "images": [
@@ -5565,26 +6044,29 @@
         "meta": "栄 TIGHT ROPE",
         "title": "digital shadows — VAIWATT World Tour 2026（栄TIGHT ROPE）",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=KL-t7Hn6Ios",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=KL-t7Hn6Ios",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_secondary": [
           {
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shumokukan_ac_%282%29.jpg/1280px-Shumokukan_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=KL-t7Hn6Ios"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "id": "a-048ccfa85b33fc86a5bca373",
       "images": [
@@ -5660,21 +6142,24 @@
         "meta": "文化のみち橦木館",
         "title": "深堀隆介展『金魚の唄』―山田憲司・北川啓介との共創",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/052/683/kodomobanpaku-mini.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/052/683/kodomobanpaku-mini.jpg"
         },
         "detail_primary": {
-          "key": "image:https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/052/683/kodomobanpaku-mini.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/052/683/kodomobanpaku-mini.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-483c54bc23908a5dbbb0f1d5",
       "images": [
@@ -5730,21 +6215,23 @@
         "title": "こども万博 mini 名古屋",
         "variant": "signal"
       },
-      "media": []
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "world_card:a-a6798601ffd4d9dad14392c1",
-          "kind": "world_card"
+          "kind": "world_card",
+          "key": "world_card:a-a6798601ffd4d9dad14392c1"
         },
         "detail_primary": {
-          "key": "world_card:a-a6798601ffd4d9dad14392c1",
-          "kind": "world_card"
+          "kind": "world_card",
+          "key": "world_card:a-a6798601ffd4d9dad14392c1"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-a6798601ffd4d9dad14392c1",
       "images": [],
@@ -5772,30 +6259,32 @@
         "title": "Nagoya Gnaoua Meeting 2026 — UFO meets グナワ",
         "variant": "orbit"
       },
-      "media": []
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/07/402.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/07/402.jpg"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/07/402.jpg"
         },
         "detail_secondary": [
           {
-            "key": "image:https://www.creativeman.co.jp/wp-content/uploads/2026/07/402.jpg",
-            "kind": "image"
+            "kind": "image",
+            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
           },
           {
-            "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/QOTSA_2007.jpg/1280px-QOTSA_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "event_date": "2026-11-26",
       "id": "a-000f8527b956a63f74c8b376",
@@ -5913,26 +6402,29 @@
         "meta": "2026-11-26 · Zepp Nagoya",
         "title": "Queens of the Stone Age — Japan Tour 2026（名古屋公演あり）",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg"
         },
         "detail_primary": {
-          "key": "media:https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg"
         },
         "detail_secondary": [
           {
-            "key": "image:https://live.staticflickr.com/2821/10362761505_139e18049b_z.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "event_date": "2026-11-19",
       "id": "a-7f7810d7e4dba2ab87344f71",
@@ -6019,26 +6511,29 @@
         "meta": "2026-11-19 · WWW X / CIRCUS OSAKA",
         "title": "Rival Consoles — Landscape from Memory Tour 2026",
         "variant": "field"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tenpaku_Park.JPG/1280px-Tenpaku_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_secondary": [
           {
-            "key": "media:https://www.youtube.com/watch?v=ghMHuCEgpWU",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=ghMHuCEgpWU"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "id": "a-86dd52b5fca063f5aa32ac65",
       "images": [
@@ -6110,21 +6605,24 @@
         "meta": "天白公園",
         "title": "天白公園自然観察会",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Toyota_tecno_museum.jpg/1280px-Toyota_tecno_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": []
       },
       "id": "a-01a7d973657ccc68fb70ac10",
       "images": [
@@ -6182,21 +6680,24 @@
         "meta": "トヨタ産業技術記念館",
         "title": "華ひらくジャポニスム―技術と美術の文明開化―",
         "variant": "grid"
-      }
+      },
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.toyota-machinaka.com/upload/events/large/6532957196aae61e644e68.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.toyota-machinaka.com/upload/events/large/6532957196aae61e644e68.jpg"
         },
         "detail_primary": {
-          "key": "image:https://www.toyota-machinaka.com/upload/events/large/6532957196aae61e644e68.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.toyota-machinaka.com/upload/events/large/6532957196aae61e644e68.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-7d5d68f7aa7a73c8a9346563",
       "images": [
@@ -6257,21 +6758,23 @@
         "title": "アジアを味わえ！とよたまちなかフェス",
         "variant": "grid"
       },
-      "media": []
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://www.fujifilm.co.jp/photosalon/pack/images/2608/o26082801_01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.fujifilm.co.jp/photosalon/pack/images/2608/o26082801_01.jpg"
         },
         "detail_primary": {
-          "key": "image:https://www.fujifilm.co.jp/photosalon/pack/images/2608/o26082801_01.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://www.fujifilm.co.jp/photosalon/pack/images/2608/o26082801_01.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-678ab5f9a35dc5113e312a83",
       "images": [
@@ -6337,26 +6840,28 @@
         "title": "写真展『with ペンギンたちの生きる島』",
         "variant": "field"
       },
-      "media": []
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "local_family",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://art.parco.jp/img/hq/store/storage/w750xh750/cname_20260819203632.png",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://art.parco.jp/img/hq/store/storage/w750xh750/cname_20260819203632.png"
         },
         "detail_primary": {
-          "key": "image:https://art.parco.jp/img/hq/store/storage/w750xh750/cname_20260819203632.png",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://art.parco.jp/img/hq/store/storage/w750xh750/cname_20260819203632.png"
         },
         "detail_secondary": [
           {
-            "key": "media:https://x.com/parco_factory/status/2059107338955714797",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://x.com/parco_factory/status/2059107338955714797"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-9a67a8f724ad3f3ed7a12da1",
       "images": [
@@ -6430,22 +6935,25 @@
         "meta": "名古屋PARCO 西館6F・PARCO GALLERY",
         "title": "残響シ念展―音と感情の実験室― 名古屋会場",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "local_family"
+      ]
     },
     {
       "category": "shopping",
       "deadline_at": "2026-10-19T23:59:00+09:00",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://prcdn.freetls.fastly.net/release_image/4612/2182/4612-2182-0e629c4a2ce34fdc29e8aef5f3c52448-1910x1000.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/4612/2182/4612-2182-0e629c4a2ce34fdc29e8aef5f3c52448-1910x1000.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff"
         },
         "detail_primary": {
-          "key": "image:https://prcdn.freetls.fastly.net/release_image/4612/2182/4612-2182-0e629c4a2ce34fdc29e8aef5f3c52448-1910x1000.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/4612/2182/4612-2182-0e629c4a2ce34fdc29e8aef5f3c52448-1910x1000.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-f6496eb4c10c514b08d6d898",
       "images": [
@@ -6513,26 +7021,28 @@
         "title": "Amazonプライム感謝祭2026 — 日替わりセール・4週キャンペーンを追加発表",
         "variant": "orbit"
       },
-      "media": []
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "games",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://shared.fastly.steamstatic.com/community_assets/images/steamworks_docs/english/auutmn_sale_doc_26.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/community_assets/images/steamworks_docs/english/auutmn_sale_doc_26.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/community_assets/images/steamworks_docs/english/auutmn_sale_doc_26.jpg"
         },
         "detail_secondary": [
           {
-            "key": "image:https://shared.fastly.steamstatic.com/community_assets/images/steamworks_docs/english/auutmn_sale_doc_26.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=GTmrbdAQWaQ"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-c2744609ecf5b11db1d8b887",
       "images": [
@@ -6613,21 +7123,24 @@
         "meta": "",
         "title": "Steam Autumn Sale 2026 — 日本時間では10月2日2時開始",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "food_drink",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Distillerie_bowmore.jpg/1280px-Distillerie_bowmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": []
       },
       "id": "a-9f879e56cf93b526236eb9ff",
       "images": [
@@ -6680,26 +7193,24 @@
         "meta": "",
         "title": "ボウモア9年／ボウモア シェリー3種",
         "variant": "field"
-      }
+      },
+      "categories": [
+        "food_drink"
+      ]
     },
     {
       "category": "automotive",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi.jpg?cdh=attachment"
         },
         "detail_primary": {
-          "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi-1.jpg:asset-680-16x9?op_usm=1.75,0.3,2,0&qlt=55,0&resMode=sharp2",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi.jpg?cdh=attachment"
         },
-        "detail_secondary": [
-          {
-            "key": "image:https://assets.infineon.com/is/image/infineon/tle9744qk-lqfp-64-28-combi.jpg?cdh=attachment",
-            "kind": "image"
-          }
-        ],
-        "selector_version": 6
+        "detail_secondary": []
       },
       "id": "a-61512f53484a77c99b26447f",
       "images": [
@@ -6762,26 +7273,29 @@
         "meta": "",
         "title": "Infineon TLE9744QK — トラクションインバータ用統合PMIC",
         "variant": "grid"
-      }
+      },
+      "categories": [
+        "automotive"
+      ]
     },
     {
       "category": "guitar",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://cdn.sanity.io/images/cwdo0dfy/production/82e6f97aab10ffd8291fb49268466e8b47cdc30d-1200x691.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://cdn.sanity.io/images/cwdo0dfy/production/82e6f97aab10ffd8291fb49268466e8b47cdc30d-1200x691.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=n1pjVTwa6LU",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://cdn.sanity.io/images/cwdo0dfy/production/82e6f97aab10ffd8291fb49268466e8b47cdc30d-1200x691.jpg"
         },
         "detail_secondary": [
           {
-            "key": "image:https://cdn.sanity.io/images/cwdo0dfy/production/82e6f97aab10ffd8291fb49268466e8b47cdc30d-1200x691.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=n1pjVTwa6LU"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-3cf54000d810efd7e77b22ac",
       "images": [
@@ -6858,21 +7372,24 @@
         "meta": "",
         "title": "TONE3000 Plugin / Standalone — 無料のNAM A2統合ブラウザ",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "guitar"
+      ]
     },
     {
       "category": "guitar",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://github.com/dashersw/coyopedal/raw/main/web/og.png",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://github.com/dashersw/coyopedal/raw/main/web/og.png"
         },
         "detail_primary": {
-          "key": "image:https://github.com/dashersw/coyopedal/raw/main/web/og.png",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://github.com/dashersw/coyopedal/raw/main/web/og.png"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-b002eefa738f842163436c80",
       "images": [
@@ -6928,22 +7445,24 @@
         "title": "CoyoPedal — ESP32-S3でNAM A2 Full profileを動かすopen-source pedal project",
         "variant": "signal"
       },
-      "media": []
+      "categories": [
+        "guitar"
+      ]
     },
     {
       "category": "shopping",
       "deadline_at": "2026-09-30",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_primary": {
-          "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/b/b8/Osamu-tezuka-713539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": []
       },
       "id": "a-e9c2a77708a2edbbca20352e",
       "images": [
@@ -6996,21 +7515,24 @@
         "meta": "",
         "title": "手塚治虫作品 Kindle 9月セール（ダスト8／カラー版MW）",
         "variant": "grid"
-      }
+      },
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "automotive",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
         "detail_primary": {
-          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg/1280px-Illuminated_white_and_purple_facade_of_the_office_building_Rohm_Semiconductor_in_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         },
-        "detail_secondary": [],
-        "selector_version": 6
+        "detail_secondary": []
       },
       "id": "a-c0297c14f885cd3075dddaee",
       "images": [
@@ -7062,26 +7584,29 @@
         "meta": "",
         "title": "ROHM SiCがBMW Neue Klasse Gen 6電動powertrainへ採用",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "automotive"
+      ]
     },
     {
       "category": "automotive",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=KPt26AzAZU4",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=KPt26AzAZU4",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_secondary": [
           {
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/4/4c/Onsemi_factory%2C_Senawang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=KPt26AzAZU4"
           }
-        ],
-        "selector_version": 6
+        ]
       },
       "id": "a-4298267034eeb8621be391a7",
       "images": [
@@ -7152,26 +7677,29 @@
         "meta": "",
         "title": "onsemi Embedded Power Platform — wafer自体をpackage化する電力統合",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "automotive"
+      ]
     },
     {
       "category": "games",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=G8Nqyt88CrA",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=G8Nqyt88CrA",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
         },
         "detail_secondary": [
           {
-            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=G8Nqyt88CrA"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-dcba414cdca0fba5e21ffb28",
       "images": [
@@ -7233,30 +7761,33 @@
         "meta": "",
         "title": "『バベル』記録復元と一般資格証交換所の更新",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "film_streaming",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://assets.aboutamazon.com/9a/3d/3b308f8944e68ce1981009fb9128/chainsawman-movie-leze-fighting-monsters.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://assets.aboutamazon.com/9a/3d/3b308f8944e68ce1981009fb9128/chainsawman-movie-leze-fighting-monsters.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=pGfbjf9lBkA",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://assets.aboutamazon.com/9a/3d/3b308f8944e68ce1981009fb9128/chainsawman-movie-leze-fighting-monsters.jpg"
         },
         "detail_secondary": [
           {
-            "key": "image:https://assets.aboutamazon.com/9a/3d/3b308f8944e68ce1981009fb9128/chainsawman-movie-leze-fighting-monsters.jpg",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=pGfbjf9lBkA"
           },
           {
-            "key": "media:https://www.youtube.com/watch?v=pv8A7eubPQQ",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=pv8A7eubPQQ"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-a22b296d0b900261847b548a",
       "images": [
@@ -7349,30 +7880,33 @@
         "meta": "",
         "title": "劇場版『チェンソーマン レゼ篇』Prime Video独占見放題",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "film_streaming"
+      ]
     },
     {
       "category": "games",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://cdn1.epicgames.com/spt-assets/c24dd5ab6e484bf08eb44c7a98f81fd1/control-resonant-1vsfi.png",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://cdn1.epicgames.com/spt-assets/c24dd5ab6e484bf08eb44c7a98f81fd1/control-resonant-1vsfi.png"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=e1_eZyFM5-4",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://cdn1.epicgames.com/spt-assets/c24dd5ab6e484bf08eb44c7a98f81fd1/control-resonant-1vsfi.png"
         },
         "detail_secondary": [
           {
-            "key": "image:https://cdn1.epicgames.com/spt-assets/c24dd5ab6e484bf08eb44c7a98f81fd1/control-resonant-1vsfi.png",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=e1_eZyFM5-4"
           },
           {
-            "key": "media:https://store.steampowered.com/app/3669870/",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://store.steampowered.com/app/3669870/"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-9c591dacf25fa1afa6d6bc2d",
       "images": [
@@ -7465,30 +7999,33 @@
         "meta": "",
         "title": "CONTROL Resonant",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "games"
+      ]
     },
     {
       "category": "film_streaming",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=-tUulrroh6A",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         },
         "detail_secondary": [
           {
-            "key": "media:https://www.youtube.com/watch?v=MxQQ1S0N_wE",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=-tUulrroh6A"
           },
           {
-            "key": "image:https://upload.wikimedia.org/wikipedia/commons/8/88/Japanese_actor-Koji_Yakusho_Ffa2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=MxQQ1S0N_wE"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-b2a798191e25c0fe70804d14",
       "images": [
@@ -7575,30 +8112,33 @@
         "meta": "",
         "title": "Netflix『俺のこと、なんか言ってた？』",
         "variant": "orbit"
-      }
+      },
+      "categories": [
+        "film_streaming"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://f4.bcbits.com/img/a0697641923_5.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://f4.bcbits.com/img/a0697641923_5.jpg"
         },
         "detail_primary": {
-          "key": "image:https://f4.bcbits.com/img/a0697641923_5.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://f4.bcbits.com/img/a0697641923_5.jpg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/album/6vMtJp5d41Gi2ApvUHhX7j"
           },
           {
-            "key": "media:https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/4LLrhUqUv2Mi1NhHz0pjXd"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-2361950123a99ecab7ebeb6a",
       "images": [
@@ -7696,22 +8236,25 @@
         "meta": "",
         "title": "Le Motel『Pozo de Agua』",
         "variant": "field"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     },
     {
       "category": "shopping",
       "deadline_at": "2026-09-29",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://shogakukan-comic.jp/book-images/w400/books/9784098611072.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://shogakukan-comic.jp/book-images/w400/books/9784098611072.jpg"
         },
         "detail_primary": {
-          "key": "image:https://shogakukan-comic.jp/book-images/w400/books/9784098611072.jpg",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://shogakukan-comic.jp/book-images/w400/books/9784098611072.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 7
+        "detail_secondary": []
       },
       "id": "a-0bc5fc2167a141be1439b2f6",
       "images": [
@@ -7771,26 +8314,28 @@
         "title": "『スノウボールアース』1〜11巻 各100円",
         "variant": "field"
       },
-      "media": []
+      "categories": [
+        "shopping"
+      ]
     },
     {
       "category": "music_live",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://cstrecords.com/cdn/shop/files/CST195_01FrontCover_3600px.jpg?v=1780511878&width=1445",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://cstrecords.com/cdn/shop/files/CST195_01FrontCover_3600px.jpg?v=1780511878&width=1445"
         },
         "detail_primary": {
-          "key": "image:https://cstrecords.com/cdn/shop/files/CST195_01FrontCover_3600px.jpg?v=1780511878&width=1445",
-          "kind": "image"
+          "kind": "image",
+          "key": "image:https://cstrecords.com/cdn/shop/files/CST195_01FrontCover_3600px.jpg?v=1780511878&width=1445"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/artist/3nNB3aUZ2UyODwiciU2k3N"
           }
-        ],
-        "selector_version": 7
+        ]
       },
       "id": "a-602e00baa29b017c13070373",
       "images": [
@@ -7868,7 +8413,10 @@
         "meta": "",
         "title": "Steve Bates『An Infinite Antenna』",
         "variant": "signal"
-      }
+      },
+      "categories": [
+        "music_live"
+      ]
     }
   ]
 }
