@@ -3,7 +3,7 @@ if(window.__discoveryFilterControlsV12)return;
 window.__discoveryFilterControlsV12=true;
 const targetLabel="イベント";
 const oldLabel="近場・家族・イベント";
-const monthViews=new Set(["home","today","weekly","archive"]);
+const monthViews=new Set(["home","today","weekly","archive","category","search"]);
 let visibilityObserver=null;
 function wrapField(id,label){
  const input=document.getElementById(id);
@@ -27,7 +27,7 @@ function relabelCategory(){
    if(span.textContent===oldLabel)span.textContent=targetLabel;
  }
 }
-function currentView(){return ((location.hash||"#home").slice(1).split("/")[0]||"home");}
+function currentView(){return ((location.hash||"#home").slice(1).split(/[/?]/)[0]||"home");}
 function setHidden(node,value){if(node&&node.hidden!==value)node.hidden=value;}
 function observeVisibility(){
  const date=document.getElementById("date");
@@ -45,8 +45,8 @@ function syncDateControls(){
  const monthWrapper=month&&month.closest(".filter-field");
  if(visibilityObserver)visibilityObserver.disconnect();
  if(date){
-   setHidden(date,useMonth);
-   setHidden(dateWrapper,useMonth);
+   setHidden(date,true);
+   setHidden(dateWrapper,true);
    if(useMonth&&date.value){
      date.value="";
      date.dispatchEvent(new Event("input",{bubbles:true}));
