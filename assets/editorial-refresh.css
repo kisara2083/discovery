@@ -21,7 +21,7 @@ html,body{overflow-x:clip}
 .card .card-visual .visual:not(.embed-card):not(.world-card){display:block!important;aspect-ratio:auto!important;width:100%!important;min-height:0!important;height:auto!important;max-height:none!important;overflow:visible!important;background:transparent!important}
 .card .card-visual img,.card.is-extreme-portrait .card-visual img,.card.is-desktop-extreme-portrait .card-visual img{display:block!important;width:100%!important;height:auto!important;max-width:100%!important;max-height:90vh!important;object-fit:contain!important;margin:0!important;transform:none!important}
 .card .quoted-visual{margin:0!important;padding:0!important;border:0!important;max-width:none!important}
-.card .card-visual>.world-card{display:flex!important;aspect-ratio:16/9!important;height:auto!important;min-height:0!important;background:#111!important;color:#fff!important}
+.card .card-visual>.visual.world-card{display:flex!important;aspect-ratio:16/9!important;height:auto!important;min-height:0!important;max-height:none!important;background:#111!important;color:#fff!important}
 .card .world-card::before,.card .world-card::after{display:none!important}
 .card .quote-credit{position:static!important;padding:8px 0 0!important;line-height:1.7;font-size:10px}
 .card .embed-card{aspect-ratio:16/9!important;min-height:0!important;height:auto!important}
