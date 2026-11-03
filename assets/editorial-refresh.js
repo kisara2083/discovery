@@ -69,7 +69,8 @@ function detailRefs(a){
 cardVisual=function(a,failed=new Set()){
   const candidates=[...(a.images||[]).map(image=>({key:imageSelectionKey(image),image})),...embedList(a).filter(cardMediaCapable).map(media=>({key:mediaSelectionKey(media),media}))];
   candidates.sort((x,y)=>cardCompare(x,y,a));
-  const candidate=candidates.find(c=>!failed.has(c.key));
+  const preferred=a.display_selection?.selector_version===8?selectedRef(a,'card'):null;
+  const candidate=(preferred&&candidates.find(c=>c.key===preferred.key&&!failed.has(c.key)))||candidates.find(c=>!failed.has(c.key));
   if(!candidate&&!a.world_card)return null;
   const n=el('div',undefined,'card-visual');
   if(!candidate){n.append(worldVisual(a));return n;}
