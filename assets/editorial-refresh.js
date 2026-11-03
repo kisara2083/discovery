@@ -106,6 +106,8 @@ detail=function(a){
 let lastState=parseRoute(location.hash);
 render=function(){
   if(!dataReady())return;const state=parseRoute(location.hash);lastState=state;
+  document.querySelector('.intro')?.toggleAttribute('hidden',state.view!=='home');
+  if($('category'))$('category').hidden=true;
   for(const [id,value] of [['query',state.query],['category',state.category],['status',state.status],['month',state.month]])if($(id))$(id).value=value;
   if($('date')){$('date').value='';$('date').hidden=true;$('date').closest('.filter-field')?.setAttribute('hidden','');}
   $('month').hidden=state.view==='article';$('month').closest('.filter-field')?.toggleAttribute('hidden',state.view==='article');

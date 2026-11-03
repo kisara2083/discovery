@@ -1,6 +1,8 @@
 :root{--discovery-accent:#315f63;--accent-subtle:#dce9e7;--accent-wash:rgba(49,95,99,.10)}
 body{background:#fff!important;color:#202b2b;overflow-x:clip}.editorial-backdrop{opacity:.55}
 html{overflow-x:clip}main{background:#fff!important}.grid{grid-auto-rows:auto!important}
+.intro[hidden],#category[hidden]{display:none!important}
+.editorial-backdrop-word{display:none!important}.card{isolation:isolate}
 .card::before,.hero::before{display:block!important}
 .card .card-visual>.world-card{display:flex!important;aspect-ratio:16/10!important;min-height:230px!important;height:auto!important}
 .controls,#taxonomy{position:relative;isolation:isolate}.controls::after{background:radial-gradient(ellipse,var(--accent-wash),transparent 72%)!important;opacity:.9!important}
