@@ -8,6 +8,15 @@ def request(item,sequence=1,operation='NEW',root='a'*40,as_of='2026-10-24'):
 def dataset(items=None,as_of='2026-10-23'):
  return {'schema_version':'1','site_name':'DISCOVERY','as_of':as_of,'taxonomy':[{'id':'games','label':'ゲーム'}],'todays_pick':items[0]['id'] if items else None,'articles':list(items or [])}
 class PublisherTests(unittest.TestCase):
+ def test_v8_multiple_categories_survive_publication(self):
+  value=article();value['display_selection']['selector_version']=8;value['display_selection']['detail_primary']=None
+  value['categories']=['games','music_live'];data=dataset();data['taxonomy'].append({'id':'music_live','label':'Music'})
+  result,_,_=self.run_case(data,request(value));self.assertEqual(result['articles'][0]['categories'],['games','music_live'])
+ def test_invalid_category_array_fails_closed(self):
+  for categories in ([],['games','games'],['unknown'],['music_live']):
+   value=article();value['categories']=categories
+   self.run_case(dataset(),request(value),expect_ok=False)
+
  def test_v7_accepted_and_v6_compatible(self):
   for version in (2,3,4,5,6,7):
    item=article(); item['display_selection']['selector_version']=version

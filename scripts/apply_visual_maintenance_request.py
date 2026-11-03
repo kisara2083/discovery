@@ -60,9 +60,9 @@ def validate_request(req):
     exact(req["visual"],VISUAL_KEYS,VISUAL_KEYS,"visual")
     if not isinstance(req["visual"]["images"],list) or not isinstance(req["visual"]["media"],list):
         fail("visual_list_type")
-    if not isinstance(req["visual"]["world_card"],dict) or not isinstance(req["visual"]["display_selection"],dict):
+    if (req["visual"]["world_card"] is not None and not isinstance(req["visual"]["world_card"],dict)) or not isinstance(req["visual"]["display_selection"],dict):
         fail("visual_object_type")
-    if req["visual"]["display_selection"].get("selector_version")!=7:
+    if req["visual"]["display_selection"].get("selector_version") not in {7,8}:
         fail("visual_selector_version")
     expected_id=bound_maintenance_id(req["article_id"],req["expected_article_digest"],req["visual"])
     if req["maintenance_id"]!=expected_id:
@@ -105,11 +105,13 @@ def validate_visual_payload(current,replacement,repo_root):
             fail("public_quote_copyright_drift")
     current_world=current.get("world_card")
     replacement_world=replacement.get("world_card")
-    if not isinstance(current_world,dict) or not isinstance(replacement_world,dict):
+    if current_world is None and replacement_world is None:
+        pass
+    elif not isinstance(current_world,dict) or not isinstance(replacement_world,dict):
         fail("world_card_current_missing")
     # world_card is a Visual surface, but its factual/title text is not a
     # maintenance input. Only the presentation variant may change here.
-    if any(replacement_world.get(k)!=current_world.get(k) for k in WORLD_IMMUTABLE_KEYS):
+    if current_world is not None and any(replacement_world.get(k)!=current_world.get(k) for k in WORLD_IMMUTABLE_KEYS):
         fail("world_card_nonvisual_drift")
 
     # Match canonical selector/renderer identity for an already-saved image;
@@ -118,7 +120,7 @@ def validate_visual_payload(current,replacement,repo_root):
     media_keys={"media:"+str(m.get("canonical_url","")) for m in replacement.get("media",[])}
     if len(image_keys)!=len(replacement.get("images",[])) or len(media_keys)!=len(replacement.get("media",[])):
         fail("visual_candidate_duplicate")
-    candidates={"image":image_keys,"media":media_keys,"world_card":{replacement_world["key"]}}
+    candidates={"image":image_keys,"media":media_keys,"world_card":{replacement_world["key"]} if replacement_world else set()}
     selection=replacement["display_selection"]
     refs=[selection.get("card_primary"),selection.get("detail_primary"),*selection.get("detail_secondary",[])]
     for ref in refs:
@@ -184,6 +186,8 @@ def main(reqp,datap,statep,resultp):
     immutable_before={k:copy.deepcopy(v) for k,v in current.items() if k not in VISUAL_KEYS}
     for k in VISUAL_KEYS:
         replacement[k]=copy.deepcopy(req["visual"][k])
+    if replacement.get('world_card') is None:
+        replacement.pop('world_card',None)
     immutable_after={k:copy.deepcopy(v) for k,v in replacement.items() if k not in VISUAL_KEYS}
     if immutable_after!=immutable_before:
         fail("non_visual_field_changed")
