@@ -53,3 +53,8 @@ a.category-chip,.links a,.quote-credit a,.image-credit a,.media-fallback a,.clea
 .editorial-detail .section-title{border:0!important;padding-top:20px;font:700 12px/1.5 ui-monospace,monospace!important;letter-spacing:.14em!important}.editorial-detail dl{border:0!important}.editorial-detail dt{color:#666!important}
 
 @media(max-width:760px){.card h3{font-size:22px!important}}
+
+/* World may be a direct fallback or wrapped in the article link. */
+.card:has(.world-card) .world-title{display:block!important;color:#fff!important;opacity:1!important}
+.card:has(.world-card) .body>h3{display:none!important}
+@media(max-width:760px){.card:has(.world-card)>a.visual-link:first-child{width:calc(100% + 12vw)!important;max-width:none!important}.card:has(.world-card)>a.visual-link>.card-visual{width:100%!important;max-width:none!important;margin:0!important}}
