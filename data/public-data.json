@@ -1090,31 +1090,31 @@
         "selector_version": 8,
         "card_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/170373358203511762/01.jpg"
         },
         "detail_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/170373358203511762/01.jpg"
         },
         "detail_secondary": []
       },
       "id": "a-88fd21518a52979e37a2319e",
       "images": [
         {
-          "caption": "アークナイツ公式ファンキット：バーチャル背景②（記事固有の告知画像ではありません）",
-          "framing": "contain",
-          "mode": "saved",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "relation": "reference_same_entity",
+          "url": "assets/images/fa55dc7851a292754e3a8b4f2cf8f0a16425bb38279d6be4da4c8b2f9737a834.jpg",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/170373358203511762/01.jpg",
           "source_page": "https://www.arknights.jp/fankit/",
-          "url": "assets/images/440acf1b2150a04031c0d0aa6f89903890d9d9b8c221b04df588c38c5b270f18.jpg",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキット：2024年新年記念イラスト（記事固有の告知画像ではありません）",
+          "mode": "saved",
+          "framing": "contain",
           "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
             "relation": "official_entity",
-            "source_revalidated": true
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
           }
         }
       ],
@@ -1151,31 +1151,31 @@
         "selector_version": 8,
         "card_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/171446570121817049/01.png"
         },
         "detail_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/171446570121817049/01.png"
         },
         "detail_secondary": []
       },
       "id": "a-09718092d27dcc1214b5d68f",
       "images": [
         {
-          "caption": "アークナイツ公式ファンキット：バーチャル背景②（記事固有の告知画像ではありません）",
-          "framing": "contain",
-          "mode": "saved",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "relation": "reference_same_entity",
+          "url": "assets/images/a0d3173bcfd5b349fdd00eb8fe19296ed27582d5608b51c363e7bac7cf2c0e49.png",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/171446570121817049/01.png",
           "source_page": "https://www.arknights.jp/fankit/",
-          "url": "assets/images/440acf1b2150a04031c0d0aa6f89903890d9d9b8c221b04df588c38c5b270f18.jpg",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキット：春の大感謝祭2024（記事固有の告知画像ではありません）",
+          "mode": "saved",
+          "framing": "contain",
           "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
             "relation": "official_entity",
-            "source_revalidated": true
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
           }
         }
       ],
@@ -1212,31 +1212,31 @@
         "selector_version": 8,
         "card_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/173106134600617650/01.png"
         },
         "detail_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/173106134600617650/01.png"
         },
         "detail_secondary": []
       },
       "id": "a-4e9f88e6c86745e482f4cdc5",
       "images": [
         {
-          "caption": "アークナイツ公式ファンキット：バーチャル背景②（記事固有の告知画像ではありません）",
-          "framing": "contain",
-          "mode": "saved",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "relation": "reference_same_entity",
+          "url": "assets/images/d47a379375efb766c4e9123738a6111e79707ac89f6dbc7176544869288b52f5.png",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/173106134600617650/01.png",
           "source_page": "https://www.arknights.jp/fankit/",
-          "url": "assets/images/440acf1b2150a04031c0d0aa6f89903890d9d9b8c221b04df588c38c5b270f18.jpg",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキット：第十四章「慈悲光塔」開幕記念イラスト（記事固有の告知画像ではありません）",
+          "mode": "saved",
+          "framing": "contain",
           "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
             "relation": "official_entity",
-            "source_revalidated": true
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
           }
         }
       ],
@@ -1273,31 +1273,31 @@
         "selector_version": 8,
         "card_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/171084037979813799/01.jpg"
         },
         "detail_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/171084037979813799/01.jpg"
         },
         "detail_secondary": []
       },
       "id": "a-3799871fbcf280c992a27c4d",
       "images": [
         {
-          "caption": "アークナイツ公式ファンキット：バーチャル背景②（記事固有の告知画像ではありません）",
-          "framing": "contain",
-          "mode": "saved",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
-          "relation": "reference_same_entity",
+          "url": "assets/images/77f426435b68f54077e2d677f74fdc147b263d76f38b5d4f3ddb5297979d4d3c.jpg",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/171084037979813799/01.jpg",
           "source_page": "https://www.arknights.jp/fankit/",
-          "url": "assets/images/440acf1b2150a04031c0d0aa6f89903890d9d9b8c221b04df588c38c5b270f18.jpg",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキット：「ダーティマネー」記念イラスト（記事固有の告知画像ではありません）",
+          "mode": "saved",
+          "framing": "contain",
           "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
             "relation": "official_entity",
-            "source_revalidated": true
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
           }
         }
       ],
@@ -1419,7 +1419,7 @@
         "detail_secondary": [
           {
             "kind": "image",
-            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/162702471182412027/01.png"
           }
         ]
       },
@@ -1454,32 +1454,21 @@
           }
         },
         {
-          "caption": "対象作品：アークナイツ（同一作品ファンキット参考画像）",
-          "framing": "contain",
-          "mode": "saved",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "quote_context": {
-            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
-            "display_mode": "saved",
-            "quote_version": 2,
-            "relation": "work_identity",
-            "role_label": "対象作品：アークナイツ（同一作品ファンキット参考画像）",
-            "source_name": "www.arknights.jp",
-            "source_page": "https://www.arknights.jp/fankit/",
-            "target": "アークナイツ（同一作品ファンキット参考画像）"
-          },
-          "relation": "reference_same_entity",
+          "url": "assets/images/456d80e8abe67932b2d44b206a94a6beb0e40b74d0e317c3d1d2870c336b28da.png",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/162702471182412027/01.png",
           "source_page": "https://www.arknights.jp/fankit/",
-          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキット：1.5周年キービジュアル（記事固有の告知画像ではありません）",
+          "mode": "saved",
+          "framing": "contain",
           "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
             "relation": "official_entity",
-            "source_revalidated": true
-          },
-          "visual_role": "work_identity"
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
+          }
         }
       ],
       "lifecycle": "ACTIVE",
@@ -4709,11 +4698,11 @@
         "selector_version": 8,
         "card_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/165279026393412327/01.png"
         },
         "detail_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/165279026393412327/01.png"
         },
         "detail_secondary": [
           {
@@ -4726,20 +4715,20 @@
       "id": "a-86fc0b5635b4b6707cbba883",
       "images": [
         {
-          "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
-          "framing": "contain",
-          "mode": "saved",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "relation": "reference_same_entity",
+          "url": "assets/images/067bc2a2dea50ee9f665fbe068a281f7fdda1932a16b1c84a4cbbe597391e147.png",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/165279026393412327/01.png",
           "source_page": "https://www.arknights.jp/fankit/",
-          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキット：「ニアーライト」記念イラスト（記事固有の告知画像ではありません）",
+          "mode": "saved",
+          "framing": "contain",
           "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
             "relation": "official_entity",
-            "source_revalidated": true
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
           }
         }
       ],
@@ -5496,20 +5485,20 @@
           }
         },
         {
-          "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
-          "framing": "contain",
-          "mode": "saved",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "relation": "reference_same_entity",
-          "source_page": "https://www.arknights.jp/fankit/",
           "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキット：龍門の日常（記事固有の告知画像ではありません）",
+          "mode": "saved",
+          "framing": "contain",
           "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
             "relation": "official_entity",
-            "source_revalidated": true
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
           }
         }
       ],
@@ -5723,11 +5712,11 @@
         "selector_version": 8,
         "card_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158625426846311578/01.png"
         },
         "detail_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158625426846311578/01.png"
         },
         "detail_secondary": [
           {
@@ -5739,20 +5728,20 @@
       "id": "a-f5db1b40b98edb5f6b594249",
       "images": [
         {
-          "caption": "アークナイツ公式ファンキット：バーチャル背景①（記事固有の告知画像ではありません）",
-          "framing": "contain",
-          "mode": "saved",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg",
-          "relation": "reference_same_entity",
+          "url": "assets/images/3b4ca9eb6a6f8c07224492acff7b5df2b046d125e486bcb82a7c8dc71d0bbb26.png",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158625426846311578/01.png",
           "source_page": "https://www.arknights.jp/fankit/",
-          "url": "assets/images/eba0715c65472e1a3fb7b4ef6c2494025e3c1b78dfa25e6ca6e70181119b2e8c.jpg",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキット：2020バレンタイン（記事固有の告知画像ではありません）",
+          "mode": "saved",
+          "framing": "contain",
           "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
             "relation": "official_entity",
-            "source_revalidated": true
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
           }
         }
       ],
@@ -7688,11 +7677,11 @@
         "selector_version": 8,
         "card_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168848582015563/01.png"
         },
         "detail_primary": {
           "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/159168848582015563/01.png"
         },
         "detail_secondary": [
           {
@@ -7704,20 +7693,20 @@
       "id": "a-dcba414cdca0fba5e21ffb28",
       "images": [
         {
-          "caption": "アークナイツ公式ファンキットの同作品参考画像。掲載イベント固有の告知画像ではありません。© Hypergryph / Yostar",
-          "framing": "contain",
-          "mode": "saved",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
-          "relation": "reference_same_entity",
+          "url": "assets/images/9407874ea4628c0c9d2e160b72394c049adbcecbae4186587cfe007b8e262fca.png",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168848582015563/01.png",
           "source_page": "https://www.arknights.jp/fankit/",
-          "url": "assets/images/df43c68089bf7cbe2bf1fc73411fc5b15df3e88973f1770790c53ffbb8c5467f.jpg",
+          "relation": "reference_same_entity",
+          "caption": "アークナイツ公式ファンキット：戦地の逸話（記事固有の告知画像ではありません）",
+          "mode": "saved",
+          "framing": "contain",
           "visual_provenance": {
-            "article_match": false,
-            "authority_class": "official_entity",
-            "entity_match": true,
-            "official_source": true,
             "relation": "official_entity",
-            "source_revalidated": true
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
           }
         }
       ],

@@ -1,0 +1,184 @@
+{
+  "migration": "arknights-content-independent-uniform-1",
+  "input_digest": "a0d8dfe67091306b51fae02d79505cbf6c29c9534b85514b6dc4f2cb2a620ae5",
+  "stamp": "2026-11-03T14:24:38.261860+00:00",
+  "completed": true,
+  "eligible_urls": [
+    "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/23/Xba2hKmv.jpg",
+    "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/08/11/KYS4_PHC.png",
+    "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/04/22/GcKcNs-9.jpeg",
+    "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/03/20/W1grZVlt.jpeg",
+    "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/02/17/56tMiAhb.jpeg",
+    "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/01/20/DEsVmnXa.jpeg",
+    "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/12/25/ti3B17xi.jpeg",
+    "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/11/23/aul-ZKOS.jpeg",
+    "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/09/23/PWZ5KRQP.jpeg",
+    "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/08/11/UsYn9hWg.jpeg",
+    "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/07/21/CWYyffAT.jpeg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/174599650459318752/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/174238077366715480/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/173805607452014147/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/173166958912010797/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/173106134600617650/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/173011656273816300/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/172197591815510122/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/172319749162713965/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/172093926960112227/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/171576163739010979/02.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/171084037979813799/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/170789912117216191/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/170626151358715152/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/170373358203511762/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/170348676059018649/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/170065430613010767/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/169874994177211582/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/169537456434113827/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/169096955655617104/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/169104342646112460/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/168950474894614599/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/168633329541515192/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/168380465273417019/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/168085627393112361/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/168025476275916879/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/167524859662916770/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/167418479043811113/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/167058131245013356/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/166927803644217046/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/166868537656313559/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/166729996445512191/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/166386108242217107/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/166134139469118282/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/166004896288718013/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/165787246318012815/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/165279026393412327/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/165347380023817383/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/164371110936013495/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/164327066591516101/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/164248862234713259/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/163757821919411156/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/163729568572711773/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/163729487848016696/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/162868053755316583/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/162816872645215444/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/162816870718315958/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/162702471182412027/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/162816866668814090/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/158883211789013635/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/162816851372911912/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/158883191482015970/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/158883228382917966/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/158641077292516862/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/158641080754314094/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/158625418560514034/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/158625426846311578/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/159168848582015563/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/159168851422317527/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/159488297522317130/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/162071540805810628/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/160009982085811142/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/160696609599810772/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/161008415042116086/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/161373220121211308/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/163601143129217879/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/161906099040614049/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/164439860581612006/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/162743985301017351/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/166426214607514894/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/165278986014211967/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/166859177560212371/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/168552154011616099/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/170004613524413546/01.png",
+    "https://webusstatic.yo-star.com/ark_jp_web/assets/171446570121817049/01.png"
+  ],
+  "rows": [
+    {
+      "id": "a-88fd21518a52979e37a2319e",
+      "chosen_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/170373358203511762/01.jpg",
+      "status": "CHANGED",
+      "before_urls": [
+        "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+      ],
+      "after_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/170373358203511762/01.jpg"
+    },
+    {
+      "id": "a-09718092d27dcc1214b5d68f",
+      "chosen_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/171446570121817049/01.png",
+      "status": "CHANGED",
+      "before_urls": [
+        "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+      ],
+      "after_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/171446570121817049/01.png"
+    },
+    {
+      "id": "a-4e9f88e6c86745e482f4cdc5",
+      "chosen_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/173106134600617650/01.png",
+      "status": "CHANGED",
+      "before_urls": [
+        "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+      ],
+      "after_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/173106134600617650/01.png"
+    },
+    {
+      "id": "a-3799871fbcf280c992a27c4d",
+      "chosen_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/171084037979813799/01.jpg",
+      "status": "CHANGED",
+      "before_urls": [
+        "https://webusstatic.yo-star.com/ark_jp_web/assets/158641070846417241/01.jpg"
+      ],
+      "after_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/171084037979813799/01.jpg"
+    },
+    {
+      "id": "a-6b2410cf19c11c79326fea09",
+      "chosen_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/162702471182412027/01.png",
+      "status": "CHANGED",
+      "before_urls": [
+        "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+      ],
+      "after_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/162702471182412027/01.png"
+    },
+    {
+      "id": "a-86fc0b5635b4b6707cbba883",
+      "chosen_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/165279026393412327/01.png",
+      "status": "CHANGED",
+      "before_urls": [
+        "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+      ],
+      "after_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/165279026393412327/01.png"
+    },
+    {
+      "id": "a-c2508f7155a0f0dd0a7a3bf7",
+      "chosen_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg",
+      "status": "NO_CHANGE",
+      "before_urls": [
+        "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+      ],
+      "after_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+    },
+    {
+      "id": "a-f5db1b40b98edb5f6b594249",
+      "chosen_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158625426846311578/01.png",
+      "status": "CHANGED",
+      "before_urls": [
+        "https://webusstatic.yo-star.com/ark_jp_web/assets/158641056122110370/01.jpg"
+      ],
+      "after_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/158625426846311578/01.png"
+    },
+    {
+      "id": "a-dcba414cdca0fba5e21ffb28",
+      "chosen_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168848582015563/01.png",
+      "status": "CHANGED",
+      "before_urls": [
+        "https://webusstatic.yo-star.com/ark_jp_web/assets/159168841867211744/01.jpg"
+      ],
+      "after_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/159168848582015563/01.png"
+    }
+  ],
+  "target_count": 9,
+  "changed_count": 8,
+  "no_change_count": 1,
+  "failed_count": 0,
+  "output_digest": "0be249426c83d0c6b2235979eb11e88805de4ade0d8e3801350c4762103458eb"
+}

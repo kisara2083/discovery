@@ -1,0 +1,15 @@
+{
+  "canonical_repository": "kisara2083/ChatGPT_DB",
+  "canonical_commit": "5000ff5f638684a36e3f718152864003d2f27869",
+  "ui_baseline_commit": "7ba88591de4e6c3e6a948ee877dfe22f92b4809e",
+  "css_sha256": "ce739330e0566f226ca8941a9d181ee141fc418aacd7b2062efe8bba4a26ea8b",
+  "article_count": 91,
+  "only_fan_kit_visuals_changed": true,
+  "publication_state_unchanged": true,
+  "qa_viewports": [
+    1440,
+    390
+  ],
+  "qa_article_card_overlap_count": 0,
+  "link_transition_ms": 250
+}
