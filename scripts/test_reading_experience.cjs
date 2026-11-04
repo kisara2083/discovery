@@ -22,8 +22,22 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   const controls=await page.locator('#query,#status,#month').evaluateAll(ns=>ns.map(n=>({height:n.getBoundingClientRect().height,width:n.getBoundingClientRect().width})));
   controls.forEach(c=>assert.equal(c.height,44));assert.ok(Math.abs(controls[1].width-controls[2].width)<1);
   await eventually(async()=>assert.ok(await page.locator('img.resolution-aware').count()>0));
-  const max=await page.locator('img.resolution-aware').first().evaluate(n=>parseFloat(getComputedStyle(n).maxWidth));assert.ok(Math.abs(max-220/Math.min(dpr,2))<1);
-  assert.ok(await page.locator('.scroll-top').evaluate(n=>n.getBoundingClientRect().width===44));
+  const max=await page.locator('img.resolution-aware').first().evaluate(n=>parseFloat(getComputedStyle(n).maxWidth));assert.ok(Math.abs(max-(200*1.8/Math.min(dpr,1.5)))<1);
+  assert.ok(await page.locator('.scroll-top').isHidden());
+  // The category/status/date line leads the Visual, and quoted images are
+  // independently tappable without swallowing the attribution link.
+  const firstCard=page.locator('#content>.grid>.card').first();
+  const firstOrder=await firstCard.evaluate(n=>[...n.children].map(x=>x.className));
+  assert.ok(firstOrder[0].includes('card-meta'));
+  assert.ok(await firstCard.locator('.visual-image-link').count()>0);
+  assert.equal(await firstCard.locator('.quote-credit').evaluate(n=>getComputedStyle(n).color),'rgb(107, 107, 107)');
+  const quoteURL=await firstCard.locator('.quote-credit a').first().getAttribute('href');
+  assert.ok(/^https:/.test(quoteURL));
+  await firstCard.locator('.visual-image-link').click();
+  await eventually(async()=>assert.ok(page.url().includes('#article/')));
+  await page.goBack();
+  await page.locator('#content>.grid>.card').first().waitFor();
+  assert.equal(await page.locator('header nav a[aria-current="page"]').count(),1);
   await page.screenshot({path:`test-results/home-${width}.png`});
   await page.locator('.feed-more').scrollIntoViewIfNeeded();
   await eventually(async()=>assert.ok(await page.locator('#content>.grid>.card').count()>=24));
@@ -34,11 +48,11 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   await eventually(async()=>{const actual=await page.evaluate(()=>scrollY);assert.ok(Math.abs(actual-y)<100,`Home history at ${width}: expected ${y}, got ${actual}; ${await page.evaluate(()=>sessionStorage.getItem('discovery-positions'))}`);});
   await page.locator('header a[href="#archive"]').click();await page.locator('.pagination').waitFor();assert.equal(await page.locator('#content>.grid>.card').count(),18);
   await page.locator('.pagination a').nth(1).click();
-  await eventually(async()=>assert.ok(Math.abs(await page.locator('#content>.section-title').evaluate(n=>n.getBoundingClientRect().top))<2));
+  await eventually(async()=>assert.ok(Math.abs(await page.locator('#content>.grid>.card').first().evaluate(n=>n.getBoundingClientRect().top))<2));
   assert.equal(await page.locator('#content>.grid>.card').count(),18);
   const destination=page.locator('#content>.grid>.card h3 a').nth(5);await destination.scrollIntoViewIfNeeded();const archiveY=await page.evaluate(()=>scrollY);await destination.click();await page.locator('.source-access').waitFor();await page.goBack();await page.locator('.pagination').waitFor();
   await eventually(async()=>assert.ok(Math.abs(await page.evaluate(()=>scrollY)-archiveY)<100));
-  await page.locator('.scroll-top').click();await eventually(async()=>assert.equal(await page.evaluate(()=>scrollY),0));
+  await page.locator('.scroll-top').waitFor({state:'visible'});await page.locator('.scroll-top').click();await eventually(async()=>assert.equal(await page.evaluate(()=>scrollY),0));
   if(width<=760&&!await page.locator('#month').isVisible())await page.locator('#filter-toggle').click();
   await page.locator('#month').fill('2026-10');await eventually(async()=>assert.ok(page.url().includes('month=2026-10')));await page.reload();await page.locator('#content>.grid').waitFor();assert.equal(await page.locator('#month').inputValue(),'2026-10');
   assert.deepEqual(errors,[]);await context.close();

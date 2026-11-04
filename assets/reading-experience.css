@@ -32,3 +32,90 @@ html{scroll-behavior:auto}
  .card .summary,.hero .summary{margin-top:8px!important}
 }
 @media(max-width:360px){.controls .secondary-filters{grid-template-columns:1fr!important}}
+
+/* Editorial hierarchy: metadata identifies the story before its Visual;
+   the title/summary follow immediately after the quiet source credit. */
+@media(min-width:761px){header nav a{font-size:14px!important}}
+header nav a{border-bottom:1px solid transparent;padding-bottom:4px}
+header nav a[aria-current="page"]{border-bottom-color:#555}
+.card .card-meta,.hero .card-meta{
+  display:flex!important;align-items:center!important;flex-wrap:wrap!important;
+  gap:5px 11px!important;margin:0 0 10px!important;padding:0!important;
+  font-size:10px!important;line-height:1.5!important;color:#666!important
+}
+.card .card-meta .category-chip,.hero .card-meta .category-chip{
+  color:#555!important;flex:0 1 auto;margin:0!important
+}
+.card .card-meta .badge,.hero .card-meta .badge{font-size:10px!important;color:#666!important}
+.card .card-meta a.category-chip,.hero .card-meta a.category-chip{
+  position:relative!important;z-index:5!important
+}
+.card .card-meta .article-date,.hero .card-meta .article-date{
+  margin-left:auto!important;color:#6b6b6b!important;white-space:nowrap
+}
+.card .body,.hero .body{padding-top:7px!important}
+.grid>.card .body>h3{font-size:clamp(26px,1.7vw,30px)!important;line-height:1.31!important;margin:0!important}
+.card .body>.summary{display:-webkit-box!important;-webkit-box-orient:vertical!important;-webkit-line-clamp:2!important;overflow:hidden!important;line-height:1.75!important;margin-top:8px!important}
+.card .card-source,.card .quote-credit{
+  color:#6b6b6b!important;font-size:11px!important;line-height:1.55!important;
+  padding-top:6px!important;margin:0!important;
+}
+.card .card-source a,.card .quote-credit a{
+  color:#6b6b6b!important;text-decoration:none!important
+}
+.card .card-source a:hover,.card .quote-credit a:hover,
+.card .card-source a:focus-visible,.card .quote-credit a:focus-visible{
+  text-decoration:underline!important;text-underline-offset:3px
+}
+.card .card-source a,.card .quote-credit a{
+  position:relative!important;z-index:5!important;cursor:pointer!important
+}
+.card .visual-image-link,.hero .visual-image-link{
+  display:block!important;position:relative!important;z-index:3!important;
+  width:100%!important;cursor:pointer!important
+}
+.card .visual-link:hover,.card .visual-link:focus-visible,
+.hero .visual-link:hover,.hero .visual-link:focus-visible{opacity:1!important}
+.card .visual-image-link:focus-visible,.hero .visual-image-link:focus-visible{
+  outline:2px solid #666!important;outline-offset:3px!important
+}
+@media(hover:hover){
+ .grid>.card:hover .body>h3>a,.grid>.card:focus-within .body>h3>a,
+ #hero .hero:hover .body>h2>a{
+   text-decoration:underline!important;text-decoration-thickness:1px!important;
+   text-underline-offset:4px!important;opacity:1!important
+ }
+}
+/* Until the dimensions become available, reserve a neutral media region.
+   Loaded raster images then use their actual aspect ratio. */
+.card .card-visual .visual:has(>img:not(.resolution-aware)),
+.editorial-detail .visual:has(>img:not(.resolution-aware)){
+  aspect-ratio:16/9!important;min-height:0!important;background:#f5f5f5!important
+}
+.card .card-visual img.resolution-aware,.editorial-detail img.resolution-aware{
+  object-fit:contain!important
+}
+.scroll-top[hidden]{display:none!important}
+.scroll-top:hover{background:#f5f5f5}
+.feed-end{
+  color:#6b6b6b;text-align:center;font-size:12px;letter-spacing:.03em;
+  margin:35px auto 24px
+}
+@media(max-width:760px){
+  #content>.grid>.card{
+    border-bottom:1px solid #ebebeb!important;
+    padding-bottom:22px!important
+  }
+  .grid>.card .body>h3{font-size:clamp(22px,5.7vw,25px)!important}
+  .card .card-meta,.hero .card-meta{margin-bottom:9px!important}
+  .card .body{padding-top:7px!important}
+  .card .card-source,.card .quote-credit{
+    padding-left:0!important;padding-right:0!important;
+    margin-left:0!important;margin-right:0!important
+  }
+  .card .card-source{padding:6px 0 0!important}
+  .card .quote-credit{padding:6px 6vw 0!important}
+  .card .visual-link:active img,.hero .visual-link:active img{
+    opacity:.94!important;transition:opacity 100ms ease-out
+  }
+}
