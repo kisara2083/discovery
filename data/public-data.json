@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-04",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,80 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-ea0d1f72b35dbed4df285d9a",
+  "todays_pick": "a-3cd3a319fcae3c46d14660a2",
   "articles": [
+    {
+      "categories": [
+        "cross_domain"
+      ],
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://sake-okadaya.co.jp/event/japancraftspiritsholiday/img/logo-jcsh2026.png",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://sake-okadaya.co.jp/event/japancraftspiritsholiday/img/logo-jcsh2026.png",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "id": "a-3cd3a319fcae3c46d14660a2",
+      "images": [
+        {
+          "caption": "ジャパンクラフトスピリッツホリデイ2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://sake-okadaya.co.jp/event/japancraftspiritsholiday/img/logo-jcsh2026.png",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：ジャパンクラフトスピリッツホリデイ2026",
+            "source_name": "主催者 酒の岡田屋・JAPAN CRAFT SPIRITS HOLIDAY 2026公式サイト",
+            "source_page": "https://sake-okadaya.co.jp/event/japancraftspiritsholiday/",
+            "target": "ジャパンクラフトスピリッツホリデイ2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://sake-okadaya.co.jp/event/japancraftspiritsholiday/",
+          "url": "https://sake-okadaya.co.jp/event/japancraftspiritsholiday/img/logo-jcsh2026.png",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "price_terms": "前売4,000円、当日5,000円。4人用前売15,000円。フードと持ち帰りボトルは別料金。",
+      "public_summary": "全国のクラフトジン蒸溜所が矢場公園に集まり、つくり手と話しながら最大5時間のフリーテイスティングを楽しめる。温かい料理との組み合わせが今年のテーマ。",
+      "published_date": "2026-10-28",
+      "slug": "a-3cd3a319fcae3c46d14660a2",
+      "sources": [
+        {
+          "url": "https://sake-okadaya.co.jp/event/japancraftspiritsholiday/",
+          "name": "sake-okadaya.co.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "ジャパンクラフトスピリッツホリデイ2026 — 矢場公園でクラフトジンを飲み比べ",
+      "updated_date": "2026-11-04",
+      "world_card": {
+        "concept": "全国のクラフトジン蒸溜所が矢場公園に集まり、つくり手と話しながら最大5時間のフリーテイスティングを楽しめる。温かい料理との組み合わせが今年のテーマ。",
+        "key": "world_card:a-df717cb7a8daa05d8236b04d",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "ジャパンクラフトスピリッツホリデイ2026 — 矢場公園でクラフトジンを飲み比べ",
+        "variant": "field"
+      }
+    },
     {
       "category": "games",
       "id": "a-ea0d1f72b35dbed4df285d9a",
@@ -1389,7 +1461,7 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "public_summary": "毎日更新されるスクラッチ企画。毎日の回数をすべて使うと、その日の最高額の合成玉を獲得できる。",
       "published_date": "2026-10-24",
       "slug": "a-3799871fbcf280c992a27c4d",
