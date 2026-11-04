@@ -218,9 +218,11 @@ for(const type of ['pointerdown','wheel','touchstart','keydown'])window.addEvent
 document.addEventListener('click',event=>{const anchor=event.target.closest('a[href^="#"]');if(!anchor)return;savePosition();if(anchor.closest('.pagination'))positions.delete(anchor.getAttribute('href'));},true);
 function restorePosition(node,state){
   cancelAnimationFrame(restoreFrame);
-  const saved=positions.get(positionKey());
+  // Article entry always begins at its headline, even on repeat visits or
+  // after browser history. Only list pages restore prior scroll positions.
+  const saved=state.view==='article'?null:positions.get(positionKey());
   let frames=0;
-  const place=()=>{const target=document.querySelector(state.view==='article'?'#content>.detail':state.page>1?'#content>.grid>.card':'#content>.section-title')||node;if(saved)scrollTo(0,saved.y);else if(state.view==='article'||state.page>1)target.scrollIntoView({block:'start'});else scrollTo(0,0);
+  const place=()=>{const target=document.querySelector(state.view==='article'?'#content>.detail':state.page>1?'#content>.grid>.card':'#content>.section-title')||node;if(state.view==='article'){const headline=target.querySelector(':scope > h1')||target;scrollTo(0,Math.max(0,scrollY+headline.getBoundingClientRect().top-24));}else if(saved)scrollTo(0,saved.y);else if(state.page>1)target.scrollIntoView({block:'start'});else scrollTo(0,0);
     // Let lazy images and masonry settle before completing history restoration.
     if(++frames<3)restoreFrame=requestAnimationFrame(place);else restoreFrame=0;
   };restoreFrame=requestAnimationFrame(place);
