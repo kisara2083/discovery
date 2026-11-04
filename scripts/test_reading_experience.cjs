@@ -16,6 +16,10 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(String(e)));
   await page.goto(base+'#home');
   await eventually(async()=>assert.equal(await page.locator('#content>.grid>.card').count(),12));
+  // Current Private presentation calls local_family 「イベント」; published
+  // snapshots may still carry the old verbose label.
+  assert.equal(await page.locator('#taxonomy a[href^="#category/local_family"]').first().textContent(),'イベント');
+  assert.equal(await page.locator('#taxonomy').getByText('近場・家族・イベント').count(),0);
   assert.equal(await page.locator('.pagination').count(),0);
   assert.equal(await page.getByText('READ THE DISCOVERY',{exact:false}).count(),0);
   if(width<=760)await page.locator('#filter-toggle').click();
@@ -54,9 +58,17 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   assert.equal(detailOrder.last,'detail-return');
   assert.equal(detailOrder.returnCount,1);
   assert.ok(detailOrder.target?.startsWith('#home'),JSON.stringify(detailOrder));
+  const initialHeadlineTop=await page.locator('.editorial-detail>h1').evaluate(el=>el.getBoundingClientRect().top);
+  assert.ok(initialHeadlineTop>=17&&initialHeadlineTop<=36,`Detail headline too close to viewport edge (${width}): ${initialHeadlineTop}`);
   assert.ok(await page.locator('.primary-source').getAttribute('href'));assert.equal(await page.locator('.match-context').count(),0);
+  // A previously read detail must not jump back to the last scroll position.
+  await page.evaluate(()=>window.scrollTo(0,500));
   await page.goBack();await page.locator('.feed-more').waitFor();
   await eventually(async()=>{const actual=await page.evaluate(()=>scrollY);assert.ok(Math.abs(actual-y)<100,`Home history at ${width}: expected ${y}, got ${actual}; ${await page.evaluate(()=>sessionStorage.getItem('discovery-positions'))}`);});
+  // Re-enter the same article from the feed; its own stored position is ignored.
+  await article.scrollIntoViewIfNeeded();await article.click();await page.locator('.editorial-detail>h1').waitFor();
+  await eventually(async()=>{const t=await page.locator('.editorial-detail>h1').evaluate(el=>el.getBoundingClientRect().top);assert.ok(t>=17&&t<=36,`Repeat detail entry at ${width}: ${t}`);});
+  await page.goBack();await page.locator('.feed-more').waitFor();
   await page.locator('header a[href="#archive"]').click();await page.locator('.pagination').waitFor();assert.equal(await page.locator('#content>.grid>.card').count(),18);
   await page.locator('.pagination a').nth(1).click();
   await eventually(async()=>assert.ok(Math.abs(await page.locator('#content>.grid>.card').first().evaluate(n=>n.getBoundingClientRect().top))<2));
