@@ -259,6 +259,78 @@
       }
     },
     {
+      "categories": [
+        "music_live"
+      ],
+      "category": "music_live",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://cdn.fujirockfestival.com/smash/tour/gGZaoWtnyXslaWUMtoqQBuRoejWYkNq122JePriX.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://cdn.fujirockfestival.com/smash/tour/gGZaoWtnyXslaWUMtoqQBuRoejWYkNq122JePriX.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "id": "a-f563bbd1b6ff47a54d262256",
+      "images": [
+        {
+          "caption": "Rival Consoles Landscape from Memory Tour 2026 東京11月19日 WWW X（Daito Manabe live visuals）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://cdn.fujirockfestival.com/smash/tour/gGZaoWtnyXslaWUMtoqQBuRoejWYkNq122JePriX.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：Rival Consoles Landscape from Memory Tour 2026 東京11月19日 WWW X（Daito Manabe live visuals）",
+            "source_name": "主催 SMASH公式 Rival Consoles Japan Tour 2026",
+            "source_page": "https://www.smash-jpn.com/live/?id=4777",
+            "target": "Rival Consoles Landscape from Memory Tour 2026 東京11月19日 WWW X（Daito Manabe live visuals）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.smash-jpn.com/live/?id=4777",
+          "url": "https://cdn.fujirockfestival.com/smash/tour/gGZaoWtnyXslaWUMtoqQBuRoejWYkNq122JePriX.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "price_terms": "スタンディング前売り7,800円、別途ドリンク代。",
+      "public_summary": "Rival Consolesの2026年11月19日東京公演に、真鍋大度によるlive visuals出演が決定。アンビエントからテクノまでを横断する長編的なライブと映像を組み合わせる。",
+      "published_date": "2026-10-23",
+      "slug": "a-f563bbd1b6ff47a54d262256",
+      "sources": [
+        {
+          "url": "https://www.smash-jpn.com/live/?id=4777",
+          "name": "www.smash-jpn.com"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Rival Consoles 東京公演 with live visuals",
+      "updated_date": "2026-11-04",
+      "world_card": {
+        "concept": "Rival Consolesの2026年11月19日東京公演に、真鍋大度によるlive visuals出演が決定。アンビエントからテクノまでを横断する長編的なライブと映像を組み合わせる。",
+        "key": "world_card:a-8268297b90d19a52eae9253f",
+        "kicker": "MUSIC / LIVE",
+        "meta": "",
+        "title": "Rival Consoles 東京公演 with live visuals",
+        "variant": "orbit"
+      }
+    },
+    {
       "category": "games",
       "id": "a-ea0d1f72b35dbed4df285d9a",
       "images": [
