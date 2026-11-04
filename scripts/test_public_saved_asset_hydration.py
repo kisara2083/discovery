@@ -31,6 +31,29 @@ class SavedAssetHydrationTests(unittest.TestCase):
                 {"images": [image]}, td,
                 downloader=lambda _url: (_ for _ in ()).throw(AssertionError("no fetch"))), [])
 
+    def test_jp_wallpaper_exact_allowlist_including_new_cdn_paths(self):
+        urls = hydration._jp_wallpaper_urls()
+        self.assertEqual(len(urls), 69)
+        self.assertIn("https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/23/Xba2hKmv.jpg", urls)
+        self.assertIn("https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/04/22/GcKcNs-9.jpeg", urls)
+        self.assertNotIn("https://webusstatic.yo-star.com/ark_jp_web/assets/159168848582015563/01.png", urls)
+        with patch.object(hydration, "_public_host", lambda _host: None):
+            for original in (
+                "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/23/Xba2hKmv.jpg",
+                "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/04/22/GcKcNs-9.jpeg",
+            ):
+                self.assertTrue(hydration._eligible({
+                    "mode": "saved", "original_url": original,
+                    "source_page": hydration.ARK_FANKIT}))
+            for original in (
+                "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/31/0NhCBA83.png",
+                "https://webusstatic.yo-star.com/ark_jp_web/assets/159168848582015563/01.png",
+                "https://example.com/unobserved.jpg",
+            ):
+                self.assertFalse(hydration._eligible({
+                    "mode": "saved", "original_url": original,
+                    "source_page": hydration.ARK_FANKIT}))
+
     def test_hash_mismatch_fails_closed(self):
         blob = png(b"a")
         digest = hashlib.sha256(blob).hexdigest()
