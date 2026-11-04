@@ -173,3 +173,137 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
     padding:14px 6vw 0;
   }
 }
+
+/* Article reading experience: full-width title; compact metadata and source;
+   portrait lead art beside copy on wide desktop only. */
+#content>.editorial-detail{max-width:1280px!important}
+#content>.editorial-detail>h1{
+  font-size:clamp(38px,4.1vw,58px)!important;
+  line-height:1.21!important;
+  margin:24px 0 14px!important;
+}
+#content .editorial-detail>.detail-masthead{
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+  gap:0 22px;margin:0 0 20px;
+}
+#content .editorial-detail .detail-masthead>.editorial-meta{
+  flex:1 1 280px;min-width:0;margin:0!important;
+  font-size:11px!important;gap:8px 12px!important
+}
+#content .editorial-detail .detail-masthead>.source-access{
+  flex:0 1 auto;display:flex;align-items:center;flex-wrap:wrap;
+  gap:4px 16px;margin:0!important;max-width:100%;
+}
+#content .editorial-detail .detail-masthead .primary-source{
+  display:inline-flex!important;min-height:44px!important;
+  align-items:center!important;padding:4px 2px!important;
+  margin:0!important;border:0!important;
+  font-size:13px!important;font-weight:500!important;
+  letter-spacing:.015em;color:#333!important;white-space:normal
+}
+#content .editorial-detail .detail-masthead .primary-source:hover,
+#content .editorial-detail .detail-masthead .primary-source:focus-visible{
+  text-decoration:underline!important;text-underline-offset:3px
+}
+#content .editorial-detail .detail-masthead .source-access details{
+  position:relative;margin:0!important
+}
+#content .editorial-detail .detail-masthead .source-access summary{
+  min-height:44px;display:flex;align-items:center;
+  padding:4px 2px;font-size:11px;color:#666!important
+}
+#content .editorial-detail .detail-masthead .source-access details[open]>.links{
+  position:absolute;right:0;top:100%;z-index:22;
+  min-width:min(300px,80vw);max-width:85vw;
+  padding:8px 12px;background:#fff;border:1px solid #ddd;
+}
+#content .editorial-detail>.detail-feature{
+  display:flex;flex-direction:column;width:100%;min-width:0
+}
+#content .editorial-detail .detail-feature>.detail-intro{
+  width:100%;max-width:760px;margin:0 auto 20px!important
+}
+#content .editorial-detail .detail-feature>.detail-intro>.lead{
+  margin:0!important;
+  font:500 19px/1.85 Georgia,"Noto Serif JP",serif!important;
+  max-width:none!important;
+}
+#content .editorial-detail .detail-feature>.primary-visual{
+  width:100%!important;max-width:none!important;
+  min-width:0;margin:0 0 30px!important;padding:0!important;
+  position:relative;isolation:isolate;background:#fff
+}
+#content .editorial-detail .detail-feature>.detail-copy{
+  width:100%;max-width:760px;min-width:0;
+  margin:0 auto 34px!important
+}
+#content .editorial-detail .detail-feature .detail-copy>.detail-context{
+  width:100%;max-width:none!important;
+  margin:0 0 30px!important;padding:0!important
+}
+#content .editorial-detail .detail-feature .detail-copy>dl{
+  width:100%;max-width:none!important;
+  margin:24px 0 0!important;padding:20px 0 0!important;
+  border-top:1px solid #e8e8e8!important
+}
+/* Secondary material stays outside the lead grid; keep one large media
+   element per row without stretching narrow Spotify players absurdly. */
+#content .editorial-detail>.secondary-visuals{
+  width:100%!important;max-width:none!important;
+  margin:25px 0 58px!important;grid-template-columns:minmax(0,1fr)!important
+}
+#content .editorial-detail>.secondary-visuals .media-player.youtube_embed{
+  max-width:1000px!important;margin:0 auto!important
+}
+#content .editorial-detail>.secondary-visuals .media-player.spotify_embed{
+  max-width:760px!important;margin:0 auto!important
+}
+@media(min-width:1200px){
+  #content .editorial-detail>.detail-feature.detail-split{
+    display:grid!important;
+    grid-template-columns:minmax(0,42fr) minmax(0,58fr);
+    grid-template-rows:min-content minmax(0,1fr);
+    grid-template-areas:"intro visual" "copy visual";
+    column-gap:36px;row-gap:16px;align-items:start
+  }
+  #content .editorial-detail>.detail-feature.detail-split>.detail-intro{
+    grid-area:intro;max-width:none;margin:0!important
+  }
+  #content .editorial-detail>.detail-feature.detail-split>.primary-visual{
+    grid-area:visual;align-self:start;margin:0!important
+  }
+  #content .editorial-detail>.detail-feature.detail-split>.detail-copy{
+    grid-area:copy;max-width:none;margin:0!important
+  }
+}
+@media(max-width:760px){
+  #content>.editorial-detail>h1{
+    font-size:clamp(30px,8vw,34px)!important;line-height:1.32!important;
+    margin:16px 0 10px!important
+  }
+  #content .editorial-detail>.detail-masthead{
+    gap:0 10px;margin-bottom:15px
+  }
+  #content .editorial-detail .detail-masthead>.editorial-meta{
+    flex:1 1 100%;margin:0!important
+  }
+  #content .editorial-detail .detail-masthead>.source-access{
+    flex:1 1 100%;justify-content:flex-start;gap:3px 12px
+  }
+  #content .editorial-detail .detail-feature>.detail-intro{
+    margin:0 0 15px!important
+  }
+  #content .editorial-detail .detail-feature>.detail-intro>.lead{
+    font-size:16px!important;line-height:1.88!important
+  }
+  #content .editorial-detail .detail-feature>.primary-visual{
+    width:calc(100% + 12vw)!important;max-width:none!important;
+    margin:0 -6vw 25px!important
+  }
+  #content .editorial-detail .detail-feature>.primary-visual .quote-credit{
+    padding-left:6vw!important;padding-right:6vw!important
+  }
+  #content .editorial-detail .detail-feature>.detail-copy{
+    margin:0 0 26px!important
+  }
+}
