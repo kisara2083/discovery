@@ -1225,34 +1225,34 @@
       "category": "games",
       "deadline_at": "2026-10-27T18:59:00Z",
       "display_selection": {
-        "selector_version": 8,
         "card_primary": {
-          "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/171446570121817049/01.png"
+          "key": "image:https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/08/11/UsYn9hWg.jpeg",
+          "kind": "image"
         },
         "detail_primary": {
-          "kind": "image",
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/171446570121817049/01.png"
+          "key": "image:https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/08/11/UsYn9hWg.jpeg",
+          "kind": "image"
         },
-        "detail_secondary": []
+        "detail_secondary": [],
+        "selector_version": 8
       },
       "id": "a-09718092d27dcc1214b5d68f",
       "images": [
         {
-          "url": "assets/images/a0d3173bcfd5b349fdd00eb8fe19296ed27582d5608b51c363e7bac7cf2c0e49.png",
-          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/171446570121817049/01.png",
-          "source_page": "https://www.arknights.jp/fankit/",
-          "relation": "reference_same_entity",
-          "caption": "アークナイツ公式ファンキット：春の大感謝祭2024（記事固有の告知画像ではありません）",
-          "mode": "saved",
+          "caption": "アークナイツ公式ファンキットの壁紙（記事固有の画像ではありません）",
           "framing": "contain",
+          "mode": "saved",
+          "original_url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/08/11/UsYn9hWg.jpeg",
+          "relation": "reference_same_entity",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "url": "assets/images/cc838e67431a13acbc02753fb41d71205e498d1cd451c1534c2a1b4dd090fc9a.jpg",
           "visual_provenance": {
-            "relation": "official_entity",
-            "official_source": true,
-            "source_revalidated": true,
             "article_match": false,
+            "authority_class": "official_entity",
             "entity_match": true,
-            "authority_class": "official_entity"
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
           }
         }
       ],
@@ -1284,7 +1284,8 @@
       "public_detail": "感謝祭記念10回スカウト券は、期間限定スカウト「約諾」に使用する無料の10回スカウト券。使用先と期限が定められており、未使用のまま期限を迎えた券は消失する。\n\n公式告知で案内された使用期限は2026年10月28日3時59分（日本時間）。配布された券を任意のスカウトへ無期限に持ち越せる仕組みではない。",
       "match_tags": [
         "使用期限"
-      ]
+      ],
+      "media": []
     },
     {
       "category": "games",
