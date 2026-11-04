@@ -22,7 +22,7 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   const controls=await page.locator('#query,#status,#month').evaluateAll(ns=>ns.map(n=>({height:n.getBoundingClientRect().height,width:n.getBoundingClientRect().width})));
   controls.forEach(c=>assert.equal(c.height,44));assert.ok(Math.abs(controls[1].width-controls[2].width)<1);
   await eventually(async()=>assert.ok(await page.locator('img.resolution-aware').count()>0));
-  const max=await page.locator('img.resolution-aware').first().evaluate(n=>parseFloat(getComputedStyle(n).maxWidth));assert.ok(Math.abs(max-(200*1.8/Math.min(dpr,1.5)))<1);
+  const max=await page.locator('img.resolution-aware').first().evaluate(n=>parseFloat(getComputedStyle(n).maxWidth));assert.ok(Math.abs(max-(200*1.6/Math.min(dpr,1.5)))<1);
   assert.ok(await page.locator('.scroll-top').isHidden());
   // The category/status/date line leads the Visual, and quoted images are
   // independently tappable without swallowing the attribution link.
@@ -55,6 +55,34 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   await page.locator('.scroll-top').waitFor({state:'visible'});await page.locator('.scroll-top').click();await eventually(async()=>assert.equal(await page.evaluate(()=>scrollY),0));
   if(width<=760&&!await page.locator('#month').isVisible())await page.locator('#filter-toggle').click();
   await page.locator('#month').fill('2026-10');await eventually(async()=>assert.ok(page.url().includes('month=2026-10')));await page.reload();await page.locator('#content>.grid').waitFor();assert.equal(await page.locator('#month').inputValue(),'2026-10');
+  // 8番出口 contains reviewed white margins in its original bitmap.
+  // Assert the central poster is clipped both on cards and in the article,
+  // even with the nested source-independent article link.
+  await page.goto(base+'#archive?q='+encodeURIComponent('8番出口'));
+  const exitCard=page.locator('#content>.grid>.card[data-article-id="a-c79abd6fce19922533af23d3"]');
+  await eventually(async()=>assert.equal(await exitCard.count(),1));
+  const crop=exitCard.locator('.quoted-visual.blank-border-trim .visual');
+  await eventually(async()=>assert.equal(await crop.count(),1));
+  await eventually(async()=>assert.ok(await crop.evaluate(n=>n.getBoundingClientRect().height>0)));
+  const geometry=await crop.evaluate(n=>{
+    const img=n.querySelector('img'),link=n.closest('a.visual-image-link')||n.querySelector('a.visual-image-link');
+    const bounds=n.getBoundingClientRect(),source=img.getBoundingClientRect();
+    return {overflow:getComputedStyle(n).overflow,
+      clipW:bounds.width,clipH:bounds.height,
+      sourceW:source.width,offset:bounds.left-source.left,
+      clickableHeight:link.getBoundingClientRect().height,
+      naturalWidth:img.naturalWidth};
+  });
+  assert.equal(geometry.overflow,'hidden');
+  assert.ok(Math.abs(geometry.clipW-geometry.sourceW*(1-.276-.277))<2,JSON.stringify(geometry));
+  assert.ok(Math.abs(geometry.offset-geometry.sourceW*.276)<2,JSON.stringify(geometry));
+  assert.ok(geometry.clickableHeight>=geometry.clipH-2,JSON.stringify(geometry));
+  assert.ok(geometry.clipW<=geometry.naturalWidth*(1-.276-.277)*1.6/Math.min(dpr,1.5)+2);
+  await crop.locator('xpath=ancestor::a[contains(@class,"visual-image-link")]').click();
+  await eventually(async()=>assert.ok(page.url().includes('#article/')));
+  const detailedCrop=page.locator('.editorial-detail>.primary-visual .quoted-visual.blank-border-trim .visual');
+  await eventually(async()=>assert.equal(await detailedCrop.count(),1));
+  assert.equal(await detailedCrop.evaluate(n=>getComputedStyle(n).overflow),'hidden');
   assert.deepEqual(errors,[]);await context.close();
  }
  const official=articleSources(data.articles.find(a=>a.id==='a-bb64ec8be3ec294db2858d31'))[0];assert.equal(official.url,'https://smash-jpn.com/live/?id=4751');

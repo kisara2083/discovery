@@ -119,3 +119,26 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
     opacity:.94!important;transition:opacity 100ms ease-out
   }
 }
+
+/* Reviewed source-blank trims must clip the *source* white margins. Legacy
+   non-trim image rules use overflow:visible!important at high specificity. */
+#content .card .quoted-visual.blank-border-trim .visual,
+#hero .hero .quoted-visual.blank-border-trim .visual,
+#content .editorial-detail .quoted-visual.blank-border-trim .visual{
+  position:relative!important;overflow:hidden!important;
+  aspect-ratio:auto!important;background:transparent!important;
+}
+#content .card .quoted-visual.blank-border-trim>.visual-image-link,
+#hero .hero .quoted-visual.blank-border-trim>.visual-image-link{
+  display:block!important;width:100%!important;height:auto!important;
+  position:relative!important;
+}
+/* Keep credits legible but let the headline sit almost directly beneath. */
+.card .body,.hero .body{padding-top:2px!important}
+.card .card-source,.card .quote-credit{
+  padding-top:3px!important;line-height:1.48!important
+}
+@media(max-width:760px){
+  .card .body,.hero .body{padding-top:2px!important}
+  .card .quote-credit{padding-top:3px!important}
+}

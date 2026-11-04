@@ -9,7 +9,7 @@ function size(img){
   // Cap high-DPI strictness so phone images are not reduced to tiny thumbnails.
   const density=Math.min(1.5,Math.max(1,window.devicePixelRatio||1));
   const detail=!!img.closest('.editorial-detail');
-  const scale=(detail?2:1.8)/density;
+  const scale=1.6/density;
   const maxWidth=img.naturalWidth*scale;
   const heightLimit=detail?Math.min(innerHeight*.9,900):
     matchMedia('(max-width:760px)').matches?Math.min(innerHeight*.8,720):720;
