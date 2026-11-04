@@ -59,6 +59,7 @@ function syncDateControls(){
  observeVisibility();
 }
 function apply(){
+ wrapField("status","状態");
  wrapField("date","記事の日付");
  wrapField("month","記事の年月");
  relabelCategory();
