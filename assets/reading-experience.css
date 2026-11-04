@@ -307,3 +307,13 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
     margin:0 0 26px!important
   }
 }
+
+/* Balance long Japanese/Latin titles on narrow screens so a final kana
+   is not stranded on a line of its own. Keep the established type scale. */
+@media(max-width:760px){
+  #content>.editorial-detail>h1{
+    text-wrap:balance!important;
+    word-break:normal!important;
+    overflow-wrap:anywhere!important;
+  }
+}

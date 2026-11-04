@@ -123,6 +123,17 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
     assert.ok(geometry2.intro.bottom<=geometry2.visual.top+2,JSON.stringify(geometry2));
     assert.ok(geometry2.visual.bottom<=geometry2.copy.top+2,JSON.stringify(geometry2));
   }
+  if(width<=760){
+    const titleBreak=await page.locator('.editorial-detail>h1').evaluate(node=>{
+      const text=node.firstChild;
+      const at=index=>{const range=document.createRange();range.setStart(text,index);range.setEnd(text,index+1);return range.getBoundingClientRect().top;};
+      return {wrap:getComputedStyle(node).textWrap,
+        last:at(text.textContent.length-1),
+        previous:at(text.textContent.length-2)};
+    });
+    assert.match(titleBreak.wrap,/balance/);
+    assert.ok(Math.abs(titleBreak.last-titleBreak.previous)<2,JSON.stringify(titleBreak));
+  }
   await page.screenshot({path:`test-results/detail-poster-${width}.png`});
   // Landscape static and main embedded media stay full-width rather than
   // compressing the video or panorama into the right column.
