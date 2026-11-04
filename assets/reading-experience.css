@@ -115,5 +115,7 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
   }
   .card .card-source{padding:6px 0 0!important}
   .card .quote-credit{padding:6px 6vw 0!important}
-  .card .visual-image-link:active{background:#f5f5f5!important}
+  .card .visual-link:active img,.hero .visual-link:active img{
+    opacity:.94!important;transition:opacity 100ms ease-out
+  }
 }
