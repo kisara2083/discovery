@@ -115,6 +115,78 @@
       }
     },
     {
+      "categories": [
+        "cross_domain"
+      ],
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://www.suntory.co.jp/news/article/2026/mt_items/15144-1.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://www.suntory.co.jp/news/article/2026/mt_items/15144-1.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "id": "a-ff1c1d45c0c9f608a4fcf5c4",
+      "images": [
+        {
+          "caption": "ザ・プレミアム・モルツ マスターズドリーム〈山崎原酒樽熟成〉2026年715ml",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.suntory.co.jp/news/article/2026/mt_items/15144-1.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象商品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "product_identity",
+            "role_label": "対象商品：ザ・プレミアム・モルツ マスターズドリーム〈山崎原酒樽熟成〉2026年715ml",
+            "source_name": "サントリー公式 2026年商品ニュースリリース",
+            "source_page": "https://www.suntory.co.jp/news/article/2026/15144.html",
+            "target": "ザ・プレミアム・モルツ マスターズドリーム〈山崎原酒樽熟成〉2026年715ml"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.suntory.co.jp/news/article/2026/15144.html",
+          "url": "https://www.suntory.co.jp/news/article/2026/mt_items/15144-1.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "product_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "price_terms": "715ml、希望小売価格6,000円（税別）、アルコール度数8.5％。",
+      "public_summary": "山崎蒸溜所のモルトウイスキー原酒樽で熟成させ、重厚で複層的な熟成香と長い余韻を狙った715ml・8.5％の数量限定ビール。",
+      "published_date": "2026-10-28",
+      "slug": "a-ff1c1d45c0c9f608a4fcf5c4",
+      "sources": [
+        {
+          "url": "https://www.suntory.co.jp/news/article/2026/15144.html",
+          "name": "www.suntory.co.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "マスターズドリーム〈山崎原酒樽熟成〉2026 — 樽香を楽しむ限定ビール",
+      "updated_date": "2026-11-04",
+      "world_card": {
+        "concept": "山崎蒸溜所のモルトウイスキー原酒樽で熟成させ、重厚で複層的な熟成香と長い余韻を狙った715ml・8.5％の数量限定ビール。",
+        "key": "world_card:a-f2ba871ed65a0c17e91e54a8",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "マスターズドリーム〈山崎原酒樽熟成〉2026 — 樽香を楽しむ限定ビール",
+        "variant": "orbit"
+      }
+    },
+    {
       "category": "games",
       "id": "a-ea0d1f72b35dbed4df285d9a",
       "images": [
