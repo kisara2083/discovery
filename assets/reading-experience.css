@@ -128,10 +128,10 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
   position:relative!important;overflow:hidden!important;
   aspect-ratio:auto!important;background:transparent!important;
 }
-#content .card .quoted-visual.blank-border-trim .visual>.visual-image-link,
-#hero .hero .quoted-visual.blank-border-trim .visual>.visual-image-link{
-  display:block!important;width:100%!important;height:100%!important;
-  position:relative!important;overflow:hidden!important;
+#content .card .quoted-visual.blank-border-trim>.visual-image-link,
+#hero .hero .quoted-visual.blank-border-trim>.visual-image-link{
+  display:block!important;width:100%!important;height:auto!important;
+  position:relative!important;
 }
 /* Keep credits legible but let the headline sit almost directly beneath. */
 .card .body,.hero .body{padding-top:2px!important}
