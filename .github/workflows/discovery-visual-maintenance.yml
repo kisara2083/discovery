@@ -17,7 +17,8 @@ jobs:
   maintain:
     if: >-
       github.event.issue.user.login == 'kisara2083' &&
-      startsWith(github.event.issue.title, 'DISCOVERY_VISUAL_MAINTENANCE_V1 ')
+      (startsWith(github.event.issue.title, 'DISCOVERY_VISUAL_MAINTENANCE_V1 ') ||
+       startsWith(github.event.issue.title, 'DISCOVERY_JP_FANKIT_REROLL_V1 '))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout authoritative main
@@ -37,6 +38,12 @@ jobs:
           Path('.visual-maintenance-title.txt').write_text(event['issue'].get('title') or '',encoding='utf-8')
           PY
 
+      - name: Convert exact JP Wallpaper reroll into bound Visual maintenance request
+        if: startsWith(github.event.issue.title, 'DISCOVERY_JP_FANKIT_REROLL_V1 ')
+        shell: bash
+        run: |
+          python scripts/build_jp_fankit_reroll_request.py .visual-maintenance-request.json data/public-data.json
+
       - name: Apply Visual-only snapshot, saved assets and dedicated receipt
         id: apply
         shell: bash
@@ -47,7 +54,10 @@ jobs:
           from pathlib import Path
           r=json.loads(Path('.visual-maintenance-result.json').read_text())
           title=Path('.visual-maintenance-title.txt').read_text()
-          if title != 'DISCOVERY_VISUAL_MAINTENANCE_V1 '+r['maintenance_id']:
+          if title.startswith('DISCOVERY_JP_FANKIT_REROLL_V1 '):
+              if title != 'DISCOVERY_JP_FANKIT_REROLL_V1 '+r['article_id']:
+                  raise SystemExit('issue_title_jp_fankit_article_id_mismatch')
+          elif title != 'DISCOVERY_VISUAL_MAINTENANCE_V1 '+r['maintenance_id']:
               raise SystemExit('issue_title_maintenance_id_mismatch')
           with open(Path.home()/'.visual-maintenance-output','w') as f:
               f.write('changed='+str(r['changed']).lower()+'\n')
