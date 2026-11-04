@@ -47,6 +47,9 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
   color:#555!important;flex:0 1 auto;margin:0!important
 }
 .card .card-meta .badge,.hero .card-meta .badge{font-size:10px!important;color:#666!important}
+.card .card-meta a.category-chip,.hero .card-meta a.category-chip{
+  position:relative!important;z-index:5!important
+}
 .card .card-meta .article-date,.hero .card-meta .article-date{
   margin-left:auto!important;color:#6b6b6b!important;white-space:nowrap
 }
