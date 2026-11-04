@@ -138,7 +138,7 @@ function restorePosition(node,state){
   cancelAnimationFrame(restoreFrame);
   const saved=positions.get(positionKey());
   let frames=0;
-  const place=()=>{if(saved)scrollTo(0,saved.y);else if(state.view==='article'||state.page>1)node.scrollIntoView({block:'start'});else scrollTo(0,0);
+  const place=()=>{const target=document.querySelector(state.view==='article'?'#content>.detail':'#content>.section-title')||node;if(saved)scrollTo(0,saved.y);else if(state.view==='article'||state.page>1)target.scrollIntoView({block:'start'});else scrollTo(0,0);
     // Let lazy images and masonry settle before completing history restoration.
     if(++frames<3)restoreFrame=requestAnimationFrame(place);else restoreFrame=0;
   };restoreFrame=requestAnimationFrame(place);
