@@ -43,6 +43,17 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   await eventually(async()=>assert.ok(await page.locator('#content>.grid>.card').count()>=24));
   const article=page.locator('#content>.grid>.card h3 a').nth(10);await article.scrollIntoViewIfNeeded();const y=await page.evaluate(()=>scrollY);
   await article.click();await page.locator('.source-access').waitFor();
+  // Return navigation no longer interrupts the headline and first-party source.
+  const detailOrder=await page.locator('.editorial-detail').evaluate(node=>({
+    first:node.firstElementChild?.tagName,
+    last:node.lastElementChild?.className,
+    returnCount:node.querySelectorAll(':scope > .detail-return > a').length,
+    target:node.querySelector(':scope > .detail-return > a')?.getAttribute('href'),
+  }));
+  assert.equal(detailOrder.first,'H1');
+  assert.equal(detailOrder.last,'detail-return');
+  assert.equal(detailOrder.returnCount,1);
+  assert.ok(detailOrder.target?.startsWith('#home'),JSON.stringify(detailOrder));
   assert.ok(await page.locator('.primary-source').getAttribute('href'));assert.equal(await page.locator('.match-context').count(),0);
   await page.goBack();await page.locator('.feed-more').waitFor();
   await eventually(async()=>{const actual=await page.evaluate(()=>scrollY);assert.ok(Math.abs(actual-y)<100,`Home history at ${width}: expected ${y}, got ${actual}; ${await page.evaluate(()=>sessionStorage.getItem('discovery-positions'))}`);});
