@@ -142,3 +142,34 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
   .card .body,.hero .body{padding-top:2px!important}
   .card .quote-credit{padding-top:3px!important}
 }
+
+/* A rarely used return route belongs at the end of an article, not before
+   the headline and primary-source action. */
+.editorial-detail .detail-return{
+  display:block;
+  max-width:760px;
+  margin:64px auto 16px;
+  padding:18px 0 0;
+  border-top:1px solid #e8e8e8;
+}
+.editorial-detail .detail-return a{
+  display:inline-flex;
+  align-items:center;
+  min-height:44px;
+  color:#6b6b6b!important;
+  font:12px/1.5 Arial,"Noto Sans JP",sans-serif;
+  letter-spacing:.05em;
+}
+.editorial-detail .detail-return a:hover,
+.editorial-detail .detail-return a:focus-visible{
+  color:#333!important;
+  text-decoration:underline!important;
+  text-underline-offset:3px;
+}
+@media(max-width:760px){
+  .editorial-detail .detail-return{
+    max-width:none;
+    margin:48px 0 8px;
+    padding:14px 6vw 0;
+  }
+}
