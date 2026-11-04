@@ -42,13 +42,20 @@ const layoutTrim=(figure,force=false)=>{
  visual.style.setProperty("margin","0 auto","important");
  // Quoted card images are wrapped in a dedicated article link. Keep its hit
  // area as tall as the cropped image rather than letting absolute img collapse it.
- const anchor=visual.querySelector(":scope > a.visual-image-link");
+ const anchor=visual.closest("a.visual-image-link")||
+   visual.querySelector(":scope > a.visual-image-link");
  if(anchor){
    anchor.style.setProperty("display","block","important");
    anchor.style.setProperty("width","100%","important");
-   anchor.style.setProperty("height","100%","important");
    anchor.style.setProperty("position","relative","important");
-   anchor.style.setProperty("overflow","hidden","important");
+   if(anchor.contains(visual)){
+     // The normal quoted-image link WRAPS the fixed-height viewport. Do
+     // not force a percentage height on this auto-height outer link.
+     anchor.style.setProperty("height","auto","important");
+   }else{
+     anchor.style.setProperty("height","100%","important");
+     anchor.style.setProperty("overflow","hidden","important");
+   }
  }
  img.style.setProperty("position","absolute","important");
  img.style.setProperty("width",`${fullW}px`,"important");
