@@ -65,7 +65,7 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   await eventually(async()=>assert.equal(await crop.count(),1));
   await eventually(async()=>assert.ok(await crop.evaluate(n=>n.getBoundingClientRect().height>0)));
   const geometry=await crop.evaluate(n=>{
-    const img=n.querySelector('img'),link=n.querySelector('a.visual-image-link');
+    const img=n.querySelector('img'),link=n.closest('a.visual-image-link')||n.querySelector('a.visual-image-link');
     const bounds=n.getBoundingClientRect(),source=img.getBoundingClientRect();
     return {overflow:getComputedStyle(n).overflow,
       clipW:bounds.width,clipH:bounds.height,
@@ -78,7 +78,7 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   assert.ok(Math.abs(geometry.offset-geometry.sourceW*.276)<2,JSON.stringify(geometry));
   assert.ok(geometry.clickableHeight>=geometry.clipH-2,JSON.stringify(geometry));
   assert.ok(geometry.clipW<=geometry.naturalWidth*(1-.276-.277)*1.6/Math.min(dpr,1.5)+2);
-  await crop.locator('a.visual-image-link').click();
+  await crop.locator('xpath=ancestor::a[contains(@class,"visual-image-link")]').click();
   await eventually(async()=>assert.ok(page.url().includes('#article/')));
   const detailedCrop=page.locator('.editorial-detail>.primary-visual .quoted-visual.blank-border-trim .visual');
   await eventually(async()=>assert.equal(await detailedCrop.count(),1));
