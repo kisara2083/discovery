@@ -17,3 +17,14 @@ jobs:
           node-version: '22'
       - run: python -m unittest discover -s scripts -p 'test_*.py' -v
       - run: node --check assets/editorial-refresh.js
+      - run: node --check assets/reading-experience.js
+      - run: npm install --no-save playwright@1.56.1
+      - run: npx playwright install --with-deps chromium
+      - run: |
+          python -m http.server 8765 --bind 127.0.0.1 &
+          node scripts/test_reading_experience.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reading-experience-screenshots
+          path: test-results/
