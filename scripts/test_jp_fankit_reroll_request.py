@@ -12,7 +12,7 @@ from test_apply_visual_maintenance_request import article, dataset
 
 
 def png(payload=b"new"):
-    return b"\\x89PNG\\r\\n\\x1a\\n" + payload
+    return bytes((137, 80, 78, 71, 13, 10, 26, 10)) + payload
 
 
 class JpFankitRerollTests(unittest.TestCase):
@@ -59,7 +59,7 @@ class JpFankitRerollTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             original, dp, rp, chosen = self.setup_case(td)
             data_before = dp.read_bytes()
-            blob = b"\\x89PNG\\r\\n\\x1a\\nimage"
+            blob = png(b"image")
             output = build(rp, dp, downloader=lambda url: (blob, "png"))
             vm.validate_request(output)
             self.assertEqual(dp.read_bytes(), data_before)
