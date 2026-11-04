@@ -1,9 +1,23 @@
 const assert=require('node:assert/strict');
 const {chromium}=require('playwright');
-const {articleSources,hasPrimarySource}=require('../assets/editorial-refresh.js');
+const {articleSources,hasPrimarySource,detailMediaLabel,detailMediaGroups}=require('../assets/editorial-refresh.js');
 const data=require('../data/public-data.json');
 const fs=require('node:fs');
 const base=process.env.DISCOVERY_TEST_URL||'http://127.0.0.1:8765/';
+// A verified Spotify artist page is not a representative track player.
+assert.equal(detailMediaLabel({type:'spotify_embed',canonical_url:'https://open.spotify.com/artist/'+'A'.repeat(22)}),'SPOTIFY · アーティスト');
+assert.equal(detailMediaLabel({type:'spotify_embed',canonical_url:'https://open.spotify.com/track/'+'A'.repeat(22)}),'SPOTIFY · 楽曲');
+assert.equal(detailMediaLabel({type:'youtube_embed'}),'YOUTUBE · 映像');
+const song='media:https://open.spotify.com/track/'+'A'.repeat(22),artist='media:https://open.spotify.com/artist/'+'B'.repeat(22),video='media:https://www.youtube.com/watch?v=abcdefghijk',still='image:https://example.test/still.jpg';
+const chosen=[{kind:'image',key:still},{kind:'media',key:artist},{kind:'media',key:song},{kind:'media',key:video}];
+const grouped=detailMediaGroups({media:[
+ {type:'spotify_embed',canonical_url:artist.slice(6)},
+ {type:'spotify_embed',canonical_url:song.slice(6)},
+ {type:'youtube_embed',canonical_url:video.slice(6)}]},chosen);
+assert.deepEqual(grouped.watch.map(x=>x.key),[video,song,artist]);
+assert.deepEqual(grouped.other.map(x=>x.key),[still]);
+assert.equal(grouped.watch.length+grouped.other.length,chosen.length);
+
 async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await fn();}catch(e){error=e;await new Promise(r=>setTimeout(r,100));}}throw error;}
 (async()=>{
  const browser=await chromium.launch();fs.mkdirSync('test-results',{recursive:true});
@@ -167,6 +181,12 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   assert.equal(await extras.locator('.media-player.youtube_embed').count(),1);
   assert.equal(await extras.locator('.media-player.spotify_embed').count(),1);
   assert.equal(await extras.locator('.real-visual').count(),1);
+  assert.equal(await extras.locator(':scope > h3.section-title').count(),2);
+  assert.equal(await extras.locator(':scope > h3.section-title').first().textContent(),'WATCH & LISTEN');
+  const secondaryOrder=await extras.evaluate(n=>[...n.children].map(x=>x.className));
+  assert.ok(secondaryOrder.indexOf('media-player youtube_embed')<secondaryOrder.indexOf('real-visual'));
+  assert.ok(secondaryOrder.indexOf('media-player spotify_embed')<secondaryOrder.indexOf('real-visual'));
+  assert.equal(await extras.locator('.media-player.spotify_embed > h2').first().textContent(),'SPOTIFY · アーティスト');
   const extrasGeometry=await page.locator('.editorial-detail').evaluate(n=>({
     featureBottom:n.querySelector('.detail-feature').getBoundingClientRect().bottom,
     extrasTop:n.querySelector(':scope > .secondary-visuals').getBoundingClientRect().top,
