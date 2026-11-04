@@ -23,6 +23,10 @@ const layoutTrim=(figure,force=false)=>{
    window.matchMedia('(max-width:760px)').matches?Math.min(window.innerHeight*.8,720):720;
  const cropNaturalW=img.naturalWidth*visibleW;
  const cropNaturalH=img.naturalHeight*visibleH;
+ // The detail split must classify the *cropped* poster, not white gutters.
+ // Store only the effective shape; the visual-framing rule owns all cuts.
+ const aspect=(cropNaturalW/cropNaturalH).toFixed(5);
+ if(figure.dataset.visibleAspect!==aspect)figure.dataset.visibleAspect=aspect;
  const displayW=Math.min(availableW,cropNaturalW*scale,heightLimit*cropNaturalW/cropNaturalH);
  if(!Number.isFinite(displayW)||displayW<=0)return;
  if(!force&&Math.abs((state.lastWidth||0)-availableW)<.5&&

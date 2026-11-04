@@ -148,27 +148,62 @@ detail=function(a){
   const n=el('article',undefined,'detail editorial-detail');n.dataset.articleId=a.id;
   const back=parseRoute(location.hash);back.view=back.category?'category':'archive';back.slug='';
   let returnURL=route(back);try{returnURL=sessionStorage.getItem('discovery-list-route')||returnURL;}catch{}
-  n.append(el('h1',a.title),meta(a));
+  n.append(el('h1',a.title));
+
+  // One compact header row: article metadata at left, the selected primary
+  // source at right. Never duplicate a source name/domain below the control.
+  const masthead=el('div',undefined,'detail-masthead');
+  const metadata=meta(a);metadata.querySelector('.source-label')?.remove();
+  masthead.append(metadata);
   const uniqueSources=articleSources(a);
-  // Publication order is editorial: the first source is the article's main
-  // reference. Never infer authority from image size, hostname or media rank.
   if(uniqueSources.length){
     const top=el('section',undefined,'source-access');top.setAttribute('aria-label','記事の主な出典');
-    const main=link(api.hasPrimarySource(a)?'主な一次ソースを開く ↗':'主なソースを開く ↗',uniqueSources[0].url);main.className='primary-source';
-    top.append(main,el('p',uniqueSources[0].name,'primary-source-name'));
-    if(uniqueSources.length>1){const disclosure=el('details');disclosure.append(el('summary','その他のソース（'+(uniqueSources.length-1)+'）'));const links=el('div',undefined,'links');for(const s of uniqueSources.slice(1))links.append(link(s.name,s.url));disclosure.append(links);top.append(disclosure);}
-    n.append(top);
+    const sourceLabel=api.hasPrimarySource(a)?'主な一次ソースを開く ↗':'主なソースを開く ↗';
+    const main=link(sourceLabel,uniqueSources[0].url);main.className='primary-source';
+    main.title=uniqueSources[0].name;
+    main.setAttribute('aria-label',sourceLabel+'：'+uniqueSources[0].name);
+    top.append(main);
+    if(uniqueSources.length>1){
+      const disclosure=el('details');disclosure.append(el('summary','その他のソース（'+(uniqueSources.length-1)+'）'));
+      const links=el('div',undefined,'links');
+      for(const s of uniqueSources.slice(1))links.append(link(s.name,s.url));
+      disclosure.append(links);top.append(disclosure);
+    }
+    masthead.append(top);
   }
-  const primary=detailPrimary(a);if(primary)n.append(primary);else n.classList.add('text-first');
-  n.append(el('p',a.public_summary,'summary lead'));
-  if(a.public_detail&&a.public_detail.trim()!==a.public_summary.trim())n.append(detailContext(a));
-  const dl=el('dl');for(const [name,key] of [['DATE','event_date'],['VENUE / AREA','venue'],['CITY','city'],['DEADLINE','deadline_at'],['END','end_at'],['PRICE / TERMS','price_terms'],['WHAT’S NEW','whats_new'],['NOTE','note']])if(a[key])dl.append(el('dt',name),el('dd',a[key]));if(dl.children.length)n.append(dl);
-  const secondary=detailSecondary(a);if(secondary)n.append(el('h2','VISUAL NOTES','section-title'),secondary);
-  const sources=el('section',undefined,'detail-sources');sources.append(el('h2','SOURCES & LINKS','section-title'));const links=el('div',undefined,'links');for(const s of uniqueSources)links.append(link(s.name,s.url));sources.append(links);n.append(sources);
+  n.append(masthead);
+
+  // Reading order stays identical across breakpoints. CSS only places a
+  // portrait/near-square *static* primary Visual beside the article copy on
+  // wide desktops, while all other Visuals remain a single-column flow.
+  const feature=el('div',undefined,'detail-feature');
+  const intro=el('div',undefined,'detail-intro');
+  intro.append(el('p',a.public_summary,'summary lead'));
+  feature.append(intro);
+  const primary=detailPrimary(a);
+  if(primary)feature.append(primary);else n.classList.add('text-first');
+  const copy=el('div',undefined,'detail-copy');
+  if(a.public_detail&&a.public_detail.trim()!==a.public_summary.trim())copy.append(detailContext(a));
+  const dl=el('dl');
+  for(const [name,key] of [['DATE','event_date'],['VENUE / AREA','venue'],['CITY','city'],['DEADLINE','deadline_at'],['END','end_at'],['PRICE / TERMS','price_terms'],['WHAT’S NEW','whats_new'],['NOTE','note']])
+    if(a[key])dl.append(el('dt',name),el('dd',a[key]));
+  if(dl.children.length)copy.append(dl);
+  if(copy.children.length)feature.append(copy);
+  n.append(feature);
+
+  // All secondary images, YouTube and Spotify remain BELOW the entire lead
+  // feature, never in the text column or alongside another thumbnail.
+  const secondary=detailSecondary(a);
+  if(secondary)n.append(el('h2','VISUAL NOTES','section-title'),secondary);
+  const sources=el('section',undefined,'detail-sources');
+  sources.append(el('h2','SOURCES & LINKS','section-title'));
+  const links=el('div',undefined,'links');for(const s of uniqueSources)links.append(link(s.name,s.url));
+  sources.append(links);n.append(sources);
   const related=data.articles.filter(x=>x.id!==a.id&&categories(x,data.taxonomy).some(c=>categories(a,data.taxonomy).includes(c))).slice(0,3);
   if(related.length)n.append(el('h2','RELATED DISCOVERIES','section-title'),grid(related));
   const returnNav=el('nav',undefined,'detail-return');returnNav.setAttribute('aria-label','記事一覧へ戻る');
-  returnNav.append(link('← DISCOVERIES',returnURL));n.append(returnNav);return n;
+  returnNav.append(link('← DISCOVERIES',returnURL));n.append(returnNav);
+  return n;
 };
 let lastState=parseRoute(location.hash);
 let feedObserver=null,feedCount=12,renderedHash=null,restoreFrame=0;

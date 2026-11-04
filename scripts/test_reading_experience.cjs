@@ -12,7 +12,7 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   const context=await browser.newContext({viewport:{width,height},deviceScaleFactor:dpr,reducedMotion:'reduce'});
   // Deterministic low-resolution raster-equivalent dimensions; no third-party
   // service availability should decide whether navigation/layout pass CI.
-  await context.route('**/*',r=>{const q=r.request();if(q.resourceType()==='image')return r.fulfill({contentType:'image/svg+xml',body:'<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100"><rect width="200" height="100" fill="#ddd"/></svg>'});if(q.url().startsWith(base))return r.continue();return r.abort();});
+  await context.route('**/*',r=>{const q=r.request();if(q.resourceType()==='image'){const poster=q.url().includes('54603a7134ede63ed6b1d4c0a5c187b802ac8214a1a9cf5898e978132bf76de8');const w=poster?540:200,h=poster?800:100;return r.fulfill({contentType:'image/svg+xml',body:`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}"><rect width="${w}" height="${h}" fill="#ddd"/></svg>`});}if(q.url().startsWith(base))return r.continue();return r.abort();});
   const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(String(e)));
   await page.goto(base+'#home');
   await eventually(async()=>assert.equal(await page.locator('#content>.grid>.card').count(),12));
@@ -91,9 +91,65 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   assert.ok(geometry.clipW<=geometry.naturalWidth*(1-.276-.277)*1.6/Math.min(dpr,1.5)+2);
   await crop.locator('xpath=ancestor::a[contains(@class,"visual-image-link")]').click();
   await eventually(async()=>assert.ok(page.url().includes('#article/')));
-  const detailedCrop=page.locator('.editorial-detail>.primary-visual .quoted-visual.blank-border-trim .visual');
+  const detailedCrop=page.locator('.editorial-detail>.detail-feature>.primary-visual .quoted-visual.blank-border-trim .visual');
   await eventually(async()=>assert.equal(await detailedCrop.count(),1));
   assert.equal(await detailedCrop.evaluate(n=>getComputedStyle(n).overflow),'hidden');
+  // Primary static poster: full-width headline, summary first, and the
+  // poster beside article copy ONLY on a wide PC. Mobile is sequential.
+  const tanaka=data.articles.find(a=>a.id==='a-788feea6a14bbb75e319f0c5');
+  await page.goto(base+'#article/'+encodeURIComponent(tanaka.slug));
+  await page.locator('.editorial-detail>.detail-feature>.primary-visual img').waitFor();
+  await eventually(async()=>assert.ok(await page.locator('.detail-feature.detail-split').count()===1));
+  const geometry2=await page.locator('.editorial-detail').evaluate(n=>{
+    const rect=selector=>{const r=n.querySelector(selector).getBoundingClientRect();return {top:r.top,bottom:r.bottom,left:r.left,right:r.right,width:r.width};};
+    return {title:rect(':scope > h1'),meta:rect('.detail-masthead>.editorial-meta'),
+      source:rect('.detail-masthead .primary-source'),
+      intro:rect('.detail-feature>.detail-intro'),
+      visual:rect('.detail-feature>.primary-visual'),
+      copy:rect('.detail-feature>.detail-copy'),
+      featureDisplay:getComputedStyle(n.querySelector('.detail-feature')).display,
+      hasRepeatedSource:!!n.querySelector('.detail-masthead .source-label'),
+      hasLeadBeforeVisual:[...n.querySelector('.detail-feature').children][0].classList.contains('detail-intro')};
+  });
+  assert.ok(geometry2.hasLeadBeforeVisual);
+  assert.equal(geometry2.hasRepeatedSource,false);
+  if(width>=1200){
+    assert.equal(geometry2.featureDisplay,'grid');
+    assert.ok(geometry2.visual.left>geometry2.intro.right+15,JSON.stringify(geometry2));
+    assert.ok(Math.abs(geometry2.visual.top-geometry2.intro.top)<5,JSON.stringify(geometry2));
+    assert.ok(geometry2.source.left>geometry2.meta.left,JSON.stringify(geometry2));
+  }else{
+    assert.notEqual(geometry2.featureDisplay,'grid');
+    assert.ok(geometry2.intro.bottom<=geometry2.visual.top+2,JSON.stringify(geometry2));
+    assert.ok(geometry2.visual.bottom<=geometry2.copy.top+2,JSON.stringify(geometry2));
+  }
+  await page.screenshot({path:`test-results/detail-poster-${width}.png`});
+  // Landscape static and main embedded media stay full-width rather than
+  // compressing the video or panorama into the right column.
+  const wide=data.articles.find(a=>a.id==='a-3cd3a319fcae3c46d14660a2');
+  await page.goto(base+'#article/'+encodeURIComponent(wide.slug));
+  await eventually(async()=>assert.ok(await page.locator('.detail-feature>.primary-visual img').count()>0));
+  assert.equal(await page.locator('.detail-feature.detail-split').count(),0);
+  const mediaMain=data.articles.find(a=>a.id==='a-580c2384c103eae8ef677a35');
+  await page.goto(base+'#article/'+encodeURIComponent(mediaMain.slug));
+  await page.locator('.detail-feature>.primary-visual .media-player').waitFor();
+  assert.equal(await page.locator('.detail-feature.detail-split').count(),0);
+  // Multiple secondary Visuals, YouTube and Spotify stay one-per-row BELOW
+  // the full hero feature, irrespective of the hero's desktop split.
+  const mixed=data.articles.find(a=>a.id==='a-f1e0215c8983d548b784c24f');
+  await page.goto(base+'#article/'+encodeURIComponent(mixed.slug));
+  const extras=page.locator('.editorial-detail>.secondary-visuals');
+  await extras.waitFor();
+  assert.equal(await extras.locator(':scope > .real-visual,:scope > .media-player').count(),3);
+  assert.equal(await extras.locator('.media-player.youtube_embed').count(),1);
+  assert.equal(await extras.locator('.media-player.spotify_embed').count(),1);
+  assert.equal(await extras.locator('.real-visual').count(),1);
+  const extrasGeometry=await page.locator('.editorial-detail').evaluate(n=>({
+    featureBottom:n.querySelector('.detail-feature').getBoundingClientRect().bottom,
+    extrasTop:n.querySelector(':scope > .secondary-visuals').getBoundingClientRect().top,
+    columns:getComputedStyle(n.querySelector(':scope > .secondary-visuals')).gridTemplateColumns
+  }));
+  assert.ok(extrasGeometry.extrasTop>extrasGeometry.featureBottom,JSON.stringify(extrasGeometry));
   assert.deepEqual(errors,[]);await context.close();
  }
  const official=articleSources(data.articles.find(a=>a.id==='a-bb64ec8be3ec294db2858d31'))[0];assert.equal(official.url,'https://smash-jpn.com/live/?id=4751');
