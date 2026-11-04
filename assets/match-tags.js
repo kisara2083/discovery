@@ -15,8 +15,9 @@
   const list=el('div',undefined,'match-tags');
   for(const tag of tags)list.append(el('span',tag,'match-tag'));
   section.append(list);
-  const links=detail.querySelector('.links');
-  if(links)detail.insertBefore(section,links);else detail.append(section);
+  let anchor=detail.querySelector('.detail-sources')||detail.querySelector('.links');
+  while(anchor&&anchor.parentElement!==detail)anchor=anchor.parentElement;
+  if(anchor)detail.insertBefore(section,anchor);else detail.append(section);
  }
  const observer=new MutationObserver(()=>requestAnimationFrame(renderMatchTags));
  observer.observe(root,{childList:true});

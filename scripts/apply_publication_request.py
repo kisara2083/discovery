@@ -60,6 +60,7 @@ def validate_article(a,tax):
  if "categories" in a:
   values=a['categories']
   if not isinstance(values,list) or not values or any(not isinstance(v,str) or v not in tax for v in values) or len(values)!=len(set(values)) or a['category'] not in values: fail('article_categories')
+ if len(a.get('public_detail',''))>4096: fail('public_detail_length')
  if "match_tags" in a:
   tags=a["match_tags"]
   if not isinstance(tags,list) or len(tags)>8 or len(set(tags))!=len(tags): fail("match_tags")
