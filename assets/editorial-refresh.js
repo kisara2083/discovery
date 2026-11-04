@@ -61,7 +61,7 @@ function cardMeta(a){
   const node=meta(a);
   node.classList.add('card-meta');
   const chips=[...node.querySelectorAll('.category-chip')];
-  for(const chip of chips)node.insertBefore(chip,node.firstChild);
+  for(const chip of chips.reverse())node.insertBefore(chip,node.firstChild);
   node.querySelector('.source-label')?.remove();
   return node;
 }
