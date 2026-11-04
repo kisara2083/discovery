@@ -148,7 +148,7 @@ detail=function(a){
   const n=el('article',undefined,'detail editorial-detail');n.dataset.articleId=a.id;
   const back=parseRoute(location.hash);back.view=back.category?'category':'archive';back.slug='';
   let returnURL=route(back);try{returnURL=sessionStorage.getItem('discovery-list-route')||returnURL;}catch{}
-  n.append(link('← DISCOVERIES',returnURL),el('h1',a.title),meta(a));
+  n.append(el('h1',a.title),meta(a));
   const uniqueSources=articleSources(a);
   // Publication order is editorial: the first source is the article's main
   // reference. Never infer authority from image size, hostname or media rank.
@@ -166,7 +166,9 @@ detail=function(a){
   const secondary=detailSecondary(a);if(secondary)n.append(el('h2','VISUAL NOTES','section-title'),secondary);
   const sources=el('section',undefined,'detail-sources');sources.append(el('h2','SOURCES & LINKS','section-title'));const links=el('div',undefined,'links');for(const s of uniqueSources)links.append(link(s.name,s.url));sources.append(links);n.append(sources);
   const related=data.articles.filter(x=>x.id!==a.id&&categories(x,data.taxonomy).some(c=>categories(a,data.taxonomy).includes(c))).slice(0,3);
-  if(related.length)n.append(el('h2','RELATED DISCOVERIES','section-title'),grid(related));return n;
+  if(related.length)n.append(el('h2','RELATED DISCOVERIES','section-title'),grid(related));
+  const returnNav=el('nav',undefined,'detail-return');returnNav.setAttribute('aria-label','記事一覧へ戻る');
+  returnNav.append(link('← DISCOVERIES',returnURL));n.append(returnNav);return n;
 };
 let lastState=parseRoute(location.hash);
 let feedObserver=null,feedCount=12,renderedHash=null,restoreFrame=0;
