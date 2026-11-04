@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import ipaddress
 import re
 import socket
@@ -12,6 +13,19 @@ from urllib.parse import urlparse
 ASSET = re.compile(r"assets/images/([a-f0-9]{64})\.(jpg|png|gif|webp)")
 MAX_BYTES = 10_000_000
 ARK_FANKIT = "https://www.arknights.jp/fankit/"
+JP_WALLPAPER_MANIFEST = Path(__file__).resolve().parent.parent / "data" / "arknights-jp-wallpaper-allowlist.json"
+
+
+def _jp_wallpaper_urls():
+    """Only exact JP Wallpaper URLs observed in the official Fan Kit DOM."""
+    manifest = json.loads(JP_WALLPAPER_MANIFEST.read_text(encoding="utf-8"))
+    urls = manifest["wallpaper_urls"]
+    if (manifest.get("schema_version") != 1 or manifest.get("source_page") != ARK_FANKIT
+            or len(urls) != 69 or len(set(urls)) != 69
+            or any(not isinstance(u, str) or not u.startswith("https://webusstatic.yo-star.com/") for u in urls)):
+        fail("arknights_jp_wallpaper_allowlist")
+    return frozenset(urls)
+
 
 
 def fail(code):
@@ -60,7 +74,7 @@ def _eligible(image):
     # the reviewed inventory; Public independently restricts source/host/path.
     if source_page == ARK_FANKIT:
         return (op.hostname == "webusstatic.yo-star.com"
-                and op.path.startswith("/ark_jp_web/assets/"))
+                and original in _jp_wallpaper_urls())
 
     # Reviewed quotation route. The request carries only the Public display
     # projection; the producer/Private side retains gate evidence/history.
