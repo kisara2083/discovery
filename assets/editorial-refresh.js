@@ -31,7 +31,34 @@ function filter(articles,state,taxonomy){
   });
 }
 function paginate(articles,page,size=18){return articles.slice((page-1)*size,page*size);}
-const api={categories,parseRoute,route,filter,paginate};
+function detailMediaLabel(m){
+  if(m?.type==='youtube_embed')return 'YOUTUBE · 映像';
+  if(m?.type!=='spotify_embed')return null;
+  const kind=/^https:\/\/open\.spotify\.com\/(artist|album|track)\//.exec(m.canonical_url||'')?.[1];
+  return {track:'SPOTIFY · 楽曲',album:'SPOTIFY · アルバム',artist:'SPOTIFY · アーティスト'}[kind]||'SPOTIFY';
+}
+function detailMediaGroups(a,refs){
+  const media=new Map((a.media||[]).map(m=>['media:'+m.canonical_url,m]));
+  const watch=[],other=[];
+  for(const ref of refs){
+    const m=ref.kind==='media'?media.get(ref.key):null;
+    (m&&(m.type==='youtube_embed'||m.type==='spotify_embed')?watch:other).push(ref);
+  }
+  // The selector alone decides WHICH five Visuals are available. Only move
+  // chosen listening/video players ahead of secondary stills on Detail.
+  const priority=ref=>{
+    const m=media.get(ref.key);
+    if(m?.type==='youtube_embed')return 0;
+    if(m?.type==='spotify_embed'){
+      const kind=/^https:\/\/open\.spotify\.com\/(artist|album|track)\//.exec(m.canonical_url||'')?.[1];
+      return kind==='track'?1:kind==='album'?2:3;
+    }
+    return 4;
+  };
+  watch.sort((a,b)=>priority(a)-priority(b));
+  return {watch,other};
+}
+const api={categories,parseRoute,route,filter,paginate,detailMediaLabel,detailMediaGroups};
 const sourcePreference={
   'a-bb64ec8be3ec294db2858d31':'https://smash-jpn.com/live/?id=4751',
   'a-048ccfa85b33fc86a5bca373':'https://shumokukan.jp/news/kingyonouta.html',
@@ -88,7 +115,13 @@ function realVisual(a,ref,detail=false){
     return slot;
   }
   const media=embedList(a).find(m=>mediaSelectionKey(m)===ref.key);
-  return media?(detail?mediaPlayer(media):mediaVisual(media)):null;
+  if(!media)return null;
+  if(!detail)return mediaVisual(media);
+  const player=mediaPlayer(media);
+  const heading=player.querySelector(':scope > h2');
+  const label=detailMediaLabel(media);
+  if(heading&&label)heading.textContent=label;
+  return player;
 }
 function detailRefs(a){
   const refs=[selectedRef(a,'detail'),...(a.display_selection?.detail_secondary||[])].filter(r=>r&&r.kind!=='world_card');
@@ -143,7 +176,16 @@ card=function(a,hero=false){
   n.append(body);return n;
 };
 detailPrimary=function(a){const ref=detailRefs(a)[0];const visual=realVisual(a,ref,true);if(!visual)return null;const n=el('section',undefined,'primary-visual');n.append(visual);return n;};
-detailSecondary=function(a){const n=el('section',undefined,'secondary-visuals');for(const ref of detailRefs(a).slice(1)){const visual=realVisual(a,ref,true);if(visual)n.append(visual);}return n.children.length?n:null;};
+detailSecondary=function(a){
+  const n=el('section',undefined,'secondary-visuals');
+  const {watch,other}=detailMediaGroups(a,detailRefs(a).slice(1));
+  const both=watch.length>0&&other.length>0;
+  if(both)n.append(el('h3','WATCH & LISTEN','section-title'));
+  for(const ref of watch){const visual=realVisual(a,ref,true);if(visual)n.append(visual);}
+  if(both)n.append(el('h3','PHOTOS & OTHER MEDIA','section-title'));
+  for(const ref of other){const visual=realVisual(a,ref,true);if(visual)n.append(visual);}
+  return n.querySelector(':scope > .real-visual,:scope > .media-player')?n:null;
+};
 detail=function(a){
   const n=el('article',undefined,'detail editorial-detail');n.dataset.articleId=a.id;
   const back=parseRoute(location.hash);back.view=back.category?'category':'archive';back.slug='';
