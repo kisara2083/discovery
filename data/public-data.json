@@ -187,6 +187,78 @@
       }
     },
     {
+      "categories": [
+        "cross_domain"
+      ],
+      "category": "cross_domain",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://www.suntory.co.jp/news/article/2026/mt_items/15157-1.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://www.suntory.co.jp/news/article/2026/mt_items/15157-1.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "id": "a-ee91e85f4e1207733afc7f97",
+      "images": [
+        {
+          "caption": "サントリープレミアムハイボール山崎〈ミズナラ薫る奥深さ〉350ml缶",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.suntory.co.jp/news/article/2026/mt_items/15157-1.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象商品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "product_identity",
+            "role_label": "対象商品：サントリープレミアムハイボール山崎〈ミズナラ薫る奥深さ〉350ml缶",
+            "source_name": "サントリー公式ニュースリリース（2026年10月27日）",
+            "source_page": "https://www.suntory.co.jp/news/article/2026/15157.html",
+            "target": "サントリープレミアムハイボール山崎〈ミズナラ薫る奥深さ〉350ml缶"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.suntory.co.jp/news/article/2026/15157.html",
+          "url": "https://www.suntory.co.jp/news/article/2026/mt_items/15157-1.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "product_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "price_terms": "350ml、希望小売価格761円（税別）、アルコール度数9％。",
+      "public_summary": "山崎蒸溜所で蒸溜された原酒だけを使い、華やかさと高酒齢ミズナラ樽原酒の複雑さを特徴とする9％の限定ハイボール缶。",
+      "published_date": "2026-10-28",
+      "slug": "a-ee91e85f4e1207733afc7f97",
+      "sources": [
+        {
+          "url": "https://www.suntory.co.jp/news/article/2026/15157.html",
+          "name": "www.suntory.co.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "山崎〈ミズナラ薫る奥深さ〉ハイボール缶 — 年末向け数量限定品",
+      "updated_date": "2026-11-04",
+      "world_card": {
+        "concept": "山崎蒸溜所で蒸溜された原酒だけを使い、華やかさと高酒齢ミズナラ樽原酒の複雑さを特徴とする9％の限定ハイボール缶。",
+        "key": "world_card:a-f566527fcdac1e49838bb238",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "meta": "",
+        "title": "山崎〈ミズナラ薫る奥深さ〉ハイボール缶 — 年末向け数量限定品",
+        "variant": "grid"
+      }
+    },
+    {
       "category": "games",
       "id": "a-ea0d1f72b35dbed4df285d9a",
       "images": [
