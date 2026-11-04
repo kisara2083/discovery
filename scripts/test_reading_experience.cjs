@@ -31,7 +31,7 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   await article.click();await page.locator('.source-access').waitFor();
   assert.ok(await page.locator('.primary-source').getAttribute('href'));assert.equal(await page.locator('.match-context').count(),0);
   await page.goBack();await page.locator('.feed-more').waitFor();
-  await eventually(async()=>assert.ok(Math.abs(await page.evaluate(()=>scrollY)-y)<100));
+  await eventually(async()=>{const actual=await page.evaluate(()=>scrollY);assert.ok(Math.abs(actual-y)<100,`Home history at ${width}: expected ${y}, got ${actual}; ${await page.evaluate(()=>sessionStorage.getItem('discovery-positions'))}`);});
   await page.locator('header a[href="#archive"]').click();await page.locator('.pagination').waitFor();assert.equal(await page.locator('#content>.grid>.card').count(),18);
   await page.locator('.pagination a').nth(1).click();
   await eventually(async()=>assert.ok(Math.abs(await page.locator('#content>.section-title').evaluate(n=>n.getBoundingClientRect().top))<2));

@@ -133,6 +133,7 @@ if('scrollRestoration' in history)history.scrollRestoration='manual';
 window.addEventListener('pagehide',savePosition);
 window.addEventListener('scroll',()=>{if(!restoreFrame)savePosition();},{passive:true});
 for(const type of ['pointerdown','wheel','touchstart','keydown'])window.addEventListener(type,()=>{cancelAnimationFrame(restoreFrame);restoreFrame=0;},{passive:true,capture:true});
+document.addEventListener('click',event=>{if(event.target.closest('a[href^="#"]'))savePosition();},true);
 function restorePosition(node,state){
   cancelAnimationFrame(restoreFrame);
   const saved=positions.get(positionKey());
