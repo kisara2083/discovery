@@ -17,9 +17,35 @@ function size(img){
   img.classList.add('resolution-aware');
   for(const [key,value] of Object.entries({'width':'100%','height':'auto','max-width':maxWidth+'px','max-height':maxHeight+'px','object-fit':'contain','margin':'0 auto','position':'static','transform':'none'}))img.style.setProperty(key,value,'important');
 }
-function scan(){for(const img of document.querySelectorAll('.card-visual img,.primary-visual img,.secondary-visuals img')){if(!watched.has(img)){watched.add(img);img.addEventListener('load',()=>size(img));}size(img);}}
+function syncDetailLayout(){
+  const feature=document.querySelector('#content>.editorial-detail>.detail-feature');
+  if(!feature)return;
+  const primary=feature.querySelector(':scope > .primary-visual');
+  const img=primary?.querySelector('.visual img');
+  // Never squeeze iframe/interactive main media into a right sidebar.
+  if(!img||!img.naturalWidth||!img.naturalHeight||primary.querySelector('.embed-card,.media-player,.world-card')){
+    feature.classList.remove('detail-split');
+    return;
+  }
+  // A reviewed blank-border crop uses its *visible* dimensions, not the
+  // original file's whitespace-padded aspect ratio.
+  const trimmed=Number(img.closest('.blank-border-trim')?.dataset.visibleAspect);
+  const aspect=Number.isFinite(trimmed)&&trimmed>0?trimmed:img.naturalWidth/img.naturalHeight;
+  feature.classList.toggle('detail-split',aspect<=1.12);
+}
+function scan(){
+  for(const img of document.querySelectorAll('.card-visual img,.primary-visual img,.secondary-visuals img')){
+    if(!watched.has(img)){
+      watched.add(img);
+      img.addEventListener('load',()=>{size(img);syncDetailLayout();});
+    }
+    size(img);
+  }
+  syncDetailLayout();
+}
 let queued=false;const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;scan();});};
 new MutationObserver(schedule).observe(document.getElementById('content'),{childList:true,subtree:true});
+new MutationObserver(schedule).observe(document.getElementById('content'),{subtree:true,attributes:true,attributeFilter:['data-visible-aspect']});
 window.addEventListener('resize',schedule,{passive:true});scan();
 function syncCurrentNav(){
   const view=(location.hash||'#home').slice(1).split(/[/?]/)[0]||'home';
