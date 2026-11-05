@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-05",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,53 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-3cd3a319fcae3c46d14660a2",
+  "todays_pick": "a-26d932ded4cb153a90e3dbd5",
   "articles": [
+    {
+      "category": "shopping",
+      "deadline_at": "2026-11-12T14:59:00Z",
+      "id": "a-26d932ded4cb153a90e3dbd5",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "match_tags": [
+        "ゲーム音響",
+        "ボイスチャット",
+        "ワイヤレス周辺機器"
+      ],
+      "note": "LIGHTSPEED、Bluetooth、有線USBの3方式接続。290g、ライトなしで公称約90時間。",
+      "price_terms": "15,980円（参考価格22,800円、30％オフの案内）。Amazon.co.jp限定G522-BKdは1年間保証。",
+      "public_detail": "G522 LIGHTSPEEDは、2.4GHzのLIGHTSPEEDワイヤレス、Bluetooth、有線USBの3方式で接続できるゲーミングヘッドセット。着脱式の16bit／48kHzマイクとBLUE VO!CE、独立チャンバーに収めた40mmドライバーを備え、本体重量は290g。ライトを使わない場合の公称バッテリー駆動時間は約90時間となっている。\n\n今回案内されているのはAmazon.co.jp限定のブラックモデルG522-BKd。参考価格22,800円に対して15,980円で、限定モデルの保証期間は1年間。価格、在庫、ポイント付与は変動するため、購入時に商品ページの表示を確認したい。",
+      "public_summary": "Logicoolのワイヤレスゲーミングヘッドセット「G522 LIGHTSPEED」のAmazon.co.jp限定モデルが、15,980円で案内されている。AmazonスマイルSALEは11月12日23時59分まで。",
+      "published_date": "2026-11-04",
+      "slug": "a-26d932ded4cb153a90e3dbd5",
+      "sources": [
+        {
+          "url": "https://gaming.logicool.co.jp/ja-jp/shop/p/g522-lightspeed",
+          "name": "ロジクール G522 LIGHTSPEED 製品ページ"
+        },
+        {
+          "url": "https://press.logicool.co.jp/ja-jp/g522-lightspeed/",
+          "name": "ロジクール G522 発表資料"
+        },
+        {
+          "url": "https://www.amazon.co.jp/dp/B0F2SVD5CZ",
+          "name": "Amazon.co.jp G522-BKd 製品ページ"
+        },
+        {
+          "url": "https://digimaga.jp/64808/",
+          "name": "デジタルマガジン G522 タイムセール情報"
+        },
+        {
+          "url": "https://k-tai.watch.impress.co.jp/docs/news/2152314.html",
+          "name": "ケータイ Watch AmazonスマイルSale案内"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Logicool G522 LIGHTSPEEDが15,980円、AmazonスマイルSALE対象に",
+      "updated_date": "2026-11-05",
+      "whats_new": "AmazonスマイルSALEでAmazon.co.jp限定ブラックモデルが15,980円。"
+    },
     {
       "categories": [
         "cross_domain"
