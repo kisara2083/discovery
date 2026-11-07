@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-11-07",
+  "as_of": "2026-11-08",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,71 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-1bdb1f3f0bca5b58dd00aa99",
+  "todays_pick": "a-b05ec063d12165dd08b97a8c",
   "articles": [
+    {
+      "categories": [
+        "shopping"
+      ],
+      "category": "shopping",
+      "deadline_at": "2026-11-19T14:59:00Z",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-dfdacca537c152c352b0f1e9",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-dfdacca537c152c352b0f1e9",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "id": "a-b05ec063d12165dd08b97a8c",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "match_tags": [
+        "怪奇幻想",
+        "不条理"
+      ],
+      "note": "ビームコミックスの全4巻完結作。セール表示は2026年11月19日23:59 JSTまで。",
+      "price_terms": "全4巻各99円、合計396円。通常価格表示858〜1,012円。",
+      "public_detail": "『トミノの地獄』は、大正末期の東京で見世物小屋に売られた双子のトミノとカタンを描く、全4巻の怪奇幻想復讐劇。見世物興行の世界から戦争期へ時代を広げ、双子が過酷な運命をたどる長編として完結している。\n\n今回のセールでは、通常価格858〜1,012円の各巻が99円。4巻合計396円でそろえられるが、電子書籍の価格は変更される場合があるため、購入時のKindle表示を確認したい。",
+      "public_summary": "丸尾末広『トミノの地獄』全4巻が、KADOKAWA「秋カド2026 後半」で各99円になっている。セール表示は11月19日23時59分まで。",
+      "published_date": "2026-11-07",
+      "slug": "a-b05ec063d12165dd08b97a8c",
+      "sources": [
+        {
+          "url": "https://bookwalker.jp/tag/12671/?np=0&order=rank&qinc_wren=1&qlab=30",
+          "name": "bookwalker.jp"
+        },
+        {
+          "url": "https://www.kadokawa.co.jp/product/301408001318",
+          "name": "www.kadokawa.co.jp"
+        },
+        {
+          "url": "https://kinpome.com/kindle-sale-search/?ex=&hpr=&hpro=&hprr=&hptr=&hrpr=&keyword=KADOKAWA&lpr=&lpro=&lprr=&lptr=&lrpr&rde=&rds=&st=po",
+          "name": "kinpome.com"
+        },
+        {
+          "url": "https://www.bunka.go.jp/j-mediaarts-festival/award/single/tomino_no_jigoku/index.html",
+          "name": "www.bunka.go.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "丸尾末広『トミノの地獄』全4巻が各99円",
+      "updated_date": "2026-11-08",
+      "whats_new": "KADOKAWA「秋カド2026 後半」の対象として全4巻が各99円になった。",
+      "world_card": {
+        "concept": "丸尾末広の怪奇幻想復讐劇『トミノの地獄』全4巻が、KADOKAWA「秋カド2026 後半」の対象として各99円。宿命を背負う双子トミノとカタンの地獄巡りを、大正末期から戦争期へ広げて描く完結作。",
+        "key": "world_card:a-dfdacca537c152c352b0f1e9",
+        "kicker": "BOOK / DISCOVERY",
+        "meta": "",
+        "title": "『トミノの地獄』全4巻 99円セール",
+        "variant": "field"
+      }
+    },
     {
       "category": "music_live",
       "city": "東京",
@@ -3444,7 +3507,7 @@
           "visual_role": "event_identity"
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "note": "申込不要・参加無料。駐車場はなく、少雨決行・荒天中止。開催可否は当日朝に案内予定。",
       "price_terms": "参加無料、申込不要。",
       "public_detail": "センターで保全している生きものや収蔵標本を特別公開し、市民団体や教育・研究機関の展示、体験型ワークショップ、ステージ企画を組み合わせる催し。中高生の活動発表『生物多様性ユースひろば』も同時開催される。",
