@@ -67,6 +67,15 @@ class PublisherTests(unittest.TestCase):
   req=request(article()); req['private_revision']='1'*40; p=self.run_case(dataset(),req,expect_ok=False); self.assertIn('request_unknown_fields',p.stderr)
  def test_conflicting_new_fails_closed(self):
   p=self.run_case(dataset([article(summary='Old')]),request(article(summary='Different')),expect_ok=False); self.assertIn('new_conflicts_existing',p.stderr)
+ def test_ongoing_multi_day_event_remains_active_after_start(self):
+  item=article()
+  item['event_date']='2026-11-05'
+  item['deadline_at']='2026-11-14T18:59:00Z'
+  item['lifecycle']='ACTIVE'
+  data,state,receipt=self.run_case(dataset(),request(item,as_of='2026-11-07'))
+  self.assertEqual('ACTIVE',data['articles'][0]['lifecycle'])
+  self.assertEqual(1,state['sequence'])
+  self.assertTrue(receipt['changed'])
  def test_delayed_backlog_refreshes_lifecycle(self):
   delayed=article(); delayed['end_at']='2026-10-23T23:59:59+09:00'; self.assertEqual('ACTIVE',delayed['lifecycle'])
   d,s,r=self.run_case(dataset(),request(delayed)); stored=next(x for x in d['articles'] if x['id']==delayed['id']); self.assertEqual('ENDED',stored['lifecycle']); self.assertEqual('ENDED',stored['lifecycle']); self.assertTrue(r['snapshot_changed'])
