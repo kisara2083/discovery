@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-07",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,57 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-26d932ded4cb153a90e3dbd5",
+  "todays_pick": "a-1bdb1f3f0bca5b58dd00aa99",
   "articles": [
+    {
+      "category": "music_live",
+      "city": "東京",
+      "deadline_at": "2026-11-11T09:00:00Z",
+      "event_date": "2027-03-11",
+      "id": "a-1bdb1f3f0bca5b58dd00aa99",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "match_tags": [
+        "身体的グルーヴ",
+        "電子音響",
+        "希少来日"
+      ],
+      "note": "17時30分開場、18時30分開演。先行で完売した場合は一般発売を行わないことがある。",
+      "price_terms": "アリーナ・スタンディング18,000円、S指定席18,000円、A指定席16,000円。未就学児入場不可。",
+      "public_detail": "UnderworldとBrutalismus 3000が同じステージに立つ来日公演が発表された。Underworldはテクノ、ハウス、ロック、アンビエントを横断する英国のエレクトロニック・アクト。Brutalismus 3000はハードコア、テクノ、トランス、ガバ、エレクトロクラッシュを取り込むベルリンのデュオで、世代とスタイルの異なる2組による共演となる。\n\n公演は2027年3月11日、東京・SGC HALL ARIAKEで開催。17時30分開場、18時30分開演。チケットはアリーナ・スタンディングとS指定席が各18,000円、A指定席が16,000円。Creativeman 3A会員先行は11月6日15時、モバイル会員先行は同日18時に始まり、いずれも11月11日18時まで。オフィシャル先行は11月12日から25日、一般発売は11月28日10時を予定している。先行で完売した場合は一般発売を行わないことがある。",
+      "public_summary": "UnderworldとBrutalismus 3000による来日公演が、2027年3月11日に東京・SGC HALL ARIAKEで開催される。会員先行は11月6日から順次開始する。",
+      "published_date": "2026-11-05",
+      "slug": "a-1bdb1f3f0bca5b58dd00aa99",
+      "sources": [
+        {
+          "url": "https://www.creativeman.co.jp/artist/2027/03uw_b3k/",
+          "name": "Creativeman 公演情報"
+        },
+        {
+          "url": "https://niewmedia.com/news/2611uxb/",
+          "name": "NiEW 来日公演ニュース"
+        },
+        {
+          "url": "https://skream.jp/news/2026/11/underworld_brutalismus_3000_live_in_japan_2027.php",
+          "name": "Skream! 来日公演ニュース"
+        }
+      ],
+      "spotify": [
+        {
+          "url": "https://open.spotify.com/track/3bwlcou2bS1MHtf7CTWejQ",
+          "name": "Underworld — Born Slippy (Nuxx)"
+        },
+        {
+          "url": "https://open.spotify.com/track/7sdTtiMigvuRsxxNOkJrML",
+          "name": "Brutalismus 3000 — Gore Louvre"
+        }
+      ],
+      "status": "NEW",
+      "title": "UnderworldとBrutalismus 3000、2027年3月に東京で共演",
+      "updated_date": "2026-11-07",
+      "venue": "SGC HALL ARIAKE",
+      "whats_new": "UnderworldとBrutalismus 3000の共同来日公演が発表され、会員先行と一般発売の日程が案内された。"
+    },
     {
       "category": "shopping",
       "deadline_at": "2026-11-12T14:59:00Z",
