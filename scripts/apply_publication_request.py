@@ -46,7 +46,7 @@ def as_jst(v):
  p=dt.datetime.fromisoformat(v.replace("Z","+00:00")); return (p.astimezone(dt.timezone(dt.timedelta(hours=9))) if p.tzinfo else p).date()
 def lifecycle(a,today):
  ends=[as_jst(a[k]) for k in ("end_at","deadline_at") if a.get(k)]
- if not a.get("end_at") and a.get("event_date"): ends.append(as_jst(a["event_date"]))
+ if not ends and a.get("event_date"): ends.append(as_jst(a["event_date"]))
  return "ENDED" if any(x<today for x in ends) else "ACTIVE"
 def ref(v,l):
  if v is None:return
