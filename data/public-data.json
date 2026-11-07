@@ -92,6 +92,143 @@
       "whats_new": "UnderworldとBrutalismus 3000の共同来日公演が発表され、会員先行と一般発売の日程が案内された。"
     },
     {
+      "categories": [
+        "games"
+      ],
+      "category": "games",
+      "deadline_at": "2026-11-14T18:59:00Z",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/170065430613010767/01.png",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/170065430613010767/01.png",
+          "kind": "image"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/169104342646112460/01.jpg",
+            "kind": "image"
+          },
+          {
+            "key": "media:https://www.youtube.com/watch?v=7A9XWVbdQHE",
+            "kind": "media"
+          },
+          {
+            "key": "media:https://x.com/ArknightsStaff/status/2117452235496165545",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 8
+      },
+      "event_date": "2026-11-05",
+      "id": "a-733db2a01bf48a7e5a5f412f",
+      "images": [
+        {
+          "caption": "アークナイツ公式ファンキット：2023年勤労感謝の日記念イラスト（記事固有の告知画像ではありません）",
+          "framing": "contain",
+          "mode": "saved",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/170065430613010767/01.png",
+          "relation": "reference_same_entity",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "url": "assets/images/6033d16ad0fa24fea092110383878d11cb8ec15f508862fc2556307dd7a6c826.png",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "caption": "アークナイツ公式ファンキット：2023年山の日記念イラスト（記事固有の告知画像ではありません）",
+          "framing": "contain",
+          "mode": "saved",
+          "original_url": "https://webusstatic.yo-star.com/ark_jp_web/assets/169104342646112460/01.jpg",
+          "relation": "reference_same_entity",
+          "source_page": "https://www.arknights.jp/fankit/",
+          "url": "assets/images/4cce80d9bc69667c4094fdf74d6a45e4b2627fd7ff5de7474d1585c95416f619.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://x.com/ArknightsStaff/status/2117452235496165545",
+          "evidence_url": "https://help.x.com/en/using-x/how-to-embed-a-post",
+          "provider_id": "2117452235496165545",
+          "source_url": "https://x.com/ArknightsStaff/status/2117452235496165545",
+          "title": "SIDE STORY「命ある者の旅」復刻ライト版 告知",
+          "type": "x_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=7A9XWVbdQHE",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "7A9XWVbdQHE",
+          "source_url": "https://www.youtube.com/watch?v=7A9XWVbdQHE",
+          "title": "アークナイツ 復刻「命ある者の旅」アニメPV",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "note": "イベントステージは11月15日3時59分、報酬交換は11月19日3時59分まで。",
+      "public_detail": "SIDE STORY「命ある者の旅」は、ラテラーノを舞台にした期間限定イベント。復刻ライト版では、イベントステージと任務、報酬交換所が再登場する。\n\nイベントステージは2026年11月15日3時59分まで。任務「MT-5をクリア」を達成すると、限定★6オペレーター「サンクタ・ミキサー」が加入する。報酬交換は11月19日3時59分まで利用できる。",
+      "public_summary": "アークナイツのSIDE STORY「命ある者の旅」が復刻ライト版として開催中。MT-5クリアで限定★6オペレーター「サンクタ・ミキサー」が加入する。",
+      "published_date": "2026-11-06",
+      "slug": "a-733db2a01bf48a7e5a5f412f",
+      "sources": [
+        {
+          "url": "https://arknights.jp/news/4997",
+          "name": "arknights.jp"
+        },
+        {
+          "url": "https://www.gamer.ne.jp/news/202611050037/",
+          "name": "www.gamer.ne.jp"
+        },
+        {
+          "url": "https://arknights.wikiru.jp/",
+          "name": "arknights.wikiru.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "「命ある者の旅」復刻ライト版、11月15日まで開催",
+      "updated_date": "2026-11-07",
+      "whats_new": "復刻ライト版が11月5日に開始し、限定オペレーター、コーデ、家具が再登場した。",
+      "world_card": {
+        "concept": "SIDE STORY「命ある者の旅」が復刻ライト版として開催中。MT-5クリアで限定★6オペレーター「サンクタ・ミキサー」が加入し、イベント報酬交換は11月19日3:59 JSTまで。",
+        "key": "world_card:a-7c1ccb7215449f6af398f1bc",
+        "kicker": "GAME / EVENT",
+        "meta": "",
+        "title": "「命ある者の旅」復刻ライト版",
+        "variant": "signal"
+      }
+    },
+    {
       "category": "shopping",
       "deadline_at": "2026-11-12T14:59:00Z",
       "id": "a-26d932ded4cb153a90e3dbd5",
