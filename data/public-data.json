@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-11-08",
+  "as_of": "2026-11-09",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,114 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-b05ec063d12165dd08b97a8c",
+  "todays_pick": "a-1c44263903252be9f0f88ac5",
   "articles": [
+    {
+      "categories": [
+        "music_live"
+      ],
+      "category": "music_live",
+      "city": "名古屋市",
+      "deadline_at": "2026-11-10T14:59:00Z",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://www.youtube.com/watch?v=PXiDYEhsuS0",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://www.youtube.com/watch?v=PXiDYEhsuS0",
+          "kind": "media"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/track/6feolPdtp2biYBRWBT7SWg",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 8
+      },
+      "end_at": "2027-03-07",
+      "event_date": "2027-03-06",
+      "id": "a-1c44263903252be9f0f88ac5",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "match_tags": [
+        "名古屋フェス"
+      ],
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/track/6feolPdtp2biYBRWBT7SWg",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "6feolPdtp2biYBRWBT7SWg",
+          "source_url": "https://open.spotify.com/track/6feolPdtp2biYBRWBT7SWg",
+          "title": "木蘭の涙 — スターダスト☆レビュー",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=PXiDYEhsuS0",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "PXiDYEhsuS0",
+          "source_url": "https://www.youtube.com/watch?v=PXiDYEhsuS0",
+          "title": "「木蘭の涙～acoustic～」スターダスト☆レビュー【LIVE】",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "note": "その他ゲスト、タイムテーブル、エリアマップは後日発表。",
+      "price_terms": "一般：1日券9,500円、2日通し券17,000円。全席指定。",
+      "public_detail": "「音市音座」は、スターダスト☆レビューを中心に、ゲストアーティストとの組み合わせや共演で名曲を届ける名古屋発の音楽フェス。メインステージだけでなく、近年は若手を紹介するSHOWCASE STAGEや、キッチンカーが並ぶ「食市食座」も組み合わせ、ホール公演と周辺企画を一日で楽しめる構成を目指している。\n\n2027年は3月6日・7日の2日間、クロコくんホールで開催される。現時点で両日のスターダスト☆レビュー出演が発表され、その他のゲスト、タイムテーブル、エリアマップは後日公開予定。一般料金は1日券9,500円、2日通し券17,000円で、オフィシャル1次先行は11月10日23:59までの抽選受付となる。",
+      "public_summary": "スターダスト☆レビューとゲストが共演する「音市音座 2027」が、2027年3月6日・7日に名古屋のクロコくんホールで開催。オフィシャル1次先行は11月10日23:59まで受け付ける。",
+      "published_date": "2026-11-08",
+      "slug": "a-1c44263903252be9f0f88ac5",
+      "sources": [
+        {
+          "url": "https://www.sundayfolk.com/info/otoichiotoza/",
+          "name": "www.sundayfolk.com"
+        },
+        {
+          "url": "https://www.sundayfolk.com/info/otoichiotoza/ticket_general.html",
+          "name": "www.sundayfolk.com"
+        },
+        {
+          "url": "https://s-d-r.jp/",
+          "name": "s-d-r.jp"
+        }
+      ],
+      "spotify": [
+        {
+          "url": "https://open.spotify.com/track/6feolPdtp2biYBRWBT7SWg",
+          "name": "木蘭の涙 — スターダスト☆レビュー"
+        }
+      ],
+      "status": "NEW",
+      "title": "音市音座 2027",
+      "updated_date": "2026-11-09",
+      "venue": "クロコくんホール（旧：日本ガイシホール）",
+      "whats_new": "2027年の開催概要とオフィシャル1次先行が発表された。",
+      "world_card": {
+        "concept": "スターダスト☆レビューを軸にゲストとのコラボレーションを展開する「音市音座 2027」が、2027年3月6日・7日にクロコくんホールで開催。出演者は今後追加発表予定で、オフィシャル1次先行は11月10日23:59まで。",
+        "key": "world_card:a-5162ea443c9db6339396f8f6",
+        "kicker": "MUSIC / FESTIVAL",
+        "meta": "2027-03-06",
+        "title": "音市音座 2027、名古屋で2日間開催・1次先行は11月10日まで",
+        "variant": "grid"
+      }
+    },
     {
       "categories": [
         "shopping"
@@ -2037,7 +2143,7 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "public_summary": "公式特設サイトで展開されるミニゲーム連動のWebキャンペーン。期間内の参加確認を推奨。",
       "published_date": "2026-10-24",
       "slug": "a-88fd21518a52979e37a2319e",
