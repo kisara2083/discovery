@@ -41,6 +41,43 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
       !world.textContent.includes('NO IMAGE')&&detailPrimary(legacy)===null;
   });
   assert.equal(legacyFallback,true,'legacy Card must render World; Detail stays text-first');
+  const autoEmbedded=await page.evaluate(()=>{
+    const original=window.IntersectionObserver;
+    window.IntersectionObserver=class{
+      constructor(cb){this.cb=cb;}
+      observe(){this.cb([{isIntersecting:true}]);}
+      disconnect(){}
+    };
+    try{
+      const cases=[
+        ['youtube_embed','https://www.youtube.com/watch?v=abcdefghijk','abcdefghijk'],
+        ['spotify_embed','https://open.spotify.com/track/'+'A'.repeat(22),'A'.repeat(22)],
+        ['steam_embed','https://store.steampowered.com/app/3239360/','3239360'],
+        ['google_books_embed','https://books.google.com/books?id=ABCDEF12','ABCDEF12'],
+        ['x_embed','https://x.com/example/status/123456789','123456789']
+      ];
+      return cases.map(([type,canonical_url,provider_id])=>{
+        const node=mediaPlayer({type,canonical_url,provider_id,title:type});
+        document.body.append(node);
+        const result={
+          type,hasTapButton:!!node.querySelector('.player-slot button'),
+          hasIframe:!!node.querySelector('.player-slot iframe'),
+          hasXQuote:!!node.querySelector('blockquote.twitter-tweet'),
+          hasFallbackLink:!!node.querySelector('.media-fallback a'),
+          autoplay:(node.querySelector('iframe')?.src||'').includes('autoplay=1')
+        };
+        node.remove();return result;
+      });
+    }finally{window.IntersectionObserver=original;}
+  });
+  for(const provider of autoEmbedded){
+    assert.equal(provider.hasTapButton,false,provider.type+' must not require a tap');
+    assert.equal(provider.hasFallbackLink,true,provider.type+' must retain official link');
+    assert.equal(provider.autoplay,false,provider.type+' must not autoplay');
+    assert.equal(provider.type==='x_embed'?provider.hasXQuote:provider.hasIframe,true,
+                 provider.type+' must start loading in the viewport');
+  }
+
   // Current Private presentation calls local_family 「イベント」; published
   // snapshots may still carry the old verbose label.
   assert.equal(await page.locator('#taxonomy a[href^="#category/local_family"]').first().textContent(),'イベント');
