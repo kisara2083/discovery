@@ -15,8 +15,17 @@ from visual_contract import FIRST_VISUAL_GATE_SEQUENCE, validate_first_visual
 REQUEST_KEYS={"kind","schema_version","publication_id","sequence","operation","article_id","ready_root","as_of","article"}
 STATE_KEYS={"v","sequence","publication_id","article_id","ready_root","article_digest","dataset_digest"}
 ARTICLE_REQUIRED={"id","slug","title","public_summary","category","status","lifecycle","published_date","updated_date","sources","spotify","images"}
-ARTICLE_ALLOWED=ARTICLE_REQUIRED|{"public_detail","match_tags","categories","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","media","world_card","display_selection"}
+ARTICLE_ALLOWED=ARTICLE_REQUIRED|{"public_detail","match_tags","categories","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","media","world_card","display_selection","public_facts","public_schedule"}
 MEANINGFUL_UPDATE_FIELDS={"title","public_summary","public_detail","category","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new"}
+PUBLIC_FACT_LABELS={
+ "announcement_date","organizer","performers","program","admission",
+ "release_date","availability_start","platform","store","streaming_service",
+ "runtime","format","edition","developer","publisher","manufacturer",
+ "model","specification","compatibility","availability","eligibility",
+ "region","ticket","offer_period","distribution","change"
+}
+PUBLIC_FACT_KEYS={"key","value","source_url"}
+PUBLIC_SCHEDULE_KEYS={"date","time","venue","city","channel","source_url"}
 SOURCE_KEYS={"url","name"}; WORLD_KEYS={"key","title","kicker","concept","meta","variant"}; DISPLAY_KEYS={"selector_version","card_primary","detail_primary","detail_secondary"}; REF_KEYS={"kind","key"}
 IMAGE_ALLOWED={"url","source_page","relation","caption","mode","original_url","attribution","visual_provenance","framing","visual_role","quote_context"}; MEDIA_ALLOWED={"type","canonical_url","provider_id","title","evidence_url","source_url","image_url","visual_provenance"}
 STATUSES={"NEW","UPDATE","REPEAT_RECOMMENDATION","HISTORICAL_CONTEXT"}; LIFECYCLES={"ACTIVE","ENDED"}; IMAGE_RELATIONS={"article_specific","official_entity","official_venue_or_organizer","reference_same_entity","related_official_reference"}; MEDIA_TYPES={"static_image","spotify_embed","steam_embed","youtube_embed","google_books_embed","x_embed"}; VARIANTS={"signal","grid","orbit","field"}; REF_KINDS={"image","media","world_card"}
@@ -73,6 +82,33 @@ def validate_article(a,tax):
   if not isinstance(a[k],list): fail(k+"_type")
   for e in a[k]: exact(e,SOURCE_KEYS,SOURCE_KEYS,k); url(e["url"])
  if not a["sources"]: fail("sources_empty")
+ # Optional, typed, source-bound Detail facts. No prose scraping or
+ # unsourced claims may enter Public via the display layer.
+ source_urls={s["url"] for s in a["sources"]}
+ facts=a.get("public_facts",[])
+ if not isinstance(facts,list) or len(facts)>12: fail("public_facts_size")
+ used=set()
+ for fact in facts:
+  exact(fact,PUBLIC_FACT_KEYS,PUBLIC_FACT_KEYS,"public_fact")
+  if fact["key"] not in PUBLIC_FACT_LABELS or fact["key"] in used: fail("public_fact_key")
+  used.add(fact["key"])
+  if not isinstance(fact["value"],str) or not 1<=len(fact["value"].strip())<=256: fail("public_fact_value")
+  url(fact["source_url"])
+  if fact["source_url"] not in source_urls: fail("public_fact_source_unbound")
+ schedules=a.get("public_schedule",[])
+ if not isinstance(schedules,list) or len(schedules)>30: fail("public_schedule_size")
+ used_schedule=set()
+ for entry in schedules:
+  exact(entry,PUBLIC_SCHEDULE_KEYS,{"date","source_url"},"public_schedule")
+  if not re.fullmatch(r"\d{4}-\d{2}-\d{2}",str(entry["date"])): fail("public_schedule_date")
+  date(entry["date"],"public_schedule_date")
+  for key in ("time","venue","city","channel"):
+   if key in entry and (not isinstance(entry[key],str) or not 1<=len(entry[key].strip())<=128): fail("public_schedule_value")
+  url(entry["source_url"])
+  if entry["source_url"] not in source_urls: fail("public_schedule_source_unbound")
+  sig=tuple(entry.get(k,"") for k in ("date","time","venue","city","channel"))
+  if sig in used_schedule: fail("public_schedule_duplicate")
+  used_schedule.add(sig)
  if not isinstance(a["images"],list): fail("images_type")
  for i in a["images"]:
   exact(i,IMAGE_ALLOWED,{"url","source_page","relation","caption","mode"},"image"); url(i["source_page"])
