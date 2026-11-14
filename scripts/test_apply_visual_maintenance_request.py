@@ -106,6 +106,33 @@ class VisualMaintenanceTests(unittest.TestCase):
   a=article(); v=visual(a); img=quoted_image(); img['visual_provenance']['reviewer']='private'; v['images']=[img]; key='image:'+img['url']; v['display_selection']['card_primary']={'kind':'image','key':key}; v['display_selection']['detail_primary']={'kind':'image','key':key}; req=request(a,v)
   p=self.run_case(dataset([a]),req,expect_ok=False); self.assertIn('public_image_provenance_unknown_fields',p.stderr)
 
+ def test_historical_missing_world_restored_only_from_public_text(self):
+  a=article(); del a['world_card']; del a['display_selection']
+  v={'images':[],'media':[],'world_card':vm.legacy_world_projection(a),
+     'display_selection':{'selector_version':8,
+       'card_primary':{'kind':'world_card','key':'world_card:'+a['id']},
+       'detail_primary':{'kind':'world_card','key':'world_card:'+a['id']},
+       'detail_secondary':[]}}
+  d,s,r,pub=self.run_case(dataset([a]),request(a,v))
+  stored=d['articles'][0]
+  self.assertEqual(vm.legacy_world_projection(a),stored['world_card'])
+  self.assertEqual('sentinel-publication-state\\n',pub)
+  self.assertTrue(r['snapshot_changed'])
+  self.assertEqual(s['article_id'],a['id'])
+
+ def test_historical_world_does_not_accept_new_editorial_claims(self):
+  a=article();del a['world_card'];del a['display_selection']
+  for field in ('title','concept','key'):
+   with self.subTest(field=field):
+    world=vm.legacy_world_projection(a);world[field]+=' forged'
+    v={'images':[],'media':[],'world_card':world,
+       'display_selection':{'selector_version':8,
+         'card_primary':{'kind':'world_card','key':world['key']},
+         'detail_primary':{'kind':'world_card','key':world['key']},
+         'detail_secondary':[]}}
+    result=self.run_case(dataset([a]),request(a,v),expect_ok=False)
+    self.assertIn('world_card_legacy_projection',result.stderr)
+
  def test_world_card_text_drift_is_rejected_zero_write(self):
   a=article(); v=visual(a); v['world_card']['concept']='Changed through Visual lane'; req=request(a,v)
   p=self.run_case(dataset([a]),req,expect_ok=False); self.assertIn('world_card_nonvisual_drift',p.stderr)
