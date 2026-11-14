@@ -226,11 +226,11 @@ detail=function(a){
   const primary=detailPrimary(a);
   if(primary)feature.append(primary);else n.classList.add('text-first');
   const copy=el('div',undefined,'detail-copy');
+  // Facts belong immediately after the primary Visual in reading order and
+  // before editorial ABOUT. The desktop portrait split is CSS-only.
+  const facts=window.DiscoveryDetailFacts?.render(a,uniqueSources);
+  if(facts)copy.append(facts);
   if(a.public_detail&&a.public_detail.trim()!==a.public_summary.trim())copy.append(detailContext(a));
-  const dl=el('dl');
-  for(const [name,key] of [['DATE','event_date'],['VENUE / AREA','venue'],['CITY','city'],['DEADLINE','deadline_at'],['END','end_at'],['PRICE / TERMS','price_terms'],['WHAT’S NEW','whats_new'],['NOTE','note']])
-    if(a[key])dl.append(el('dt',name),el('dd',a[key]));
-  if(dl.children.length)copy.append(dl);
   if(copy.children.length)feature.append(copy);
   n.append(feature);
 
