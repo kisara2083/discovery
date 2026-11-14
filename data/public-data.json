@@ -666,7 +666,36 @@
       "category": "shopping",
       "deadline_at": "2026-11-12T14:59:00Z",
       "id": "a-26d932ded4cb153a90e3dbd5",
-      "images": [],
+      "images": [
+        {
+          "url": "https://content.presspage.com/uploads/2712/f20f4024-ee61-4ab0-b7b3-d23f8cb0f9dd/800_high-resolution-png-g522midnightblack3qtrfrontlfob.png?10000",
+          "original_url": "https://content.presspage.com/uploads/2712/f20f4024-ee61-4ab0-b7b3-d23f8cb0f9dd/800_high-resolution-png-g522midnightblack3qtrfrontlfob.png?10000",
+          "source_page": "https://press.logicool.co.jp/ja-jp/g522-lightspeed/",
+          "relation": "official_entity",
+          "caption": "ロジクール G522 LIGHTSPEED ブラックモデル（メーカー公式画像）",
+          "mode": "external",
+          "framing": "contain",
+          "visual_role": "product_identity",
+          "visual_provenance": {
+            "relation": "official_entity",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
+          },
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "product_identity",
+            "target": "G522 LIGHTSPEED ブラックモデル",
+            "source_name": "ロジクール公式ニュースルーム",
+            "source_page": "https://press.logicool.co.jp/ja-jp/g522-lightspeed/",
+            "display_mode": "external",
+            "role_label": "対象商品：G522 LIGHTSPEED ブラックモデル",
+            "context_sentence": "G522 LIGHTSPEEDの製品形状を確認するためのメーカー写真です。Amazon限定品番の個別画像ではありません。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "match_tags": [
         "ゲーム音響",
@@ -705,7 +734,28 @@
       "status": "NEW",
       "title": "Logicool G522 LIGHTSPEEDが15,980円、AmazonスマイルSALE対象に",
       "updated_date": "2026-11-05",
-      "whats_new": "AmazonスマイルSALEでAmazon.co.jp限定ブラックモデルが15,980円。"
+      "whats_new": "AmazonスマイルSALEでAmazon.co.jp限定ブラックモデルが15,980円。",
+      "display_selection": {
+        "selector_version": 8,
+        "card_primary": {
+          "kind": "image",
+          "key": "image:https://content.presspage.com/uploads/2712/f20f4024-ee61-4ab0-b7b3-d23f8cb0f9dd/800_high-resolution-png-g522midnightblack3qtrfrontlfob.png?10000"
+        },
+        "detail_primary": {
+          "kind": "image",
+          "key": "image:https://content.presspage.com/uploads/2712/f20f4024-ee61-4ab0-b7b3-d23f8cb0f9dd/800_high-resolution-png-g522midnightblack3qtrfrontlfob.png?10000"
+        },
+        "detail_secondary": []
+      },
+      "media": [],
+      "world_card": {
+        "key": "world_card:a-26d932ded4cb153a90e3dbd5",
+        "title": "Logicool G522 LIGHTSPEEDが15,980円、AmazonスマイルSALE対象に",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "concept": "Logicoolのワイヤレスゲーミングヘッドセット「G522 LIGHTSPEED」のAmazon.co.jp限定モデルが、15,980円で案内されている。AmazonスマイルSALEは11月12日23時59分まで。",
+        "meta": "",
+        "variant": "field"
+      }
     },
     {
       "categories": [
