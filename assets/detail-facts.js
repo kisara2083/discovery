@@ -13,7 +13,7 @@
     manufacturer:'メーカー',model:'型番・製品名',
     specification:'主な仕様',compatibility:'対応機種・環境',
     availability:'販売・提供状況',eligibility:'利用・購入条件',
-    region:'対象地域',ticket:'チケット',offer_period:'対象期間',
+    region:'対象地域',address:'住所・所在地',ticket:'チケット',offer_period:'対象期間',
     distribution:'配信・提供方法',change:'主な変更点'
   });
   const BASIC=[
