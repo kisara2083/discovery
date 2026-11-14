@@ -37,9 +37,11 @@
     const schedule=[...unique.values()].sort((a,b)=>a.date.localeCompare(b.date)||
       (a.time||'').localeCompare(b.time||''));
     if(schedule.length){
-      result.push({kind:'schedule',label:'日程・会場',schedule,source_urls:[...new Set(schedule.map(s=>s.source_url))]});
+      result.push({kind:'schedule',label:a.public_schedule_complete===true?'日程・会場':'確認できた日程・会場',schedule,source_urls:[...new Set(schedule.map(s=>s.source_url))]});
     }
-    const suppress=new Set(schedule.length?['event_date','venue','city','end_at']:[]);
+    // Only a verified complete schedule can replace the article-level date and venue.
+    // A partial list must not hide previously verified common facts.
+    const suppress=new Set(schedule.length&&a.public_schedule_complete===true?['event_date','venue','city','end_at']:[]);
     const addFixed=([label,key])=>{
       if(!suppress.has(key)&&nonempty(a[key]))
         result.push({kind:'text',label,value:a[key].trim(),source_urls:[]});
