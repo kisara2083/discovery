@@ -16,7 +16,7 @@ REQUEST_KEYS={"kind","schema_version","publication_id","sequence","operation","a
 STATE_KEYS={"v","sequence","publication_id","article_id","ready_root","article_digest","dataset_digest"}
 ARTICLE_REQUIRED={"id","slug","title","public_summary","category","status","lifecycle","published_date","updated_date","sources","spotify","images"}
 ARTICLE_ALLOWED=ARTICLE_REQUIRED|{"public_detail","match_tags","categories","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","media","world_card","display_selection","public_facts","public_schedule"}
-MEANINGFUL_UPDATE_FIELDS={"title","public_summary","public_detail","category","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new"}
+MEANINGFUL_UPDATE_FIELDS={"title","public_summary","public_detail","category","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","public_facts","public_schedule"}
 PUBLIC_FACT_LABELS={
  "announcement_date","organizer","performers","program","admission",
  "release_date","availability_start","platform","store","streaming_service",
