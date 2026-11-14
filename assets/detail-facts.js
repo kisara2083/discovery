@@ -21,7 +21,7 @@
     ['DEADLINE','deadline_at'],['END','end_at'],['PRICE / TERMS','price_terms']
   ];
   const SUPPLEMENTAL=[['WHAT’S NEW','whats_new'],['NOTE','note']];
-  const validUrl=s=>typeof s==='string'&&/^https:\/\/[^\s/?#]+(?:[^\s]*)?$/.test(s);
+  const validUrl=s=>typeof s==='string'&&/^https?:\/\/[^\s/?#]+(?:[^\s]*)?$/.test(s);
   const validDate=s=>typeof s==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(s);
   const nonempty=s=>typeof s==='string'&&!!s.trim();
   function rows(article){
