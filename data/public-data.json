@@ -1520,17 +1520,51 @@
       "display_selection": {
         "selector_version": 8,
         "card_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=6dtT42qNRm0"
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3327120/718b7b92c0207c2da2cc6bdc16e2ccffecd2562b/header.jpg?t=1792705543"
         },
         "detail_primary": {
-          "kind": "media",
-          "key": "media:https://www.youtube.com/watch?v=6dtT42qNRm0"
+          "kind": "image",
+          "key": "image:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3327120/718b7b92c0207c2da2cc6bdc16e2ccffecd2562b/header.jpg?t=1792705543"
         },
-        "detail_secondary": []
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=6dtT42qNRm0"
+          }
+        ]
       },
       "id": "a-580c2384c103eae8ef677a35",
-      "images": [],
+      "images": [
+        {
+          "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3327120/718b7b92c0207c2da2cc6bdc16e2ccffecd2562b/header.jpg?t=1792705543",
+          "original_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3327120/718b7b92c0207c2da2cc6bdc16e2ccffecd2562b/header.jpg?t=1792705543",
+          "source_page": "https://store.steampowered.com/app/3327120/Dreadline_Express/",
+          "relation": "article_specific",
+          "caption": "Dreadline Express 公式Steam作品ビジュアル",
+          "mode": "external",
+          "framing": "contain",
+          "visual_role": "work_identity",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "official_article"
+          },
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "work_identity",
+            "target": "Dreadline Express",
+            "source_name": "Steam公式ストア Dreadline Express",
+            "source_page": "https://store.steampowered.com/app/3327120/Dreadline_Express/",
+            "display_mode": "external",
+            "role_label": "対象作品：Dreadline Express",
+            "context_sentence": "『Dreadline Express』を識別するため、公式ストアで掲載された作品アートを引用しています。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "public_summary": "終末世界を走る最後の列車を舞台に、探索・捜査・非線形ストーリーとカード型システムを組み合わせたWindows向けアドベンチャー。2026年10月16日発売。",
       "published_date": "2026-10-22",
