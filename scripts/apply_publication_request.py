@@ -15,8 +15,8 @@ from visual_contract import FIRST_VISUAL_GATE_SEQUENCE, validate_first_visual
 REQUEST_KEYS={"kind","schema_version","publication_id","sequence","operation","article_id","ready_root","as_of","article"}
 STATE_KEYS={"v","sequence","publication_id","article_id","ready_root","article_digest","dataset_digest"}
 ARTICLE_REQUIRED={"id","slug","title","public_summary","category","status","lifecycle","published_date","updated_date","sources","spotify","images"}
-ARTICLE_ALLOWED=ARTICLE_REQUIRED|{"public_detail","match_tags","categories","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","media","world_card","display_selection","public_facts","public_schedule"}
-MEANINGFUL_UPDATE_FIELDS={"title","public_summary","public_detail","category","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","public_facts","public_schedule"}
+ARTICLE_ALLOWED=ARTICLE_REQUIRED|{"public_detail","match_tags","categories","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","media","world_card","display_selection","public_facts","public_schedule","public_schedule_complete"}
+MEANINGFUL_UPDATE_FIELDS={"title","public_summary","public_detail","category","event_date","deadline_at","end_at","venue","city","price_terms","note","whats_new","public_facts","public_schedule","public_schedule_complete"}
 PUBLIC_FACT_LABELS={
  "announcement_date","organizer","performers","program","admission",
  "release_date","availability_start","platform","store","streaming_service",
@@ -95,6 +95,8 @@ def validate_article(a,tax):
   if not isinstance(fact["value"],str) or not 1<=len(fact["value"].strip())<=256: fail("public_fact_value")
   url(fact["source_url"])
   if fact["source_url"] not in source_urls: fail("public_fact_source_unbound")
+ complete=a.get("public_schedule_complete",False)
+ if type(complete) is not bool or (complete and not a.get("public_schedule")): fail("public_schedule_completeness")
  schedules=a.get("public_schedule",[])
  if not isinstance(schedules,list) or len(schedules)>30: fail("public_schedule_size")
  used_schedule=set()
