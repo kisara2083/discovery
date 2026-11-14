@@ -10,6 +10,7 @@ const exampleFacts={
   public_facts:[{key:'platform',value:'Windows',source_url:exampleURL},
     {key:'streaming_service',value:'Example Streaming',source_url:exampleURL},
     {key:'developer',value:'Test Studio',source_url:'https://invalid.example/foreign'}],
+  public_schedule_complete:true,
   public_schedule:[
     {date:'2026-11-18',time:'18:00',venue:'Hall A',city:'Tokyo',source_url:exampleURL},
     {date:'2026-11-19',time:'19:00',venue:'Hall B',city:'Osaka',source_url:exampleURL}]
@@ -21,6 +22,19 @@ assert.equal(scheduleDescription(factRows[0].schedule),'2026-11-18 – 2026-11-1
 assert.ok(!factRows.some(x=>x.label==='DATE'||x.label==='VENUE / AREA'||x.label==='CITY'));
 assert.deepEqual(factRows.map(x=>x.label),['日程・会場','PRICE / TERMS','対応プラットフォーム','視聴サービス']);
 assert.equal(detailFactRows({sources:[],public_facts:[]}).length,0);
+
+const partialExample={...exampleFacts,public_schedule_complete:false};
+const partialRows=detailFactRows(partialExample);
+assert.deepEqual(partialRows.map(r=>r.label).slice(0,5),
+  ['確認できた日程・会場','DATE','VENUE / AREA','CITY','PRICE / TERMS']);
+assert.equal(partialRows.find(r=>r.label==='DATE').value,'2026-11-18');
+assert.equal(partialRows.find(r=>r.label==='VENUE / AREA').value,'Hall A');
+const partialSingle=detailFactRows({
+  ...partialExample,public_schedule:[partialExample.public_schedule[0]]
+});
+assert.equal(partialSingle[0].label,'確認できた日程・会場');
+assert.equal(partialSingle.find(r=>r.label==='CITY').value,'Tokyo');
+
 
 const data=require('../data/public-data.json');
 const fs=require('node:fs');
@@ -112,6 +126,18 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   });
   assert.ok(scheduleLabels[0].includes('全日程を表示'));
   assert.ok(scheduleLabels[1].includes('確認できた日程を表示'));
+  const singleLabel=await page.evaluate(()=>{
+    const source='https://example.com/official';
+    const panel=DiscoveryDetailFacts.render({
+      sources:[{url:source,name:'Official'}],
+      public_schedule:[{date:'2026-11-18',venue:'Hall A',source_url:source}],
+      event_date:'2026-11-18',venue:'Hall A',
+      public_schedule_complete:false
+    });
+    return [...panel.querySelectorAll('dt')].map(node=>node.textContent);
+  });
+  assert.deepEqual(singleLabel,['確認できた日程・会場','DATE','VENUE / AREA']);
+
 
 
   const autoEmbedded=await page.evaluate(()=>{
