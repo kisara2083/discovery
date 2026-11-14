@@ -42,6 +42,16 @@ def bound_maintenance_id(article_id,expected_article_digest,visual):
     binding={"article_id":article_id,"expected_article_digest":expected_article_digest,"visual":visual}
     return "vm-v1-"+digest(binding)[:40]
 
+def legacy_world_projection(article):
+    """Only allowable restoration of missing pre-cutover World metadata.
+
+    All content is derived from the already-public article; a Visual-only
+    maintenance request cannot invent an editorial title, abstract or date.
+    """
+    return {"key":"world_card:"+article["id"],"title":article["title"],
+            "kicker":"DISCOVERY / FIELD NOTE",
+            "concept":article["public_summary"],"meta":"","variant":"field"}
+
 def load_state(path):
     if not path.exists(): return None
     value=json.loads(path.read_text(encoding="utf-8"))
@@ -105,12 +115,15 @@ def validate_visual_payload(current,replacement,repo_root):
             fail("public_quote_copyright_drift")
     current_world=current.get("world_card")
     replacement_world=replacement.get("world_card")
-    if current_world is None and replacement_world is None:
-        pass
-    elif not isinstance(current_world,dict) or not isinstance(replacement_world,dict):
+    if current_world is None:
+        # The existing immutable-World rule forbids inventing editorial copy,
+        # but an old visual-less article may restore a byte-exact deterministic
+        # projection of its already-public text, once and only once.
+        if replacement_world != legacy_world_projection(current):
+            fail("world_card_legacy_projection")
+    elif not isinstance(replacement_world,dict):
         fail("world_card_current_missing")
-    # world_card is a Visual surface, but its factual/title text is not a
-    # maintenance input. Only the presentation variant may change here.
+    # Existing World text and identity remain immutable on all maintenance.
     if current_world is not None and any(replacement_world.get(k)!=current_world.get(k) for k in WORLD_IMMUTABLE_KEYS):
         fail("world_card_nonvisual_drift")
 
