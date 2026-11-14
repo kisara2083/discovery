@@ -50,26 +50,59 @@
       "city": "名古屋市",
       "deadline_at": "2026-11-10T14:59:00Z",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=PXiDYEhsuS0",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://columbia.jp/artist-info/photo/stardustreview11.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=PXiDYEhsuS0",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://columbia.jp/artist-info/photo/stardustreview11.jpg"
         },
         "detail_secondary": [
           {
-            "key": "media:https://open.spotify.com/track/6feolPdtp2biYBRWBT7SWg",
-            "kind": "media"
+            "kind": "media",
+            "key": "media:https://open.spotify.com/track/6feolPdtp2biYBRWBT7SWg"
+          },
+          {
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=PXiDYEhsuS0"
           }
-        ],
-        "selector_version": 8
+        ]
       },
       "end_at": "2027-03-07",
       "event_date": "2027-03-06",
       "id": "a-1c44263903252be9f0f88ac5",
-      "images": [],
+      "images": [
+        {
+          "url": "https://columbia.jp/artist-info/photo/stardustreview11.jpg",
+          "original_url": "https://columbia.jp/artist-info/photo/stardustreview11.jpg",
+          "source_page": "https://columbia.jp/artist-info/s-d-r/prof.html",
+          "relation": "official_entity",
+          "caption": "スターダスト☆レビュー公式アーティスト写真",
+          "mode": "external",
+          "framing": "contain",
+          "visual_role": "performer_identity",
+          "visual_provenance": {
+            "relation": "official_entity",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
+          },
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "performer_identity",
+            "target": "音市音座2027の中心出演者 スターダスト☆レビュー",
+            "source_name": "日本コロムビア公式 スターダスト☆レヴュープロフィール",
+            "source_page": "https://columbia.jp/artist-info/s-d-r/prof.html",
+            "display_mode": "external",
+            "role_label": "出演アーティスト：スターダスト☆レビュー",
+            "context_sentence": "主催公演の中心出演者を識別する公式アーティスト写真であり、2027年の開催風景ではありません。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "match_tags": [
         "名古屋フェス"
