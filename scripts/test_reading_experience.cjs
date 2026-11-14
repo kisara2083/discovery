@@ -1,6 +1,27 @@
 const assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const {articleSources,hasPrimarySource,detailMediaLabel,detailMediaGroups}=require('../assets/editorial-refresh.js');
+const {rows:detailFactRows,scheduleDescription}=require('../assets/detail-facts.js');
+const exampleURL='https://example.com/official';
+const exampleFacts={
+  sources:[{url:exampleURL,name:'Official'}],
+  event_date:'2026-11-18',venue:'Hall A',city:'Tokyo',
+  price_terms:'¥2,000',
+  public_facts:[{key:'platform',value:'Windows',source_url:exampleURL},
+    {key:'streaming_service',value:'Example Streaming',source_url:exampleURL},
+    {key:'developer',value:'Test Studio',source_url:'https://invalid.example/foreign'}],
+  public_schedule:[
+    {date:'2026-11-18',time:'18:00',venue:'Hall A',city:'Tokyo',source_url:exampleURL},
+    {date:'2026-11-19',time:'19:00',venue:'Hall B',city:'Osaka',source_url:exampleURL}]
+};
+const factRows=detailFactRows(exampleFacts);
+assert.equal(factRows[0].kind,'schedule');
+assert.equal(factRows[0].schedule.length,2);
+assert.equal(scheduleDescription(factRows[0].schedule),'2026-11-18 – 2026-11-19 · 2件');
+assert.ok(!factRows.some(x=>x.label==='DATE'||x.label==='VENUE / AREA'||x.label==='CITY'));
+assert.deepEqual(factRows.map(x=>x.label),['日程・会場','PRICE / TERMS','対応プラットフォーム','視聴サービス']);
+assert.equal(detailFactRows({sources:[],public_facts:[]}).length,0);
+
 const data=require('../data/public-data.json');
 const fs=require('node:fs');
 const base=process.env.DISCOVERY_TEST_URL||'http://127.0.0.1:8765/';
@@ -41,6 +62,30 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
       !world.textContent.includes('NO IMAGE')&&detailPrimary(legacy)===null;
   });
   assert.equal(legacyFallback,true,'legacy Card must render World; Detail stays text-first');
+  const factsDOM=await page.evaluate(()=>{
+    const example={
+      sources:[{url:'https://example.com/official',name:'Official'}],
+      public_summary:'Lead',public_detail:'Detail',
+      public_facts:[{key:'platform',value:'Windows',source_url:'https://example.com/official'}],
+      public_schedule:[
+        {date:'2026-11-18',time:'18:00',venue:'Hall A',source_url:'https://example.com/official'},
+        {date:'2026-11-19',time:'19:00',venue:'Hall B',source_url:'https://example.com/official'}
+      ]
+    };
+    const panel=window.DiscoveryDetailFacts?.render(example,example.sources);
+    if(!panel)return null;
+    document.body.append(panel);
+    const view={
+      hasDl:panel.querySelectorAll('dl.detail-facts-list>dt').length===2,
+      hasDisclosure:!!panel.querySelector('.detail-schedule>summary'),
+      hasTwoDates:panel.querySelectorAll('.detail-schedule li').length===2,
+      hasSource:!!panel.querySelector('.detail-facts-sources a[href="https://example.com/official"]'),
+      noHtmlInjection:panel.querySelectorAll('script').length===0
+    };
+    panel.remove();return view;
+  });
+  assert.ok(factsDOM&&Object.values(factsDOM).every(Boolean),JSON.stringify(factsDOM));
+
   const autoEmbedded=await page.evaluate(()=>{
     const original=window.IntersectionObserver;
     window.IntersectionObserver=class{
