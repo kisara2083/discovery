@@ -79,6 +79,46 @@ class PublisherTests(unittest.TestCase):
  def test_delayed_backlog_refreshes_lifecycle(self):
   delayed=article(); delayed['end_at']='2026-10-23T23:59:59+09:00'; self.assertEqual('ACTIVE',delayed['lifecycle'])
   d,s,r=self.run_case(dataset(),request(delayed)); stored=next(x for x in d['articles'] if x['id']==delayed['id']); self.assertEqual('ENDED',stored['lifecycle']); self.assertEqual('ENDED',stored['lifecycle']); self.assertTrue(r['snapshot_changed'])
+class FirstPublicationVisualIngressTests(unittest.TestCase):
+ run_case=PublisherTests.run_case
+ def checkpoint(self,sequence):
+  return {'v':1,'sequence':sequence,'publication_id':f'pub-v1-{sequence:08d}-'+'b'*40,
+          'article_id':'a-'+'b'*24,'ready_root':'b'*40,
+          'article_digest':'1'*64,'dataset_digest':'2'*64}
+ def submit(self,item,expected=True):
+  return self.run_case(dataset(as_of='2026-11-13'),
+                       request(item,105,'NEW','a'*40,'2026-11-14'),
+                       self.checkpoint(104),expected)
+ def test_first_visual_gate_rejects_missing_card_without_writes(self):
+  item=article();del item['world_card'];del item['display_selection']
+  result=self.submit(item,False)
+  self.assertIn('visual_world_fallback_missing',result.stderr)
+ def test_first_visual_gate_accepts_world_only_after_closure(self):
+  item=article();item['display_selection']['selector_version']=8
+  data,receipt,_=self.submit(item)
+  self.assertEqual(105,receipt['sequence'])
+  self.assertEqual('world_card',data['articles'][0]['display_selection']['card_primary']['kind'])
+ def test_first_visual_gate_rejects_misranked_media(self):
+  item=article();item['display_selection']['selector_version']=8
+  url='https://example.com/official.jpg'
+  item['images']=[{'url':url,'source_page':'https://example.com/item',
+                  'relation':'official_entity','caption':'Product photo','mode':'external',
+                  'visual_provenance':{'entity_match':True,'relation':'official_entity'}}]
+  item['media']=[{'type':'youtube_embed',
+                  'canonical_url':'https://www.youtube.com/watch?v=12345678901',
+                  'visual_provenance':{'official_source':True,'source_revalidated':True,
+                                       'entity_match':True}}]
+  ref={'kind':'media','key':'media:https://www.youtube.com/watch?v=12345678901'}
+  item['display_selection']['card_primary']=ref
+  item['display_selection']['detail_primary']=ref
+  self.assertIn('visual_card_static_priority',self.submit(item,False).stderr)
+ def test_pre_cutover_snapshot_is_unchanged(self):
+  item=article();del item['world_card'];del item['display_selection']
+  data,receipt,_=self.run_case(dataset(as_of='2026-11-08'),
+                               request(item,104,'NEW','a'*40,'2026-11-09'),self.checkpoint(103))
+  self.assertNotIn('world_card',data['articles'][0])
+  self.assertEqual(104,receipt['sequence'])
+
 class WorldCardCompatibilityTests(unittest.TestCase):
  run_case=PublisherTests.run_case
  def test_opaque_world_identity_retained_for_all_selectors(self):
