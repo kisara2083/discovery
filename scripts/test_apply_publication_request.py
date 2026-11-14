@@ -104,7 +104,7 @@ class FirstPublicationVisualIngressTests(unittest.TestCase):
   item['images']=[{'url':url,'source_page':'https://example.com/item',
                   'relation':'official_entity','caption':'Product photo','mode':'external',
                   'visual_provenance':{'entity_match':True,'relation':'official_entity'}}]
-  item['media']=[{'type':'youtube_embed',
+  item['media']=[{'type':'youtube_embed','provider_id':'12345678901',
                   'canonical_url':'https://www.youtube.com/watch?v=12345678901',
                   'visual_provenance':{'official_source':True,'source_revalidated':True,
                                        'entity_match':True}}]
