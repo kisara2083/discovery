@@ -30,6 +30,17 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
   const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(String(e)));
   await page.goto(base+'#home');
   await eventually(async()=>assert.equal(await page.locator('#content>.grid>.card').count(),12));
+  // Historical snapshots without world_card must still get a real World shell.
+  // The v8 Detail view remains text-first when no independent media exists.
+  const legacyFallback=await page.evaluate(()=>{
+    const legacy={id:'a-'+'f'.repeat(24),title:'Legacy Visual fallback',
+      public_summary:'Public summary only',images:[],media:[],sources:[]};
+    const cardNode=cardVisual(legacy);
+    const world=cardNode?.querySelector('.world-card');
+    return !!world&&world.textContent.includes('Legacy Visual fallback')&&
+      !world.textContent.includes('NO IMAGE')&&detailPrimary(legacy)===null;
+  });
+  assert.equal(legacyFallback,true,'legacy Card must render World; Detail stays text-first');
   // Current Private presentation calls local_family 「イベント」; published
   // snapshots may still carry the old verbose label.
   assert.equal(await page.locator('#taxonomy a[href^="#category/local_family"]').first().textContent(),'イベント');
