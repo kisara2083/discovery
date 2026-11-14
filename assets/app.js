@@ -30,7 +30,53 @@ function embedSource(m){
  if(m.type==='x_embed')return m.canonical_url;
  return 'assets/books-viewer.html?id='+m.provider_id;
 }
-function mediaPlayer(m){const src=embedSource(m);if(!src)return el('p','表示できるメディアがありません。');const n=el('section',undefined,'media-player '+m.type);n.append(el('h2',providers[m.type],'section-title'),el('p',m.title));const slot=el('div',undefined,'player-slot');const button=el('button',providers[m.type]+'を表示');button.type='button';const fallback=el('p','表示できない場合は公式ページで確認できます。','media-fallback');fallback.append(link('公式ページを開く',m.canonical_url));n.append(slot,fallback);const load=()=>{if(m.type==='x_embed'){const quote=el('blockquote',undefined,'twitter-tweet');quote.append(link('View post on X',m.canonical_url));slot.replaceChildren(quote);const render=()=>{if(window.twttr&&window.twttr.widgets)window.twttr.widgets.load(slot);};const existing=document.querySelector('script[data-x-widgets]');if(existing){render();existing.addEventListener('load',render,{once:true});}else{const script=el('script');script.src='https://platform.twitter.com/widgets.js';script.async=true;script.charset='utf-8';script.dataset.xWidgets='1';script.referrerPolicy='no-referrer';script.addEventListener('load',render,{once:true});script.addEventListener('error',()=>{slot.replaceChildren(el('p','Xの投稿を読み込めませんでした。公式ページをご利用ください。'));});document.head.append(script);}return;}const frame=el('iframe');frame.title=m.title;frame.loading='lazy';frame.referrerPolicy='strict-origin-when-cross-origin';frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-popups allow-presentation');frame.setAttribute('allow','encrypted-media; fullscreen; picture-in-picture');frame.setAttribute('allowfullscreen','');frame.src=src;frame.addEventListener('error',()=>{slot.replaceChildren(el('p','表示を読み込めませんでした。公式ページをご利用ください。'));});slot.replaceChildren(frame);};if(['youtube_embed','spotify_embed'].includes(m.type)){load();}else{slot.append(button);button.addEventListener('click',load);}return n;}
+function mediaPlayer(m){
+ const src=embedSource(m);
+ if(!src)return el('p','表示できるメディアがありません。');
+ const n=el('section',undefined,'media-player '+m.type);
+ n.append(el('h2',providers[m.type],'section-title'),el('p',m.title));
+ const slot=el('div',undefined,'player-slot');
+ const fallback=el('p','表示できない場合は公式ページで確認できます。','media-fallback');
+ fallback.append(link('公式ページを開く',m.canonical_url));
+ n.append(slot,fallback);
+ const load=()=>{
+  if(m.type==='x_embed'){
+   const quote=el('blockquote',undefined,'twitter-tweet');
+   quote.append(link('View post on X',m.canonical_url));
+   slot.replaceChildren(quote);
+   const render=()=>{if(window.twttr?.widgets)window.twttr.widgets.load(slot);};
+   const existing=document.querySelector('script[data-x-widgets]');
+   if(existing){render();existing.addEventListener('load',render,{once:true});}
+   else{
+    const script=el('script');script.src='https://platform.twitter.com/widgets.js';
+    script.async=true;script.charset='utf-8';script.dataset.xWidgets='1';
+    script.referrerPolicy='no-referrer';
+    script.addEventListener('load',render,{once:true});
+    script.addEventListener('error',()=>{slot.replaceChildren(el('p','Xの投稿を読み込めませんでした。公式ページをご利用ください。'));});
+    document.head.append(script);
+   }
+   return;
+  }
+  const frame=el('iframe');frame.title=m.title;
+  frame.loading='lazy';frame.referrerPolicy='strict-origin-when-cross-origin';
+  frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-popups allow-presentation');
+  frame.setAttribute('allow','encrypted-media; fullscreen; picture-in-picture');
+  frame.setAttribute('allowfullscreen','');
+  frame.src=src;
+  frame.addEventListener('error',()=>{slot.replaceChildren(el('p','表示を読み込めませんでした。公式ページをご利用ください。'));});
+  slot.replaceChildren(frame);
+ };
+ // All Detail providers, including X, Steam and Google Books, start without
+ // user gesture. The observer bounds third-party work to the visible viewport.
+ // No autoplay flag is set; playback itself remains the user's choice.
+ if(typeof IntersectionObserver!=='undefined'){
+  const observer=new IntersectionObserver(entries=>{
+   if(entries.some(entry=>entry.isIntersecting)){observer.disconnect();load();}
+  },{rootMargin:'200px 0px'});
+  observer.observe(slot);
+ }else load();
+ return n;
+}
 function imageCredit(i){const n=el('p',undefined,'image-credit');n.append(link('画像出典: '+i.caption,i.source_page));const a=i.attribution;if(a){n.append(el('span',' · '+a.creator+' · '),link(a.license,a.license_url),el('span',' · '+a.modifications+' · '+a.attribution));}return n;}
 function detailContext(a){const n=el('section',undefined,'detail-context');n.append(el('h2','ABOUT','section-title'));for(const text of a.public_detail.split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean))n.append(el('p',text));return n;}
 function card(a,hero=false){const n=el('article',undefined,(hero?'hero':'card'+(selectedRef(a,'card')?.kind==='media'?' media-card':''))+(a.lifecycle==='ENDED'?' ended':''));const visual=cardVisual(a);if(selectedRef(a,'card')?.kind==='media'||(a.images||[]).some(i=>i.quote_context))n.append(visual);else{const v=link('', '#article/'+a.slug);v.append(visual);n.append(v);}const b=el('div',undefined,'body');b.append(el('p',hero?"TODAY'S PICK":a.updated_date,'eyebrow'));const m=el('p',undefined,'meta');m.append(el('span',a.lifecycle,'badge'),el('span',data.taxonomy.find(g=>g.id===a.category).label));b.append(m);const h=el(hero?'h2':'h3');h.append(link(a.title,'#article/'+a.slug));b.append(h,el('p',a.public_summary,'summary'));n.append(b);return n;}
