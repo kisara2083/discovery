@@ -28,7 +28,7 @@ class FirstVisualTests(unittest.TestCase):
 
     def video(self):
         self.a['media'] = [{
-            'type': 'youtube_embed',
+            'type': 'youtube_embed', 'provider_id': '12345678901',
             'canonical_url': 'https://www.youtube.com/watch?v=12345678901',
             'visual_provenance': {
                 'official_source': True, 'source_revalidated': True,
@@ -83,13 +83,13 @@ class FirstVisualTests(unittest.TestCase):
         self.check('visual_world_not_last')
 
     def test_x_detail_only_can_pair_with_world_card(self):
-        self.a['media'] = [{'type': 'x_embed', 'canonical_url': 'https://x.com/account/status/12345'}]
+        self.a['media'] = [{'type': 'x_embed', 'provider_id': '12345', 'canonical_url': 'https://x.com/account/status/12345'}]
         self.a['display_selection']['detail_primary'] = {
             'kind': 'media', 'key': 'media:https://x.com/account/status/12345'}
         self.check()
 
     def test_x_card_not_capable(self):
-        self.a['media'] = [{'type': 'x_embed', 'canonical_url': 'https://x.com/account/status/12345'}]
+        self.a['media'] = [{'type': 'x_embed', 'provider_id': '12345', 'canonical_url': 'https://x.com/account/status/12345'}]
         ref = {'kind': 'media', 'key': 'media:https://x.com/account/status/12345'}
         self.a['display_selection']['card_primary'] = ref
         self.a['display_selection']['detail_primary'] = ref
@@ -112,6 +112,13 @@ class FirstVisualTests(unittest.TestCase):
         self.check('visual_card_weak_static_priority')
         self.a['display_selection']['card_primary'] = media
         self.check()
+
+    def test_provider_id_mismatch_fails_before_publication(self):
+        ref = self.video()
+        self.a['media'][0]['provider_id'] = 'wrong'
+        self.a['display_selection']['card_primary'] = ref
+        self.a['display_selection']['detail_primary'] = ref
+        self.check('visual_media_provider_unrenderable')
 
     def test_image_ref_must_bind_actual_original(self):
         self.static()
