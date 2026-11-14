@@ -482,7 +482,36 @@
       "deadline_at": "2026-11-11T09:00:00Z",
       "event_date": "2027-03-11",
       "id": "a-1bdb1f3f0bca5b58dd00aa99",
-      "images": [],
+      "images": [
+        {
+          "url": "https://niewmedia.com/wp-content/uploads/2026/11/261105UnderworldB3_yoko_kv_1920x1080.webp",
+          "original_url": "https://niewmedia.com/wp-content/uploads/2026/11/261105UnderworldB3_yoko_kv_1920x1080.webp",
+          "source_page": "https://niewmedia.com/news/2611uxb/",
+          "relation": "article_specific",
+          "caption": "Underworld × Brutalismus 3000 2027年3月11日東京公演告知ビジュアル",
+          "mode": "external",
+          "framing": "contain",
+          "visual_role": "event_identity",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": false,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "reference_same_entity"
+          },
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "event_identity",
+            "target": "Underworld × Brutalismus 3000 2027年3月11日東京公演",
+            "source_name": "NiEW（公演告知記事）",
+            "source_page": "https://niewmedia.com/news/2611uxb/",
+            "display_mode": "external",
+            "role_label": "対象イベント：Underworld × Brutalismus 3000東京公演",
+            "context_sentence": "記事が扱う2027年3月11日の東京公演を識別するため、告知記事に掲載された同公演のビジュアルを引用しています。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "match_tags": [
         "身体的グルーヴ",
@@ -523,7 +552,28 @@
       "title": "UnderworldとBrutalismus 3000、2027年3月に東京で共演",
       "updated_date": "2026-11-07",
       "venue": "SGC HALL ARIAKE",
-      "whats_new": "UnderworldとBrutalismus 3000の共同来日公演が発表され、会員先行と一般発売の日程が案内された。"
+      "whats_new": "UnderworldとBrutalismus 3000の共同来日公演が発表され、会員先行と一般発売の日程が案内された。",
+      "world_card": {
+        "key": "world_card:a-1bdb1f3f0bca5b58dd00aa99",
+        "title": "UnderworldとBrutalismus 3000、2027年3月に東京で共演",
+        "kicker": "DISCOVERY / FIELD NOTE",
+        "concept": "UnderworldとBrutalismus 3000による来日公演が、2027年3月11日に東京・SGC HALL ARIAKEで開催される。会員先行は11月6日から順次開始する。",
+        "meta": "",
+        "variant": "field"
+      },
+      "media": [],
+      "display_selection": {
+        "selector_version": 8,
+        "card_primary": {
+          "kind": "image",
+          "key": "image:https://niewmedia.com/wp-content/uploads/2026/11/261105UnderworldB3_yoko_kv_1920x1080.webp"
+        },
+        "detail_primary": {
+          "kind": "image",
+          "key": "image:https://niewmedia.com/wp-content/uploads/2026/11/261105UnderworldB3_yoko_kv_1920x1080.webp"
+        },
+        "detail_secondary": []
+      }
     },
     {
       "categories": [
