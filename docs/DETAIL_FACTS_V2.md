@@ -34,7 +34,7 @@ binding and permitted keys. Any mismatch is rejected before publication.
 
 When a **complete** multi-session/venue list is verified, use an
 accessible native `details` disclosure to show a brief date range and all
-entries. Never label an incomplete list as "all sessions." If the producer
+entries. Never label an incomplete list as "all sessions." For incomplete lists, retain separately verified fixed date/venue/city/end fields even when an expandable partial schedule is present. If the producer
 cannot verify completeness within the existing 16,384-byte total capsule
 budget, retain the known fixed facts and official link without inventing
 or silently truncating event sessions. The table aggregates source links
