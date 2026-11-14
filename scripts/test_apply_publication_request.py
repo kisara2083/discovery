@@ -12,6 +12,52 @@ class PublisherTests(unittest.TestCase):
   value=article();value['display_selection']['selector_version']=8;value['display_selection']['detail_primary']=None
   value['categories']=['games','music_live'];data=dataset();data['taxonomy'].append({'id':'music_live','label':'Music'})
   result,_,_=self.run_case(data,request(value));self.assertEqual(result['articles'][0]['categories'],['games','music_live'])
+ def test_source_bound_extra_facts_and_multi_venue_schedule(self):
+  item=article()
+  item['sources'].append({'url':'https://example.com/date','name':'Official schedule'})
+  item['public_facts']=[
+    {'key':'platform','value':'Windows / macOS','source_url':'https://example.com/item'},
+    {'key':'publisher','value':'Example Publisher','source_url':'https://example.com/item'}]
+  item['public_schedule']=[
+    {'date':'2026-11-18','time':'19:00','venue':'Hall A','city':'Tokyo','source_url':'https://example.com/date'},
+    {'date':'2026-11-19','time':'18:00','venue':'Hall B','city':'Osaka','source_url':'https://example.com/date'}]
+  actual,_,_=self.run_case(dataset(),request(item))
+  self.assertEqual(item['public_facts'],actual['articles'][0]['public_facts'])
+  self.assertEqual(item['public_schedule'],actual['articles'][0]['public_schedule'])
+
+ def test_extras_reject_unsourced_or_unknown_claims_without_writes(self):
+  good={'key':'platform','value':'Windows','source_url':'https://example.com/item'}
+  for mutation,expected in [
+    ({'key':'mystery'},'public_fact_key'),
+    ({'source_url':'https://example.com/unverified'},'public_fact_source_unbound'),
+    ({'value':''},'public_fact_value'),
+    ({'extra':'Private provenance'},'public_fact_unknown_fields')
+  ]:
+   with self.subTest(mutation=mutation):
+    a=article();a['public_facts']=[{**good,**mutation}]
+    self.assertIn(expected,self.run_case(dataset(),request(a),expect_ok=False).stderr)
+
+ def test_extra_and_schedule_duplicates_are_rejected(self):
+  a=article();a['public_facts']=[{'key':'platform','value':'Windows','source_url':'https://example.com/item'}]*2
+  self.assertIn('public_fact_key',self.run_case(dataset(),request(a),expect_ok=False).stderr)
+  b=article();b['public_schedule']=[{'date':'2026-11-20','source_url':'https://example.com/item'}]*2
+  self.assertIn('public_schedule_duplicate',self.run_case(dataset(),request(b),expect_ok=False).stderr)
+
+ def test_schedule_does_not_accept_unsourced_or_invented_calendar(self):
+  for row,expect in [
+    ({'date':'2026-02-30','source_url':'https://example.com/item'},'public_schedule_date'),
+    ({'date':'2026-11-20','source_url':'https://example.com/other'},'public_schedule_source_unbound'),
+    ({'date':'late November','source_url':'https://example.com/item'},'public_schedule_date')
+  ]:
+   with self.subTest(row=row):
+    a=article();a['public_schedule']=[row]
+    self.assertIn(expect,self.run_case(dataset(),request(a),expect_ok=False).stderr)
+
+ def test_legacy_article_without_extras_still_passes(self):
+  a=article();d,_,_=self.run_case(dataset(),request(a))
+  self.assertNotIn('public_facts',d['articles'][0])
+  self.assertNotIn('public_schedule',d['articles'][0])
+
  def test_invalid_category_array_fails_closed(self):
   for categories in ([],['games','games'],['unknown'],['music_live']):
    value=article();value['categories']=categories
