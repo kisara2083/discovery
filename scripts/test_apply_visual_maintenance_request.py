@@ -116,7 +116,7 @@ class VisualMaintenanceTests(unittest.TestCase):
   d,s,r,pub=self.run_case(dataset([a]),request(a,v))
   stored=d['articles'][0]
   self.assertEqual(vm.legacy_world_projection(a),stored['world_card'])
-  self.assertEqual('sentinel-publication-state\\n',pub)
+  self.assertEqual('sentinel-publication-state\n',pub)
   self.assertTrue(r['snapshot_changed'])
   self.assertEqual(s['article_id'],a['id'])
 
