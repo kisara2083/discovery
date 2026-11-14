@@ -250,19 +250,53 @@
       ],
       "category": "cross_domain",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=AQm1-BvcdR4",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://animationxpress.com/wp-content/uploads/2026/06/Human-Vapor.jpg"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=AQm1-BvcdR4",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://animationxpress.com/wp-content/uploads/2026/06/Human-Vapor.jpg"
         },
-        "detail_secondary": [],
-        "selector_version": 8
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=AQm1-BvcdR4"
+          }
+        ]
       },
       "id": "a-c80de3241f7dcf6945781fe1",
-      "images": [],
+      "images": [
+        {
+          "url": "https://animationxpress.com/wp-content/uploads/2026/06/Human-Vapor.jpg",
+          "original_url": "https://animationxpress.com/wp-content/uploads/2026/06/Human-Vapor.jpg",
+          "source_page": "https://animationxpress.com/latest-news/netflix-released-the-main-trailer-and-key-art-for-human-vapor-premiering-worldwide-on-2-july/",
+          "relation": "article_specific",
+          "caption": "Netflixシリーズ『ガス人間』配信時のキーアート",
+          "mode": "external",
+          "framing": "contain",
+          "visual_role": "work_identity",
+          "visual_provenance": {
+            "relation": "article_specific",
+            "official_source": false,
+            "source_revalidated": true,
+            "article_match": true,
+            "entity_match": true,
+            "authority_class": "reference_same_entity"
+          },
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "work_identity",
+            "target": "Netflixシリーズ『ガス人間』",
+            "source_name": "AnimationXpress（Netflix作品キーアート掲載記事）",
+            "source_page": "https://animationxpress.com/latest-news/netflix-released-the-main-trailer-and-key-art-for-human-vapor-premiering-worldwide-on-2-july/",
+            "display_mode": "external",
+            "role_label": "対象作品：ガス人間",
+            "context_sentence": "Netflix配信作品の識別に必要なキーアートを、配信告知記事から引用しています。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
