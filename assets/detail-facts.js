@@ -77,7 +77,8 @@
         if(item.schedule.length===1)dd.append(el('span',scheduleLine(item.schedule[0])));
         else{
           const disclosure=el('details',undefined,'detail-schedule');
-          const summary=el('summary',scheduleDescription(item.schedule)+'　全日程を表示');
+          const label=a.public_schedule_complete===true?'全日程を表示':'確認できた日程を表示';
+          const summary=el('summary',scheduleDescription(item.schedule)+'　'+label);
           disclosure.append(summary);
           const list=el('ol');
           for(const entry of item.schedule)list.append(el('li',scheduleLine(entry)));
