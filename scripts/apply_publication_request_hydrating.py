@@ -6,6 +6,7 @@ import sys
 from pathlib import Path
 
 import apply_publication_request as publication
+from visual_contract import FIRST_VISUAL_GATE_SEQUENCE, validate_first_visual
 from public_saved_asset_hydration import hydrate
 
 
@@ -37,6 +38,8 @@ def main(reqp, datap, statep, resultp):
     tax = {g["id"] for g in data.get("taxonomy", [])
            if isinstance(g, dict) and isinstance(g.get("id"), str)}
     publication.validate_article(req["article"], tax)
+    if req['sequence'] >= FIRST_VISUAL_GATE_SEQUENCE:
+        validate_first_visual(req['article'], publication.fail)
     hydrate(req["article"], datap.parent.parent)
     return publication.main(reqp, datap, statep, resultp)
 
