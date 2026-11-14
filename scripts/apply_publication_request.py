@@ -11,6 +11,7 @@ from __future__ import annotations
 import copy, datetime as dt, hashlib, json, re, sys
 from pathlib import Path
 from urllib.parse import unquote, urlparse
+from visual_contract import FIRST_VISUAL_GATE_SEQUENCE, validate_first_visual
 REQUEST_KEYS={"kind","schema_version","publication_id","sequence","operation","article_id","ready_root","as_of","article"}
 STATE_KEYS={"v","sequence","publication_id","article_id","ready_root","article_digest","dataset_digest"}
 ARTICLE_REQUIRED={"id","slug","title","public_summary","category","status","lifecycle","published_date","updated_date","sources","spotify","images"}
@@ -119,7 +120,10 @@ def main(reqp,datap,statep,resultp):
  data=json.loads(datap.read_text())
  if data.get("schema_version")!="1" or data.get("site_name")!="DISCOVERY" or not isinstance(data.get("articles"),list): fail("public_dataset_shape")
  tax={g["id"] for g in data.get("taxonomy",[]) if isinstance(g,dict) and isinstance(g.get("id"),str)}
- validate_article(req["article"],tax); article=copy.deepcopy(req["article"]); article["lifecycle"]=lifecycle(article,today); state=load_state(statep); seq=state["sequence"] if state else 0
+ validate_article(req["article"],tax)
+ if req["sequence"] >= FIRST_VISUAL_GATE_SEQUENCE:
+  validate_first_visual(req["article"],fail)
+ article=copy.deepcopy(req["article"]); article["lifecycle"]=lifecycle(article,today); state=load_state(statep); seq=state["sequence"] if state else 0
  if req["sequence"]==seq:
   if not state or any(state[k]!=req[k] for k in ("publication_id","article_id","ready_root")): fail("sequence_conflict")
   encoded=json.dumps(data,ensure_ascii=False,indent=2)+"\n"
