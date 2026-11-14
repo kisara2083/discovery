@@ -344,19 +344,53 @@
       ],
       "category": "games",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "media:https://www.youtube.com/watch?v=8ce9ZTGcAEU",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.akuparagames.com/wp-content/uploads/2025/02/EW_SS01_1920x1080_v2.png"
         },
         "detail_primary": {
-          "key": "media:https://www.youtube.com/watch?v=8ce9ZTGcAEU",
-          "kind": "media"
+          "kind": "image",
+          "key": "image:https://www.akuparagames.com/wp-content/uploads/2025/02/EW_SS01_1920x1080_v2.png"
         },
-        "detail_secondary": [],
-        "selector_version": 8
+        "detail_secondary": [
+          {
+            "kind": "media",
+            "key": "media:https://www.youtube.com/watch?v=8ce9ZTGcAEU"
+          }
+        ]
       },
       "id": "a-c18d0cb114442a756244106a",
-      "images": [],
+      "images": [
+        {
+          "url": "https://www.akuparagames.com/wp-content/uploads/2025/02/EW_SS01_1920x1080_v2.png",
+          "original_url": "https://www.akuparagames.com/wp-content/uploads/2025/02/EW_SS01_1920x1080_v2.png",
+          "source_page": "https://www.akuparagames.com/game/echo-weaver/",
+          "relation": "official_entity",
+          "caption": "Echo Weaver 公式ゲームプレイ画面",
+          "mode": "external",
+          "framing": "contain",
+          "visual_role": "work_identity",
+          "visual_provenance": {
+            "relation": "official_entity",
+            "official_source": true,
+            "source_revalidated": true,
+            "article_match": false,
+            "entity_match": true,
+            "authority_class": "official_entity"
+          },
+          "quote_context": {
+            "quote_version": 2,
+            "relation": "work_identity",
+            "target": "Echo Weaver",
+            "source_name": "Akupara Games公式作品ページ",
+            "source_page": "https://www.akuparagames.com/game/echo-weaver/",
+            "display_mode": "external",
+            "role_label": "対象作品：Echo Weaver",
+            "context_sentence": "ゲームの内容を識別するため、販売元の公式作品紹介ページで公開されたゲーム画面を引用しています。"
+          }
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {
