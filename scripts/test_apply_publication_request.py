@@ -18,12 +18,14 @@ class PublisherTests(unittest.TestCase):
   item['public_facts']=[
     {'key':'platform','value':'Windows / macOS','source_url':'https://example.com/item'},
     {'key':'publisher','value':'Example Publisher','source_url':'https://example.com/item'}]
+  item['public_schedule_complete']=True
   item['public_schedule']=[
     {'date':'2026-11-18','time':'19:00','venue':'Hall A','city':'Tokyo','source_url':'https://example.com/date'},
     {'date':'2026-11-19','time':'18:00','venue':'Hall B','city':'Osaka','source_url':'https://example.com/date'}]
   actual,_,_=self.run_case(dataset(),request(item))
   self.assertEqual(item['public_facts'],actual['articles'][0]['public_facts'])
   self.assertEqual(item['public_schedule'],actual['articles'][0]['public_schedule'])
+  self.assertIs(actual['articles'][0]['public_schedule_complete'],True)
 
  def test_extras_reject_unsourced_or_unknown_claims_without_writes(self):
   good={'key':'platform','value':'Windows','source_url':'https://example.com/item'}
@@ -52,6 +54,17 @@ class PublisherTests(unittest.TestCase):
    with self.subTest(row=row):
     a=article();a['public_schedule']=[row]
     self.assertIn(expect,self.run_case(dataset(),request(a),expect_ok=False).stderr)
+
+ def test_schedule_completion_requires_verified_entries_and_bool(self):
+  for complete in (True,'true',1,None):
+   value=article();value['public_schedule_complete']=complete
+   error=self.run_case(dataset(),request(value),expect_ok=False).stderr
+   self.assertIn('public_schedule_completeness',error)
+  value=article()
+  value['public_schedule']=[{'date':'2026-11-18','source_url':'https://example.com/item'}]
+  value['public_schedule_complete']=False
+  data,_,_=self.run_case(dataset(),request(value))
+  self.assertIs(data['articles'][0]['public_schedule_complete'],False)
 
  def test_legacy_article_without_extras_still_passes(self):
   a=article();d,_,_=self.run_case(dataset(),request(a))
