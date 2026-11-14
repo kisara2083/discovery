@@ -317,3 +317,53 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
     overflow-wrap:anywhere!important;
   }
 }
+
+
+/* Compact verified facts, before ABOUT. Uses the existing editorial palette,
+   type hierarchy, responsive split and image aspect-ratio rules unchanged. */
+#content .editorial-detail .detail-facts{
+  width:100%;min-width:0;margin:0 0 36px;padding:0
+}
+#content .editorial-detail .detail-facts>.section-title{
+  margin-top:0!important;margin-bottom:12px!important
+}
+#content .editorial-detail .detail-facts-list{
+  display:grid!important;grid-template-columns:minmax(110px,28%) minmax(0,1fr)!important;
+  column-gap:16px!important;row-gap:0!important;
+  margin:0!important;max-width:none!important
+}
+#content .editorial-detail .detail-facts-list>dt,
+#content .editorial-detail .detail-facts-list>dd{
+  margin:0!important;padding:12px 0!important;
+  border-bottom:1px solid #e8e8e8;min-width:0;overflow-wrap:anywhere;
+  line-height:1.65
+}
+#content .editorial-detail .detail-facts-list>dt{
+  letter-spacing:.03em!important;font-weight:500
+}
+#content .editorial-detail .detail-facts-list>dd{font-size:14px}
+#content .editorial-detail .detail-schedule>summary{cursor:pointer;list-style:revert}
+#content .editorial-detail .detail-schedule>ol{
+  margin:14px 0 2px;padding-left:1.4em
+}
+#content .editorial-detail .detail-schedule li{
+  margin:0 0 8px;line-height:1.6
+}
+#content .editorial-detail .detail-facts-sources{
+  display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;
+  margin:16px 0 0;font-size:11px;line-height:1.65;overflow-wrap:anywhere
+}
+#content .editorial-detail .detail-facts-sources a,
+#content .editorial-detail .detail-facts-source-links a{border-bottom:0!important}
+#content .editorial-detail .detail-facts-sources details>summary{cursor:pointer}
+#content .editorial-detail .detail-facts-source-links{
+  display:flex;flex-direction:column;gap:7px;padding:8px 0
+}
+#content .editorial-detail .detail-facts+.detail-context{margin-top:30px!important}
+@media(max-width:760px){
+  #content .editorial-detail .detail-facts-list{
+    grid-template-columns:minmax(86px,31%) minmax(0,1fr)!important;
+    column-gap:12px!important
+  }
+  #content .editorial-detail .detail-facts-list>dd{font-size:13px}
+}
