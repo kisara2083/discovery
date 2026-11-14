@@ -22,7 +22,7 @@ PUBLIC_FACT_LABELS={
  "release_date","availability_start","platform","store","streaming_service",
  "runtime","format","edition","developer","publisher","manufacturer",
  "model","specification","compatibility","availability","eligibility",
- "region","ticket","offer_period","distribution","change"
+ "region","address","ticket","offer_period","distribution","change"
 }
 PUBLIC_FACT_KEYS={"key","value","source_url"}
 PUBLIC_SCHEDULE_KEYS={"date","time","venue","city","channel","source_url"}
