@@ -26,6 +26,8 @@ values are shown. The panel may be absent when evidence is unavailable.
 - required `date` (YYYY-MM-DD) and `source_url`
 - optional source-verified `time`, `venue`, `city`, `channel`
 
+`public_schedule_complete` is an optional boolean set `true` only if the full schedule was verified; otherwise the UI labels the disclosure as '確認できた日程'.
+
 Both arrays are optional and have closed-field guards at Public ingress.
 The producer's canonical research capsule must independently check source
 binding and permitted keys. Any mismatch is rejected before publication.
