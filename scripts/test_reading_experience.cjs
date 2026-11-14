@@ -85,6 +85,34 @@ async function eventually(fn){let error;for(let i=0;i<80;i++){try{return await f
     panel.remove();return view;
   });
   assert.ok(factsDOM&&Object.values(factsDOM).every(Boolean),JSON.stringify(factsDOM));
+  const detailFactsOrder=await page.evaluate(()=>{
+    const item=data.articles.find(a=>a.public_detail&&
+      [a.event_date,a.venue,a.price_terms,a.whats_new,a.note].some(Boolean));
+    if(!item)return null;
+    const root=detail(item);
+    const copy=root.querySelector('.detail-feature>.detail-copy');
+    if(!copy)return null;
+    const children=[...copy.children].map(n=>n.className);
+    return {children,
+      firstIsFacts:children[0]==='detail-facts',
+      aboutIsSecond:children[1]==='detail-context'};
+  });
+  assert.ok(detailFactsOrder?.firstIsFacts&&detailFactsOrder.aboutIsSecond,
+    'Verified facts must precede ABOUT on desktop and mobile '+JSON.stringify(detailFactsOrder));
+  const scheduleLabels=await page.evaluate(()=>{
+    const official='https://example.com/official',base={
+      sources:[{url:official,name:'Official'}],
+      public_schedule:[{date:'2026-11-18',source_url:official},
+                       {date:'2026-11-19',source_url:official}]
+    };
+    const full=DiscoveryDetailFacts.render({...base,public_schedule_complete:true});
+    const partial=DiscoveryDetailFacts.render({...base,public_schedule_complete:false});
+    return [full.querySelector('.detail-schedule summary')?.textContent,
+            partial.querySelector('.detail-schedule summary')?.textContent];
+  });
+  assert.ok(scheduleLabels[0].includes('全日程を表示'));
+  assert.ok(scheduleLabels[1].includes('確認できた日程を表示'));
+
 
   const autoEmbedded=await page.evaluate(()=>{
     const original=window.IntersectionObserver;
