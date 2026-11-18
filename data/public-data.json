@@ -848,6 +848,89 @@
     },
     {
       "categories": [
+        "food_drink"
+      ],
+      "category": "food_drink",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-25b1c2a1ba4e52c3b672a52d",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-25b1c2a1ba4e52c3b672a52d",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "event_date": "2026-11-19",
+      "id": "a-6f95dca8975cf4d6fba91bbd",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "price_terms": "希望小売価格 各1,100円（税込）",
+      "public_detail": "2商品は、麦芽とホップを多く使い、通常の6倍以上の熟成期間を経てつくられる高アルコールビール。大麦麦芽を主原料とする「el Diablo」は重厚な苦味と柑橘系ホップの香りを特徴とし、小麦麦芽を主原料とする「Un angel」は、より柔らかな口当たりを想定した設計となっている。いずれも新しい酵母と麦汁を加えて1本ずつ瓶詰めし、瓶内二次発酵で炭酸を生む。賞味期限は要冷蔵で5年間で、購入後の経年変化も楽しめる。直営オンラインショップのほか、百貨店などで販売し、取扱店は公式ページで順次更新される。",
+      "public_facts": [
+        {
+          "key": "release_date",
+          "source_url": "https://www.sanktgallenbrewery.com/barleywine/",
+          "value": "2026年11月19日"
+        },
+        {
+          "key": "manufacturer",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000284.000025081.html",
+          "value": "サンクトガーレン有限会社"
+        },
+        {
+          "key": "format",
+          "source_url": "https://www.sanktgallenbrewery.com/barleywine/",
+          "value": "300ml瓶"
+        },
+        {
+          "key": "specification",
+          "source_url": "https://www.sanktgallenbrewery.com/barleywine/",
+          "value": "アルコール度数10%、賞味期限5年（要冷蔵）"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000284.000025081.html",
+          "value": "el Diablo 2026、Un angel 2026を各6,000本限定"
+        }
+      ],
+      "public_schedule": [
+        {
+          "channel": "直営オンラインショップ・取扱店",
+          "date": "2026-11-19",
+          "source_url": "https://www.sanktgallenbrewery.com/barleywine/"
+        }
+      ],
+      "public_summary": "サンクトガーレンは、バーレイワイン「el Diablo 2026」とウィートワイン「Un angel 2026」を2026年11月19日に各6,000本限定で発売した。どちらも300ml、アルコール度数10%、希望小売価格1,100円（税込）。",
+      "published_date": "2026-11-18",
+      "slug": "a-6f95dca8975cf4d6fba91bbd",
+      "sources": [
+        {
+          "url": "https://www.sanktgallenbrewery.com/barleywine/",
+          "name": "www.sanktgallenbrewery.com"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000284.000025081.html",
+          "name": "prtimes.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "サンクトガーレン、熟成型「麦のワイン」2種を11月19日に数量限定発売",
+      "updated_date": "2026-11-19",
+      "world_card": {
+        "concept": "サンクトガーレンは、バーレイワイン「el Diablo 2026」とウィートワイン「Un angel 2026」を2026年11月19日に各6,000本限定で発売した。どちらも300ml、アルコール度数10%、希望小売価格1,100円（税込）。",
+        "key": "world_card:a-25b1c2a1ba4e52c3b672a52d",
+        "kicker": "FOOD / DRINK",
+        "meta": "",
+        "title": "サンクトガーレン、熟成型「麦のワイン」2種を11月19日に数量限定発売",
+        "variant": "grid"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
