@@ -11,7 +11,71 @@ def png(payload=b"x"):
     return b"\x89PNG\r\n\x1a\n" + payload
 
 
+class _DownloadResponse:
+    def __init__(self, url, payload):
+        self.url = url
+        self.payload = payload
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *_args):
+        return False
+
+    def read(self, limit):
+        return self.payload[:limit]
+
+
 class SavedAssetHydrationTests(unittest.TestCase):
+
+    def test_rate_limit_respects_retry_after_and_uses_contact_user_agent(self):
+        url = "https://upload.wikimedia.org/wikipedia/commons/a/sample.png"
+        transient = hydration.urllib.error.HTTPError(url, 429, "limited", {"Retry-After": "7"}, None)
+        with (patch.object(hydration, "_public_host", lambda _host: None),
+              patch.object(hydration.urllib.request, "urlopen",
+                           side_effect=[transient, _DownloadResponse(url, png())]) as open_url,
+              patch.object(hydration.time, "sleep") as sleep):
+            self.assertEqual(hydration.fetch(url), (png(), "png"))
+            self.assertEqual(open_url.call_count, 2)
+            self.assertIn("github.com/kisara2083/discovery",
+                          open_url.call_args_list[0].args[0].get_header("User-agent"))
+            sleep.assert_called_once_with(7)
+
+    def test_long_rate_limit_does_not_retry_past_budget(self):
+        url = "https://upload.wikimedia.org/wikipedia/commons/a/sample.png"
+        transient = hydration.urllib.error.HTTPError(url, 429, "limited", {"Retry-After": "3600"}, None)
+        with (patch.object(hydration, "_public_host", lambda _host: None),
+              patch.object(hydration.urllib.request, "urlopen",
+                           side_effect=transient) as open_url,
+              patch.object(hydration.time, "sleep") as sleep):
+            with self.assertRaises(hydration.urllib.error.HTTPError):
+                hydration.fetch(url)
+            open_url.assert_called_once()
+            sleep.assert_not_called()
+
+    def test_permanent_http_error_fails_without_retry(self):
+        url = "https://upload.wikimedia.org/wikipedia/commons/a/sample.png"
+        denied = hydration.urllib.error.HTTPError(url, 403, "forbidden", {}, None)
+        with (patch.object(hydration, "_public_host", lambda _host: None),
+              patch.object(hydration.urllib.request, "urlopen",
+                           side_effect=denied) as open_url,
+              patch.object(hydration.time, "sleep") as sleep):
+            with self.assertRaises(hydration.urllib.error.HTTPError):
+                hydration.fetch(url)
+            open_url.assert_called_once()
+            sleep.assert_not_called()
+
+    def test_connection_failure_uses_bounded_retry(self):
+        url = "https://upload.wikimedia.org/wikipedia/commons/a/sample.png"
+        transient = hydration.urllib.error.URLError("connection reset")
+        with (patch.object(hydration, "_public_host", lambda _host: None),
+              patch.object(hydration.urllib.request, "urlopen",
+                           side_effect=[transient, _DownloadResponse(url, png())]) as open_url,
+              patch.object(hydration.time, "sleep") as sleep):
+            self.assertEqual(hydration.fetch(url), (png(), "png"))
+            self.assertEqual(open_url.call_count, 2)
+            sleep.assert_called_once_with(4)
+
     def test_fankit_saved_asset_hydrates_and_verifies_hash(self):
         blob = png(b"fan")
         digest = hashlib.sha256(blob).hexdigest()

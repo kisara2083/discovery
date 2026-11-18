@@ -1,17 +1,26 @@
 """Hydrate content-addressed saved Visual assets under strict public-safe rules."""
 from __future__ import annotations
 
+import datetime
+import email.utils
 import hashlib
 import json
 import ipaddress
 import re
 import socket
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 from urllib.parse import urlparse
 
 ASSET = re.compile(r"assets/images/([a-f0-9]{64})\.(jpg|png|gif|webp)")
 MAX_BYTES = 10_000_000
+# Bounded transport retries only; rights, source, bytes and SHA-256 checks stay fail-closed.
+RETRY_HTTP = frozenset((429, 500, 502, 503, 504))
+RETRY_DELAYS = (4, 12)
+MAX_RETRY_WAIT = 45
+USER_AGENT = "DISCOVERY-PublicAsset/1.1 (+https://github.com/kisara2083/discovery)"
 ARK_FANKIT = "https://www.arknights.jp/fankit/"
 JP_WALLPAPER_MANIFEST = Path(__file__).resolve().parent.parent / "data" / "arknights-jp-wallpaper-allowlist.json"
 
@@ -103,16 +112,49 @@ def _format(blob):
     fail("asset_format")
 
 
+def _retry_after(error, fallback):
+    header = error.headers.get("Retry-After") if error.headers else None
+    if header is None:
+        return fallback
+    try:
+        seconds = int(header)
+    except (TypeError, ValueError):
+        try:
+            date = email.utils.parsedate_to_datetime(header)
+            if date.tzinfo is None:
+                date = date.replace(tzinfo=datetime.timezone.utc)
+            seconds = (date - datetime.datetime.now(datetime.timezone.utc)).total_seconds()
+        except (TypeError, ValueError, OverflowError):
+            return fallback
+    return max(0, seconds)
+
+
 def fetch(original_url):
     _safe_url(original_url)
-    request = urllib.request.Request(
-        original_url, headers={"User-Agent": "DISCOVERY-publication/1.0"})
-    with urllib.request.urlopen(request, timeout=20) as response:
-        _safe_url(response.url)
-        blob = response.read(MAX_BYTES + 1)
-    if len(blob) > MAX_BYTES:
-        fail("asset_size")
-    return blob, _format(blob)
+    request = urllib.request.Request(original_url, headers={"User-Agent": USER_AGENT})
+    waited = 0
+    for attempt in range(len(RETRY_DELAYS) + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=20) as response:
+                _safe_url(response.url)
+                blob = response.read(MAX_BYTES + 1)
+            if len(blob) > MAX_BYTES:
+                fail("asset_size")
+            return blob, _format(blob)
+        except urllib.error.HTTPError as exc:
+            if exc.code not in RETRY_HTTP or attempt >= len(RETRY_DELAYS):
+                raise
+            delay = _retry_after(exc, RETRY_DELAYS[attempt])
+            if waited + delay > MAX_RETRY_WAIT:
+                raise
+        except (urllib.error.URLError, TimeoutError):
+            if attempt >= len(RETRY_DELAYS):
+                raise
+            delay = RETRY_DELAYS[attempt]
+            if waited + delay > MAX_RETRY_WAIT:
+                raise
+        time.sleep(delay)
+        waited += delay
 
 
 def hydrate(article, repo_root, downloader=fetch):
