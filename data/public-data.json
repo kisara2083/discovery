@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-19",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,176 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-1c44263903252be9f0f88ac5",
+  "todays_pick": "a-7b95d13ab93997c5e3838d25",
   "articles": [
+    {
+      "categories": [
+        "music_live"
+      ],
+      "category": "music_live",
+      "city": "東京",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/3/33/Vulfpeck-at-crystal-ballroom-may-26-2017.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/3/33/Vulfpeck-at-crystal-ballroom-may-26-2017.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://open.spotify.com/track/1SHA4IJyiyNobDOrQzFFXy",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 8
+      },
+      "event_date": "2027-05-24",
+      "id": "a-7b95d13ab93997c5e3838d25",
+      "images": [
+        {
+          "attribution": {
+            "attribution": "Vulfpeck-at-crystal-ballroom-may-26-2017 by Chris Hahn / CC BY 2.0. Historical 2017 performance photo.",
+            "creator": "Chris Hahn",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Vulfpeck-at-crystal-ballroom-may-26-2017.jpg",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Vulfpeck-at-crystal-ballroom-may-26-2017.jpg",
+            "license": "CC BY 2.0",
+            "license_url": "https://creativecommons.org/licenses/by/2.0/",
+            "modifications": "No additional modifications to the Wikimedia Commons file.",
+            "source": "Wikimedia Commons"
+          },
+          "caption": "Vulfpeck、2017年5月26日Crystal Ballroom公演（参考写真）。2027年日本武道館公演の写真ではない。撮影：Chris Hahn（記事固有の告知写真ではありません）",
+          "mode": "saved",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Vulfpeck-at-crystal-ballroom-may-26-2017.jpg",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Vulfpeck-at-crystal-ballroom-may-26-2017.jpg",
+          "url": "assets/images/9177c0b58c4e05855187a91e42403fbcbaa0dea509df71c547c39d4c5fd94543.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/track/1SHA4IJyiyNobDOrQzFFXy",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "1SHA4IJyiyNobDOrQzFFXy",
+          "source_url": "https://open.spotify.com/track/1SHA4IJyiyNobDOrQzFFXy",
+          "title": "Animal Spirits",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "public_detail": "Vulfpeckは2011年に結成された米国のファンクグループ。Jack Stratton、Theo Katzman、Woody Goss、Joe Dartを中心に、ギター、ベース、ドラム、キーボード、ボーカルを組み合わせた楽曲を制作する。Antwaun Stanley、Cory Wong、Joey Dosikらとも共演している。\n\n自主的な音楽制作・リリースを継続し、2019年にはニューヨークのマディソン・スクエア・ガーデンで単独公演を開催。その模様を収めたライブ映像も公開された。2025年にはFUJI ROCK FESTIVALのヘッドライナーとして初来日した。今回の日本武道館公演はフェス出演ではなく日本で初めて行う単独公演となる。出演編成および演奏曲目は現時点で未発表。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://www.smash-jpn.com/new/detail/?id=7113&status=0",
+          "value": "2026年11月17日"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://smash-jpn.com/vulfpeck/",
+          "value": "SMASH／HOT STUFF PROMOTION"
+        },
+        {
+          "key": "performers",
+          "source_url": "https://smash-jpn.com/vulfpeck/",
+          "value": "Vulfpeck"
+        },
+        {
+          "key": "address",
+          "source_url": "https://smash-jpn.com/vulfpeck/",
+          "value": "東京・日本武道館"
+        },
+        {
+          "key": "admission",
+          "source_url": "https://smash-jpn.com/vulfpeck/",
+          "value": "SS指定席15,000円、S指定席14,000円、A指定席13,000円、B指定席12,000円（税込）"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://smash-jpn.com/vulfpeck/",
+          "value": "オフィシャル先行抽選：2026年11月17日17:00〜11月23日23:59"
+        },
+        {
+          "key": "availability_start",
+          "source_url": "https://smash-jpn.com/vulfpeck/",
+          "value": "一般発売：2026年12月5日10:00"
+        },
+        {
+          "key": "eligibility",
+          "source_url": "https://smash-jpn.com/vulfpeck/",
+          "value": "小学生以上はチケットが必要。未就学児も席が必要な場合はチケットが必要"
+        }
+      ],
+      "public_schedule": [
+        {
+          "city": "東京",
+          "date": "2027-05-24",
+          "source_url": "https://smash-jpn.com/vulfpeck/",
+          "time": "開場18:00／開演19:00",
+          "venue": "日本武道館"
+        }
+      ],
+      "public_summary": "米国のファンクバンドVulfpeckが2027年5月24日に東京・日本武道館で初の日本単独公演を開催する。主催者は2026年11月17日に発表し、同日からオフィシャル先行抽選を開始した。",
+      "published_date": "2026-11-18",
+      "slug": "a-7b95d13ab93997c5e3838d25",
+      "sources": [
+        {
+          "url": "https://smash-jpn.com/vulfpeck/",
+          "name": "smash-jpn.com"
+        },
+        {
+          "url": "https://www.smash-jpn.com/new/detail/?id=7113&status=0",
+          "name": "www.smash-jpn.com"
+        },
+        {
+          "url": "https://red-hot.ne.jp/play/detail.php?pid=py28973",
+          "name": "red-hot.ne.jp"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Vulfpeck-at-crystal-ballroom-may-26-2017.jpg",
+          "name": "commons.wikimedia.org"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rv4wf7bzfFE",
+          "name": "www.youtube.com"
+        }
+      ],
+      "spotify": [
+        {
+          "url": "https://open.spotify.com/track/1SHA4IJyiyNobDOrQzFFXy",
+          "name": "Animal Spirits"
+        }
+      ],
+      "status": "NEW",
+      "title": "Vulfpeck、2027年5月24日に日本武道館で初の日本単独公演",
+      "updated_date": "2026-11-19",
+      "venue": "日本武道館",
+      "world_card": {
+        "concept": "米国のファンクバンドVulfpeckが2027年5月24日に東京・日本武道館で初の日本単独公演を開催する。主催者は2026年11月17日に発表し、同日からオフィシャル先行抽選を開始した。",
+        "key": "world_card:a-e72e8a17c40394697213186d",
+        "kicker": "MUSIC / LIVE",
+        "meta": "2027-05-24 · 日本武道館",
+        "title": "Vulfpeck、2027年5月24日に日本武道館で初の日本単独公演",
+        "variant": "field"
+      }
+    },
     {
       "categories": [
         "music_live"
@@ -103,7 +271,7 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "match_tags": [
         "名古屋フェス"
       ],
@@ -680,7 +848,7 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "match_tags": [
         "身体的グルーヴ",
         "電子音響",
@@ -812,7 +980,7 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://x.com/ArknightsStaff/status/2117452235496165545",
@@ -914,7 +1082,7 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "match_tags": [
         "ゲーム音響",
         "ボイスチャット",
@@ -5325,7 +5493,7 @@
           "visual_role": "event_identity"
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/1V1HDPQwGOyUIr9KB6Oq7Q",
