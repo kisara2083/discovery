@@ -534,6 +534,123 @@
     },
     {
       "categories": [
+        "shopping"
+      ],
+      "category": "shopping",
+      "deadline_at": "2026-11-19",
+      "display_selection": {
+        "card_primary": {
+          "key": "world_card:a-261774f5fe5ccac6e95c8705",
+          "kind": "world_card"
+        },
+        "detail_primary": {
+          "key": "world_card:a-261774f5fe5ccac6e95c8705",
+          "kind": "world_card"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "end_at": "2026-11-19",
+      "event_date": "2026-11-06",
+      "id": "a-ae1e712bb73649ced3296ee4",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "public_detail": "Amazon Kindleストアの「Kindle本 499円セール」は、対象の電子書籍を税込499円で販売する期間限定キャンペーン。複数のセール案内によると、会期は2026年11月6日から11月19日23:59（日本時間）まで。Amazon公式のキャンペーンページにも同名の企画が掲載されている。対象作品全体の点数は集計サイトによって異なるため、ここでは確定値を示さない。\n\n対象例の一つである今井翔太著『生成AIで世界はこう変わる』（SB新書）は、生成AIが仕事、暮らし、文化に及ぼす変化を研究者の立場から扱う新書。Amazonの商品ページではKindle版499円、通常の表示価格から55％引きと案内されている。\n\nもう一冊の桃野雑派著『星くずの殺人』（講談社文庫）は、クローズドサークルの仕掛けを用いた長編ミステリー。Amazonの商品ページではKindle版499円、44％引きと表示されている。セール対象と価格、読み放題の扱いは書籍ごとに異なるため、購入前に各商品のKindle版の表示を確認する必要がある。",
+      "public_facts": [
+        {
+          "key": "offer_period",
+          "source_url": "https://yomitoku.org/campaigns/20261106-kindle",
+          "value": "2026年11月6日0:00〜11月19日23:59（日本時間、セール案内による）"
+        },
+        {
+          "key": "store",
+          "source_url": "https://www.amazon.co.jp/amz-books/book-deals?node=223917549051",
+          "value": "Amazon.co.jp Kindleストア"
+        },
+        {
+          "key": "format",
+          "source_url": "https://www.amazon.co.jp/amz-books/book-deals?node=223917549051",
+          "value": "対象Kindle電子書籍の期間限定499円均一セール"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://www.amazon.co.jp/dp/B0CM2YJ34N",
+          "value": "今井翔太『生成AIで世界はこう変わる』Kindle版499円（税込）"
+        },
+        {
+          "key": "edition",
+          "source_url": "https://www.amazon.co.jp/dp/B0DCKGC3ND",
+          "value": "桃野雑派『星くずの殺人』Kindle版499円（税込）"
+        },
+        {
+          "key": "change",
+          "source_url": "https://www.amazon.co.jp/dp/B0CM2YJ34N",
+          "value": "上記2作の表示割引率：それぞれ55％・44％（公式商品ページ確認時）"
+        },
+        {
+          "key": "distribution",
+          "source_url": "https://www.amazon.co.jp/amz-books/book-deals?node=223917549051",
+          "value": "対象本の価格・ポイント・読み放題条件は商品ごとのKindle版表示で確認が必要"
+        },
+        {
+          "key": "eligibility",
+          "source_url": "https://www.amazon.co.jp/amz-books/book-deals?node=223917549051",
+          "value": "セール対象の電子書籍のみ。全タイトル均一価格という意味ではない"
+        }
+      ],
+      "public_schedule": [
+        {
+          "channel": "Amazon.co.jp Kindleストア",
+          "date": "2026-11-19",
+          "source_url": "https://yomitoku.org/campaigns/20261106-kindle",
+          "time": "23:59（日本時間）終了予定"
+        }
+      ],
+      "public_schedule_complete": false,
+      "public_summary": "Amazonの電子書籍ストアで実施されている「Kindle本 499円セール」が、2026年11月19日23:59（日本時間）に終了する予定。Amazonの商品ページでは、今井翔太『生成AIで世界はこう変わる』と桃野雑派『星くずの殺人』のKindle版が各499円で販売されている。",
+      "published_date": "2026-11-18",
+      "slug": "a-ae1e712bb73649ced3296ee4",
+      "sources": [
+        {
+          "url": "https://www.amazon.co.jp/amz-books/book-deals?node=223917549051",
+          "name": "www.amazon.co.jp"
+        },
+        {
+          "url": "https://www.amazon.co.jp/dp/B0CM2YJ34N",
+          "name": "www.amazon.co.jp"
+        },
+        {
+          "url": "https://www.amazon.co.jp/dp/B0DCKGC3ND",
+          "name": "www.amazon.co.jp"
+        },
+        {
+          "url": "https://appllio.com/how-to-search-kindle-sale-information",
+          "name": "appllio.com"
+        },
+        {
+          "url": "https://www.ipodwave.com/news/20261109.htm",
+          "name": "www.ipodwave.com"
+        },
+        {
+          "url": "https://yomitoku.org/campaigns/20261106-kindle",
+          "name": "yomitoku.org"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Amazonの「Kindle本 499円セール」、11月19日23:59に終了予定",
+      "updated_date": "2026-11-19",
+      "world_card": {
+        "concept": "Amazonの電子書籍ストアで実施されている「Kindle本 499円セール」が、2026年11月19日23:59（日本時間）に終了する予定。Amazonの商品ページでは、今井翔太『生成AIで世界はこう変わる』と桃野雑派『星くずの殺人』のKindle版が各499円で販売されている。",
+        "key": "world_card:a-261774f5fe5ccac6e95c8705",
+        "kicker": "OBJECT / DISCOVERY",
+        "meta": "2026-11-06",
+        "title": "Amazonの「Kindle本 499円セール」、11月19日23:59に終了予定",
+        "variant": "orbit"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
