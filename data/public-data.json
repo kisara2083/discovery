@@ -350,6 +350,190 @@
     },
     {
       "categories": [
+        "food_drink"
+      ],
+      "category": "food_drink",
+      "city": "名古屋市",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c5/Kunpeki_Shuzou_ac_%281%29.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://upload.wikimedia.org/wikipedia/commons/c/c5/Kunpeki_Shuzou_ac_%281%29.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "end_at": "2026-11-24",
+      "event_date": "2026-11-18",
+      "id": "a-17750e1051cc5b9f08acaa42",
+      "images": [
+        {
+          "attribution": {
+            "attribution": "Kunpeki Shuzou ac (1) / Asturio Cantabrio / CC BY-SA 4.0",
+            "creator": "Asturio Cantabrio",
+            "evidence_url": "https://commons.wikimedia.org/wiki/File:Kunpeki_Shuzou_ac_(1).jpg",
+            "file_page_url": "https://commons.wikimedia.org/wiki/File:Kunpeki_Shuzou_ac_(1).jpg",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "modifications": "No changes to the original Wikimedia Commons image.",
+            "source": "Wikimedia Commons"
+          },
+          "caption": "勲碧酒造株式会社（愛知県江南市）の2024年参考写真。2026年星ヶ丘三越の試飲販売会ではない。（記事固有の告知写真ではありません）",
+          "mode": "external",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kunpeki_Shuzou_ac_%281%29.jpg",
+          "relation": "reference_same_entity",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Kunpeki_Shuzou_ac_(1).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kunpeki_Shuzou_ac_%281%29.jpg",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_detail": "勲碧酒造は、1915年（大正4年）創業の愛知県江南市にある日本酒蔵。木曽川からくみ上げる軟水と、愛知県産の酒米「夢吟香」、岡山県産の「山田錦」「雄町」などを使い、少量ずつの洗米・浸漬や仕込みを通じて日本酒を造っている。桜酵母「五条川桜」を利用した銘柄も手がける。\n\n今回の催事は、星ヶ丘三越の1階ワイン＆リカー売場で行う試飲と販売の企画。酒造元が2026年10月5日に開催を告知し、11月18日から24日まで11:00〜19:00の予定と明記している。会場となる三越の1階食品フロア「星ヶ丘フードガーデン」は、地下鉄東山線・星ヶ丘駅から連絡通路でアクセスできる。\n\n告知には試飲する具体的な銘柄、商品別価格、有料・無料の条件は記載されていない。蔵の生産工程を写した公式画像や酒蔵建物の参考写真は、今回の百貨店催事そのものの写真ではない。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "value": "2026年10月5日（酒造元の開催告知日）"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "value": "勲碧酒造株式会社（愛知県江南市）"
+        },
+        {
+          "key": "program",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "value": "勲碧酒造の日本酒の試飲・販売"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "value": "2026年11月18日（水）〜24日（火）、各日11:00〜19:00"
+        },
+        {
+          "key": "address",
+          "source_url": "https://www.mitsukoshi.mistore.jp/hoshigaoka/access.html",
+          "value": "星ヶ丘三越1階ワイン＆リカー／名古屋市千種区星が丘元町14-14"
+        },
+        {
+          "key": "format",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "value": "百貨店の酒売場における期間限定の試飲販売会"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "value": "試飲対象銘柄・価格・試飲料金の詳細は公式案内に記載なし"
+        },
+        {
+          "key": "region",
+          "source_url": "https://www.kunpeki.co.jp/contents1.html",
+          "value": "愛知県江南市の酒造元。木曽川の仕込水と愛知県産酒米「夢吟香」などを使用"
+        }
+      ],
+      "public_schedule": [
+        {
+          "city": "名古屋市",
+          "date": "2026-11-18",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "time": "11:00〜19:00",
+          "venue": "星ヶ丘三越1階 ワイン＆リカー"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-11-19",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "time": "11:00〜19:00",
+          "venue": "星ヶ丘三越1階 ワイン＆リカー"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-11-20",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "time": "11:00〜19:00",
+          "venue": "星ヶ丘三越1階 ワイン＆リカー"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-11-21",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "time": "11:00〜19:00",
+          "venue": "星ヶ丘三越1階 ワイン＆リカー"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-11-22",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "time": "11:00〜19:00",
+          "venue": "星ヶ丘三越1階 ワイン＆リカー"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-11-23",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "time": "11:00〜19:00",
+          "venue": "星ヶ丘三越1階 ワイン＆リカー"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-11-24",
+          "source_url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "time": "11:00〜19:00",
+          "venue": "星ヶ丘三越1階 ワイン＆リカー"
+        }
+      ],
+      "public_schedule_complete": true,
+      "public_summary": "愛知県江南市の勲碧酒造が、2026年11月18日から24日まで名古屋市千種区の星ヶ丘三越1階ワイン＆リカーで試飲販売会を開催している。開催時間は各日11:00〜19:00と案内されている。",
+      "published_date": "2026-11-18",
+      "slug": "a-17750e1051cc5b9f08acaa42",
+      "sources": [
+        {
+          "url": "https://www.kunpeki.co.jp/event/11-18%E3%88%AC%EF%BD%9E24%E3%88%AB-%E4%B8%89%E8%B6%8A%E6%98%9F%E3%83%B6%E4%B8%98%E5%BA%971f%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%83%AA%E3%82%AB%E3%83%BC%E3%81%AB%E3%81%A6%E8%A9%A6%E9%A3%B2%E8%B2%A9",
+          "name": "www.kunpeki.co.jp"
+        },
+        {
+          "url": "https://www.kunpeki.co.jp/contents1.html",
+          "name": "www.kunpeki.co.jp"
+        },
+        {
+          "url": "https://www.mitsukoshi.mistore.jp/hoshigaoka/access.html",
+          "name": "www.mitsukoshi.mistore.jp"
+        },
+        {
+          "url": "https://nihonshucalendar.com/show_event.php?id=748sfgf6koqio74fb0lkoqgiag",
+          "name": "nihonshucalendar.com"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Kunpeki_Shuzou_ac_(1).jpg",
+          "name": "commons.wikimedia.org"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "勲碧酒造、星ヶ丘三越で11月24日まで試飲販売会を開催",
+      "updated_date": "2026-11-19",
+      "venue": "星ヶ丘三越1階 ワイン＆リカー",
+      "world_card": {
+        "concept": "愛知県江南市の勲碧酒造が、2026年11月18日から24日まで名古屋市千種区の星ヶ丘三越1階ワイン＆リカーで試飲販売会を開催している。開催時間は各日11:00〜19:00と案内されている。",
+        "key": "world_card:a-61fc2465362fb520fda3d2d9",
+        "kicker": "FOOD / DRINK",
+        "meta": "2026-11-18 · 星ヶ丘三越1階 ワイン＆リカー",
+        "title": "勲碧酒造、星ヶ丘三越で11月24日まで試飲販売会を開催",
+        "variant": "grid"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
