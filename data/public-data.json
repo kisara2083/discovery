@@ -212,6 +212,144 @@
     },
     {
       "categories": [
+        "games"
+      ],
+      "category": "games",
+      "display_selection": {
+        "card_primary": {
+          "key": "media:https://store.steampowered.com/app/3103620/",
+          "kind": "media"
+        },
+        "detail_primary": {
+          "key": "media:https://store.steampowered.com/app/3103620/",
+          "kind": "media"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "event_date": "2026-11-19",
+      "id": "a-0dd09f432c3ec490f775a311",
+      "images": [],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://store.steampowered.com/app/3103620/",
+          "evidence_url": "https://partner.steamgames.com/doc/marketing/widget",
+          "provider_id": "3103620",
+          "source_url": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+          "title": "Steam",
+          "type": "steam_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "public_detail": "『Witch the Showdown』は、魔法、剣、銃、機械が共存する近未来ファンタジーを舞台にした一人用リアルタイムアクションゲーム。敵はすべてボス級の強敵として登場し、相手の攻撃をパリィするタイミングと、蓄積したマナで使うカードの選択が戦闘の中心となる。\n\n「デュエルモード」は構築済みデッキで個別の戦闘に挑む形式。「トーナメントモード」はランダムに提示されるカードやアクセサリーを選び、複数の相手と連戦するローグライク形式だ。難易度はルーキーからマスターまで5段階。\n\n2026年9月の発売日発表時には、早期アクセス版を8体の敵、31枚のカード、2人のプレイアブルキャラクターで開始する計画が説明された。正式版は2027年にPC、PlayStation 5、Xbox Series向けに発売予定。日本語のインターフェース、音声、字幕に対応するとSteamに表示されている。11月19日未明のSteam製品ページは「近日登場」表示のため、実際の配信開始時刻は未確認。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://www.gematsu.com/2026/09/witch-the-showdown-launches-in-early-access-for-pc-on-november-19",
+          "value": "2026年9月16日に早期アクセス開始日を発表"
+        },
+        {
+          "key": "release_date",
+          "source_url": "https://www.gamespress.com/de/Witch-the-Showdown-battles-with-November-19th-bringing-the-title-to-Ea",
+          "value": "2026年11月19日（Steam早期アクセス開始予定）"
+        },
+        {
+          "key": "developer",
+          "source_url": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+          "value": "CitalesGames"
+        },
+        {
+          "key": "publisher",
+          "source_url": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+          "value": "Perp Games"
+        },
+        {
+          "key": "platform",
+          "source_url": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+          "value": "PC（Steam）／Windows 10・11"
+        },
+        {
+          "key": "format",
+          "source_url": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+          "value": "1人用のパリィアクション＋デッキ構築ゲーム"
+        },
+        {
+          "key": "program",
+          "source_url": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+          "value": "デュエル／トーナメントの2モード、5段階の難易度"
+        },
+        {
+          "key": "compatibility",
+          "source_url": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+          "value": "日本語インターフェース・音声・字幕対応"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+          "value": "Steamに体験版ページあり。早期アクセス版の実際の解禁時刻は未確認"
+        },
+        {
+          "key": "edition",
+          "source_url": "https://www.gematsu.com/2026/09/witch-the-showdown-launches-in-early-access-for-pc-on-november-19",
+          "value": "早期アクセス版の発表時点の予定は敵8体、カード31枚、使用可能キャラクター2人"
+        }
+      ],
+      "public_schedule": [
+        {
+          "channel": "PC（Steam）、早期アクセス開始予定",
+          "date": "2026-11-19",
+          "source_url": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/"
+        }
+      ],
+      "public_schedule_complete": false,
+      "public_summary": "CitalesGames開発、Perp Games発売の『Witch the Showdown』が2026年11月19日にPC（Steam）で早期アクセスを開始する予定。パリィでマナを蓄積し、リアルタイムでカードを使って反撃するボス戦主体のアクションゲーム。",
+      "published_date": "2026-11-18",
+      "slug": "a-0dd09f432c3ec490f775a311",
+      "sources": [
+        {
+          "url": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+          "name": "store.steampowered.com"
+        },
+        {
+          "url": "https://www.gamespress.com/de/Witch-the-Showdown-battles-with-November-19th-bringing-the-title-to-Ea",
+          "name": "www.gamespress.com"
+        },
+        {
+          "url": "https://www.gematsu.com/2026/09/witch-the-showdown-launches-in-early-access-for-pc-on-november-19",
+          "name": "www.gematsu.com"
+        },
+        {
+          "url": "https://news.denfaminicogamer.jp/news/261119w",
+          "name": "news.denfaminicogamer.jp"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tXqrlvxW32M",
+          "name": "www.youtube.com"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "『Witch the Showdown』、11月19日にSteam早期アクセス開始予定。パリィとデッキ構築を融合",
+      "updated_date": "2026-11-19",
+      "world_card": {
+        "concept": "CitalesGames開発、Perp Games発売の『Witch the Showdown』が2026年11月19日にPC（Steam）で早期アクセスを開始する予定。パリィでマナを蓄積し、リアルタイムでカードを使って反撃するボス戦主体のアクションゲーム。",
+        "key": "world_card:a-4219f51e762075b4d71aee6e",
+        "kicker": "GAME / DISCOVERY",
+        "meta": "",
+        "title": "『Witch the Showdown』、11月19日にSteam早期アクセス開始予定。パリィとデッキ構築を融合",
+        "variant": "orbit"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
