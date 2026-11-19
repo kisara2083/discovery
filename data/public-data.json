@@ -157,6 +157,102 @@
     },
     {
       "categories": [
+        "shopping"
+      ],
+      "category": "shopping",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/5397/7840/5397-7840-37a1ccf88be490545c5a8c1c2f7dd6d4-900x506.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85&width=1950",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/5397/7840/5397-7840-37a1ccf88be490545c5a8c1c2f7dd6d4-900x506.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85&width=1950",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "id": "a-5231e63a8944a80efce61af8",
+      "images": [
+        {
+          "caption": "SEGA ATLUS Black Friday Sale Part2",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://prcdn.freetls.fastly.net/release_image/5397/7840/5397-7840-37a1ccf88be490545c5a8c1c2f7dd6d4-900x506.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85&width=1950",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象キャンペーンを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "exact_campaign",
+            "role_label": "対象キャンペーン：SEGA ATLUS Black Friday Sale Part2",
+            "source_name": "株式会社セガ（PR TIMES公式プレスリリース）",
+            "source_page": "https://prtimes.jp/main/html/rd/p/000007840.000005397.html",
+            "target": "SEGA ATLUS Black Friday Sale Part2"
+          },
+          "relation": "article_specific",
+          "source_page": "https://prtimes.jp/main/html/rd/p/000007840.000005397.html",
+          "url": "https://prcdn.freetls.fastly.net/release_image/5397/7840/5397-7840-37a1ccf88be490545c5a8c1c2f7dd6d4-900x506.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85&width=1950",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "exact_campaign"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "price_terms": "対象作品によって25～60％OFF。ストア・版で異なる。",
+      "public_detail": "セガは2026年11月18日、PlayStation Storeとニンテンドーeショップ向けのダウンロード版セール第2弾を発表した。『龍が如く 極3／龍が如く3外伝 Dark Ties』デラックス・エディションは60％OFF、『ソニックレーシング クロスワールド』は40％OFF。Nintendo Switch 2向け『SHINOBI 復讐の斬撃』は25％OFF、PS5／PS4向け『ペルソナ3 リロード』は60％OFFとなる。セール期間は原則11月30日までだが、アトラスのニンテンドーeショップ対象作品は12月6日まで。また、一部セガ作品のニンテンドーeショップ販売期間は11月18日～29日となる。対象機種や版、店舗で期間や価格が異なるため、購入前に各ストアの表示価格と終了日時を確認したい。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000007840.000005397.html",
+          "value": "2026年11月18日"
+        },
+        {
+          "key": "platform",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000007840.000005397.html",
+          "value": "PlayStation Store、ニンテンドーeショップ"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000007840.000005397.html",
+          "value": "原則11月30日まで／アトラスの一部Switch作品は12月6日まで"
+        },
+        {
+          "key": "edition",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000007840.000005397.html",
+          "value": "『龍が如く 極3／3外伝 Dark Ties』デラックス版60％OFF"
+        }
+      ],
+      "public_summary": "セガ／アトラスの「Black Friday Sale Part2」が開催中。PS Storeとニンテンドーeショップの対象商品として『龍が如く 極3／3外伝 Dark Ties』デラックス版が60％OFF、『ソニックレーシング クロスワールド』が40％OFFなど。原則11月30日まで。",
+      "published_date": "2026-11-19",
+      "slug": "a-5231e63a8944a80efce61af8",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000007840.000005397.html",
+          "name": "prtimes.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "セガ「Black Friday Sale Part2」開催―『龍が如く 極3』60％OFFなど",
+      "updated_date": "2026-11-20",
+      "whats_new": "2026年11月18日に対象作品を追加した第2弾セールを発表",
+      "world_card": {
+        "concept": "セガ／アトラスの「Black Friday Sale Part2」が開催中。PS Storeとニンテンドーeショップの対象商品として『龍が如く 極3／3外伝 Dark Ties』デラックス版が60％OFF、『ソニックレーシング クロスワールド』が40％OFFなど。原則11月30日まで。",
+        "key": "world_card:a-49e424970d7f9591cfec02ac",
+        "kicker": "OBJECT / DISCOVERY",
+        "meta": "",
+        "title": "セガ「Black Friday Sale Part2」開催―『龍が如く 極3』60％OFFなど",
+        "variant": "grid"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
