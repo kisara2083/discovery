@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,121 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-7b95d13ab93997c5e3838d25",
+  "todays_pick": "a-f71ab0ee7e1a0f81f77761b6",
   "articles": [
+    {
+      "categories": [
+        "local_family"
+      ],
+      "category": "local_family",
+      "city": "名古屋市",
+      "deadline_at": "2026-11-27",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://hicbc.com/event/hyogakiten-nagoya/common/images/iceage-nagoya_mainvisual_sp_v6.webp",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://hicbc.com/event/hyogakiten-nagoya/common/images/iceage-nagoya_mainvisual_sp_v6.webp",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "end_at": "2027-02-23",
+      "event_date": "2026-11-28",
+      "id": "a-f71ab0ee7e1a0f81f77761b6",
+      "images": [
+        {
+          "caption": "名古屋会場の開催日を明記したキービジュアル（イラスト：久保修二）",
+          "framing": "contain",
+          "mode": "saved",
+          "original_url": "https://hicbc.com/event/hyogakiten-nagoya/common/images/iceage-nagoya_mainvisual_sp_v6.webp",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "saved",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：氷河期展 名古屋会場（2026年11月28日開幕）",
+            "source_name": "CBCイベント・氷河期展名古屋会場公式サイト",
+            "source_page": "https://hicbc.com/event/hyogakiten-nagoya/outline/",
+            "target": "氷河期展 名古屋会場（2026年11月28日開幕）"
+          },
+          "relation": "article_specific",
+          "source_page": "https://hicbc.com/event/hyogakiten-nagoya/outline/",
+          "url": "assets/images/8f2f12daf04f75b6c25bf1165894c1f9b867fa5115f4c99ef28b2db3138e7368.webp",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "price_terms": "一般前売1,800円・当日2,000円／小中学生前売300円・当日500円／未就学児無料",
+      "public_detail": "約4万年前の氷河期を舞台に、巨大動物と人類がどのように暮らし、生き残ったかを紹介する特別展。第1章ではマンモスなどヨーロッパの大型動物、第2章ではネアンデルタール人とクロマニョン人の実物頭骨、第3章では日本列島のナウマンゾウや当時の人々の生活を取り上げる。名古屋オリジナルコーナーの協力には瑞浪市化石博物館が参加する。\n\n会場はＦＵＪＩなごや科学館・理工館地下2階。9時30分から17時まで開館し、入場は16時30分まで。一般は前売1,800円、当日2,000円、小中学生は前売300円、当日500円で、未就学児は無料。前売券は11月27日まで販売される。月曜日を中心に休館日があり、特別展のチケットでプラネタリウムを除く常設展示も見学できる。",
+      "public_facts": [
+        {
+          "key": "program",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000022390.html",
+          "value": "氷河期の巨大動物、人類の実物頭骨、日本列島の動物と暮らし"
+        },
+        {
+          "key": "admission",
+          "source_url": "https://www.ncsm.city.nagoya.jp/visit/attraction/special_exhibition/iceage.html",
+          "value": "一般当日2,000円／小中学生当日500円／未就学児無料"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000022390.html",
+          "value": "前売券は2026年11月27日まで"
+        },
+        {
+          "key": "address",
+          "source_url": "https://hicbc.com/event/hyogakiten-nagoya/outline/",
+          "value": "名古屋市中区栄2丁目17番1号（白川公園内）"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000022390.html",
+          "value": "名古屋市科学館・中日新聞社・CBCテレビ・テレビ愛知"
+        }
+      ],
+      "public_summary": "11月28日から名古屋市科学館で特別展「氷河期展」が開幕。ネアンデルタール人とクロマニョン人の実物頭骨が日本初公開され、氷河期の巨大動物の復元展示も楽しめる。会期は2027年2月23日まで。",
+      "published_date": "2026-11-19",
+      "slug": "a-f71ab0ee7e1a0f81f77761b6",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000347.000022390.html",
+          "name": "prtimes.jp"
+        },
+        {
+          "url": "https://hicbc.com/event/hyogakiten-nagoya/outline/",
+          "name": "hicbc.com"
+        },
+        {
+          "url": "https://www.ncsm.city.nagoya.jp/visit/attraction/special_exhibition/iceage.html",
+          "name": "www.ncsm.city.nagoya.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "氷河期展、11月28日から名古屋市科学館で開催―実物頭骨と巨大動物を紹介",
+      "updated_date": "2026-11-20",
+      "venue": "ＦＵＪＩなごや科学館",
+      "world_card": {
+        "concept": "11月28日から名古屋市科学館で特別展「氷河期展」が開幕。ネアンデルタール人とクロマニョン人の実物頭骨が日本初公開され、氷河期の巨大動物の復元展示も楽しめる。会期は2027年2月23日まで。",
+        "key": "world_card:a-343b53527740e0190e1869f9",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "ＦＵＪＩなごや科学館",
+        "title": "氷河期展、11月28日から名古屋市科学館で開催―実物頭骨と巨大動物を紹介",
+        "variant": "signal"
+      }
+    },
     {
       "categories": [
         "music_live"
@@ -264,7 +377,7 @@
           "visual_role": "work_identity"
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://store.steampowered.com/app/3103620/",
@@ -617,7 +730,7 @@
           "visual_role": "representative_child"
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "public_detail": "Amazon Kindleストアの「Kindle本 499円セール」は、対象の電子書籍を税込499円で販売する期間限定キャンペーン。複数のセール案内によると、会期は2026年11月6日から11月19日23:59（日本時間）まで。Amazon公式のキャンペーンページにも同名の企画が掲載されている。対象作品全体の点数は集計サイトによって異なるため、ここでは確定値を示さない。\n\n対象例の一つである今井翔太著『生成AIで世界はこう変わる』（SB新書）は、生成AIが仕事、暮らし、文化に及ぼす変化を研究者の立場から扱う新書。Amazonの商品ページではKindle版499円、通常の表示価格から55％引きと案内されている。\n\nもう一冊の桃野雑派著『星くずの殺人』（講談社文庫）は、クローズドサークルの仕掛けを用いた長編ミステリー。Amazonの商品ページではKindle版499円、44％引きと表示されている。セール対象と価格、読み放題の扱いは書籍ごとに異なるため、購入前に各商品のKindle版の表示を確認する必要がある。",
       "public_facts": [
         {
@@ -930,7 +1043,7 @@
       "event_date": "2026-11-19",
       "id": "a-6f95dca8975cf4d6fba91bbd",
       "images": [],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "price_terms": "希望小売価格 各1,100円（税込）",
       "public_detail": "2商品は、麦芽とホップを多く使い、通常の6倍以上の熟成期間を経てつくられる高アルコールビール。大麦麦芽を主原料とする「el Diablo」は重厚な苦味と柑橘系ホップの香りを特徴とし、小麦麦芽を主原料とする「Un angel」は、より柔らかな口当たりを想定した設計となっている。いずれも新しい酵母と麦汁を加えて1本ずつ瓶詰めし、瓶内二次発酵で炭酸を生む。賞味期限は要冷蔵で5年間で、購入後の経年変化も楽しめる。直営オンラインショップのほか、百貨店などで販売し、取扱店は公式ページで順次更新される。",
       "public_facts": [
@@ -1152,7 +1265,7 @@
       },
       "id": "a-b05ec063d12165dd08b97a8c",
       "images": [],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "match_tags": [
         "怪奇幻想",
         "不条理"
@@ -5761,7 +5874,7 @@
           "visual_role": "performer_identity"
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/3IuEuLez19teZSN32Pf70j",
@@ -8949,7 +9062,7 @@
           }
         }
       ],
-      "lifecycle": "ACTIVE",
+      "lifecycle": "ENDED",
       "media": [
         {
           "canonical_url": "https://open.spotify.com/artist/05lIUgmmsmTX2N9dCKc8rC",
