@@ -502,6 +502,111 @@
     },
     {
       "categories": [
+        "shopping"
+      ],
+      "category": "shopping",
+      "deadline_at": "2026-12-07",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/4612/2218/4612-2218-0109d3f45ae7c7032c743b66944b0d77-1910x1000.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/4612/2218/4612-2218-0109d3f45ae7c7032c743b66944b0d77-1910x1000.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "event_date": "2026-11-30",
+      "id": "a-e273b2dd5cc9271c0f15e64a",
+      "images": [
+        {
+          "caption": "Amazon ブラックフライデー 2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://prcdn.freetls.fastly.net/release_image/4612/2218/4612-2218-0109d3f45ae7c7032c743b66944b0d77-1910x1000.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象キャンペーンを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "exact_campaign",
+            "role_label": "対象キャンペーン：Amazon ブラックフライデー 2026",
+            "source_name": "アマゾンジャパン合同会社（PR TIMES）",
+            "source_page": "https://prtimes.jp/main/html/rd/p/000002218.000004612.html",
+            "target": "Amazon ブラックフライデー 2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://prtimes.jp/main/html/rd/p/000002218.000004612.html",
+          "url": "https://prcdn.freetls.fastly.net/release_image/4612/2218/4612-2218-0109d3f45ae7c7032c743b66944b0d77-1910x1000.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "exact_campaign"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_detail": "Amazonが日本で実施する年末の大型セール「Amazon ブラックフライデー」の開催日程が、11月19日に発表された。食品・日用品に加え、家電やブランド商品、ギフト向け商品まで400万点以上を特別価格で用意する計画。11月27日から3日間の先行セールと、11月30日から12月7日までの本セールに分かれる。\n\n買い物に応じた追加ポイントのキャンペーンも発表された。ポイントアップキャンペーンは事前エントリーと対象期間中の合計1万円（税込）以上の購入などが条件で、適用される還元率や上限は会員・支払い条件などで異なる。「ポイントDeal祭り」やdポイント連携キャンペーン、Amazonスタンプラリーも予定されている。\n\n特典の対象外商品や条件があるほか、個別の商品のセール価格・割引率は一律ではない。購入前には各商品ページとキャンペーンの規約を確かめたい。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000002218.000004612.html",
+          "value": "2026年11月19日"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000002218.000004612.html",
+          "value": "本セール：2026年11月30日0:00～12月7日23:59"
+        },
+        {
+          "key": "availability_start",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000002218.000004612.html",
+          "value": "先行セール：2026年11月27日0:00～29日23:59"
+        },
+        {
+          "key": "eligibility",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000002218.000004612.html",
+          "value": "ポイントアップは事前エントリーと1万円以上の対象購入などが条件"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000002218.000004612.html",
+          "value": "400万点以上の商品を用意する予定"
+        }
+      ],
+      "public_summary": "Amazonは2026年の「Amazon ブラックフライデー」を11月30日0時～12月7日23時59分に開催する。先行セールは11月27日～29日。食品・日用品、家電など400万点以上を扱う予定。",
+      "published_date": "2026-11-19",
+      "slug": "a-e273b2dd5cc9271c0f15e64a",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000002218.000004612.html",
+          "name": "prtimes.jp"
+        },
+        {
+          "url": "https://press.aboutamazon.com/jp/2026/11/black-friday-2026",
+          "name": "press.aboutamazon.com"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Amazonブラックフライデー2026、11月30日開始　先行セールは27日から",
+      "updated_date": "2026-11-20",
+      "world_card": {
+        "concept": "Amazonは2026年の「Amazon ブラックフライデー」を11月30日0時～12月7日23時59分に開催する。先行セールは11月27日～29日。食品・日用品、家電など400万点以上を扱う予定。",
+        "key": "world_card:a-ad6b0fab45292f72ec876130",
+        "kicker": "OBJECT / DISCOVERY",
+        "meta": "",
+        "title": "Amazonブラックフライデー2026、11月30日開始　先行セールは27日から",
+        "variant": "grid"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
