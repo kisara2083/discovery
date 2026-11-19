@@ -126,13 +126,11 @@ function realVisual(a,ref,detail=false){
 function detailRefs(a){
   const refs=[selectedRef(a,'detail'),...(a.display_selection?.detail_secondary||[])].filter(r=>r&&r.kind!=='world_card');
   const candidates=[...(a.images||[]).map(image=>({key:imageSelectionKey(image),kind:'image',image})),...embedList(a).map(media=>({key:mediaSelectionKey(media),kind:'media',media}))];
-  candidates.sort((a,b)=>cardCompare(a,b,{}));
   const seen=new Set();const ordered=a.display_selection?.selector_version===8?refs:candidates;
   return ordered.filter(r=>{const image=r.kind==='image'&&(a.images||[]).find(i=>imageSelectionKey(i)===r.key);const media=r.kind==='media'&&embedList(a).find(m=>mediaSelectionKey(m)===r.key);const key=image?'image:'+image.url:media?'media:'+media.canonical_url:null;if(!key||seen.has(key))return false;seen.add(key);return true;}).slice(0,5);
 }
 cardVisual=function(a,failed=new Set()){
   const candidates=[...(a.images||[]).map(image=>({key:imageSelectionKey(image),image})),...embedList(a).filter(cardMediaCapable).map(media=>({key:mediaSelectionKey(media),media}))];
-  candidates.sort((x,y)=>cardCompare(x,y,a));
   const preferred=a.display_selection?.selector_version===8?selectedRef(a,'card'):null;
   const candidate=(preferred&&candidates.find(c=>c.key===preferred.key&&!failed.has(c.key)))||candidates.find(c=>!failed.has(c.key));
   // A legacy snapshot may predate World metadata. Render the public-safe
