@@ -253,6 +253,141 @@
     },
     {
       "categories": [
+        "shopping"
+      ],
+      "category": "shopping",
+      "deadline_at": "2026-11-27",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://trinity.jp/wp-content/uploads/2026/11/20261102_TOS_Black-Friday_campaign_banner_ol_W1000H600_cam.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://trinity.jp/wp-content/uploads/2026/11/20261102_TOS_Black-Friday_campaign_banner_ol_W1000H600_cam.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://www.youtube.com/watch?v=TdurzpeYwgs",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 8
+      },
+      "event_date": "2026-11-20",
+      "id": "a-196ee0db809c240e353a08c1",
+      "images": [
+        {
+          "caption": "TRINITY BLACK FRIDAY",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://trinity.jp/wp-content/uploads/2026/11/20261102_TOS_Black-Friday_campaign_banner_ol_W1000H600_cam.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象キャンペーンを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "exact_campaign",
+            "role_label": "対象キャンペーン：TRINITY BLACK FRIDAY",
+            "source_name": "トリニティ株式会社",
+            "source_page": "https://trinity.jp/campaign/1750/",
+            "target": "TRINITY BLACK FRIDAY"
+          },
+          "relation": "article_specific",
+          "source_page": "https://trinity.jp/campaign/1750/",
+          "url": "https://trinity.jp/wp-content/uploads/2026/11/20261102_TOS_Black-Friday_campaign_banner_ol_W1000H600_cam.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "exact_campaign"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=TdurzpeYwgs",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "TdurzpeYwgs",
+          "source_url": "https://trinity.jp/campaign/1750/",
+          "title": "4時間限定クーポンあります 全品30％OFF＆送料無料トリニティブラックフライデー",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "price_terms": "全品30％OFF・送料無料。11月20日20:00～23:59は公式配信で追加5％OFFクーポンを公開",
+      "public_detail": "スマートフォンやタブレット向けアクセサリーを扱うトリニティの公式オンラインストア全体を対象にした期間限定施策。公式発表では、画面保護ガラス、紛失防止カード、iPad用スタイラスペンや交換ペン先などを対象例として紹介している。\n\n画面保護ガラスのFLEX 3Dは、強化ガラスの周囲を立体成型のPETフレームで覆う構造と365日保証を案内。紛失防止カードはAppleの「探す」とAndroidの「デバイスを探す」に対応し、専用アプリなしで利用できる。スタイラスペンは、ショートカット機能付きモデルや多色展開の標準モデル、交換ペン先が掲載されている。\n\n通常施策は全品30％OFFと送料無料。初日の公式YouTube配信では製品解説と質問対応を行い、20:00～23:59限定で追加5％OFFクーポンを公開する。対象条件や在庫、対応機種は購入前に各商品ページで確認が必要となる。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://trinity.jp/campaign/1750/",
+          "value": "2026年11月19日"
+        },
+        {
+          "key": "store",
+          "source_url": "https://trinity.jp/campaign/1750/",
+          "value": "トリニティオンラインストア"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://trinity.jp/campaign/1750/",
+          "value": "2026年11月20日～11月27日"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://trinity.jp/campaign/1750/",
+          "value": "全品30％OFF・送料無料"
+        },
+        {
+          "key": "change",
+          "source_url": "https://trinity.jp/campaign/1750/",
+          "value": "11月20日20:00～23:59は追加5％OFFクーポン"
+        }
+      ],
+      "public_schedule": [
+        {
+          "channel": "トリニティ公式YouTubeチャンネル",
+          "date": "2026-11-20",
+          "source_url": "https://trinity.jp/campaign/1750/",
+          "time": "20:00～23:59"
+        }
+      ],
+      "public_schedule_complete": true,
+      "public_summary": "トリニティオンラインストアは、2026年11月20日から27日まで全品30％OFF・送料無料のブラックフライデー施策を実施。初日20:00～23:59には、公式YouTube配信で通常の割引に追加できる5％OFFクーポンを公開する。",
+      "published_date": "2026-11-19",
+      "slug": "a-196ee0db809c240e353a08c1",
+      "sources": [
+        {
+          "url": "https://trinity.jp/campaign/1750/",
+          "name": "trinity.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "トリニティ公式ストア、ブラックフライデーで全品30％OFF・送料無料―11月27日まで",
+      "updated_date": "2026-11-20",
+      "whats_new": "2026年11月19日に、11月20日開始の全品対象施策と初日限定クーポン配信を発表",
+      "world_card": {
+        "concept": "トリニティオンラインストアは、2026年11月20日から27日まで全品30％OFF・送料無料のブラックフライデー施策を実施。初日20:00～23:59には、公式YouTube配信で通常の割引に追加できる5％OFFクーポンを公開する。",
+        "key": "world_card:a-d035994766167ff8b0ba8df5",
+        "kicker": "OBJECT / DISCOVERY",
+        "meta": "",
+        "title": "トリニティ公式ストア、ブラックフライデーで全品30％OFF・送料無料―11月27日まで",
+        "variant": "signal"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
