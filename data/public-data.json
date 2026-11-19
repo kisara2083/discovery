@@ -391,6 +391,120 @@
         "music_live"
       ],
       "category": "music_live",
+      "city": "名古屋市",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://storage.fespli.dev/sakaespring2027/gcvmeyma5n60ww5bsp82d5q2mhhh",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://storage.fespli.dev/sakaespring2027/gcvmeyma5n60ww5bsp82d5q2mhhh",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "event_date": "2027-06-05",
+      "id": "a-3a13bb7c0faa1829287bb7bd",
+      "images": [
+        {
+          "caption": "SAKAE SP-RING 2027",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://storage.fespli.dev/sakaespring2027/gcvmeyma5n60ww5bsp82d5q2mhhh",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：SAKAE SP-RING 2027",
+            "source_name": "SAKAE SP-RING 2027 公式サイト",
+            "source_page": "https://sakaespring.com/news/1/",
+            "target": "SAKAE SP-RING 2027"
+          },
+          "relation": "article_specific",
+          "source_page": "https://sakaespring.com/news/1/",
+          "url": "https://storage.fespli.dev/sakaespring2027/gcvmeyma5n60ww5bsp82d5q2mhhh",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "note": "出演者・チケット詳細は後日発表",
+      "public_detail": "SAKAE SP-RINGは、ZIP-FMが2006年に始めた名古屋・栄のオムニバス・ライブサーキット。複数のライブハウスやクラブを会場に、街を移動しながら多数のアーティストの公演を選んで観る形式で、「新しい音楽との出会い」をコンセプトに掲げている。\n\n公式発表によると、例年およそ300組が出演し、2026年までの累計出演者は4400組以上。2027年も300組を超える出演を予定している。現時点では開催日と開催エリアまでが発表されており、出演者、各会場、チケットの詳細は今後、公式サイト、公式アプリ、公式SNSで案内される。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://sakaespring.com/news/1/",
+          "value": "2026年11月5日"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://sakaespring.com/news/1/",
+          "value": "ZIP-FM"
+        },
+        {
+          "key": "performers",
+          "source_url": "https://sakaespring.com/news/1/",
+          "value": "300組を超えるアーティストを予定"
+        },
+        {
+          "key": "program",
+          "source_url": "https://sakaespring.com/news/1/",
+          "value": "名古屋・栄一帯を巡るオムニバス・ライブサーキット"
+        }
+      ],
+      "public_schedule": [
+        {
+          "city": "名古屋市",
+          "date": "2027-06-05",
+          "source_url": "https://sakaespring.com/news/1/",
+          "venue": "名古屋・栄一帯のライブハウス・クラブ等"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2027-06-06",
+          "source_url": "https://sakaespring.com/news/1/",
+          "venue": "名古屋・栄一帯のライブハウス・クラブ等"
+        }
+      ],
+      "public_schedule_complete": true,
+      "public_summary": "ライブサーキット「SAKAE SP-RING 2027」が、2027年6月5日・6日に名古屋・栄一帯のライブハウスやクラブで開催される。300組を超えるアーティストの出演を予定し、出演者とチケットの詳細は後日発表。",
+      "published_date": "2026-11-19",
+      "slug": "a-3a13bb7c0faa1829287bb7bd",
+      "sources": [
+        {
+          "url": "https://sakaespring.com/news/1/",
+          "name": "sakaespring.com"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "SAKAE SP-RING 2027、6月5・6日に名古屋・栄で開催―300組超の出演を予定",
+      "updated_date": "2026-11-20",
+      "venue": "名古屋・栄一帯のライブハウス・クラブ等",
+      "whats_new": "2027年6月5日・6日の開催日程と名古屋・栄一帯での開催を発表",
+      "world_card": {
+        "concept": "ライブサーキット「SAKAE SP-RING 2027」が、2027年6月5日・6日に名古屋・栄一帯のライブハウスやクラブで開催される。300組を超えるアーティストの出演を予定し、出演者とチケットの詳細は後日発表。",
+        "key": "world_card:a-04f62e36327de28f6e84f168",
+        "kicker": "MUSIC / LIVE",
+        "meta": "2027-06-05 · 名古屋・栄一帯のライブハウス・クラブ等",
+        "title": "SAKAE SP-RING 2027、6月5・6日に名古屋・栄で開催―300組超の出演を予定",
+        "variant": "signal"
+      }
+    },
+    {
+      "categories": [
+        "music_live"
+      ],
+      "category": "music_live",
       "city": "東京",
       "display_selection": {
         "card_primary": {
