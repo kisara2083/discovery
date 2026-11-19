@@ -655,29 +655,29 @@
       ],
       "category": "games",
       "display_selection": {
+        "selector_version": 8,
         "card_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158883228382917966/01.png",
-          "kind": "image"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=QtBSumtUYbw"
         },
         "detail_primary": {
-          "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158883228382917966/01.png",
-          "kind": "image"
+          "kind": "media",
+          "key": "media:https://www.youtube.com/watch?v=QtBSumtUYbw"
         },
         "detail_secondary": [
           {
-            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158883211789013635/01.png",
-            "kind": "image"
+            "kind": "media",
+            "key": "media:https://x.com/ArknightsStaff/status/2120713881144447355"
           },
           {
-            "key": "media:https://www.youtube.com/watch?v=QtBSumtUYbw",
-            "kind": "media"
+            "kind": "image",
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158883228382917966/01.png"
           },
           {
-            "key": "media:https://x.com/ArknightsStaff/status/2120713881144447355",
-            "kind": "media"
+            "kind": "image",
+            "key": "image:https://webusstatic.yo-star.com/ark_jp_web/assets/158883211789013635/01.png"
           }
-        ],
-        "selector_version": 8
+        ]
       },
       "event_date": "2026-11-16",
       "id": "a-92b159bc855c8c63b18dea2c",
