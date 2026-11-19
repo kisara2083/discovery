@@ -217,19 +217,53 @@
       "category": "games",
       "display_selection": {
         "card_primary": {
-          "key": "media:https://store.steampowered.com/app/3103620/",
-          "kind": "media"
+          "key": "image:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3103620/b54c23c540dc3d8d14ffb94e14e70da775dabefa/header.jpg?t=1795058957",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "media:https://store.steampowered.com/app/3103620/",
-          "kind": "media"
+          "key": "image:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3103620/b54c23c540dc3d8d14ffb94e14e70da775dabefa/header.jpg?t=1795058957",
+          "kind": "image"
         },
-        "detail_secondary": [],
+        "detail_secondary": [
+          {
+            "key": "media:https://store.steampowered.com/app/3103620/",
+            "kind": "media"
+          }
+        ],
         "selector_version": 8
       },
       "event_date": "2026-11-19",
       "id": "a-0dd09f432c3ec490f775a311",
-      "images": [],
+      "images": [
+        {
+          "caption": "Witch the Showdown",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3103620/b54c23c540dc3d8d14ffb94e14e70da775dabefa/header.jpg?t=1795058957",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象作品を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "work_identity",
+            "role_label": "対象作品：Witch the Showdown",
+            "source_name": "Steam公式作品ページ",
+            "source_page": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+            "target": "Witch the Showdown"
+          },
+          "relation": "article_specific",
+          "source_page": "https://store.steampowered.com/app/3103620/Witch_the_Showdown/",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3103620/b54c23c540dc3d8d14ffb94e14e70da775dabefa/header.jpg?t=1795058957",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "work_identity"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "media": [
         {

@@ -1,1 +1,9 @@
-{"article_id": "a-580c2384c103eae8ef677a35", "dataset_digest": "5fc38fe90b0a80e409daf8581302bb627dda12d091644cdd07efcc760e4714e1", "expected_article_digest": "415a49db63aecfb155cef2a4f88f50034b3ffae1961ec3c6434c03d5e8cf5584", "maintenance_id": "vm-v1-f17aea4ce5a6102e7954544ee32331c7b9bb1753", "result_article_digest": "041b5075dd781c34875ff51e1b9d0315d05ab61740e4010c32babafc0b110ff7", "v": 1, "visual_digest": "c92866d217307ea36f2dbc0e15759a3ff4c0cf83ef1dbf88d561017c50ee31d1"}
+{
+  "article_id": "a-0dd09f432c3ec490f775a311",
+  "dataset_digest": "c07d62089601b26c01f9e025bed4c67fc66a1bba2141c80a7d204286696fa070",
+  "expected_article_digest": "786194602ca0dbeacdbf5ec8c1ef71f17ec74a66331554e6208e1d54d73c1dc2",
+  "maintenance_id": "vm-v1-49bc78adfc3c282be681d0b299572654590cdd8b",
+  "result_article_digest": "1ec365b1c5c8882c57dcd07ff0d405dd36759eba97cdeaf6fc5113a24cbce89d",
+  "v": 1,
+  "visual_digest": "98f500950af37229566e70ff2317bb32e64bc0501300eaa3f26d8678cdd244b5"
+}
