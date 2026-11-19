@@ -1,9 +1,1 @@
-{
-  "article_id": "a-0dd09f432c3ec490f775a311",
-  "dataset_digest": "c07d62089601b26c01f9e025bed4c67fc66a1bba2141c80a7d204286696fa070",
-  "expected_article_digest": "786194602ca0dbeacdbf5ec8c1ef71f17ec74a66331554e6208e1d54d73c1dc2",
-  "maintenance_id": "vm-v1-49bc78adfc3c282be681d0b299572654590cdd8b",
-  "result_article_digest": "1ec365b1c5c8882c57dcd07ff0d405dd36759eba97cdeaf6fc5113a24cbce89d",
-  "v": 1,
-  "visual_digest": "98f500950af37229566e70ff2317bb32e64bc0501300eaa3f26d8678cdd244b5"
-}
+{"article_id": "a-ae1e712bb73649ced3296ee4", "dataset_digest": "85868667a5d9513916fd7f69a81a68e980e8ab522fbda64c00fd5663f5b53012", "expected_article_digest": "22531a7f455842b2b6f6e98eb23a670b8ac0bdf6e576ef751f271b0cb999f939", "maintenance_id": "vm-v1-49c379f61139ef882f058ae43c3d4ed09af1a567", "result_article_digest": "c1c7532a9fc7069ce71c97030925f6806ccfc8619abc3a4a383f07ddbe1dd0b0", "v": 1, "visual_digest": "adfd3b670eaffe06fc90d6bfc33d3f4edf54a961f956e039b5f61576e50b6353"}

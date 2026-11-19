@@ -574,12 +574,12 @@
       "deadline_at": "2026-11-19",
       "display_selection": {
         "card_primary": {
-          "key": "world_card:a-261774f5fe5ccac6e95c8705",
-          "kind": "world_card"
+          "key": "image:https://item-shopping.c.yimg.jp/i/n/neowing_neobk-2936135",
+          "kind": "image"
         },
         "detail_primary": {
-          "key": "world_card:a-261774f5fe5ccac6e95c8705",
-          "kind": "world_card"
+          "key": "image:https://item-shopping.c.yimg.jp/i/n/neowing_neobk-2936135",
+          "kind": "image"
         },
         "detail_secondary": [],
         "selector_version": 8
@@ -587,7 +587,36 @@
       "end_at": "2026-11-19",
       "event_date": "2026-11-06",
       "id": "a-ae1e712bb73649ced3296ee4",
-      "images": [],
+      "images": [
+        {
+          "caption": "対象商品の一例：今井翔太『生成AIで世界はこう変わる』（同一対象の参考画像）",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://item-shopping.c.yimg.jp/i/n/neowing_neobk-2936135",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象商品の一例を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "representative_child",
+            "role_label": "対象商品の一例：今井翔太『生成AIで世界はこう変わる』",
+            "source_name": "ネオウィング Yahoo!店（紙版書影）",
+            "source_page": "https://store.shopping.yahoo.co.jp/neowing/neobk-2936135.html",
+            "target": "今井翔太『生成AIで世界はこう変わる』"
+          },
+          "relation": "reference_same_entity",
+          "source_page": "https://store.shopping.yahoo.co.jp/neowing/neobk-2936135.html",
+          "url": "https://item-shopping.c.yimg.jp/i/n/neowing_neobk-2936135",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "reference",
+            "entity_match": true,
+            "official_source": false,
+            "relation": "reference_same_entity",
+            "source_revalidated": true
+          },
+          "visual_role": "representative_child"
+        }
+      ],
       "lifecycle": "ACTIVE",
       "public_detail": "Amazon Kindleストアの「Kindle本 499円セール」は、対象の電子書籍を税込499円で販売する期間限定キャンペーン。複数のセール案内によると、会期は2026年11月6日から11月19日23:59（日本時間）まで。Amazon公式のキャンペーンページにも同名の企画が掲載されている。対象作品全体の点数は集計サイトによって異なるため、ここでは確定値を示さない。\n\n対象例の一つである今井翔太著『生成AIで世界はこう変わる』（SB新書）は、生成AIが仕事、暮らし、文化に及ぼす変化を研究者の立場から扱う新書。Amazonの商品ページではKindle版499円、通常の表示価格から55％引きと案内されている。\n\nもう一冊の桃野雑派著『星くずの殺人』（講談社文庫）は、クローズドサークルの仕掛けを用いた長編ミステリー。Amazonの商品ページではKindle版499円、44％引きと表示されている。セール対象と価格、読み放題の扱いは書籍ごとに異なるため、購入前に各商品のKindle版の表示を確認する必要がある。",
       "public_facts": [
@@ -681,7 +710,8 @@
         "meta": "2026-11-06",
         "title": "Amazonの「Kindle本 499円セール」、11月19日23:59に終了予定",
         "variant": "orbit"
-      }
+      },
+      "media": []
     },
     {
       "categories": [
