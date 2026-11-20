@@ -860,6 +860,175 @@
     },
     {
       "categories": [
+        "local_family"
+      ],
+      "category": "local_family",
+      "city": "名古屋市",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/images/4f50455fc06a9bbb581c84393c9d9307eec6c579.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/images/4f50455fc06a9bbb581c84393c9d9307eec6c579.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "end_at": "2026-12-23",
+      "event_date": "2026-12-01",
+      "id": "a-47d4b632ad2241b64f80798b",
+      "images": [
+        {
+          "caption": "メタモンになりきり！『ぽこ あ ポケモン』街づくり体験会",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/images/4f50455fc06a9bbb581c84393c9d9307eec6c579.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：メタモンになりきり！『ぽこ あ ポケモン』街づくり体験会",
+            "source_name": "ポケモンセンターナゴヤ公式サイト",
+            "source_page": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+            "target": "メタモンになりきり！『ぽこ あ ポケモン』街づくり体験会"
+          },
+          "relation": "article_specific",
+          "source_page": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/images/4f50455fc06a9bbb581c84393c9d9307eec6c579.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_detail": "ポケモンセンター各店で11月20日から始まる「いっしょにホリデー！」では、年末年始にかけてゲーム体験やグリーティングなどを展開する。ポケモンセンターナゴヤの店舗別予定には、『ぽこ あ ポケモン』の「メタモンになりきり！街づくり体験会」が掲載された。\n\nこの体験会では、ローカル通信を使って最大4人で協力し、メタモンとして街づくりを体験できる。任天堂のゲーム機やソフトを持っていなくても参加可能で、会場の貸出用Nintendo Switch 2とソフトを使用する。1回約15分の予定で、対象年齢などの参加制限は設けられていない。\n\n開催日は12月1・2・8・9・14・15・16・22・23日の計9日間で、いずれも10時から17時まで。受付は16時30分までで、会場に直接来店して申し込む形式。店舗の混雑や定員によって整理券配布・受付終了や内容変更がある。なお別日には『Pokémon LEGENDS Z-A』の対戦イベントも予定されており、催しごとに日程と参加条件が異なる。",
+      "public_facts": [
+        {
+          "key": "program",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "value": "『ぽこ あ ポケモン』で最大4人のローカル通信・街づくり体験"
+        },
+        {
+          "key": "format",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "value": "1回約15分の体験会"
+        },
+        {
+          "key": "eligibility",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "value": "どなたでも参加可能。機器・ゲームソフトの持参不要"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "value": "12月1・2・8・9・14・15・16・22・23日の指定9日間"
+        },
+        {
+          "key": "region",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "value": "愛知県名古屋市・ポケモンセンターナゴヤ"
+        }
+      ],
+      "public_schedule": [
+        {
+          "city": "名古屋市",
+          "date": "2026-12-01",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "time": "10:00～17:00（受付16:30まで）",
+          "venue": "ポケモンセンターナゴヤ"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-12-02",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "time": "10:00～17:00（受付16:30まで）",
+          "venue": "ポケモンセンターナゴヤ"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-12-08",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "time": "10:00～17:00（受付16:30まで）",
+          "venue": "ポケモンセンターナゴヤ"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-12-09",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "time": "10:00～17:00（受付16:30まで）",
+          "venue": "ポケモンセンターナゴヤ"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-12-14",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "time": "10:00～17:00（受付16:30まで）",
+          "venue": "ポケモンセンターナゴヤ"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-12-15",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "time": "10:00～17:00（受付16:30まで）",
+          "venue": "ポケモンセンターナゴヤ"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-12-16",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "time": "10:00～17:00（受付16:30まで）",
+          "venue": "ポケモンセンターナゴヤ"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-12-22",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "time": "10:00～17:00（受付16:30まで）",
+          "venue": "ポケモンセンターナゴヤ"
+        },
+        {
+          "city": "名古屋市",
+          "date": "2026-12-23",
+          "source_url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "time": "10:00～17:00（受付16:30まで）",
+          "venue": "ポケモンセンターナゴヤ"
+        }
+      ],
+      "public_schedule_complete": true,
+      "public_summary": "ポケモンセンターナゴヤでは、11月20日開始の「いっしょにホリデー！」に合わせ、12月1日から23日までの指定9日間に『ぽこ あ ポケモン』の街づくり体験会を開催する。最大4人のマルチプレイを楽しめ、ゲーム機やソフトの持参は不要。",
+      "published_date": "2026-11-20",
+      "slug": "a-47d4b632ad2241b64f80798b",
+      "sources": [
+        {
+          "url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-nagoya/events/202611/000689.html",
+          "name": "shop.pokemon.co.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "ポケモンセンターナゴヤ、12月に『ぽこ あ ポケモン』街づくり体験会を9日間開催",
+      "updated_date": "2026-11-20",
+      "venue": "ポケモンセンターナゴヤ",
+      "world_card": {
+        "concept": "ポケモンセンターナゴヤでは、11月20日開始の「いっしょにホリデー！」に合わせ、12月1日から23日までの指定9日間に『ぽこ あ ポケモン』の街づくり体験会を開催する。最大4人のマルチプレイを楽しめ、ゲーム機やソフトの持参は不要。",
+        "key": "world_card:a-da03c51131bf1e3d47a8aee8",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "ポケモンセンターナゴヤ",
+        "title": "ポケモンセンターナゴヤ、12月に『ぽこ あ ポケモン』街づくり体験会を9日間開催",
+        "variant": "orbit"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
