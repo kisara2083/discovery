@@ -574,6 +574,146 @@
       ],
       "category": "local_family",
       "city": "名古屋市",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://www.indonesiajapanfriendfest.com/assets/img/flyer-2026.webp",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://www.indonesiajapanfriendfest.com/assets/img/flyer-2026.webp",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "end_at": "2026-11-23",
+      "event_date": "2026-11-21",
+      "id": "a-235b0a71538cb18f1e4633aa",
+      "images": [
+        {
+          "caption": "INDONESIA JAPAN FRIENDSHIP FESTIVAL 2026 in 名古屋",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.indonesiajapanfriendfest.com/assets/img/flyer-2026.webp",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：INDONESIA JAPAN FRIENDSHIP FESTIVAL 2026 in 名古屋",
+            "source_name": "INDONESIA JAPAN FRIENDSHIP FESTIVAL 2026 in 名古屋 公式サイト",
+            "source_page": "https://www.indonesiajapanfriendfest.com/",
+            "target": "INDONESIA JAPAN FRIENDSHIP FESTIVAL 2026 in 名古屋"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.indonesiajapanfriendfest.com/",
+          "url": "https://www.indonesiajapanfriendfest.com/assets/img/flyer-2026.webp",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "price_terms": "入場無料（飲食・一部コンテンツは有料）",
+      "public_detail": "インドネシアと日本の文化交流を目的とする3日間のフェスティバル。ステージでは、インドネシアの伝統舞踊「ポノロゴのレオグ」、ダンドゥット、各地の民族舞踊に加え、日本の武将隊、伝統芸能、和太鼓などを紹介する。\n\n会場には、ナシゴレン、サテ、ルンダン、バクソスープ、バクワンなどの飲食店が並ぶ。バティックやソンケット織物などの展示・販売、観光・教育・ビジネスを紹介するワークショップやブースも予定されている。入場は無料で、飲食と一部コンテンツは有料。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://www.walkerplus.com/article/1457623/",
+          "value": "2026年11月18日（ウォーカープラス掲載）"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://www.indonesiajapanfriendfest.com/",
+          "value": "インドネシア・ジャパン・フレンドシップ2026 in 名古屋 実行委員会"
+        },
+        {
+          "key": "program",
+          "source_url": "https://www.indonesiajapanfriendfest.com/",
+          "value": "ポノロゴのレオグ、ダンドゥット、民族舞踊、武将隊、伝統芸能・和太鼓、飲食・展示販売・ワークショップ"
+        },
+        {
+          "key": "admission",
+          "source_url": "https://www.walkerplus.com/article/1457623/",
+          "value": "入場無料（飲食・一部コンテンツは有料）"
+        },
+        {
+          "key": "format",
+          "source_url": "https://www.indonesiajapanfriendfest.com/",
+          "value": "インドネシアと日本の文化交流フェスティバル"
+        },
+        {
+          "key": "address",
+          "source_url": "https://www.indonesiajapanfriendfest.com/",
+          "value": "愛知県名古屋市中区栄3丁目65"
+        }
+      ],
+      "public_schedule": [
+        {
+          "channel": "フェスティバル",
+          "city": "名古屋市",
+          "date": "2026-11-21",
+          "source_url": "https://www.indonesiajapanfriendfest.com/",
+          "time": "10:00～19:00",
+          "venue": "久屋大通公園 エディオン久屋広場"
+        },
+        {
+          "channel": "フェスティバル",
+          "city": "名古屋市",
+          "date": "2026-11-22",
+          "source_url": "https://www.indonesiajapanfriendfest.com/",
+          "time": "10:00～19:00",
+          "venue": "久屋大通公園 エディオン久屋広場"
+        },
+        {
+          "channel": "フェスティバル",
+          "city": "名古屋市",
+          "date": "2026-11-23",
+          "source_url": "https://www.indonesiajapanfriendfest.com/",
+          "time": "10:00～19:00",
+          "venue": "久屋大通公園 エディオン久屋広場"
+        }
+      ],
+      "public_schedule_complete": false,
+      "public_summary": "インドネシアと日本の文化交流イベントが、久屋大通公園エディオン久屋広場で11月21日から23日まで開催される。",
+      "published_date": "2026-11-20",
+      "slug": "a-235b0a71538cb18f1e4633aa",
+      "sources": [
+        {
+          "url": "https://www.indonesiajapanfriendfest.com/",
+          "name": "www.indonesiajapanfriendfest.com"
+        },
+        {
+          "url": "https://www.walkerplus.com/article/1457623/",
+          "name": "www.walkerplus.com"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "INDONESIA JAPAN FRIENDSHIP FESTIVAL 2026 in 名古屋、久屋大通公園で11月21日から3日間開催",
+      "updated_date": "2026-11-21",
+      "venue": "久屋大通公園 エディオン久屋広場",
+      "world_card": {
+        "concept": "インドネシアと日本の文化交流イベントが、久屋大通公園エディオン久屋広場で11月21日から23日まで開催される。",
+        "key": "world_card:a-56338f7982747e799d4d7e50",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "2026-11-21 · 久屋大通公園 エディオン久屋広場",
+        "title": "INDONESIA JAPAN FRIENDSHIP FESTIVAL 2026 in 名古屋、久屋大通公園で11月21日から3日間開催",
+        "variant": "orbit"
+      }
+    },
+    {
+      "categories": [
+        "local_family"
+      ],
+      "category": "local_family",
+      "city": "名古屋市",
       "deadline_at": "2026-11-27",
       "display_selection": {
         "card_primary": {
