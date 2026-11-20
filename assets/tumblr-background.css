@@ -1,8 +1,8 @@
 /* DISCOVERY Tumblr backdrop, stage 3.1 layout refinement.
  * Image, opacity and fitting are replaceable; no runtime/API changes. */
 :root {
-  --discovery-background-image: url("https://64.media.tumblr.com/2945e210bb1f54bd6546f0fa9e714297/tumblr_o1k8476yFz1rxu7iuo1_1280.jpg");
-  --discovery-background-opacity: .23;
+  --discovery-background-image: url("https://64.media.tumblr.com/22c77a490065afd0877d95d25a102ca5/tumblr_o57u530gJm1rmusrdo1_1280.jpg");
+  --discovery-background-opacity: .35;
   --discovery-background-position: center center;
   --discovery-background-size: contain;
   --discovery-background-bleed: 5vw;
