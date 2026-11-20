@@ -1,45 +1,89 @@
-/* Stage 3.1: one fixed background image sourced from a public room #51 post.
- * Presentation-only, no live API, no random choices, no background animation.
- * To replace image, opacity, framing, edit variables here; to disable, unlink stylesheet.
- * The list-only :has guard keeps Article Detail unmodified.
- */
+/* DISCOVERY Tumblr backdrop, stage 3.1 layout refinement.
+ * Image, opacity and fitting are replaceable; no runtime/API changes. */
 :root {
   --discovery-background-image: url("https://64.media.tumblr.com/2945e210bb1f54bd6546f0fa9e714297/tumblr_o1k8476yFz1rxu7iuo1_1280.jpg");
   --discovery-background-opacity: .23;
   --discovery-background-position: center center;
-  --discovery-background-size: cover;
+  --discovery-background-size: contain;
+  --discovery-background-bleed: 5vw;
+  --discovery-mobile-card-inset: 6vw;
 }
-body:has(#content>.grid) { isolation: isolate; }
-body:has(#content>.grid)::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background-image: var(--discovery-background-image);
-  background-position: var(--discovery-background-position);
-  background-size: var(--discovery-background-size);
-  background-repeat: no-repeat;
-  opacity: var(--discovery-background-opacity);
+/* Header, filters and section title sit on one continuous white canvas. */
+body:has(#content>.grid) > main { background:#fff !important; }
+body:has(#content>.grid) #content > .grid { position:relative; isolation:isolate; }
+/* Draw the viewport-fixed picture only in the article grid and its gaps. */
+body:has(#content>.grid) #content > .grid::before {
+  content:"";
+  position:absolute;
+  inset:0 calc(-1 * var(--discovery-background-bleed));
+  z-index:-1;
+  pointer-events:none;
+  background-color:#f7f7f7;
+  background-image:var(--discovery-background-image);
+  background-position:var(--discovery-background-position);
+  background-size:var(--discovery-background-size);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  opacity:var(--discovery-background-opacity);
 }
-body:has(#content>.grid) > main {
-  background: transparent !important;
-  position: relative;
-  z-index: 1;
+body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { background:#fff!important; }
+@media(max-width:760px) {
+  :root { --discovery-background-bleed:6vw; }
+  /* Full-bleed rectangles: metadata, visual and text have identical width. */
+  body:has(#content>.grid) #content > .grid > .card {
+    box-sizing:border-box!important;
+    width:calc(100% + 12vw)!important;
+    max-width:none!important;
+    margin-left:-6vw!important;
+    margin-right:-6vw!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    background:#fff!important;
+  }
+  body:has(#content>.grid) #content > .grid > .card > .card-meta {
+    box-sizing:border-box!important;
+    width:100%!important;
+    margin:0!important;
+    padding:10px var(--discovery-mobile-card-inset) 9px!important;
+    background:#fff!important;
+  }
+  body:has(#content>.grid) #content > .grid > .card > .card-visual,
+  body:has(#content>.grid) #content > .grid > .card > a.visual-link,
+  body:has(#content>.grid) #content > .grid > .card:has(.world-card) > a:first-child {
+    display:block;
+    box-sizing:border-box!important;
+    width:100%!important;
+    max-width:none!important;
+    margin:0!important;
+  }
+  body:has(#content>.grid) #content > .grid > .card > a.visual-link > .card-visual {
+    width:100%!important;
+    margin:0!important;
+  }
+  body:has(#content>.grid) #content > .grid > .card > .card-source,
+  body:has(#content>.grid) #content > .grid > .card > .quote-credit {
+    box-sizing:border-box!important;
+    width:100%!important;
+    margin:0!important;
+    padding:6px var(--discovery-mobile-card-inset) 0!important;
+    background:#fff!important;
+  }
+  body:has(#content>.grid) #content > .grid > .card > .body {
+    display:block!important;
+    box-sizing:border-box!important;
+    width:100%!important;
+    margin:0!important;
+    padding:10px var(--discovery-mobile-card-inset) 20px!important;
+    background:#fff!important;
+  }
 }
-/* Preserve white editorial reading surfaces. Only the surrounding air is exposed. */
-body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)),
-body:has(#content>.grid) .editorial-foreground > .controls,
-body:has(#content>.grid) .editorial-foreground > #taxonomy,
-body:has(#content>.grid) #content > .section-title {
-  background: #fff !important;
-}
-.discovery-background-credit { display: none; }
+.discovery-background-credit { display:none; }
 body:has(#content>.grid) .discovery-background-credit {
-  display: inline-block;
-  font: 10px/1.6 Arial,sans-serif;
-  color: #666;
-  margin-top: 9px;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  display:inline-block;
+  font:10px/1.6 Arial,sans-serif;
+  color:#666;
+  margin-top:9px;
+  text-decoration:underline;
+  text-underline-offset:3px;
 }
