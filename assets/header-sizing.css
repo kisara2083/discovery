@@ -1,0 +1,18 @@
+/* DISCOVERY header sizing: independent of glass/scroll/background effects.
+ * Adjust these three tokens or remove this stylesheet to restore the prior size. */
+:root {
+  --discovery-header-pad-desktop: 22px;
+  --discovery-header-pad-mobile: 16px;
+  --discovery-header-nav-gap-mobile: 16px;
+}
+body > header {
+  padding-top: var(--discovery-header-pad-desktop) !important;
+  padding-bottom: var(--discovery-header-pad-desktop) !important;
+}
+@media (max-width:760px) {
+  body > header {
+    padding-top: var(--discovery-header-pad-mobile) !important;
+    padding-bottom: var(--discovery-header-pad-mobile) !important;
+  }
+  body > header nav { margin-top: var(--discovery-header-nav-gap-mobile) !important; }
+}

@@ -7,7 +7,10 @@
     listingOnly: true,
     directionThreshold: 8,
     nearTop: 64,
-    hideAfterHeader: 12
+    hideAfterHeader: 12,
+    mobileDirectionThreshold: 6,
+    mobileNearTop: 24,
+    mobileHideFromY: 56
   });
   const header = document.querySelector('body > header');
   if (!header || !SETTINGS.enabled) return;
@@ -26,13 +29,16 @@
     queued = false;
     if (!syncScope()) { anchorY = Math.max(0, window.scrollY); return; }
     const y = Math.max(0, window.scrollY);
-    if (y <= SETTINGS.nearTop || header.querySelector(':focus-visible')) {
+    const isMobile = window.matchMedia('(max-width:760px)').matches;
+    const topLimit = isMobile ? SETTINGS.mobileNearTop : SETTINGS.nearTop;
+    if (y <= topLimit || header.querySelector(':focus-visible')) {
       show(); anchorY = y; return;
     }
     const delta = y - anchorY;
-    if (Math.abs(delta) < SETTINGS.directionThreshold) return;
+    const minDelta = isMobile ? SETTINGS.mobileDirectionThreshold : SETTINGS.directionThreshold;
+    if (Math.abs(delta) < minDelta) return;
     if (delta < 0) show();
-    else if (y > header.offsetHeight + SETTINGS.hideAfterHeader) header.classList.add('is-header-hidden');
+    else if (y > (isMobile ? SETTINGS.mobileHideFromY : header.offsetHeight + SETTINGS.hideAfterHeader)) header.classList.add('is-header-hidden');
     anchorY = y;
   };
   const schedule = () => {
