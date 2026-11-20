@@ -7,7 +7,7 @@
   'use strict';
   const SETTINGS = Object.freeze({
     scrollRatio: 0.02,   // 2px movement per 100px of document scrolling
-    maxTravelPx: 20     // never move more than 20px
+    maxTravelPx: 80     // wider travel; the 2% scrolling speed is unchanged
   });
   const motionAllowed = window.matchMedia(
     '(min-width:1181px) and (prefers-reduced-motion: no-preference)'
@@ -38,6 +38,26 @@
   window.addEventListener('resize', schedule, {passive:true});
   window.addEventListener('hashchange', schedule);
   window.addEventListener('pageshow', schedule);
+  /* Mobile-only visual layer: generated on each list render, not on scroll.
+   * The clipping wrapper is positioned absolutely; it never becomes a grid item. */
+  const mobile = window.matchMedia('(max-width:760px)');
+  const content = document.getElementById('content');
+  const mountMobileBackdrop = () => {
+    if (!mobile.matches || !content) return;
+    const grid = content.querySelector(':scope > .grid');
+    if (!grid || grid.querySelector(':scope > .discovery-mobile-backdrop')) return;
+    const layer = document.createElement('div');
+    layer.className = 'discovery-mobile-backdrop';
+    layer.setAttribute('aria-hidden', 'true');
+    const image = document.createElement('div');
+    image.className = 'discovery-mobile-backdrop-image';
+    layer.append(image);
+    grid.prepend(layer);
+  };
+  if (content) new MutationObserver(mountMobileBackdrop)
+    .observe(content, {childList:true});
+  mobile.addEventListener?.('change', mountMobileBackdrop);
+  mountMobileBackdrop();
   motionAllowed.addEventListener?.('change', schedule);
   schedule();
 })();

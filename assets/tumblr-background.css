@@ -91,6 +91,35 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     top: calc(-1 * var(--discovery-desktop-feed-top-gap));
   }
 }
+/* Mobile: non-scrolling absolute clip with a viewport-sticky image.
+ * Avoid mobile background-attachment:fixed, which can cause jitter during
+ * momentum scrolling. This decor is outside the masonry item flow. */
+.discovery-mobile-backdrop { display:none; }
+@media(max-width:760px) {
+  body:has(#content>.grid) #content > .grid::before {
+    content:none;
+  }
+  body:has(#content>.grid) #content > .grid > .discovery-mobile-backdrop {
+    display:block;
+    position:absolute;
+    inset:0 -6vw;
+    overflow:clip;
+    z-index:-1;
+    pointer-events:none;
+  }
+  body:has(#content>.grid) #content > .grid > .discovery-mobile-backdrop > .discovery-mobile-backdrop-image {
+    position:sticky;
+    top:0;
+    height:100vh;
+    background-color:#f7f7f7;
+    background-image:var(--discovery-background-image);
+    background-size:var(--discovery-background-size);
+    background-position:var(--discovery-background-position);
+    background-repeat:no-repeat;
+    opacity:var(--discovery-background-opacity);
+    will-change:transform;
+  }
+}
 @media(max-width:760px) {
   :root { --discovery-background-bleed:6vw; }
   /* Full-bleed rectangles: metadata, visual and text have identical width. */
