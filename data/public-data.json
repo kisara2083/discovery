@@ -1430,6 +1430,123 @@
     },
     {
       "categories": [
+        "local_family"
+      ],
+      "category": "local_family",
+      "city": "名古屋市中区",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://sakaechristmas.com/img/cmn/logo.webp",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://sakaechristmas.com/img/cmn/logo.webp",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "end_at": "2026-12-19",
+      "event_date": "2026-12-19",
+      "id": "a-3ce6de5517233e0c2782a33f",
+      "images": [
+        {
+          "caption": "SAKAE Christmas Memories 2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://sakaechristmas.com/img/cmn/logo.webp",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：SAKAE Christmas Memories 2026",
+            "source_name": "SAKAE Christmas Memories 2026 公式サイト",
+            "source_page": "https://sakaechristmas.com/02_ornament/",
+            "target": "SAKAE Christmas Memories 2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://sakaechristmas.com/02_ornament/",
+          "url": "https://sakaechristmas.com/img/cmn/logo.webp",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_detail": "名古屋・栄エリアで開催中の「SAKAE Christmas Memories 2026」は、2026年12月19日（土）に松坂屋名古屋店南館8階のマツザカヤホールで「最大のクリスマスオーナメント交換会」を開催する。交換会は13:30～15:00、開場は12:30。定員は500人で、事前入場エントリー制となる。\n\n企画はオーナメントを交換する参加人数の世界記録更新を目指すもの。主催者は360人を超えれば記録更新になると案内している。当日は13:00からオープニングコンサート、13:30から交換会、14:00からジャズコンサート、14:30から結果発表を予定する。\n\n参加には、事前に公式ワークショップで交換用オーナメントを作る必要がある。ワークショップは11月28日から12月13日まで、愛知芸術文化センター、HAERA、中部電力 MIRAI TOWER、中日ビル、松坂屋名古屋店など栄周辺の複数会場で開催。自動車部品や製靴用皮革の端材を使うアップサイクル制作、木製オーナメントの着色など、会場ごとに内容が異なる。\n\n交換会の事前入場受付は11月28日10:00開始予定。ワークショップの多くは事前予約優先で、予約不要・材料がなくなり次第終了する会場もある。参加条件と各回の時刻・定員は公式サイトで確認できる。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004087.000025003.html",
+          "value": "2026年11月20日"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004087.000025003.html",
+          "value": "J.フロント リテイリンググループ（松坂屋名古屋店・名古屋PARCO・HAERAほか）"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://sakaechristmas.com/02_ornament/",
+          "value": "オーナメント交換会は2026年12月19日13:30～15:00（12:30開場）"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://sakaechristmas.com/02_ornament/",
+          "value": "定員500人・事前入場エントリー制。受付は11月28日10:00開始予定"
+        },
+        {
+          "key": "program",
+          "source_url": "https://sakaechristmas.com/02_ornament/",
+          "value": "オーナメント交換会、オープニングコンサート、ジャズコンサート、世界記録挑戦の結果発表"
+        },
+        {
+          "key": "format",
+          "source_url": "https://sakaechristmas.com/02_ornament/",
+          "value": "参加には事前の公式ワークショップで交換用オーナメントの作成が必要"
+        },
+        {
+          "key": "address",
+          "source_url": "https://sakaechristmas.com/02_ornament/",
+          "value": "松坂屋名古屋店 南館8階 マツザカヤホール（名古屋市中区）"
+        }
+      ],
+      "public_summary": "栄エリアのクリスマス企画「SAKAE Christmas Memories 2026」は、2026年12月19日に松坂屋名古屋店でクリスマスオーナメント交換会を開催する。参加人数による世界記録更新を目指し、11月28日から栄周辺施設で交換用オーナメントを作る公式ワークショップを行う。",
+      "published_date": "2026-11-20",
+      "slug": "a-3ce6de5517233e0c2782a33f",
+      "sources": [
+        {
+          "url": "https://sakaechristmas.com/02_ornament/",
+          "name": "sakaechristmas.com"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000004087.000025003.html",
+          "name": "prtimes.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "SAKAE Christmas Memories、12月19日にオーナメント交換会で世界記録へ挑戦",
+      "updated_date": "2026-11-20",
+      "venue": "松坂屋名古屋店 南館8階 マツザカヤホール",
+      "world_card": {
+        "concept": "栄エリアのクリスマス企画「SAKAE Christmas Memories 2026」は、2026年12月19日に松坂屋名古屋店でクリスマスオーナメント交換会を開催する。参加人数による世界記録更新を目指し、11月28日から栄周辺施設で交換用オーナメントを作る公式ワークショップを行う。",
+        "key": "world_card:a-4677fb52c1ab3cdb74e2184a",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "松坂屋名古屋店 南館8階 マツザカヤホール",
+        "title": "SAKAE Christmas Memories、12月19日にオーナメント交換会で世界記録へ挑戦",
+        "variant": "orbit"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
