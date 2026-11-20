@@ -67,6 +67,27 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     background-attachment: fixed, fixed;
   }
 }
+/* Desktop spacing controls; independent of the image and mobile cards.
+ * Make the first reveal a visible breathing space below the list heading.
+ * Wider lanes of backdrop separate the white article cards. */
+@media (min-width:1181px) {
+  :root {
+    --discovery-desktop-feed-top-gap: 52px;
+    --discovery-desktop-lane-gap: 34px;
+    --discovery-desktop-side-gutter: clamp(38px, 2.8vw, 56px);
+  }
+  body:has(#content>.grid) > main {
+    padding-left: var(--discovery-desktop-side-gutter) !important;
+    padding-right: var(--discovery-desktop-side-gutter) !important;
+  }
+  body:has(#content>.grid) #content > .grid {
+    margin-top: var(--discovery-desktop-feed-top-gap) !important;
+    column-gap: var(--discovery-desktop-lane-gap) !important;
+  }
+  body:has(#content>.grid) #content > .grid::before {
+    top: calc(-1 * var(--discovery-desktop-feed-top-gap));
+  }
+}
 @media(max-width:760px) {
   :root { --discovery-background-bleed:6vw; }
   /* Full-bleed rectangles: metadata, visual and text have identical width. */
