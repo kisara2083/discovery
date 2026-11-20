@@ -738,6 +738,128 @@
     },
     {
       "categories": [
+        "local_family"
+      ],
+      "category": "local_family",
+      "city": "名古屋市中区",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://www.tokai-tv.com/xmasmarket/img/top_logo.png",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://www.tokai-tv.com/xmasmarket/img/top_logo.png",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "end_at": "2026-12-25",
+      "event_date": "2026-12-04",
+      "id": "a-13ee79e933f0acf2b198e0b4",
+      "images": [
+        {
+          "caption": "名古屋クリスマスマーケット2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.tokai-tv.com/xmasmarket/img/top_logo.png",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：名古屋クリスマスマーケット2026",
+            "source_name": "東海テレビ放送・名古屋クリスマスマーケット公式サイト",
+            "source_page": "https://www.tokai-tv.com/xmasmarket/",
+            "target": "名古屋クリスマスマーケット2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.tokai-tv.com/xmasmarket/",
+          "url": "https://www.tokai-tv.com/xmasmarket/img/top_logo.png",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_detail": "「名古屋クリスマスマーケット2026」は、2026年12月4日（金）から12月25日（金）まで22日間、名古屋・栄の久屋大通公園のエディオン久屋広場とエンゼル広場で開催される。主催は東海テレビ放送と中日新聞社で、今年が12回目の開催。入場は無料だが、飲食・物販・アトラクションは有料となる。\n\nエディオン久屋広場には大きな生モミの木のクリスマスツリーを設置。エンゼル広場には「午後の紅茶」の限定ショップが初出店し、ピスタチオとベリーの限定ドリンクなど全6種類を販売する。クレープ専門店も初登場。クリスマスの菓子や焼きソーセージ、ドイツ料理、輸入雑貨も並ぶ。\n\n体験型の催しではメリーゴーラウンドが復活し、今年新登場の「ふわふわサンタ」やフォトスポットも楽しめる。会期中の土日と12月24・25日にはサンタクロースとの写真撮影を予定しており、各回先着50組まで。天候により中止・変更の場合がある。\n\n営業時間は平日16:00～21:00、土日11:00～21:00、12月24・25日は14:00～21:00。主催者は荒天時に時間短縮や中止となる場合があると案内している。会場内のペットのテント同伴制限や持ち込み禁止品などは公式案内で確認できる。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000667.000012860.html",
+          "value": "2026年11月13日"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://www.tokai-tv.com/xmasmarket/",
+          "value": "東海テレビ放送・中日新聞社"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000667.000012860.html",
+          "value": "2026年12月4日～25日（22日間）"
+        },
+        {
+          "key": "admission",
+          "source_url": "https://www.tokai-tv.com/xmasmarket/",
+          "value": "入場無料。飲食・物販・アトラクションは別料金"
+        },
+        {
+          "key": "program",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000667.000012860.html",
+          "value": "生モミの木のツリー、限定ティーショップ・クレープ店、メリーゴーラウンドなど"
+        },
+        {
+          "key": "format",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000667.000012860.html",
+          "value": "平日16:00～21:00／土日11:00～21:00／12月24・25日14:00～21:00"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000667.000012860.html",
+          "value": "土日と12月24・25日はサンタと写真撮影を予定、各回先着50組"
+        },
+        {
+          "key": "address",
+          "source_url": "https://www.tokai-tv.com/xmasmarket/",
+          "value": "久屋大通公園 エディオン久屋広場・エンゼル広場（名古屋市中区栄）"
+        }
+      ],
+      "public_summary": "東海テレビ放送と中日新聞社は、久屋大通公園で2026年12月4日から25日まで「名古屋クリスマスマーケット2026」を開催する。会場はエディオン久屋広場とエンゼル広場で入場無料。今年は生モミの木のツリーに加え、エンゼル広場に限定ティーショップやクレープ店が初登場し、メリーゴーラウンドも復活する。",
+      "published_date": "2026-11-20",
+      "slug": "a-13ee79e933f0acf2b198e0b4",
+      "sources": [
+        {
+          "url": "https://www.tokai-tv.com/xmasmarket/",
+          "name": "www.tokai-tv.com"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000667.000012860.html",
+          "name": "prtimes.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "名古屋クリスマスマーケット2026、12月4日開幕　メリーゴーラウンド復活",
+      "updated_date": "2026-11-20",
+      "venue": "久屋大通公園 エディオン久屋広場・エンゼル広場",
+      "world_card": {
+        "concept": "東海テレビ放送と中日新聞社は、久屋大通公園で2026年12月4日から25日まで「名古屋クリスマスマーケット2026」を開催する。会場はエディオン久屋広場とエンゼル広場で入場無料。今年は生モミの木のツリーに加え、エンゼル広場に限定ティーショップやクレープ店が初登場し、メリーゴーラウンドも復活する。",
+        "key": "world_card:a-5211f5de6a720c37cd4b31b6",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "久屋大通公園 エディオン久屋広場・エンゼル広場",
+        "title": "名古屋クリスマスマーケット2026、12月4日開幕　メリーゴーラウンド復活",
+        "variant": "orbit"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
