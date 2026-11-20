@@ -70,12 +70,30 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
       center calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
+/* Stage 4.2 PC strip: reveal the randomly chosen photo only between
+ * the list heading/count and the first article. The remaining feed is white.
+ * This uses the original fixed-size image and existing parallax CSS variable.
+ * To tune the design, adjust only the two values below.
+ */
+@media (min-width:761px) {
+  :root {
+    --discovery-desktop-feed-top-gap: 104px;
+    --discovery-desktop-strip-height: 80px;
+  }
+  body:has(#content>.grid) #content > .grid {
+    margin-top: var(--discovery-desktop-feed-top-gap) !important;
+  }
+  body:has(#content>.grid) #content > .grid::before {
+    top: calc(-1 * var(--discovery-desktop-feed-top-gap));
+    bottom: auto;
+    height: var(--discovery-desktop-strip-height);
+  }
+}
 /* Desktop spacing controls; independent of the image and mobile cards.
  * Make the first reveal a visible breathing space below the list heading.
  * Wider lanes of backdrop separate the white article cards. */
 @media (min-width:1181px) {
   :root {
-    --discovery-desktop-feed-top-gap: 52px;
     --discovery-desktop-lane-gap: 34px;
     --discovery-desktop-side-gutter: clamp(38px, 2.8vw, 56px);
   }
