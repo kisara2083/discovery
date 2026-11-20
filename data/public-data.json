@@ -1029,6 +1029,129 @@
     },
     {
       "categories": [
+        "local_family"
+      ],
+      "category": "local_family",
+      "city": "名古屋市中区",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/3639/4173/3639-4173-a7ea38e7e2b91e63ce0ae6a8a93761f1-1672x941.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://prcdn.freetls.fastly.net/release_image/3639/4173/3639-4173-a7ea38e7e2b91e63ce0ae6a8a93761f1-1672x941.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "end_at": "2026-12-25",
+      "event_date": "2026-11-28",
+      "id": "a-f56068f3d2fd23520cd99f95",
+      "images": [
+        {
+          "caption": "周遊型イマーシブサスペンス『約束の星を探して』2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://prcdn.freetls.fastly.net/release_image/3639/4173/3639-4173-a7ea38e7e2b91e63ce0ae6a8a93761f1-1672x941.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：周遊型イマーシブサスペンス『約束の星を探して』2026",
+            "source_name": "株式会社パルコ公式プレスリリース",
+            "source_page": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+            "target": "周遊型イマーシブサスペンス『約束の星を探して』2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+          "url": "https://prcdn.freetls.fastly.net/release_image/3639/4173/3639-4173-a7ea38e7e2b91e63ce0ae6a8a93761f1-1672x941.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "price_terms": "1人3,400～4,000円（平日・休日・参加人数により異なる）",
+      "public_detail": "『約束の星を探して』は、実在の商業施設を舞台に、参加者が物語の登場人物となる周遊型イマーシブサスペンス。パルコとSallyが共同制作し、PARCO GAMESとウズプロダクションが企画する。\n\nクリスマスツリーの点灯式に使う星のオーナメントが姿を消したことから物語が始まる。参加者は松坂屋名古屋店、名古屋PARCO、HAERAの3施設を移動し、街や館内にいるキャストと直接会話して手がかりを集める。最後に誰の願いを星に託すかという選択で結末が変わる。\n\n開催は2026年11月28日から12月25日まで。受付はHAERAの3階イベントスペースで、各日初回受付10:10、最終受付17:10。体験時間は約90分。1組1～4名の貸切方式で、1人で参加する場合は2名分以上のチケット購入が必要となる。\n\n料金は1人あたり、平日の4名参加で3,400円、3名で3,600円、2名で3,800円。土日祝はそれぞれ3,600円、3,800円、4,000円。チケットは11月16日19時からESCAPE.IDで販売され、開催日時別の状況や変更は公式サイトで案内される。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+          "value": "2026年11月16日19:00発表"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+          "value": "2026年11月28日～12月25日"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+          "value": "株式会社パルコ・株式会社Sally"
+        },
+        {
+          "key": "program",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+          "value": "3施設を巡り登場人物への聞き込みと選択で進む体験型サスペンス"
+        },
+        {
+          "key": "format",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+          "value": "1組1～4名の貸切・体験時間約90分"
+        },
+        {
+          "key": "address",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+          "value": "松坂屋名古屋店、名古屋PARCO、HAERA。受付はHAERA 3階"
+        },
+        {
+          "key": "admission",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+          "value": "平日3,400～3,800円／人、土日祝3,600～4,000円／人。人数別料金"
+        },
+        {
+          "key": "ticket",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+          "value": "2026年11月16日19時からESCAPE.IDで販売開始"
+        }
+      ],
+      "public_summary": "パルコとSallyは、名古屋・栄の松坂屋名古屋店、名古屋PARCO、HAERAを巡る周遊型イマーシブサスペンス『約束の星を探して』を2026年11月28日～12月25日に開催する。参加者は登場人物に直接話を聞き、選択によって結末が変わる物語を体験する。",
+      "published_date": "2026-11-20",
+      "slug": "a-f56068f3d2fd23520cd99f95",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000004173.000003639.html",
+          "name": "prtimes.jp"
+        },
+        {
+          "url": "https://firststar.uzu-app.com/",
+          "name": "firststar.uzu-app.com"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "栄の3施設で周遊型サスペンス『約束の星を探して』、11月28日から開催",
+      "updated_date": "2026-11-20",
+      "venue": "松坂屋名古屋店・名古屋PARCO・HAERA",
+      "world_card": {
+        "concept": "パルコとSallyは、名古屋・栄の松坂屋名古屋店、名古屋PARCO、HAERAを巡る周遊型イマーシブサスペンス『約束の星を探して』を2026年11月28日～12月25日に開催する。参加者は登場人物に直接話を聞き、選択によって結末が変わる物語を体験する。",
+        "key": "world_card:a-4861891e93afcb49eff163df",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "松坂屋名古屋店・名古屋PARCO・HAERA",
+        "title": "栄の3施設で周遊型サスペンス『約束の星を探して』、11月28日から開催",
+        "variant": "signal"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
