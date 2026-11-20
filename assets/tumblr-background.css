@@ -47,24 +47,18 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     max-width: 100% !important;
   }
 }
-/* Desktop: 'contain' preserves the full composition, but leaves blank
- * side-bars on wide screens. Fill those bars with the SAME photograph in
- * 'cover' beneath it; this does not crop the top contain layer or change cards.
- * Mobile uses the original single-layer backdrop. */
+/* Desktop experiment: exactly ONE image at its original displayed dimensions.
+ * Do not scale or tile it. Outside its bounds, the underlying canvas is white.
+ * All mobile backdrop rules and desktop card geometry remain unchanged. */
 @media (min-width:761px) {
-  :root { --discovery-background-edge-size: cover; }
+  :root { --discovery-background-desktop-size: auto; }
   body:has(#content>.grid) #content > .grid::before {
-    background-image:
-      var(--discovery-background-image),
-      var(--discovery-background-image);
-    background-size:
-      var(--discovery-background-size),
-      var(--discovery-background-edge-size);
-    background-position:
-      var(--discovery-background-position),
-      var(--discovery-background-position);
-    background-repeat: no-repeat, no-repeat;
-    background-attachment: fixed, fixed;
+    background-color: transparent;
+    background-image: var(--discovery-background-image);
+    background-size: var(--discovery-background-desktop-size);
+    background-position: var(--discovery-background-position);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 /* Desktop spacing controls; independent of the image and mobile cards.
