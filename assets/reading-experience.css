@@ -368,6 +368,9 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
   #content .editorial-detail .detail-facts-list>dd{font-size:13px}
 }
 
+/* No featured article: do not reserve the mobile/desktop hero margin. */
+#hero:empty{display:none!important}
+
 /* Mobile editorial polish: search spacing, quiet filters, tactile article press. */
 @media (max-width:760px){
   /* Keep the search visually connected to Today's Pick without a blank band. */
