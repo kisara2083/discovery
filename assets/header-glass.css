@@ -1,0 +1,16 @@
+/* DISCOVERY design stage 2: translucent white header.
+ * Independent of header scroll logic and future background/parallax layers.
+ * Adjust the two variables, or remove this stylesheet to revert.
+ */
+:root {
+  --discovery-header-glass-surface: rgba(255, 255, 255, .88);
+  --discovery-header-glass-blur: 12px;
+}
+header.discovery-scroll-header {
+  background: var(--discovery-header-glass-surface) !important;
+  -webkit-backdrop-filter: blur(var(--discovery-header-glass-blur));
+  backdrop-filter: blur(var(--discovery-header-glass-blur));
+}
+@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+  header.discovery-scroll-header { background: #fff !important; }
+}
