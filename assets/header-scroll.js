@@ -43,7 +43,16 @@
   window.addEventListener('scroll', schedule, { passive: true });
   window.addEventListener('hashchange', () => { anchorY = Math.max(0, window.scrollY); syncScope(); show(); });
   window.addEventListener('pageshow', () => { anchorY = Math.max(0, window.scrollY); syncScope(); show(); });
-  window.addEventListener('resize', () => { anchorY = Math.max(0, window.scrollY); show(); }, { passive: true });
+  // Mobile browser chrome changes viewport height during a normal scroll.
+  // Only a changed layout width (e.g. rotation) should reset the header.
+  let layoutWidth = document.documentElement.clientWidth;
+  window.addEventListener('resize', () => {
+    const width = document.documentElement.clientWidth;
+    if (width === layoutWidth) return;
+    layoutWidth = width;
+    anchorY = Math.max(0, window.scrollY);
+    show();
+  }, { passive: true });
   header.addEventListener('focusin', show);
   syncScope(); schedule();
 })();
