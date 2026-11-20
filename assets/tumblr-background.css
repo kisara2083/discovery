@@ -61,6 +61,15 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     background-attachment: fixed;
   }
 }
+/* Optional desktop-only micro-parallax.
+ * Fixed original-size image remains unchanged. The separate JS owns the
+ * offset; without it, the fallback is 0px (the prior static design). */
+@media (min-width:1181px) and (prefers-reduced-motion: no-preference) {
+  body:has(#content>.grid) #content > .grid::before {
+    background-position:
+      center calc(50% + var(--discovery-parallax-y, 0px));
+  }
+}
 /* Desktop spacing controls; independent of the image and mobile cards.
  * Make the first reveal a visible breathing space below the list heading.
  * Wider lanes of backdrop separate the white article cards. */
