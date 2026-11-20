@@ -384,8 +384,17 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
   }
   #filter-toggle.is-active::after{background:#777}
 }
-/* Remove Android's bright default ink flash, not the keyboard focus outline. */
-.card,.hero,.card a,.hero a{-webkit-tap-highlight-color:transparent}
+/* Android: suppress platform-blue tap flashes everywhere, not just on cards.
+ * Keyboard focus indicators and text copy/selection remain available. */
+*{-webkit-tap-highlight-color:transparent}
+*::selection{background:rgba(105,105,105,.22)}
+@media(hover:none) and (pointer:coarse){
+  a:not(.visual-link):not(.visual-image-link):active,
+  button:active,summary:active{
+    opacity:.72!important;
+    transition:opacity 140ms ease-out!important
+  }
+}
 @media (hover:none) and (pointer:coarse){
   .card .visual-link .card-visual:has(img),
   .hero .visual-link .card-visual:has(img){
