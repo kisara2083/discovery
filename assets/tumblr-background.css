@@ -70,23 +70,55 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
       center calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
-/* Stage 4.2 PC strip: reveal the randomly chosen photo only between
- * the list heading/count and the first article. The remaining feed is white.
- * This uses the original fixed-size image and existing parallax CSS variable.
- * To tune the design, adjust only the two values below.
+/* Stage 4.3: let the same 80px photo strip peek out from behind
+ * the last ~12px of the title's glyphs, without covering the lettering.
+ * The existing random image and PC parallax variable are reused unchanged.
+ * The list itself stays on pure white; mobile keeps its original backdrop.
  */
 @media (min-width:761px) {
   :root {
-    --discovery-desktop-feed-top-gap: 104px;
+    --discovery-desktop-feed-top-gap: 24px;
     --discovery-desktop-strip-height: 80px;
+    --discovery-desktop-title-overlap: 12px;
+    --discovery-desktop-title-bottom-padding: 20px;
+  }
+  body:has(#content>.grid) #content > .section-title {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background: transparent !important;
+  }
+  body:has(#content>.grid) #content > .section-title::after {
+    content: "";
+    display: block !important;
+    position: absolute;
+    top: calc(100% - var(--discovery-desktop-title-bottom-padding) - var(--discovery-desktop-title-overlap));
+    bottom: auto;
+    left: calc(-1 * var(--discovery-background-bleed));
+    right: calc(-1 * var(--discovery-background-bleed));
+    height: var(--discovery-desktop-strip-height);
+    z-index: -1;
+    pointer-events: none;
+    margin: 0;
+    border: 0;
+    background-image: var(--discovery-background-image);
+    background-size: var(--discovery-background-desktop-size);
+    background-position: var(--discovery-background-position);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: var(--discovery-background-opacity);
   }
   body:has(#content>.grid) #content > .grid {
     margin-top: var(--discovery-desktop-feed-top-gap) !important;
   }
+  /* Disable the old grid-anchored band so the rest of the feed is white. */
   body:has(#content>.grid) #content > .grid::before {
-    top: calc(-1 * var(--discovery-desktop-feed-top-gap));
-    bottom: auto;
-    height: var(--discovery-desktop-strip-height);
+    content: none;
+  }
+}
+@media (min-width:1181px) and (prefers-reduced-motion: no-preference) {
+  body:has(#content>.grid) #content > .section-title::after {
+    background-position: center calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
 /* Desktop spacing controls; independent of the image and mobile cards.
