@@ -374,6 +374,205 @@
         "local_family"
       ],
       "category": "local_family",
+      "city": "春日井市",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://www.kasugai-bunka.jp/wp-content/uploads/2026/02/ShinziKatoh2026_A4_o_w1040h1472.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://www.kasugai-bunka.jp/wp-content/uploads/2026/02/ShinziKatoh2026_A4_o_w1040h1472.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://www.youtube.com/watch?v=svuFp2tbNlc",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 8
+      },
+      "end_at": "2026-12-25",
+      "event_date": "2026-11-20",
+      "id": "a-728dbaa5e5402efa6b037720",
+      "images": [
+        {
+          "caption": "Shinzi Katoh展",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.kasugai-bunka.jp/wp-content/uploads/2026/02/ShinziKatoh2026_A4_o_w1040h1472.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：Shinzi Katoh展",
+            "source_name": "かすがい市民文化財団",
+            "source_page": "https://www.kasugai-bunka.jp/archives/49654",
+            "target": "Shinzi Katoh展"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.kasugai-bunka.jp/archives/49654",
+          "url": "https://www.kasugai-bunka.jp/wp-content/uploads/2026/02/ShinziKatoh2026_A4_o_w1040h1472.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=svuFp2tbNlc",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "svuFp2tbNlc",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "title": "Shinzi Katoh展",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "price_terms": "一般1,000円、PiPi会員900円、高校生以下・未就学児・障がい者と介助者1名は無料",
+      "public_detail": "春日井市在住の雑貨デザイナー・絵本作家Shinzi Katohが、55年以上にわたり手がけてきたデザインとアート作品を紹介する展覧会。雑貨や絵本、服などの商業デザインに加え、絵画作品や、ディズニー、ポケモン、ウルトラ怪獣などとのコラボレーション作品を通じて活動の広がりをたどる。\n\n会期中は、ぬりえ、多肉植物の寄せ植え、ギャラリートーク、カスタムリングノート制作、夜間開館、サイン会を実施する。毎週水・木曜日には、乳幼児と鑑賞しやすいベビーウェルカムタイムも設けられる。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://www.shinzikatoh.com/gbcenter/en/files/rss/block2698.xml?device=smart",
+          "value": "2026年8月3日（展覧会特設ページ公開）"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "value": "公益財団法人 かすがい市民文化財団"
+        },
+        {
+          "key": "program",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "value": "商業デザイン、絵画、絵本、服、キャラクターとのコラボレーション作品"
+        },
+        {
+          "key": "admission",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "value": "一般1,000円、PiPi会員900円、高校生以下・未就学児・障がい者と介助者1名は無料"
+        },
+        {
+          "key": "format",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "value": "55年以上の活動をたどる展覧会と関連ワークショップ"
+        },
+        {
+          "key": "address",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "value": "愛知県春日井市鳥居松町5丁目44番地"
+        }
+      ],
+      "public_schedule": [
+        {
+          "channel": "展覧会",
+          "city": "春日井市",
+          "date": "2026-11-20",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "time": "10:00～17:00（最終入場16:30）",
+          "venue": "文化フォーラム春日井・ギャラリー"
+        },
+        {
+          "channel": "ぬりえワークショップ",
+          "city": "春日井市",
+          "date": "2026-11-21",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "time": "14:00～16:00",
+          "venue": "文化フォーラム春日井2階・会議室"
+        },
+        {
+          "channel": "多肉植物の寄せ植えワークショップ",
+          "city": "春日井市",
+          "date": "2026-11-21",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "time": "終日",
+          "venue": "ギャラリー内 物販会場奥"
+        },
+        {
+          "channel": "ギャラリートーク",
+          "city": "春日井市",
+          "date": "2026-11-28",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "time": "14:00～（約30分）",
+          "venue": "文化フォーラム春日井・ギャラリー"
+        },
+        {
+          "channel": "カスタムリングノート制作",
+          "city": "春日井市",
+          "date": "2026-11-28",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "time": "終日",
+          "venue": "ギャラリー内 物販会場奥"
+        },
+        {
+          "channel": "夜間展示",
+          "city": "春日井市",
+          "date": "2026-12-04",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "time": "17:00～19:00（最終入場）",
+          "venue": "文化フォーラム春日井・ギャラリー"
+        },
+        {
+          "channel": "サイン会",
+          "city": "春日井市",
+          "date": "2026-12-12",
+          "source_url": "https://www.kasugai-bunka.jp/archives/49654",
+          "time": "15:00～",
+          "venue": "ギャラリー内 物販会場奥"
+        }
+      ],
+      "public_schedule_complete": false,
+      "public_summary": "雑貨デザイナー・絵本作家Shinzi Katohの55年にわたる活動をたどる展覧会が、文化フォーラム春日井で12月25日まで開催されている。",
+      "published_date": "2026-11-20",
+      "slug": "a-728dbaa5e5402efa6b037720",
+      "sources": [
+        {
+          "url": "https://www.kasugai-bunka.jp/archives/49654",
+          "name": "www.kasugai-bunka.jp"
+        },
+        {
+          "url": "https://www.shinzikatoh.com/pages/602/",
+          "name": "www.shinzikatoh.com"
+        },
+        {
+          "url": "https://www.shinzikatoh.com/gbcenter/en/files/rss/block2698.xml?device=smart",
+          "name": "www.shinzikatoh.com"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "Shinzi Katoh展、文化フォーラム春日井で12月25日まで開催",
+      "updated_date": "2026-11-21",
+      "venue": "文化フォーラム春日井・ギャラリー",
+      "world_card": {
+        "concept": "雑貨デザイナー・絵本作家Shinzi Katohの55年にわたる活動をたどる展覧会が、文化フォーラム春日井で12月25日まで開催されている。",
+        "key": "world_card:a-3778e2ffb22f5875db54d9ae",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "2026-11-20 · 文化フォーラム春日井・ギャラリー",
+        "title": "Shinzi Katoh展、文化フォーラム春日井で12月25日まで開催",
+        "variant": "field"
+      }
+    },
+    {
+      "categories": [
+        "local_family"
+      ],
+      "category": "local_family",
       "city": "名古屋市",
       "deadline_at": "2026-11-27",
       "display_selection": {
