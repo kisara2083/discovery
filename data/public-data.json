@@ -1320,6 +1320,116 @@
     },
     {
       "categories": [
+        "shopping"
+      ],
+      "category": "shopping",
+      "deadline_at": "2026-11-29",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://corp.zozo.com/news/files/images/20261117_blackfriday_main.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://corp.zozo.com/news/files/images/20261117_blackfriday_main.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "event_date": "2026-11-19",
+      "id": "a-b66dd536cf93b2e31658a27f",
+      "images": [
+        {
+          "caption": "ZOZOTOWN BLACK FRIDAY 2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://corp.zozo.com/news/files/images/20261117_blackfriday_main.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象キャンペーンを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "exact_campaign",
+            "role_label": "対象キャンペーン：ZOZOTOWN BLACK FRIDAY 2026",
+            "source_name": "株式会社ZOZO公式ニュース",
+            "source_page": "https://corp.zozo.com/news/20261117-007692/",
+            "target": "ZOZOTOWN BLACK FRIDAY 2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://corp.zozo.com/news/20261117-007692/",
+          "url": "https://corp.zozo.com/news/files/images/20261117_blackfriday_main.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "exact_campaign"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_detail": "ファッション通販サイトZOZOTOWNは、2026年11月19日（木）正午から11月29日（日）23時59分までの11日間、ブラックフライデーセールを開催している。秋冬ファッションを中心とする35万点以上の対象商品が最大95％OFFとなり、特設ページでは割引率の高い商品、日替わりタイムセール、ショップ別クーポンなどを案内する。割引率は商品によって異なり、期間中に価格が変わる場合がある。\n\n期間中の「毎日2BUY20％」は、対象ショップで同じ日に同一ショップの商品を2点以上まとめて注文した場合、対象商品代金の税抜合計の20％分をZOZOポイントとして還元するもの。対象ショップは日々更新され、抽選商品は対象外。ポイントは商品の配達完了後約3週間で進呈され、発行から14日間、購入した対象ショップでのみ利用できる。キャンセルや返品で2点未満になれば対象外となる。\n\nまた、300以上のブランドが福袋を販売する企画も実施。福袋販売はセール終了後の12月6日（日）23時59分まで続く予定。セールやポイント付与の詳細は公式特設ページで確認したい。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://corp.zozo.com/news/20261117-007692/",
+          "value": "2026年11月17日"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://corp.zozo.com/news/20261117-007692/",
+          "value": "2026年11月19日12:00～11月29日23:59"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://corp.zozo.com/news/20261117-007692/",
+          "value": "秋冬アイテム35万点以上、最大95％OFF。値引き率は商品別"
+        },
+        {
+          "key": "eligibility",
+          "source_url": "https://zozo.jp/event/blackfriday/",
+          "value": "毎日2BUY20％：対象の同一ショップで同時に2点以上の注文が条件"
+        },
+        {
+          "key": "distribution",
+          "source_url": "https://zozo.jp/event/blackfriday/",
+          "value": "対象ショップ限定ZOZOポイント付与。利用期限は付与から14日間"
+        },
+        {
+          "key": "program",
+          "source_url": "https://corp.zozo.com/news/20261117-007692/",
+          "value": "300以上のブランドの福袋企画（12月6日までの販売予定）"
+        }
+      ],
+      "public_summary": "ZOZOTOWNは11月19日正午から29日23時59分まで、ブラックフライデーセールを開催中。35万点以上の秋冬アイテムが最大95％OFFとなり、対象ショップで同時に2点以上購入すると購入金額の20％分のZOZOポイントが付く「毎日2BUY20％」なども実施する。",
+      "published_date": "2026-11-20",
+      "slug": "a-b66dd536cf93b2e31658a27f",
+      "sources": [
+        {
+          "url": "https://corp.zozo.com/news/20261117-007692/",
+          "name": "corp.zozo.com"
+        },
+        {
+          "url": "https://zozo.jp/event/blackfriday/",
+          "name": "zozo.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "ZOZOTOWNブラックフライデー、35万点以上が最大95％OFF　11月29日まで",
+      "updated_date": "2026-11-20",
+      "world_card": {
+        "concept": "ZOZOTOWNは11月19日正午から29日23時59分まで、ブラックフライデーセールを開催中。35万点以上の秋冬アイテムが最大95％OFFとなり、対象ショップで同時に2点以上購入すると購入金額の20％分のZOZOポイントが付く「毎日2BUY20％」なども実施する。",
+        "key": "world_card:a-713518344706bc9c1195bc7f",
+        "kicker": "OBJECT / DISCOVERY",
+        "meta": "",
+        "title": "ZOZOTOWNブラックフライデー、35万点以上が最大95％OFF　11月29日まで",
+        "variant": "grid"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
