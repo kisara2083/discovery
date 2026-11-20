@@ -607,6 +607,137 @@
     },
     {
       "categories": [
+        "local_family"
+      ],
+      "category": "local_family",
+      "city": "名古屋市",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/054/485/guruttoaonamibanner.png",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/054/485/guruttoaonamibanner.png",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "end_at": "2026-11-29",
+      "event_date": "2026-11-20",
+      "id": "a-74bd64b8e345333e0a4095fa",
+      "images": [
+        {
+          "caption": "ぐるっとあおなみ！デジタルくじラリー 2026",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/054/485/guruttoaonamibanner.png",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象キャンペーンを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "exact_campaign",
+            "role_label": "対象キャンペーン：ぐるっとあおなみ！デジタルくじラリー 2026",
+            "source_name": "名古屋市公式ウェブサイト",
+            "source_page": "https://www.city.nagoya.jp/kurashi/boshu/1017843/1054485.html",
+            "target": "ぐるっとあおなみ！デジタルくじラリー 2026"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.city.nagoya.jp/kurashi/boshu/1017843/1054485.html",
+          "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/054/485/guruttoaonamibanner.png",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "exact_campaign"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_detail": "「ぐるっとあおなみ！デジタルくじラリー」は、あおなみ線沿線活性化協議会が2026年11月20日（金）から29日（日）に開催する参加費無料の周遊企画。対象は沿線各駅と施設・店舗の計27スポットで、あおなみ線に乗りながら地域の自然・文化・飲食・レジャー施設などを巡る。\n\nスマートフォンでキャンペーンサイトに会員登録した後、各スポットのQRコードを読み取ると10・20・30・50ポイントのいずれかを取得できる。同じQRコードは1度のみ有効で、50ポイントを集めるごとに1回抽選できる。賞品にはあおなみ線ハンドタオル、メイカーズピア商品券500円分、Amazonギフトカード1,500円分、リニア・鉄道館のペア入館引換券などがある。外れた人には先着700人限定のあおなみ線オリジナルピンバッジも用意されている。\n\n賞品引換は金城ふ頭駅から徒歩約5分のメイカーズピア ウェルカムセンターで、期間中の10:00～16:30。参加専用アプリは不要だが会員登録が必要で、スマートフォン1台で複数人の参加はできない。イベント自体は無料でも乗車運賃・駅の改札内に入るためのきっぷ・通信料などは参加者負担となる。対象スポットの営業日・QRコード設置場所は公式デジタルマップで確認できる。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://www.city.nagoya.jp/kurashi/boshu/1017843/1054485.html",
+          "value": "2026年10月27日（名古屋市公式案内の更新日）"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://www.city.nagoya.jp/kurashi/boshu/1017843/1054485.html",
+          "value": "あおなみ線沿線活性化協議会"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://www.city.nagoya.jp/kurashi/boshu/1017843/1054485.html",
+          "value": "2026年11月20日～29日"
+        },
+        {
+          "key": "program",
+          "source_url": "https://aonami-rally-lp.dela-kuji.jp/",
+          "value": "あおなみ線各駅・沿線の対象27スポットを巡るQRコードラリー"
+        },
+        {
+          "key": "eligibility",
+          "source_url": "https://aonami-rally-lp.dela-kuji.jp/",
+          "value": "参加費無料。スマートフォンと会員登録が必要"
+        },
+        {
+          "key": "format",
+          "source_url": "https://aonami-rally-lp.dela-kuji.jp/",
+          "value": "QRコードの読み取りで10・20・30・50ポイント、50ポイントごとにくじ1回"
+        },
+        {
+          "key": "distribution",
+          "source_url": "https://aonami-rally-lp.dela-kuji.jp/",
+          "value": "景品引換はメイカーズピア ウェルカムセンター10:00～16:30"
+        },
+        {
+          "key": "admission",
+          "source_url": "https://aonami-rally-lp.dela-kuji.jp/",
+          "value": "運賃・駅改札内への入場券代・通信料などは別途自己負担"
+        },
+        {
+          "key": "availability",
+          "source_url": "https://aonami-rally-lp.dela-kuji.jp/",
+          "value": "外れた人には先着700人にあおなみ線ピンバッジ（1人1個）"
+        }
+      ],
+      "public_summary": "名古屋市などが主催する「ぐるっとあおなみ！デジタルくじラリー」が11月20日から29日まで開催される。あおなみ線各駅や沿線の対象27スポットのQRコードをスマートフォンで読み取ってポイントを集め、50ポイントごとにギフト券や鉄道グッズなどの当たるデジタルくじに挑戦できる。",
+      "published_date": "2026-11-20",
+      "slug": "a-74bd64b8e345333e0a4095fa",
+      "sources": [
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/boshu/1017843/1054485.html",
+          "name": "www.city.nagoya.jp"
+        },
+        {
+          "url": "https://aonami-rally-lp.dela-kuji.jp/",
+          "name": "aonami-rally-lp.dela-kuji.jp"
+        },
+        {
+          "url": "https://www.aonamiline.co.jp/news/3186",
+          "name": "www.aonamiline.co.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "あおなみ線沿線27スポットを巡る無料デジタルくじラリー、11月20日開始",
+      "updated_date": "2026-11-20",
+      "venue": "あおなみ線各駅と沿線27か所",
+      "world_card": {
+        "concept": "名古屋市などが主催する「ぐるっとあおなみ！デジタルくじラリー」が11月20日から29日まで開催される。あおなみ線各駅や沿線の対象27スポットのQRコードをスマートフォンで読み取ってポイントを集め、50ポイントごとにギフト券や鉄道グッズなどの当たるデジタルくじに挑戦できる。",
+        "key": "world_card:a-91f374383a8996e5c38606a1",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "あおなみ線各駅と沿線27か所",
+        "title": "あおなみ線沿線27スポットを巡る無料デジタルくじラリー、11月20日開始",
+        "variant": "grid"
+      }
+    },
+    {
+      "categories": [
         "music_live"
       ],
       "category": "music_live",
