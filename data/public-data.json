@@ -1155,6 +1155,174 @@
         "music_live"
       ],
       "category": "music_live",
+      "city": "名古屋市中区",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://image.parco.jp/SCCWEB/image/nagoya/store/storage/w1240/newsevent_cname_20261110181054.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://image.parco.jp/SCCWEB/image/nagoya/store/storage/w1240/newsevent_cname_20261110181054.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [
+          {
+            "key": "image:https://prcdn.freetls.fastly.net/release_image/3639/4167/3639-4167-f0cf3e29073e3998bfd79d9267516f7b-2328x1280.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+            "kind": "image"
+          }
+        ],
+        "selector_version": 8
+      },
+      "end_at": "2026-11-24",
+      "event_date": "2026-11-20",
+      "id": "a-9e6b3bcffc4ac6b4bb3730a0",
+      "images": [
+        {
+          "caption": "NAGOYA PARCO 2026 NOV.FES FOR THE RECORD",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://prcdn.freetls.fastly.net/release_image/3639/4167/3639-4167-f0cf3e29073e3998bfd79d9267516f7b-2328x1280.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：NAGOYA PARCO 2026 NOV.FES FOR THE RECORD",
+            "source_name": "株式会社パルコ公式プレスリリース",
+            "source_page": "https://prtimes.jp/main/html/rd/p/000004167.000003639.html",
+            "target": "NAGOYA PARCO 2026 NOV.FES FOR THE RECORD"
+          },
+          "relation": "article_specific",
+          "source_page": "https://prtimes.jp/main/html/rd/p/000004167.000003639.html",
+          "url": "https://prcdn.freetls.fastly.net/release_image/3639/4167/3639-4167-f0cf3e29073e3998bfd79d9267516f7b-2328x1280.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        },
+        {
+          "caption": "FOR THE RECORD OPENING EVENT 2026-11-20",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://image.parco.jp/SCCWEB/image/nagoya/store/storage/w1240/newsevent_cname_20261110181054.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う出演者を識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "lineup_identity",
+            "role_label": "出演者：FOR THE RECORD OPENING EVENT 2026-11-20",
+            "source_name": "名古屋PARCO公式イベントページ",
+            "source_page": "https://nagoya.parco.jp/event/detail/?id=39176",
+            "target": "FOR THE RECORD OPENING EVENT 2026-11-20"
+          },
+          "relation": "article_specific",
+          "source_page": "https://nagoya.parco.jp/event/detail/?id=39176",
+          "url": "https://image.parco.jp/SCCWEB/image/nagoya/store/storage/w1240/newsevent_cname_20261110181054.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "lineup_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_detail": "名古屋PARCOで11月20日（金）から24日（火）までの5日間、「NAGOYA PARCO 2026 NOV.FES『FOR THE RECORD』」が初開催される。テーマは大切な思いを贈り、記憶に残すこと。ショップの限定企画や来場者向け体験イベントを館内各所で展開する。\n\n初日の11月20日17:00～20:00には、西館1階の店頭イベントスペースと東館地下1階・1階でオープニングイベントを実施。HARU、インストバンド「シャッポ」の福原音、hajime（luv/Geloomy）らが参加するDJ企画や、証明写真を立体的なシールに加工する「DROP THE RECORD」ワークショップを予定している。オープニングイベントの入場料は無料で、ワークショップ会場には無料コーヒーも用意する。\n\nまた20日には、PARCOカードまたはポケパル払いで税込8,000円以上購入した先着客に、名古屋の専門店Harissyによるドーナツ2種セットを贈る企画を実施。11月21～24日は別の先着ギフトに切り替わる。数量限定・なくなり次第終了となるため条件と引換場所は公式案内を確認したい。期間中はPARCO MEMBERS DAYSとして、対象のカード・決済によるPARCOポイント付与数が税込110円ごとに通常より3ポイント増える企画も行われる。\n\n開催期間は11月20～24日だが、DJやワークショップを含むオープニングイベントは初日20日のみ。店舗別の個別企画には異なる日程・参加条件もあるため、来店前に公式特設ページで確認する必要がある。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004167.000003639.html",
+          "value": "2026年11月11日"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004167.000003639.html",
+          "value": "2026年11月20日（金）～11月24日（火）の5日間"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://nagoya.parco.jp/event/detail/?id=39176",
+          "value": "株式会社パルコ"
+        },
+        {
+          "key": "program",
+          "source_url": "https://nagoya.parco.jp/event/detail/?id=39176",
+          "value": "初日：DJイベント、証明写真の立体シール加工ワークショップ"
+        },
+        {
+          "key": "performers",
+          "source_url": "https://nagoya.parco.jp/event/detail/?id=39176",
+          "value": "HARU、福原音（シャッポ）、hajime（luv/Geloomy）ほか"
+        },
+        {
+          "key": "admission",
+          "source_url": "https://nagoya.parco.jp/event/detail/?id=39176",
+          "value": "11月20日のOPENING EVENTは入場無料"
+        },
+        {
+          "key": "eligibility",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000004167.000003639.html",
+          "value": "先着ギフトはPARCOカード・ポケパル払いで税込8,000円以上購入などの条件"
+        },
+        {
+          "key": "address",
+          "source_url": "https://nagoya.parco.jp/event/detail/?id=39176",
+          "value": "名古屋PARCO、西館1F・東館B1F・東館1Fなど"
+        }
+      ],
+      "public_schedule": [
+        {
+          "city": "名古屋市",
+          "date": "2026-11-20",
+          "source_url": "https://nagoya.parco.jp/event/detail/?id=39176",
+          "time": "17:00～20:00",
+          "venue": "名古屋PARCO 西館1F・東館B1F・東館1F"
+        }
+      ],
+      "public_summary": "名古屋PARCOは11月20～24日、初開催の「NAGOYA PARCO 2026 NOV.FES『FOR THE RECORD』」を実施する。初日の20日17～20時にはDJやシール加工ワークショップなどのオープニングイベントを開催し、期間中はショップ企画や購入特典も展開する。",
+      "published_date": "2026-11-20",
+      "slug": "a-9e6b3bcffc4ac6b4bb3730a0",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000004167.000003639.html",
+          "name": "prtimes.jp"
+        },
+        {
+          "url": "https://nagoya.parco.jp/feature/detail/?id=120285",
+          "name": "nagoya.parco.jp"
+        },
+        {
+          "url": "https://nagoya.parco.jp/event/detail/?id=39176",
+          "name": "nagoya.parco.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "名古屋PARCO「FOR THE RECORD」、11月20～24日開催　初日はDJ・マーケット",
+      "updated_date": "2026-11-20",
+      "venue": "名古屋PARCO",
+      "world_card": {
+        "concept": "名古屋PARCOは11月20～24日、初開催の「NAGOYA PARCO 2026 NOV.FES『FOR THE RECORD』」を実施する。初日の20日17～20時にはDJやシール加工ワークショップなどのオープニングイベントを開催し、期間中はショップ企画や購入特典も展開する。",
+        "key": "world_card:a-3b93e78d9c1d5f3aa31b9459",
+        "kicker": "MUSIC / LIVE",
+        "meta": "名古屋PARCO",
+        "title": "名古屋PARCO「FOR THE RECORD」、11月20～24日開催　初日はDJ・マーケット",
+        "variant": "field"
+      }
+    },
+    {
+      "categories": [
+        "music_live"
+      ],
+      "category": "music_live",
       "city": "東京",
       "display_selection": {
         "card_primary": {
