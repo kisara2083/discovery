@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "site_name": "DISCOVERY",
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "taxonomy": [
     {
       "id": "shopping",
@@ -40,8 +40,171 @@
       "label": "その他・横断おすすめ"
     }
   ],
-  "todays_pick": "a-f71ab0ee7e1a0f81f77761b6",
+  "todays_pick": "a-f4f4bd5a9a6862ca49009264",
   "articles": [
+    {
+      "categories": [
+        "music_live"
+      ],
+      "category": "music_live",
+      "city": "横浜市",
+      "deadline_at": "2026-11-24T09:00:00Z",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://www.creativeman.co.jp/artist/2027/oliviadean27/common/img/key.jpg",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://www.creativeman.co.jp/artist/2027/oliviadean27/common/img/key.jpg",
+          "kind": "image"
+        },
+        "detail_secondary": [
+          {
+            "key": "media:https://www.youtube.com/watch?v=3sur4BmjQt8",
+            "kind": "media"
+          },
+          {
+            "key": "media:https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+            "kind": "media"
+          }
+        ],
+        "selector_version": 8
+      },
+      "end_at": "2027-02-11",
+      "event_date": "2027-02-11",
+      "id": "a-f4f4bd5a9a6862ca49009264",
+      "images": [
+        {
+          "caption": "OLIVIA DEAN The Art of Loving LIVE 2027",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/common/img/key.jpg",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：OLIVIA DEAN The Art of Loving LIVE 2027",
+            "source_name": "CREATIVEMAN PRODUCTIONS",
+            "source_page": "https://www.creativeman.co.jp/artist/2027/oliviadean27/",
+            "target": "OLIVIA DEAN The Art of Loving LIVE 2027"
+          },
+          "relation": "article_specific",
+          "source_page": "https://www.creativeman.co.jp/artist/2027/oliviadean27/",
+          "url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/common/img/key.jpg",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "media": [
+        {
+          "canonical_url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+          "evidence_url": "https://developer.spotify.com/documentation/embeds",
+          "provider_id": "1qbmS6ep2hbBRaEZFpn7BX",
+          "source_url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+          "title": "Man I Need",
+          "type": "spotify_embed",
+          "visual_provenance": {
+            "article_match": false,
+            "authority_class": "official_entity",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "official_entity",
+            "source_revalidated": true
+          }
+        },
+        {
+          "canonical_url": "https://www.youtube.com/watch?v=3sur4BmjQt8",
+          "evidence_url": "https://developers.google.com/youtube/player_parameters",
+          "provider_id": "3sur4BmjQt8",
+          "source_url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/",
+          "title": "Olivia Dean - So Easy (To Fall In Love)",
+          "type": "youtube_embed",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          }
+        }
+      ],
+      "price_terms": "A指定席14,800円、S指定席19,800円、SS・バルコニー指定席26,800円（税込、各券200円寄付加算）",
+      "public_detail": "英国のシンガー・ソングライター、オリヴィア・ディーンが、2ndアルバム『The Art of Loving』を掲げてKアリーナ横浜に出演する。公式ページでは、ネオ・ソウル、R＆B、ジャズを横断する音楽性と、2024年の日本公演以来となる来日として紹介されている。\n\n公演は2027年2月11日の1日開催で、16時30分開場、18時開演。座席はA指定席からSS指定席・バルコニー指定席まで4区分あり、各チケットにはチャリティー団体PLUS1への200円の寄付が加算される。一般発売は12月19日10時から。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/",
+          "value": "2026年11月18日"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/",
+          "value": "CREATIVEMAN PRODUCTIONS"
+        },
+        {
+          "key": "performers",
+          "source_url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/",
+          "value": "Olivia Dean"
+        },
+        {
+          "key": "admission",
+          "source_url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/",
+          "value": "A指定席14,800円、S指定席19,800円、SS・バルコニー指定席26,800円（税込、各券200円寄付加算）"
+        },
+        {
+          "key": "ticket",
+          "source_url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/",
+          "value": "会員先行 11月21日12:00～11月24日18:00、一般発売 12月19日10:00"
+        }
+      ],
+      "public_schedule": [
+        {
+          "city": "横浜市",
+          "date": "2027-02-11",
+          "source_url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/",
+          "time": "OPEN 16:30 / START 18:00",
+          "venue": "Kアリーナ横浜"
+        }
+      ],
+      "public_schedule_complete": true,
+      "public_summary": "オリヴィア・ディーンの来日公演が2027年2月11日にKアリーナ横浜で開催される。クリエイティブマン会員先行は11月21日12時から24日18時まで。",
+      "published_date": "2026-11-20",
+      "slug": "a-f4f4bd5a9a6862ca49009264",
+      "sources": [
+        {
+          "url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/",
+          "name": "www.creativeman.co.jp"
+        }
+      ],
+      "spotify": [
+        {
+          "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+          "name": "Man I Need"
+        }
+      ],
+      "status": "NEW",
+      "title": "オリヴィア・ディーン、2027年2月11日にKアリーナ横浜で来日公演",
+      "updated_date": "2026-11-21",
+      "venue": "Kアリーナ横浜",
+      "world_card": {
+        "concept": "オリヴィア・ディーンの来日公演が2027年2月11日にKアリーナ横浜で開催される。クリエイティブマン会員先行は11月21日12時から24日18時まで。",
+        "key": "world_card:a-c87b75b793bc8d544bf20c5d",
+        "kicker": "MUSIC / LIVE",
+        "meta": "2027-02-11 · Kアリーナ横浜",
+        "title": "オリヴィア・ディーン、2027年2月11日にKアリーナ横浜で来日公演",
+        "variant": "signal"
+      }
+    },
     {
       "categories": [
         "local_family"
