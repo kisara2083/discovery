@@ -26,7 +26,27 @@ body:has(#content>.grid) #content > .grid::before {
   background-attachment:fixed;
   opacity:var(--discovery-background-opacity);
 }
+/* PC only: do not paint the masonry card's transparent bottom spacer white.
+ * The article itself remains a single consistent-width white rectangle.
+ * Background-clip changes paint only; it cannot affect span measurements. */
 body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { background:#fff!important; }
+@media (min-width:761px) {
+  body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    background-clip: content-box !important;
+  }
+  body:has(#content>.grid) #content > .grid > .card > .body,
+  body:has(#content>.grid) #content > .grid > .card > .card-meta,
+  body:has(#content>.grid) #content > .grid > .card > .card-source,
+  body:has(#content>.grid) #content > .grid > .card > .quote-credit {
+    box-sizing: border-box !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}
 @media(max-width:760px) {
   :root { --discovery-background-bleed:6vw; }
   /* Full-bleed rectangles: metadata, visual and text have identical width. */
