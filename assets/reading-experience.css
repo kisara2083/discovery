@@ -367,3 +367,39 @@ header nav a[aria-current="page"]{border-bottom-color:#555}
   }
   #content .editorial-detail .detail-facts-list>dd{font-size:13px}
 }
+
+/* Mobile editorial polish: search spacing, quiet filters, tactile article press. */
+@media (max-width:760px){
+  /* Keep the search visually connected to Today's Pick without a blank band. */
+  #hero:not(:empty){margin-bottom:18px!important}
+  #hero:not(:empty)>.hero{padding-bottom:12px!important}
+  /* Match muted UI metadata rather than giving FILTER headline emphasis. */
+  #filter-toggle{
+    color:#666!important;
+    font:400 11px/1.2 Arial,"Noto Sans JP",sans-serif!important;
+    letter-spacing:.1em!important
+  }
+  #filter-toggle.is-active::after{background:#777}
+}
+/* Remove Android's bright default ink flash, not the keyboard focus outline. */
+.card,.hero,.card a,.hero a{-webkit-tap-highlight-color:transparent}
+@media (hover:none) and (pointer:coarse){
+  .card .visual-link .card-visual:has(img),
+  .hero .visual-link .card-visual:has(img){
+    transition:transform 140ms ease-out,opacity 140ms ease-out!important;
+    transform-origin:center center
+  }
+  .card:active .visual-link .card-visual:has(img),
+  .hero:active .visual-link .card-visual:has(img){
+    transform:scale(.992)!important;
+    opacity:.94!important
+  }
+  .card:active .body h3>a,.hero:active .body h2>a{
+    color:#666!important;
+    opacity:1!important
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .card .visual-link .card-visual:has(img),
+  .hero .visual-link .card-visual:has(img){transition:none!important;transform:none!important}
+}
