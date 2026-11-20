@@ -47,6 +47,26 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     max-width: 100% !important;
   }
 }
+/* Desktop: 'contain' preserves the full composition, but leaves blank
+ * side-bars on wide screens. Fill those bars with the SAME photograph in
+ * 'cover' beneath it; this does not crop the top contain layer or change cards.
+ * Mobile uses the original single-layer backdrop. */
+@media (min-width:761px) {
+  :root { --discovery-background-edge-size: cover; }
+  body:has(#content>.grid) #content > .grid::before {
+    background-image:
+      var(--discovery-background-image),
+      var(--discovery-background-image);
+    background-size:
+      var(--discovery-background-size),
+      var(--discovery-background-edge-size);
+    background-position:
+      var(--discovery-background-position),
+      var(--discovery-background-position);
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+  }
+}
 @media(max-width:760px) {
   :root { --discovery-background-bleed:6vw; }
   /* Full-bleed rectangles: metadata, visual and text have identical width. */
