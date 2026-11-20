@@ -8,7 +8,7 @@
     directionThreshold: 8,
     nearTop: 64,
     hideAfterHeader: 12,
-    mobileDirectionThreshold: 6,
+    mobileDirectionThreshold: 3,
     mobileNearTop: 24,
     mobileHideFromY: 56
   });

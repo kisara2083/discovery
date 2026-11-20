@@ -11,6 +11,10 @@ header.discovery-scroll-header.is-header-hidden {
   transform: translate3d(0,-102%,0);
   pointer-events: none;
 }
+/* Faster but still eased on phones; desktop keeps 220ms. */
+@media (max-width:760px) {
+  header.discovery-scroll-header { transition-duration: 140ms; }
+}
 @media (prefers-reduced-motion: reduce) {
   header.discovery-scroll-header { transition: none; }
 }
