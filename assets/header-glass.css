@@ -3,7 +3,7 @@
  * Adjust the two variables, or remove this stylesheet to revert.
  */
 :root {
-  --discovery-header-glass-surface: rgba(255, 255, 255, .82);
+  --discovery-header-glass-surface: #fff;
   --discovery-header-glass-blur: 12px;
 }
 header.discovery-scroll-header {

@@ -90,7 +90,7 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
   }
   body:has(#content>.grid) > header,
   body:has(#content>.grid) > header.discovery-scroll-header {
-    background: rgba(255,255,255,.50) !important;
+    background: #fff !important;
   }
   body:has(#content>.grid) #content,
   body:has(#content>.grid) #content > .section-title {
@@ -173,7 +173,7 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
   }
   body:has(#content>.grid) > header,
   body:has(#content>.grid) > header.discovery-scroll-header {
-    background:rgba(255,255,255,.45)!important;
+    background:#fff!important;
   }
   body:has(#content>.grid) #content > .grid::before {
     content:none;
