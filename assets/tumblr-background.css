@@ -230,6 +230,23 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     background:#fff!important;
   }
 }
+/* Mobile: remove accumulated whitespace below the LATEST DISCOVERIES heading.
+ * Preserve the discovery count and first card; compact only their spacing.
+ */
+@media (max-width:760px) {
+  body:has(#content>.grid) #content > .section-title {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  body:has(#content>.grid) #content > .result-count {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+  }
+  body:has(#content>.grid) #content > .grid {
+    margin-top: 0 !important;
+  }
+}
 .discovery-background-credit { display:none; }
 body:has(#content>.grid) .discovery-background-credit {
   display:inline-block;
