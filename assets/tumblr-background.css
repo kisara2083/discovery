@@ -70,17 +70,17 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
       center calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
-/* Stage 4.5: cropped editorial photo block, offset right/below the title.
- * The heading shrinks to its text width so the photo stays visually paired
- * with the lettering on wide displays instead of drifting to the page edge.
+/* Stage 4.6: photo block starts near the A in LATEST and overlaps 80% of the heading.
+ * Keep the title-width anchor and existing rightward extension; stretch the
+ * crop horizontally to align its left edge with the second letter.
  * No article-layout or mobile changes; the existing random photo is reused.
  */
 @media (min-width:761px) {
   :root {
     --discovery-desktop-feed-top-gap: 20px;
-    --discovery-desktop-photo-width: 460px;
+    --discovery-desktop-photo-left: .55em;
     --discovery-desktop-photo-height: 96px;
-    --discovery-desktop-photo-overlap: .42lh;
+    --discovery-desktop-photo-overlap: .8lh;
   }
   body:has(#content>.grid) #content > .section-title {
     position: relative;
@@ -96,9 +96,9 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     position: absolute;
     top: calc(100% - 20px - var(--discovery-desktop-photo-overlap));
     bottom: auto;
-    left: auto;
+    left: var(--discovery-desktop-photo-left);
     right: calc(-1 * min(220px, 14vw));
-    width: min(var(--discovery-desktop-photo-width), 40vw);
+    width: auto;
     height: var(--discovery-desktop-photo-height);
     z-index: -1;
     pointer-events: none;
