@@ -70,54 +70,58 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
       center calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
-/* Stage 4.4: place the 80px photo strip behind the upper ~80% of
- * the title line, aligned flush with the viewport's left edge.
- * The existing random image and PC parallax variable are reused unchanged.
- * The list itself stays on pure white; mobile keeps its original backdrop.
+/* Stage 4.5: cropped editorial photo block, offset right/below the title.
+ * The heading shrinks to its text width so the photo stays visually paired
+ * with the lettering on wide displays instead of drifting to the page edge.
+ * No article-layout or mobile changes; the existing random photo is reused.
  */
 @media (min-width:761px) {
   :root {
     --discovery-desktop-feed-top-gap: 20px;
-    --discovery-desktop-strip-height: 80px;
-    --discovery-desktop-title-overlap: 0.8lh;
+    --discovery-desktop-photo-width: 460px;
+    --discovery-desktop-photo-height: 96px;
+    --discovery-desktop-photo-overlap: .42lh;
   }
   body:has(#content>.grid) #content > .section-title {
     position: relative;
     isolation: isolate;
     z-index: 1;
+    width: fit-content;
+    max-width: 100%;
     background: transparent !important;
   }
   body:has(#content>.grid) #content > .section-title::after {
     content: "";
     display: block !important;
     position: absolute;
-    top: calc(var(--discovery-desktop-title-overlap) - var(--discovery-desktop-strip-height));
+    top: calc(100% - 20px - var(--discovery-desktop-photo-overlap));
     bottom: auto;
-    left: calc(-1 * var(--discovery-background-bleed));
-    right: calc(-1 * var(--discovery-background-bleed));
-    height: var(--discovery-desktop-strip-height);
+    left: auto;
+    right: calc(-1 * min(220px, 14vw));
+    width: min(var(--discovery-desktop-photo-width), 40vw);
+    height: var(--discovery-desktop-photo-height);
     z-index: -1;
     pointer-events: none;
     margin: 0;
     border: 0;
     background-image: var(--discovery-background-image);
-    background-size: var(--discovery-background-desktop-size);
-    background-position: left center;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     opacity: var(--discovery-background-opacity);
   }
   body:has(#content>.grid) #content > .grid {
     margin-top: var(--discovery-desktop-feed-top-gap) !important;
   }
-  /* Disable the old grid-anchored band so the rest of the feed is white. */
+  /* White feed: the title's small photo block is the only desktop backdrop. */
   body:has(#content>.grid) #content > .grid::before {
     content: none;
   }
 }
 @media (min-width:1181px) and (prefers-reduced-motion: no-preference) {
   body:has(#content>.grid) #content > .section-title::after {
-    background-position: left calc(50% + var(--discovery-parallax-y, 0px));
+    background-position: center calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
 /* Desktop spacing controls; independent of the image and mobile cards.
