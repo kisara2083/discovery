@@ -10,7 +10,8 @@
     hideAfterHeader: 12,
     mobileDirectionThreshold: 3,
     mobileNearTop: 24,
-    mobileHideFromY: 56
+    mobileHideFromY: 56,
+    mobileRevealGesture: 14
   });
   const header = document.querySelector('body > header');
   if (!header || !SETTINGS.enabled) return;
@@ -26,6 +27,7 @@
   const mobile = window.matchMedia('(max-width:760px)');
   let touchPoint = null;
   let touchReturnRequested = false;
+  let fingerDownTravel = 0;
   let anchorY = Math.max(0, window.scrollY);
   let queued = false;
   const update = () => {
@@ -42,9 +44,16 @@
     if (isMobile && touchReturnRequested) { show(); anchorY = y; return; }
     const delta = y - anchorY;
     const minDelta = isMobile ? SETTINGS.mobileDirectionThreshold : SETTINGS.directionThreshold;
+    if (isMobile) {
+      // Browser toolbar expansion/collapse can perturb scrollY. Never treat it
+      // as upward finger intent; only a confirmed touch gesture reveals us.
+      if (delta >= minDelta && y > SETTINGS.mobileHideFromY) header.classList.add('is-header-hidden');
+      anchorY = y;
+      return;
+    }
     if (Math.abs(delta) < minDelta) return;
     if (delta < 0) show();
-    else if (y > (isMobile ? SETTINGS.mobileHideFromY : header.offsetHeight + SETTINGS.hideAfterHeader)) header.classList.add('is-header-hidden');
+    else if (y > header.offsetHeight + SETTINGS.hideAfterHeader) header.classList.add('is-header-hidden');
     anchorY = y;
   };
   const schedule = () => {
@@ -60,6 +69,7 @@
     const point = event.touches.length === 1 ? event.touches[0] : null;
     touchPoint = point ? { x: point.clientX, y: point.clientY } : null;
     touchReturnRequested = false;
+    fingerDownTravel = 0;
   }, { passive: true });
   window.addEventListener('touchmove', event => {
     if (!mobile.matches || !touchPoint || event.touches.length !== 1 || !active()) return;
@@ -68,16 +78,18 @@
     const dy = point.clientY - touchPoint.y;
     touchPoint = { x: point.clientX, y: point.clientY };
     if (Math.abs(dy) < 2 || Math.abs(dy) <= Math.abs(dx)) return;
-    touchReturnRequested = dy > 0;
-    if (touchReturnRequested) {
+    fingerDownTravel = dy > 0 ? fingerDownTravel + dy : 0;
+    if (fingerDownTravel >= SETTINGS.mobileRevealGesture) {
+      touchReturnRequested = true;
       show();
       anchorY = Math.max(0, window.scrollY);
     }
   }, { passive: true });
-  window.addEventListener('touchend', () => { touchPoint = null; }, { passive: true });
+  window.addEventListener('touchend', () => { touchPoint = null; fingerDownTravel = 0; }, { passive: true });
   window.addEventListener('touchcancel', () => {
     touchPoint = null;
     touchReturnRequested = false;
+    fingerDownTravel = 0;
   }, { passive: true });
   window.addEventListener('hashchange', () => { touchReturnRequested = false; anchorY = Math.max(0, window.scrollY); syncScope(); show(); });
   window.addEventListener('pageshow', () => { touchReturnRequested = false; anchorY = Math.max(0, window.scrollY); syncScope(); show(); });
