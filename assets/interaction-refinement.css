@@ -12,6 +12,12 @@
   padding-top:0!important
 }
 
+/* Keep search-category chips legible over the page background. */
+#taxonomy a{
+  background:#fff;
+  color:#242820
+}
+
 /* The explicit Read label is redundant because cards themselves are links. */
 .card .body>a:last-child,
 #hero .hero .body>a:last-child{
