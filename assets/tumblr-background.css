@@ -70,8 +70,8 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
       center calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
-/* Stage 4.3: let the same 80px photo strip peek out from behind
- * the last ~70% of the title's glyphs, without covering the lettering.
+/* Stage 4.4: place the 80px photo strip behind the upper ~80% of
+ * the title line, aligned flush with the viewport's left edge.
  * The existing random image and PC parallax variable are reused unchanged.
  * The list itself stays on pure white; mobile keeps its original backdrop.
  */
@@ -79,8 +79,7 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
   :root {
     --discovery-desktop-feed-top-gap: 20px;
     --discovery-desktop-strip-height: 80px;
-    --discovery-desktop-title-overlap: 44px;
-    --discovery-desktop-title-bottom-padding: 20px;
+    --discovery-desktop-title-overlap: 0.8lh;
   }
   body:has(#content>.grid) #content > .section-title {
     position: relative;
@@ -92,7 +91,7 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     content: "";
     display: block !important;
     position: absolute;
-    top: calc(100% - var(--discovery-desktop-title-bottom-padding) - var(--discovery-desktop-title-overlap));
+    top: calc(var(--discovery-desktop-title-overlap) - var(--discovery-desktop-strip-height));
     bottom: auto;
     left: calc(-1 * var(--discovery-background-bleed));
     right: calc(-1 * var(--discovery-background-bleed));
@@ -103,7 +102,7 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     border: 0;
     background-image: var(--discovery-background-image);
     background-size: var(--discovery-background-desktop-size);
-    background-position: right center;
+    background-position: left center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: var(--discovery-background-opacity);
@@ -118,7 +117,7 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
 }
 @media (min-width:1181px) and (prefers-reduced-motion: no-preference) {
   body:has(#content>.grid) #content > .section-title::after {
-    background-position: right calc(50% + var(--discovery-parallax-y, 0px));
+    background-position: left calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
 /* Desktop spacing controls; independent of the image and mobile cards.
