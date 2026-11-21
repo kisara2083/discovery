@@ -713,6 +713,118 @@
         "local_family"
       ],
       "category": "local_family",
+      "city": "名古屋市天白区",
+      "display_selection": {
+        "card_primary": {
+          "key": "image:https://dela-farm.com/wp-content/uploads/2026/10/1793257449380-d0c00a35-8585-4a3b-ad37-c68d1ad67656_1.png",
+          "kind": "image"
+        },
+        "detail_primary": {
+          "key": "image:https://dela-farm.com/wp-content/uploads/2026/10/1793257449380-d0c00a35-8585-4a3b-ad37-c68d1ad67656_1.png",
+          "kind": "image"
+        },
+        "detail_secondary": [],
+        "selector_version": 8
+      },
+      "end_at": "2026-11-23",
+      "event_date": "2026-11-21",
+      "id": "a-8160b68d1496e4241c4abc87",
+      "images": [
+        {
+          "caption": "2026年 農業センターまつり",
+          "framing": "contain",
+          "mode": "external",
+          "original_url": "https://dela-farm.com/wp-content/uploads/2026/10/1793257449380-d0c00a35-8585-4a3b-ad37-c68d1ad67656_1.png",
+          "quote_context": {
+            "context_sentence": "記事で扱う対象イベントを識別するための画像です。",
+            "display_mode": "external",
+            "quote_version": 2,
+            "relation": "event_identity",
+            "role_label": "対象イベント：2026年 農業センターまつり",
+            "source_name": "名古屋市農業センターdelaふぁーむ公式サイト",
+            "source_page": "https://dela-farm.com/archives/3966",
+            "target": "2026年 農業センターまつり"
+          },
+          "relation": "article_specific",
+          "source_page": "https://dela-farm.com/archives/3966",
+          "url": "https://dela-farm.com/wp-content/uploads/2026/10/1793257449380-d0c00a35-8585-4a3b-ad37-c68d1ad67656_1.png",
+          "visual_provenance": {
+            "article_match": true,
+            "authority_class": "official_article",
+            "entity_match": true,
+            "official_source": true,
+            "relation": "article_specific",
+            "source_revalidated": true
+          },
+          "visual_role": "event_identity"
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "public_detail": "名古屋市天白区の名古屋市農業センターdelaふぁーむで、秋の収穫祭「農業センターまつり」が2026年11月21日（土）から23日（月・祝）まで開かれる。開催時間は各日9:00～16:30。入場は無料で、収穫体験や一部のワークショップなどは有料・数量限定となる。\n\n園内ではダイコンの収穫体験を3日間、里芋の収穫体験を23日に実施するほか、21・22日には内容を当日まで明かさない「お楽しみシークレット収穫体験」を予定。23日の牛舎ガイドでは、飼育員と牛舎を回りながら牛の暮らしについて解説を聞ける。\n\nステージでは21日にドラえもんショーを実施。ハスの果托を使うワークショップ、スクイーズストラップ作り、ダンボールクラフト、サツマイモの詰め放題、野菜販売、グルメなども日程別に用意される。各企画の受付時間・定員・料金は公式フライヤーで確認できる。\n\n会場は地下鉄鶴舞線「平針」駅から徒歩約20分、または市バス「農業センター北」停から徒歩約5分。催事期間中の普通車駐車料金は1台1回500円で、入庫から1時間は無料。期間中の休園日はない。",
+      "public_facts": [
+        {
+          "key": "announcement_date",
+          "source_url": "https://dela-farm.com/archives/3966",
+          "value": "2026年11月20日"
+        },
+        {
+          "key": "organizer",
+          "source_url": "https://dela-farm.com/archives/3966",
+          "value": "名古屋市農業センターdelaふぁーむ"
+        },
+        {
+          "key": "offer_period",
+          "source_url": "https://db.nagoya-info.jp/event/detail/79/",
+          "value": "2026年11月21日～23日、各日9:00～16:30"
+        },
+        {
+          "key": "admission",
+          "source_url": "https://db.nagoya-info.jp/event/detail/79/",
+          "value": "入場無料。収穫体験・一部ワークショップなどは有料"
+        },
+        {
+          "key": "program",
+          "source_url": "https://dela-farm.com/archives/3966",
+          "value": "ダイコン・里芋などの収穫体験、牛舎ガイド、ファミリーショー、ワークショップ、野菜販売、グルメ"
+        },
+        {
+          "key": "address",
+          "source_url": "https://dela-farm.com/archives/3966",
+          "value": "名古屋市天白区天白町平針黒石2872番地の3"
+        }
+      ],
+      "public_summary": "名古屋市農業センターdelaふぁーむは、2026年11月21日から23日まで「農業センターまつり」を開催する。開園時間は各日9:00～16:30、入場無料。ダイコン・里芋などの収穫体験、牛舎ガイド、ファミリーショー、ワークショップ、野菜販売やグルメを実施する。",
+      "published_date": "2026-11-21",
+      "slug": "a-8160b68d1496e4241c4abc87",
+      "sources": [
+        {
+          "url": "https://dela-farm.com/archives/3966",
+          "name": "dela-farm.com"
+        },
+        {
+          "url": "https://db.nagoya-info.jp/event/detail/79/",
+          "name": "db.nagoya-info.jp"
+        }
+      ],
+      "spotify": [],
+      "status": "NEW",
+      "title": "名古屋市農業センターまつり、11月21～23日開催　収穫体験や牛舎ガイド",
+      "updated_date": "2026-11-21",
+      "venue": "名古屋市農業センターdelaふぁーむ",
+      "world_card": {
+        "concept": "名古屋市農業センターdelaふぁーむは、2026年11月21日から23日まで「農業センターまつり」を開催する。開園時間は各日9:00～16:30、入場無料。ダイコン・里芋などの収穫体験、牛舎ガイド、ファミリーショー、ワークショップ、野菜販売やグルメを実施する。",
+        "key": "world_card:a-d6f41a60f3603ef3fbae8b87",
+        "kicker": "LOCAL / EXPERIENCE",
+        "meta": "名古屋市農業センターdelaふぁーむ",
+        "title": "名古屋市農業センターまつり、11月21～23日開催　収穫体験や牛舎ガイド",
+        "variant": "orbit"
+      }
+    },
+    {
+      "categories": [
+        "local_family"
+      ],
+      "category": "local_family",
       "city": "名古屋市",
       "deadline_at": "2026-11-27",
       "display_selection": {
