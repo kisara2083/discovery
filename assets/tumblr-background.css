@@ -256,3 +256,23 @@ body:has(#content>.grid) .discovery-background-credit {
   text-decoration:underline;
   text-underline-offset:3px;
 }
+
+/* Limit the fixed photo to the header, search and category-filter area.
+ * Start a full-bleed white reading canvas at LATEST DISCOVERIES; keep the
+ * existing fixed backdrop, filter styling and card layout unchanged. */
+body:has(#content > .grid) #content {
+  display: flow-root;
+  position: relative;
+  isolation: isolate;
+  background: #fff !important;
+}
+body:has(#content > .grid) #content::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  z-index: -1;
+  background: #fff;
+  pointer-events: none;
+}
