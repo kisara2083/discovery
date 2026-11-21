@@ -1,16 +1,15 @@
-/* Interaction and hierarchy cleanup.
- * Keep the atmospheric light rule distinct from actual control boundaries. */
+/* Search controls: no separator line or reserved strip below the fields. */
 .controls{
-  border-bottom:1px solid var(--discovery-rule)!important;
-  padding-bottom:14px!important;
-  margin-bottom:14px!important
+  border-bottom:0!important;
+  padding-bottom:0!important;
+  margin-bottom:4px!important
 }
 .controls #query,
 #filter-toggle{
   border-bottom:0!important
 }
 #taxonomy{
-  padding-top:12px!important
+  padding-top:0!important
 }
 
 /* The explicit Read label is redundant because cards themselves are links. */
@@ -38,10 +37,3 @@
   z-index:4!important
 }
 
-@media(max-width:760px){
-  .controls{
-    padding-bottom:15px!important;
-    margin-bottom:16px!important
-  }
-  #taxonomy{padding-top:10px!important}
-}

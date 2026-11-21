@@ -23,17 +23,23 @@
     if (!on) show();
     return on;
   };
+  const mobile = window.matchMedia('(max-width:760px)');
+  let touchPoint = null;
+  let touchReturnRequested = false;
   let anchorY = Math.max(0, window.scrollY);
   let queued = false;
   const update = () => {
     queued = false;
     if (!syncScope()) { anchorY = Math.max(0, window.scrollY); return; }
     const y = Math.max(0, window.scrollY);
-    const isMobile = window.matchMedia('(max-width:760px)').matches;
+    const isMobile = mobile.matches;
     const topLimit = isMobile ? SETTINGS.mobileNearTop : SETTINGS.nearTop;
     if (y <= topLimit || header.querySelector(':focus-visible')) {
       show(); anchorY = y; return;
     }
+    // A deliberate upward swipe can begin before kinetic scrolling reverses.
+    // Keep the header visible until the next deliberate downward swipe.
+    if (isMobile && touchReturnRequested) { show(); anchorY = y; return; }
     const delta = y - anchorY;
     const minDelta = isMobile ? SETTINGS.mobileDirectionThreshold : SETTINGS.directionThreshold;
     if (Math.abs(delta) < minDelta) return;
@@ -47,8 +53,34 @@
     window.requestAnimationFrame(update);
   };
   window.addEventListener('scroll', schedule, { passive: true });
-  window.addEventListener('hashchange', () => { anchorY = Math.max(0, window.scrollY); syncScope(); show(); });
-  window.addEventListener('pageshow', () => { anchorY = Math.max(0, window.scrollY); syncScope(); show(); });
+  // On touchscreens, respond to finger direction immediately rather than
+  // waiting for momentum scrolling to reverse the window's scroll direction.
+  window.addEventListener('touchstart', event => {
+    if (!mobile.matches) return;
+    const point = event.touches.length === 1 ? event.touches[0] : null;
+    touchPoint = point ? { x: point.clientX, y: point.clientY } : null;
+    touchReturnRequested = false;
+  }, { passive: true });
+  window.addEventListener('touchmove', event => {
+    if (!mobile.matches || !touchPoint || event.touches.length !== 1 || !active()) return;
+    const point = event.touches[0];
+    const dx = point.clientX - touchPoint.x;
+    const dy = point.clientY - touchPoint.y;
+    touchPoint = { x: point.clientX, y: point.clientY };
+    if (Math.abs(dy) < 2 || Math.abs(dy) <= Math.abs(dx)) return;
+    touchReturnRequested = dy > 0;
+    if (touchReturnRequested) {
+      show();
+      anchorY = Math.max(0, window.scrollY);
+    }
+  }, { passive: true });
+  window.addEventListener('touchend', () => { touchPoint = null; }, { passive: true });
+  window.addEventListener('touchcancel', () => {
+    touchPoint = null;
+    touchReturnRequested = false;
+  }, { passive: true });
+  window.addEventListener('hashchange', () => { touchReturnRequested = false; anchorY = Math.max(0, window.scrollY); syncScope(); show(); });
+  window.addEventListener('pageshow', () => { touchReturnRequested = false; anchorY = Math.max(0, window.scrollY); syncScope(); show(); });
   // Mobile browser chrome changes viewport height during a normal scroll.
   // Only a changed layout width (e.g. rotation) should reset the header.
   let layoutWidth = document.documentElement.clientWidth;
