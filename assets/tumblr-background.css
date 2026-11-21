@@ -70,50 +70,59 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
       center calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
-/* Stage 4.7: fixed photographic field ABOVE the listing title.
- * The image is fixed to the viewport, not attached to a scrolling heading.
- * A full-bleed white sheet starts at the title and covers the entire feed.
- * Reuse the existing random photo; leave phone layout and image unchanged.
+/* Stage 4.8: one viewport-fixed photo behind the header and listing title.
+ * The opaque white editorial plane starts at the article grid, not the title.
+ * The photo choice is still provided by the unchanged random-image script.
  */
 @media (min-width:761px) {
+  :root { --discovery-desktop-feed-top-gap: 20px; }
+
   body:has(#content>.grid) {
     background-color: #fff !important;
     background-image:
-      linear-gradient(rgba(255,255,255,.65),rgba(255,255,255,.65)),
+      linear-gradient(rgba(255,255,255,.60),rgba(255,255,255,.60)),
       var(--discovery-background-image) !important;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  body:has(#content>.grid) > header,
   body:has(#content>.grid) > main {
     background: transparent !important;
   }
-  /* Keep the existing frosted navigation readable while photo shows through. */
+  /* The existing sticky/glass header stays on top, with photo visible behind. */
+  body:has(#content>.grid) > header,
   body:has(#content>.grid) > header.discovery-scroll-header {
-    background: var(--discovery-header-glass-surface, rgba(255,255,255,.82)) !important;
+    background: rgba(255,255,255,.50) !important;
   }
   body:has(#content>.grid) #content {
     position: relative;
-    isolation: isolate;
-    background: #fff !important;
+    background: transparent !important;
   }
-  body:has(#content>.grid) #content::before {
+  body:has(#content>.grid) #content > .section-title {
+    background: transparent !important;
+  }
+  /* Covers all card lanes and gaps; does not move the fixed image. */
+  body:has(#content>.grid) #content > .grid {
+    margin-top: var(--discovery-desktop-feed-top-gap) !important;
+    position: relative;
+    isolation: isolate;
+  }
+  body:has(#content>.grid) #content > .grid::before {
     content: "";
     position: absolute;
-    top: 0;
+    top: -6px;
     bottom: -160px;
     left: 50%;
+    right: auto;
     width: 100vw;
+    height: auto;
     transform: translateX(-50%);
     z-index: -1;
-    background: #fff;
     pointer-events: none;
-  }
-  /* Remove the scrolling title patch and the old grid photo. */
-  body:has(#content>.grid) #content > .grid::before {
-    content: none;
+    border: 0;
+    background: #fff;
+    opacity: 1;
   }
 }
 /* Desktop spacing controls; independent of the image and mobile cards.
@@ -131,9 +140,6 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
   body:has(#content>.grid) #content > .grid {
     margin-top: var(--discovery-desktop-feed-top-gap) !important;
     column-gap: var(--discovery-desktop-lane-gap) !important;
-  }
-  body:has(#content>.grid) #content > .grid::before {
-    top: calc(-1 * var(--discovery-desktop-feed-top-gap));
   }
 }
 /* Mobile: non-scrolling absolute clip with a viewport-sticky image.
