@@ -136,33 +136,47 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     column-gap: var(--discovery-desktop-lane-gap) !important;
   }
 }
-/* Mobile: non-scrolling absolute clip with a viewport-sticky image.
- * Avoid mobile background-attachment:fixed, which can cause jitter during
- * momentum scrolling. This decor is outside the masonry item flow. */
+/* Mobile: one viewport-fixed photo behind the header, title and card gaps.
+ * 100svh keeps the cover crop stable as the browser toolbar appears/disappears.
+ * Cards remain full-bleed white; no scroll or sticky image layer is needed.
+ */
 .discovery-mobile-backdrop { display:none; }
 @media(max-width:760px) {
-  body:has(#content>.grid) #content > .grid::before {
-    content:none;
+  body:has(#content>.grid) {
+    position:relative;
+    isolation:isolate;
+    background:#fff!important;
   }
-  body:has(#content>.grid) #content > .grid > .discovery-mobile-backdrop {
-    display:block;
-    position:absolute;
-    inset:0 -6vw;
-    overflow:clip;
+  body:has(#content>.grid)::before {
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:100vh;
+    height:100svh;
     z-index:-1;
     pointer-events:none;
-  }
-  body:has(#content>.grid) #content > .grid > .discovery-mobile-backdrop > .discovery-mobile-backdrop-image {
-    position:sticky;
-    top:0;
-    height:100vh;
-    background-color:#f7f7f7;
-    background-image:var(--discovery-background-image);
-    background-size:var(--discovery-background-size);
-    background-position:var(--discovery-background-position);
+    background-color:#fff;
+    background-image:
+      linear-gradient(rgba(255,255,255,.65),rgba(255,255,255,.65)),
+      var(--discovery-background-image);
+    background-size:cover;
+    background-position:center top;
     background-repeat:no-repeat;
-    opacity:var(--discovery-background-opacity);
-    will-change:transform;
+  }
+  body:has(#content>.grid) > main,
+  body:has(#content>.grid) #content,
+  body:has(#content>.grid) #content > .section-title,
+  body:has(#content>.grid) #content > .grid {
+    background:transparent!important;
+  }
+  body:has(#content>.grid) > header,
+  body:has(#content>.grid) > header.discovery-scroll-header {
+    background:rgba(255,255,255,.45)!important;
+  }
+  body:has(#content>.grid) #content > .grid::before {
+    content:none;
   }
 }
 @media(max-width:760px) {
