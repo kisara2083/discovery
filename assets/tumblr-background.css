@@ -70,58 +70,50 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
       center calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
-/* Stage 4.6: photo block starts near the A in LATEST and overlaps 80% of the heading.
- * Keep the title-width anchor and existing rightward extension; stretch the
- * crop horizontally to align its left edge with the second letter.
- * No article-layout or mobile changes; the existing random photo is reused.
+/* Stage 4.7: fixed photographic field ABOVE the listing title.
+ * The image is fixed to the viewport, not attached to a scrolling heading.
+ * A full-bleed white sheet starts at the title and covers the entire feed.
+ * Reuse the existing random photo; leave phone layout and image unchanged.
  */
 @media (min-width:761px) {
-  :root {
-    --discovery-desktop-feed-top-gap: 20px;
-    --discovery-desktop-photo-left: .55em;
-    --discovery-desktop-photo-height: 96px;
-    --discovery-desktop-photo-overlap: .8lh;
-  }
-  body:has(#content>.grid) #content > .section-title {
-    position: relative;
-    isolation: isolate;
-    z-index: 1;
-    width: fit-content;
-    max-width: 100%;
-    background: transparent !important;
-  }
-  body:has(#content>.grid) #content > .section-title::after {
-    content: "";
-    display: block !important;
-    position: absolute;
-    top: calc(100% - 20px - var(--discovery-desktop-photo-overlap));
-    bottom: auto;
-    left: var(--discovery-desktop-photo-left);
-    right: calc(-1 * min(220px, 14vw));
-    width: auto;
-    height: var(--discovery-desktop-photo-height);
-    z-index: -1;
-    pointer-events: none;
-    margin: 0;
-    border: 0;
-    background-image: var(--discovery-background-image);
+  body:has(#content>.grid) {
+    background-color: #fff !important;
+    background-image:
+      linear-gradient(rgba(255,255,255,.65),rgba(255,255,255,.65)),
+      var(--discovery-background-image) !important;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    opacity: var(--discovery-background-opacity);
+    background-attachment: fixed;
   }
-  body:has(#content>.grid) #content > .grid {
-    margin-top: var(--discovery-desktop-feed-top-gap) !important;
+  body:has(#content>.grid) > header,
+  body:has(#content>.grid) > main {
+    background: transparent !important;
   }
-  /* White feed: the title's small photo block is the only desktop backdrop. */
+  /* Keep the existing frosted navigation readable while photo shows through. */
+  body:has(#content>.grid) > header.discovery-scroll-header {
+    background: var(--discovery-header-glass-surface, rgba(255,255,255,.82)) !important;
+  }
+  body:has(#content>.grid) #content {
+    position: relative;
+    isolation: isolate;
+    background: #fff !important;
+  }
+  body:has(#content>.grid) #content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -160px;
+    left: 50%;
+    width: 100vw;
+    transform: translateX(-50%);
+    z-index: -1;
+    background: #fff;
+    pointer-events: none;
+  }
+  /* Remove the scrolling title patch and the old grid photo. */
   body:has(#content>.grid) #content > .grid::before {
     content: none;
-  }
-}
-@media (min-width:1181px) and (prefers-reduced-motion: no-preference) {
-  body:has(#content>.grid) #content > .section-title::after {
-    background-position: center calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
 /* Desktop spacing controls; independent of the image and mobile cards.
