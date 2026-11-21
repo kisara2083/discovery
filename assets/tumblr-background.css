@@ -61,48 +61,42 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     background-attachment: fixed;
   }
 }
-/* Optional desktop-only micro-parallax.
- * Fixed original-size image remains unchanged. The separate JS owns the
- * offset; without it, the fallback is 0px (the prior static design). */
-@media (min-width:1181px) and (prefers-reduced-motion: no-preference) {
-  body:has(#content>.grid) #content > .grid::before {
-    background-position:
-      center calc(50% + var(--discovery-parallax-y, 0px));
-  }
-}
-/* Stage 4.8: one viewport-fixed photo behind the header and listing title.
- * The opaque white editorial plane starts at the article grid, not the title.
- * The photo choice is still provided by the unchanged random-image script.
+/* Stage 4.9: truly fixed desktop photo behind header and title.
+ * Keep a viewport-fixed layer separate from scroll-driven article content.
  */
 @media (min-width:761px) {
   :root { --discovery-desktop-feed-top-gap: 20px; }
-
   body:has(#content>.grid) {
-    background-color: #fff !important;
+    position: relative;
+    isolation: isolate;
+    background: #fff !important;
+  }
+  body:has(#content>.grid)::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-color: #fff;
     background-image:
       linear-gradient(rgba(255,255,255,.60),rgba(255,255,255,.60)),
-      var(--discovery-background-image) !important;
+      var(--discovery-background-image);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
   }
   body:has(#content>.grid) > main {
     background: transparent !important;
   }
-  /* The existing sticky/glass header stays on top, with photo visible behind. */
   body:has(#content>.grid) > header,
   body:has(#content>.grid) > header.discovery-scroll-header {
     background: rgba(255,255,255,.50) !important;
   }
-  body:has(#content>.grid) #content {
+  body:has(#content>.grid) #content,
+  body:has(#content>.grid) #content > .section-title {
     position: relative;
     background: transparent !important;
   }
-  body:has(#content>.grid) #content > .section-title {
-    background: transparent !important;
-  }
-  /* Covers all card lanes and gaps; does not move the fixed image. */
   body:has(#content>.grid) #content > .grid {
     margin-top: var(--discovery-desktop-feed-top-gap) !important;
     position: relative;
