@@ -71,15 +71,15 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
   }
 }
 /* Stage 4.3: let the same 80px photo strip peek out from behind
- * the last ~12px of the title's glyphs, without covering the lettering.
+ * the last ~70% of the title's glyphs, without covering the lettering.
  * The existing random image and PC parallax variable are reused unchanged.
  * The list itself stays on pure white; mobile keeps its original backdrop.
  */
 @media (min-width:761px) {
   :root {
-    --discovery-desktop-feed-top-gap: 24px;
+    --discovery-desktop-feed-top-gap: 20px;
     --discovery-desktop-strip-height: 80px;
-    --discovery-desktop-title-overlap: 12px;
+    --discovery-desktop-title-overlap: 44px;
     --discovery-desktop-title-bottom-padding: 20px;
   }
   body:has(#content>.grid) #content > .section-title {
@@ -103,7 +103,7 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
     border: 0;
     background-image: var(--discovery-background-image);
     background-size: var(--discovery-background-desktop-size);
-    background-position: var(--discovery-background-position);
+    background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: var(--discovery-background-opacity);
@@ -118,7 +118,7 @@ body:has(#content>.grid) #content > .grid > .card:not(:has(.world-card)) { backg
 }
 @media (min-width:1181px) and (prefers-reduced-motion: no-preference) {
   body:has(#content>.grid) #content > .section-title::after {
-    background-position: center calc(50% + var(--discovery-parallax-y, 0px));
+    background-position: right calc(50% + var(--discovery-parallax-y, 0px));
   }
 }
 /* Desktop spacing controls; independent of the image and mobile cards.
